@@ -1,0 +1,15 @@
+---
+layout: project
+project: open_eyewear
+---
+
+{% assign projects = site.data.projects | where: 'id', page.project %}
+{% assign project = projects.first %}
+
+<div class="kw-project-images">
+  {% for image in project.images %}
+    <div class="kw-project-image">
+      <img class="img-responsive" src="{{image | prepend: site.baseurl}}">
+    </div>
+  {% endfor %}
+</div>

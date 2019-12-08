@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+{% comment %}
+<!-- Post Header -->
+<!-- <header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+      <h1>TEST</h1>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>{{ page.title }}</h1>
+                {% if page.subtitle %}
+                <h2 class="subheading">{{ page.subtitle }}</h2>
+                {% endif %}
+                <p class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</p>
+                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+<hr> -->
+{% endcomment %}
+
+<div class="kw-section-title kw-huge"><span>News</span></div>
+<article>
+  <a class="btn back-link" href="/news"><< to all news</a>
+  <div id="post" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-title">{{ page.title }}</div>
+		    <div class="post-content">
+          {{ content }}
+          <div class="post-date">
+            Published on {{ page.date | date: "%B %-d, %Y" }}<br>by {{ page.author }}
+          </div>
+        </div>
+        <div class="post-links">
+          {% if page.previous.url %}
+          <!-- <li class="previous"> -->
+            <a class="previous btn" style="float: left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr;</a>
+          <!-- </li> -->
+          {% endif %}
+          {% if page.next.url %}
+          <!-- <li> -->
+            <a class="next btn" style="float: right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&rarr;</a>
+          <!-- </li> -->
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

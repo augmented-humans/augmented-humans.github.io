@@ -1,0 +1,80 @@
+---
+layout: default
+---
+{% assign projects = site.data.projects | where: 'id', page.project %}
+{% assign project = projects.first %}
+
+<div class="kw-section-title kw-huge"><span>Research Projects</span></div>
+
+<article>
+  <a class="btn back-link" href="/projects"><< to all projects</a>
+  <div class="container kw-single-project">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+          <!-- <div class="kw-single-project"> -->
+            <div class="kw-project-title"><h1>{{ project.title }}</h1></div>
+            <div class="kw-project-date">
+              <span>{{ project.date }}</span>
+              {% comment %}
+              {% if project.externally_funded == 'yes' %}
+                <span>// Externally funded project:
+                  <a href="{{ project.external_url }}">
+                    Source
+                  </a>
+                </span>
+              {% endif %}
+              {% endcomment %}
+            </div>
+            <!-- <div class="kw-project-sub"> -->
+              
+            <!-- </div> -->
+            <img src="{{ site.baseurl }}/{{ project.main_image.url }}" class="kw-project-main-image img-responsive" alt="{{project.main_image.description}}; photo by {{project.main_image.credit}}">
+            <div class="kw-project-description">
+              {{ project.description | newline_to_br }}
+            </div>
+          
+            <div class="kw-project-images">
+              {% for image in project.images %}
+                <div class="kw-project-image">
+                  <img class="img-responsive" src="{{image.url | prepend: site.baseurl}}" alt="{{image.description}}; photo by {{image.credit}}">
+                </div>
+              {% endfor %}
+            </div>
+
+            {% comment %}
+            <div class="kw-project-videos">
+              {% for video in project.videos %}
+                <div class="kw-project-video">
+                  <p>{{ video }}</p>
+                </div>
+              {% endfor %}
+            </div>
+            {% endcomment %}
+          <!-- </div> -->
+        </div>
+      </div>  
+  </div>
+</article>
+
+{% comment %}
+<!-- project Header -->
+<!-- <header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+      <h1>TEST</h1>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>{{ page.title }}</h1>
+                {% if page.subtitle %}
+                <h2 class="subheading">{{ page.subtitle }}</h2>
+                {% endif %}
+                <p class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</p>
+                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+<hr> -->
+<!-- Post Content -->
+{% endcomment %}

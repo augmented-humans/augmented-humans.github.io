@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav-index.html %}
+  {% include header.html %}
+  {% include description.html %}
+
+  {% comment %}
+  <section class="kw-section" id="kw-featured">
+    <div class="container">
+        <div class="kw-section-title kw-huge kw-huge-alt"><span>Featured Research</span></div>
+          {% assign featured_projects = site.data.projects | where: 'featured', 'yes' %}
+          {% assign rows = featured_projects.size | divided_by: 2.0 | ceil %}
+          {% for i in (1..rows) %}
+            {% assign offset = forloop.index0 | times: 1 %}
+            <div class="row">
+            {% for project in featured_projects limit: 2 offset:offset %}
+              <div class="col-md-6">
+                <div class=featured-item>
+                  <div class="featured-image">
+                    <a href="/projects/{{project.id}}">
+                      <img src="{{ project.main_image.url | prepend: site.baseurl }}" class="img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
+                    </a>
+                  </div>
+                  <div>
+                    <h3 class="featured-title">
+                      <a href="/projects/{{project.id}}">
+                        {{ project.title }}
+                      </a>
+                      </h3>
+                    <div class=featured-description>{{ project.featured_description }}</div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+          {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endcomment %}
+
+  {% comment %}
+  <section class="kw-section" id="kw-updates">
+    <div class="container">
+      <div class="row">
+        <div class="kw-section-title"><h3>Recent updates</h3></div>
+        {% assign site_posts = site.posts %}
+        {% for post in site_posts limit:2 %}
+          <div class="col-md-6">
+            <div class="kw-update-front">
+              <div class="kw-update-text">
+                <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
+                <h4 class="post-title">
+                  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+                </h4>
+                {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+                <a href="{{ post.url }}">Read More</a>
+              </div>
+            </div>
+            <!-- <img src="/{{ update_one.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ update_one.title }}"> -->
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% endcomment %}
+
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+
+</html>

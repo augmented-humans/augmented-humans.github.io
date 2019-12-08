@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Script that creates static structure for the new project:
+# - directory for the images
+# - sample project data in the data file
+# - html page 
+
+if [ $# -eq 0 ]; then
+    echo -e "Please enter a short unique name (id) for the new project"
+    echo -e "(Note: this name is used in the project's URL)\n"
+    printf "Project's short name ( a-z, A-Z, 0-9, _ ): "
+    read project_name
+else
+    project_name=$1
+fi
+
+echo -e "Creating images folder for the project: ./img/projects/$project_name/"
+    mkdir ./img/projects/$project_name
+
+echo -e "Creating the page for the project: ./projects/$project_name.html"
+    echo -e "---\nlayout: project\nproject: $project_name\n---" >> ./projects/$project_name.html
+
+echo -e "Creating a new project record in _data/projects.yaml"
+    echo -e "\n\r" >> ./_data/projects.yaml
+    echo -e "- id: $project_name" >> ./_data/projects.yaml
+    echo -e "  title: New Project" >> ./_data/projects.yaml
+    echo -e "  description: |\n    New project's description goes here" >> ./_data/projects.yaml
+    echo -e "  featured: 'no'" >> ./_data/projects.yaml
+    echo -e "  featured_description: " >> ./_data/projects.yaml
+    echo -e "  externally_funded: 'no'" >> ./_data/projects.yaml
+    echo -e "  external_url: '#'" >> ./_data/projects.yaml
+    echo -e "  main_image:\n\t\turl: img/projects/$project_name/main.jpg\n\t\tdescription:\n\t\tcredit:" >> ./_data/projects.yaml
+    echo -e "  images:" >> ./_data/projects.yaml
+    echo -e "  videos:" >> ./_data/projects.yaml
+
+echo -e "Done. Now edit the new record in _data/projects.yaml, add project's pictures to img/projects/$project_name and you're ready to go."
