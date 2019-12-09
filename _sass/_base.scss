@@ -1338,15 +1338,15 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 550px) {
   .particles-js-canvas-el {
     margin-top: -200px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .particles-js-canvas-el {
-    margin-top: -100px;
+    margin-top: -125px;
   }
 }
 
