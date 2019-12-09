@@ -9,9 +9,6 @@ meta_author: Augmented Humans
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 
-#Google Analytics
-google_analytics: 
-
 # Build settings
 plugins: [jekyll-paginate, jekyll-feed]
 

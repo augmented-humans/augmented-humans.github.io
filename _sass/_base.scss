@@ -1338,8 +1338,16 @@ footer {
   }
 }
 
-.particles-js-canvas-el {
-  margin-top: -200px;
+@media (min-width: 768px) {
+  .particles-js-canvas-el {
+    margin-top: -200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .particles-js-canvas-el {
+    margin-top: -100px;
+  }
 }
 
 #particles-js.particles-override {
