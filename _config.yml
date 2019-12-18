@@ -10,7 +10,7 @@ meta_author: Augmented Humans
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 
 # Build settings
-plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]
 
 markdown: kramdown
 highlighter: rouge
