@@ -29,7 +29,7 @@ poster-demo-chairs: |
 program-comittee-title: Program Committee
 program-comittee: |
   Johannes Schoening, University of Bremen, Germany
-  Athanasios Vourvopoulos, Institute for Systems and Robotics, Universidade de Lisboa
+  Athanasios Vourvopoulos, Institute for Systems and Robotics, Universidade de Lisboa, Portugal
   Christian Holz, ETH Zürich, Switzerland
   Ian Oakley, Ulsan National Institute of Science and Technology, Korea
   Raphael Wimmer, University of Regensburg, Germany
@@ -42,26 +42,26 @@ program-comittee: |
   Gionata Salvietti, University of Siena, Italy
   Jong-Il Park, Hanyang University, Korea
   Geehyuk Lee, KAIST, Korea
-  Yvonne Rogers, University College London
-  Yuichi Kurita, Hiroshima University
-  Pedro Lopes, University of Chicago
-  Mariam Hassib, Bundeswehr University Munich
-  Denys Matthies, Augmented Human Lab, Auckland Bioengineering Institute
-  Roshan Peiris, Rochester Institute of Technology
-  Yamen Saraiji, Keio University
-  Kristof Van Laerhoven, University of Siegen
+  Yvonne Rogers, University College London, UK
+  Yuichi Kurita, Hiroshima University, Japan
+  Pedro Lopes, University of Chicago, USA
+  Mariam Hassib, Bundeswehr University Munich, Germany
+  Denys J.C. Matthies, The University of Auckland / Technical University of Applied Sciences Lübeck
+  Roshan Peiris, Rochester Institute of Technology, USA
+  Yamen Saraiji, Keio University, Japan
+  Kristof Van Laerhoven, University of Siegen, Germany
   Tsutomu Terada, University of Kobe, Japan
-  Tonja Machulla, LMU Munich
-  Jasmin Niess, University of Luxembourg
-  Stefan Schneegaß, University of Duisburg-Essen
-  Pawel Wozniak, Utrecht University
-  Kris Luyten, Hasselt University
-  Jürgen Steimle, Saarland University
+  Tonja Machulla, LMU Munich, Germany
+  Jasmin Niess, University of Luxembourg, Luxembourg
+  Stefan Schneegaß, University of Duisburg-Essen, Germany
+  Pawel Wozniak, Utrecht University, Netherlands
+  Kris Luyten, Hasselt University, Belgium
+  Jürgen Steimle, Saarland University, Germany
   Jochen Huber, Synaptics
-  Martin Weigel, Honda Research Institute Europe
+  Martin Weigel, Honda Research Institute Europe, Germany
   Jean-Marie Normand, Ecole Centrale de Nantes, France
-  Jan Gugenheimer, University of Ulm
-  Kouta Minamizawa, Keio University
+  Jan Gugenheimer, University of Ulm, Germany
+  Kouta Minamizawa, Keio University, Japan
 
 steering-title: Steering committee
 steering: |
@@ -72,6 +72,7 @@ steering: |
   Ellen Yi-Luen Do, University of Colorado Boulder, USA.
   Paul Lukowicz, DFKI Kaiserslautern, Germany.
   Suranga Nanayakkara, University of Auckland, New Zealand.
+  Tsutomu Terada, University of Kobe, Japan.
   Jun Rekimoto, The University of Tokyo, Japan.
   Katrin Wolf, Hamburg University for Applied Sciences, Germany.
   Hideki Koike, Tokyo Institute of Technology, Japan.
