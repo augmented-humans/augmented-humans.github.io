@@ -28,13 +28,13 @@ topics: |
   Applications in Tourism,  Games, Art
   Aspects of Privacy and Security of Augmented Human Technology
 
-categories-title: Submission categories
+categories-title: Submission categories & Instructions
 categories: |
   Full papers – up to 10 pages, anonymized, 15 + 5 minutes presentation, and invited demo   
-  Short papers 4 pages, anonymized, 7 + 3 minutes presentation   
-  Demonstration papers 2 pages, anonymized, demonstration at conference
-  Poster papers 2 pages, anonymized, presented at conference
-  Art pieces 1–2 pages, not published, exhibited at conference
+  Short papers - 4 pages, anonymized, 7 + 3 minutes presentation   
+  Demonstration papers - 2 pages, anonymized, demonstration at conference
+  Poster papers - 2 pages, anonymized, presented at conference
+  Art pieces - 1–2 pages, exhibited at conference (not published by ACM)
 
   All page lengths are excluding citations. Please use the following ACM compliant Latex or Word template for all submission types: <a href="https://github.com/TKosch/augmented-humans-paper-template/archive/master.zip">Download Word and LaTeX example files</a> or use <a href="https://www.overleaf.com/latex/templates/ah2020-template/pqwfsftrbjxq"> Overleaf template</a>.
   
