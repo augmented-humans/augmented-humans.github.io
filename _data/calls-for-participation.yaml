@@ -36,7 +36,9 @@ categories: |
   Poster papers 2 pages, anonymized, presented at conference
   Art pieces 1–2 pages, not published, exhibited at conference
 
-  Submissions can be made via <a href="https://easychair.org/conferences/?conf=ah20">EasyChair</a>. Please use the following ACM compliant Latex or Word template to prepare your submission: <a href="https://github.com/TKosch/augmented-humans-paper-template/archive/master.zip">Download Template</a>.
+  All page lengths are excluding citations. Please use the following ACM compliant Latex or Word template for all submission types: <a href="https://github.com/TKosch/augmented-humans-paper-template/archive/master.zip">Download Word and LaTeX example files</a> or use <a href="https://www.overleaf.com/latex/templates/ah2020-template/pqwfsftrbjxq"> Overleaf templated </a>.
+  
+  Submissions can be made via <a href="https://easychair.org/conferences/?conf=ah20">EasyChair</a>.
 
 deadlines-title: Submission Deadlines
 deadlines: |
