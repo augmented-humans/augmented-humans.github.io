@@ -48,7 +48,6 @@ program-comittee: |
   Marian Haescher, Fraunhofer IGD Rostock, Germany
   Yuichi Kurita, Hiroshima University, Japan
   Pedro Lopes, University of Chicago, USA
-  Florian Alt, Bundeswehr University Munich, Germany
   Mariam Hassib, Bundeswehr University Munich, Germany
   Denys J.C. Matthies, University of Auckland / Technical University of Applied Sciences Lübeck
   Roshan Peiris, Rochester Institute of Technology, USA
@@ -66,6 +65,7 @@ program-comittee: |
   Jean-Marie Normand, Ecole Centrale de Nantes, France
   Jan Gugenheimer, University of Ulm, Germany
   Kouta Minamizawa, Keio University, Japan
+  Daniel Wessolek, Independent, Berlin, Germany
 
 steering-title: Steering committee
 steering: |
