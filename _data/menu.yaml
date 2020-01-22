@@ -9,8 +9,8 @@ item-2-shortcut: /committee
 item-3-title: Previous conferences
 item-3-shortcut: /previous-conferences
 
-# item-4-title: Steering
-# item-4-shortcut: /steering
+item-4-title: Blog
+item-4-shortcut: /blog
 
 item-5-title: Location
 item-5-shortcut: /location

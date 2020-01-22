@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<!-- <div class="kw-section-title kw-huge"><span>Geist News</span></div> -->
+
+<header class="masthead text-center text-white normal">
+  <div class="overlay"></div>
+  <div id="particles-js" class="masthead-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1 class="masthead-heading mb-0"><< {{ site.data.menu.item-4-title }} >></h1>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+</header> 
+<br><br>
+<article>
+  <div id="post" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-title">{{ page.title }}</div>
+		    <div class="post-content">
+          {{ content }}
+          <div class="post-date">
+            Published on {{ page.date | date: "%B %-d, %Y" }}<br>by {{ page.author }}
+          </div>
+        </div>
+        <div class="post-links">
+          {% if page.previous.url %}
+          <!-- <li class="previous"> -->
+            <a class="previous btn" style="float: left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr;</a>
+          <!-- </li> -->
+          {% endif %}
+          {% if page.next.url %}
+          <!-- <li> -->
+            <a class="next btn" style="float: right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&rarr;</a>
+          <!-- </li> -->
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
