@@ -46,7 +46,7 @@ title: "Augmented Humans 2020 | Blog"
               <div class="kw-news-date">{{ post.date | date: "%B %-d, %Y" }}</div>
               <h3 class="kw-news-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
               <div class="kw-news-content">
-                {{ post.content | truncatewords: 300 }}
+                {{ post.content | truncatewords: 100 }}
               </div>
               <a href="{{ post.url }}">Read More</a>
             </li>
