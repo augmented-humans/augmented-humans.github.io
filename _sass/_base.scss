@@ -1003,11 +1003,11 @@ header.masthead#kw-project-header {
   .kw-news-date {
     font-size: 16px;
     // font-style: italic;
-    font-family: 'TC3R', 'Noto Serif', serif;
+    font-family: "Work Sans", sans-serif;
   }
   .kw-news-title {
     margin-top: 5px;
-    font-family: 'TC3R', 'Noto Serif', serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 25px;
   }
   .kw-news-content {
@@ -1016,6 +1016,10 @@ header.masthead#kw-project-header {
   }
   ul {
     padding-left: 0px;
+  }
+
+  a:hover {
+    color: #00e48e;
   }
 }
 
@@ -1042,36 +1046,37 @@ header.masthead#kw-project-header {
   .post-title {
     margin-top: 40px;
     font-size: 38px;
-    font-family: 'TC3R';
+    font-family: 'Work Sans';
     margin-bottom: 40px;
     line-height: 38px;
   }
   .post-date {
     font-size: 16px;
     // font-style: italic;
-    font-family: 'TC3R', 'Noto Serif', serif;
+    font-family: 'Work Sans', sans-serif;
     text-align: left;
   }
   .post-content {
     padding-bottom: 50px;
+    font-family: 'Work Sans', sans-serif;
   }
 
   h1,h2,h3,h4,h5,h6 {
-    font-family: 'TC3B';
+    font-family: 'Work Sans';
     letter-spacing: 0px;
   }
   h1 { font-size: 30px; }
   h2 { font-size: 24px; }
   h3 { font-size: 18px; }
   b, strong {
-    font-family: 'TC3B';
+    font-family: 'Work Sans';
   }
 
   font-family: 'Noto Serif', serif;
 }
 
 .pagination {
-  font-family: 'TC3R', 'Noto Serif', serif;;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   width: 100%;
   text-align: center;
