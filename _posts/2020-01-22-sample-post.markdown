@@ -100,4 +100,4 @@ that last line which continues item 3 above).
 ## Picture example ##
 
 <!-- tip: don't use absolute pixel values for width/height here or it would break accessibility on mobile devices -->
-<img src="/img/posts/sample-post/gopher.jpg" alt="Hover text" width="100%"/>
+<img src="/img/posts/sample-post/gopher.jpg" alt="Alt text" width="100%"/>
