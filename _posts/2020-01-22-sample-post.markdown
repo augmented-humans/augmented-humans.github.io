@@ -1,6 +1,6 @@
 ---
 layout:     article
-title:      Augmented Humans 2020 | Blog | Sample Post
+title:      Sample Post
 date:       2020-01-22 00:00:00
 author:     Kirill Ragozin
 published:  true
