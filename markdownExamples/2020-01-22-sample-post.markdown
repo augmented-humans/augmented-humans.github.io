@@ -3,7 +3,7 @@ layout:     article
 title:      Sample Post
 date:       2020-01-22 00:00:00
 author:     Kirill Ragozin
-published:  false
+published:  true
 ---
 
 
