@@ -30,6 +30,7 @@ topics: |
 
 categories-title: Submission categories & Instructions
 categories: |
+
   Full papers – up to 10 pages, anonymized, 15 + 5 minutes presentation, and invited demo   
   Short papers - 4 pages, anonymized, 7 + 3 minutes presentation   
   Demonstration papers - 2 pages, anonymized, demonstration at conference
@@ -37,7 +38,9 @@ categories: |
   Art pieces - 1–2 pages, exhibited at conference (not published by ACM)
 
   All page lengths are excluding citations. All submission types use the following ACM compliant Latex or Word template: <a href="https://github.com/TKosch/augmented-humans-paper-template/archive/master.zip">Download Word and LaTeX example files</a> or use the <a href="https://www.overleaf.com/latex/templates/ah2020-template/pqwfsftrbjxq"> Overleaf template</a>.
-  
+
+  Papers will be reviewed in a double blind process. Each paper will receive 3 reviews. The authors of a submission will receive a notification on the 7th of February.
+
   Submissions can be made via <a href="https://easychair.org/conferences/?conf=ah20">EasyChair</a>.
 
 deadlines-title: Submission Deadlines
