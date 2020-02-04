@@ -17,11 +17,43 @@ description: "Program"
             </div>
         </div>
     </div>
-    <!-- <div class="bg-circle-1 bg-circle"></div> -->
-    <!-- <div class="bg-circle-2 bg-circle"></div> -->
-    <!-- <div class="bg-circle-3 bg-circle"></div> -->
-    <!-- <div class="bg-circle-4 bg-circle"></div> -->
+
 </header>
 
+
+<section id="" class="flip2 ah-organization ah-override">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+                    <span>{{ site.data.program.program-title }}</span></div>
+                {% assign description_paragraphs = site.data.program.program | newline_to_br | split:'<br />' %}
+                {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="" class="flip2 ah-organization ah-override">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+                    <span>{{ site.data.program.keynote-title }}</span></div>
+                {% assign description_paragraphs = site.data.program.keynotes | newline_to_br | split:'<br />' %}
+                {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
 
 <!-- 35.5520738,139.6472578 -->
