@@ -11,6 +11,7 @@ The Review Process
 ============
 
 So the final decisions are out. 30 papers were accepted and we -- that is the program chairs -- are super happy about the selection of papers which will be presented. 
+
 While Augmented Humans has no interest in being another CHI, we thought it might be interesting to compare statistics. The average rating of submissions at Augmented Humans was 2.9 (SD = 0.83) compared to the average of 2.6 (SD = 0.43) at CHI this year. While the average is relatively similar, the difference in standard deviation is striking. One explanation might be that the variability of the quality submitted was higher at AH2020. Another explanation, which we find more likely, is that because most of our reviews were provided by the Program Committee, these reviewers felt more confident in taking clear positions and giving either a very high or very low score, to ease the work for us chairs (thank you!). The average of the rejected papers at Augmented Humans was 2, while the average for the accepted papers was 3.1. See the figure below for more details on how the scores and decisions were distributed:
 
 <img src="/img/posts/the-review-process/review-stats.jpg" alt="Alt text" width="100%"/>
