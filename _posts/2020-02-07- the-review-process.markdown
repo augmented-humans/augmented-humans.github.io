@@ -1,7 +1,7 @@
 ---
 layout:     article
 title:      The Review Process
-date:       2020-01-07 00:00:00
+date:       2020-02-07 00:00:00
 author:     Paul Strohmeier
 published:  true
 ---
