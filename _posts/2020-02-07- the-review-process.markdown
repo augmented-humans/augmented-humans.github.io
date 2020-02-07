@@ -7,7 +7,7 @@ published:  true
 ---
 
 
-Some numbers and reflections on the review process.
+Some numbers and reflections.
 ============
 
 So the final decisions are out. 30 papers were accepted and we -- that is the program chairs -- are super happy about the selection of papers which will be presented. 
