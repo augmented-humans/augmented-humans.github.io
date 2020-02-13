@@ -5,38 +5,37 @@ program: |
   The following papers, posters and, demos will be presented. A schedule will be published soon:
 
   Living Bits : Opportunities and Challenges for Integrating Living Microorganisms in Human-Computer Interaction, <small>Pat Pataranutaporn, Angela Vujic, Misha Sra, David Kong and Pattie Maes</small>
-
-  Design of Altered Cognition with Reshaped Bodies
-  Sketching On-Body Interactions using Piezo-Resistive Kinesiology Tape
-  The Lateral Line: Augmenting Spatiotemporal Perception with a Tactile Interface
-  Conformal Wearable Devices for Expressive On-Skin Interaction
-  HapticPointer: A Neck-worn Device that Presents Direction by Vibrotactile Feedback for Remote Collaboration Tasks
-  DehazeGlasses: Optical Dehazing with an Occlusion Capable See-Through Displays
-  Accelerating Skill Acquisition of Two-Handed Drumming using Pneumatic Artificial Muscles
-  VersaTouch: A Versatile Plug-and-Play System that EnablesTouch Interactions on Everyday Passive Surfaces
-  The Jungle Warm-Up Run: Augmenting Athletes with Coach-Guided Dynamic Game Elements
-  Archery shots visualization by clustering and comparing from angular velocities of bows
-  Go-Through: Disabling Collision to Access Obstructed Paths and Open Occluded Views in Social VR
-  OmniView: An Exploratory Study of 360 Degree Vision using Dynamic Distortion based on Direction-of-Interest
-  Eye-based Interaction Using Embedded Optical Sensors on an Eyewear Device for Facial Expression Recognition
-  Novel Input and Output opportunitiesusing an Implanted Magnet
-  PoseAsQuery: Full-Body Interface for Repeated Observation of a Person in a Video with Ambiguous Pose Indexes and Performed Poses
-  Investigation of Effective Parts for Rotation and Translation of the Legs Using Hanger Reflex
-  ExemPoser: Predicting Poses of Experts as Examples for Beginners in Climbing Using a Neural Network
-  WristLens: Enabling Single-Handed Surface Gesture Interaction for Smartwatch using Optical Motion Sensor
-  On-Skin Gestures with Printable Ultra-Stretchable Soft Electronic Second Skin
-  Wearable Reasoner : Enhanced Human Rationality Through A Wearable Audio Device With Explainable AI Assistant
-  Sensor Glove Implemented With Artificial Muscle Set For Hand Rehabilitation
-  Manipulatable Auditory Perception in Wearable Computing
-  waveSense: Low Power Voxel-tracking Technique for Resource Limited Devices
-  Mimicking Synesthesia to Augment Music Memory through Passive Learning
-  SpotlessMind - A Telepathic Experience to Share Brain Occupancy
-  KissGlass: Greeting Gesture Recognition using Smart Glasses
-  GenVibe: Exploration of Interactive Generation of Personal Vibrotactile Patterns
-  Remote Treatment System of Phantom Limb Pain by Displaying Body Movement in Shared VR Space
-  Facilitating Experiential Knowledge Sharing through Situated Conversations
-  Altering the Speed of Reality? Exploring Visual Slow-Motion to Amplify Human Perception using Augmented Reality
-  Vision Extension Using Image Completion For Ball Camera
+  Design of Altered Cognition with Reshaped Bodies, <small>Kenichiro Shirota, Makoto Uju, Yurike Chandra, Elaine Czech, Roshan L. Peiris and Kouta Minamizawa</small>
+  Sketching On-Body Interactions using Piezo-Resistive Kinesiology Tape, <small>Paul Strohmeier, Narges Pourjafarian, Marion Koelle, Cedric Honnet, Bruno Fruchard and Jürgen Steimle</small>
+  The Lateral Line: Augmenting Spatiotemporal Perception with a Tactile Interface, <small>The Lateral Line: Augmenting Spatiotemporal Perception with a Tactile Interface</small>
+  Conformal Wearable Devices for Expressive On-Skin Interaction, <small>Conformal Wearable Devices for Expressive On-Skin Interaction</small>
+  HapticPointer: A Neck-worn Device that Presents Direction by Vibrotactile Feedback for Remote Collaboration Tasks, <small>Akira Matsuda, Kazunori Nozawa, Kazuki Takata, Atsushi Izumihara and Jun Rekimoto</small>
+  DehazeGlasses: Optical Dehazing with an Occlusion Capable See-Through Displays, <small>Yuichi Hiroi, Takumi Kaminokado, Atsushi Mori and Yuta Itoh</small>
+  Accelerating Skill Acquisition of Two-Handed Drumming using Pneumatic Artificial Muscles, <small>Takashi Goto, Swagata Das, Pedro Lopes, Yuichi Kurita and Kai Kunze</small>
+  VersaTouch: A Versatile Plug-and-Play System that EnablesTouch Interactions on Everyday Passive Surfaces, <small>Yilei Shi, Haimo Zhang, Jiashuo Cao and Suranga Nanayakkara</small>
+  The Jungle Warm-Up Run: Augmenting Athletes with Coach-Guided Dynamic Game Elements, <small>Frederik Wiehr, Marko Vujic, Antonio Krueger and Florian Daiber</small>
+  Archery shots visualization by clustering and comparing from angular velocities of bows, <small>Midori Kawaguchi, Mitake Hironori and Shoich Hasegawa</small>
+  Go-Through: Disabling Collision to Access Obstructed Paths and Open Occluded Views in Social VR, <small>Jens Reinhardt and Katrin Wolf</small>
+  OmniView: An Exploratory Study of 360 Degree Vision using Dynamic Distortion based on Direction-of-Interest, <small>Feng Liang, Kevin Stevanus, Kai Kunze, Holger Baldauf and Yun Suen Pai</small>
+  Eye-based Interaction Using Embedded Optical Sensors on an Eyewear Device for Facial Expression Recognition, <small>Katsutoshi Masai, Kai Kunze and Maki Sugimoto</small>
+  Novel Input and Output opportunities using an Implanted Magnet, <small>Paul Strohmeier and Jess McIntosh</small>
+  PoseAsQuery: Full-Body Interface for Repeated Observation of a Person in a Video with Ambiguous Pose Indexes and Performed Poses, <small>Natsuki Hamanishi and Jun Rekimoto</small>
+  Investigation of Effective Parts for Rotation and Translation of the Legs Using Hanger Reflex, <small>Hanamichi Sanada, Masato Kobayashi, Kon Yuki and Hiroyuki Kajimoto</small>
+  ExemPoser: Predicting Poses of Experts as Examples for Beginners in Climbing Using a Neural Network, <small>Katsuhito Sasaki, Keisuke Shiro and Jun Rekimoto</small>
+  WristLens: Enabling Single-Handed Surface Gesture Interaction for Smartwatch using Optical Motion Sensor, <small>Hui-Shyong Yeo, Juyoung Lee, Andrea Bianchi, Alejandro Samboy, Hideki Koike, Woontack Woo and Aaron Quigley</small>
+  On-Skin Gestures with Printable Ultra-Stretchable Soft Electronic Second Skin, <small>Aditya Shekhar Nittala, Arshad Khan and Jürgen Steimle</small>
+  Wearable Reasoner : Enhanced Human Rationality Through A Wearable Audio Device With Explainable AI Assistant, <small>Valdemar Danry, Pat Pataranutaporn, Yaoli Mao and Pattie Maes</small>
+  Sensor Glove Implemented With Artificial Muscle Set For Hand Rehabilitation, <small>Biyuan Wang, Nobuhiro Takahashi and Hideki Koike</small>
+  Manipulatable Auditory Perception in Wearable Computing, <small>Hiroki Watanabe and Tsutomu Terada</small>
+  waveSense: Low Power Voxel-tracking Technique for Resource Limited Devices, <small>Anusha Withana, Tharindu Kaluarachchi, Chanaka Singhabahu, Shanaka Ransiri and Suranga Nanayakkara</small>
+  Mimicking Synesthesia to Augment Music Memory through Passive Learning, <small>Santiago Arconada Alvarez, Sumedha Raman, Kevin Key, Russell Strauss and Thad Starner</small>
+  SpotlessMind - A Telepathic Experience to Share Brain Occupancy, <small>Passant El.Agroudy, Xiyue Wang, Evgeny Stemasov, Teresa Hirzle, Svetlana Shishkovets, Siddharth Mehrotra and Albrecht Schmidt</small>
+  KissGlass: Greeting Gesture Recognition using Smart Glasses, <small>Richard Li, Juyoung Lee, Thad Starner and Woontack Woo</small>
+  GenVibe: Exploration of Interactive Generation of Personal Vibrotactile Patterns, <small>Erik Pescara, Florian Dreschner, Karola Marky and Michael Beigl</small>
+  Remote Treatment System of Phantom Limb Pain by Displaying Body Movement in Shared VR Space, <small>Kenta Saito, Atsushi Okada, Yu Matsumura and Jun Rekimoto</small>
+  Facilitating Experiential Knowledge Sharing through Situated Conversations, <small>Ryo Fujikura and Yasuyuki Sumi</small>
+  Altering the Speed of Reality? Exploring Visual Slow-Motion to Amplify Human Perception using Augmented Reality, <small>Pascal Knierim, Thomas Kosch, Gabrielle LaBorwit and Albrecht Schmidt</small>
+  Vision Extension Using Image Completion For Ball Camera, <small>Tsubasa Kitayama, Shio Miyafuji and Hideki Koike</small>
 
 keynote-title: Keynotes
 keynotes: |
