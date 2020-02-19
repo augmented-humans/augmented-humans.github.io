@@ -15,7 +15,7 @@ phd-colloquium-chairs-title: Phd Colloquium Chair
 phd-colloquium-chairs: |
   Paul Lukowicz, DFKI Kaiserslautern
 
-poster-demo-chairs-title: Poster + Demo Chairs
+poster-demo-chairs-title: Poster and Demo Chairs
 poster-demo-chairs: |
   Benjamin Tag, Melbourne University, Australia.
   Yun Suen Pai, University of Auckland, New Zealand
@@ -25,6 +25,14 @@ poster-demo-chairs: |
 media-chairs-title: Media & Design Chair
 media-chairs: |
   Marion Koelle, Saarland University, Germany
+
+awards-chairs-title: Awards Chair
+awards-chairs: |
+  Yuta Itoh, Tokyo Institute of Technology, Japan
+
+social-media-chairs-title: Social Media Chair
+social-media-chairs: |
+  Passant El.Agroudy, University of Stuttgart, Germany
   
 program-comittee-title: Program Committee
 program-comittee: |
