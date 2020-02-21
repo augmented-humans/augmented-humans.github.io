@@ -17,71 +17,76 @@ description: "Location"
       </div>
     </div>
   </div>
-</header>   
+</header>
 
 <section id="ah-about" class="flip">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">
-            <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left"><span>{{ site.data.calls-for-participation.about-title }}</span></div>
-            {% assign description_paragraphs = site.data.calls-for-participation.about | newline_to_br | split:'<br />' %}
-            {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
-          </div>
-          <div class="col-lg-1"></div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.calls-for-participation.about-title }}</span></div>
+        {% assign description_paragraphs = site.data.calls-for-participation.about | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+        <img src="../img/assets/icps-logo-plain.jpg" width="300" />
       </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
 </section>
 
 <section id="ah-topics" class="flip2">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">
-          <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left"><span>{{ site.data.calls-for-participation.topics-title }}</span></div>
-            {% assign description_paragraphs = site.data.calls-for-participation.topics | newline_to_br | split:'<br />' %}
-            {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
-          </div>
-          <div class="col-lg-1"></div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+          <span>{{ site.data.calls-for-participation.topics-title }}</span></div>
+        {% assign description_paragraphs = site.data.calls-for-participation.topics | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
     </div>
+  </div>
 </section>
 
 
 <section id="ah-categories" class="flip1">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">
-          <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left"><span>{{ site.data.calls-for-participation.categories-title }}</span></div>
-            {% assign description_paragraphs = site.data.calls-for-participation.categories | newline_to_br | split:'<br />' %}
-            {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
-          </div>
-          <div class="col-lg-1"></div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.calls-for-participation.categories-title }}</span></div>
+        {% assign description_paragraphs = site.data.calls-for-participation.categories | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
       </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
 </section>
 
 <section id="ah-categories" class="flip">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">
-          <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left"><span>{{ site.data.calls-for-participation.deadlines-title }}</span></div>
-            {% assign description_paragraphs = site.data.calls-for-participation.deadlines | newline_to_br | split:'<br />' %}
-            {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
-          </div>
-          <div class="col-lg-1"></div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.calls-for-participation.deadlines-title }}</span></div>
+        {% assign description_paragraphs = site.data.calls-for-participation.deadlines | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
       </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
 </section>
 
 
