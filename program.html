@@ -20,7 +20,6 @@ description: "Program"
 
 </header>
 
-
 <section id="" class="flip2 ah-organization ah-override">
     <div class="container">
         <div class="row">
@@ -28,10 +27,10 @@ description: "Program"
             <div class="col-lg-10">
                 <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
                     <span>{{ site.data.program.program-title }}</span></div>
-                {% assign description_paragraphs = site.data.program.program | newline_to_br | split:'<br />' %}
+                <!-- {% assign description_paragraphs = site.data.program.program | newline_to_br | split:'<br />' %}
                 {% for paragraph in description_paragraphs %}
                 <p>{{ paragraph }}</p>
-                {% endfor %}
+                {% endfor %} -->
             </div>
             <div class="col-lg-1"></div>
         </div>
