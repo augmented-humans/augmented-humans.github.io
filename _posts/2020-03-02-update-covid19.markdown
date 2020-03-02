@@ -42,9 +42,9 @@ We primarily expect local attendance to be relevant to our German colleagues, or
 
 How do I register for remote or offline attendance?
 ============
-<i>(Please note, this section will be updated soon)</i>
 
-Links for the offline registration will be posted here within the next 24 hours.
+Please register for <a href="https://shop.procampus.de/de/produkt/augmented-humans-2020-remote-participation/"> remote participation here </a> and for
+<a href="https://shop.procampus.de/de/produkt/augmented-humans-2020-offline-participation/> <b>offline<\b> participation here </a>.
 
 If <b>you haven't registered yet</b>, simply purchase the remote or offline ticket. 
 
