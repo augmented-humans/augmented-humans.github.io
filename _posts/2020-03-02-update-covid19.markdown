@@ -59,7 +59,7 @@ If <b>you decided to change after March 8th</b>, also send your request to Bo Zh
 Additional Requirements for Remote and Offline presenters
 ============
 
-<b>Papers<\b>:
+<b>Papers</b>:
 Please submit a < 5 minute video for short papers and a < 7 minute video for long papers. Consider that the typical presentation format is usually tedious to follow when watching a video. You are free to be creative with the format, as long as the video contains all the relevant information a talk would. Brevity is a virtue.
 
 <b>Posters and Demos</b>: Please provide us with a poster (A0 -- 841 mm x 1189 mm) and a two minute video. Your printed poster will be hung up during the poster and demo session, and we will present your video along with the poster. Please note, that we will have *no audio* during the poster sessions except if essential for explaining the concept. 
