@@ -7,13 +7,13 @@ published:  true
 ---
 
 
-Update Regarding COVID-19
-============
+
+
 
 Over the last months, the global situation with regards to travel and health has drastically changed due to COVID-19. The organization of any global event, such as Augmented Humans, needs to reflect such changes. To accommodate the changing requirements and restrictions in the ability of many of our colleagues to travel, we are happy to announce a number of changes in how people can engage with AHs2020.
 
 The Basics
----------------
+============
 In restructuring the participation models, we had two goals:
 <b>We do not require authors of accepted papers to be physically present at the conference</b>. We will offer two models of remote participation – any author who chooses to, can take advantage of either remote participation or offline participation.
 
@@ -21,7 +21,7 @@ In restructuring the participation models, we had two goals:
 This way, we intend to disrupt existing arrangements the least, while providing maximum flexibility to all participants in choosing how they wish to deal with the current situation.
 
 How can people engage with AHs 2020?
----------------
+============
 We are now offering three models of participating at the conference: 
     
 <b>Local attendance</b> (238€ / 357€): Conference participants can attend all local and remote presentations, as well as participate in discussion of the off-line presentations. Authors who opt for local presentations will have their presentation live-streamed, for remote participants to attend to. Additionally these presentations will be recorded and made available to all offline participants. 
@@ -34,7 +34,7 @@ All presenters are expected to monitor their online video presentation closely f
 We primarily expect local attendance to be relevant to our German colleagues, or people from the close area. We assume that remote participation will primarily be of interest to authors from similar time-zone as the conference location who do not wish to travel. Finally, offline participation is intended for authors who live in time-zones which make remote attendance inconvenient but wish to engage a-synchronously.
 
 Additional Requirements for Remote and Offline presenters
----------------
+============
 <i>(Please note, this section will be updated soon)</i>
 
 All offline participants and all remote participants who choose so will be asked to submit a video according to the following instructions:
@@ -46,7 +46,7 @@ All offline participants and all remote participants who choose so will be asked
 <b>Submission Instructions</b>: TBA
 
 How do I register for remote or offline attendance?
----------------
+============
 <i>(Please note, this section will be updated soon)</i>
 Links for the offline registration will be posted here within the next 24 hours.
 
@@ -57,11 +57,11 @@ Links for the offline registration will be posted here within the next 24 hours.
 <b>!!! Please note that this deadline is Midnight March 8th, CET !!!</b>
 
 What about the Human Augmentation workshop?
----------------
+============
 The Human Augmentation workshop, in the form that it was announced, is cancelled. However, the rooms which were booked for that time are still free for us to use. As many steering committee members and conference organizers will be present, we will use this time for an open Town-Hall meeting on the future of this conference. We also intend to have informal workshops with some of the keynote speakers. We will provide more information on this closer to the time of the event.
 
 What other changes come with this?
----------------
+============
 Essentially, Augmented Humans will become a conference distributed through space and time. For all of us, this is a big experiment. We are looking forward to pulling this off, together with all of you. 
 
 There are various other aspects to this which we have been discussing, just some things to think about at this point:
