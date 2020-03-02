@@ -22,6 +22,7 @@ In restructuring the participation models, we had two goals:
 <b>We do not require anyone to cancel their travel arrangements</b>. Anyone who wishes to participate at the event is invited to join, as long as their host institution, their host government or the German government does not issue any instructions stating otherwise.
 This way, we intend to disrupt existing arrangements the least, while providing maximum flexibility to all participants in choosing how they wish to deal with the current situation.
 
+<br>
 
 How can people engage with AHs 2020?
 ============
@@ -36,6 +37,7 @@ All presenters are expected to monitor their online video presentation closely f
 
 We primarily expect local attendance to be relevant to our German colleagues, or people from the close area. We assume that remote participation will primarily be of interest to authors from similar time-zone as the conference location who do not wish to travel. Finally, offline participation is intended for authors who live in time-zones which make remote attendance inconvenient but wish to engage a-synchronously.
 
+<br>
 
 Additional Requirements for Remote and Offline presenters
 ============
@@ -49,15 +51,18 @@ All offline participants and all remote participants who choose so will be asked
 
 <b>Submission Instructions</b>: TBA
 
+<br>
 
 How do I register for remote or offline attendance?
 ============
 <i>(Please note, this section will be updated soon)</i>
 Links for the offline registration will be posted here within the next 24 hours.
 
-- If you haven't registered yet, simply purchase the remote or offline ticket. 
-- If you have already registered but want to change to the remote/offline option, please send your request to Bo Zhou (ahs20 at easychair dot org) on March 8th. He will contact you for further actions. 
-- If you unfortunately decided the change after March 8th, also send your request to Bo Zhou, your original purchase will be refunded (but we will need to charge for any costs we have incurred). And you can then directly purchase the remote/offline price.
+If <b>you haven't registered yet<\b>, simply purchase the remote or offline ticket. 
+
+If you <b>have already registered but want to change to the remote/offline option </b>, please send your request to Bo Zhou (ahs20 at easychair dot org) on March 8th. He will contact you for further actions. 
+
+If <b>you decided to change after March 8th<\b>, also send your request to Bo Zhou, your original purchase will be refunded (but we will need to charge for any costs we have incurred). And you can then directly purchase the remote/offline price.
  
 <b>!!! Please note that this deadline is Midnight March 8th, CET !!!</b>
 
