@@ -46,9 +46,9 @@ title: "Augmented Humans 2020 | Blog"
               <div class="kw-news-date">{{ post.date | date: "%B %-d, %Y" }}</div>
               <h3 class="kw-news-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
               <div class="kw-news-content">
-                {{ post.content | truncatewords: 66 }}
+                {{ post.content | strip_html | truncatewords: 66 }}
               </div>
-              <a href="{{ post.url }}">Read More</a>
+              <a class="btn kw-news-read-more" href="{{ post.url }}">Continue reading</a>
             </li>
         {% if forloop.last %}
           </ul>
