@@ -16,6 +16,7 @@ Over the last months, the global situation with regards to travel and health has
 The Basics
 ============
 In restructuring the participation models, we had two goals:
+
 <b>We do not require authors of accepted papers to be physically present at the conference</b>. We will offer two models of remote participation – any author who chooses to, can take advantage of either remote participation or offline participation.
 
 <b>We do not require anyone to cancel their travel arrangements</b>. Anyone who wishes to participate at the event is invited to join, as long as their host institution, their host government or the German government does not issue any instructions stating otherwise.
