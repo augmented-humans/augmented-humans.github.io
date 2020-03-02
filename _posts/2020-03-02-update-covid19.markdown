@@ -44,7 +44,7 @@ How do I register for remote or offline attendance?
 ============
 
 Please register for <a href="https://shop.procampus.de/de/produkt/augmented-humans-2020-remote-participation/"> <b>remote</b> participation here </a> and for
-<a href="https://shop.procampus.de/de/produkt/augmented-humans-2020-offline-participation/> <b>offline</b> participation here </a>.
+<a href="https://shop.procampus.de/de/produkt/augmented-humans-2020-offline-participation/"> <b>offline</b> participation here </a>.
 
 If <b>you haven't registered yet</b>, simply purchase the remote or offline ticket. 
 
