@@ -162,6 +162,23 @@ description: "Location"
   </div>
 </section>
 
+<section id="" class="flip2 ah-organization ah-override">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+          <span>{{ site.data.organization.web-chairs-title }}</span></div>
+        {% assign description_paragraphs = site.data.organization.web-chairs | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
 <section id="" class="flip1 ah-organization ah-override">
   <div class="container">
     <div class="row">

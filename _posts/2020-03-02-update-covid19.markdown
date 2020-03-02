@@ -73,7 +73,7 @@ Please provide us with videos in mp4 format, h264 encoding. Please provide poste
 
 What about the Human Augmentation workshop?
 ============
-The Human Augmentation workshop, in the form that it was announced, is cancelled. However, the rooms which were booked for that time are still free for us to use. As many steering committee members and conference organizers will be present, we will use this time for an open Town-Hall meeting on the future of this conference. We also intend to have informal workshops with some of the keynote speakers. We will provide more information on this closer to the time of the event.
+The Human Augmentation workshop, in the form that it was announced, will change to a casual program since some of the speakers are not able to attend due to travel restrictions. However, the rooms which were booked for that time are still free for us to use. As many steering committee members and conference organizers will be present, we will use this time for an open Town-Hall meeting on the future of this conference. We also intend to have informal workshops with some of the keynote speakers. We will provide more information on this closer to the time of the event.
 
 <br>
 
