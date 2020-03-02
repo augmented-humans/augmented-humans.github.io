@@ -40,20 +40,6 @@ We primarily expect local attendance to be relevant to our German colleagues, or
 
 <br>
 
-Additional Requirements for Remote and Offline presenters
-============
-<i>(Please note, this section will be updated soon)</i>
-
-All offline participants and all remote participants who choose so will be asked to submit a video according to the following instructions:
-
-<b>Format</b>: TBA
-
-<b>Length</b>: Full Papers and Short Papers may use up to 7 and 5 minutes respectively. Poster presentations should pitch their topic in a two-minute video. Demos should provide a video that shows the working prototype.
-
-<b>Submission Instructions</b>: TBA
-
-<br>
-
 How do I register for remote or offline attendance?
 ============
 <i>(Please note, this section will be updated soon)</i>
@@ -67,6 +53,21 @@ If you <b>have already registered but want to change to the remote/offline optio
 If <b>you decided to change after March 8th</b>, also send your request to Bo Zhou, your original purchase will be refunded (but we will need to charge for any costs we have incurred). And you can then directly purchase the remote/offline price.
  
 <b>!!! Please note that this deadline is Midnight March 8th, CET !!!</b>
+
+<br>
+
+Additional Requirements for Remote and Offline presenters
+============
+
+<b>Papers<\b>:
+Please submit a < 5 minute video for short papers and a < 7 minute video for long papers. Consider that the typical presentation format is usually tedious to follow when watching a video. You are free to be creative with the format, as long as the video contains all the relevant information a talk would. Brevity is a virtue.
+
+<b>Posters and Demos</b>: Please provide us with a poster (A0 -- 841 mm x 1189 mm) and a two minute video. Your printed poster will be hung up during the poster and demo session, and we will present your video along with the poster. Please note, that we will have *no audio* during the poster sessions except if essential for explaining the concept. 
+
+These additional videos are required for all offline participants. Remote participants may opt to submit these also, as back-up for their live-streamed talk.
+Please provide us with videos in mp4 format, h264 encoding. Please provide posters as .pdf files. Please send a dropbox or google-drive link of your materials to AHs20 at easychair dot org. Please name your files (submission number)_(content).extension (so if you're submission number is #42 and you are submitting a video, please call the file 42_video.mp4).
+
+
 
 <br>
 
