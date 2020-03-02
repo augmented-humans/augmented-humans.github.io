@@ -94,6 +94,3 @@ There are various other aspects to this which we have been discussing, just some
 Overall, we are trying to make the best of a difficult situation. We hope that our multiple ways of engaging will keep this event alive and vibrant. We will be implementing many changes and finding both organizational and technological solutions in a very tight time-frame. To make this happen we also require full support of the AHs community. By engaging, testing, playing, experimenting, everyone can help make this a successful event – stretched out through space and time.
 
 Should you have ideas, concerns, or suggestions, please don’t hesitate to get in touch with us (ahs20 at easychair dot org)
-
-
-
