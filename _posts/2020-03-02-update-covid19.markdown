@@ -10,7 +10,7 @@ published:  true
 
 
 
-Over the last months, the global situation with regards to travel and health has drastically changed due to COVID-19. The organization of any global event, such as Augmented Humans, needs to reflect such changes. To accommodate the changing requirements and restrictions in the ability of many of our colleagues to travel, we are happy to announce a number of changes in how people can engage with AHs2020.
+Over the last months, the global situation with regards to travel and health has changed due to COVID-19. The organization of any global event, such as Augmented Humans, needs to reflect such changes. To accommodate the changing requirements and restrictions in the ability of many of our colleagues to travel, we are happy to announce a number of changes in how people can engage with AHs2020.
 
 <br>
 
@@ -83,7 +83,7 @@ Essentially, Augmented Humans will become a conference distributed through space
 
 There are various other aspects to this which we have been discussing, just some things to think about at this point:
 
-<b>Finances</b>. We are doing everything we can to keep costs at a minimum. Anyone who has already payed the full registration may change to remote or offline participation up until March 9th and we will reimburse the difference between what was already paid and the reduced fee (83€). After March 9th we will need to charge for any costs we may have incurred in the meantime.
+<b>Finances</b>. We are doing everything we can to keep costs at a minimum. Anyone who has already payed the full registration may change to remote or offline participation up until March 8th and we will reimburse the difference between what was already paid and the reduced fee (83€). After March 8th we will need to charge for any costs we may have incurred in the meantime.
 
 <b>Discussion Culture</b>. We wish for a vibrant conference, with discussion between *all* participants. We will provide simple discussion tools for this. Providing these tools however is just a small part – a strong discussion culture requires engagement on the side of the participants. We are still figuring out how to best facilitate this, but ask everyone to do their part by participating.
 
