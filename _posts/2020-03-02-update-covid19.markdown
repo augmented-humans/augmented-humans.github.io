@@ -12,6 +12,7 @@ published:  true
 
 Over the last months, the global situation with regards to travel and health has drastically changed due to COVID-19. The organization of any global event, such as Augmented Humans, needs to reflect such changes. To accommodate the changing requirements and restrictions in the ability of many of our colleagues to travel, we are happy to announce a number of changes in how people can engage with AHs2020.
 
+<br>
 
 The Basics
 ============
@@ -59,19 +60,21 @@ How do I register for remote or offline attendance?
 
 Links for the offline registration will be posted here within the next 24 hours.
 
-If <b>you haven't registered yet<\b>, simply purchase the remote or offline ticket. 
+If <b>you haven't registered yet</b>, simply purchase the remote or offline ticket. 
 
 If you <b>have already registered but want to change to the remote/offline option </b>, please send your request to Bo Zhou (ahs20 at easychair dot org) on March 8th. He will contact you for further actions. 
 
-If <b>you decided to change after March 8th<\b>, also send your request to Bo Zhou, your original purchase will be refunded (but we will need to charge for any costs we have incurred). And you can then directly purchase the remote/offline price.
+If <b>you decided to change after March 8th</b>, also send your request to Bo Zhou, your original purchase will be refunded (but we will need to charge for any costs we have incurred). And you can then directly purchase the remote/offline price.
  
 <b>!!! Please note that this deadline is Midnight March 8th, CET !!!</b>
 
+<br>
 
 What about the Human Augmentation workshop?
 ============
 The Human Augmentation workshop, in the form that it was announced, is cancelled. However, the rooms which were booked for that time are still free for us to use. As many steering committee members and conference organizers will be present, we will use this time for an open Town-Hall meeting on the future of this conference. We also intend to have informal workshops with some of the keynote speakers. We will provide more information on this closer to the time of the event.
 
+<br>
 
 What other changes come with this?
 ============
