@@ -56,6 +56,7 @@ All offline participants and all remote participants who choose so will be asked
 How do I register for remote or offline attendance?
 ============
 <i>(Please note, this section will be updated soon)</i>
+
 Links for the offline registration will be posted here within the next 24 hours.
 
 If <b>you haven't registered yet<\b>, simply purchase the remote or offline ticket. 
