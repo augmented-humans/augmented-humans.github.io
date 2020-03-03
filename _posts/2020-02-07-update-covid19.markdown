@@ -1,7 +1,7 @@
 ---
 layout:     article
 title:      Update Regarding COVID-19
-date:       2020-03-02 00:00:00
+date:       2020-02-07 00:00:00
 author:     Paul Strohmeier
 published:  true
 ---
