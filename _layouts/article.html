@@ -40,7 +40,7 @@ layout: default
               {% endif %}
             {% endfor %}
           <!-- <li class="previous"> -->
-            <a class="previous btn" style="float: left" href="{{ new_prev_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_prev_page.previous.title}}">&larr;</a>
+            <a class="previous btn" style="float: left" href="{{ new_prev_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_prev_page.title}}">&larr;</a>
           <!-- </li> -->
           {% endif %}
           {% if page.next.url %}
@@ -53,7 +53,7 @@ layout: default
             {% endif %}
           {% endfor %}
           <!-- <li> -->
-            <a class="next btn" style="float: right" href="{{ new_next_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_next_page.next.title}}">&rarr;</a>
+            <a class="next btn" style="float: right" href="{{ new_next_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_next_page.title}}">&rarr;</a>
           <!-- </li> -->
           {% endif %}
         </div>
