@@ -17,5 +17,10 @@ highlighter: rouge
 permalink: pretty
 paginate: 7
 paginate_path: "/blog/page:num/"
+defaults: 
+  - scope:
+      path: "blog/page"
+    values:
+      sitemap: false
 
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
