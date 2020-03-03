@@ -31,13 +31,29 @@ layout: default
         </div>
         <div class="post-links">
           {% if page.previous.url %}
+          
+            {% assign new_prev_page = page %}
+            {% for count in (0..100) %}
+              {% assign new_prev_page = new_prev_page.previous %}
+              {% if new_prev_page.layout != 'redirected' %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
           <!-- <li class="previous"> -->
-            <a class="previous btn" style="float: left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr;</a>
+            <a class="previous btn" style="float: left" href="{{ new_prev_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_prev_page.previous.title}}">&larr;</a>
           <!-- </li> -->
           {% endif %}
           {% if page.next.url %}
+
+          {% assign new_next_page = page %}
+          {% for count in (0..100) %}
+            {% assign new_next_page = new_next_page.next %}
+            {% if new_next_page.layout != 'redirected' %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
           <!-- <li> -->
-            <a class="next btn" style="float: right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&rarr;</a>
+            <a class="next btn" style="float: right" href="{{ new_next_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_next_page.next.title}}">&rarr;</a>
           <!-- </li> -->
           {% endif %}
         </div>
