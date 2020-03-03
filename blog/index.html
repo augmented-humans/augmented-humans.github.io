@@ -37,6 +37,10 @@ title: "Augmented Humans 2020 | Blog"
         <div class="col-md-12">
           <ul style="list-style: none;">
         {% endif %}
+            
+            {% if post.layout == "redirected" %}
+              {% continue %}
+            {% endif %}
             <li class="kw-news-li">
               {% comment %}
               <!-- <a href="{{ post.url | prepend: site.baseurl }}">
