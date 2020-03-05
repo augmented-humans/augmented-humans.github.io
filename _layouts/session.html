@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav-blog.html %}
+
+  <div class="content-wrap">
+
+    <!-- Contact Section -->
+<header class="masthead text-center text-white normal">
+  <div class="overlay"></div>
+  <div id="particles-js" class="masthead-content">
+    <div class="container">
+      <!-- <img src="../img/assets/ghost_1b_256.svg" alt="Logo" width="256" height="256"> -->
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1 class="masthead-heading mb-0"> << Session Recording >> </h1>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="bg-circle-1 bg-circle"></div> -->
+  <!-- <div class="bg-circle-2 bg-circle"></div> -->
+  <!-- <div class="bg-circle-3 bg-circle"></div> -->
+  <!-- <div class="bg-circle-4 bg-circle"></div> -->
+</header>  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+
+            <div class="session-title">
+                <h1>{{ page.session_title }}</h1>
+            </div>
+            <div class="session-description">
+                {{ page.session_description | newline_to_br }}
+            </div>
+
+            {% if page.video %}
+                <div class="youtube-container">
+                    <iframe class="youtube-video" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            {% endif %}
+
+            {% if page.comments %}
+                <div class="comments-container">
+                    <div id="disqus_thread"></div>
+                    <script>  
+                    var disqus_config = function () {
+                        this.page.url ="{{ page.url | prepend: site.url }}";
+                        this.page.identifier = "{{ page.unique_page_id }}";
+                    };
+
+                    (function() { 
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://ahs2020.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>
+            {% endif %}
+          </div>          
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+
+     <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div style="display: block; margin-bottom: 20px; ">
+                <a class="previous btn center" style="float: left; width: 100%;" href="{{ site.data.menu.item-6-shortcut }}" data-toggle="tooltip" data-placement="top" title="">&larr; BACK TO PROGRAM</a>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+
+</html>

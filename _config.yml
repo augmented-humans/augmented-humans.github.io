@@ -19,7 +19,8 @@ paginate: 7
 paginate_path: "/blog/page:num/"
 defaults: 
   - scope:
-      path: "blog/page"
+      path: "img/posts/**"
+      path: "sessions/**"
     values:
       sitemap: false
 
