@@ -3,26 +3,6 @@ layout: default
 title: "Augmented Humans 2020 | Program"
 description: "Program"
 ---
-
-<style>
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-    }
-
-    td,
-    th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-    }
-</style>
-program
 <!-- Contact Section -->
 <header class="masthead text-center text-white normal">
     <div class="overlay"></div>
@@ -39,34 +19,41 @@ program
     </div>
 </header>
 
-<section id="program-details" class="flip2 ah-organization ah-override">
+<section id="program-details" class="flip2 ah-organization ah-override kw-program-top">
     <div class="container">
         <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
-                <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-                    <span>{{ site.data.program.program-title }}</span></div>
-                <!-- {% assign description_paragraphs = site.data.program.program | newline_to_br | split:'<br />' %}
-                {% for paragraph in description_paragraphs %}
-                <p>{{ paragraph }}</p>
-                {% endfor %} -->
-
-                <p>
+                <div class="schedule-announcement">
+                    <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+                        <span>Schedule</span>
+                    </div>
+                    <p>
                     Please find the tentative schedule of the conference here. Accepted submissions will be published in
                     the
-                    ACM digital library as part of the International Conference Proceedings Series (ICPS). </br></br>
+                    ACM digital library as part of the International Conference Proceedings Series (ICPS).
+                    </p>
+                    <div class="logos">
+                        <img src="../img/assets/acm-logo-plain.jpg" height="60" />
+                        <img src="../img/assets/icps-logo-plain.jpg" height="60" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    <img src="../img/assets/acm-logo-plain.jpg" height="75" />
-                    <img src="../img/assets/icps-logo-plain.jpg" height="75" />
-
-                    </br></br>
-                </p>
-                <big><b>Monday, 16th of March 2020</b></big>
+<section id="program-details" class="flip2 ah-organization ah-override" style="background-color: #e0e0e0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <p class="schedule-date">Monday, 16th of March 2020</p>
                 <table>
                     <tr>
-                        <th>Time</th>
-                        <th>Talk</th>
-                        <th></th>
+                        <th class="th-time">Time</th>
+                        <th class="th-talk">Talk</th>
+                        <th class="th-button">Recording</th>
                     </tr>
                     <tr>
                         <td>08:30</td>
@@ -98,7 +85,7 @@ program
                         <td>Coffee Break</td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="timeless">
                         <td></td>
                         <td><b>Session 1: Perception I - Light</b></td>
                         <td>
@@ -162,7 +149,7 @@ program
                         <td>Lunch</td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="timeless">
                         <td></td>
                         <td><b>Session 2: Perception II - Vibration</b></td>
                         <td>
@@ -232,7 +219,7 @@ program
                         <td>Poster and Demo Madness</td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="timeless">
                         <td></td>
                         <td><b>Session 3: Moving and Experiencing the Body</b></td>
                         <td>
@@ -308,13 +295,14 @@ program
                         <td></td>
                     </tr>
                 </table>
-                </br></br></br>
-                <big><b>Tuesday, 17th of March 2020</b></big>
+
+                <p class="schedule-date">Tuesday, 17th of March 2020</p>
+
                 <table>
                     <tr>
-                        <th>Time</th>
-                        <th>Talk</th>
-                        <th></th>
+                        <th class="th-time">Time</th>
+                        <th class="th-talk">Talk</th>
+                        <th class="th-button">Recording</th>
                     </tr>
                     <tr>
                         <td>09:00 - 10:10</td>
@@ -330,7 +318,7 @@ program
                         <td>Coffee Break</td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="timeless">
                         <td></td>
                         <td><b>Session 4: Sports and Gestures</b></td>
                         <td>
@@ -391,8 +379,9 @@ program
                     <tr>
                         <td>12:10 - 13:30</td>
                         <td>Lunch</td>
+                        <td></td>
                     </tr>
-                    <tr>
+                    <tr class="timeless">
                         <td></td>
                         <td><b>Session 5: Cognition</b></td>
                         <td>
@@ -444,7 +433,7 @@ program
                         <td>Coffee Break</td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="timeless">
                         <td></td>
                         <td><b>Session 6: HCI Futures, from Skin to Cells<b></td>
                         <td>
@@ -559,65 +548,62 @@ program
     </div>
 </section>
 
-<section id="" class="flip2 ah-organization ah-override">
+<section id="" class="flip1 ah-organization ah-override">
     <div class="container">
         <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
                 <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-                    <span>Keynotes</span></div>
+                    <span>Keynotes</span>
+                </div>
 
-                <img src="/img/keynote-speaker/stelarc.jpg" width="300" /> <br />
-                <small>Photo taken by Peter Cheng</small>
+                <div class="keynote">
+                    <p class="speaker">Stelarc</p>
+                    <p class="talk-title">>> Contemporary Chimeras: Creepy, Uncanny and Contestable Bodies <<</p>
+                    <div class="photo">
+                        <img class="speaker-photo" src="/img/keynote-speaker/stelarc.jpg"/>
+                        <p class="photo-caption">Photo taken by Peter Cheng</p>    
+                    </div>
+                    <p class="bio">
+                        Stelarc’s projects and performances explore alternate anatomies. His first
+                        projects in 1968 were helmets that split binocular vision. His early actions from 1970 involved
+                        amplifying body signals and sounds as control signals for real-time interaction. Between 1973-1975
+                        he made 3 films of the inside of his body. Between 1976-1988 he realised 27
+                        body suspensions with insertions into his skin, in different positions, in remote locations and in
+                        varying situations. In 1980 the Third Hand, an EMG controlled mechanism, with pinch, grasp and wrist
+                        rotation, was engineered. For the Fifth Australian Sculpture Triennial in 1993 he designed a
+                        sculpture for the inside of his stomach. In 1997 in Hamburg City, Exoskeleton, a 6-legged walking
+                        robot was engineered. Fractal Flesh, Ping Body and Parasite were internet performances that explored
+                        remote and involuntary choreography via a muscle stimulation system. He has surgically constructed
+                        and cell grown an ear on his arm in 2006. The intent is still to electronically augment and internet
+                        enable it. In 2017 with
+                        Propel, he was attached to the end of an industrial robot arm so that his position/orientation,
+                        trajectory and velocity could be precisely programmed. With the Re-Wired / Re-Mixed performance,
+                        2018, for five days, six hours a day in Perth,
+                        he could only see with the eyes of someone in London, only hear with the ears of someone in NY,
+                        whilst anyone, anywhere could choreograph his exoskeleton arm. StickMan is an interactive
+                        installation and performance where the body was actuated by a minimal but full-body exoskeleton. In
+                        1996 he was made an Honorary Professor of Art and Robotics at Carnegie Mellon University, Pittsburgh
+                        and in 2002 was awarded an Honorary Doctorate of Laws by Monash University, Melbourne. In 2010 he
+                        was awarded the Ars Electronica Hybrid Arts Prize. In 2015 he received the Australia Council’s
+                        Emerging and Experimental Arts Award. In 2016 he was awarded an Honorary Doctorate from the Ionian
+                        University, Corfu.
+                        Between 2013 – 2018 Stelarc was a Distinguished Research Fellow, School of Media, Creative Arts and
+                        Social Inquiry (MCASI), Curtin University, Perth. His artwork is represented by Scott Livesey
+                        Galleries, Melbourne.
+                    </p>
+                </div>
 
-
-                <br />
-                <p><big><b>Stelarc</b></big></p> <br />
-
-                <p>
-                    <b>Title:</b> "Contemporary Chimeras: Creepy, Uncanny and Contestable Bodies"
-                </p>
-
-                <p align="justify">
-                    <b>Biography:</b> Stelarc’s projects and performances explore alternate anatomies. His first
-                    projects in 1968 were helmets that split binocular vision. His early actions from 1970 involved
-                    amplifying body signals and sounds as control signals for real-time interaction. Between 1973-1975
-                    he made 3 films of the inside of his body. Between 1976-1988 he realised 27
-                    body suspensions with insertions into his skin, in different positions, in remote locations and in
-                    varying situations. In 1980 the Third Hand, an EMG controlled mechanism, with pinch, grasp and wrist
-                    rotation, was engineered. For the Fifth Australian Sculpture Triennial in 1993 he designed a
-                    sculpture for the inside of his stomach. In 1997 in Hamburg City, Exoskeleton, a 6-legged walking
-                    robot was engineered. Fractal Flesh, Ping Body and Parasite were internet performances that explored
-                    remote and involuntary choreography via a muscle stimulation system. He has surgically constructed
-                    and cell grown an ear on his arm in 2006. The intent is still to electronically augment and internet
-                    enable it. In 2017 with
-                    Propel, he was attached to the end of an industrial robot arm so that his position/orientation,
-                    trajectory and velocity could be precisely programmed. With the Re-Wired / Re-Mixed performance,
-                    2018, for five days, six hours a day in Perth,
-                    he could only see with the eyes of someone in London, only hear with the ears of someone in NY,
-                    whilst anyone, anywhere could choreograph his exoskeleton arm. StickMan is an interactive
-                    installation and performance where the body was actuated by a minimal but full-body exoskeleton. In
-                    1996 he was made an Honorary Professor of Art and Robotics at Carnegie Mellon University, Pittsburgh
-                    and in 2002 was awarded an Honorary Doctorate of Laws by Monash University, Melbourne. In 2010 he
-                    was awarded the Ars Electronica Hybrid Arts Prize. In 2015 he received the Australia Council’s
-                    Emerging and Experimental Arts Award. In 2016 he was awarded an Honorary Doctorate from the Ionian
-                    University, Corfu.
-                    Between 2013 – 2018 Stelarc was a Distinguished Research Fellow, School of Media, Creative Arts and
-                    Social Inquiry (MCASI), Curtin University, Perth. His artwork is represented by Scott Livesey
-                    Galleries, Melbourne.
-                </p><br />
-
-
-                <img src="/img/keynote-speaker/hornbaek.jpg" width="300" /> <br />
-                <br />
-                <p><big><b>Kasper Hornbæk</b></big></p> <br />
-
-                <p>
-                    <b>Title:</b> TBA
-                </p>
-
-                <p align="justify">
-                    <b>Biography:</b> Kasper Hornbæk is a Professor in Computer Science at the University of Copenhagen.
+                
+                <div class="keynote">
+                    <p class="speaker">Kasper Hornbæk</p>
+                    <p class="talk-title">>> TBA <<</p>
+                    <div class="photo">
+                        <img class="speaker-photo" src="/img/keynote-speaker/hornbaek.jpg"/>
+                        <!-- <p class="photo-caption">Photo taken by Peter Cheng</p>  -->   
+                    </div>
+                    <p class="bio">
+                    Kasper Hornbæk is a Professor in Computer Science at the University of Copenhagen.
                     He received his PhD from the
                     University of Copenhagen in 2002. Hornbæk’s work has contributed to HCI in two important ways.
                     First, he and his
@@ -632,18 +618,17 @@ program
                     of interaction, analysed what it means that a user interface is subtle, and outlined the key types
                     of problems addressed
                     in HCI. Currently, Hornbæk works on body-based user interfaces and human-computer integration.
-                </p><br />
-
-                <img src="/img/keynote-speaker/kasneci.jpg" width="300" /> <br />
-                <br />
-                <p><big><b>Enkelejda Kasneci</b></big></p> <br />
-
-                <p>
-                    <b>Title:</b> "It’s in Your Eyes – How Eye Tracking will Shape our Future"
                 </p>
+            </div>
 
-                <p align="justify">
-                    <b>Biography:</b> Enkelejda Kasneci is a Full Professor of Computer Science at the University of
+            <div class="keynote">
+                    <p class="speaker">Enkelejda Kasneci</p>
+                    <p class="talk-title">>> It’s in Your Eyes – How Eye Tracking will Shape our Future <<</p>
+                    <div class="photo">
+                        <img class="speaker-photo" src="/img/keynote-speaker/kasneci.jpg"/>
+                        <!-- <p class="photo-caption">Photo taken by Peter Cheng</p>     -->
+                    </div>
+                    <p class="bio">Enkelejda Kasneci is a Full Professor of Computer Science at the University of
                     Tübingen, Germany, where she leads the
                     Human-Computer Interaction Group. As a BOSCH-scholar, she received her M.Sc. degree in Computer
                     Science from the
@@ -658,8 +643,7 @@ program
                     LeadersLikeHer, the world’s first open career network for women from industrial, research and public
                     organizations.
                 </p>
-
-
+            </div>
             </div>
             <div class="col-lg-1"></div>
         </div>
