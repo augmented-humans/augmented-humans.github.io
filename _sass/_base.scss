@@ -443,7 +443,10 @@ section {
 }
 
 footer {
-  height: 135px;
+  height: 145px;
+  @media (max-width: 768px) {
+    height: 200px;
+  }
   background-color: #222222;
   padding: 30px 0;
   color: rgba(255, 255, 255, 0.3);
@@ -982,13 +985,6 @@ header.masthead#kw-project-header {
 
   &.flip2 {
     background-color: #d0ebe2;
-    p {
-      color: #131313;
-    }
-  }
-
-  &.flip3 {
-    background-color: white;
     p {
       color: #131313;
     }
