@@ -1268,3 +1268,13 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 .zoom-container {
   margin-bottom: 40px;
 }
+
+.prefooter-logos {
+  background-color: white;
+  text-align: center;
+  img {
+    height: 50px;
+    display: inline;
+    margin: 30px 10px 30px 10px;
+  }
+}
