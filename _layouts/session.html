@@ -38,8 +38,15 @@
                 <h1>{{ page.session_title }}</h1>
             </div>
             <div class="session-description">
-                {{ page.session_description | newline_to_br }}
+                <p>{{ page.session_description | newline_to_br }}</p>
             </div>
+            
+            {% if page.zoom_url %}
+                <div class="zoom-container">
+                  <p>We are using Zoom platform to record and stream the sessions in real time.</p>
+                    <a style="margin-left: auto; margin-right: auto; display: block" class="btn btn-small" href="{{ page.zoom_url }}">Watch on Zoom</a>
+                </div>
+            {% endif %}
 
             {% if page.video %}
                 <div class="youtube-container">
