@@ -987,6 +987,13 @@ header.masthead#kw-project-header {
     }
   }
 
+  &.flip3 {
+    background-color: white;
+    p {
+      color: #131313;
+    }
+  }
+
 }
 
 .ah-organization.ah-override {
@@ -1377,6 +1384,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 .keynote {
   padding: 30px;
   background-color: #dbffee;
+  box-shadow: 20px 20px #d6f7df80;
   .speaker-photo {
     width: 100%;
     display: block;
