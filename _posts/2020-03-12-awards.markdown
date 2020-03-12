@@ -14,7 +14,7 @@ Have you ever wondered how the best paper award is selected? So have we. This ye
 
 An easy way might be to simply chose the paper with the highest review scores. However, this would penalize authors who received reviews by some of the more critical members of the program committee (you know who you are…:-D …). Another method which was suggested to us was the program chairs make this decision. This, however, would bias the selected paper towards the research we personally find interesting, which again, does not feel right.
 
-With the help of our awards chair -- Yuta Itoh -- we came up with the following process: We put together an awards committee which consists combines all levels of seniority: from researchers who have recently received their PhD to senior members of our Steering committee. Committee members are from a range of geographic locations, and their research represents a range of approaches towards human augmentation. 
+With the help of our awards chair -- Yuta Itoh -- we came up with the following process: We put together an awards committee which combines all levels of seniority: from researchers who have recently received their PhD to senior members of our Steering committee. Committee members are from a range of geographic locations, and their research represents a range of approaches towards human augmentation. 
 
 Based on the review scores, the program chairs selected 11 papers which might potentially receive the award. The committee are currently ranking these. The final ranking will be calculated based on the harmonic mean of the rankings (Why the harmonic mean? Who are the committee members? Scroll to the bottom of this post for more info).
 
@@ -35,11 +35,11 @@ We originally had plans for a Best Talk, Best Poster and Best Demo award. Due to
 
 Best Paper Committee
 ============
-Yuta Itoh (Chair)
-Masahiko Inami
-Pedro Lopes
-Cindy Hsin-Liu Kao
-Aske Mottelson
+Yuta Itoh (Chair) <br>
+Masahiko Inami <br>
+Pedro Lopes <br>
+Cindy Hsin-Liu Kao <br>
+Aske Mottelson <br>
 Yamen Saraiji
 
 Why Harmonic Mean?
@@ -49,8 +49,8 @@ We wish to recognize excellence and bold ideas. These are prone to be controvers
 Let’s compare some hypothetical scores:
 
 Paper A: 2, 3, 3, 3, 4         
-Paper B: 1, 1, 1, 2, 8
-Paper C: 1, 1, 4, 5, 5
+Paper B: 1, 1, 1, 2, 8 <br>
+Paper C: 1, 1, 4, 5, 5 <br>	
 Paper D: 2, 4, 5, 4, 5
 
 Intuitively papers B & C appear to be strong contenders for the award, because these were the papers that committee members felt were #1. Paper A seems like a strong contender, but nobody actually thought that it clearly deserved first place. Paper D should probably not get the award.
@@ -58,8 +58,8 @@ Intuitively papers B & C appear to be strong contenders for the award, because t
 These papers would have the following arithmetic means (aM) and harmonic means (hM):
 
 Paper A: aM 3.0, hM 2.8   
-Paper B: aM 3.2, hM 1.4 
-Paper C: aM 3.2, hM 1.9 
+Paper B: aM 3.2, hM 1.4  <br>
+Paper C: aM 3.2, hM 1.9  <br>
 Paper D: aM 4.0, hM 3.6
 
 We see that, using the arithmetic mean, paper A, which was nobodies first choice, has the best score. The papers which ranked as #1 by committee members, are in second and third place. Using the harmonic mean, this is no longer the case, the papers which received the most #1 placements, are now ranked highest. Paper A, which is solid but nobodies first choice, no longer wins the award. Paper D comes in last – as it should – using both methods. We believe the harmonic mean is best suited for selecting an excellent paper, which presents a bold idea.
