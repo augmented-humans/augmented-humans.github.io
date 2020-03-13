@@ -189,6 +189,23 @@ description: "Location"
   </div>
 </section>
 
+<section id="" class="kw-committee-section flip1 ah-organization ah-override">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.organization.best-paper-title }}</span></div>
+        {% assign description_paragraphs = site.data.organization.best-paper | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
 <section id="steering" class="kw-committee-section flip ah-organization ah-override">
   <div class="container">
     <div class="row">
