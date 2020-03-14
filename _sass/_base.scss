@@ -745,6 +745,7 @@ header.masthead {
     .masthead-subheading {
       font-family: 'Work Sans', sans-serif;
       opacity: 0.8;
+      //padding: 5px;
       // font-size: 0.88*1.5rem;
       color: $color-white;
       background-color: rgba(0,0,0,0.7);
@@ -757,6 +758,24 @@ header.masthead {
     background: linear-gradient(0deg, $color-highlight 0%, $color-dblue 100%);
   }
 }
+
+.masthead-subheading-notice {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      //text-align: justify;
+      padding: 10px;
+      opacity: 0.8;
+      color: black;
+      // font-size: 0.88*1.5rem;
+     // color: $color-white;
+      //background-color: #31708f;
+      background-color: $color-highlight;
+      //box-shadow: 0px -2px white;
+      display: block;
+      margin-bottom: 40px;
+      //position: absolute;
+    }
 
 @media (min-width: 992px) {
   header.masthead {

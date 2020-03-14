@@ -4,6 +4,11 @@
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
             <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left"><span>{{ site.data.landing.about-title }}</span></div>
+            
+            {% if site.data.landing.show_notice == true %}
+              <h2 class="masthead-subheading-notice">{{ site.data.landing.notice }}</h2>
+            {% endif %}
+
             {% assign description_paragraphs = site.data.landing.about | newline_to_br | split:'<br />' %}
             {% for paragraph in description_paragraphs %}
               <p>{{ paragraph }}</p>
