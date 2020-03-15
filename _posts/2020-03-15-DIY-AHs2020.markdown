@@ -1,6 +1,6 @@
 ---
 layout:     article
-title:      How to AHs2020 at home (Now with additional Signage)
+title:      How to AHs2020 at home (Introducing the <i>Build Your Own Conference</i> Kit)
 date:       2020-03-15 00:00:00
 author:     Paul Strohmeier
 published:  true
