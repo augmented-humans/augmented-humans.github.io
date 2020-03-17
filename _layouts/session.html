@@ -43,6 +43,13 @@
                 </div>
             {% endif %}
 
+            {% if page.pdf_url %}
+                <div class="zoom-container">
+                  <p>You can find the PDF of the paper here</p>
+                    <a style="margin-left: auto; margin-right: auto; display: block" class="btn btn-small" href="{{ page.pdf_url }}">View PDF</a>
+                </div>
+            {% endif %}
+
             {% if page.video %}
                 <div class="youtube-container">
                     <iframe class="youtube-video" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
