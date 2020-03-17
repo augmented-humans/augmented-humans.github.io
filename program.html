@@ -266,7 +266,10 @@ description: "Program"
                                 Hirata</br>
                             </small>
                         </td>
-                        <td></td>
+                        <td>{% assign session_id = "16032020-1510-1530" %}
+                            {% if site.data.sessions[session_id].published == true %}
+                            <a class="btn btn-small" href="/sessions/{{ session_id }}">Watch</a>
+                            {% endif %}</td>
                     </tr>
                     <tr class="timeless">
                         <td></td>
