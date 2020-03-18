@@ -1476,4 +1476,22 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     font-family: "Work Sans", sans-serif;
     font-size: 18px;
   }
+
+  #mce-responses {
+    font-family: "Work Sans", sans-serif !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    #mce-error-response {
+      color: $color-black !important;
+      margin: 0 0 20px 0 !important;
+      padding: 0 !important;
+    }
+    #mce-success-response {
+      color: $color-black !important;
+      margin: 0 0 20px 0 !important;
+      margin-bottom: 10px;
+      padding: 0 !important;
+    }
+  }
 }
