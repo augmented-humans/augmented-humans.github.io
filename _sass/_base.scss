@@ -1438,7 +1438,42 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 .kw-program-top {
   border-bottom: 8px #f5f5f5 solid;
   background-color: white !important;
-//   background: rgb(255,255,255);
-// background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(224,224,224,1) 100%);
-// padding-bottom: 00px;
+}
+
+.kw-maillist {
+  border-top: 5px solid white;
+  height: 400px;
+  background-color: #e6e6e6;
+  // background-color: #d0ebe2;
+  padding-top: 30px;
+  
+  .kw-section-title {
+    padding-bottom: 0;
+    span {
+      // border-color: #ababab !important;
+    }
+  }
+
+  .button {
+    font-family: 'Tillium Web', sans-serif;
+    background-color: $color-highlight !important;
+    color: black !important;
+    text-transform: uppercase;
+    // padding: 15px 50px;
+    width: 200px !important;
+    height: 45px !important;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: 0.5s ease-in-out;
+    border-radius: 0 !important;
+    &:hover {
+      background-color: darken($color-highlight, 10%) !important;
+      transition: 0.5s ease-in-out;
+    }
+  }
+  label {
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+  }
 }
