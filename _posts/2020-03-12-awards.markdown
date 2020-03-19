@@ -16,7 +16,7 @@ An easy way might be to simply chose the paper with the highest review scores. H
 
 With the help of our awards chair -- Yuta Itoh -- we came up with the following process: We put together an awards committee which combines all levels of seniority: from researchers who have recently received their PhD to senior members of our Steering committee. Committee members are from a range of geographic locations, and their research represents a range of approaches towards human augmentation. 
 
-Based on the review scores, the program chairs selected 11 papers which might potentially receive the award. The committee are currently ranking these. The final ranking will be calculated based on the harmonic mean of the rankings (Why the harmonic mean? Who are the committee members? Scroll to the bottom of this post for more info).
+Based on the review scores, the program chairs selected 10 papers which might potentially receive the award. The committee are currently ranking these. The final ranking will be calculated based on the harmonic mean of the rankings (Why the harmonic mean? Who are the committee members? Scroll to the bottom of this post for more info).
 
 Lasting Impact and Special Recognition Award
 ============
@@ -40,11 +40,12 @@ Masahiko Inami <br>
 Pedro Lopes <br>
 Cindy Hsin-Liu Kao <br>
 Aske Mottelson <br>
-Yamen Saraiji
+Yamen Saraiji <br>
+Marc Teyssier
 
 Why Harmonic Mean?
 ============
-We wish to recognize excellence and bold ideas. These are prone to be controversial. We would prefer to give the award to a paper which 3 people loved, and 2 people hated, than to a paper which everyone felt look-warm about. Also, while we assume that the difference between the paper ranked #1 and ranked #2 is very relevant, we probably care less about the difference between #10 and #11.
+We wish to recognize excellence and bold ideas. These are prone to be controversial. We would prefer to give the award to a paper which 3 people loved, and 2 people hated, than to a paper which everyone felt look-warm about. Also, while we assume that the difference between the paper ranked #1 and ranked #2 is very relevant, we probably care less about the difference between #9 and #10.
 
 Let’s compare some hypothetical scores:
 
