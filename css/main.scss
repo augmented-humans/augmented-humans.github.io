@@ -34,10 +34,10 @@
 // }
 
 // variables.less link and gradient background
-$head-primary: #7b4397 ;
-$head-secondary: #dc2430 ;
-$theme-primary: #00ff9f ;
-$theme-secondary: #193f82 ;
+$head-primary: #385566 ;
+$head-secondary: #243c46 ;
+$theme-primary: #527aac; //#385566; //   00ff9f ;
+$theme-secondary: #abc6e6;//#527aac; //#5e7cbd;
 $theme-dark: #222;
 
 $color-lblue: #29b7ea;
@@ -46,7 +46,7 @@ $color-black: #161616;
 $color-grey: #8e8e8e;
 $color-white: #fff;
 
-$color-highlight: #00ff9f;
+$color-highlight: #abc6e6; //#00ff9f;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
