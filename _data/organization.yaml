@@ -2,108 +2,89 @@ page-title: << Organization >>
 
 general-co-chairs-title: General Co-Chairs
 general-co-chairs: |
-  Bo Zhou, DFKI Kaiserslautern, Germany
-  Jingyuan Cheng, University of Science and Technology of China, China
+  Jonna Häkkilä, University of Lapland, Finland
+  Pedro Lopes, University of Chicago, USA
+  Thomas Kosch, LMU Munich, Germany
 
 program-chairs-title: Program Chairs
 program-chairs: |
-  Shoya Ishimaru, DFKI Kaiserslautern, Germany
-  Thomas Kosch, LMU Munich, Germany
   Paul Strohmeier, Saarland University, Germany
+  Yomna Abdelrahman, Bundeswehr University Munich, Germany
 
-poster-demo-chairs-title: Poster and Demo Chairs
-poster-demo-chairs: |
-  Benjamin Tag, Melbourne University, Australia.
-  Yun Suen Pai, University of Auckland, New Zealand
+poster-chairs-title: Poster Chairs
+poster-chairs: |
+  Jun Nishida, University of Chicago, USA
+  Matthias Hoppe, LMU Munich, Germany
   Karola Marky, TU Darmstadt, Germany
-  Erik Pescara, KIT, Germany
 
-media-chairs-title: Media & Design Chair
-media-chairs: |
+demo-chairs-title: Demo Chairs
+demo-chairs: |
+  Ashley Colley, University of Lapland, Finland
+  Midori Kawaguchi, Tokyo Institute of Technology, Japan
+  Shan Yuan Teng, University of Chicago, USA
+  Cindy Kao, Cornell University, USA
+
+
+publication-chairs-title: Publication Chairs
+publication-chairs: |
+  Jasmin Niess, University of Luxembourg, Luxembourg
+  Hong Li, University of Lapland, Finland
+
+sv-chairs-title: Student Volunteer Chairs
+sv-chairs: |
+  Caglar Genc, University of Lapland, Finland
+
+design-chairs-title: Design Exhibition Chairs
+design-chairs: |
+  Minna Pakanen, University of Aarhus, Denmark
   Marion Koelle, Saarland University, Germany
+  Katia Vega, UC Davis, USA
 
 awards-chairs-title: Awards Chair
 awards-chairs: |
-  Yuta Itoh, Tokyo Institute of Technology, Japan
+  Sang-Won Leigh, Georgia Tech, USA
+
+web-chairs-title: Web Chairs
+web-chairs: |
+  Ashley Colley, University of Lapland, Finland
+
+video-chairs-title: Video Chairs
+video-chairs: |
+    TBA
+
+operations-chairs-title: Operations Chairs
+operations-chairs: |
+    Erik Pescara,	University of Karlsruhe, Germany
+    Marc Teyssier, Saarland University, Germany
+    Benjamin Tag, University of Melbourne, Australia
 
 social-media-chairs-title: Social Media Chair
 social-media-chairs: |
-  Passant El.Agroudy, University of Stuttgart, Germany
+  Jas Brooks, University of Chicago, USA
 
-video-chairs-title: Video Capture Chair
-video-chairs: |
-  Matthias Hoppe, LMU Munich, Germany
+dc-chairs-title: Doctoral Consortium Panel
+dc-chairs: |
+  Kai Kunze, Keio University, Japan
+  Pawel Wozniak, Utrecht University, Netherlands
+  Kaisa Väänänen, Tampere University, Finland
+  Albrecht Schmidt, LMU Munich, Germany
 
-web-chairs-title: Web Chair
-web-chairs: |
-  Kirill Ragozin, Keio University, Japan
 
 program-comittee-title: Program Committee
 program-comittee: |
-  Johannes Schoening, University of Bremen, Germany
-  Athanasios Vourvopoulos, Institute for Systems and Robotics, Universidade de Lisboa, Portugal
-  Christian Holz, ETH Zürich, Switzerland
-  Ian Oakley, Ulsan National Institute of Science and Technology, Korea
-  Raphael Wimmer, University of Regensburg, Germany
-  Ashley Colley, University of Lapland, Finland
-  Cathal Gurrin, Dublin City University, Ireland
-  Yomna Abdelrahman, Bundeswehr University Munich
-  Marion Koelle, Saarland University, Germany
-  Anton Nijholt, University of Twente, Netherlands
-  Masaaki Fukumoto, Microsoft Research, Japan
-  Yuta Itoh, Tokyo Institute of Technology, Japan
-  Gionata Salvietti, University of Siena, Italy
-  Jakob Karolus, LMU Munich, Germany
-  Samitha Elvitigala, University of Auckland, New Zealand
-  Jong-Il Park, Hanyang University, Korea
-  Geehyuk Lee, KAIST, Korea
-  Niels Henze, University of Regensburg, Germany
-  Haimo Zhang, University of Auckland, New Zealand
-  Yvonne Rogers, University College London, UK
-  Marian Haescher, Fraunhofer IGD Rostock, Germany
-  Yuichi Kurita, Hiroshima University, Japan
-  Pedro Lopes, University of Chicago, USA
-  Martin Kocur, University of Regensburg, Germany
-  Mariam Hassib, Bundeswehr University Munich, Germany
-  Denys J.C. Matthies, University of Auckland / Technical University of Applied Sciences Lübeck
-  Roshan Peiris, Rochester Institute of Technology, USA
-  Yamen Saraiji, Keio University, Japan
-  Kristof Van Laerhoven, University of Siegen, Germany
-  Tsutomu Terada, University of Kobe, Japan
-  Tonja Machulla, LMU Munich, Germany
-  Jasmin Niess, University of Luxembourg, Luxembourg
-  Stefan Schneegaß, University of Duisburg-Essen, Germany
-  Pawel Wozniak, Utrecht University, Netherlands
-  Kris Luyten, Hasselt University, Belgium
-  Jürgen Steimle, Saarland University, Germany
-  Jochen Huber, Synaptics
-  Martin Weigel, Honda Research Institute Europe, Germany
-  Jean-Marie Normand, Ecole Centrale de Nantes, France
-  Jan Gugenheimer, University of Ulm, Germany
-  Kouta Minamizawa, Keio University, Japan
-  Daniel Wessolek, Independent, Berlin, Germany
+   Updated soon
 
-steering-title: Steering committee
+steering-title: Steering Committee
 steering: |
-  Masahiko Inami, The University of Tokyo, Japan
-  Albrecht Schmidt, LMU Munich, Germany
-  Pattie Maes, MIT Cambridge, USA
-  Woontack Woo, KAIST, Korea
-  Ellen Yi-Luen Do, University of Colorado Boulder, USA
-  Paul Lukowicz, DFKI Kaiserslautern, Germany
-  Suranga Nanayakkara, University of Auckland, New Zealand
-  Tsutomu Terada, University of Kobe, Japan
-  Jun Rekimoto, The University of Tokyo, Japan
-  Katrin Wolf, Hamburg University for Applied Sciences, Germany
-  Hideki Koike, Tokyo Institute of Technology, Japan
-  Kai Kunze, Keio University, Japan
-  
-best-paper-title: Best Paper Committee
-best-paper: |
-  Yuta Itoh (Chair)
-  Masahiko Inami
-  Pedro Lopes
-  Cindy Hsin-Liu Kao
-  Aske Mottelson
-  Yamen Saraiji
-  Marc Teyssier
+    Masahiko Inami, The University of Tokyo, Japan
+    Albrecht Schmidt, LMU Munich, Germany
+    Pattie Maes, MIT Cambridge, USA
+    Woontack Woo, KAIST, Korea
+    Ellen Yi-Luen Do, University of Colorado Boulder, USA
+    Paul Lukowicz, DFKI Kaiserslautern, Germany
+    Suranga Nanayakkara, University of Auckland, New Zealand
+    Tsutomu Terada, University of Kobe, Japan
+    Jun Rekimoto, The University of Tokyo, Japan
+    Katrin Wolf, Hamburg University for Applied Sciences, Germany
+    Hideki Koike, Tokyo Institute of Technology, Japan
+    Kai Kunze, Keio University, Japan

@@ -1,8 +1,13 @@
-page-title: << Previous conferences >>
+page-title: << Previous Conferences >>
 
 title: Conferences
 
-conferences: 
+conferences:
+  - AHs2020 Augmented Humans International Conference 2020
+    Kaiserslautern, Germany / Online - March 16-17, 2020
+    <a href="https://2020.augmented-humans.org">Website</a>
+    <a href="https://dl.acm.org/doi/proceedings/10.1145/3384657">ACM DL</a>
+
   - AH2019 Augmented Human International Conference 2019
     Reims, France — March 11 - 12, 2019
     <a href="https://dl.acm.org/citation.cfm?id=3311823">ACM DL</a>
