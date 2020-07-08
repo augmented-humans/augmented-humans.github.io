@@ -36,7 +36,7 @@ body {
   margin: 0 0; /* bottom = footer height */
   display: flex;
   flex-direction: column;
-  background-color: #d0ebe2;
+  background-color: $theme-secondary;
 }
 
 a {
@@ -204,7 +204,7 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  // height: 100%; 
+  // height: 100%;
   // background-position: center;
   // background-repeat: no-repeat;
   // background-size: cover;
@@ -710,7 +710,7 @@ header.masthead {
     max-height: 205px;
     padding-top: 0;
     background-image: none;
-    background-color: #00e48e;
+    background-color: $theme-primary; //#00e48e;
   }
   background-repeat: no-repeat;
   background-position: center center;
@@ -737,18 +737,23 @@ header.masthead {
     position: relative;
     .masthead-heading {
       // font-size:0.88*1rem;
-      font-family: 'Titillium Web', sans-serif;
+      text-align: center;
+      margin: auto; // centers it
+      font-family: 'Work Sans', sans-serif;
       font-weight: 100;
       color: $color-white;
-      background-color: rgba(0,0,0,0.7);
+      background-color: rgba(0,0,0,0.4);
     }
     .masthead-subheading {
+      text-align: center;
+      margin: auto; // centers it
+      margin-top:2%;
       font-family: 'Work Sans', sans-serif;
       opacity: 0.8;
       //padding: 5px;
       // font-size: 0.88*1.5rem;
       color: $color-white;
-      background-color: rgba(0,0,0,0.7);
+      background-color: rgba(0,0,0,0.4);
     }
   }
   .bg-circle {
@@ -787,15 +792,16 @@ header.masthead {
     .masthead-content {
       .masthead-heading {
         font-size: 0.88*3.5rem;
-        font-weight: 600;
-        font-family: 'Titillium Web', sans-serif;
+        //font-weight: 600;
+        //letter-spacing: 0.1rem;
+        font-family: 'Work Sans', sans-serif;
         max-width: 80%;
       }
       .masthead-subheading {
         font-family: 'Work Sans', serif;
         font-size: 0.88*2rem;
         opacity: 0.8;
-        max-width: 50%;
+        max-width: 80%;
       }
     }
   }
@@ -847,7 +853,7 @@ header.masthead {
 // MONKEY PATCHING BELOW
 
 .kw-section {
-  padding-top: 20px;  
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -919,7 +925,7 @@ footer {
     span {
       display: inline-block;
       border-style: double;
-      border-color: white;
+      border-color: $color-black;
       // border-bottom: 10px solid $color-highlight;
     }
   }
@@ -929,7 +935,7 @@ footer {
     span {
       display: inline-block;
       border-style: double;
-      border-color: white;
+      border-color: $color-black;
       // border-bottom: 10px solid $color-highlight;
     }
   }
@@ -996,14 +1002,14 @@ header.masthead#kw-project-header {
     // background-color: #b7e5e3;
     // background-color: #00b8ff;
     // background-color: #00ea92;
-    background-color: #00e48e8e;
+    background-color: $theme-primary;  //#00e48e8e;
     p {
       color: #131313;
     }
   }
 
   &.flip2 {
-    background-color: #d0ebe2;
+    background-color: $theme-secondary; //#d0ebe2;
     p {
       color: #131313;
     }
@@ -1085,7 +1091,7 @@ header.masthead#kw-project-header {
 
 #contact {
   margin-top: -20px;
-  background-color: #d0ebe2;
+  background-color: $theme-secondary; //#d0ebe2;
   color: black;
   label {
     font-family: 'Noto Serif', serif;
@@ -1386,7 +1392,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       // padding-bottom: 66px;
       // background-color: white;
       opacity: 0.85;
-      
+
       .logos {
         background-color: white;
         // text-align: center;
@@ -1398,8 +1404,8 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 
 .keynote {
   padding: 30px;
-  background-color: #dbffee;
-  box-shadow: 20px 20px #d6f7df80;
+  background-color: $theme-secondary; //#dbffee;
+  box-shadow: 20px 20px #ffffff40;
   .speaker-photo {
     width: 100%;
     display: block;
@@ -1446,7 +1452,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   background-color: #e6e6e6;
   // background-color: #d0ebe2;
   padding-top: 30px;
-  
+
   .kw-section-title {
     padding-bottom: 0;
     span {
