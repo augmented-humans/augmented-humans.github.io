@@ -1,8 +1,8 @@
 # Site settings
-title: Augmented Humans Conference 2020
+title: Augmented Humans Conference 2021
 email: info@dfki.de
 url: https://augmented-humans.org
-description: "The Augmented Humans (AH) International Conference will be held in Kaiserslautern, Germany, on March 16-17, 2020, focusing on physical, cognitive, and perceptual augmenting humans through digital technologies."
+description: "The Augmented Humans (AH) International Conference will be held as a hybrid conference in Rovaniemi, Finland and Online, focusing on physical, cognitive, and perceptual augmenting humans through digital technologies."
 keywords: "Augmented Human, HCI, Human Computer Integration, Computer Science"
 meta_author: Augmented Humans
 baseurl: ""
@@ -17,7 +17,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 10
 paginate_path: "/blog/page:num/"
-defaults: 
+defaults:
   - scope:
       path: "img/posts/**"
       path: "sessions/**"
