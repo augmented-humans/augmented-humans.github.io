@@ -2,7 +2,7 @@ page-title: << Awards >>
 
 about-title: Awards
 about: |
-  The Augmented Humans Conference awards a best paper award, honorable mention awards, and a lasting impact award. More information on the awards procedure for AHs 2021 will be posted here.
+  The Augmented Humans Conference awards a best paper award, honorable mention awards, a special recognition award, and a lasting impact award. More information on the awards procedure for AHs 2021 will be posted here.
 
 past-awards-title: Past Awards 2020
 
@@ -27,6 +27,12 @@ awards-2020: |
   Akira Matsuda, Kazunori Nozawa, Kazuki Takata, Atsushi Izumihara and Jun Rekimoto
   <a href="https://doi.org/10.1145/3384657.3384777" target="_blank">ACM DL</a>
   <a href="https://www.youtube.com/watch?v=RGGoE-QzaLA&feature=emb_title">Video</a>
+
+  <b>Special Recognition Award</b>
+
+  PossessedHand&#58; techniques for controlling human hands using electrical muscles stimuli
+  Emi Tamaki, Takashi Miyaki and Jun Rekimoto
+  <a href="https://doi.org/10.1145/1978942.1979018" target="_blank">ACM DL</a>
   
   <b>Lasting Impact Award</b>
 

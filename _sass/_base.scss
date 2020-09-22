@@ -1028,6 +1028,14 @@ header.masthead#kw-project-header {
   // padding-bottom: 20px !important;
 }
 
+.ah-awards.ah-override {
+  a {
+    &:hover, &:focus {
+      color: $color-white;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   #geist-description p {
     font-size: 17px;
