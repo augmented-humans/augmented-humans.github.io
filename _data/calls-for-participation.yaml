@@ -29,12 +29,11 @@ topics: |
 categories-title: Submission categories & Instructions
 categories: |
 
-  Full papers – up to 10 pages, anonymized, 15 + 5 minutes presentation, and invited demo
-  Short papers - 4 pages, anonymized, 7 + 3 minutes presentation
-  Pictorials - TBA
-  Demonstration papers - 2 pages, anonymized, demonstration at conference
-  Poster papers - 2 pages, anonymized, presented at conference
-  Design exhibition - 1–2 pages, exhibited at conference
+  Full papers – up to 10 pages excluding references, anonymized, 15 + 5 minutes presentation, and invited demo
+  Short papers - 4 pages excluding references, anonymized, 7 + 3 minutes presentation
+  Demonstration papers - 2 pages excluding references, anonymized, excluding references, demonstration at the conference
+  Poster papers - 2 pages excluding references, anonymized, presented at the conference
+  Design exhibition - up to 4 pages excluding references, exhibited at conference
 
   All page lengths are excluding citations. All submission types use the following ACM compliant Latex or Word template: [TBA].
 
@@ -45,11 +44,11 @@ categories: |
 
 deadlines-title: Submission Deadlines
 deadlines: |
-  Submission Deadline : Full Papers - 15th November 2020, 
-  Submission Deadline : Short Papers, Posters, Demos, Pictorials - TBD
-  Reviews Due: [TBA]
-  Author Acceptance/Rejection : [TBA]
-  Camera-ready Deadline : [TBA]
+  Submission Deadline : Full papers, short papers - 21st November 2020 (AoE), Notification: January 18th 
+  Submission Deadline : Posters, Demos, Pictorials, Design exhibitions - January 22nd (AoE), Notification: January 31st
+# Reviews Due: [TBA]
+# Author Acceptance/Rejection : [TBA]
+# Camera-ready Deadline : [TBA]
 # Feb 3rd, 2020
 # Feb 6th, 2020
 # <s>Jan 9th</s> Jan 16th, 2020 (anywhere on earth)
