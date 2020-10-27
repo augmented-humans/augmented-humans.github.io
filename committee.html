@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Augmented Humans 2020 | Program committee"
+title: "Augmented Humans 2021 | Program committee"
 description: "Location"
 ---
 <!-- Contact Section -->
@@ -26,9 +26,10 @@ description: "Location"
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
           <span>{{ site.data.organization.general-co-chairs-title }}</span></div>
-        {% assign description_paragraphs = site.data.organization.general-co-chairs | newline_to_br | split:'<br />' %}
+        {% assign description_paragraphs = site.data.organization.general-co-chairs %}
         {% for paragraph in description_paragraphs %}
-        <p>{{ paragraph }}</p>
+          <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="200px" />
+          <p>{{ paragraph.name }}</p>
         {% endfor %}
       </div>
       <div class="col-lg-1"></div>

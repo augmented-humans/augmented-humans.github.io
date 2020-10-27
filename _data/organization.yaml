@@ -1,10 +1,16 @@
 page-title: << Organization >>
 
 general-co-chairs-title: General Co-Chairs
-general-co-chairs: |
-  Jonna Häkkilä, University of Lapland, Finland
-  Pedro Lopes, University of Chicago, USA
-  Thomas Kosch, LMU Munich, Germany
+general-co-chairs:
+
+  - name: Jonna Häkkilä, University of Lapland, Finland
+    image: /img/organizers/jonna.jpg
+  
+  - name: Pedro Lopes, University of Chicago, USA
+    image: /img/organizers/pedro.jpg
+
+  - name: Thomas Kosch, LMU Munich, Germany
+    image: /img/organizers/thomas.png
 
 program-chairs-title: Program Chairs
 program-chairs: |
@@ -65,15 +71,39 @@ social-media-chairs: |
 
 dc-chairs-title: Doctoral Consortium Panel
 dc-chairs: |
-  Kai Kunze, Keio University, Japan
-  Pawel Wozniak, Utrecht University, Netherlands
-  Kaisa Väänänen, Tampere University, Finland
-  Albrecht Schmidt, LMU Munich, Germany
+    Kai Kunze, Keio University, Japan
+    Pawel Wozniak, Utrecht University, Netherlands
+    Kaisa Väänänen, Tampere University, Finland
+    Albrecht Schmidt, LMU Munich, Germany
 
 
 program-comittee-title: Program Committee
 program-comittee: |
-   Updated soon
+    Aditya Nittala, Saarland University, Germany
+    Daniel Wessolek, Independent, Berlin, Germany
+    Don Samitha Elvitigala, University of Auckland, New Zealand
+    Enrico Rukzio, Ulm University, Germany
+    Fabien Lotte, Inria Bordeaux Sud-Ouest, France, France
+    Henning Pohl, University of Copenhagen, Denmark
+    Jakob Karolus, LMU Munich, Germany
+    Joanna Bergstrom, University of Copenhagen, Denmark
+    Jochen Huber, Furtwangen University, Germany
+    Kouta Minamizawa, Keio University, Japan
+    Kristof Van Laerhoven, University of Siegen, Germany
+    Marion Koelle, Saarland University, Germany
+    Martin Kocur, University of Regensburg, Germany
+    Martin Weigel, Honda Research, Germany
+    Masaaki Fukumoto, Microsoft, China
+    Nami Ogawa, University of Tokyo, Japan
+    Niels Henze, University of Regensburg, Germany
+    Pawel Wozniak, Utrecht University, Netherlands
+    Raphael Wimmer, University of Regensburg, Germany
+    Roshan Peiris, Rochester Institute of Technology, USA
+    Tonja Machulla, LMU Munich, Germany
+    Valentin Schwind, University of Regensburg, Germany
+    Yamen Saraiji, Keio University, Japan
+    Yuichi Kurita, Hiroshima University, Japan
+    ...
 
 steering-title: Steering Committee
 steering: |
