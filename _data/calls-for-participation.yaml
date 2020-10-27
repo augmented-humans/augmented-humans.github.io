@@ -33,19 +33,22 @@ categories: |
   Short papers - 4 pages excluding references, anonymized, 7 + 3 minutes presentation
   Demonstration papers - 2 pages excluding references, anonymized, excluding references, demonstration at the conference
   Poster papers - 2 pages excluding references, anonymized, presented at the conference
-  Design exhibition - up to 4 pages excluding references, exhibited at conference
+  Design exhibition - up to 6 pages excluding references, exhibited at conference
 
-  All page lengths are excluding citations. All submission types use the following ACM compliant Latex or Word template: [TBA].
+  All page lengths are excluding references. Please use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/paper-poster-demo.zip">SIGCHI two-column format</a> for full papers, short papers, posters, and demos (SigConf template). Use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/design-exhibitions.zip">extended abstract</a> format for design exhibitions
 
   Papers will be reviewed in a double blind process. Each paper will receive 3 reviews.
 
-  Submissions can be made via [TBA].
+  Submissions can be made via [TBA]
 # <a href="https://easychair.org/conferences/?conf=ah20">EasyChair</a>.
+
 
 deadlines-title: Submission Deadlines
 deadlines: |
-  Submission Deadline : Full papers, short papers - 21st November 2020 (AoE), Notification: January 18th 
-  Submission Deadline : Posters, Demos, Pictorials, Design exhibitions - January 22nd (AoE), Notification: January 31st
+  All submission deadlines are Anywhere on Earth (AoE)
+  Full papers, Short papers - 21st November 2020, Notification: January 18th 
+  Posters, Demos - January 22nd, Notification: January 31st
+  Design exhibitions - January 22nd, Notification: January 31st
 # Reviews Due: [TBA]
 # Author Acceptance/Rejection : [TBA]
 # Camera-ready Deadline : [TBA]
