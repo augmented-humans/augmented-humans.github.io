@@ -25,12 +25,17 @@ description: "Location"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.general-co-chairs-title }}</span></div>
-        {% assign description_paragraphs = site.data.organization.general-co-chairs %}
-        {% for paragraph in description_paragraphs %}
-          <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="200px" />
-          <p>{{ paragraph.name }}</p>
-        {% endfor %}
+          <span>{{ site.data.organization.general-co-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.general-co-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            <p>{{ paragraph.name }}<br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
+          </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>

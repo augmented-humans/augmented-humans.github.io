@@ -3,14 +3,20 @@ page-title: << Organization >>
 general-co-chairs-title: General Co-Chairs
 general-co-chairs:
 
-  - name: Jonna Häkkilä, University of Lapland, Finland
-    image: /img/organizers/jonna.jpg
+  - name: Jonna Häkkilä
+    affiliation: University of Lapland
+    country: Finland
+    image: /img/organizers/jonna_haekkilae.jpg
   
-  - name: Pedro Lopes, University of Chicago, USA
-    image: /img/organizers/pedro.jpg
+  - name: Pedro Lopes
+    affiliation: University of Chicago
+    country: USA
+    image: /img/organizers/pedro_lopes.jpg
 
-  - name: Thomas Kosch, LMU Munich, Germany
-    image: /img/organizers/thomas.png
+  - name: Thomas Kosch
+    affiliation: LMU Munich
+    country: Germany
+    image: /img/organizers/thomas_kosch.png
 
 program-chairs-title: Program Chairs
 program-chairs: |

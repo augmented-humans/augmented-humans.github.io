@@ -1015,8 +1015,16 @@ header.masthead#kw-project-header {
     }
   }
 
+  /* organization, potraits of organizers */
   .committe-image {
     border-radius: 50%;
+  }
+
+  .person {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    text-align: center;
   }
 
 }
