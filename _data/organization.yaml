@@ -19,68 +19,159 @@ general-co-chairs:
     image: /img/organizers/thomas_kosch.png
 
 program-chairs-title: Program Chairs
-program-chairs: |
-  Paul Strohmeier, Saarland University, Germany
-  Yomna Abdelrahman, Bundeswehr University Munich, Germany
-  Jun Nishida, University of Chicago, USA
+program-chairs:
+
+  - name: Paul Strohmeier
+    affiliation: Saarland University
+    country: Germany
+    image: /img/organizers/paul_strohmeier.jpg
+  
+  - name: Yomna Abdelrahman
+    affiliation: Bundeswehr University Munich
+    country: Germany
+    image: /img/organizers/yomna_abdelrahman.jpg
+
+  - name: Jun Nishida
+    affiliation: University of Chicago
+    country: USA
+    image: /img/organizers/jun_nishida.jpg
 
 poster-chairs-title: Poster Chairs
-poster-chairs: |
-  Matthias Hoppe, LMU Munich, Germany
-  Karola Marky, TU Darmstadt, Germany
-  Jaeyeon Lee, KAIST, Korea
+poster-chairs: 
+
+  - name: Matthias Hoppe
+    affiliation: LMU Munich
+    country: Germany
+    image: /img/organizers/matthias_hoppe.jpg
+  
+  - name: Karola Marky
+    affiliation: TU Darmstadt
+    country: Germany
+    image: /img/organizers/karola_marky.png
+  
+  - name: Jaeyeon Lee
+    affiliation: KAIST
+    country: Korea
+    image: /img/organizers/jaeyeon_lee.jpg
 
 demo-chairs-title: Demo Chairs
-demo-chairs: |
-  Ashley Colley, University of Lapland, Finland
-  Midori Kawaguchi, Tokyo Institute of Technology, Japan
-  Shan Yuan Teng, University of Chicago, USA
-  Cindy Kao, Cornell University, USA
+demo-chairs: 
+
+  - name: Ashley Colley
+    affiliation: University of Lapland
+    country: Finland
+    image: /img/organizers/ashley_colley.jpg
+  
+  - name: Midori Kawaguchi
+    affiliation: Tokyo Institute of Technology
+    country: Japan
+  
+  - name: Shan Yuan Teng
+    affiliation: University of Chicago
+    country: USA
+    image: /img/organizers/shan_yuan_teng.jpg
+  
+  - name: Cindy Kao
+    affiliation: Cornell University
+    country: USA
 
 
 publication-chairs-title: Publication Chairs
-publication-chairs: |
-  Jasmin Niess, University of Bremen, Germany
-  Hong Li, University of Lapland, Finland
+publication-chairs: 
+
+  - name: Jasmin Niess
+    affiliation: University of Bremen
+    country: Germany
+    image: /img/organizers/jasmin_niess.jpg
+  
+  - name: Hong Li,
+    affiliation: University of Lapland
+    country: Finland
+    image: /img/organizers/hong_li.jpg
 
 sv-chairs-title: Student Volunteer Chairs
-sv-chairs: |
-  Caglar Genc, University of Lapland, Finland
+sv-chairs:
+
+  - name: Caglar Genc
+    affiliation: University of Lapland
+    country: Finland
+    image: /img/organizers/caglar_genc.jpg
 
 design-chairs-title: Design Exhibition Chairs
-design-chairs: |
-  Minna Pakanen, Aarhus University, Denmark
-  Marion Koelle, Saarland University, Germany
-  Katia Vega, UC Davis, USA
+design-chairs:
+
+  - name: Minna Pakanen
+    affiliation: Aarhus University
+    country: Denmark
+  
+  - name: Marion Koelle
+    affiliation: Saarland University
+    country: Germany
+  
+  - name: Katia Vega
+    affiliation: UC Davis
+    country: USA
 
 awards-chairs-title: Awards Chair
-awards-chairs: |
-  Sang-Won Leigh, Georgia Tech, USA
+awards-chairs:
+  - name: Sang-Won Leigh
+    affiliation: Georgia Tech
+    country: USA
 
 web-chairs-title: Web Chairs
-web-chairs: |
-  Fiona Draxler, LMU Munich, Germany
+web-chairs:
+
+  - name: Fiona Draxler
+    affiliation: LMU Munich
+    country: Germany
+    image: /img/organizers/fiona_draxler.jpg
 
 video-chairs-title: Video Chairs
 video-chairs: |
     TBA
 
 operations-chairs-title: Operations Chairs
-operations-chairs: |
-    Erik Pescara,	University of Karlsruhe, Germany
-    Marc Teyssier, Saarland University, Germany
-    Benjamin Tag, University of Melbourne, Australia
+operations-chairs:
+
+  - name: Erik Pescara
+    affiliation: University of Karlsruhe
+    country: Germany
+
+  - name: Marc Teyssier
+    affiliation: Saarland University
+    country: Germany
+  
+  - name: Benjamin Tag
+    affiliation: University of Melbourne
+    country: Australia
+    image: /img/organizers/benjamin_tag.png
 
 social-media-chairs-title: Social Media Chair
-social-media-chairs: |
-  Jas Brooks, University of Chicago, USA
+social-media-chairs:
+
+  - name: Jas Brooks
+    affiliation: University of Chicago
+    country: USA
 
 dc-chairs-title: Doctoral Consortium Panel
-dc-chairs: |
-    Kai Kunze, Keio University, Japan
-    Pawel Wozniak, Utrecht University, Netherlands
-    Kaisa Väänänen, Tampere University, Finland
-    Albrecht Schmidt, LMU Munich, Germany
+dc-chairs:
+    
+  - name: Kai Kunze
+    affiliation: Keio University
+    country: Japan
+  
+  - name: Pawel Wozniak
+    affiliation: Utrecht University
+    country: Netherlands
+  
+  - name: Kaisa Väänänen
+    affiliation: Tampere University
+    country: Finland
+  
+  - name: Albrecht Schmidt
+    affiliation: LMU Munich
+    country: Germany
+    image: /img/organizers/albrecht_schmidt.jpg
 
 
 program-comittee-title: Program Committee
