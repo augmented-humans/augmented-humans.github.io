@@ -74,6 +74,7 @@ demo-chairs:
   - name: Cindy Kao
     affiliation: Cornell University
     country: USA
+    image: /img/organizers/cindy_kao.jpg
 
 
 publication-chairs-title: Publication Chairs
@@ -107,6 +108,7 @@ design-chairs:
   - name: Marion Koelle
     affiliation: Saarland University
     country: Germany
+    image: /img/organizers/marion_koelle.jpg
   
   - name: Katia Vega
     affiliation: UC Davis
