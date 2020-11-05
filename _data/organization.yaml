@@ -104,6 +104,7 @@ design-chairs:
   - name: Minna Pakanen
     affiliation: Aarhus University
     country: Denmark
+    image: /img/organizers/minna_pakanen.jpg
   
   - name: Marion Koelle
     affiliation: Saarland University
@@ -119,6 +120,7 @@ awards-chairs:
   - name: Sang-Won Leigh
     affiliation: Georgia Tech
     country: USA
+    image: /img/organizers/sang_leigh.jpg
 
 web-chairs-title: Web Chairs
 web-chairs:
@@ -162,7 +164,7 @@ dc-chairs:
     affiliation: Keio University
     country: Japan
   
-  - name: Pawel Wozniak
+  - name: Paweł Woźniak
     affiliation: Utrecht University
     country: Netherlands
   
