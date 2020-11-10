@@ -65,6 +65,7 @@ demo-chairs:
   - name: Midori Kawaguchi
     affiliation: Tokyo Institute of Technology
     country: Japan
+    image: /img/organizers/midori_kawaguchi.jpg
   
   - name: Shan Yuan Teng
     affiliation: University of Chicago
@@ -114,6 +115,7 @@ design-chairs:
   - name: Katia Vega
     affiliation: UC Davis
     country: USA
+    image: /img/organizers/katia_vega.jpg
 
 awards-chairs-title: Awards Chair
 awards-chairs:
@@ -185,8 +187,11 @@ program-comittee: |
     Don Samitha Elvitigala, University of Auckland, New Zealand
     Enrico Rukzio, Ulm University, Germany
     Fabien Lotte, Inria Bordeaux Sud-Ouest, France, France
+    Gionata Salvietti, University of Siena, Italy
     Henning Pohl, University of Copenhagen, Denmark
     Jakob Karolus, LMU Munich, Germany
+    Jan Gugenheimer, Institut Polytechnique de Paris, France
+    Jarrod Knibbe, Monash University, Australia 
     Joanna Bergstrom, University of Copenhagen, Denmark
     Jochen Huber, Furtwangen University, Germany
     Kouta Minamizawa, Keio University, Japan
@@ -200,10 +205,12 @@ program-comittee: |
     Pawel Wozniak, Utrecht University, Netherlands
     Raphael Wimmer, University of Regensburg, Germany
     Roshan Peiris, Rochester Institute of Technology, USA
+    Shunichi Kasahara, SonyCSL and University of Tokyo, Japan
     Tonja Machulla, LMU Munich, Germany
     Valentin Schwind, University of Regensburg, Germany
     Yamen Saraiji, Keio University, Japan
     Yuichi Kurita, Hiroshima University, Japan
+    Yuta Itoh, Tokyo Institute of Technology, Japan
     ...
 
 steering-title: Steering Committee
