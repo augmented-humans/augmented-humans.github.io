@@ -7,7 +7,7 @@ published:  true
 ---
 
 
-Stay Tuned!
+Previous Blog Posts.
 ============
 
-As we are preparing the conference, we will start adding blog posts. For example, we will publish information about contributions to the conference and its organization. In the meantime, we invite to you to peruse <a href="http://2020.augmented-humans.org/blog/">last year's blog posts</a>.
+As we are preparing the conference, we will start adding blog posts. For example, we will publish information about contributions to the conference and its organization. In the meantime, we invite to you to peruse last year's blog posts below.
