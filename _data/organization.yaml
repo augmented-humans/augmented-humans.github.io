@@ -165,14 +165,17 @@ dc-chairs:
   - name: Kai Kunze
     affiliation: Keio University
     country: Japan
+    image: /img/organizers/kai_kunze.png
   
   - name: Paweł Woźniak
     affiliation: Utrecht University
     country: Netherlands
+    image: /img/organizers/pawel_wozniak.jpg
   
   - name: Kaisa Väänänen
     affiliation: Tampere University
     country: Finland
+    image: /img/organizers/kaisa_vaeaenaenen.jpg
   
   - name: Albrecht Schmidt
     affiliation: LMU Munich
