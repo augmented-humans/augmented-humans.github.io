@@ -29,11 +29,12 @@ topics: |
 categories-title: Submission categories & Instructions
 categories: |
 
-  Full papers – up to 10 pages excluding references, anonymized, 15 + 5 minutes presentation, and invited demo
-  Short papers - 4 pages excluding references, anonymized, 7 + 3 minutes presentation
-  Demonstration papers - 2 pages excluding references, anonymized, excluding references, demonstration at the conference
-  Poster papers - 2 pages excluding references, anonymized, presented at the conference
-  Design exhibition - up to 6 pages excluding references, exhibited at conference
+  <b>Full papers</b> – up to 10 pages excluding references, anonymized, 15 + 5 minutes presentation, and invited demo
+  <b>Short papers</b> - 4 pages excluding references, anonymized, 7 + 3 minutes presentation
+  <b>Demonstration papers</b> - 2 pages excluding references, anonymized, excluding references, demonstration at the conference
+  <b>Poster papers</b> - 2 pages excluding references, anonymized, presented at the conference
+  <b>Design exhibition</b> - up to 6 pages excluding references, exhibited at conference
+  <b>Doctoral Colloquium</b> – up to 2 pages (extended abstract format). Please include the planned title of the thesis, faculty/field of science, supervisor(s) and the following sections: (1) Motivation, research goal and research questions, (2) Research approach, process and methods, incl. planned studies, time schedule and hat has been done to date, (3) Work done so far, Initial results, and (4) any questions/issues you want to discuss in the DC. The Doctoral Colloquium papers are not published in the ACM Digital Library but you are welcome to submit a poster of your topic through the poster track. Submission by email: Please submit your Doctoral Colloquium submission via email with the subject: “AHs2021 DC” to <a href="mailto:kaisa.vaananen@tuni.fi,albrecht.schmidt@ifi.lmu.de?subject=AHs2021 DC">kaisa.vaananen@tuni.fi and albrecht.schmidt@ifi.lmu.de</a>
 
   All page lengths are excluding references. Please use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/paper-poster-demo.zip">SIGCHI two-column format</a> for full papers, short papers, posters, and demos (SigConf template). Use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/design-exhibitions.zip">extended abstract</a> (<a href="https://www.overleaf.com/latex/templates/legacy-sigchi-extended-abstract-template/zzzfqvkmrfzn">Overleaf</a>) format for design exhibitions
 
@@ -47,7 +48,7 @@ deadlines: |
   Submission Deadline Full/Short Papers: December 17th, 2020, Anywhere on Earth
   Decisions sent to Author: January 20th, 2021
   Camera ready: January 27th, 2021
-  Submission Deadline Posters/Demos/Design Exhibition: January 22nd, 2021
+  Submission Deadline Posters/Demos/Design Exhibition/Doctoral Consortium: January 22nd, 2021
   Conference: February 22nd, 2021
 
 # All submission deadlines are Anywhere on Earth (AoE)
