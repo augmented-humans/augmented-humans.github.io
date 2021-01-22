@@ -42,6 +42,23 @@ description: "Awards"
     </div>
 </section>
 
+<section id="ah-awards" class="flip ah-override">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+            <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+                <span>{{ site.data.awards.awards-committee-title }}</span></div>
+            {% assign description_paragraphs = site.data.awards.awards-committee | newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
 <section id="" class="flip ah-awards ah-override">
     <div class="container">
         <div class="row">
