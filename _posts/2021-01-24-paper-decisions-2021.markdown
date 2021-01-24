@@ -17,6 +17,6 @@ We had 73 (valid) submissions from authors with affiliations from 15 countries (
 
 Of these submissions, 28 are accepted to the paper track. This makes our acceptance rate about 38%. Decisions were made over the course of three days by the paper chairs who discussed each submission. These discussions were largely based on the 320 reviews by Program Committee members (all papers received 3 reviews, 12 papers received 4 or more).
 
-The paper scores, interestingly, did not follow a normal distribution.  The accepted papers, by and large, match the scores, but for papers scoring approximately 3 or slightly above, Program Chairs had to make hard choices. Here, in communication with the General Chairs, we prioritized papers we felt would not easily fit within the scope of more traditional HCI venues. See the figure below for details.
+The accepted papers, by and large, follow the review scores. However, for papers scoring 3 or slightly above, Program Chairs had to make hard choices. Here, in communication with the General Chairs, we prioritized papers we felt would not easily fit within the scope of more traditional HCI venues. See the figure below for details.
 
 <img src="/img/posts/decisions-2021/scores.jpg" alt="Alt text" width="100%"/>
