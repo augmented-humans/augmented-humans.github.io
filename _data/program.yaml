@@ -1,61 +1,48 @@
 page-title: << Program >>
 
 program-title: Program
-program: |
-  The following papers, posters and, demos will be presented. A schedule will be published soon:
+program-description:
+  The following papers will be presented. A schedule will be published soon
 
-  Living Bits : Opportunities and Challenges for Integrating Living Microorganisms in Human-Computer Interaction, <small>Pat Pataranutaporn, Angela Vujic, Misha Sra, David Kong and Pattie Maes</small>
-  Design of Altered Cognition with Reshaped Bodies, <small>Kenichiro Shirota, Makoto Uju, Yurike Chandra, Elaine Czech, Roshan L. Peiris and Kouta Minamizawa</small>
-  Sketching On-Body Interactions using Piezo-Resistive Kinesiology Tape, <small>Paul Strohmeier, Narges Pourjafarian, Marion Koelle, Cedric Honnet, Bruno Fruchard and Jürgen Steimle</small>
-  The Lateral Line: Augmenting Spatiotemporal Perception with a Tactile Interface, <small>Matti Krüger, Christiane B. Wiebel-Herboth and Heiko Wersing</small>
-  Conformal Wearable Devices for Expressive On-Skin Interaction, <small>Aditya Shekhar Nittala, Arshad Khan and Jürgen Steimle</small>
-  HapticPointer: A Neck-worn Device that Presents Direction by Vibrotactile Feedback for Remote Collaboration Tasks, <small>Akira Matsuda, Kazunori Nozawa, Kazuki Takata, Atsushi Izumihara and Jun Rekimoto</small>
-  DehazeGlasses: Optical Dehazing with an Occlusion Capable See-Through Displays, <small>Yuichi Hiroi, Takumi Kaminokado, Atsushi Mori and Yuta Itoh</small>
-  Accelerating Skill Acquisition of Two-Handed Drumming using Pneumatic Artificial Muscles, <small>Takashi Goto, Swagata Das, Pedro Lopes, Yuichi Kurita and Kai Kunze</small>
-  VersaTouch: A Versatile Plug-and-Play System that EnablesTouch Interactions on Everyday Passive Surfaces, <small>Yilei Shi, Haimo Zhang, Jiashuo Cao and Suranga Nanayakkara</small>
-  The Jungle Warm-Up Run: Augmenting Athletes with Coach-Guided Dynamic Game Elements, <small>Frederik Wiehr, Marko Vujic, Antonio Krueger and Florian Daiber</small>
-  Archery shots visualization by clustering and comparing from angular velocities of bows, <small>Midori Kawaguchi, Mitake Hironori and Shoich Hasegawa</small>
-  Go-Through: Disabling Collision to Access Obstructed Paths and Open Occluded Views in Social VR, <small>Jens Reinhardt and Katrin Wolf</small>
-  OmniView: An Exploratory Study of 360 Degree Vision using Dynamic Distortion based on Direction-of-Interest, <small>Feng Liang, Kevin Stevanus, Kai Kunze, Holger Baldauf and Yun Suen Pai</small>
-  Eye-based Interaction Using Embedded Optical Sensors on an Eyewear Device for Facial Expression Recognition, <small>Katsutoshi Masai, Kai Kunze and Maki Sugimoto</small>
-  Novel Input and Output opportunities using an Implanted Magnet, <small>Paul Strohmeier and Jess McIntosh</small>
-  PoseAsQuery: Full-Body Interface for Repeated Observation of a Person in a Video with Ambiguous Pose Indexes and Performed Poses, <small>Natsuki Hamanishi and Jun Rekimoto</small>
-  Investigation of Effective Parts for Rotation and Translation of the Legs Using Hanger Reflex, <small>Hanamichi Sanada, Masato Kobayashi, Kon Yuki and Hiroyuki Kajimoto</small>
-  ExemPoser: Predicting Poses of Experts as Examples for Beginners in Climbing Using a Neural Network, <small>Katsuhito Sasaki, Keisuke Shiro and Jun Rekimoto</small>
-  WristLens: Enabling Single-Handed Surface Gesture Interaction for Smartwatch using Optical Motion Sensor, <small>Hui-Shyong Yeo, Juyoung Lee, Andrea Bianchi, Alejandro Samboy, Hideki Koike, Woontack Woo and Aaron Quigley</small>
-  On-Skin Gestures with Printable Ultra-Stretchable Soft Electronic Second Skin, <small>Aditya Shekhar Nittala, Arshad Khan and Jürgen Steimle</small>
-  Wearable Reasoner : Enhanced Human Rationality Through A Wearable Audio Device With Explainable AI Assistant, <small>Valdemar Danry, Pat Pataranutaporn, Yaoli Mao and Pattie Maes</small>
-  Sensor Glove Implemented With Artificial Muscle Set For Hand Rehabilitation, <small>Biyuan Wang, Nobuhiro Takahashi and Hideki Koike</small>
-  Manipulatable Auditory Perception in Wearable Computing, <small>Hiroki Watanabe and Tsutomu Terada</small>
-  waveSense: Low Power Voxel-tracking Technique for Resource Limited Devices, <small>Anusha Withana, Tharindu Kaluarachchi, Chanaka Singhabahu, Shanaka Ransiri and Suranga Nanayakkara</small>
-  Mimicking Synesthesia to Augment Music Memory through Passive Learning, <small>Santiago Arconada Alvarez, Sumedha Raman, Kevin Key, Russell Strauss and Thad Starner</small>
-  SpotlessMind - A Design Probe for Eliciting Attitudes towards Sharing Neurofeedback, <small>Passant El.Agroudy, Xiyue Wang, Evgeny Stemasov, Teresa Hirzle, Svetlana Shishkovets, Siddharth Mehrotra and Albrecht Schmidt</small>
-  KissGlass: Greeting Gesture Recognition using Smart Glasses, <small>Richard Li, Juyoung Lee, Thad Starner and Woontack Woo</small>
-  GenVibe: Exploration of Interactive Generation of Personal Vibrotactile Patterns, <small>Erik Pescara, Florian Dreschner, Karola Marky and Michael Beigl</small>
-  Remote Treatment System of Phantom Limb Pain by Displaying Body Movement in Shared VR Space, <small>Kenta Saito, Atsushi Okada, Yu Matsumura and Jun Rekimoto</small>
-  Facilitating Experiential Knowledge Sharing through Situated Conversations, <small>Ryo Fujikura and Yasuyuki Sumi</small>
-  Altering the Speed of Reality? Exploring Visual Slow-Motion to Amplify Human Perception using Augmented Reality, <small>Pascal Knierim, Thomas Kosch, Gabrielle LaBorwit and Albrecht Schmidt</small>
-  Vision Extension Using Image Completion For Ball Camera, <small>Tsubasa Kitayama, Shio Miyafuji and Hideki Koike</small>
+program-papers:
+  - Detecting Episodes of Increased Cough Using Kinetic Earables<small></small>
+  - Portable 3D Human Pose Estimation for Human-Human Interaction using a Chest-Mounted Fisheye Camera
+  - CapGlasses&#58; Untethered Capacitive Sensing with Smart Glasses
+  - Exploratory Design of a Hands-free Video Game Controller for a Quadriplegic Individual
+  - Virtual Whiskers&#58; Spatial Directional Guidance using Cheek Haptic Stimulation in a Virtual Environment
+  - Wearable System for Promoting Salivation
+  - HemodynamicVR - Adapting the User's Field Of View during Virtual Reality Locomotion Tasks using Wearable Functional Near-Infrared Spectroscopy
+  - Augmented Foot&#58; A Comprehensive Survey of Foot Augmentation Devices
+  - Motion-specific Browsing method by mapping to a circle for personal video Observation with Head-Mounted Displays
+  - Exploring Pseudo Hand-Eye Interaction on the Head-Mounted Display
+  - MultiSoma&#58; Distributed Embodiment with Synchronized Behavior and Perception
+  - Dynamic Shared Limbs&#58; An Adaptive Shared Body Control Method Using EMG Sensors
+  - Independent Control of Supernumerary Appendages Exploiting Upper Limb Redundancy
+  - Research on the transcendence of bodily differences, using sport and human augmentation medium
+  - SilentMask&#58; Mask-type Silent Speech Interface with Measurement of Mouth Movement
+  - Derma&#58; Silent Speech Interaction Using Transcutaneous MotionSensing
+  - Conversational Partner’s Perception of Subtle Display Use for Monitoring Notifications
+  - Deep Learning--Based Scene Simplification for Bionic Vision
+  - FaceRecGlasses&#58; A Wearable System for Recognizing Self Facial Expression Using Compact Wearable Cameras
+  - CircadianVisor&#58; Image Presentation With an Optical See-Through Display in Consideration of Circadian Illuminance
+  - Advantage and Misuse of Vision Augmentation - Exploring User Perceptions and Attitudes using a Zoom Prototype
+  - SmartAidView Jacket&#58; Providing visual aid to lower the underestimation of assistive forces
+  - Virtual Physical Task Training&#58; Comparing Shared Body, Shared View and Verbal Task Explanation
+  - Hippocampal Cognitive Prosthesis, Memory and Identity&#58; Case Study for the Role of Ethics Guidelines for Human Enhancement
+  - CV-Based Analysis for Microscopic Gauze Suturing Training
+  - A Machine Learning Model Perceiving Brightness Optical Illusions&#58; Quantitative Evaluation with Psychophysical Data
+  - POV Display and Interaction Methods extending Smartphone
+  - From Strangers to Friends&#58; Augmenting Face-to-face Interactions with Faceted Digital Self-Presentations
+  - Interactive Eye Aberration Correction for Holographic Near-Eye Display
+
 
 keynote-title: Keynotes
-keynotes: |
+keynotes:
 
-  Stelarc 
+  - speaker: Mel Slater
+    Title: TBA
+    Biography: Mel Slater is a Distinguished Investigator at the University of Barcelona, and co-Director of the Event Lab (Experimental Virtual Environments for Neuroscience and Technology). He was previously Professor of Virtual Environments at University College London in the Department of Computer Science. He has been involved in research in virtual reality since the early 1990s, and has been first supervisor of 40 PhDs in graphics and virtual reality since 1989. He held a European Research Council Advanced Grant TRAVERSE 2009-2015 and has recently started a second Advanced Grant MoTIVE 2018-2022. He is Field Editor of Frontiers in Virtual Reality, and Chief Editor of the Human Behaviour in Virtual Reality section. His publications can be seen on http://publicationslist.org/melslater. 
 
-  Title: "Contemporary Chimeras: Creepy, Uncanny and Contestable Bodies"
-
-  Biography: Stelarc’s projects and performances explore alternate anatomies. His first projects in 1968 were helmets that split binocular vision. His early actions from 1970 involved amplifying body signals and sounds as control signals for real-time interaction. Between 1973-1975 he made 3 films of the inside of his body. Between 1976-1988 he realised 27 body suspensions with insertions into his skin, in different positions, in remote locations and in varying situations. In 1980 the Third Hand, an EMG controlled mechanism, with  pinch, grasp and wrist rotation, was engineered. For the Fifth Australian Sculpture Triennial in 1993 he designed a sculpture for the inside of his stomach. In 1997 in Hamburg City, Exoskeleton, a 6-legged walking robot was engineered. Fractal Flesh, Ping Body and Parasite were internet performances that explored remote and involuntary choreography via a muscle stimulation system. He has surgically constructed and cell grown an ear on his arm in 2006. The intent is still to electronically augment and internet enable it. In 2017 with Propel, he was attached to the end of an industrial robot arm so that his position/orientation, trajectory and velocity could be precisely programmed. With the Re-Wired / Re-Mixed performance, 2018, for five days, six hours a day in Perth, he could only see with the eyes of someone in London, only hear with the ears of someone in NY, whilst anyone, anywhere could choreograph his exoskeleton arm. StickMan is an interactive installation and performance where the body was actuated by a minimal but full-body exoskeleton. In 1996 he was made an Honorary Professor of Art and Robotics at Carnegie Mellon University, Pittsburgh and in 2002 was awarded an Honorary Doctorate of Laws by Monash University, Melbourne. In 2010 he was awarded the Ars Electronica Hybrid Arts Prize. In 2015 he received the Australia Council’s Emerging and Experimental Arts Award. In 2016 he was awarded an Honorary Doctorate from the Ionian University, Corfu. Between 2013 – 2018 Stelarc was a Distinguished Research Fellow, School of Media, Creative Arts and Social Inquiry (MCASI), Curtin University, Perth. His artwork is represented by Scott Livesey Galleries, Melbourne.
-
-
-  Kasper Hornbæk
-
-  Title: TBA
-
-  Biography: Kasper Hornbæk is a Professor in Computer Science at the University of Copenhagen. He received his PhD from the University of Copenhagen in 2002. Hornbæk’s work has contributed to HCI in two important ways. First, he and his coauthors have created new models of usability and user experience. They have shown that we can measure how computer tools extend our bodies; that different aspects of usability are orthogonal (and therefore should be measured independently); and that meaning is an overlooked component of user experience. Second, Hornbæk and his collaborators have sought to develop fundamental concepts and methods in the HCI field. They have discussed the field-defining concept of interaction, analysed what it means that a user interface is subtle, and outlined the key types of problems addressed in HCI. Currently, Hornbæk works on body-based user interfaces and human-computer integration.
-
-
-  Enkelejda Kasneci
-
-  Title: "It’s in Your Eyes – How Eye Tracking will Shape our Future"
-
-  Enkelejda Kasneci is a Full Professor of Computer Science at the University of Tübingen, Germany, where she leads the Human-Computer Interaction Group. As a BOSCH-scholar, she received her M.Sc. degree in Computer Science from the University of Stuttgart in 2007. In 2013, she received her PhD in Computer Science from the University of Tübingen. For her PhD research, she was awarded the research prize of the Federation Südwestmetall in 2014. From 2013 to 2015, she was a Margarete-von-Wrangell Fellow. Her main research interests are applied machine learning, eye-tracking technology and applications. She serves as a reviewer and PC member for several journals and major conferences. In 2016, she founded LeadersLikeHer, the world’s first open career network for women from industrial, research and public organizations.
+  - speaker: Pattie Maes
+    Title: TBA
+    Biography: Pattie Maes is a professor in MIT's Program in Media Arts and Sciences and until recently served as academic head. She runs the Media  Lab's Fluid Interfaces research group, which aims to radically reinvent the human-machine experience. Coming from a background in artificial intelligence and human-computer interaction, she is particularly interested in the topic of cognitive enhancement, or how immersive and wearable systems can actively assist people with memory, attention, learning, decision making, communication, and wellbeing. 
