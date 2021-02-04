@@ -963,7 +963,7 @@ header.masthead#kw-project-header {
   font-size: 18px;
 }
 
-#ah-description, #ah-topics, #ah-categories, #ah-about, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards {
+#ah-description, #ah-topics, #ah-categories, #ah-about, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards, #ah-program {
   text-align: left;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -1025,6 +1025,22 @@ header.masthead#kw-project-header {
     width: 250px;
     vertical-align: top;
     text-align: center;
+  }
+
+  .keynote-speaker-image {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .keynote-speaker-bio {
+    display: inline-block;
+    width: calc(100% - 220px);
+    padding-left: 20px;
+  }
+
+  ul.flip {
+    color: white;
   }
 
 }

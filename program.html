@@ -19,16 +19,16 @@ description: "Program"
     </div>
 </header>
 
-<section id="" class="kw-committee-section flip2 ah-organization ah-override">
+<section id="ah-program" class="kw-committee-section flip ah-organization ah-override">
     <div class="container">
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+            <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
                 <span>{{ site.data.program.program-title }}</span>
             </div>
-            <span><p>{{ site.data.program.program-description }}</p></span>  
-                <ul>
+            <span><p>{{ site.data.program.program-description }}</p></span> 
+                <ul class="flip">
                   {% assign description_paragraphs = site.data.program.program-papers %}
                   {% for paragraph in description_paragraphs %}
                   <li>{{ paragraph }}</li>
@@ -48,15 +48,18 @@ description: "Program"
                 <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
                     <span>{{ site.data.program.keynote-title }}</span>
                 </div>
-                <ul>
+                <div>
                   {% assign description_paragraphs = site.data.program.keynotes %}
                   {% for paragraph in description_paragraphs %}
-                    <li>
-                        <p>{{ paragraph.speaker }}</p>
-                        <p>{{ paragraph.Biography }}</p>
-                    </li>
+                        <div>
+                            <div class="keynote-speaker-image">
+                                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+                                <p><b>{{ paragraph.speaker }}</b></p>
+                            </div>
+                            <div class="keynote-speaker-bio"><p>{{ paragraph.Biography }}</p></div>
+                        </div>
                   {% endfor %}
-                </ul>
+                </div>
             </div>
             <div class="col-lg-1"></div>
         </div>
