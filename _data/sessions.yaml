@@ -1,141 +1,293 @@
-16032020-session-1:
-  published: true
+page-title: << Program >>
 
-16032020-session-2:
-  published: true
+schedule-title: Schedule
+schedule-description: The conference sessions will be held online and streamed to YouTube. Links to the sessions will be published when they are available. Please note that time zones are shown in Eastern European Time (EET, UTC+2) to match the original location of the conference, Rovaniemi, and additionally in Japan Standard Time (UTC+9).
 
-16032020-session-3:
-  published: true
+sessions-title: Sessions
+session-days:
 
-17032020-session-4:
-  published: true
+  - day: Tuesday, 23rd of February 2021
+    sessions:
+      - session-title: Opening
+        talks:
+          - talk-title: Opening Keynote
+            talk-time-eet: 09&#58;00 - 10&#58;00
+            talk-time-jst: 16&#58;00 - 17&#58;00
+            talk-speakers: Mel Slater
+            link: ""
+          
+          - talk-title: Break
+            talk-time-eet: 10&#58;00 - 10&#58;30
+            talk-time-jst: 17&#58;00 - 17&#58;30
+            link: ""
 
-17032020-session-5:
-  published: true
+      - session-title: Session 1&#58; Remixed Bodies
+        talks:
+          - talk-title: MultiSoma&#58; Distributed Embodiment with Synchronized Behavior and Perception
+            talk-speakers: Reiji Miura, Maki Sugimoto, Shunichi Kasahara, Michiteru Kitazaki, Adrien Verhulst and Masahiko Inami
+            talk-time-eet: 10&#58;30 - 10&#58;45
+            talk-time-jst: 17&#58;30 - 17&#58;45
+            link: ""
 
-17032020-session-6:
-  published: true
+          - talk-title: Dynamic Shared Limbs&#58; An Adaptive Shared Body Control Method Using EMG Sensors
+            talk-speakers: Ryo Takizawa, Takayoshi Hagiwara, Adrien Verhulst, Masaaki Fukuoka, Michiteru Kitazaki and Maki Sugimoto
+            talk-time-eet: 10&#58;45 - 11&#58;00
+            talk-time-jst: 17&#58;45 - 18&#58;00
+            link: ""
+          
+          - talk-title: Independent Control of Supernumerary Appendages Exploiting Upper Limb Redundancy
+            talk-time-eet: 11&#58;00 - 11&#58;15
+            talk-time-jst: 18&#58;00 - 18&#58;15
+            talk-speakers: Hideki Shimobayashi, Tomoya Sasaki, Arata Horie, Riku Arakawa, Zendai Kashino and Masahiko Inami
+            link: ""
 
-16032020-0925-0940:
-  published: true
+          - talk-title: Research on the transcendence of bodily differences, using sport and human augmentation medium
+            talk-time-eet: 11&#58;15 - 11&#58;30
+            talk-time-jst: 18&#58;15 - 18&#58;30
+            talk-speakers: Ryoichi Ando, Isao Uebayashi, Hayato Sato, Hayato Ohbayashi, Shota Katagiri, Shuhei Hayakawa and Kouta Minamizawa
+            link: ""
 
-16032020-0940-1040:
-  published: true
+          - talk-title: Ubiquitous Body&#58; Effect of Spatial Arrangement of Task’s View on Managing Multiple Tasks
+            talk-time-eet: 11&#58;30 - 11&#58;45
+            talk-time-jst: 18&#58;30 - 18&#58;45
+            talk-speakers: Yukiko Iwasaki and Hiroyasu Iwata
+            link: ""
+          
+          - talk-title: Lunch Break and Social Activities
+            talk-time-eet: 11&#58;45 - 12&#58;45
+            talk-time-jst: 18&#58;45 - 19&#58;45
+            link: ""
 
-16032020-1100-1120:
-  published: true
+      - session-title: Session 2&#58; Augmented Cameras
+        talks:
+          - talk-title: Deep Learning-Based Scene Simplification for Bionic Vision
+            talk-time-eet: 12&#58;45 - 13&#58;00
+            talk-time-jst: 19&#58;45 - 20&#58;00
+            talk-speakers: Nicole Han, Sudhanshu Srivastava, Aiwen Xu, Devi Klein and Michael Beyeler
+            link: ""
 
-16032020-1120-1130:
-  published: true
+          - talk-title: FaceRecGlasses&#58; A Wearable System for Recognizing Self Facial Expression Using Compact Wearable Cameras
+            talk-time-eet: 13&#58;00 - 13&#58;15
+            talk-time-jst: 20&#58;00 - 20&#58;15
+            talk-speakers: Hiroaki Aoki, Ayumi Ohnishi, Naoya Isoyama, Tsutomu Terada and Masahiko Tsukamoto
+            link: ""
 
-16032020-1130-1150:
-  published: true
+          - talk-title: CircadianVisor&#58; Image Presentation With an Optical See-Through Display in Consideration of Circadian Illuminance
+            talk-time-eet: 13&#58;15 - 13&#58;30
+            talk-time-jst: 20&#58;15 - 20&#58;30
+            talk-speakers: Takumi Tochimoto, Yuichi Hiroi and Yuta Itoh
+            link: ""
 
-16032020-1150-1200:
-  published: true
+          - talk-title: Advantage and Misuse of Vision Augmentation - Exploring User Perceptions and Attitudes using a Zoom Prototype
+            talk-time-eet: 13&#58;30 - 13&#58;45
+            talk-time-jst: 20&#58;30 - 20&#58;45
+            talk-speakers: Chloe Eghtebas, Francisco Kiss, Marion Koelle and Paweł Woźniak
+            link: ""
+          
+          - talk-title: Coffee Break
+            talk-time-eet: 13&#58;45 - 14&#58;15
+            talk-time-jst: 20&#58;45 - 21&#58;15
+            link: ""
 
-16032020-1200-1220:
-  published: true
+      
+      - session-title: Session 3&#58; Future of Speech Interfaces
+        talks:
+          - talk-title: SilentMask&#58; Mask-type Silent Speech Interface with Measurement of Mouth Movement
+            talk-time-eet: 14&#58;15 - 14&#58;30
+            talk-time-jst: 21&#58;15 - 21&#58;30
+            talk-speakers: Hirotaka Hiraki and Jun Rekimoto
+            link: ""
 
-16032020-1340-1400:
-  published: true
+          - talk-title: Derma&#58; Silent Speech Interaction Using Transcutaneous MotionSensing
+            talk-time-eet: 14&#58;30 - 14&#58;45
+            talk-time-jst: 21&#58;30 - 21&#58;45
+            talk-speakers: Jun Rekimoto and Yui Nishimura
+            link: ""
 
-16032020-1400-1420:
-  published: true
+          - talk-title: Conversational Partner’s Perception of Subtle Display Use for Monitoring Notifications
+            talk-time-eet: 14&#58;45 - 15&#58;00
+            talk-time-jst: 21&#58;45 - 22&#58;00
+            talk-speakers: Jacob Logas, Kelsie Belan, Thad Starner and Blue Lin
+            link: ""
 
-16032020-1420-1440:
-  published: true
+      - session-title: Session 4&#58; Wearables Beyond the Wrist
+        talks:
+          - talk-title: Detecting Episodes of Increased Cough Using Kinetic Earables
+            talk-time-eet: 15&#58;30 - 15&#58;45
+            talk-time-jst: 22&#58;30 - 22&#58;45
+            talk-speakers: Tobias Röddiger, Michael Beigl, Michael Hefenbrock, Daniel Wolffram and Erik Pescara
+            link: ""
 
-16032020-1440-1500:
-  published: true
+          - talk-title: Portable 3D Human Pose Estimation for Human-Human Interaction using a Chest-Mounted Fisheye Camera
+            talk-time-eet: 15&#58;45 - 15&#58;00
+            talk-time-jst: 22&#58;45 - 22&#58;00
+            talk-speakers: Kohei Aso, Dong-Hyun Hwang and Hideki Koike
+            link: ""
 
-16032020-1500-1510:
-  published: true
+          - talk-title: CapGlasses&#58; Untethered Capacitive Sensing with Smart Glasses
+            talk-time-eet: 16&#58;00 - 16&#58;15
+            talk-time-jst: 23&#58;00 - 23&#58;15
+            talk-speakers: Denys J.C. Matthies, Chamod Weerasinghe, Suranga Nanayakkara and Bodo Urban
+            link: ""
 
-16032020-1510-1530:
-  published: true
+          - talk-title: Exploratory Design of a Hands-free Video Game Controller for a Quadriplegic Individual
+            talk-time-eet: 16&#58;15 - 16&#58;30
+            talk-time-jst: 23&#58;15 - 23&#58;30
+            talk-speakers: Atieh Taheri and Misha Sra
+            link: ""
 
-16032020-1600-1610:
-  published: true
+          - talk-title: Virtual Whiskers&#58; Spatial Directional Guidance using Cheek Haptic Stimulation in a Virtual Environment
+            talk-time-eet: 16&#58;30 - 16&#58;45
+            talk-time-jst: 23&#58;30 - 23&#58;45
+            talk-speakers: Fumihiko Nakamura, Adrien Verhulst, Kuniharu Sakurada and Maki Sugimoto
+            link: ""
+          
+          - talk-title: Get-Together in Gather.Town
+            talk-time-eet: 23&#58;45 - open end
+            link: ""
 
-16032020-1610-1630:
-  published: true
+  - day: Wednesday, 24th of February 2021
+    sessions:
+      - session-title: Session 5&#58; Physical Interfaces for Movement
+        talks:
+          - talk-title: SmartAidView Jacket&#58; Providing visual aid to lower the underestimation of assistive forces
+            talk-time-eet: 09&#58;00 - 09&#58;15
+            talk-time-jst: 16&#58;00 - 16&#58;15
+            talk-speakers: Swagata Das, Velika Wongchadakul and Yuichi Kurita
+            link: ""
 
-16032020-1600-1610:
-  published: true
+          - talk-title: Virtual Physical Task Training&#58; Comparing Shared Body, Shared View and Verbal Task Explanation
+            talk-time-eet: 09&#58;15 - 09&#58;30
+            talk-time-jst: 16&#58;15 - 16&#58;30
+            talk-speakers: Jens Reinhardt, Marco Kurzweg and Katrin Wolf
+            link: ""
 
-16032020-1610-1630:
-  published: true  
+          - talk-title: Hippocampal Cognitive Prosthesis, Memory and Identity&#58; Case Study for the Role of Ethics Guidelines for Human Enhancement
+            talk-time-eet: 09&#58;30 - 09&#58;45
+            talk-time-jst: 16&#58;30 - 16&#58;45
+            talk-speakers: Yasemin J. Erden and Philip Brey
+            link: ""
 
-16032020-1630-1650:
-  published: true
+          - talk-title: CV-Based Analysis for Microscopic Gauze Suturing Training
+            talk-time-eet: 09&#58;45 - 10&#58;00
+            talk-time-jst: 16&#58;45 - 17&#58;00
+            talk-speakers: Mikihito Matsuura, Shio Miyafuji, Erwin Wu, Satoshi Kiyofuji, Taichi Kin, Takeo Igarashi and Hideki Koike
+            link: ""
 
-16032020-1650-1700:
-  published: true
+          - talk-title: Coffee Break
+            talk-time-eet: 10&#58;00 - 10&#58;30
+            talk-time-jst: 17&#58;00 - 17&#58;30
+            link: ""
+        
+      - session-title: Session 6&#58; Augmented Vision
+        talks:
+          - talk-title: A Machine Learning Model Perceiving Brightness Optical Illusions&#58; Quantitative Evaluation with Psychophysical Data
+            talk-time-eet: 10&#58;30 - 10&#58;45
+            talk-time-jst: 17&#58;30 - 17&#58;45
+            talk-speakers: Yuki Kubota, Atsushi Hiyama and Masahiko Inami
+            link: ""
 
-16032020-1700-1710:
-  published: true
+          - talk-title: POV Display and Interaction Methods extending Smartphone
+            talk-time-eet: 10&#58;45 - 11&#58;00
+            talk-time-jst: 17&#58;45 - 18&#58;00
+            talk-speakers: Yura Tamai, Maho Oki and Koji Tsukada
+            link: ""
 
-16032020-1720-1740:
-  published: true
+          - talk-title: From Strangers to Friends&#58; Augmenting Face-to-face Interactions with Faceted Digital Self-Presentations
+            talk-time-eet: 11&#58;00 - 11&#58;15
+            talk-time-jst: 18&#58;00 - 18&#58;15
+            talk-speakers: Mikko Kytö, Ilyena Hirskyj-Douglas and David McGookin
+            link: ""
 
-17032020-0900-1010:
-  published: true
+          - talk-title: Interactive Eye Aberration Correction for Holographic Near-Eye Display
+            talk-time-eet: 11&#58;15 - 11&#58;30
+            talk-time-jst: 18&#58;15 - 18&#58;30
+            talk-speakers: Kenta Yamamoto, Ippei Suzuki, Kosaku Namikawa, Kaisei Sato and Yoichi Ochiai
+            link: ""
 
-17032020-1040-1050:
-  published: true
+          - talk-title: Break
+            talk-time-eet: 11&#58;30 - 12&#58;00
+            talk-time-jst: 18&#58;30 - 19&#58;00
+            link: ""
+      
+      - session-title: Poster/Demo/Design Session
+        talks:
+          - talk-title: Posters, Demos, Design Exhibition
+            talk-time-eet: 12&#58;00 - 13&#58;00
+            talk-time-jst: 19&#58;00 - 20&#58;00
+            link: ""
 
-17032020-1050-1110:
-  published: true
+          - talk-title: Lunch Break and Social Activities
+            talk-time-eet: 13&#58;00 - 14&#58;00
+            talk-time-jst: 20&#58;00 - 21&#58;00
+            link: ""
 
-17032020-1110-1130:
-  published: true
+      - session-title: Session 7&#58; Augmentations from Head to Toes
+        talks:
+          - talk-title: Wearable System for Promoting Salivation
+            talk-time-eet: 14&#58;00 - 14&#58;15
+            talk-time-jst: 21&#58;00 - 21&#58;15
+            talk-speakers: Kai Washino, Ayumi Ohnishi, Tsutomu Terada and Masahiko Tsukamoto
+            link: ""
 
-17032020-1130-1150:
-  published: true
+          - talk-title: HemodynamicVR - Adapting the User's Field Of View during Virtual Reality Locomotion Tasks using Wearable Functional Near-Infrared Spectroscopy
+            talk-time-eet: 14&#58;15 - 14&#58;30
+            talk-time-jst: 21&#58;15 - 21&#58;30
+            talk-speakers: Hiroo Yamamura, Holger Baldauf and Kai Kunze
+            link: ""
 
-17032020-1150-1210:
-  published: true
+          - talk-title: Augmented Foot&#58; A Comprehensive Survey of Foot Augmentation Devices
+            talk-time-eet: 14&#58;30 - 14&#58;45
+            talk-time-jst: 21&#58;30 - 21&#58;45
+            talk-speakers: Don Samitha Elvitigala, Jochen Huber and Suranga Nanayakkara
+            link: ""
 
-17032020-1330-1350:
-  published: true
+          - talk-title: Motion-specific Browsing method by mapping to a circle for personal video Observation with Head-Mounted Displays
+            talk-time-eet: 14&#58;45 - 15&#58;00
+            talk-time-jst: 21&#58;45 - 22&#58;00
+            talk-speakers: Natsuki Hamanishi and Jun Rekimoto
+            link: ""
 
-17032020-1350-1410:
-  published: true
+          - talk-title: Exploring Pseudo Hand-Eye Interaction on the Head-Mounted Display
+            talk-time-eet: 15&#58;00 - 15&#58;15
+            talk-time-jst: 22&#58;00 - 22&#58;15
+            talk-speakers: Myung Jin Kim and Andrea Bianchi
+            link: ""
 
-17032020-1410-1420:
-  published: true
+          - talk-title: Coffee Break
+            talk-time-eet: 15&#58;15 - 16&#58;00
+            talk-time-jst: 22&#58;15 - 23&#58;00
+            link: ""
 
-17032020-1420-1440:
-  published: true
+      - session-title: Closing
+        talks:
+          - talk-title: Awards Ceremony
+            talk-time-eet: 16&#58;00 - 16&#58;30
+            talk-time-jst: 23&#58;00 - 23&#58;30
+            link: ""
 
-17032020-1500-1520:
-  published: true
+          - talk-title: Closing Keynote
+            talk-time-eet: 16&#58;30 - 17&#58;30
+            talk-time-jst: 23&#58;30 - 00&#58;30
+            talk-speakers: Pattie Maes
+            link: ""
+          
+          - talk-title: Conference Closing
+            talk-time-eet: 17&#58;30 - open end
+            talk-time-jst: 00&#58;30 - open end
+            link: ""
 
-17032020-1520-1540:
-  published: true
 
-17032020-1540-1600:
-  published: true
+          
+keynote-title: Keynotes
+keynotes:
 
-17032020-1600-1610:
-  published: true
+  - speaker: Mel Slater
+    Title: TBA
+    image: /img/keynote-speaker/mel_slater.png
+    Biography: Mel Slater is a Distinguished Investigator at the University of Barcelona, and co-Director of the Event Lab (Experimental Virtual Environments for Neuroscience and Technology). He was previously Professor of Virtual Environments at University College London in the Department of Computer Science. He has been involved in research in virtual reality since the early 1990s, and has been first supervisor of 40 PhDs in graphics and virtual reality since 1989. He held a European Research Council Advanced Grant TRAVERSE 2009-2015 and has recently started a second Advanced Grant MoTIVE 2018-2022. He is Field Editor of Frontiers in Virtual Reality, and Chief Editor of the Human Behaviour in Virtual Reality section. His publications can be seen on http://publicationslist.org/melslater. 
 
-17032020-1610-1630:
-  published: true
-
-17032020-1650-1750:
-  published: true
-
-17032020-1750-1810:
-  published: true
-
-17032020-1810-1840:
-  published: true
-
-17032020-1810-1940:
-  published: true
-
-# for testing only
-16032020-0800-0830:
-  published: true
+  - speaker: Pattie Maes
+    Title: TBA
+    image: /img/keynote-speaker/pattie_maes.png
+    Biography: Pattie Maes is a professor in MIT's Program in Media Arts and Sciences and until recently served as academic head. She runs the Media Lab's Fluid Interfaces research group, which aims to radically reinvent the human-machine experience. Coming from a background in artificial intelligence and human-computer interaction, she is particularly interested in the topic of cognitive enhancement, or how immersive and wearable systems can actively assist people with memory, attention, learning, decision making, communication, and wellbeing. 

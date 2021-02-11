@@ -1,0 +1,121 @@
+---
+layout: default
+title: "Augmented Humans 2020 | Program"
+description: "Program"
+---
+<!-- Contact Section -->
+<header class="masthead text-center text-white normal">
+    <div class="overlay"></div>
+    <div id="particles-js" class="masthead-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <h1 class="masthead-heading mb-0">{{ site.data.program.page-title }}</h1>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="ah-program" class="kw-committee-section flip ah-organization ah-override">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+                <span>{{ site.data.sessions.schedule-title }}</span>
+            </div>
+            <p>
+                {{ site.data.sessions.schedule-description }}
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="program-details" class="flip2 ah-organization ah-override" style="background-color: #e0e0e0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                {% assign days = site.data.sessions.session-days %}
+                {% for day in days %}
+                <p class="schedule-date">{{ day.day }}</p>
+                <table>
+                    <tr>
+                        <th class="th-time">Time (EET)</th>
+                        <th class="th-time">Time (JST)</th>
+                        <th class="th-talk">Talk</th>
+                        <th class="th-button">Stream/Recording</th>
+                    </tr>
+                    <!-- sessions -->
+                    {% assign sessions = day.sessions %}
+                    {% for session in sessions %}
+                    <tr class="timeless">
+                        <td></td>
+                        <td></td>
+                        <td><b>{{ session.session-title }}</b></td>
+                        <td>
+                            {% if session.link %}
+                            <a class="btn btn-small" href="{{ talk.link }}">Watch</a>
+                            {% else %}
+                            Link coming soon
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                    <!-- talks in current session-->
+                    {% assign talks = session.talks %}
+                    {% for talk in talks %}
+                    <tr>
+                        <td>{{ talk.talk-time-eet }}</td>
+                        <td>{{ talk.talk-time-jst }}</td>
+                        <td>{{ talk.talk-title }} <br /><small>{{ talk.talk-speakers }}</small></td>
+                        <td>
+                            {% if talk.link != "" %}
+                            <a class="btn btn-small" href="{{ talk.link }}">Watch</a>
+                            {% else %}
+                            Link coming soon
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    {% endfor %}
+
+                </table>
+                {% endfor %}
+
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
+<section id="" class="kw-committee-section flip2 ah-organization ah-override">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+                    <span>{{ site.data.program.keynote-title }}</span>
+                </div>
+                <div>
+                  {% assign description_paragraphs = site.data.program.keynotes %}
+                  {% for paragraph in description_paragraphs %}
+                        <div>
+                            <div class="keynote-speaker-image">
+                                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+                                <p><b>{{ paragraph.speaker }}</b></p>
+                            </div>
+                            <div class="keynote-speaker-bio"><p>{{ paragraph.Biography }}</p></div>
+                        </div>
+                  {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
+<!-- 35.5520738,139.6472578 -->
