@@ -275,16 +275,21 @@ session-days:
             talk-time-eet: 16&#58;00 - 16&#58;30
             talk-time-jst: 23&#58;00 - 23&#58;30
             link: https://lmu-munich.zoom.us/j/99360236813
-
-          - talk-title: Closing Keynote
-            talk-time-eet: 16&#58;30 - 17&#58;30
-            talk-time-jst: 23&#58;30 - 00&#58;30
-            talk-speakers: Pattie Maes
-            link: https://lmu-munich.zoom.us/j/99360236813
           
           - talk-title: Conference Closing
-            talk-time-eet: 17&#58;30 - open end
-            talk-time-jst: 00&#58;30 - open end
+            talk-time-eet: 16&#58;30 - 17&#58;00
+            talk-time-jst: 23&#58;30 - 00&#58;00
+            link: https://lmu-munich.zoom.us/j/99360236813
+
+          - talk-title: Coffee Break and Socializing
+            talk-time-eet: 17&#58;00 - 18&#58;00
+            talk-time-jst: 00&#58;00 - 01&#58;00
+            link: https://lmu-munich.zoom.us/j/99360236813
+          
+          - talk-title: Closing Keynote
+            talk-time-eet: 18&#58;00 - 19&#58;00
+            talk-time-jst: 01&#58;00 - 02&#58;00
+            talk-speakers: Pattie Maes
             link: https://lmu-munich.zoom.us/j/99360236813
 
 
