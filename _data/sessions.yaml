@@ -224,6 +224,25 @@ session-days:
             talk-time-eet: 12&#58;00 - 13&#58;00
             talk-time-jst: 19&#58;00 - 20&#58;00
             link: https://lmu-munich.zoom.us/j/99360236813
+            talk-speakers: <ul style="padding-inline-start&#58; 10px; margin-top&#58; 10px;"><li>REFLECTIONS ON AIR&#58; An Interactive Mirror for the Multisensory Perception of Air (Jessica Broscheit, Susanne Draheim, Kai von Luck and Qi Wang)</li>
+              <li>PAL&#58; Wearable and Personalized Habit-support Interventions in Egocentric Visual and Physiological Contexts (Mina Khan, Glenn Fernandes and Pattie Maes)</li>
+              <li>Jumple&#58; Interactive Contents for the Virtual Physical Education Classroom in the Pandemic Era (Soohyun Shin, Jaekyung Cho and Seong-Woo Kim)</li>
+              <li>Sparkle&#58; A Detachable and Versatile Wearable Sensing Platform in a Sustainable Casing (Adarsh Ravi and Hsin-Liu Cindy Kao)</li>
+              <li>Demo&#58; Towards Universal User Interfaces for Mobile Robots (Dávid Rozenberszki and Gábor Sörös)</li>
+              <li>GemiN' I&#58; Seamless Skin Interfaces Aiding Communication through Unconscious Behaviors (Shuyi Sun, Neha Deshmukh, Xin Chen, Hao-Chuan Wang and Katia Vega)</li>
+              <li>Design and Implementation of an Input Interface for Wearable Devices using Pulse Wave Control by Compressing the Upper Arm (Yuma Akimoto and Kazuya Murao)</li>
+              <li>DualBreath&#58; Input Method Using Nasal and Mouth Breathing (Ryoya Onishi, Tao Morisaki, Shun Suzuki, Saya Mizutani, Takaaki Kamigaki, Masahiro Fujiwara, Yasutoshi Makino and Hiroyuki Shinoda)</li>
+              <li>EarRecorder&#58; A Multi-Device Earable Data Collection Toolkit (Likun Fang, Tobias Röddiger, Felix Schmid and Michael Beigl)</li>
+              <li>Reducing Muscle Activity when Playing Tremolo by Using Electrical Muscle Stimulation (Arinobu Niijima, Toki Takeda, Ryosuke Aoki and Yukio Koike)</li>
+              <li>Tranquillity at Home&#58; Designing Plant-mediated Interaction for Better Fatigue Assessment (Michi Kanda and Kai Kunze)</li>
+              <li>Cough Activated Dynamic Face Visor (Timo Luukkonen, Ashley Colley, Tapio Seppänen and Jonna Häkkilä)</li>
+              <li>Exploring a Dynamic Change of Muscle Appearance in VR,Based on Muscle Activity and/or Skeleton Position (Edouard Ferrand, Adrien Verhulst, Masahiko Inami and Maki Sugimoto)</li>
+              <li>Boiling Mind - A Dataset of Physiological Signals during an Exploratory Dance Performance (Zhuoqi Fu, Jiawen Han, Dingding Zheng, Moe Sugawa, Taichi Furukawa, Chernyshov George, Hynds Danny, Padovani Marcelo, Marky Karola, Kouta Minamizawa, Jamie A Ward and Kai Kunze)</li>
+              <li>Heavenly Hunt&#58; Using Body Tracking for Involving Museum Visitors in Digital Storytelling (Caglar Genc and Jonna Hakkila)</li>
+              <li>Designing Socially Acceptable Light Therapy Glasses for Self-managing Seasonal Affective Disorder (Christian Nordstrøm Rasmussen, Minna Pakanen and Marianne Graves Petersen)</li>
+              <li>Towards Immersive Virtual Reality Simulations of Bionic Vision (Justin Kasowski, Nathan Wu and Michael Beyeler)</li>
+              <li>Moving Visual Stimuli on Smart Glasses Affects the Performance of Subsequent Tasks (Eiichi Hasegawa, Naoya Isoyama, Nobuchika Sakata and Kiyoshi Kiyokawa</li>
+              <li>Text Summary Augmentation for Intelligent Reading Assistant (Pramod Vadiraja, Andreas Dengel and Shoya Ishimaru)</li></ul>
 
           - talk-title: Lunch Break and Social Activities
             talk-time-eet: 13&#58;00 - 14&#58;00
