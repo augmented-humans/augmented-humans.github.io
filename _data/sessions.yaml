@@ -6,6 +6,10 @@ schedule-description: The conference sessions will be held online. Links to the 
 sessions-title: Sessions
 session-days:
 
+  - day: Monday, 22nd of February 2021
+    sessions:
+      - session-title: Doctoral Consortium
+
   - day: Tuesday, 23rd of February 2021
     sessions:
       - session-title: Opening
@@ -222,10 +226,10 @@ session-days:
             talk-time-jst: 18&#58;30 - 19&#58;00
             link: https://lmu-munich.zoom.us/j/99360236813
       
-      - session-title: Poster/Demo/Design Session
+      - session-title: Posters, Demos, and Design Exhibition
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
-          - talk-title: Posters, Demos, Design Exhibition
+          - talk-title: Posters, Demos, and Design Exhibition
             talk-time-eet: 12&#58;00 - 13&#58;00
             talk-time-jst: 19&#58;00 - 20&#58;00
             link: https://lmu-munich.zoom.us/j/99360236813
