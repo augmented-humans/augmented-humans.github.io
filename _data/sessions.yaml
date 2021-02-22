@@ -227,13 +227,14 @@ session-days:
             link: https://lmu-munich.zoom.us/j/99360236813
       
       - session-title: Posters, Demos, and Design Exhibition
-        link: https://lmu-munich.zoom.us/j/99360236813
+        link: https://gather.town/app/qcWdoti6S3krAT7J/AugmentedHumans21
         talks:
-          - talk-title: Posters, Demos, and Design Exhibition
+          - talk-title: Posters, Demos, and <a href="<a href="/design_exhibition">Design Exhibition</a>
             talk-time-eet: 12&#58;00 - 13&#58;00
             talk-time-jst: 19&#58;00 - 20&#58;00
-            link: https://lmu-munich.zoom.us/j/99360236813
-            talk-speakers: <ul style="padding-inline-start&#58; 10px; margin-top&#58; 10px;"><li>REFLECTIONS ON AIR&#58; An Interactive Mirror for the Multisensory Perception of Air (Jessica Broscheit, Susanne Draheim, Kai von Luck and Qi Wang)</li>
+            link: https://gather.town/app/qcWdoti6S3krAT7J/AugmentedHumans21
+            talk-speakers: <ul style="padding-inline-start&#58; 10px; margin-top&#58; 10px;">
+              <li><a href="/design_exhibition">REFLECTIONS ON AIR&#58; An Interactive Mirror for the Multisensory Perception of Air (Jessica Broscheit, Susanne Draheim, Kai von Luck and Qi Wang)</a></li>
               <li>PAL&#58; Wearable and Personalized Habit-support Interventions in Egocentric Visual and Physiological Contexts (Mina Khan, Glenn Fernandes and Pattie Maes)</li>
               <li>Jumple&#58; Interactive Contents for the Virtual Physical Education Classroom in the Pandemic Era (Soohyun Shin, Jaekyung Cho and Seong-Woo Kim)</li>
               <li>Sparkle&#58; A Detachable and Versatile Wearable Sensing Platform in a Sustainable Casing (Adarsh Ravi and Hsin-Liu Cindy Kao)</li>
@@ -248,7 +249,7 @@ session-days:
               <li>Exploring a Dynamic Change of Muscle Appearance in VR,Based on Muscle Activity and/or Skeleton Position (Edouard Ferrand, Adrien Verhulst, Masahiko Inami and Maki Sugimoto)</li>
               <li>Boiling Mind - A Dataset of Physiological Signals during an Exploratory Dance Performance (Zhuoqi Fu, Jiawen Han, Dingding Zheng, Moe Sugawa, Taichi Furukawa, Chernyshov George, Hynds Danny, Padovani Marcelo, Marky Karola, Kouta Minamizawa, Jamie A Ward and Kai Kunze)</li>
               <li>Heavenly Hunt&#58; Using Body Tracking for Involving Museum Visitors in Digital Storytelling (Caglar Genc and Jonna Hakkila)</li>
-              <li>Designing Socially Acceptable Light Therapy Glasses for Self-managing Seasonal Affective Disorder (Christian Nordstrøm Rasmussen, Minna Pakanen and Marianne Graves Petersen)</li>
+              <li><a href="/design_exhibition">Designing Socially Acceptable Light Therapy Glasses for Self-managing Seasonal Affective Disorder (Christian Nordstrøm Rasmussen, Minna Pakanen and Marianne Graves Petersen)</a></li>
               <li>Towards Immersive Virtual Reality Simulations of Bionic Vision (Justin Kasowski, Nathan Wu and Michael Beyeler)</li>
               <li>Moving Visual Stimuli on Smart Glasses Affects the Performance of Subsequent Tasks (Eiichi Hasegawa, Naoya Isoyama, Nobuchika Sakata and Kiyoshi Kiyokawa</li>
               <li>Text Summary Augmentation for Intelligent Reading Assistant (Pramod Vadiraja, Andreas Dengel and Shoya Ishimaru)</li></ul>

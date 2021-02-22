@@ -58,7 +58,7 @@ description: "Program"
                         <td><b>{{ session.session-title }}</b></td>
                         <td>
                             {% if session.link %}
-                            <a class="btn btn-small" href="{{ session.link }}">Watch</a>
+                            <a class="btn btn-small" href="{{ session.link }}" target="_blank">Watch</a>
                             {% endif %}
                         </td>
                     </tr>
@@ -72,7 +72,7 @@ description: "Program"
                         <td>{{ talk.talk-title }} <br /><small>{{ talk.talk-speakers }}</small></td>
                         <td>
                             {% if talk.link != "" %}
-                            <a class="btn btn-small" href="{{ talk.link }}">Watch</a>
+                            <a class="btn btn-small" href="{{ talk.link }}" target="_blank">Watch</a>
                             {% else %}
                             Link coming soon
                             {% endif %}

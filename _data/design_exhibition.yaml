@@ -1,0 +1,13 @@
+page-title: << Design Exhibition >>
+
+design_exhibition-title: Design Exhibition
+design_exhibition-items:
+  - title: REFLECTIONS ON AIR&#58; An Interactive Mirror for the Multisensory Perception of Air
+    authors: Jessica Broscheit, Susanne Draheim, Kai von Luck, and Qi Wang
+    description: During my residence in China, I experienced differing air quality levels, which I recorded in my data diary. This experience raised my interest to visualize invisible information, such as air components, by using atmospheric interfaces. Since then, I have been focusing on the creation of multisensory experiences to explore human-atmospheric interaction, and to address environmental issues related to anthropogenic activities.
+    image: /img/design-exhibition/AH21_design_exhibition_1.jpg
+  
+  - title: Designing Socially Acceptable Light Therapy Glasses for Self-managing Seasonal Affective Disorder
+    authors: Christian Nordstrøm Rasmussen, Minna Pakanen and Marianne Graves Petersen
+    description: Light therapy glasses are meant for self-management of seasonal affective disorder. The classical browline-type frame and discrete touch interaction for adjusting brightness make the glasses easy to integrate on the body in everyday situations during light therapy sessions. Light augmentation in therapy purposes on human body, however, makes user feel self-aware and not comfortable in unfamiliar social situations.
+    image: /img/design-exhibition/AH21_design_exhibition_2.jpg
