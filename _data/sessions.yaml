@@ -69,7 +69,7 @@ session-days:
             talk-time-jst: 18&#58;45 - 19&#58;45
             link: https://lmu-munich.zoom.us/j/99360236813
 
-      - session-title: Session 2&#58; Augmented Cameras
+      - session-title: Session 2&#58; Augmented Cameras <br>Session Chair&#58; Niels Henze
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
           - talk-title: Deep Learning-Based Scene Simplification for Bionic Vision
@@ -102,7 +102,7 @@ session-days:
             link: https://lmu-munich.zoom.us/j/99360236813
 
       
-      - session-title: Session 3&#58; Future of Speech Interfaces
+      - session-title: Session 3&#58; Future of Speech Interfaces <br>Session Chair&#58; Valentin Schwind
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
           - talk-title: SilentMask&#58; Mask-type Silent Speech Interface with Measurement of Mouth Movement
@@ -123,7 +123,7 @@ session-days:
             talk-speakers: Jacob Logas, Kelsie Belan, Thad Starner and Blue Lin
             link: https://lmu-munich.zoom.us/j/99360236813
 
-      - session-title: Session 4&#58; Wearables Beyond the Wrist
+      - session-title: Session 4&#58; Wearables Beyond the Wrist <br>Session Chair&#58;  Kai Kunze
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
           - talk-title: Detecting Episodes of Increased Cough Using Kinetic Earables
@@ -162,7 +162,7 @@ session-days:
 
   - day: Wednesday, 24th of February 2021
     sessions:
-      - session-title: Session 5&#58; Physical Interfaces for Movement
+      - session-title: Session 5&#58; Physical Interfaces for Movement <br>Session Chair&#58; Pawel W. Wozniak
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
           - talk-title: SmartAidView Jacket&#58; Providing visual aid to lower the underestimation of assistive forces
