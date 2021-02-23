@@ -2,6 +2,7 @@ page-title: << Program >>
 
 schedule-title: Schedule
 schedule-description: The conference sessions will be held online. Links to the sessions will be published when they are available. Please note that time zones are shown in Eastern European Time (EET, UTC+2) to match the original location of the conference, Rovaniemi, and additionally in Japan Standard Time (UTC+9). If you registered for the conference and did not receive the login data for the streaming platform, contact us here&#58; kosch@tk.tu-darmstadt.de.
+
   <br />All sessions are streamed live on YouTube&#58; <a href="https&#58;//www.youtube.com/watch?v=7yGuP6T-7zE" target="_blank">https&#58;//www.youtube.com/watch?v=7yGuP6T-7zE</a>.
 
 sessions-title: Sessions
@@ -157,7 +158,7 @@ session-days:
             talk-speakers: Fumihiko Nakamura, Adrien Verhulst, Kuniharu Sakurada and Maki Sugimoto
             link: https://lmu-munich.zoom.us/j/99360236813
           
-          - talk-title: Get-Together in Gather.Town
+          - talk-title: Social Activities on Discord
             talk-time-eet: 23&#58;45 - open end
             link: https://gather.town/app/qcWdoti6S3krAT7J/AugmentedHumans21
 
@@ -255,12 +256,12 @@ session-days:
               <li>Moving Visual Stimuli on Smart Glasses Affects the Performance of Subsequent Tasks (Eiichi Hasegawa, Naoya Isoyama, Nobuchika Sakata and Kiyoshi Kiyokawa</li>
               <li>Text Summary Augmentation for Intelligent Reading Assistant (Pramod Vadiraja, Andreas Dengel and Shoya Ishimaru)</li></ul>
 
-          - talk-title: Lunch Break and Social Activities
+          - talk-title: Lunch Break and Get-Together in Gather.Town
             talk-time-eet: 13&#58;00 - 14&#58;00
             talk-time-jst: 20&#58;00 - 21&#58;00
             link: https://lmu-munich.zoom.us/j/99360236813
 
-      - session-title: Session 7&#58; Augmentations from Head to Toes
+      - session-title: Session 7&#58; Augmentations from Head to Toes <br>Session Chair&#58; Bruno Fruchard
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
           - talk-title: Wearable System for Promoting Salivation
