@@ -261,7 +261,7 @@ session-days:
             talk-time-jst: 20&#58;00 - 21&#58;00
             link: https://lmu-munich.zoom.us/j/99360236813
 
-      - session-title: Session 7&#58; Augmentations from Head to Toes
+      - session-title: Session 7&#58; Augmentations from Head to Toes <br>Session Chair&#58; Bruno Fruchard
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
           - talk-title: Wearable System for Promoting Salivation
