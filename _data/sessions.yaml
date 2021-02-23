@@ -194,7 +194,7 @@ session-days:
             talk-time-jst: 17&#58;00 - 17&#58;30
             link: https://lmu-munich.zoom.us/j/99360236813
         
-      - session-title: Session 6&#58; Augmented Vision
+      - session-title: Session 6&#58; Augmented Vision <br>Session Chair&#58; Yuta Itoh
         link: https://lmu-munich.zoom.us/j/99360236813
         talks:
           - talk-title: A Machine Learning Model Perceiving Brightness Optical Illusions&#58; Quantitative Evaluation with Psychophysical Data
