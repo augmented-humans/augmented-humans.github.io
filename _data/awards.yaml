@@ -22,13 +22,53 @@ awards-committee:
   
   Pat Pataranutaporn (<a href="mailto:patpat@mit.edu">patpat@mit.edu</a>)
 
+awards-title: Awards 2021
+
+awards-2021: |
+
+  <b>Best Paper Award</b>
+
+  MultiSoma&#58; Distributed Embodiment with Synchronized Behavior and Perception
+  Reiji Miura, Shunichi Kasahara, Michiteru Kitazaki, Adrien Verhulst, Masahiko Inami, and Maki Sugimoto
+
+  <b>Honorable Mention</b>
+  Exploring Pseudo Hand-Eye Interaction on the Head-Mounted Display
+  Myung Jin Kim and Andrea Bianchi
+  
+  Deep Learning-Based Scene Simplification for Bionic Vision
+  Nicole Han, Sudhanshu Srivastava, Aiwen Xu, Devi Klein and Michael Beyeler
+
+  <Special Recognition</b>
+
+  Digital Full-Face Mask Display with Expression Recognition using Embedded Photo Reflective Sensor Arrays
+  Yoshinari Takegawa, Yutaka Tokuda, Akino Umezawa, Katsuhiro Suzuki, Katsutoshi Masai, Yuta Sugiura, Maki Sugimoto, Diego Martinez Plasencia, Sriram Subramanian, and Keiji Hirata
+  <a href="https://doi.org/10.1109/ISMAR50242.2020.00030" target="_blank">IEEExplore</a>
+
+  MetaArms&#58; Body Remapping Using Feet-Controlled Artificial Arms
+  MHD Yamen Saraiji, Tomoya  Sasaki, Kai Kunze, Kouta  Minamizawa, and Masahiko Inami
+  <a href="https://dl.acm.org/doi/abs/10.1145/3242587.3242665" target="_blank">ACM DL</a>
+  <a href="https://youtu.be/8csKcHJjmVQ">Video</a>
+
+  <b>Lasting Impact</b>
+  Augmented gustation using electricity
+  Hiromi Nakamura, Homei Miyashita
+
+  <b>Best Poster</b>
+  Reducing Muscle Activity when Playing Tremolo by Using Electrical Muscle Stimulation
+  Arinobu Niijima, Toki Takeda, Ryosuke Aoki and Yukio Koike
+
+  <b>Best Demo</b>
+  GemiN' I&#58; Seamless Skin Interfaces Aiding Communication through Unconscious Behaviors
+  Shuyi Sun, Neha Deshmukh, Xin Chen, Hao-Chuan Wang and Katia Vega
+
+
 past-awards-title: Past Awards 2020
 
 awards-2020: |
 
   <b>Best Paper Award</b>
   
-  Living Bits&#58; Opportunities and Challenges for Integrating Living Microorganisms in Human-Computer Interaction</b>
+  Living Bits&#58; Opportunities and Challenges for Integrating Living Microorganisms in Human-Computer Interaction
   Pat Pataranutaporn*, Angela Vujic*, David Kong and Pattie Maes, Misha Sra, *first authors
   <a href="https://dl.acm.org/doi/10.1145/3384657.3384783" target="_blank">ACM DL</a>
   <a href="https://www.youtube.com/watch?v=qzx_H7sS6os&feature=emb_title">Video</a>

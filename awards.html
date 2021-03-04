@@ -65,7 +65,7 @@ description: "Awards"
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
             <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-                <span>{{ site.data.awards.past-awards-title }}</span></div>
+                <span>{{ site.data.awards.awards-title }}</span></div>
             </div>
             <div class="col-lg-1"></div>
         </div>
@@ -77,7 +77,7 @@ description: "Awards"
         <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
-            {% assign description_paragraphs = site.data.awards.awards-2020 | newline_to_br | split:'<br />' %}
+            {% assign description_paragraphs = site.data.awards.awards-2021 | newline_to_br | split:'<br />' %}
             {% for paragraph in description_paragraphs %}
             <p>{{ paragraph }}</p>
             {% endfor %}
