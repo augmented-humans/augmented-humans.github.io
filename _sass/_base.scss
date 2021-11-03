@@ -26,6 +26,7 @@ html {
   font-family: 'Work Sans', sans-serif;
   position: relative;
   min-height: 100%;
+  color: #000;
 }
 
 body {
@@ -134,7 +135,7 @@ p {
     background-color: $color-black;
     border-color: transparent;
     .navbar-header .navbar-brand {
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 0.55);
       &:hover, &:focus {
         color: white;
       }
@@ -142,7 +143,7 @@ p {
     .nav > li > a {
       color: $color-white;
       &:focus {
-        color: rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, 0.55);
       }
       &:hover, &:focus:hover {
         color: $color-white;
@@ -703,7 +704,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(0.88*5rem + 55px);
   padding-bottom: 0.88*7rem;
-  background: url('../img/assets/ah.jpg');
+  background: url('../img/assets/ah-2.jpg');
   &.normal {
     margin-top: -20px;
     padding-bottom: 0.88*1rem;
@@ -741,19 +742,22 @@ header.masthead {
       margin: auto; // centers it
       font-family: 'Work Sans', sans-serif;
       font-weight: 100;
-      color: $color-white;
-      background-color: rgba(0,0,0,0.4);
+      color: #000000;
+      background-color: rgba(16, 238, 227, 0.776);
+      border: 5px solid #fff;
+
     }
     .masthead-subheading {
       text-align: center;
       margin: auto; // centers it
       margin-top:2%;
       font-family: 'Work Sans', sans-serif;
-      opacity: 0.8;
+      opacity: 1;
       //padding: 5px;
       // font-size: 0.88*1.5rem;
-      color: $color-white;
-      background-color: rgba(0,0,0,0.4);
+      color: #000000;
+      background-color: rgba(255, 255, 255, 0.776);
+      border: 3px solid #fff;
     }
   }
   .bg-circle {
@@ -770,7 +774,7 @@ header.masthead {
       font-size: 22px;
       //text-align: justify;
       padding: 10px;
-      opacity: 0.8;
+      opacity: 1;
       color: black;
       // font-size: 0.88*1.5rem;
      // color: $color-white;
@@ -791,7 +795,7 @@ header.masthead {
     padding-bottom: 0.88*9rem;
     .masthead-content {
       .masthead-heading {
-        font-size: 0.88*3.5rem;
+        font-size: 0.88*3rem;
         //font-weight: 600;
         //letter-spacing: 0.1rem;
         font-family: 'Work Sans', sans-serif;
@@ -800,7 +804,7 @@ header.masthead {
       .masthead-subheading {
         font-family: 'Work Sans', serif;
         font-size: 0.88*2rem;
-        opacity: 0.8;
+        opacity: 1;
         max-width: 80%;
       }
     }
@@ -1535,5 +1539,23 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       margin-bottom: 10px;
       padding: 0 !important;
     }
+  }
+}
+
+
+.mn {
+  text-align: center;
+  // margin: auto; // centers it
+  // margin-top:2%;
+  font-family: 'Work Sans', sans-serif;
+  opacity: 1;
+  //padding: 5px;
+  // font-size: 0.88*1.5rem;
+  color: #000000;
+  background-color: rgba(255,255,255,0.75);
+  border: 1.5px solid #fff;
+  font-size: 1.15rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
   }
 }
