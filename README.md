@@ -1,4 +1,22 @@
-# License
+# Development
+
+This website uses [Jekyll](https://jekyllrb.com) and is hosted using [GitHub Pages](https://pages.github.com). 
+Please refer to the official documentation if you intend to make any changes.
+
+## Prerequisites
+• Ruby 2.7.4
+• Bundler
+
+## Quick start
+```
+git clone git@github.com:augmented-humans/augmented-humans.github.io.git
+cd augmented-humans.github.io
+bundle install
+bundle exec jekyll serve
+```
+
+
+## License
 
 MIT License
 
@@ -21,3 +39,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
