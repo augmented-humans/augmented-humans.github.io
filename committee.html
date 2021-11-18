@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Augmented Humans 2021 | Program committee"
+title: "Augmented Humans 2022 | Program committee"
 description: "Program Committee"
 ---
 <!-- Contact Section -->
@@ -19,6 +19,7 @@ description: "Program Committee"
   </div>
 </header>
 
+{% comment %}
 <section id="" class="kw-committee-section flip2 ah-organization ah-override">
   <div class="container">
     <div class="row">
@@ -367,14 +368,29 @@ description: "Program Committee"
   </div>
 </section>
 
-<section id="" class="kw-committee-section flip1 ah-organization ah-override">
+{% endcomment %}
+
+<section id="" class="kw-committee-section flip2 ah-organization ah-override" style="border-top: 5px solid black;">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.organization.program-comittee-title }}</span></div>
-        {% assign description_paragraphs = site.data.organization.program-comittee | newline_to_br | split:'<br />' %}
+          <span>{{ site.data.organization.general-title }}</span></div>
+        {% assign description_paragraphs = site.data.organization.general | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.organization.program-title }}</span></div>
+        {% assign description_paragraphs = site.data.organization.program | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
         {% endfor %}
@@ -383,6 +399,8 @@ description: "Program Committee"
     </div>
   </div>
 </section>
+
+{% comment %}
 
 <section id="" class="kw-committee-section flip1 ah-organization ah-override">
   <div class="container">
@@ -401,7 +419,7 @@ description: "Program Committee"
   </div>
 </section>
 
-<section id="steering" class="kw-committee-section flip ah-organization ah-override">
+<section id="steering" class="kw-committee-section flip2 ah-organization ah-override">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -417,3 +435,4 @@ description: "Program Committee"
     </div>
   </div>
 </section>
+{% endcomment %}

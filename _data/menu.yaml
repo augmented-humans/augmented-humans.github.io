@@ -9,17 +9,17 @@ item-2-shortcut: /committee
 item-3-title: Past conferences
 item-3-shortcut: /previous-conferences
 
-item-4-title: Blog
-item-4-shortcut: /blog
+# item-4-title: Blog
+# item-4-shortcut: /blog
 
-item-8-title: Awards
-item-8-shortcut: /awards
+# item-8-title: Awards
+# item-8-shortcut: /awards
 
-item-5-title: Location
-item-5-shortcut: /location
+# item-5-title: Location
+# item-5-shortcut: /location
 
-item-6-title: Program
-item-6-shortcut: /sessions
+# item-6-title: Program
+# item-6-shortcut: /sessions
 
-item-7-title: Registration
-item-7-shortcut: /registration
+# item-7-title: Registration
+# item-7-shortcut: /registration

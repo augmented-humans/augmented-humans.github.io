@@ -33,12 +33,20 @@
 //     }
 // }
 
+
+$theme-primary: #FE6091;
+$theme-secondary: #FDC97C;
+
+$theme-accent: #4ED5D1;
+$color-highlight: $theme-accent;
+
 // variables.less link and gradient background
 $head-primary: #385566 ;
 $head-secondary: #243c46 ;
-$theme-primary: #527aac; //#385566; //   00ff9f ;
-$theme-secondary: #abc6e6;//#527aac; //#5e7cbd;
-$theme-dark: #222;
+
+// $theme-primary: #527aac; //#385566; //   00ff9f ;
+// $theme-secondary: #abc6e6;//#527aac; //#5e7cbd;
+// $theme-dark: #222;
 
 $color-lblue: #29b7ea;
 $color-dblue: #193f82;
@@ -46,7 +54,6 @@ $color-black: #161616;
 $color-grey: #8e8e8e;
 $color-white: #fff;
 
-$color-highlight: #abc6e6; //#00ff9f;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

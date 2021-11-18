@@ -1,8 +1,13 @@
-page-title: << Previous Conferences >>
+page-title: <strong>P</strong>revious <strong>C</strong>onferences
 
-title: Conferences
+title: 2021 ~ 2010
 
 conferences:
+  - AHs2021 Augmented Humans International Conference 2021
+    Rovaniemi, Finland / Online - February 22-24, 2021
+    <a href="https://2021.augmented-humans.org">Website</a>
+    # <a href="https://dl.acm.org/doi/proceedings/10.1145/3384657">ACM DL</a>
+
   - AHs2020 Augmented Humans International Conference 2020
     Kaiserslautern, Germany / Online - March 16-17, 2020
     <a href="https://2020.augmented-humans.org">Website</a>
