@@ -33,7 +33,7 @@ description: "Program Committee"
           {% for paragraph in description_paragraphs %}
           <div class="person">
             <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-            <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
           {% endfor %}
         </div>
@@ -49,16 +49,17 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.program-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.program-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.program-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.program-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -88,16 +89,17 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.poster-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.poster-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.poster-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.poster-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -110,21 +112,23 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.demo-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.demo-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              {% if paragraph.image %}
-                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              {% else %}
-                <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
-                width="180px" alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
-              {% endif %}
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.demo-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.demo-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            {% if paragraph.image %}
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            {% else %}
+            <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
+              width="180px"
+              alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
+            {% endif %}
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -137,21 +141,23 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.design-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.design-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              {% if paragraph.image %}
-                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              {% else %}
-                <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
-                width="180px" alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
-              {% endif %}
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.design-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.design-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            {% if paragraph.image %}
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            {% else %}
+            <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
+              width="180px"
+              alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
+            {% endif %}
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -164,16 +170,17 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.publication-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.publication-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.publication-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.publication-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -186,16 +193,17 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.sv-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.sv-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.sv-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.sv-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -208,21 +216,23 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.dc-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.dc-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              {% if paragraph.image %}
-                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              {% else %}
-                <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
-                width="180px" alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
-              {% endif %}
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.dc-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.dc-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            {% if paragraph.image %}
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            {% else %}
+            <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
+              width="180px"
+              alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
+            {% endif %}
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -254,21 +264,23 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.awards-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.awards-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              {% if paragraph.image %}
-                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              {% else %}
-                <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
-                width="180px" alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
-              {% endif %}
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.awards-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.awards-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            {% if paragraph.image %}
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            {% else %}
+            <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
+              width="180px"
+              alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
+            {% endif %}
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -281,21 +293,23 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.social-media-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.social-media-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              {% if paragraph.image %}
-                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              {% else %}
-                <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
-                width="180px" alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
-              {% endif %}
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.social-media-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.social-media-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            {% if paragraph.image %}
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            {% else %}
+            <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
+              width="180px"
+              alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
+            {% endif %}
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -308,21 +322,23 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.operations-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.operations-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              {% if paragraph.image %}
-                <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              {% else %}
-                <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
-                width="180px" alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
-              {% endif %}
-              <p><strong>{{ paragraph.name }}</strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.operations-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.operations-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            {% if paragraph.image %}
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            {% else %}
+            <img class="committe-image" src="{{ '/img/organizers/Portrait_Placeholder.png' | prepend: site.url }}"
+              width="180px"
+              alt="Greasemann, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons" />
+            {% endif %}
+            <p><strong>{{ paragraph.name }}</strong><br />{{ paragraph.affiliation }}<br />{{ paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -335,7 +351,8 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.video-chairs-title }}</span></div>
+          <span>{{ site.data.organization.video-chairs-title }}</span>
+        </div>
         {% assign description_paragraphs = site.data.organization.video-chairs | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
@@ -352,16 +369,18 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.organization.web-chairs-title }}</span></div>
-          <div class="people">
-            {% assign description_paragraphs = site.data.organization.web-chairs %}
-            {% for paragraph in description_paragraphs %}
-            <div class="person">
-              <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
-              <p><strong><strong>{{ paragraph.name }}</strong></strong><br/>{{ paragraph.affiliation }}<br/>{{ paragraph.country }}</p>
-            </div>
-            {% endfor %}
+          <span>{{ site.data.organization.web-chairs-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.web-chairs %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            <p><strong><strong>{{ paragraph.name }}</strong></strong><br />{{ paragraph.affiliation }}<br />{{
+              paragraph.country }}</p>
           </div>
+          {% endfor %}
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
@@ -374,18 +393,30 @@ description: "Program Committee"
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.organization.general-title }}</span></div>
-        {% assign description_paragraphs = site.data.organization.general | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p>{{ paragraph }}</p>
+      <div class="col-lg-10" style="padding-top: 30px; padding-bottom: 30px;">
+        {% for item in site.data.organization.committee %}
+        <div class="kw-committee-group">
+          <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+            <span class="k-title">{{ item.group }}</span>
+          </div>
+          <div>
+            {% assign people = item.people | newline_to_br | split:'<br />' %}
+            {% assign i = 1 %}
+            {% assign pl = people.size %}
+            {% for paragraph in people %}
+                {% if i != pl %}
+                  <p>{{ paragraph }}</p>
+                {% endif %}
+              {% assign i = i | plus: 1 %}
+            {% endfor %}
+          </div>
+        </div>
         {% endfor %}
       </div>
       <div class="col-lg-1"></div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
@@ -397,7 +428,7 @@ description: "Program Committee"
       </div>
       <div class="col-lg-1"></div>
     </div>
-  </div>
+  </div> -->
 </section>
 
 {% comment %}
@@ -408,7 +439,8 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.organization.best-paper-title }}</span></div>
+          <span>{{ site.data.organization.best-paper-title }}</span>
+        </div>
         {% assign description_paragraphs = site.data.organization.best-paper | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
@@ -425,7 +457,8 @@ description: "Program Committee"
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-          <span>{{ site.data.organization.steering-title }}</span></div>
+          <span>{{ site.data.organization.steering-title }}</span>
+        </div>
         {% assign description_paragraphs = site.data.organization.steering | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>

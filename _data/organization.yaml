@@ -1,11 +1,54 @@
 page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 
-program-title: Program Committee Chairs
-program: |
-    Yuichi Kurita, Hiroshima University
-    Karola Marky, University of Glasgow 
+# program-title: Program Committee Chairs
+# program: |
+#     Yuichi Kurita, Hiroshima University
+#     Karola Marky, University of Glasgow 
 
-general-title: General Chairs
-general: |
-    Masaaki Mochimaru, AIST
-    Katrin Wolf, Beuth University of Applied Sciences
+# general-title: General Chairs
+# general: |
+#     Masaaki Mochimaru, AIST
+#     Katrin Wolf, Beuth University of Applied Sciences
+
+
+committee:
+    - group: General Chairs
+      people: |
+        Masaaki Machimaru (AIST)
+        Katrin Wolf (Beuth University of Applied Sciences) suggested
+
+    - group: PC Chairs
+      people: |
+        Yuichi Kurita (Hiroshima Univ.)
+        Karola Marky (Glasgow)
+
+    - group: Publication Chair
+      people: |
+        Swagata Das (Hiroshima Univ.)
+
+    - group: Financial Chair
+      people: |
+        Keiichi Zempo (Univ. Tsukuba)
+        Local Chairs (Tokyo)
+        Akihiko Murai (AIST) 
+        Zendai Kashino (U-Tokyo) 
+        Local Chairs (Germany)
+        Chloe Eghtebas (TU Munich) suggested
+    
+    - group: Online Chairs
+      people: |
+        Mai Otsuki (AIST)
+        Masa Ogata (AIST)
+    
+    - group: Web Chair
+      people: |
+        Kirill Ragozin (KMD)
+    
+    - group: Representative from Steering committee
+      people: |
+        Kai Kunze (KMD)
+        Masahiko Inami (U-Tokyo)
+    
+    - group: Posters & Demos Chair
+      people: |
+        Yuki Ban (U-tokyo)

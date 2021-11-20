@@ -1554,3 +1554,27 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     font-size: 1rem;
   }
 }
+
+.kw-committee-group {
+  .kw-section-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    span {
+      border-style: solid !important;
+      border-color: $theme-accent !important;
+    }
+  }
+  &:nth-child(2n) .kw-section-title {
+    span {
+      border-color: $theme-primary !important;
+    }
+  }
+  p {
+    &::before {
+      content: '• ';
+    }
+    margin: 0 !important;
+  }
+  margin-bottom: 20px !important;
+}
