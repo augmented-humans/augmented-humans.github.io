@@ -12,43 +12,55 @@ page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 
 
 committee:
-    - group: General Chairs
+    - group: Representative from Steering Committee
+      people: |
+        Kai Kunze (KMD)
+        Masahiko Inami (U-tokyo)
+
+    - group: General Chair
       people: |
         Masaaki Machimaru (AIST)
-        Katrin Wolf (Beuth University of Applied Sciences) suggested
+
+    - group: General Co-Chair
+      people: |
+        Katrin Wolf
 
     - group: PC Chairs
       people: |
         Yuichi Kurita (Hiroshima Univ.)
         Karola Marky (Glasgow)
-
+    
     - group: Publication Chair
       people: |
-        Swagata Das (Hiroshima Univ.)
-
+        Swagata Das (Hiroshima University)
+    
     - group: Financial Chair
       people: |
-        Keiichi Zempo (Univ. Tsukuba)
-        Local Chairs (Tokyo)
-        Akihiko Murai (AIST) 
-        Zendai Kashino (U-Tokyo) 
-        Local Chairs (Germany)
-        Chloe Eghtebas (TU Munich) suggested
-    
+        Keiichi Zempo (Tsukuba University)
+
+    - group: Local Chairs (Tokyo)
+      people: |
+        Akihiko Murai (AIST)  
+        Zendai Kashino (U-tokyo)
+
+    # - group: Local Chairs (Germany)
+    #   people: |
+    #     Chloe Eghtebas (TU Munich) suggested
+
     - group: Online Chairs
       people: |
         Mai Otsuki (AIST)
         Masa Ogata (AIST)
-    
+
     - group: Web Chair
       people: |
         Kirill Ragozin (KMD)
     
-    - group: Representative from Steering committee
+    - group: SV Chairs
       people: |
-        Kai Kunze (KMD)
-        Masahiko Inami (U-Tokyo)
-    
+        Maekawa (U-tokyo)
+
     - group: Posters & Demos Chair
       people: |
-        Yuki Ban (U-tokyo)
+        Yuki Ban (as listed)
+        Matthias Hoppe (LMU Munich)
