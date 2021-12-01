@@ -7,7 +7,7 @@ page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 
 # general-title: General Chairs
 # general: |
-#     Masaaki Mochimaru, AIST
+#     Masaaki Mochimaru, AISTs
 #     Katrin Wolf, Beuth University of Applied Sciences
 
 
@@ -40,8 +40,8 @@ committee:
 
     - group: Local Chairs (Tokyo)
       people: |
-        Akihiko Murai (AIST)  
-        Zendai Kashino (U-tokyo)
+        Akihiko Murai (AIST, Japan)  
+        Zendai Kashino (U-tokyo, Japan)
 
     # - group: Local Chairs (Germany)
     #   people: |
@@ -49,18 +49,18 @@ committee:
 
     - group: Online Chairs
       people: |
-        Mai Otsuki (AIST)
-        Masa Ogata (AIST)
+        Mai Otsuki (AIST, Japan)
+        Masa Ogata (AIST, Japan)
 
     - group: Web Chair
       people: |
-        Kirill Ragozin (KMD)
+        Kirill Ragozin (Keio University, Japan)
     
-    - group: SV Chairs
+    - group: SV Chairss
       people: |
-        Maekawa (U-tokyo)
+        Maekawa (U-tokyo, Japan)
 
     - group: Posters & Demos Chair
       people: |
-        Yuki Ban (U-tokyo)
-        Matthias Hoppe (LMU Munich)
+        Yuki Ban (U-tokyo, Japan)
+        Matthias Hoppe (LMU Munich, Germany)
