@@ -12,11 +12,6 @@ page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 
 
 committee:
-    - group: Representative from Steering Committee
-      people: |
-        Kai Kunze (Keio University, Japan)
-        Masahiko Inami (U-tokyo, Japan)
-
     - group: General Chair
       people: |
         Masaaki Mochimaru (AIST, Japan)
@@ -64,3 +59,18 @@ committee:
       people: |
         Yuki Ban (U-tokyo, Japan)
         Matthias Hoppe (LMU Munich, Germany)
+        
+    - group: Steering Committee
+      people: |
+        Masahiko Inami, The University of Tokyo, Japan
+        Albrecht Schmidt, LMU Munich, Germany
+        Pattie Maes, MIT Cambridge, USA
+        Woontack Woo, KAIST, Korea
+        Ellen Yi-Luen Do, University of Colorado Boulder, USA
+        Paul Lukowicz, DFKI Kaiserslautern, Germany
+        Suranga Nanayakkara, University of Auckland, New Zealand
+        Tsutomu Terada, University of Kobe, Japan
+        Jun Rekimoto, The University of Tokyo, Japan
+        Katrin Wolf, Hamburg University for Applied Sciences, Germany
+        Hideki Koike, Tokyo Institute of Technology, Japan
+        Kai Kunze, Keio University, Japan
