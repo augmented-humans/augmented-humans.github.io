@@ -16,10 +16,6 @@ committee:
       people: |
         Masaaki Mochimaru (AIST, Japan)
 
-    - group: General Co-Chair
-      people: |
-        Katrin Wolf (U-tokyo, Japan)
-
     - group: PC Chairs
       people: |
         Yuichi Kurita (Hiroshima University, Japan)
@@ -36,11 +32,8 @@ committee:
     - group: Local Chairs (Tokyo)
       people: |
         Akihiko Murai (AIST, Japan)  
-        Zendai Kashino (U-tokyo, Japan)
-
-    # - group: Local Chairs (Germany)
-    #   people: |
-    #     Chloe Eghtebas (TU Munich) suggested
+        Zendai Kashino (University of Tokyo, Japan)
+        
 
     - group: Online Chairs
       people: |
@@ -50,6 +43,7 @@ committee:
     - group: Web Chair
       people: |
         Kirill Ragozin (Keio University, Japan)
+        Steeven Villa (LMU Munich, Germany)
     
     - group: SV Chairss
       people: |
