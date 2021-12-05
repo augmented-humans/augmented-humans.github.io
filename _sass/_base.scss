@@ -800,7 +800,8 @@ header.masthead {
     padding-bottom: 0.88*9rem;
     .masthead-content {
       .masthead-heading {
-        font-size: 0.88*3rem;
+        // font-size: 0.88*3rem;
+        font-size: 2.3rem;
         //font-weight: 600;
         //letter-spacing: 0.1rem;
         font-family: 'Work Sans', sans-serif;
@@ -1491,7 +1492,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   .kw-section-title {
     padding-bottom: 0;
     span {
-      // border-color: #ababab !important;
+      border-color: #ababab !important;
     }
   }
 
