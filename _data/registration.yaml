@@ -1,11 +1,13 @@
-page-title: << Registration >>
+page-title: <strong>R</strong>egistration
 
-registration-title: Registration
+registration-title: 
 registration: |
-  All participants are required to register before attending the conference. Every accepted paper requires at least one registered author. The registration includes virtual attendance, publication, and administration costs. 
+  To be announced.
+# registration: |
+#   All participants are required to register before attending the conference. Every accepted paper requires at least one registered author. The registration includes virtual attendance, publication, and administration costs. 
 
-  <b>ACM Members:</b> 100€
-  <b>ACM Non-Members:</b> 120€
-  <b>Students:</b> 70€
+#   <b>ACM Members:</b> 100€
+#   <b>ACM Non-Members:</b> 120€
+#   <b>Students:</b> 70€
 
-  <b><a class="page-scroll" href="https://ilmo.contio.fi/rlc/main.aspx?id=223" target="_blank">Click here</a> to register.</b>
+#   <b><a class="page-scroll" href="https://ilmo.contio.fi/rlc/main.aspx?id=223" target="_blank">Click here</a> to register.</b>

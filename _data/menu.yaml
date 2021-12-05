@@ -3,6 +3,9 @@
 item-1-title: Calls for Participation
 item-1-shortcut: /calls-for-participation
 
+item-7-title: Registration
+item-7-shortcut: /registration
+
 item-2-title: Committee
 item-2-shortcut: /committee
 
@@ -20,6 +23,3 @@ item-3-shortcut: /previous-conferences
 
 # item-6-title: Program
 # item-6-shortcut: /sessions
-
-# item-7-title: Registration
-# item-7-shortcut: /registration

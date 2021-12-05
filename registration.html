@@ -6,7 +6,6 @@ sitemap: false
 ---
 <!-- Contact Section -->
 <header class="masthead text-center text-white normal">
-    <div class="overlay"></div>
     <div id="particles-js" class="masthead-content">
         <div class="container">
             <div class="row">
@@ -22,12 +21,12 @@ sitemap: false
 </header>
 
 
-<section id="" class="flip2 ah-organization ah-override">
+<section id="" class="flip2 ah-organization ah-override" style="border-top: 5px solid black;">
     <div class="container">
         <div class="row">
             <div class="col-lg-1"></div>
-            <div class="col-lg-10">
-                <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+            <div class="col-lg-10 text-center" style="min-height: 280px;">
+                <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
                     <span>{{ site.data.registration.registration-title }}</span>
                 </div>
                 {% assign description_paragraphs = site.data.registration.registration | newline_to_br | split:'<br />' %}
