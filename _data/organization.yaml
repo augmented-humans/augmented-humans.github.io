@@ -49,10 +49,16 @@ committee:
       people: |
         Maekawa (U-tokyo, Japan)
 
-    - group: Posters & Demos Chair
+    - group: Poster Chair
       people: |
         Yuki Ban (U-tokyo, Japan)
         Matthias Hoppe (LMU Munich, Germany)
+        
+        
+    - group: Demo Chairs
+      people: |
+        Sarah Delgado Rodriguez (CODE Research Institute, Germany)
+        
         
     - group: Steering Committee
       people: |
