@@ -34,10 +34,10 @@ topics: |
 categories-title: Submission categories & Instructions
 categories: |
   
-  <b>Full papers</b> - up to 10 pages excluding references, anonymized, 15 + 5 minutes
-  <b>Short papers</b> - 4 pages excluding references, anonymized, 7 + 3 minutes presentation
-  <b>Demonstration papers</b> - up to 3 pages excluding references, anonymized, excluding references, demonstration at the conference
-  <b>Poster papers</b> - up to 3 pages excluding references, anonymized, presented at the conference
+  <b>Full papers</b> - up to 16 pages single column excluding references, anonymized, 15 + 5 minutes
+  <b>Short papers</b> - 8 pages single column excluding references, anonymized, 7 + 3 minutes presentation
+  <b>Demonstration papers</b> - up to 4 pages single column excluding references, anonymized, excluding references, demonstration at the conference
+  <b>Poster papers</b> - up to 4 pages single column excluding references, anonymized, presented at the conference
   
   All page lengths are excluding references. Please use the SIGCHI single-column format for full papers, short papers, posters, and demos (SigConf template). Use the extended abstract (Overleaf) format for design exhibitions. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews. 
   
