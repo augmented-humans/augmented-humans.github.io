@@ -41,24 +41,26 @@ committee:
         Mai Otsuki (AIST, Japan)
         Masa Ogata (AIST, Japan)
 
-    - group: Web Chair
+    - group: Web Chairs
       people: |
         Kirill Ragozin (Keio University, Japan)
         Steeven Villa (LMU Munich, Germany)
     
-    - group: SV Chairss
+    - group: SV Chairs
       people: |
         Maekawa (U-tokyo, Japan)
 
-    - group: Poster Chair
+    - group: Poster Chairs
       people: |
         Yuki Ban (U-tokyo, Japan)
         Matthias Hoppe (LMU Munich, Germany)
+        Jasmin Niess (University of St. Gallen)
         
         
     - group: Demo Chairs
       people: |
         Sarah Delgado Rodriguez (CODE Research Institute, Germany)
+        Robin Welsch (LMU Munich, Germany)
         
         
     - group: Steering Committee
