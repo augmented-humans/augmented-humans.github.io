@@ -35,6 +35,11 @@ committee:
         Akihiko Murai (AIST, Japan)  
         Zendai Kashino (University of Tokyo, Japan)
         
+     - group: Local Chairs (Munich)
+      people: |
+        Jakob Karolus (LMU Munich, Germany)
+        Passant Elagroudy (LMU Munich, Germany)
+        
 
     - group: Online Chairs
       people: |
@@ -55,14 +60,15 @@ committee:
       people: |
         Yuki Ban (U-tokyo, Japan)
         Matthias Hoppe (LMU Munich, Germany)
-        Jasmin Niess (University of St. Gallen)
+        Jasmin Niess (University of St. Gallen, Switzerland)
         
         
     - group: Demo Chairs
       people: |
-        Sarah Delgado Rodriguez (CODE Research Institute, Germany)
+        Sarah Delgado Rodriguez (University of the Bundeswehr Munich, CODE Research Institute, Munich, Germany)
         Robin Welsch (LMU Munich, Germany)
         Yun Suen Pai (Keio University, Japan)
+
         
         
     - group: Steering Committee
