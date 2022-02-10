@@ -40,6 +40,7 @@ committee:
       people: |
         Masa Ogata (AIST, Japan)
         Mai Otsuki (AIST, Japan)
+        Julian Rasch (LMU Munich, Germany)
 
     - group: Web Chairs
       people: |
@@ -61,6 +62,7 @@ committee:
       people: |
         Sarah Delgado Rodriguez (CODE Research Institute, Germany)
         Robin Welsch (LMU Munich, Germany)
+        Yun Suen Pai (Keio University, Japan)
         
         
     - group: Steering Committee
@@ -77,3 +79,53 @@ committee:
         Katrin Wolf, Hamburg University for Applied Sciences, Germany
         Hideki Koike, Tokyo Institute of Technology, Japan
         Kai Kunze, Keio University, Japan
+
+    - group: PC Members
+      people: |
+        David Steeven Villa Salazar (LMU Munich, Germany)
+        Daniel Wessolek (Futurium gGmbH)
+        Nami Ogawa (University of Tokyo, Japan)
+        Hesham Elsayed (TU Darmstadt, Germany)
+        Ken Nakagaki (University of Chicago, United States)
+        Thomas Kosch (TU Darmstadt, Germany)
+        Eleonora Mencarini (Fondazione Bruno Kessler)
+        Keita Higuchi (University of Tokyo, Japan)
+        Henning Pohl (University of Copenhagen, Denmark)
+        Kirill Ragozin (Keio University, Japan)
+        Shoya Ishimaru (Osaka Prefecture University, Japan)
+        Yusuke Tamura (Tohoku University, Japan)
+        Keiichi Zempo (University of Tsukuba, Japan)
+        Yasutaka Nakashima (Kyushu University, Japan)
+        Jamie Anthony Ward (UCL)
+        Don Samitha Elvitigala (University of Auckland, New Zealand)
+        Maki Sugimoto (Keio University, Japan)
+        Julian Rasch (LMU Munich, Germany)
+        Anthanasios Vourvopoulos (Institute for Systems and Robotics, Portugal)
+        Aditya Shekhar Nittala (Saarland University, Germany)
+        Martin Weigel (Technische Hochschule Mittelhessen, Germany)
+        Kristof Van Laerhoven (University of Siegen, Germany)
+        Pascal Knierim (Ludwig Maximilian University of Munich, Germany)
+        Niels Henze (University of Regensburg, Germany)
+        Jochen Huber (Furtwangen University, Germany)
+        Florian Müller (LMU Munich, Germany)
+        Julius von Willich (TU Darmstadt, Germany)
+        Masa Ogata (National Institute of Advanced Industrial Science and Technology, Japan)
+        Akishige Yuguchi (RIKEN Guardian Robot Project)
+        Roshan Peiris (Rochested Institute of Technology, United States)
+        Tadayoshi Aoyama (Nagoya University, Japan)
+        Nina Gerber (TU Darmstadt, Germany)
+        Shunichi Kasahara (University of Tokyo, Japan)
+        Monica Perusquía-Hernández (University of Essex, Germany)
+        Stefan Schneegass (University of Duisburg-Essen, Germany)
+        Harutoyo Hirano (Shizuoka University, Japan)
+        Damien Brun (University of Lapland, Finland)
+        Geehyuk Lee (Korea Advanced Institute of Science and Technology, Korea)
+        Enriko Rukzio (Ulm University, Germany)
+        Paweł Woźniak (Chanmers University of Technology, Sweden)
+        Denys J.C. Matthies (Fraunhofer)
+        Kai Kunze (Keio University, Japan)
+        Ian Oakley (University of Madeira, Portugal)
+        Liwei Chan (National Taiwan University, Republic of China)
+        Yumeko Imamura (National Institute of Advanced Industrial Science and Technology, Japan)
+        Tsutomu Terada (Kobe University, Japan)
+        Naoya Koizumi (University of Electro-Communications, Japan)
