@@ -1,7 +1,11 @@
 title: <strong>A</strong>ugmented <strong>H</strong>uman<strong><i>s</i></strong> 20<strong>22</strong> | March 13-15th
 subtitle: Kashiwanoha, Japan + Munich, Germany + Cyberspace
 
-# deadline-update: The <a href="#submission-deadlines">submission deadline</a> for full papers has been extended to December 17!
+notice: |
+  <strong>Update (Feb 10th, 2022):</strong>
+  The conference will be held in a hybrid format. The on-site event in Japan is cancelled. The on-site event in Munich will still happen (if enough people register for it). 
+
+show_notice: true
 
 about-title: About the Conference
 about: |

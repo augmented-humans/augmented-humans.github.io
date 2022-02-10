@@ -6,7 +6,7 @@
             <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left"><span>{{ site.data.landing.about-title }}</span></div>
             
             {% if site.data.landing.show_notice == true %}
-              <h2 class="masthead-subheading-notice">{{ site.data.landing.notice }}</h2>
+              <p class="masthead-subheading-notice">{{ site.data.landing.notice | newline_to_br }}</p>
             {% endif %}
 
             {% assign description_paragraphs = site.data.landing.about | newline_to_br | split:'<br />' %}
