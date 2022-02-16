@@ -30,10 +30,10 @@ topics: |
 
 submission_categories: |
   SUBMISSION CATEGORIES & INSTRUCTIONS
-  Full papers
-  - up to 16 pages excluding references, anonymized, 15 min presentation + 5 minutes QA
+  Full papers 
+  - up to 16 pages single column excluding references, anonymized
   Short papers
-  - up to 8 pages excluding references, anonymized, 7 min presentation + 3 minutes QA
+  - 8 pages single column excluding references, anonymized
   Poster and Demonstration papers
   - up to 4 pages plus 1 extra page for references, anonymized, poster or demonstration at the conference
   Please use the SIGCHI single-column format for full papers, short papers, posters, and demos (SigConf template). Supplemental video submission is recommended. Papers will be reviewed in a double-blind process. Each paper will receive 2-3 reviews.
