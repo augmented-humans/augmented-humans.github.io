@@ -4,7 +4,7 @@ details: |
   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
 
 submissions: |
-  - Full/Short Papers: January 7th, 2022, Anywhere on Earth （NO EXTENSION
+  - Full/Short Papers: January 7th, 2022, Anywhere on Earth （NO EXTENSION)
   - Posters/Demos: February 11st, 2022
 
 topics: |
@@ -31,9 +31,9 @@ topics: |
 submission_categories: |
   SUBMISSION CATEGORIES & INSTRUCTIONS
   Full papers 
-  - up to 16 pages single column excluding references, anonymized
+  - up to 16 pages single column excluding references, anonymized, 7 min pre-submitted video + QA
   Short papers
-  - 8 pages single column excluding references, anonymized
+  - 8 pages single column excluding references, anonymized, 5 min pre-submitted video + QA
   Poster and Demonstration papers
   - up to 4 pages plus 1 extra page for references, anonymized, poster or demonstration at the conference
   Please use the SIGCHI single-column format for full papers, short papers, posters, and demos (SigConf template). Supplemental video submission is recommended. Papers will be reviewed in a double-blind process. Each paper will receive 2-3 reviews.
