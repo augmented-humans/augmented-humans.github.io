@@ -4,7 +4,8 @@ This website uses [Jekyll](https://jekyllrb.com) and is hosted using [GitHub Pag
 Please refer to the official documentation if you intend to make any changes.
 
 ## Prerequisites
-• Ruby 2.7.4
+• Ruby 2.7.5
+
 • Bundler
 
 ## Quick start
