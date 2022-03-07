@@ -2,50 +2,50 @@ page-title: Program
 
 program-title: Program
 program-description:
-  The following papers will be presented. A schedule will be published soon
+  <a href="../img/print/AHs2022SessionProgram.pdf">Click here</a> to see the preliminary schedule of the event.
 
-program-papers:
-  - Detecting Episodes of Increased Cough Using Kinetic Earables<br /><small>Tobias Röddiger, Michael Beigl, Michael Hefenbrock, Daniel Wolffram and Erik Pescara</small>
-  - Portable 3D Human Pose Estimation for Human-Human Interaction using a Chest-Mounted Fisheye Camera <br /><small>Kohei Aso, Dong-Hyun Hwang and Hideki Koike</small>
-  - CapGlasses&#58; Untethered Capacitive Sensing with Smart Glasses <br /><small>Denys J.C. Matthies, Chamod Weerasinghe, Suranga Nanayakkara and Bodo Urban</small>
-  - Exploratory Design of a Hands-free Video Game Controller for a Quadriplegic Individual <br /><small>Atieh Taheri and Misha Sra</small>
-  - Virtual Whiskers&#58; Spatial Directional Guidance using Cheek Haptic Stimulation in a Virtual Environment <br /><small>Fumihiko Nakamura, Adrien Verhulst, Kuniharu Sakurada and Maki Sugimoto</small>
-  - Wearable System for Promoting Salivation <br /><small>Kai Washino, Ayumi Ohnishi, Tsutomu Terada and Masahiko Tsukamoto</small>
-  - HemodynamicVR - Adapting the User's Field Of View during Virtual Reality Locomotion Tasks using Wearable Functional Near-Infrared Spectroscopy <br /><small>Hiroo Yamamura, Holger Baldauf and Kai Kunze</small>
-  - Augmented Foot&#58; A Comprehensive Survey of Foot Augmentation Devices <br /><small>Don Samitha Elvitigala, Jochen Huber and Suranga Nanayakkara</small>
-  - Motion-specific Browsing method by mapping to a circle for personal video Observation with Head-Mounted Displays <br /><small>Natsuki Hamanishi and Jun Rekimoto</small>
-  - Exploring Pseudo Hand-Eye Interaction on the Head-Mounted Display <br /><small>Myung Jin Kim and Andrea Bianchi</small>
-  - MultiSoma&#58; Distributed Embodiment with Synchronized Behavior and Perception <br /><small>Reiji Miura, Maki Sugimoto, Shunichi Kasahara, Michiteru Kitazaki, Adrien Verhulst and Masahiko Inami</small>
-  - Dynamic Shared Limbs&#58; An Adaptive Shared Body Control Method Using EMG Sensors <br /><small>Ryo Takizawa, Takayoshi Hagiwara, Adrien Verhulst, Masaaki Fukuoka, Michiteru Kitazaki and Maki Sugimoto</small>
-  - Independent Control of Supernumerary Appendages Exploiting Upper Limb Redundancy <br /><small>Hideki Shimobayashi, Tomoya Sasaki, Arata Horie, Riku Arakawa, Zendai Kashino and Masahiko Inami</small>
-  - Research on the transcendence of bodily differences, using sport and human augmentation medium <br /><small>Ryoichi Ando, Isao Uebayashi, Hayato Sato, Hayato Ohbayashi, Shota Katagiri, Shuhei Hayakawa and Kouta Minamizawa</small>
-  - SilentMask&#58; Mask-type Silent Speech Interface with Measurement of Mouth Movement <br /><small>Hirotaka Hiraki and Jun Rekimoto</small>
-  - Derma&#58; Silent Speech Interaction Using Transcutaneous MotionSensing <br /><small>Jun Rekimoto and Yui Nishimura</small>
-  - Conversational Partner’s Perception of Subtle Display Use for Monitoring Notifications <br /><small>Jacob Logas, Kelsie Belan, Thad Starner and Blue Lin</small>
-  - Deep Learning-Based Scene Simplification for Bionic Vision <br /><small>Nicole Han, Sudhanshu Srivastava, Aiwen Xu, Devi Klein and Michael Beyeler</small>
-  - FaceRecGlasses&#58; A Wearable System for Recognizing Self Facial Expression Using Compact Wearable Cameras <br /><small>Hiroaki Aoki, Ayumi Ohnishi, Naoya Isoyama, Tsutomu Terada and Masahiko Tsukamoto</small>
-  - CircadianVisor&#58; Image Presentation With an Optical See-Through Display in Consideration of Circadian Illuminance <br /><small>Takumi Tochimoto, Yuichi Hiroi and Yuta Itoh</small>
-  - Advantage and Misuse of Vision Augmentation - Exploring User Perceptions and Attitudes using a Zoom Prototype <br /><small>Chloe Eghtebas, Francisco Kiss, Marion Koelle and Paweł Woźniak</small>
-  - SmartAidView Jacket&#58; Providing visual aid to lower the underestimation of assistive forces <br /><small>Swagata Das, Velika Wongchadakul and Yuichi Kurita</small>
-  - Virtual Physical Task Training&#58; Comparing Shared Body, Shared View and Verbal Task Explanation <br /><small>Jens Reinhardt, Marco Kurzweg and Katrin Wolf</small>
-  - Hippocampal Cognitive Prosthesis, Memory and Identity&#58; Case Study for the Role of Ethics Guidelines for Human Enhancement <br /><small>Yasemin J. Erden and Philip Brey</small>
-  - CV-Based Analysis for Microscopic Gauze Suturing Training <br /><small>Mikihito Matsuura, Shio Miyafuji, Erwin Wu, Satoshi Kiyofuji, Taichi Kin, Takeo Igarashi and Hideki Koike</small>
-  - A Machine Learning Model Perceiving Brightness Optical Illusions&#58; Quantitative Evaluation with Psychophysical Data <br /><small>Yuki Kubota, Atsushi Hiyama and Masahiko Inami</small>
-  - POV Display and Interaction Methods extending Smartphone <br /><small>Yura Tamai, Maho Oki and Koji Tsukada</small>
-  - From Strangers to Friends&#58; Augmenting Face-to-face Interactions with Faceted Digital Self-Presentations <br /><small>Mikko Kytö, Ilyena Hirskyj-Douglas and David McGookin</small>
-  - Interactive Eye Aberration Correction for Holographic Near-Eye Display <br /><small>Kenta Yamamoto, Ippei Suzuki, Kosaku Namikawa, Kaisei Sato and Yoichi Ochiai</small>
-  - Ubiquitous Body&#58; Effect of Spatial Arrangement of Task’s View on Managing Multiple Tasks<br <br/><small>Yukiko Iwasaki and Hiroyasu Iwata</small>
+# program-papers:
+#   - Detecting Episodes of Increased Cough Using Kinetic Earables<br /><small>Tobias Röddiger, Michael Beigl, Michael Hefenbrock, Daniel Wolffram and Erik Pescara</small>
+#   - Portable 3D Human Pose Estimation for Human-Human Interaction using a Chest-Mounted Fisheye Camera <br /><small>Kohei Aso, Dong-Hyun Hwang and Hideki Koike</small>
+#   - CapGlasses&#58; Untethered Capacitive Sensing with Smart Glasses <br /><small>Denys J.C. Matthies, Chamod Weerasinghe, Suranga Nanayakkara and Bodo Urban</small>
+#   - Exploratory Design of a Hands-free Video Game Controller for a Quadriplegic Individual <br /><small>Atieh Taheri and Misha Sra</small>
+#   - Virtual Whiskers&#58; Spatial Directional Guidance using Cheek Haptic Stimulation in a Virtual Environment <br /><small>Fumihiko Nakamura, Adrien Verhulst, Kuniharu Sakurada and Maki Sugimoto</small>
+#   - Wearable System for Promoting Salivation <br /><small>Kai Washino, Ayumi Ohnishi, Tsutomu Terada and Masahiko Tsukamoto</small>
+#   - HemodynamicVR - Adapting the User's Field Of View during Virtual Reality Locomotion Tasks using Wearable Functional Near-Infrared Spectroscopy <br /><small>Hiroo Yamamura, Holger Baldauf and Kai Kunze</small>
+#   - Augmented Foot&#58; A Comprehensive Survey of Foot Augmentation Devices <br /><small>Don Samitha Elvitigala, Jochen Huber and Suranga Nanayakkara</small>
+#   - Motion-specific Browsing method by mapping to a circle for personal video Observation with Head-Mounted Displays <br /><small>Natsuki Hamanishi and Jun Rekimoto</small>
+#   - Exploring Pseudo Hand-Eye Interaction on the Head-Mounted Display <br /><small>Myung Jin Kim and Andrea Bianchi</small>
+#   - MultiSoma&#58; Distributed Embodiment with Synchronized Behavior and Perception <br /><small>Reiji Miura, Maki Sugimoto, Shunichi Kasahara, Michiteru Kitazaki, Adrien Verhulst and Masahiko Inami</small>
+#   - Dynamic Shared Limbs&#58; An Adaptive Shared Body Control Method Using EMG Sensors <br /><small>Ryo Takizawa, Takayoshi Hagiwara, Adrien Verhulst, Masaaki Fukuoka, Michiteru Kitazaki and Maki Sugimoto</small>
+#   - Independent Control of Supernumerary Appendages Exploiting Upper Limb Redundancy <br /><small>Hideki Shimobayashi, Tomoya Sasaki, Arata Horie, Riku Arakawa, Zendai Kashino and Masahiko Inami</small>
+#   - Research on the transcendence of bodily differences, using sport and human augmentation medium <br /><small>Ryoichi Ando, Isao Uebayashi, Hayato Sato, Hayato Ohbayashi, Shota Katagiri, Shuhei Hayakawa and Kouta Minamizawa</small>
+#   - SilentMask&#58; Mask-type Silent Speech Interface with Measurement of Mouth Movement <br /><small>Hirotaka Hiraki and Jun Rekimoto</small>
+#   - Derma&#58; Silent Speech Interaction Using Transcutaneous MotionSensing <br /><small>Jun Rekimoto and Yui Nishimura</small>
+#   - Conversational Partner’s Perception of Subtle Display Use for Monitoring Notifications <br /><small>Jacob Logas, Kelsie Belan, Thad Starner and Blue Lin</small>
+#   - Deep Learning-Based Scene Simplification for Bionic Vision <br /><small>Nicole Han, Sudhanshu Srivastava, Aiwen Xu, Devi Klein and Michael Beyeler</small>
+#   - FaceRecGlasses&#58; A Wearable System for Recognizing Self Facial Expression Using Compact Wearable Cameras <br /><small>Hiroaki Aoki, Ayumi Ohnishi, Naoya Isoyama, Tsutomu Terada and Masahiko Tsukamoto</small>
+#   - CircadianVisor&#58; Image Presentation With an Optical See-Through Display in Consideration of Circadian Illuminance <br /><small>Takumi Tochimoto, Yuichi Hiroi and Yuta Itoh</small>
+#   - Advantage and Misuse of Vision Augmentation - Exploring User Perceptions and Attitudes using a Zoom Prototype <br /><small>Chloe Eghtebas, Francisco Kiss, Marion Koelle and Paweł Woźniak</small>
+#   - SmartAidView Jacket&#58; Providing visual aid to lower the underestimation of assistive forces <br /><small>Swagata Das, Velika Wongchadakul and Yuichi Kurita</small>
+#   - Virtual Physical Task Training&#58; Comparing Shared Body, Shared View and Verbal Task Explanation <br /><small>Jens Reinhardt, Marco Kurzweg and Katrin Wolf</small>
+#   - Hippocampal Cognitive Prosthesis, Memory and Identity&#58; Case Study for the Role of Ethics Guidelines for Human Enhancement <br /><small>Yasemin J. Erden and Philip Brey</small>
+#   - CV-Based Analysis for Microscopic Gauze Suturing Training <br /><small>Mikihito Matsuura, Shio Miyafuji, Erwin Wu, Satoshi Kiyofuji, Taichi Kin, Takeo Igarashi and Hideki Koike</small>
+#   - A Machine Learning Model Perceiving Brightness Optical Illusions&#58; Quantitative Evaluation with Psychophysical Data <br /><small>Yuki Kubota, Atsushi Hiyama and Masahiko Inami</small>
+#   - POV Display and Interaction Methods extending Smartphone <br /><small>Yura Tamai, Maho Oki and Koji Tsukada</small>
+#   - From Strangers to Friends&#58; Augmenting Face-to-face Interactions with Faceted Digital Self-Presentations <br /><small>Mikko Kytö, Ilyena Hirskyj-Douglas and David McGookin</small>
+#   - Interactive Eye Aberration Correction for Holographic Near-Eye Display <br /><small>Kenta Yamamoto, Ippei Suzuki, Kosaku Namikawa, Kaisei Sato and Yoichi Ochiai</small>
+#   - Ubiquitous Body&#58; Effect of Spatial Arrangement of Task’s View on Managing Multiple Tasks<br <br/><small>Yukiko Iwasaki and Hiroyasu Iwata</small>
 
 
-keynote-title: Keynotes
-keynotes:
+# keynote-title: Keynotes
+# keynotes:
 
-  - speaker: Mel Slater
-    Title: TBA
-    image: /img/keynote-speaker/mel_slater.png
-    Biography: Mel Slater is a Distinguished Investigator at the University of Barcelona, and co-Director of the Event Lab (Experimental Virtual Environments for Neuroscience and Technology). He was previously Professor of Virtual Environments at University College London in the Department of Computer Science. He has been involved in research in virtual reality since the early 1990s, and has been first supervisor of 40 PhDs in graphics and virtual reality since 1989. He held a European Research Council Advanced Grant TRAVERSE 2009-2015 and has recently started a second Advanced Grant MoTIVE 2018-2022. He is Field Editor of Frontiers in Virtual Reality, and Chief Editor of the Human Behaviour in Virtual Reality section. His publications can be seen on http://publicationslist.org/melslater. 
+#   - speaker: Mel Slater
+#     Title: TBA
+#     image: /img/keynote-speaker/mel_slater.png
+#     Biography: Mel Slater is a Distinguished Investigator at the University of Barcelona, and co-Director of the Event Lab (Experimental Virtual Environments for Neuroscience and Technology). He was previously Professor of Virtual Environments at University College London in the Department of Computer Science. He has been involved in research in virtual reality since the early 1990s, and has been first supervisor of 40 PhDs in graphics and virtual reality since 1989. He held a European Research Council Advanced Grant TRAVERSE 2009-2015 and has recently started a second Advanced Grant MoTIVE 2018-2022. He is Field Editor of Frontiers in Virtual Reality, and Chief Editor of the Human Behaviour in Virtual Reality section. His publications can be seen on http://publicationslist.org/melslater. 
 
-  - speaker: Pattie Maes
-    Title: TBA
-    image: /img/keynote-speaker/pattie_maes.png
-    Biography: Pattie Maes is a professor in MIT's Program in Media Arts and Sciences and until recently served as academic head. She runs the Media  Lab's Fluid Interfaces research group, which aims to radically reinvent the human-machine experience. Coming from a background in artificial intelligence and human-computer interaction, she is particularly interested in the topic of cognitive enhancement, or how immersive and wearable systems can actively assist people with memory, attention, learning, decision making, communication, and wellbeing. 
+#   - speaker: Pattie Maes
+#     Title: TBA
+#     image: /img/keynote-speaker/pattie_maes.png
+#     Biography: Pattie Maes is a professor in MIT's Program in Media Arts and Sciences and until recently served as academic head. She runs the Media  Lab's Fluid Interfaces research group, which aims to radically reinvent the human-machine experience. Coming from a background in artificial intelligence and human-computer interaction, she is particularly interested in the topic of cognitive enhancement, or how immersive and wearable systems can actively assist people with memory, attention, learning, decision making, communication, and wellbeing. 
