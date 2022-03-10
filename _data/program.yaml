@@ -5,7 +5,9 @@ program-description: |
     Last updated on March 8th
     <br/>
 
-    <a href="https://docs.google.com/document/d/1n5rky8V49QW9f0S7Mi5VSyW2fEqFUWnO/edit?usp=sharing&ouid=113179768632317719539&rtpof=true&sd=true" class="btn btn-lg" style="background-color: #fe6091; border: 2px solid black; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#ce6091'" onMouseOut="this.style['background-color']='#fe6091'">SEE the schedule</a>
+    <a href="https://docs.google.com/document/d/1n5rky8V49QW9f0S7Mi5VSyW2fEqFUWnO/edit?usp=sharing&ouid=113179768632317719539&rtpof=true&sd=true" class="btn btn-md" style="background-color: #fe6091; border: 2px solid black; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#ce6091'" onMouseOut="this.style['background-color']='#fe6091'">Open in Google Docs</a>
+
+    <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #fe6091; border: 2px solid black; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#ce6091'" onMouseOut="this.style['background-color']='#fe6091'">Download PDF</a>
 
 # program-papers:
 #   - Detecting Episodes of Increased Cough Using Kinetic Earables<br /><small>Tobias Röddiger, Michael Beigl, Michael Hefenbrock, Daniel Wolffram and Erik Pescara</small>
