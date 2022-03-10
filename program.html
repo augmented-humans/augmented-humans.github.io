@@ -4,42 +4,68 @@ title: "Augmented Humans 2021 | Program"
 description: "Program"
 sitemap: false
 ---
+
 <!-- Contact Section -->
 <header class="masthead text-center text-white normal">
-    <div class="overlay"></div>
-    <div id="particles-js" class="masthead-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                    <h1 class="masthead-heading mb-0">{{ site.data.program.page-title }}</h1>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<section id="ah-program" class="kw-committee-section flip ah-organization ah-override">
+  <div class="overlay"></div>
+  <div id="particles-js" class="masthead-content">
     <div class="container">
       <div class="row">
         <div class="col-lg-1"></div>
-        <div class="col-lg-10" style="min-height: 400px;">
-            <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-                <span>{{ site.data.program.program-title }}</span>
-            </div>
-            <span><p>{{ site.data.program.program-description }}</p></span> 
-                <ul class="flip">
-                  {% assign description_paragraphs = site.data.program.program-papers %}
-                  {% for paragraph in description_paragraphs %}
-                  <li>{{ paragraph }}</li>
-                  {% endfor %}
-                </ul>
-                <p>{{ site.data.program.program-content }}</p>
-            </div>
-            <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1 class="masthead-heading mb-0">
+            {{ site.data.program.page-title }}
+          </h1>
         </div>
+        <div class="col-lg-1"></div>
+      </div>
     </div>
+  </div>
+</header>
+
+<section
+  id="ah-program"
+  class="kw-committee-section flip ah-organization ah-override"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10" style="min-height: 400px">
+
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.program.program-title }}</span>
+        </div>
+
+        <span><p>{{ site.data.program.program-description }}</p></span>
+
+        <ul class="flip">
+          {% assign description_paragraphs = site.data.program.program-papers %}
+          {% for paragraph in description_paragraphs %}
+          <li>{{ paragraph }}</li>
+          {% endfor %}
+        </ul>
+        <p>{{ site.data.program.program-content }}</p>
+
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.program.keynote-title }}</span>
+        </div>
+
+
+        <ul class="flip">
+            {% assign keynote_speakers = site.data.program.keynotes %}
+            {% for keyn in keynote_speakers %}
+            <h2>{{ keyn.speaker }}</h2>
+            <img src={{ keyn.image }} >
+            <h3>{{ keyn.Title }}</h3>
+            <span><p>{{ keyn.Abstract }} </p></span>
+            <span><p>{{ keyn.Biography }} </p></span>
+            {% endfor %}
+          </ul>
+
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
 </section>
 
 <!-- <section id="" class="kw-committee-section flip2 ah-organization ah-override">

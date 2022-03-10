@@ -9,6 +9,7 @@ program-description: |
 
     <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #fe6091; border: 2px solid black; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#ce6091'" onMouseOut="this.style['background-color']='#fe6091'">Download PDF</a>
 
+
 # program-papers:
 #   - Detecting Episodes of Increased Cough Using Kinetic Earables<br /><small>Tobias Röddiger, Michael Beigl, Michael Hefenbrock, Daniel Wolffram and Erik Pescara</small>
 #   - Portable 3D Human Pose Estimation for Human-Human Interaction using a Chest-Mounted Fisheye Camera <br /><small>Kohei Aso, Dong-Hyun Hwang and Hideki Koike</small>
@@ -42,15 +43,16 @@ program-description: |
 #   - Ubiquitous Body&#58; Effect of Spatial Arrangement of Task’s View on Managing Multiple Tasks<br <br/><small>Yukiko Iwasaki and Hiroyasu Iwata</small>
 
 
-# keynote-title: Keynotes
-# keynotes:
+keynote-title: Keynotes
+keynotes:
 
-#   - speaker: Mel Slater
-#     Title: TBA
-#     image: /img/keynote-speaker/mel_slater.png
-#     Biography: Mel Slater is a Distinguished Investigator at the University of Barcelona, and co-Director of the Event Lab (Experimental Virtual Environments for Neuroscience and Technology). He was previously Professor of Virtual Environments at University College London in the Department of Computer Science. He has been involved in research in virtual reality since the early 1990s, and has been first supervisor of 40 PhDs in graphics and virtual reality since 1989. He held a European Research Council Advanced Grant TRAVERSE 2009-2015 and has recently started a second Advanced Grant MoTIVE 2018-2022. He is Field Editor of Frontiers in Virtual Reality, and Chief Editor of the Human Behaviour in Virtual Reality section. His publications can be seen on http://publicationslist.org/melslater. 
+- speaker: Prof. Thad Starner
+  Title: Augmenting human animal communication
+  image: /img/keynote-speaker/thad_starner_0.png
+  Abstract: Animals perceive much more than they can communicate with humans. For example, service dogs can sense when their handlers are about to fall victim to insulin shock. Bomb sniffing dogs can tell the difference between c4 and a peroxide bomb. Pods of dolphins have complex social structures and even refer to each other by name. Over the past decade, we have investigated how to use computer interfaces to help bridge the gap between animal and human communication. In this talk we will discuss some of the more practical use cases for what we have discovered.
+  Biography: Thad Starner is a Professor at the Georgia Institute of Technology's School of Interactive Computing. Thad was perhaps the first to integrate a wearable computer into his everyday life as an intelligent personal assistant. Starner's work as a PhD student would help found the field of Wearable Computing. 
 
-#   - speaker: Pattie Maes
-#     Title: TBA
-#     image: /img/keynote-speaker/pattie_maes.png
-#     Biography: Pattie Maes is a professor in MIT's Program in Media Arts and Sciences and until recently served as academic head. She runs the Media  Lab's Fluid Interfaces research group, which aims to radically reinvent the human-machine experience. Coming from a background in artificial intelligence and human-computer interaction, she is particularly interested in the topic of cognitive enhancement, or how immersive and wearable systems can actively assist people with memory, attention, learning, decision making, communication, and wellbeing. 
+# - speaker: Pattie Maes
+#   Title: TBA
+#   image: /img/keynote-speaker/pattie_maes.png
+#   Biography: Pattie Maes is a professor in MIT's Program in Media Arts and Sciences and until recently served as academic head. She runs the Media  Lab's Fluid Interfaces research group, which aims to radically reinvent the human-machine experience. Coming from a background in artificial intelligence and human-computer interaction, she is particularly interested in the topic of cognitive enhancement, or how immersive and wearable systems can actively assist people with memory, attention, learning, decision making, communication, and wellbeing. 
