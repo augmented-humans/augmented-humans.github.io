@@ -16,6 +16,10 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## DNS
+
+DNS settings for augmented-humans.org domain are configured via a personal Cloudflare account. 
+Ask Kirill (kirill@kmd.keio.ac.jp) if you need assistance with that. 
 
 ## License
 
