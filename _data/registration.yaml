@@ -1,10 +1,9 @@
 page-title: <strong>R</strong>egistration
 
-registration-title: 
+registration-title: Registration
 registration: |
-  <h3>Registration</h3>
   Registration for the event is available through Peatix.
-  <a href="https://ahs2022.peatix.com/" class="btn btn-lg" style="background-color: #fe6091; border: 2px solid black; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#ce6091'" onMouseOut="this.style['background-color']='#fe6091'">Click here to register</a>
+  <a href="https://ahs2022.peatix.com/" class="btn btn-lg" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
   <br>
 
 # <h4>Early Registration</h4>

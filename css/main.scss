@@ -33,11 +33,18 @@
 //     }
 // }
 
+$theme-background-primary: #003865;
+$theme-background-secondary: #F4FDD9;
+$theme-background-tertiary: #FFC847;
 
-$theme-primary: #FE6091;
-$theme-secondary: #FDC97C;
 
-$theme-accent: #4ED5D1;
+$theme-primary: #FFC847;
+$theme-secondary: #229479;
+$theme-tertiary: #E05263;
+$theme-offwhite: #FAFAFF;
+
+
+$theme-accent: #FAFAFF;
 $color-highlight: $theme-accent;
 
 // variables.less link and gradient background
