@@ -12,7 +12,7 @@ Please refer to the official documentation (linked below) if you intend to make 
 
 For more information, a tutorial on how to install the prerequisites, a quick start guide, and more see the [Jekyll Docs](https://jekyllrb.com/docs/).
 
-## Quick start guide
+## Quick Start Guide
 Assuming that the prequisites are fulfilled, you can start by locally building the current version of the website as follows:
 ```
 git clone git@github.com:augmented-humans/augmented-humans.github.io.git
@@ -21,7 +21,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-## Updating the site
+## Updating the Site
 This repo has two main branches.
 The `master`-branch is the default branch.
 On this, new versions of the website can be developed without interfering with the currently published site.
@@ -38,5 +38,16 @@ Quick changes can of course always be done directly on the `publish`-branch, but
 DNS settings for [augmented-humans.org](https://augmented-humans.org) domain are configured via a personal Cloudflare account. 
 Ask Kirill (kirill@kmd.keio.ac.jp) if you need assistance with that. 
 
-## Dependency versions
+## Dependency Versions
 To ensure that the website built on your local device is the same as the one that Github Pages creates, you can compare your current package versions against the current [Github Pages versions](https://pages.github.com/versions/).
+
+---
+## Current Year (2023) Design Considerations
+The header image showing Glasgow can be found on [Unsplash](https://unsplash.com/photos/SbRlwkbVnEY).
+The color palatte of the redesign can be seen [here](https://coolors.co/003865-eca400-f4fdd9-fafaff-3aafb9).
+The colors are as follows:
+* Prussian Blue - 003865
+* Marigold - ECA400
+* Light Goldenrod Yellow - F4FDD9
+* Ghost White - FAFAFF
+* Verdigris - 3AAFB9
