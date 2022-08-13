@@ -1,11 +1,17 @@
 page-title: <strong>P</strong>rogram
 
-program-title: Program
-program-description: |
-    Last updated on March 13th
-    <br/>
+#
+#program-title: Program
+#program-description: |
+#    Last updated on March 13th
+#    <br/>
+#
+#    <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Download PDF</a>
 
-    <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Download PDF</a>
+program-title: Program Details
+program-description: |
+  The program is not yet published.
+  Subscribe to the newsletter now to get notified when it is available!
 
 
 # program-papers:
@@ -41,14 +47,14 @@ program-description: |
 #   - Ubiquitous Body&#58; Effect of Spatial Arrangement of Task’s View on Managing Multiple Tasks<br <br/><small>Yukiko Iwasaki and Hiroyasu Iwata</small>
 
 
-keynote-title: Keynotes
-keynotes:
+# keynote-title: Keynotes
+# keynotes:
 
-- speaker: Prof. Thad Starner
-  Title: Augmenting human animal communication
-  image: /img/keynote-speaker/thad_starner_0.png
-  Abstract: Animals perceive much more than they can communicate with humans. For example, service dogs can sense when their handlers are about to fall victim to insulin shock. Bomb sniffing dogs can tell the difference between c4 and a peroxide bomb. Pods of dolphins have complex social structures and even refer to each other by name. Over the past decade, we have investigated how to use computer interfaces to help bridge the gap between animal and human communication. In this talk we will discuss some of the more practical use cases for what we have discovered.
-  Biography: Thad Starner is a Professor at the Georgia Institute of Technology's School of Interactive Computing. Thad was perhaps the first to integrate a wearable computer into his everyday life as an intelligent personal assistant. Starner's work as a PhD student would help found the field of Wearable Computing. 
+# - speaker: Prof. Thad Starner
+#   Title: Augmenting human animal communication
+#   image: /img/keynote-speaker/thad_starner_0.png
+#   Abstract: Animals perceive much more than they can communicate with humans. For example, service dogs can sense when their handlers are about to fall victim to insulin shock. Bomb sniffing dogs can tell the difference between c4 and a peroxide bomb. Pods of dolphins have complex social structures and even refer to each other by name. Over the past decade, we have investigated how to use computer interfaces to help bridge the gap between animal and human communication. In this talk we will discuss some of the more practical use cases for what we have discovered.
+#   Biography: Thad Starner is a Professor at the Georgia Institute of Technology's School of Interactive Computing. Thad was perhaps the first to integrate a wearable computer into his everyday life as an intelligent personal assistant. Starner's work as a PhD student would help found the field of Wearable Computing. 
 
 # - speaker: Pattie Maes
 #   Title: TBA

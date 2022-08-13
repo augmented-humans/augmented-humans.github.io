@@ -1,10 +1,22 @@
 page-title: <strong>R</strong>egistration
 
-registration-title: Registration
+# Old registration, comment in and update when registration is open
+#
+#registration-title: Registration
+#registration: |
+#  Registration for the event is available through Peatix.
+#  <a href="https://ahs2022.peatix.com/" class="btn btn-lg" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+#  <br>
+
+# Placeholder
+registration-title: Registration Not Yet Open
 registration: |
-  Registration for the event is available through Peatix.
-  <a href="https://ahs2022.peatix.com/" class="btn btn-lg" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+  The registration for <strong>A</strong>ugmented <strong>H</strong>uman<strong>s</strong> 2023 is not yet open.
+  Subscribe to the newsletter now to not miss when registration will be available!
+  <a href="https://ahs2022.peatix.com/" class="btn btn-lg disabled btn-disabled" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
   <br>
+
+
 
 # <h4>Early Registration</h4>
   # Non-Student: ¥15,000

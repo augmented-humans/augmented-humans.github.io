@@ -1,25 +1,28 @@
 # Change the corresponding *.html file name after editing the url shortcut
 
-item-1-title: Calls for Participation
-item-1-shortcut: /calls-for-participation
+item-1-title: Home
+item-1-shortcut: /
 
-item-7-title: Registration
-item-7-shortcut: /registration
+item-2-title: Participating
+item-2-shortcut: /calls-for-participation
 
-item-2-title: Committee
-item-2-shortcut: /committee
+item-3-title: Registration
+item-3-shortcut: /registration
 
-item-3-title: Past conferences
-item-3-shortcut: /previous-conferences
+item-4-title: Program
+item-4-shortcut: /program
 
-# item-4-title: Blog
-# item-4-shortcut: /blog
+item-5-title: Committee
+item-5-shortcut: /committee
+
+item-6-title: Past conferences
+item-6-shortcut: /previous-conferences
+
+# item-7-title: Blog
+# item-7-shortcut: /blog
 
 # item-8-title: Awards
 # item-8-shortcut: /awards
 
-# item-5-title: Location
-# item-5-shortcut: /location
-
-item-6-title: Program
-item-6-shortcut: /program
+# item-9-title: Location
+# item-9-shortcut: /location

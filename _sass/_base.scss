@@ -467,7 +467,7 @@ footer {
   }
   background-color: $theme-background-primary;
   padding: 30px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: #131313 !important;
   // position: absolute;
   left: 0;
   // bottom: 0;
@@ -483,9 +483,9 @@ footer {
     margin-bottom: 0;
     li a {
       font-size: 16px;
-      color: rgba(255, 255, 255, 0.7);
+      color: #131313;
       &:hover, &:focus, &:active, &.active {
-        color: $theme-accent;
+        color: darkgrey;
         text-decoration: none;
       }
     }
@@ -772,8 +772,10 @@ header.masthead {
       opacity: 1;
       //padding: 5px;
       // font-size: 0.88*1.5rem;
-      color: $theme-offwhite;
-      background-color: rgba(58, 175, 185, 0.9);
+      // color: $theme-offwhite;
+      // background-color: rgba(58, 175, 185, 0.9);
+      color: $theme-background-primary;
+      background-color: rgba(255, 255, 255, 0.85);
       border: 3px solid #fff;
     }
     .container {
@@ -1024,7 +1026,12 @@ header.masthead#kw-project-header {
     p {
       color: white;
     }
+
+    &.top-bar {
+      border-top: 5px solid $theme-background-secondary;
+    }
   }
+
 
   &.flip1 {
     // background-color: #b7e5e3;
@@ -1034,6 +1041,10 @@ header.masthead#kw-project-header {
     p {
       color: #131313;
     }
+
+    &.top-bar {
+      border-top: 5px solid $theme-background-primary;
+    }
   }
 
   &.flip2 {
@@ -1041,7 +1052,13 @@ header.masthead#kw-project-header {
     p {
       color: #131313;
     }
+
+    &.top-bar {
+      border-top: 5px solid $theme-background-tertiary;
+    }
   }
+
+
 
   /* organization, potraits of organizers */
   .committe-image {
@@ -1596,4 +1613,29 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     margin: 0 !important;
   }
   margin-bottom: 20px !important;
+}
+
+.btn-disabled {
+  background-color: rgba( $theme-primary, .5 ) !important;
+  cursor: not-allowed !important;
+}
+
+#deadlines {
+  table {
+      // border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 40px;
+
+  }
+
+  td,th {
+      // text-align: left;
+      padding: 16px;
+      color: white;
+      font-size: larger;
+  }
+
+  .tr-break {
+    background-color: $theme-background-tertiary;
+  }
 }

@@ -44,10 +44,10 @@ To ensure that the website built on your local device is the same as the one tha
 ---
 ## Current Year (2023) Design Considerations
 The header image showing Glasgow can be found on [Unsplash](https://unsplash.com/photos/SbRlwkbVnEY).
-The color palatte of the redesign can be seen [here](https://coolors.co/003865-eca400-f4fdd9-fafaff-3aafb9).
+The color palette of the redesign can be seen [here](https://coolors.co/003865-eca400-f5f5f5-fafaff-3aafb9).
 The colors are as follows:
 * Prussian Blue - 003865
 * Marigold - ECA400
-* Light Goldenrod Yellow - F4FDD9
+* Cultured - F5F5F5
 * Ghost White - FAFAFF
 * Verdigris - 3AAFB9

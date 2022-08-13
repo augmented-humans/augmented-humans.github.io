@@ -2,11 +2,12 @@ page-title: <strong>C</strong>alls <strong>F</strong>or <strong>P</strong>artici
 
 about-title: About the conference
 about: |
-   The Augmented Humans (AHs) International Conference 2022 will be a hybrid online/onsite conference, held on 13-15 March 2022. An onsite satellite event will be held in Munich Germany. The conference focuses on physical, cognitive, and perceptual augmentation of humans through digital technologies. The plural – humans – emphasizes the move towards technologies that enhance human capabilities beyond the individual and will have the potential for impact on societal scale.
-   The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962 [1]. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
-   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
-   
-   [1] Engelbart, Douglas C.. “AUGMENTING HUMAN INTELLECT: A Conceptual Framework.” (1962).
+  The Augmented Humans (AHs) International Conference 2023 will be an in-person event, held in March 2023. More information on the time schedule will be made available soon. 
+  The conference focuses on physical, cognitive, and perceptual augmentation of humans through digital technologies. The plural – humans – emphasizes the move towards technologies that enhance human capabilities beyond the individual and will have the potential for impact on a societal scale.
+  The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962<sup>[1]</sup>. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
+  The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
+
+  <text style="font-size: medium">[1] Engelbart, Douglas C.: “AUGMENTING HUMAN INTELLECT: A Conceptual Framework.” (1962)</text>
 
 topics-title: Topics
 topics: |
@@ -31,18 +32,27 @@ topics: |
   •	Wearable computing and ubiquitous computing for augmenting human capabilities
 
 
-categories-title: Submission categories & Instructions
+categories-title: Submission categories
 categories: |
   
   <b>Full papers</b> - up to 16 pages single column excluding references, anonymized, 7 minutes presentation
   <b>Short papers</b> - 8 pages single column excluding references, anonymized, 5 minutes presentation
   <b>Demonstration papers</b> - up to 4 pages single column excluding references, anonymized, excluding references, demonstration at the conference
   <b>Poster papers</b> - up to 4 pages single column excluding references, anonymized, presented at the conference
+  <b>Workshop papers</b> - up to the workshop supervisors
   
   All page lengths are excluding references. Please use the SIGCHI single-column format for full papers, short papers, posters, and demos (SigConf template). Use the extended abstract (Overleaf) format for design exhibitions. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews. 
   
-  Submissions can be made via <a href="https://easychair.org/cfp/AHs2022">EasyChair</a>.
+  Submissions can be made via <!-- <a href="https://easychair.org/cfp/AHs2023">EasyChair</a>--> <text style="color: white;""> EasyChair</text> <i>(link available soon)</i>.
   
+
+overview-title: Overview
+overview: |
+  There are many ways to participate at the Augmented Humans conference. In the following, you can find the tracks offered by Augmented Humans in addition to their respective deadlines and notification dates.
+
+  For the first time this year, dedicated workshops will also be part of the conference. The deadline for workshop proposals can be found below. The approved workshops and their corresponding websites will be also be linked here in due time.
+
+
 # <b>Full papers</b> – up to 10 pages excluding references, anonymized, 7 minutes presentation, 7 minutes Q&A, invited demo
 # <b>Short papers</b> - 4 pages excluding references, anonymized, 5 minutes presentation, 7 minutes Q&A, invited demo
 # <b>Demonstration papers</b> - 2 pages excluding references, anonymized, demonstration at the conference
@@ -57,12 +67,63 @@ categories: |
 # Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2021">EasyChair</a>.
 
 
-deadlines-title: Submission Deadlines
+# deadlines-title: Submission Deadlines
+# deadlines: |
+#   <strong>Full/Short Papers</strong>: <strike>January 7th</strike> <strong>January 14th</strong>, 2022, Anywhere on Earth
+#   Decisions sent to Author: <strike>February 7th</strike> <strong>February 14th</strong>, 2022, Anywhere on Earth
+#   Camera-Ready: <strong>March 7th</strong>, 2022, Anywhere on Earth
+#   --
+#   <strong>Posters/Demos/Exhibition</strong>: <strike>February 11th</strike> <strong>February 18th</strong>, 2022, Anywhere on Earth
+#   Decisions sent to Author: <strike>February 25th</strike> <strong>February 28th</strong>, 2022, Anywhere on Earth
+#   Camera-Ready: <strong>March 7th</strong>, 2022, Anywhere on Earth
+
+deadlines-title: Submission Deadlines and Notifications
 deadlines: |
-  <strong>Full/Short Papers</strong>: <strike>January 7th</strike> <strong>January 14th</strong>, 2022, Anywhere on Earth
-  Decisions sent to Author: <strike>February 7th</strike> <strong>February 14th</strong>, 2022, Anywhere on Earth
-  Camera-Ready: <strong>March 7th</strong>, 2022, Anywhere on Earth
-  --
-  <strong>Posters/Demos/Exhibition</strong>: <strike>February 11th</strike> <strong>February 18th</strong>, 2022, Anywhere on Earth
-  Decisions sent to Author: <strike>February 25th</strike> <strong>February 28th</strong>, 2022, Anywhere on Earth
-  Camera-Ready: <strong>March 7th</strong>, 2022, Anywhere on Earth
+  <table id="deadlines">
+    <tr class="tr-break">
+      <td colspan="100%"></td>
+    </tr>
+
+    <tr>
+      <td>Full/Short Paper Deadline</td>
+      <td>9th December, 2022 (Anywhere on Earth)</td> 
+    </tr>
+    <tr>
+      <td>Full/Short Paper Decision Notifications</td>
+      <td>6th January, 2023</td> 
+    </tr>
+
+    <tr class="tr-break">
+      <td colspan="100%"></td>
+    </tr>
+
+    <tr>
+      <td>Posters/Demos Deadline</td>
+      <td>13th January, 2023 (Anywhere on Earth)</td> 
+    </tr>
+    <tr>
+      <td>Posters/Demos Decision Notifications</td>
+      <td>10th February, 2023</td> 
+    </tr>
+
+    <tr class="tr-break">
+      <td colspan="100%"></td>
+    </tr>
+    
+    <tr>
+      <td>Workshop Proposals Deadline</td>
+      <td>13th January, 2023 (Anywhere on Earth)</td> 
+    </tr>
+    <tr>
+      <td>Workshop Proposals Decision Notifications</td>
+      <td>20th January, 2023</td> 
+    </tr>
+
+    <tr class="tr-break">
+      <td colspan="100%"></td>
+    </tr>
+
+    <tr>
+      <td colspan="100%" style="font-size:medium;">Submission deadlines for the approved workshops will be set by the workshop supervisors themselves. More information can be found on the respective workshop websites.</td>
+    </tr>
+    </table>
