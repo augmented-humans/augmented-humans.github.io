@@ -1,5 +1,128 @@
 page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 
+committee:
+  - group: General Chairs
+    people:
+      - name: Jamie A. Ward
+        affiliation: University College London, United Kingdom
+        mail: none
+        img: /img/committee/jamie_ward.jpg
+
+      - name: Mark McGill
+        affiliation: University of Glasgow, United Kingdom
+        mail: mark.mcgill@glasgow.ac.uk
+        img: /img/committee/marc_mcgill.png
+
+      - name: Karola Marky
+        affiliation: Leibniz University Hannover, Germany
+        mail: none
+        img: /img/committee/karola_marky.jpg
+
+  - group: General Chair Assistance
+    people:
+      - name: Habiba Farzand
+        affiliation: University of Glasgow, United Kingdom
+        mail: habiba.farzand@glasgow.ac.uk
+        img: /img/committee/habiba_farzand.jpg
+
+  - group: Paper Chairs
+    people:
+      - name: Martin Schmitz
+        affiliation: Saarland University, Germany
+        mail: martin@mschmitz.org
+        img: /img/committee/martin_schmitz.jpg
+
+      - name: Katia Vega
+        affiliation: University of California, Davis, United States
+        mail: kvega@ucdavis.edu
+        img: /img/committee/katia_vega.jpg
+
+  - group: Poster Chairs
+    people:
+      - name: Steeven Villa
+        affiliation: Ludwig-Maximilians-Universität Munich, Germany
+        mail: none
+        img: /img/committee/steeven_villa.jpg
+
+      - name: Jasmin Niess
+        affiliation: University of St.Gallen, Switzerland
+        mail: none
+        img: /img/committee/jasmin_niess.jpg
+
+      - name: Yudai Tanaka
+        affiliation: University of Chicago, United States
+        mail: none
+        img: /img/committee/yudai_tanaka.jpg
+
+  - group: Demo Chairs
+    people:
+      - name: Sarah Delgado Rodriguez
+        affiliation: University of Bundeswehr Munich, Germany
+        mail: sarah.delgado@unibw.de
+        img: /img/committee/sarah_delgado.jpg
+
+      - name: Qing Zhang
+        affiliation: Keio University, Japan
+        mail: qzkiyoshi@gmail.com
+        img: /img/committee/qing_zhang.jpg
+
+      - name: Youhong Peng
+        affiliation: Goldsmiths, University of London, United Kingdom
+        mail: none
+        img: /img/committee/youhong_peng.jpg
+
+  - group: Workshop Chairs
+    people:
+      - name: Graham Wilson
+        affiliation: University of Glasgow, United Kingdom
+        mail: none
+        img: /img/committee/graham_wilson.jpg
+
+      - name: Daniel Medeiros
+        affiliation: University of Glasgow, United Kingdom
+        mail: none
+        img: /img/committee/daniel_medeiros.jpg
+
+  - group: Local Chairs
+    people:
+      - name: Pejman Saeghe
+        affiliation: University of Glasgow, United Kingdom
+        mail: none
+        img: /img/committee/pejman_saeghe.jpg
+
+      - name: Patrizia Di Campli San Vito
+        affiliation: University of Glasgow, United Kingdom
+        mail: none
+        img: /img/committee/patrizia_vito.jpg
+
+      - name: Iain Christie
+        affiliation: University of Glasgow, United Kingdom
+        mail: none
+        img: /img/committee/iain_christie.jpg
+
+      - name: Katharina Pöhlmann
+        affiliation: University of Glasgow, United Kingdom
+        mail: katharina.pohlmann@glasgow.ac.uk
+        img: /img/committee/katharina_poehlmann.jpg
+
+  - group: Sponsorship Chair
+    people:
+      - name: Mohamed Khamis
+        affiliation: University of Glasgow, United Kingdom
+        mail: mohamed.khamis@glasgow.ac.uk
+        img: /img/committee/mohamed_khamis.jpg
+
+  - group: Web Chair
+    people:
+      - name: Christopher Katins
+        affiliation: Technical University of Darmstadt, Germany
+        mail: kontakt@ckatins.de
+        img: /img/committee/christopher_katins.jpg
+
+
+
+
+
 # program-title: Program Committee Chairs
 # program: |
 #     Yuichi Kurita, Hiroshima University
@@ -11,126 +134,126 @@ page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 #     Katrin Wolf, Beuth University of Applied Sciences
 
 
-committee:
-    - group: General Chair
-      people: |
-        Masaaki Mochimaru (AIST, Japan)
+# committee:
+#     - group: General Chair
+#       people: |
+#         Masaaki Mochimaru (AIST, Japan)
 
-    - group: PC Chairs
-      people: |
-        Yuichi Kurita (Hiroshima University, Japan)
-        Martin Schmitz (Technical University of Darmstadt, Germany)
-        Karola Marky (University of Glasgow, United Kingdom)
+#     - group: PC Chairs
+#       people: |
+#         Yuichi Kurita (Hiroshima University, Japan)
+#         Martin Schmitz (Technical University of Darmstadt, Germany)
+#         Karola Marky (University of Glasgow, United Kingdom)
     
-    - group: Publication Chair
-      people: |
-        Swagata Das (Hiroshima University, Japan)
+#     - group: Publication Chair
+#       people: |
+#         Swagata Das (Hiroshima University, Japan)
     
-    - group: Financial Chair
-      people: |
-        Keiichi Zempo (Tsukuba University, Japan)
+#     - group: Financial Chair
+#       people: |
+#         Keiichi Zempo (Tsukuba University, Japan)
 
-    - group: Local Chairs (Tokyo)
-      people: |
-        Akihiko Murai (AIST, Japan)  
-        Zendai Kashino (University of Tokyo, Japan)
+#     - group: Local Chairs (Tokyo)
+#       people: |
+#         Akihiko Murai (AIST, Japan)  
+#         Zendai Kashino (University of Tokyo, Japan)
 
-    - group: Local Chairs (Munich)
-      people: |
-        Jakob Karolus (LMU Munich, Germany)
-        Passant Elagroudy (LMU Munich, Germany)        
+#     - group: Local Chairs (Munich)
+#       people: |
+#         Jakob Karolus (LMU Munich, Germany)
+#         Passant Elagroudy (LMU Munich, Germany)        
 
-    - group: Online Chairs
-      people: |
-        Masa Ogata (AIST, Japan)
-        Mai Otsuki (AIST, Japan)
-        Julian Rasch (LMU Munich, Germany)
+#     - group: Online Chairs
+#       people: |
+#         Masa Ogata (AIST, Japan)
+#         Mai Otsuki (AIST, Japan)
+#         Julian Rasch (LMU Munich, Germany)
 
-    - group: Web Chairs
-      people: |
-        Kirill Ragozin (Keio University, Japan)
-        Steeven Villa (LMU Munich, Germany)
+#     - group: Web Chairs
+#       people: |
+#         Kirill Ragozin (Keio University, Japan)
+#         Steeven Villa (LMU Munich, Germany)
     
-    - group: SV Chairs
-      people: |
-        Maekawa (U-tokyo, Japan)
+#     - group: SV Chairs
+#       people: |
+#         Maekawa (U-tokyo, Japan)
 
-    - group: Poster Chairs
-      people: |
-        Yuki Ban (U-tokyo, Japan)
-        Matthias Hoppe (LMU Munich, Germany)
-        Jasmin Niess (University of St. Gallen, Switzerland)
+#     - group: Poster Chairs
+#       people: |
+#         Yuki Ban (U-tokyo, Japan)
+#         Matthias Hoppe (LMU Munich, Germany)
+#         Jasmin Niess (University of St. Gallen, Switzerland)
         
         
-    - group: Demo Chairs
-      people: |
-        Sarah Delgado Rodriguez (University of the Bundeswehr Munich, CODE Research Institute, Munich, Germany)
-        Robin Welsch (LMU Munich, Germany)
-        Yun Suen Pai (Keio University, Japan)
+#     - group: Demo Chairs
+#       people: |
+#         Sarah Delgado Rodriguez (University of the Bundeswehr Munich, CODE Research Institute, Munich, Germany)
+#         Robin Welsch (LMU Munich, Germany)
+#         Yun Suen Pai (Keio University, Japan)
 
         
         
-    - group: Steering Committee
-      people: |
-        Masahiko Inami, The University of Tokyo, Japan
-        Albrecht Schmidt, LMU Munich, Germany
-        Pattie Maes, MIT Cambridge, USA
-        Woontack Woo, KAIST, Korea
-        Ellen Yi-Luen Do, University of Colorado Boulder, USA
-        Paul Lukowicz, DFKI Kaiserslautern, Germany
-        Suranga Nanayakkara, University of Auckland, New Zealand
-        Tsutomu Terada, University of Kobe, Japan
-        Jun Rekimoto, The University of Tokyo, Japan
-        Katrin Wolf, Hamburg University for Applied Sciences, Germany
-        Hideki Koike, Tokyo Institute of Technology, Japan
-        Kai Kunze, Keio University, Japan
+#     - group: Steering Committee
+#       people: |
+#         Masahiko Inami, The University of Tokyo, Japan
+#         Albrecht Schmidt, LMU Munich, Germany
+#         Pattie Maes, MIT Cambridge, USA
+#         Woontack Woo, KAIST, Korea
+#         Ellen Yi-Luen Do, University of Colorado Boulder, USA
+#         Paul Lukowicz, DFKI Kaiserslautern, Germany
+#         Suranga Nanayakkara, University of Auckland, New Zealand
+#         Tsutomu Terada, University of Kobe, Japan
+#         Jun Rekimoto, The University of Tokyo, Japan
+#         Katrin Wolf, Hamburg University for Applied Sciences, Germany
+#         Hideki Koike, Tokyo Institute of Technology, Japan
+#         Kai Kunze, Keio University, Japan
 
-    - group: PC Members
-      people: |
-        David Steeven Villa Salazar (LMU Munich, Germany)
-        Daniel Wessolek (Futurium gGmbH)
-        Nami Ogawa (University of Tokyo, Japan)
-        Hesham Elsayed (TU Darmstadt, Germany)
-        Ken Nakagaki (University of Chicago, United States)
-        Thomas Kosch (TU Darmstadt, Germany)
-        Eleonora Mencarini (Fondazione Bruno Kessler)
-        Keita Higuchi (University of Tokyo, Japan)
-        Henning Pohl (University of Copenhagen, Denmark)
-        Kirill Ragozin (Keio University, Japan)
-        Shoya Ishimaru (Osaka Prefecture University, Japan)
-        Yusuke Tamura (Tohoku University, Japan)
-        Keiichi Zempo (University of Tsukuba, Japan)
-        Yasutaka Nakashima (Kyushu University, Japan)
-        Jamie Anthony Ward (University College London, United Kingdom)
-        Don Samitha Elvitigala (University of Auckland, New Zealand)
-        Maki Sugimoto (Keio University, Japan)
-        Julian Rasch (LMU Munich, Germany)
-        Anthanasios Vourvopoulos (Institute for Systems and Robotics, Portugal)
-        Aditya Shekhar Nittala (Saarland University, Germany)
-        Martin Weigel (Technische Hochschule Mittelhessen, Germany)
-        Kristof Van Laerhoven (University of Siegen, Germany)
-        Pascal Knierim (Ludwig Maximilian University of Munich, Germany)
-        Niels Henze (University of Regensburg, Germany)
-        Jochen Huber (Furtwangen University, Germany)
-        Florian Müller (LMU Munich, Germany)
-        Julius von Willich (TU Darmstadt, Germany)
-        Masa Ogata (National Institute of Advanced Industrial Science and Technology, Japan)
-        Akishige Yuguchi (RIKEN Guardian Robot Project)
-        Roshan Peiris (Rochested Institute of Technology, United States)
-        Tadayoshi Aoyama (Nagoya University, Japan)
-        Nina Gerber (TU Darmstadt, Germany)
-        Shunichi Kasahara (University of Tokyo, Japan)
-        Monica Perusquía-Hernández (University of Essex, Germany)
-        Stefan Schneegass (University of Duisburg-Essen, Germany)
-        Harutoyo Hirano (Shizuoka University, Japan)
-        Damien Brun (University of Lapland, Finland)
-        Geehyuk Lee (Korea Advanced Institute of Science and Technology, Korea)
-        Enriko Rukzio (Ulm University, Germany)
-        Paweł Woźniak (Chanmers University of Technology, Sweden)
-        Denys J.C. Matthies (Fraunhofer)
-        Kai Kunze (Keio University, Japan)
-        Ian Oakley (University of Madeira, Portugal)
-        Liwei Chan (National Taiwan University, Republic of China)
-        Yumeko Imamura (National Institute of Advanced Industrial Science and Technology, Japan)
-        Tsutomu Terada (Kobe University, Japan)
-        Naoya Koizumi (University of Electro-Communications, Japan)
+#     - group: PC Members
+#       people: |
+#         David Steeven Villa Salazar (LMU Munich, Germany)
+#         Daniel Wessolek (Futurium gGmbH)
+#         Nami Ogawa (University of Tokyo, Japan)
+#         Hesham Elsayed (TU Darmstadt, Germany)
+#         Ken Nakagaki (University of Chicago, United States)
+#         Thomas Kosch (TU Darmstadt, Germany)
+#         Eleonora Mencarini (Fondazione Bruno Kessler)
+#         Keita Higuchi (University of Tokyo, Japan)
+#         Henning Pohl (University of Copenhagen, Denmark)
+#         Kirill Ragozin (Keio University, Japan)
+#         Shoya Ishimaru (Osaka Prefecture University, Japan)
+#         Yusuke Tamura (Tohoku University, Japan)
+#         Keiichi Zempo (University of Tsukuba, Japan)
+#         Yasutaka Nakashima (Kyushu University, Japan)
+#         Jamie Anthony Ward (University College London, United Kingdom)
+#         Don Samitha Elvitigala (University of Auckland, New Zealand)
+#         Maki Sugimoto (Keio University, Japan)
+#         Julian Rasch (LMU Munich, Germany)
+#         Anthanasios Vourvopoulos (Institute for Systems and Robotics, Portugal)
+#         Aditya Shekhar Nittala (Saarland University, Germany)
+#         Martin Weigel (Technische Hochschule Mittelhessen, Germany)
+#         Kristof Van Laerhoven (University of Siegen, Germany)
+#         Pascal Knierim (Ludwig Maximilian University of Munich, Germany)
+#         Niels Henze (University of Regensburg, Germany)
+#         Jochen Huber (Furtwangen University, Germany)
+#         Florian Müller (LMU Munich, Germany)
+#         Julius von Willich (TU Darmstadt, Germany)
+#         Masa Ogata (National Institute of Advanced Industrial Science and Technology, Japan)
+#         Akishige Yuguchi (RIKEN Guardian Robot Project)
+#         Roshan Peiris (Rochested Institute of Technology, United States)
+#         Tadayoshi Aoyama (Nagoya University, Japan)
+#         Nina Gerber (TU Darmstadt, Germany)
+#         Shunichi Kasahara (University of Tokyo, Japan)
+#         Monica Perusquía-Hernández (University of Essex, Germany)
+#         Stefan Schneegass (University of Duisburg-Essen, Germany)
+#         Harutoyo Hirano (Shizuoka University, Japan)
+#         Damien Brun (University of Lapland, Finland)
+#         Geehyuk Lee (Korea Advanced Institute of Science and Technology, Korea)
+#         Enriko Rukzio (Ulm University, Germany)
+#         Paweł Woźniak (Chanmers University of Technology, Sweden)
+#         Denys J.C. Matthies (Fraunhofer)
+#         Kai Kunze (Keio University, Japan)
+#         Ian Oakley (University of Madeira, Portugal)
+#         Liwei Chan (National Taiwan University, Republic of China)
+#         Yumeko Imamura (National Institute of Advanced Industrial Science and Technology, Japan)
+#         Tsutomu Terada (Kobe University, Japan)
+#         Naoya Koizumi (University of Electro-Communications, Japan)

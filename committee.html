@@ -389,7 +389,7 @@ description: "Program Committee"
 
 {% endcomment %}
 
-<section id="" class="kw-committee-section flip top-bar ah-organization ah-override">
+<section id="" class="kw-committee-section flip ah-organization ah-override">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -399,8 +399,25 @@ description: "Program Committee"
           <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
             <span class="k-title">{{ item.group }}</span>
           </div>
-          <div>
-            {% assign people = item.people | newline_to_br | split:'<br />' %}
+          <div class="people">
+            {% for person in item.people %}
+                <li>
+                  <div class="zoom-container"><div class="image" style="background-image: url({% include relative-src.html src=person.img %})"></div></div>
+                  {% if person.mail == "none" %}
+                    <div class="name">{{ person.name }}</div>
+                  {% elsif person.mail %}
+                    <div class="name"><a href="mailto: {{ person.mail }}">{{ person.name }}</a></div>
+                  {% else %}
+                    <div class="name">{{ person.name }}</div>
+                  {% endif %}
+                  <div class="position">{{ person.affiliation }}</div>
+                </li>
+            {% endfor %}
+          </div>
+
+
+          <!-- <div>
+            {% assign people = item.name | newline_to_br | split:'<br />' %}
             {% assign i = 1 %}
             {% assign pl = people.size %}
             {% for paragraph in people %}
@@ -409,7 +426,7 @@ description: "Program Committee"
                 {% endif %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-          </div>
+          </div> -->
         </div>
         {% endfor %}
       </div>
