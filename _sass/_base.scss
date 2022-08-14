@@ -82,9 +82,13 @@ p {
   }
 
 .logo {
-  width: 100px;
+    width: 50px;
+  }
 
-  
+@media (min-width: 768px) {
+  .logo {
+    width: 100px;
+  }
 }
 
 .logo .small-logo {
