@@ -5,7 +5,6 @@ committee:
     people:
       - name: Jamie A. Ward
         affiliation: Goldsmiths, University of London, United Kingdom
-        mail: none
         img: /img/committee/jamie_ward.jpg
 
       - name: Mark McGill
@@ -15,7 +14,6 @@ committee:
 
       - name: Karola Marky
         affiliation: Leibniz University Hannover, Germany
-        mail: none
         img: /img/committee/karola_marky.jpg
 
   - group: General Chair Assistance
@@ -29,7 +27,7 @@ committee:
     people:
       - name: Martin Schmitz
         affiliation: Saarland University, Germany
-        mail: martin@mschmitz.org
+        website: https://mschmitz.org
         img: /img/committee/martin_schmitz.jpg
 
       - name: Katia Vega
@@ -41,17 +39,14 @@ committee:
     people:
       - name: Steeven Villa
         affiliation: Ludwig-Maximilians-Universität Munich, Germany
-        mail: none
         img: /img/committee/steeven_villa.jpg
 
       - name: Jasmin Niess
         affiliation: University of St.Gallen, Switzerland
-        mail: none
         img: /img/committee/jasmin_niess.jpg
 
       - name: Yudai Tanaka
         affiliation: University of Chicago, United States
-        mail: none
         img: /img/committee/yudai_tanaka.jpg
 
   - group: Demo Chairs
@@ -68,36 +63,30 @@ committee:
 
       - name: Youhong Peng
         affiliation: Goldsmiths, University of London, United Kingdom
-        mail: none
         img: /img/committee/youhong_peng.jpg
 
   - group: Workshop Chairs
     people:
       - name: Graham Wilson
         affiliation: University of Glasgow, United Kingdom
-        mail: none
         img: /img/committee/graham_wilson.jpg
 
       - name: Daniel Medeiros
         affiliation: University of Glasgow, United Kingdom
-        mail: none
         img: /img/committee/daniel_medeiros.jpg
 
   - group: Local Chairs
     people:
       - name: Pejman Saeghe
         affiliation: University of Glasgow, United Kingdom
-        mail: none
         img: /img/committee/pejman_saeghe.jpg
 
       - name: Patrizia Di Campli San Vito
         affiliation: University of Glasgow, United Kingdom
-        mail: none
         img: /img/committee/patrizia_vito.jpg
 
       - name: Iain Christie
         affiliation: University of Glasgow, United Kingdom
-        mail: none
         img: /img/committee/iain_christie.jpg
 
       - name: Katharina Pöhlmann
@@ -116,7 +105,7 @@ committee:
     people:
       - name: Christopher Katins
         affiliation: Technical University of Darmstadt, Germany
-        mail: kontakt@ckatins.de
+        website: https://ckatins.de
         img: /img/committee/christopher_katins.jpg
 
 

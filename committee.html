@@ -403,10 +403,10 @@ description: "Program Committee"
             {% for person in item.people %}
                 <li>
                   <div class="zoom-container"><div class="image" style="background-image: url({% include relative-src.html src=person.img %})"></div></div>
-                  {% if person.mail == "none" %}
-                    <div class="name">{{ person.name }}</div>
-                  {% elsif person.mail %}
+                  {% if person.mail%}
                     <div class="name"><a href="mailto: {{ person.mail }}">{{ person.name }}</a></div>
+                  {% elsif person.website %}
+                    <div class="name"><a href="{{ person.website }}" target="_blank">{{ person.name }}</a></div>
                   {% else %}
                     <div class="name">{{ person.name }}</div>
                   {% endif %}
