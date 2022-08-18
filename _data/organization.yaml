@@ -86,9 +86,9 @@ committee:
         affiliation: University of Glasgow, United Kingdom
         img: /img/committee/patrizia_vito.jpg
 
-      - name: Iain Christie
-        affiliation: University of Glasgow, United Kingdom
-        img: /img/committee/iain_christie.jpg
+      #- name: Iain Christie
+      #  affiliation: University of Glasgow, United Kingdom
+      #  img: /img/committee/iain_christie.jpg
 
       - name: Katharina Pöhlmann
         affiliation: University of Glasgow, United Kingdom
