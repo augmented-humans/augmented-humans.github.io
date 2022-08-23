@@ -35,9 +35,9 @@ topics: |
 categories-title: Submission categories
 categories: |
   
-  <b>Full papers</b> - up to 16 pages single column excluding references, anonymized, 7 minutes presentation
-  <b>Short papers</b> - 8 pages single column excluding references, anonymized, 5 minutes presentation
-  <b>Demonstration papers</b> - up to 4 pages single column excluding references, anonymized, excluding references, demonstration at the conference
+  <b>Full papers</b> - up to 16 pages single column excluding references, anonymized
+  <b>Short papers</b> - 8 pages single column excluding references, anonymized
+  <b>Demonstration papers</b> - up to 4 pages single column excluding references, anonymized, demonstration at the conference
   <b>Poster papers</b> - up to 4 pages single column excluding references, anonymized, presented at the conference
   <b>Workshop papers</b> - up to the workshop supervisors
   
