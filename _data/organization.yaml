@@ -82,10 +82,6 @@ committee:
         affiliation: University of Glasgow, United Kingdom
         img: /img/committee/pejman_saeghe.jpg
 
-      - name: Patrizia Di Campli San Vito
-        affiliation: University of Glasgow, United Kingdom
-        img: /img/committee/patrizia_vito.jpg
-
       #- name: Iain Christie
       #  affiliation: University of Glasgow, United Kingdom
       #  img: /img/committee/iain_christie.jpg
@@ -94,6 +90,12 @@ committee:
         affiliation: University of Glasgow, United Kingdom
         mail: katharina.pohlmann@glasgow.ac.uk
         img: /img/committee/katharina_poehlmann.jpg
+
+  - group: Accessibility Chair
+    people:
+      - name: Patrizia Di Campli San Vito
+        affiliation: University of Glasgow, United Kingdom
+        img: /img/committee/patrizia_vito.jpg
 
   - group: Sponsorship Chair
     people:
