@@ -1,4 +1,4 @@
-page-title: <strong>R</strong>egistration
+page-title: <strong>A</strong>ttending
 
 # Old registration, comment in and update when registration is open
 #
@@ -12,7 +12,7 @@ page-title: <strong>R</strong>egistration
 registration-title: Registration Is Not Open Yet
 registration: |
   The registration for <strong>A</strong>ugmented <strong>H</strong>uman<strong>s</strong> 2023 is not yet open.
-  Subscribe to the newsletter now to not miss when registration will be available!
+  Follow the official Augmented Humans conference account on Twitter now to not miss when registration will be available!
   <a href="https://ahs2022.peatix.com/" class="btn btn-lg disabled btn-disabled" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
   <br>
 
