@@ -1267,8 +1267,14 @@ header.masthead#kw-project-header {
 }
 
 footer {
+padding-top: 15px;
+
+  .twitter {
+    margin-bottom: 10px;
+  }
+
   p.copyright {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }
 
