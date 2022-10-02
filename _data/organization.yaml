@@ -62,9 +62,10 @@ committee:
         mail: qzkiyoshi@gmail.com
         img: /img/committee/qing_zhang.jpg
 
-      - name: Youhong Peng
-        affiliation: Goldsmiths, University of London, United Kingdom
-        img: /img/committee/youhong_peng.jpg
+      - name: Friendred Peng
+        affiliation: University of the Arts London, United Kingdom
+        website: https://friendred.studio
+        img: /img/committee/friendred_peng.png
 
   - group: Workshop Chairs
     people:
@@ -107,7 +108,7 @@ committee:
   - group: Web Chair
     people:
       - name: Christopher Katins
-        affiliation: Technical University of Darmstadt, Germany
+        affiliation: Humboldt University of Berlin, Germany
         website: https://ckatins.de
         img: /img/committee/christopher_katins.jpg
 
