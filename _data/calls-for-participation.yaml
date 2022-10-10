@@ -85,12 +85,16 @@ deadlines: |
     </tr>
 
     <tr>
-      <td>Full/Short Paper Deadline</td>
+      <td><strong>Full/Short Paper</strong> Submission Deadline</td>
       <td>2nd December, 2022 (Anywhere on Earth)</td> 
     </tr>
     <tr>
-      <td>Full/Short Paper Decision Notifications</td>
-      <td>6th January, 2023</td> 
+      <td><strong>Full/Short Paper</strong> Review Deadline</td>
+      <td>6th January, 2023  (Anywhere on Earth)</td> 
+    </tr>
+    <tr>
+      <td><strong>Full/Short Paper</strong> Decision Notifications</td>
+      <td>9th January, 2023</td> 
     </tr>
 
     <tr class="tr-break">
@@ -98,11 +102,11 @@ deadlines: |
     </tr>
 
     <tr>
-      <td>Posters/Demos Deadline</td>
+      <td><strong>Posters/Demos</strong> Submission Deadline</td>
       <td>13th January, 2023 (Anywhere on Earth)</td> 
     </tr>
     <tr>
-      <td>Posters/Demos Decision Notifications</td>
+      <td><strong>Posters/Demos</strong> Decision Notifications</td>
       <td>10th February, 2023</td> 
     </tr>
 
@@ -111,11 +115,11 @@ deadlines: |
     </tr>
     
     <tr>
-      <td>Workshop Proposals Deadline</td>
+      <td><strong>Workshop Proposals</strong> Submission Deadline</td>
       <td>13th January, 2023 (Anywhere on Earth)</td> 
     </tr>
     <tr>
-      <td>Workshop Proposals Decision Notifications</td>
+      <td><strong>Workshop Proposals</strong> Decision Notifications</td>
       <td>20th January, 2023</td> 
     </tr>
 
