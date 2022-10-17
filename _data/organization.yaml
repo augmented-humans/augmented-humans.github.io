@@ -77,6 +77,12 @@ committee:
         affiliation: University of Glasgow, United Kingdom
         img: /img/committee/daniel_medeiros.jpg
 
+  - group: Publication Chair
+    people:
+      - name: Michael Rohs
+        affiliation: Leibniz University Hannover, Germany
+        img: /img/committee/michael_rohs.png
+
   - group: Local Chairs
     people:
       - name: Pejman Saeghe
