@@ -10,7 +10,7 @@ committee:
       - name: Mark McGill
         affiliation: University of Glasgow, United Kingdom
         mail: mark.mcgill@glasgow.ac.uk
-        img: /img/committee/marc_mcgill.png
+        img: /img/committee/marc_mcgill.jpg
 
       - name: Karola Marky
         affiliation: Leibniz University Hannover, Germany
@@ -65,7 +65,7 @@ committee:
       - name: Friendred Peng
         affiliation: University of the Arts London, United Kingdom
         website: https://friendred.studio
-        img: /img/committee/friendred_peng.png
+        img: /img/committee/friendred_peng.jpg
 
   - group: Workshop Chairs
     people:
@@ -81,7 +81,7 @@ committee:
     people:
       - name: Michael Rohs
         affiliation: Leibniz University Hannover, Germany
-        img: /img/committee/michael_rohs.png
+        img: /img/committee/michael_rohs.jpg
 
   - group: Local Chairs
     people:
