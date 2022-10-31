@@ -402,8 +402,10 @@ description: "Program Committee"
           <div class="people">
             {% for person in item.people %}
                 <li>
+                  {% if person.img %}
                   <div class="zoom-container"><div class="image" style="background-image: url({% include relative-src.html src=person.img %})"></div></div>
-                  {% if person.mail%}
+                  {% endif %}
+                  {% if person.mail %}
                     <div class="name"><a href="mailto: {{ person.mail }}">{{ person.name }}</a></div>
                   {% elsif person.website %}
                     <div class="name"><a href="{{ person.website }}" target="_blank">{{ person.name }}</a></div>

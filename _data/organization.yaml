@@ -10,7 +10,7 @@ committee:
       - name: Mark McGill
         affiliation: University of Glasgow, United Kingdom
         mail: mark.mcgill@glasgow.ac.uk
-        img: /img/committee/marc_mcgill.png
+        img: /img/committee/marc_mcgill.jpg
 
       - name: Karola Marky
         affiliation: Leibniz University Hannover, Germany
@@ -65,7 +65,7 @@ committee:
       - name: Friendred Peng
         affiliation: University of the Arts London, United Kingdom
         website: https://friendred.studio
-        img: /img/committee/friendred_peng.png
+        img: /img/committee/friendred_peng.jpg
 
   - group: Workshop Chairs
     people:
@@ -81,7 +81,7 @@ committee:
     people:
       - name: Michael Rohs
         affiliation: Leibniz University Hannover, Germany
-        img: /img/committee/michael_rohs.png
+        img: /img/committee/michael_rohs.jpg
 
   - group: Local Chairs
     people:
@@ -118,7 +118,32 @@ committee:
         website: https://ckatins.de
         img: /img/committee/christopher_katins.jpg
 
-
+  - group: Steering Committee
+    people:
+      - name: Masahiko Inami
+        affiliation: The University of Tokyo, Japan
+      - name: Albrecht Schmidt
+        affiliation: LMU Munich, Germany
+      - name: Pattie Maes
+        affiliation: MIT Cambridge, USA
+      - name: Woontack Woo
+        affiliation: KAIST, Korea
+      - name: Ellen Yi-Luen Do
+        affiliation: University of Colorado Boulder, USA
+      - name: Paul Lukowicz
+        affiliation: DFKI Kaiserslautern, Germany
+      - name: Suranga Nanayakkara
+        affiliation: National University of Singapore, Singapore
+      - name: Tsutomu Terada
+        affiliation: University of Kobe, Japan
+      - name: Jun Rekimoto
+        affiliation: The University of Tokyo, Japan
+      - name: Katrin Wolf
+        affiliation: Hamburg University for Applied Sciences, Germany
+      - name: Hideki Koike
+        affiliation: Tokyo Institute of Technology, Japan
+      - name: Kai Kunze
+        affiliation: Keio University, Japan
 
 
 
@@ -190,22 +215,6 @@ committee:
 #         Robin Welsch (LMU Munich, Germany)
 #         Yun Suen Pai (Keio University, Japan)
 
-        
-        
-#     - group: Steering Committee
-#       people: |
-#         Masahiko Inami, The University of Tokyo, Japan
-#         Albrecht Schmidt, LMU Munich, Germany
-#         Pattie Maes, MIT Cambridge, USA
-#         Woontack Woo, KAIST, Korea
-#         Ellen Yi-Luen Do, University of Colorado Boulder, USA
-#         Paul Lukowicz, DFKI Kaiserslautern, Germany
-#         Suranga Nanayakkara, University of Auckland, New Zealand
-#         Tsutomu Terada, University of Kobe, Japan
-#         Jun Rekimoto, The University of Tokyo, Japan
-#         Katrin Wolf, Hamburg University for Applied Sciences, Germany
-#         Hideki Koike, Tokyo Institute of Technology, Japan
-#         Kai Kunze, Keio University, Japan
 
 #     - group: PC Members
 #       people: |
