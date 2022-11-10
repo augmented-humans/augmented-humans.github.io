@@ -71,6 +71,22 @@ sitemap: true
   </div>
 </section>
 
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.calls-for-participation.instructions-title }}</span></div>
+        {% assign description_paragraphs = site.data.calls-for-participation.instructions | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
 
 
 <!-- 35.5520738,139.6472578 -->
