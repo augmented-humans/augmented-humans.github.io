@@ -48,7 +48,7 @@ categories: |
 
 instructions-title: Submission Guidelines 
 instructions: |
-  Submissions can be made via <!-- <a href="https://easychair.org/cfp/AHs2023">EasyChair</a>--> a dedicated submission system <i>(link available soon)</i>. 
+  Submissions can be made via <!-- <a href="https://easychair.org/cfp/AHs2023">EasyChair</a>--> EasyChair <i>(link available soon)</i>. 
 
   <b>Please use the SIGCHI single-column format for full papers, short papers, posters, and demos (<a href="https://www.acm.org/publications/proceedings-template">SigConf template</a>)</b>
   •	The correct template for submission is: single-column Word Submission Template or single-column LaTeX. For an anonymous submission use \documentclass[manuscript,review,anonymous]{acmart}.
@@ -56,7 +56,6 @@ instructions: |
   •	<b>You can download the Word/LaTeX Primary Article templates <a href="https://www.acm.org/publications/proceedings-template">here</a></b> - <a href="https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx">Word</a>, <a href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip">Latex</a> (Use sample-manuscript.tex for submissions) / <a href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc">Overleaf</a> (or search for: ACM Conference Proceedings Primary Article).
 
   We will follow the workflow defined by the ACM, so please read the instructions on the <a href="https://www.acm.org/publications/taps/word-template-workflow">ACM page</a> carefully. The ACM workflow requests authors to produce final publications (PDF and HTML5) by themselves using TAPS. The authors submit proposals in the ACM’s submission format (1-column PDF). If accepted, the authors upload publication-ready source files (single-column Word or double-column LaTeX) to TAPS. TAPS will then generate the double-column PDF and responsive HTML5 document.
-  
   
 
 overview-title: Overview
