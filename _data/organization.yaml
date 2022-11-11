@@ -111,6 +111,12 @@ committee:
         mail: mohamed.khamis@glasgow.ac.uk
         img: /img/committee/mohamed_khamis.jpg
 
+  - group: Social Media Chair
+    people:
+      - name: Chloe Eghtebas
+        affiliation: Technical University of Munich, Germany
+        img: /img/committee/chloe_eghtebas.jpg
+
   - group: Web Chair
     people:
       - name: Christopher Katins
