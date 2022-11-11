@@ -35,28 +35,31 @@ topics: |
 categories-title: Submission categories
 categories: |
   
-  <b>Full papers</b> - up to 16 pages single column excluding references, anonymized
-  <b>Short papers</b> - up to 8 pages single column excluding references, anonymized
-  <b>Demonstration papers</b> - up to 4 pages single column excluding references, anonymized, demonstration at the conference
-  <b>Poster papers</b> - up to 4 pages single column excluding references, anonymized, presented at the conference
-  <b>Workshop papers</b> - up to 4 pages single column excluding references, <b>not</b> anonymized
+  <b>Full papers</b> - up to 16 pages single column (excluding references), anonymized
+  <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
+  <b>Demonstration papers</b> - up to 4 pages single column (excluding references), anonymized, demonstration at the conference
+  <b>Poster papers</b> - up to 4 pages single column (excluding references), anonymized, presented at the conference
+  <b>Workshop papers</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized
   
-  All page lengths are excluding references. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews. 
+  All page lengths are excluding references. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews.
   
-  All accepted submissions will be published in the <b>ACM Digital Library</b>. 
+  All accepted submissions will be published in the <a href="https://dl.acm.org/">ACM Digital Library</a>. 
 
 
 instructions-title: Submission Guidelines 
 instructions: |
   Submissions can be made via <!-- <a href="https://easychair.org/cfp/AHs2023">EasyChair</a>--> EasyChair <i>(link available soon)</i>. 
 
-  <b>Please use the SIGCHI single-column format for full papers, short papers, posters, and demos (<a href="https://www.acm.org/publications/proceedings-template">SigConf template</a>)</b>
-  •	The correct template for submission is: single-column Word Submission Template or single-column LaTeX. For an anonymous submission use \documentclass[manuscript,review,anonymous]{acmart}.
-  •	The correct template for publication (i.e., after conditional acceptance) in the DL is: single-column Word Submission Template or double-column LaTeX template (\documentclass[sigconf]{acmart}).
-  •	<b>You can download the Word/LaTeX Primary Article templates <a href="https://www.acm.org/publications/proceedings-template">here</a></b> - <a href="https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx">Word</a>, <a href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip">Latex</a> (Use sample-manuscript.tex for submissions) / <a href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc">Overleaf</a> (or search for: ACM Conference Proceedings Primary Article).
+  <b>Please use the ACM article template for full papers, short papers, posters, and demos and be sure to follow the proposed submission/publication guidelines.</b>
+  We will follow the workflow defined by the ACM, so please read the instructions on the <a href="https://www.acm.org/publications/taps/word-template-workflow">TAPS workflow page</a> carefully. The ACM workflow requests authors to produce final publications (PDF and HTML5) by themselves using TAPS. The authors submit proposals in the ACM’s submission format (single-column PDF). If accepted, the authors upload publication-ready source files (single-column Word or double-column LaTeX) to TAPS. TAPS will then generate the double-column PDF and responsive HTML5 document.
 
-  We will follow the workflow defined by the ACM, so please read the instructions on the <a href="https://www.acm.org/publications/taps/word-template-workflow">ACM page</a> carefully. The ACM workflow requests authors to produce final publications (PDF and HTML5) by themselves using TAPS. The authors submit proposals in the ACM’s submission format (1-column PDF). If accepted, the authors upload publication-ready source files (single-column Word or double-column LaTeX) to TAPS. TAPS will then generate the double-column PDF and responsive HTML5 document.
-  
+  Further information and the templates for both Latex and Word can be found on the corresponding <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex">Preparing Your Article with LaTeX</a> or <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word">Preparing Your Article with Word</a> pages.
+
+  <u>In short:</u> 
+  •	Use the <b>Single-Column Word Submission Template</b> or the <b>Single-Column LaTeX Template</b> for submission. For LaTeX, you can use <tt>\documentclass[manuscript,review,anonymous]{acmart}</tt> to create an anonymous submission.
+  •	Use the <b>Single-Column Word Submission Template</b> or the <b>Double-Column LaTeX Template</b> (i.e., <tt>\documentclass[sigconf]{acmart}</tt>) for publication in the ACM Digital Library (i.e., after conditional acceptance).
+  •	Follow the above linked tutorials for further information on how to work with the ACM article template. You can directly download the <a href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx">Word Template</a> or the <a href="https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip"> LaTeX Template</a> if you wish. Alternatively, you can also use <a href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc"> this Overleaf template</a>.
+
 
 overview-title: Overview
 overview: |
