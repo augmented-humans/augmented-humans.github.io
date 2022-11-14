@@ -9,6 +9,13 @@ about: |
 
   <text style="font-size: medium">[1] Engelbart, Douglas C.: “AUGMENTING HUMAN INTELLECT: A Conceptual Framework.” (1962)</text>
 
+cfp-title: Calls for Participation
+cfp: |
+  The Augmented Humans conference offers many different possibilities for publishing, presenting, and discussing your work.
+  Take a look at the <b>Calls for Participation</b> page for more information regarding the submission categories, guidelines, and more.
+  <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
+
+
 topics-title: Topics
 topics: |
   •	Applications in tourism, games, art
@@ -48,7 +55,7 @@ categories: |
 
 instructions-title: Submission Guidelines 
 instructions: |
-  Submissions can be made via <!-- <a href="https://easychair.org/cfp/AHs2023">EasyChair</a>--> EasyChair <i>(link available soon)</i>.
+  Submissions can be made via <a href="https://easychair.org/cfp/ahs2023">EasyChair</a>.
 
   <b>T</b>he <b>A</b>CM <b>P</b>ublication <b>S</b>ystem (TAPS) will be used for full papers, short papers, posters, and demos. Please be sure to read the instructions on the <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow page</a> carefully.
   
