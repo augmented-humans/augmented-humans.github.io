@@ -17,6 +17,12 @@ registration: |
   <br>
 
 
+venue-title: Venue
+venue: |
+  The Augmented Humans conference will take place at the <a href="https://www.gla.ac.uk/research/arc/">Mazumdar-Shaw Advanced Research Centre (ARC)</a> at the University of Glasgow.
+  <small><i>Photo courtesy of Keith Hunter.</i></small>
+venue-image: /img/venue/arc-front.jpg
+
 
 # <h4>Early Registration</h4>
   # Non-Student: ¥15,000
