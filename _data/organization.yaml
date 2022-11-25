@@ -104,6 +104,12 @@ committee:
         affiliation: University of Glasgow, United Kingdom
         img: /img/committee/patrizia_vito.jpg
 
+  - group: Finance Chair
+    people:
+      - name: Julian Rasch
+        affiliation: LMU Munich, Germany
+        img: /img/committee/julian_rasch.jpg
+
   - group: Sponsorship Chair
     people:
       - name: Mohamed Khamis
