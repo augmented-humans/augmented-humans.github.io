@@ -71,6 +71,7 @@ committee:
     people:
       - name: Graham Wilson
         affiliation: University of Glasgow, United Kingdom
+        mail: graham.wilson@glasgow.ac.uk
         img: /img/committee/graham_wilson.jpg
 
       - name: Daniel Medeiros
@@ -102,6 +103,7 @@ committee:
     people:
       - name: Patrizia Di Campli San Vito
         affiliation: University of Glasgow, United Kingdom
+        mail: patrizia.dicamplisanvito@glasgow.ac.uk
         img: /img/committee/patrizia_vito.jpg
 
   - group: Finance Chair
