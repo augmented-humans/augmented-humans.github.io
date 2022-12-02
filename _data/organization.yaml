@@ -67,6 +67,11 @@ committee:
         website: https://friendred.studio
         img: /img/committee/friendred_peng.jpg
 
+      - name: Nihar Sabnis
+        affiliation: Max Planck Institute of Informatics, Germany
+        mail: nsabnis@mpi-inf.mpg.de
+        img: /img/committee/nihar_sabnis.jpg
+
   - group: Workshop Chairs
     people:
       - name: Graham Wilson
@@ -76,6 +81,7 @@ committee:
 
       - name: Daniel Medeiros
         affiliation: University of Glasgow, United Kingdom
+        mail: daniel.piresdesamedeiros@glasgow.ac.uk
         img: /img/committee/daniel_medeiros.jpg
 
   - group: Publication Chair
@@ -123,6 +129,7 @@ committee:
     people:
       - name: Chloe Eghtebas
         affiliation: Technical University of Munich, Germany
+        mail: eghtebas@in.tum.de
         img: /img/committee/chloe_eghtebas.jpg
 
   - group: Web Chair
