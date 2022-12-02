@@ -141,6 +141,10 @@ committee:
 
   - group: Steering Committee
     people:
+      - name: Thomas Kosch
+        affiliation: Humboldt University of Berlin, Germany
+      - name: Paul Strohmeier
+        affiliation: Max Planck Institute for Informatics, Germany
       - name: Masahiko Inami
         affiliation: The University of Tokyo, Japan
       - name: Albrecht Schmidt
