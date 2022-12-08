@@ -44,13 +44,16 @@ categories: |
   
   <b>Full papers</b> - up to 16 pages single column (excluding references), anonymized
   <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
-  <b>Demonstration papers</b> - up to 4 pages single column (excluding references), anonymized, demonstration at the conference
+  <b>Demonstration papers</b> - up to 4 pages single column (excluding references), anonymized, demonstration at the conference <a href="#footnote1"><sup>(see footnote 1)</sup></a>
   <b>Poster papers</b> - up to 4 pages single column (excluding references), anonymized, presented at the conference
   <b>Workshop proposals</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized
   
   All page lengths are excluding references. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews.
   
   All accepted submissions will be published in the <a href="https://dl.acm.org/">ACM Digital Library</a>. 
+  
+  <br>
+  <p style="font-size: 90%;"><text id="footnote1">¹</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute).</p>
 
 
 instructions-title: Submission Guidelines 
