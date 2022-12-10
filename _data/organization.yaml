@@ -90,6 +90,10 @@ committee:
         affiliation: Leibniz University Hannover, Germany
         img: /img/committee/michael_rohs.jpg
 
+      - name: Rebecca Panskus
+        affiliation: Ruhr-University Bochum, Germany
+        img: /img/committee/rebecca_panskus.jpg
+
   - group: Local Chairs
     people:
       - name: Pejman Saeghe
