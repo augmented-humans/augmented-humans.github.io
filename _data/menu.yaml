@@ -10,6 +10,8 @@ shortlinks:
         shortcut: /calls-for-participation
       - title: Calls for Workshops
         shortcut: /calls-for-workshops
+      - title: Calls for Demonstrations
+        shortcut: /calls-for-demos
   - title: Attending
     shortcut: /attending
   - title: Program
