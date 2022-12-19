@@ -51,7 +51,7 @@ sitemap: true
                 {% for paragraph in description_paragraphs %}
                 <p>{{ paragraph }}</p>
                 {% endfor %}
-                <img class="" src="{{ site.data.attending.venue-image | prepend: site.url }}" width="945px" />
+                <img id="venue-img" class="" src="{{ site.data.attending.venue-image | prepend: site.url }}"/>
             </div>
             <div class="col-lg-1"></div>
         </div>

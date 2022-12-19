@@ -128,12 +128,13 @@ p {
       text-transform: uppercase;
       letter-spacing: 1px;
       font-size: 12px;
-      color: #aaa;
+      color: white;
       &:focus {
         color: #222222;
       }
       &:hover, &:focus:hover {
         color: $theme-accent;
+        text-decoration: underline;
         // color: $theme-primary;
       }
     }
@@ -152,6 +153,7 @@ p {
 }
 .navbar-default .navbar-collapse {
   border-color: $theme-background-primary !important;
+  padding-top: 25px;
 }
 
 @media (min-width: 768px) {
@@ -1706,5 +1708,82 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 
   .tr-break {
     background-color: $theme-background-tertiary;
+  }
+}
+
+#venue-img {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dropdown-content > li {
+  > a {
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: white;
+    &:focus {
+      color: #222222;
+    }
+    &:hover, &:focus:hover {
+      color: $theme-accent;
+      // color: $theme-primary;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  &.active > a {
+    color: $theme-primary !important;
+    background-color: transparent;
+    &:focus {
+      color: $theme-primary !important;
+      background-color: transparent;
+    }
+    &:hover, &:focus:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: fit-content;
+    list-style: none;
+    overflow: auto;
+    background-color: $theme-background-primary;
+    color: white;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    padding-left: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown a:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    float: right;
+    content: '\f107';
+    vertical-align: middle;
+    padding-left: 5px;
   }
 }
