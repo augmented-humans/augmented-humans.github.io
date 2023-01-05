@@ -46,7 +46,7 @@ categories: |
   <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
   <b>Demonstration papers</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized, demonstration at the conference <a href="#footnote1"><sup>(see footnote 1)</sup></a>
   <b>Poster papers</b> - up to 4 pages single column (excluding references), anonymized, presented at the conference <a href="#footnote2"><sup>(see footnote 2)</sup></a>
-  <b>Workshop proposals</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized <a href="#footnote3"><sup>(see footnote 3)</sup></a>
+  <b>Workshop proposals</b> - up to 4 pages single column (excluding references and author bios), <b>not</b> anonymized <a href="#footnote3"><sup>(see footnote 3)</sup></a>
   
   All page lengths are excluding references. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews.
   
@@ -159,3 +159,7 @@ deadlines: |
       <td colspan="100%" style="font-size:medium;">Submission deadlines for the approved workshops will be set by the workshop supervisors themselves. More information can be found on the respective workshop websites.</td>
     </tr>
     </table>
+
+add-title: Additional Information
+add: |
+  At least one author of each accepted paper must register for the conference and present the paper in Glasgow. Exceptions of in-person presentations can be granted in emergency situations (e.g., visa issues) upon request from the general chairs. If you are in such a situation please contact the general chairs via e-mail.
