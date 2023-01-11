@@ -43,7 +43,8 @@ committee:
         img: /img/committee/steeven_villa.jpg
 
       - name: Jasmin Niess
-        affiliation: University of St.Gallen, Switzerland
+        affiliation: University of Oslo, Norway
+        mail: jasminni@uio.no
         img: /img/committee/jasmin_niess.jpg
 
       - name: Yudai Tanaka
@@ -173,6 +174,102 @@ committee:
         affiliation: Tokyo Institute of Technology, Japan
       - name: Kai Kunze
         affiliation: Keio University, Japan
+
+  - group: Program Committee
+    people:
+      - name: Yomna Abdelrahman
+        affiliation: University of Stuttgart
+      - name: Judith Amores
+        affiliation: MIT
+      - name: Yuki Ban
+        affiliation: The University of Tokyo
+      - name: Steve Brewster
+        affiliation: University of Glasgow
+      - name: Damien Brun
+        affiliation: University of Lapland
+      - name: Sarah Delgado Rodriguez
+        affiliation: University of Bundeswehr, Munich
+      - name: Felix Dietz
+        affiliation: Uni BW
+      - name: Passant El.Agroudy
+        affiliation: University of Stuttgart
+      - name: Don Samitha Elvitigala
+        affiliation: Augmented Human Lab, Auckland Bioengineering Institute, The University of Auckland
+      - name: Gozde Goncu-Berk
+        affiliation: University of California, Davis
+      - name: Harutoyo Hirano
+        affiliation: Fujita Health University
+      - name: Yumeko Imamura
+        affiliation: National Institute of Advanced Industrial Science and Technology
+      - name: Shoya Ishimaru
+        affiliation: Osaka Prefecture University
+      - name: Shunichi Kasahara
+        affiliation: Sony CSL / Univ. Tokyo
+      - name: Thomas Kosch
+        affiliation: University of Stuttgart
+      - name: Pin-Sung Ku
+        affiliation: Cornell University
+      - name: Yuichi Kurita
+        affiliation: Hiroshima University
+      - name: Geehyuk Lee
+        affiliation: Korea Advanced Institute of Science and Technology
+      - name: Denys J.C. Matthies
+        affiliation: Fraunhofer
+      - name: Mark McGill
+        affiliation: University of Glasgow
+      - name: Eleonora Mencarini
+        affiliation: Fondazione Bruno Kessler
+      - name: Masaaki Mochimaru
+        affiliation: Digital Human Research Center, AIST
+      - name: Ken Nakagaki
+        affiliation: University of Chicago
+      - name: Jasmin Niess
+        affiliation: University of Oslo
+      - name: Jun Nishida
+        affiliation: University of Chicago
+      - name: Aditya Shekhar Nittala
+        affiliation: University of Calgary
+      - name: Joseph O'Hagan
+        affiliation: University of Glasgow
+      - name: Ian Oakley
+        affiliation: University of Madeira
+      - name: Ata Otaran
+        affiliation: Saarland University
+      - name: Yun Suen Pai
+        affiliation: Keio University
+      - name: Monica Perusquía-Hernández
+        affiliation: Nara Institute of Science and Technology (NAIST), NTT Communication Science Laboratories
+      - name: Julian Rasch
+        affiliation: LMU Munich
+      - name: Maki Sugimoto
+        affiliation: Keio University
+      - name: Shan-Yuan Teng
+        affiliation: University of Chicago
+      - name: Kristof Van Laerhoven
+        affiliation: University of Siegen
+      - name: David Steeven Villa Salazar
+        affiliation: LMU Munich
+      - name: Athanasios Vourvopoulos
+        affiliation: Institute for Systems and Robotics, Instituto Superior Técnico
+      - name: Jamie Ward
+        affiliation: University of Sussex
+      - name: Martin Weigel
+        affiliation: Technische Hochschule Mittelhessen
+      - name: Andreas Weiß
+        affiliation: Music School Schallkultur
+      - name: Robin Welsch
+        affiliation: LMU Munich
+      - name: Daniel Wessolek
+        affiliation: Futurium gGmbH
+      - name: Paweł Woźniak
+        affiliation: Chalmers University of Technology
+      - name: Akishige Yuguchi
+        affiliation: Guardian Robot Project, RIKEN  / Nara Institute of Science and Technology
+      - name: Keiichi Zempo
+        affiliation: University of Tsukuba
+      - name: Xinlei Zhang
+        affiliation: Huawei CBG
+ 
 
 
 
