@@ -43,7 +43,8 @@ committee:
         img: /img/committee/steeven_villa.jpg
 
       - name: Jasmin Niess
-        affiliation: University of St.Gallen, Switzerland
+        affiliation: University of Oslo, Norway
+        mail: jasminni@uio.no
         img: /img/committee/jasmin_niess.jpg
 
       - name: Yudai Tanaka
