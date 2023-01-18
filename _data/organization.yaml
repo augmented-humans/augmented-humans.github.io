@@ -180,7 +180,7 @@ committee:
       - name: Yomna Abdelrahman
         affiliation: University of Stuttgart
       - name: Judith Amores
-        affiliation: MIT
+        affiliation: Microsoft Research
       - name: Yuki Ban
         affiliation: The University of Tokyo
       - name: Steve Brewster
@@ -202,11 +202,11 @@ committee:
       - name: Yumeko Imamura
         affiliation: National Institute of Advanced Industrial Science and Technology
       - name: Shoya Ishimaru
-        affiliation: Osaka Prefecture University
+        affiliation: University of Kaiserslautern
       - name: Shunichi Kasahara
         affiliation: Sony CSL / Univ. Tokyo
       - name: Thomas Kosch
-        affiliation: University of Stuttgart
+        affiliation: Humboldt University of Berlin, Germany
       - name: Pin-Sung Ku
         affiliation: Cornell University
       - name: Yuichi Kurita
@@ -226,7 +226,7 @@ committee:
       - name: Jasmin Niess
         affiliation: University of Oslo
       - name: Jun Nishida
-        affiliation: University of Chicago
+        affiliation: University of Maryland
       - name: Aditya Shekhar Nittala
         affiliation: University of Calgary
       - name: Joseph O'Hagan
