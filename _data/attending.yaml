@@ -16,6 +16,15 @@ registration: |
   <a href="https://ahs2022.peatix.com/" class="btn btn-lg disabled btn-disabled" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
   <br>
 
+visa-title: Visa Information
+visa: |
+  We can supply visa letters for you to attend AHs if you provide us with the following information:
+  •	Your full name
+  •	Your position (for example “PhD student”)
+  •	Your full affiliation
+  •	Whether you are presenting a paper or just attending the conference
+  •	If you are presenting a paper, the title of the paper
+  Please fill in all these details into this <a href="https://docs.google.com/forms/d/e/1FAIpQLScLn1t5bEsT1t78Qa40xm92SJUfcSKD44Re8WF9qxSnakUAZA/viewform">survey form</a>.
 
 venue-title: Venue
 venue: |
