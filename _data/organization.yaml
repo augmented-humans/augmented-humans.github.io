@@ -38,6 +38,7 @@ committee:
 
       - name: Matthias Hoppe
         affiliation: LMU Munich, Germany
+        website: https://www.um.informatik.uni-muenchen.de/personen/mitarbeiter/hoppe/index.html
         img: /img/committee/matthias_hoppe.jpg
 
   - group: Poster Chairs
