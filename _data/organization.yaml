@@ -36,6 +36,10 @@ committee:
         mail: kvega@ucdavis.edu
         img: /img/committee/katia_vega.jpg
 
+      - name: Matthias Hoppe
+        affiliation: LMU Munich, Germany
+        img: /img/committee/matthias_hoppe.jpg
+
   - group: Poster Chairs
     people:
       - name: Steeven Villa
