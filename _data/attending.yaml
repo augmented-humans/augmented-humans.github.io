@@ -9,12 +9,12 @@ page-title: <strong>A</strong>ttending
 #  <br>
 
 # Placeholder
-registration-title: Registration Is Not Open Yet
+registration-title: Register Now
 registration: |
-  The registration for <strong>A</strong>ugmented <strong>H</strong>uman<strong>s</strong> 2023 is not yet open.
-  Follow the official Augmented Humans conference account on Twitter now to not miss when registration will be available!
-  <a href="https://ahs2022.peatix.com/" class="btn btn-lg disabled btn-disabled" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+  The registration for <strong>A</strong>ugmented <strong>H</strong>uman<strong>s</strong> 2023 is open!
+  <a href="https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
   <br>
+  For inquiries regarding VISA, see the information section below. Early registration deadline is 20th February, so remember to register soon!
 
 visa-title: Visa Information
 visa: |
@@ -26,12 +26,107 @@ visa: |
   •	If you are presenting a paper, the title of the paper
   Please fill in all these details into this <a href="https://docs.google.com/forms/d/e/1FAIpQLScLn1t5bEsT1t78Qa40xm92SJUfcSKD44Re8WF9qxSnakUAZA/viewform">survey form</a>.
 
+travel-title: Travel to Glasgow
+travel: |
+  
+  Welcome to Glasgow, Scotland!
+  Glasgow is a vibrant and compact city with plenty to offer delegates outside of conference sessions. The city has a range of cultural attractions including many museums and art galleries offering free entry, such as the stunning Kelvingrove Art Gallery and Museum and the award-winning Riverside Museum. Visitors can explore the works of artist and architect Charles Rennie Mackintosh, walk the city centre Art Mural Trail or take a stroll through one of the many parks and green spaces. 
+  Glasgow is a UNESCO City of Music with over 150 live music events per week, plus a full calendar of other exciting events and festivals throughout the year. 
+  The food and drink scene offers something for everyone, from traditional whisky pubs to fine dining, in a variety of lively neighbourhoods including Finnieston (SEC), the City Centre, the West End and Merchant City. Delegates can look forward to a warm welcome in a city voted ‘world’s friendliest city’ by Rough Guides. 
+  If you’re extending your stay, Glasgow has excellent travel connections for exploring Scotland and an exciting selection of year-round tours leaving daily for the Scottish Highlands. Plan your trip at: <a href="www.peoplemakeglasgow.com">www.peoplemakeglasgow.com</a> 
+travel-image: /img/attending/travel-to-glasgow.jpg
+
 venue-title: Venue
 venue: |
-  The Augmented Humans conference will take place at the <a href="https://www.gla.ac.uk/research/arc/">Mazumdar-Shaw Advanced Research Centre (ARC)</a> at the University of Glasgow.
+  The Augmented Humans conference will take place at the <a href="https://www.gla.ac.uk/research/arc/">Mazumdar-Shaw Advanced Research Centre (ARC)</a> at the University of Glasgow (see on <a href="https://goo.gl/maps/H376xmNtg4vZwonU7">Google Maps</a>).
+  The ARC is located within the University of Glasgow’s Gilmorehill Campus, a stone’s throw from Byers road and its subway station and numerous bus links.
+  See <a href="https://peoplemakeglasgow.com/good-to-know/getting-around">https://peoplemakeglasgow.com/good-to-know/getting-around</a> for more details on public transit in and around Glasgow.
   <small><i>Photo courtesy of Keith Hunter.</i></small>
 venue-image: /img/venue/arc-front.jpg
 
+accessibility-title: Accessibility
+accessibility: |
+  If you have any accessibility needs, please indicate them through the conference registration form, and we'll be in touch to see how we can help.
+  The <a href="https://www.gla.ac.uk/research/arc/accessibility/">conference venue has a range of accessibility options</a>, including step-free access, accessible toilets, baby feeding/changing facilities, and induction loops for hearing systems.
+  Beyond the ARC, access guides for a variety of attractions and locations in Glasgow can be found via <a href="https://www.accessable.co.uk/glasgow-city-council">AcessAble</a>.
+  Contact our Accessibility Chair <a href="mailto:Patrizia.DiCampliSanVito@glasgow.ac.uk">Patrizia Di Campli San Vito</a> if you have any queries here. 
+
+arriving-plane-title: Arriving by Plane (Scotland)
+arriving-plane: |
+  Both Glasgow and Edinburgh Airports have regular bus links into Glasgow city center, see:
+  • <a href="https://www.glasgowairport.com/to-and-from/bus">https://www.glasgowairport.com/to-and-from/bus</a>
+  • <a href="https://www.edinburghairport.com/transport-links/buses-and-coaches/glasgow-bus-links">https://www.edinburghairport.com/transport-links/buses-and-coaches/glasgow-bus-links</a>
+  • <a href="https://www.citylink.co.uk/timetables-service-updates/glasgow-to-edinburgh-airport">https://www.citylink.co.uk/timetables-service-updates/glasgow-to-edinburgh-airport</a>
+arriving-plane-image: /img/attending/travel-scotland.png
+
+arriving-train-title: Arriving by Train (Rest of UK)
+arriving-train: |
+  If you’re flying into other airports across the UK, the easiest way to come to Glasgow is by train, with lines coming from London, Bristol, Manchester and more.
+arriving-train-image: /img/attending/travel-uk.png
+
+arriving-car-title: Arriving by Car
+arriving-car: |
+  While it is possible to arrive by car, we strongly advise against it, since there will be a lot of traffic, as well as only a few and expensive parking options.
+
+hotels-title: Hotels
+hotels: |
+  There are a number of hotels within the vicinity of the ARC, including:
+  • Glasgow Grosvenor Hotel: <a href="https://www.gghotel.co.uk/">https://www.gghotel.co.uk/</a> (10% discount available via <a href="https://direct-book.com/properties/glasgowgrosvenor?locale=en&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&currency=GBP&checkInDate=2023-01-20&checkOutDate=2023-01-21&trackPage=yes&promocode=UNI001">this link</a>)
+  • Argyll Western Hotel: <a href="https://www.argyllwestern.co.uk/">https://www.argyllwestern.co.uk/</a>
+  • Ambassador Hotel: <a href="https://ambassador-hotel.net/">https://ambassador-hotel.net/</a>
+  • Albion Hotel: <a href="https://albion-hotel.net/">https://albion-hotel.net/</a>
+  • Argyll Hotel: <a href="https://www.argyllhotelglasgow.co.uk/">https://www.argyllhotelglasgow.co.uk/</a>
+  • Sandyford Hotel: <a href="http://www.sandyfordhotelglasgow.com/">http://www.sandyfordhotelglasgow.com/</a>
+
+food-drink-title: Food and Drink
+food-drink: |
+  
+  Byers Road and Great Western Road feature a number of restaurants close to the conference venue.
+  • Ashton Lane - Area with restaurants, bars and a cinema, including the famous Ubiquitous Chip restaurant
+  • Cail Bruich - Restaurant with one Michelin star, if your travel budget stretches this far!
+  • Bantawala – Indian food
+  • Bar Soba - Fusion
+  • Tony Macaronis - Italian food
+  • La Vita Spuntini - Italian food
+  • Ting Thai – Thai food
+  • Dumpling Monkey - Asian food
+  • Bibimbap - Korean food
+  • Plant Blonde -Vegan Café
+  • E-sushi – Sushi
+  • Bread Meets Bread - Burger
+  • Hillhead Book club – Food&Drinks
+  • Oran Mor - Bar Food & Drinks [and where the conference dinner will be held]
+  • Shish Mahal - Indian food
+  • Paesano Pizza West End - Neapolitan Pizza
+  Beyond the west end, there are a variety of excellent restaurants in the <a href="https://peoplemakeglasgow.com/eat-drink">city center and beyond</a>.
+food-drink-image: /img/attending/food-drink.jpg
+
+what-to-do-title: What to Do in Glasgow
+what-to-do: |
+  
+  Glasgow has a wide variety of museums and sights you may want to take in when you visit. Here are some itineraries and links to help you on your way:
+  • <a href="https://glasgowconventionbureau.com/media/2669/explore-the-west-end.pdf">West End itinerary</a> - covering the area around the conference venue, including famous landmarks like the Hunterian Museum, UoG’s Gilbert Scott Building (built 1891), and the Kelvingrove Art Gallery & Museum - all must sees!
+  • <a href="https://glasgowconventionbureau.com/media/2769/explore-the-city-centre.pdf">City Centre itinerary</a>
+  • <a href="https://peoplemakeglasgow.com/trip-inspiration/gateway-to-scotland/whisky-and-distilleries">Whisky and distillery tours</a> and <a href="https://peoplemakeglasgow.com/things-to-do/tours">other tours around the city</a>
+  • <a href="https://www.glasgowlife.org.uk/museums">Museums</a>
+  • <a href="https://www.lonelyplanet.com/scotland/glasgow">Lonely Planet guide to Glasgow</a>
+  • <a href="https://www.roughguides.com/articles/glasgow-an-insiders-guide/?redirect_n">Rough Guides guide to Glasgow</a>
+  • <a href="https://www.visitscotland.com/">VisitScotland</a>
+  • <a href="https://www.tripadvisor.co.uk/Tourism-g186534-Glasgow_Scotland-Vacations.html">Tripadvisor</a>
+  • <a href="https://peoplemakeglasgow.com/see-do/glasgow-for-music-lovers/scottish-music-experiences">Scottish music</a>, <a href="https://www.thepipingcentre.co.uk/visit/concerts/concerts">piping concerts</a> and <a href="https://www.visitscotland.com/about/uniquely-scottish/bagpipes-traditional-music-ceilidhs/">ceilidhs</a>
+  • Glasgow and Edinburgh both also have a number of theatres and concert halls e.g. the <a href="https://www.whatsonstage.com/shows/glasgow-theatre">Theatre Royal, Kings Theatre</a>, <a href="https://www.capitaltheatres.com/whats-on">Edinburgh Festival Theatre</a> etc. 
+what-to-do-image: /img/attending/glasgow.png
+
+beyond-glasgow-title: Beyond Glasgow
+beyond-glasgow: |
+  
+  Glasgow is also a fantastic base to visit the rest of Scotland. There are lots of great options here for sightseeing, including:
+  • <a href="https://trustinthepark.org/visitor-transport/3150-2/">sustainable days out from Glasgow</a> that can be reached by train alone
+  • visits to nearby cities (e.g. Edinburgh, Stirling)
+  • country parks (e.g. <a href="https://burrellcollection.com/">Pollock Park and the Burrell Collection</a>) 
+  • escapes to nature (e.g. Loch Lomond - <a href="https://www.walkhighlands.co.uk/lochlomond/conic-hill.shtml">climb Conic Hill at Balloch for incredible views</a>!)
+  • to trips further afield (e.g. <a href="https://www.oban.org.uk/">Oban</a>, the unofficial capital of the West Highlands and the gateway to the Hebridean Isles)
+beyond-glasgow-image: /img/attending/beyond.png
 
 # <h4>Early Registration</h4>
   # Non-Student: ¥15,000
