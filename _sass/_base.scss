@@ -51,7 +51,8 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: grey;
+  color: lightgrey;
+  text-decoration: underline;
   &:hover, &:focus {
     color: $color-highlight;
   }
@@ -126,6 +127,7 @@ p {
     > a {
       font-family: 'Work Sans', sans-serif;
       text-transform: uppercase;
+      text-decoration: none !important;
       letter-spacing: 1px;
       font-size: 12px;
       color: white;
@@ -134,7 +136,7 @@ p {
       }
       &:hover, &:focus:hover {
         color: $theme-accent;
-        text-decoration: underline;
+        text-decoration: underline !important;
         // color: $theme-primary;
       }
     }
@@ -1733,6 +1735,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   > a {
     font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
+    text-decoration: none !important;
     letter-spacing: 1px;
     font-size: 12px;
     color: white;
@@ -1741,6 +1744,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     }
     &:hover, &:focus:hover {
       color: $theme-accent;
+      text-decoration: underline !important;
       // color: $theme-primary;
     }
     &:before {
