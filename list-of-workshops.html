@@ -1,0 +1,101 @@
+---
+layout: default
+title: "Augmented Humans 2023 | Workshops"
+description: "Workshops"
+sitemap: true
+---
+<header class="masthead text-center text-white normal">
+  <!-- <div class="overlay"></div> -->
+  <div id="particles-js" class="masthead-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1 class="masthead-heading mb-0">{{ site.data.list-of-workshops.page-title}}</h1>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section id="ah-categories" class="flip">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.list-of-workshops.overview-title }}</span></div>
+        {% assign description_paragraphs = site.data.list-of-workshops.overview | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div style="margin-bottom: 10px;" class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.list-of-workshops.ws1-title }}</span></div>
+          <p style="font-size: 120%;color: lightgray;">{{ site.data.list-of-workshops.ws1-organizer }}</p>
+          <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws1-link }}">Link to workshop website</a>
+          <br/><br/>
+          <img id="venue-img" class="" src="{{ site.data.list-of-workshops.ws1-img | prepend: site.url }}"/>
+        {% assign description_paragraphs = site.data.list-of-workshops.ws1 | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip" style="border-top: 5px solid #FFC847;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div style="margin-bottom: 10px;" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.list-of-workshops.ws2-title }}</span></div>
+          <p style="font-size: 120%;color: lightgray;">{{ site.data.list-of-workshops.ws1-organizer }}</p>
+          <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws2-link }}">Link to workshop website</a>
+          <br/><br/>
+          <img id="venue-img" class="" src="{{ site.data.list-of-workshops.ws2-img | prepend: site.url }}"/>
+        {% assign description_paragraphs = site.data.list-of-workshops.ws2 | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div style="margin-bottom: 10px;" class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.list-of-workshops.ws3-title }}</span></div>
+          <p style="font-size: 120%;color: lightgray;">{{ site.data.list-of-workshops.ws1-organizer }}</p>
+          <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws3-link }}">Link to workshop website</a>
+          <br/><br/>
+          <img id="venue-img" class="" src="{{ site.data.list-of-workshops.ws3-img | prepend: site.url }}"/>
+        {% assign description_paragraphs = site.data.list-of-workshops.ws3 | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>

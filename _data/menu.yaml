@@ -10,6 +10,8 @@ shortlinks:
         shortcut: /calls-for-participation
       - title: Call for Workshops
         shortcut: /call-for-workshops
+      - title: List of Workshops
+        shortcut: /list-of-workshops
       - title: Call for Demonstrations
         shortcut: /call-for-demos
       - title: Call for Posters
