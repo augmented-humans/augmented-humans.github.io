@@ -20,6 +20,10 @@ keynote: |
 keynote-author: |
   <strong>Florian Alt</strong>
   <strong>Short Bio:</strong> Florian Alt is a full professor of Usable Security and Privacy at the Research Institute for Cyber Defence (CODE) in Munich. In his work, he is interested in designing secure and privacy-preserving systems that naturally blend with the way in which users interact with computing devices. Florian’s research focuses on investigating users’ behavior in security contexts, on creating and enhancing security and privacy mechanisms based on users’ behavior and physiology, and on understanding as well as mitigating threats emerging from novel ubiquitous technologies. Specific areas of application are Mixed Reality, Smart Homes, and Social Engineering. Florian holds a diploma in Media Informatics from LMU Munich and a Ph.D. in Human-Computer Interaction from the University of Stuttgart.
+keynote-short: |
+  <h3 style="color:#003865;">Behavior and Physiology-Aware Security User Interfaces</h3>
+keynote-author-short: |
+  <strong>Florian Alt</strong> is a full professor of Usable Security and Privacy at the Research Institute for Cyber Defence (CODE) in Munich.
 keynote-img: /img/assets/florian_alt.jpg
 
 # program-papers:

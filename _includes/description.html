@@ -26,12 +26,12 @@
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
           <span>{{ site.data.program.keynote-title }}</span></div>
-        {% assign description_paragraphs = site.data.program.keynote | newline_to_br | split:'<br />' %}
+        {% assign description_paragraphs = site.data.program.keynote-short | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p style="text-align:justify;">{{ paragraph }}</p>
         {% endfor %}
         <img id="venue-img" class="" src="{{ site.data.program.keynote-img | prepend: site.url }}"/>
-        {% assign author_paragraphs = site.data.program.keynote-author | newline_to_br | split:'<br />' %}
+        {% assign author_paragraphs = site.data.program.keynote-author-short | newline_to_br | split:'<br />' %}
         {% for paragraph in author_paragraphs %}
         <p  style="text-align:justify;">{{ paragraph }}</p>
         {% endfor %}
