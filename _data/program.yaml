@@ -8,11 +8,23 @@ page-title: <strong>P</strong>rogram
 #
 #    <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Download PDF</a>
 
-program-title: Program Details
-program-description: |
-  The program is not yet published.
+program-title: Program Schedule
+program: |
+  The program schedule is not yet published.
   Follow the official Augmented Humans conference account on Twitter now to get notified when it is available!
 
+keynote-title: 'Keynote: Florian Alt'
+keynote: |
+  <h3 style="color:#003865;">Behavior and Physiology-Aware Security User Interfaces</h3>
+  <strong>Abstract:</strong> Over the past years a global and highly professional cybercrime industry has established itself, making user-centred attacks an omnipresent threat for society. Companies, organisations, and individuals struggle to keep up and protect themselves effectively from an ever-growing number of sophisticated attack vectors. Reasons are, among others, a general lack of awareness and understanding of such threats, inherently complex and difficult-to-understand security and privacy mechanisms, and users struggling to habituate secure behavior in cyber space. Yet, humans are not as helpless as it seems, as many examples of secure behavior in the real world demonstrate. We naturally lock doors, we place valuables in safes or lockers, and we take small detour at night rather than walking through dark areas and parks. Based on examples from our research, I will demonstrate how such natural behavior can be supported in the digital world through the design and development of security user interfaces that are aware of human behavior and physiology. I will showcase how technologies for human augmentation allow a detailed understanding on humans’ responses to security-related situations to be obtained and leveraged so as to target opportune moments, enable contextualised means for protection, and increase users’ security literacy.
+keynote-author: |
+  <strong>Florian Alt</strong>
+  <strong>Short Bio:</strong> Florian Alt is a full professor of Usable Security and Privacy at the Research Institute for Cyber Defence (CODE) in Munich. In his work, he is interested in designing secure and privacy-preserving systems that naturally blend with the way in which users interact with computing devices. Florian’s research focuses on investigating users’ behavior in security contexts, on creating and enhancing security and privacy mechanisms based on users’ behavior and physiology, and on understanding as well as mitigating threats emerging from novel ubiquitous technologies. Specific areas of application are Mixed Reality, Smart Homes, and Social Engineering. Florian holds a diploma in Media Informatics from LMU Munich and a Ph.D. in Human-Computer Interaction from the University of Stuttgart.
+keynote-short: |
+  <h3 style="color:#003865;">Behavior and Physiology-Aware Security User Interfaces</h3>
+keynote-author-short: |
+  <strong>Florian Alt</strong> is a full professor of Usable Security and Privacy at the Research Institute for Cyber Defence (CODE) in Munich.
+keynote-img: /img/keynote-speaker/florian_alt.jpg
 
 # program-papers:
 #   - Detecting Episodes of Increased Cough Using Kinetic Earables<br /><small>Tobias Röddiger, Michael Beigl, Michael Hefenbrock, Daniel Wolffram and Erik Pescara</small>
