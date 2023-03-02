@@ -36,6 +36,168 @@
 <!-- Change logo after scrolling-->
 <script src="/js/logo-changer.js"></script>
 
+<script src='/js/fullcalendar@6.1.4/index.global.min.js'></script>
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      locale: 'en-UK',
+      headerToolbar: {
+        start: 'title',
+        center: 'prev,next',
+        end: 'week,day'
+      },
+      initialView: 'week',
+      views: {
+        week: {
+          type: 'timeGrid',
+          duration: { days: 3 }
+        },
+        day: {
+          type: 'timeGrid',
+          duration: { days: 1 }
+        }
+      },
+      scrollTime: '08:00:00',
+      visibleRange: {
+        start: '2023-03-12',
+        end: '2023-03-15'
+      },
+      validRange: {
+        start: '2023-03-12',
+        end: '2023-03-15'
+      },
+      eventColor: '#FFC847',
+      eventTextColor: '#000000',
+      events: [
+      {
+        title: 'Workshops',
+        allDay: true,
+        start: '2023-03-12',
+        end: '2023-03-13',
+        backgroundColor: '#8de8ba'
+      },
+      {
+        title: '',
+        allDay: true,
+        start: '2023-03-12',
+        end: '2023-03-13',
+        backgroundColor: '#8de8ba',
+        display: 'background'
+      },
+      {
+        title: 'Coffee Break',
+        start: '2023-03-12T11:00',
+        end: '2023-03-12T11:30',
+        backgroundColor: '#E98D8D'
+      },
+      {
+        title: 'Coffee Break',
+        start: '2023-03-13T11:00',
+        end: '2023-03-13T11:30',
+        backgroundColor: '#E98D8D'
+      },
+      {
+        title: 'Coffee Break',
+        start: '2023-03-14T11:00',
+        end: '2023-03-14T11:30',
+        backgroundColor: '#E98D8D'
+      },
+      {
+        title: 'Lunch',
+        start: '2023-03-13T13:00',
+        end: '2023-03-13T14:15',
+        backgroundColor: '#E98D8D'
+      },
+      {
+        title: 'Lunch',
+        start: '2023-03-14T13:00',
+        end: '2023-03-14T14:15',
+        backgroundColor: '#E98D8D'
+      },
+      {
+        title: 'Welcome Reception',
+        start: '2023-03-12T15:30',
+        end: '2023-03-12T17:30'
+      },
+      {
+        title: 'Registration Open | Poster/Demo Setup',
+        start: '2023-03-13T08:30',
+        end: '2023-03-13T09:00',
+        backgroundColor: '#8dbae8'
+      },
+      {
+        title: 'Opening | Keynote Florian Alt',
+        start: '2023-03-13T09:00',
+        end: '2023-03-13T11:00'
+      },
+      {
+        title: 'Session 1: Haptic Feedback',
+        start: '2023-03-13T11:30',
+        end: '2023-03-13T13:00'
+      },
+      {
+        title: 'Session 2: Perception and Extended Reality',
+        start: '2023-03-13T14:15',
+        end: '2023-03-13T15:40'
+      },
+      {
+        title: 'Coffee + Poster/Demos',
+        start: '2023-03-13T15:40',
+        end: '2023-03-13T18:00',
+        backgroundColor: '#E98D8D'
+      },
+      {
+        title: 'Speed Mentoring',
+        start: '2023-03-13T16:30',
+        end: '2023-03-13T17:30',
+        backgroundColor: '#8de8e8'
+      },
+      {
+        title: 'Reception',
+        start: '2023-03-13T18:15',
+        end: '2023-03-14T00:00'
+      },
+      {
+        title: 'Registration Open | Poster/Demo Setup',
+        start: '2023-03-14T08:30',
+        end: '2023-03-14T09:00',
+        backgroundColor: '#8dbae8'
+      },
+      {
+        title: 'Session 3: Human Empowerment',
+        start: '2023-03-14T09:00',
+        end: '2023-03-14T11:00'
+      },
+      {
+        title: 'Session 4: Intelligence Augmentation',
+        start: '2023-03-14T11:30',
+        end: '2023-03-14T13:00'
+      },
+      {
+        title: 'Session 5: Interfaces for the Body and Beyond',
+        start: '2023-03-14T14:15',
+        end: '2023-03-14T15:50'
+      },
+      {
+        title: 'Coffee + Poster/Demos',
+        start: '2023-03-14T15:50',
+        end: '2023-03-14T17:00',
+        backgroundColor: '#E98D8D'
+      },
+      {
+        title: 'Closing',
+        start: '2023-03-14T17:00',
+        end: '2023-03-14T18:00'
+      }
+      ]
+    });
+    calendar.render();
+  });
+
+</script>
+
 {% if site.google_analytics %}
 <script type="text/javascript">
   var _gaq = _gaq || [];
