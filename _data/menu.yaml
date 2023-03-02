@@ -10,8 +10,6 @@ shortlinks:
         shortcut: /calls-for-participation
       - title: Call for Workshops
         shortcut: /call-for-workshops
-      - title: List of Workshops
-        shortcut: /list-of-workshops
       - title: Call for Demonstrations
         shortcut: /call-for-demos
       - title: Call for Posters
@@ -23,6 +21,9 @@ shortlinks:
         shortcut: https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017
   - title: Program
     shortcut: /program
+    sublinks:
+      - title: List of Workshops
+        shortcut: /list-of-workshops
   - title: Committee
     shortcut: /committee
   - title: Past conferences
