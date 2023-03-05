@@ -1713,6 +1713,31 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   }
 }
 
+#sessions {
+  table {
+      // border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 40px;
+  }
+
+  td,th {
+      // text-align: left;
+      padding: 10px 100px 10px 10px;
+      color: black;
+      font-size: larger;
+      border: 1px solid black !important;
+  }
+  
+
+  .tr-break {
+    background-color: $theme-background-tertiary;
+  }
+
+  h3 {
+    color: black;
+  }
+}
+
 #venue-img {
   width: 100%;
   height: auto;

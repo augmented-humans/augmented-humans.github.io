@@ -9,7 +9,181 @@ page-title: <strong>P</strong>rogram
 #    <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Download PDF</a>
 
 program-title: Program Schedule
-program: 
+program: The schedule of the sessions themselves can be found directly below.
+
+session-title: Session Schedules
+session: |
+  <h3 style="color: black;">Session 1: Haptic Feedback</h3>
+  <table id="sessions">
+  <tr>
+    <th>Time</th>
+    <th>Paper</th> 
+  </tr>
+  <tr>
+    <td>11:30 - 11:45</td>
+    <td>S78: Designing Interactive Shoes for Tactile Augmented Reality</td> 
+  </tr>
+  <tr>
+    <td>11:45 - 12:00</td>
+    <td>S15: GAuze-MIcrosuture-FICATION: Gamification in Microsuture training with real-time feedback</td> 
+  </tr>
+  <tr>
+    <td>12:00 - 12:15</td>
+    <td>S32: Standing Balance Improved by Electrical Muscle Stimulation to Popliteus Muscles</td> 
+  </tr>
+  <tr>
+    <td>12:15 - 12:30</td>
+    <td>S5: Tactile Vectors for Omnidirectional Arm Guidance</td> 
+  </tr>
+  <tr>
+    <td>12:30 - 12:45</td>
+    <td>S38: Coldness Presentation to Ventral Forearm using Electrical Stimulation with Elastic Gel and Anesthetic Cream</td> 
+  </tr>
+  <tr>
+    <td>12:45 - 13:00</td>
+    <td>Q&A</td> 
+  </tr>
+  </table>
+
+  <h3 style="color: black;">Session 2: Perception and Extended Reality</h3>
+  <table id="sessions">
+  <tr>
+    <th>Time</th>
+    <th>Paper</th> 
+  </tr>
+  <tr>
+    <td>14:15 - 14:30</td>
+    <td>S30: Virtual Omnibus Lecture: Investigating the Effects of Varying Lecturer Avatars as Environmental Context on Audience Memory</td> 
+  </tr>
+  <tr>
+    <td>14:30 - 14:45</td>
+    <td>S36: LocatAR: An AR Object Search Assistance System for a Shared Space</td> 
+  </tr>
+  <tr>
+    <td>14:45 - 15:00</td>
+    <td>S16: Generation of realistic facial animation of a CG avatar speaking a moraic language</td> 
+  </tr>
+  <tr>
+    <td>15:00 - 15:15</td>
+    <td>S12: Effect of Weight Adjustment in Virtual Co-embodiment During Collaborative Training</td> 
+  </tr>
+  <tr>
+    <td>15:15 - 15:20</td>
+    <td>S43: Workspace Scaling in Virtual Reality based Robot Teleoperation</td> 
+  </tr>
+  <tr>
+    <td>15:20 - 15:25</td>
+    <td>S42: Challenges in Virtual Reality Studies: Ethics and Internal and External Validity</td> 
+  </tr>
+  <tr>
+    <td>15:25 - 15:40</td>
+    <td>Q&A</td> 
+  </tr>
+  </table>
+
+  <h3 style="color: black;">Session 3: Human Empowerment</h3>
+  <table id="sessions">
+  <tr>
+    <th>Time</th>
+    <th>Paper</th> 
+  </tr>
+  <tr>
+    <td>9:00 - 9:15</td>
+    <td>S58: Effects of Wearing Knee-tightening Devices and Presenting Shear Forces to the Knee on Redirected Walking</td> 
+  </tr>
+  <tr>
+    <td>9:15 - 9:30</td>
+    <td>S39: LUNAChair: Remote Wheelchair System Linking Users to Nearby People and Assistants</td> 
+  </tr>
+  <tr>
+    <td>9:30 - 9:45</td>
+    <td>S40: Visuospatial abilities and cervical spine range of motion improvement effects of a non-goal-oriented VR travel program at an older adults facility:A pilot randomized controlled trial</td> 
+  </tr>
+  <tr>
+    <td>9:45 - 10:00</td>
+    <td>S8: Exploration of Sonification Feedback for People with Visual Impairment to Use Ski Simulator</td> 
+  </tr>
+  <tr>
+    <td>10:00 - 10:15</td>
+    <td>S44: DecluttAR: An Interactive Visual Clutter Dimming System to Help Focus on Work</td> 
+  </tr>
+  <tr>
+    <td>10:15 - 10:30</td>
+    <td>S18: ShadowClones: an Interface to Maintain a Multiple Sense of Body-space Coordination in Multiple Visual Perspectives</td> 
+  </tr>
+  <tr>
+    <td>10:30 - 10:45</td>
+    <td>Q&A</td> 
+  </tr>
+  </table>
+
+  <h3 style="color: black;">Session 4: Intelligence Augmentation</h3>
+  <table id="sessions">
+  <tr>
+    <th>Time</th>
+    <th>Paper</th> 
+  </tr>
+  <tr>
+    <td>11:30 - 11:45</td>
+    <td>S31: AI Coach: A Motor Skill Training System using Motion Discrepancy Detection</td> 
+  </tr>
+  <tr>
+    <td>11:45 - 12:00</td>
+    <td>S20: CC-Glasses: Color Communication Support for People with Color Vision Deficiency Using Augmented Reality and Deep Learning</td> 
+  </tr>
+  <tr>
+    <td>12:00 - 12:15</td>
+    <td>S64: AIx speed: Playback Speed Optimization using Listening Comprehension of Speech Recognition Models</td> 
+  </tr>
+  <tr>
+    <td>12:15 - 12:30</td>
+    <td>S70: Exoskeleton for the Mind: Exploring Strategies Against Misinformation with a Metacognitive Agent</td> 
+  </tr>
+  <tr>
+    <td>12:30 - 12:45</td>
+    <td>S63: Investigating Effects of Facial Self-Similarity Levels on the Impression of Virtual Agents in Serious/Non-Serious Contexts</td> 
+  </tr>
+  <tr>
+    <td>12:45 - 13:00</td>
+    <td>Q&A</td> 
+  </tr>
+  </table>
+
+  <h3 style="color: black;">Session 5: Interfaces for the Body and Beyond</h3>
+  <table id="sessions">
+  <tr>
+    <th>Time</th>
+    <th>Paper</th> 
+  </tr>
+  <tr>
+    <td>14:15 - 14:30</td>
+    <td>S74: Affective Umbrella -- A Wearable System to Visualize Heart and Electrodermal Activity, towards Emotion Regulation through Somaesthetic Appreciation</td> 
+  </tr>
+  <tr>
+    <td>14:30 - 14:45</td>
+    <td>S53: TOMURA: A Mountable Hand-shaped Interface for Versatile Interactions</td> 
+  </tr>
+  <tr>
+    <td>14:45 - 15:00</td>
+    <td>S71: DUMask: A Discrete and Unobtrusive Mask-Based Interface for Facial Gestures</td> 
+  </tr>
+  <tr>
+    <td>15:00 - 15:15</td>
+    <td>S67: Dynamic Derm: Body Surface Deformation Display for Real-World Embodied Interactions</td> 
+  </tr>
+  <tr>
+    <td>15:15 - 15:30</td>
+    <td>S68: Human Coincident Robot: A Non-contact Surrounding Robot Sharing the Coordinate with a Human Inside</td> 
+  </tr>
+  <tr>
+    <td>15:30 - 15:35</td>
+    <td>S22: Tablet Cutting Board: Tablet-based Knife-control Learning Support System for Cookery Beginners</td> 
+  </tr>
+  <tr>
+    <td>15:35 - 15:50</td>
+    <td>Q&A</td> 
+  </tr>
+  </table>
 
 keynote-title: 'Keynote: Florian Alt'
 keynote: |
