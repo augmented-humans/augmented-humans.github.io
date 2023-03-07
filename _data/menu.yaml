@@ -24,6 +24,8 @@ shortlinks:
     sublinks:
       - title: List of Workshops
         shortcut: /list-of-workshops
+      - title: Mentoring
+        shortcut: /mentoring
   - title: Committee
     shortcut: /committee
   - title: Past conferences
