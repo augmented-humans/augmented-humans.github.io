@@ -1,0 +1,40 @@
+---
+layout: default
+title: "Augmented Humans 2023 | Mentoring"
+description: "Mentoring"
+sitemap: true
+---
+<!-- Contact Section -->
+<header class="masthead text-center text-white normal">
+    <div id="particles-js" class="masthead-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <h1 class="masthead-heading mb-0">{{ site.data.mentoring.page-title }}</h1>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+<section id="" class="flip ah-organization ah-override">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
+                <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+                    <span>{{ site.data.mentoring.mentoring-title }}</span>
+                </div>
+                {% assign description_paragraphs = site.data.mentoring.mentoring | newline_to_br | split:'<br />' %}
+                {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
