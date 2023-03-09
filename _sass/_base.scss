@@ -1721,13 +1721,28 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   }
 
   td,th {
-      // text-align: left;
-      padding: 10px 100px 10px 10px;
-      color: black;
-      font-size: larger;
-      border: 1px solid black !important;
+    // text-align: left;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    font-size: larger;
+    border: 1px solid black !important;
   }
-  
+
+  p.authors {
+    color: black;
+    font-style: italic;
+    font-size: 90%;
+  }
+
+  @media (min-width: 768px) {
+    td,th {
+        // text-align: left;
+        padding: 10px 100px 10px 10px;
+        color: black;
+        font-size: larger;
+        border: 1px solid black !important;
+    }
+  }
 
   .tr-break {
     background-color: $theme-background-tertiary;
