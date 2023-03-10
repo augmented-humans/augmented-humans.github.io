@@ -90,7 +90,7 @@ committee:
         mail: daniel.piresdesamedeiros@glasgow.ac.uk
         img: /img/committee/daniel_medeiros.jpg
 
-  - group: Publication Chair
+  - group: Publication Chairs
     people:
       - name: Michael Rohs
         affiliation: Leibniz University Hannover, Germany
@@ -134,6 +134,13 @@ committee:
         affiliation: University of Glasgow, United Kingdom
         mail: mohamed.khamis@glasgow.ac.uk
         img: /img/committee/mohamed_khamis.jpg
+
+  - group: Student Volunteer Chair
+    people:
+      - name: Melvin Abraham
+        affiliation: University of Glasgow, United Kingdom
+        website: http://www.linktree.com/melvinabraham
+        img: /img/committee/melvin_abraham.jpg
 
   - group: Social Media Chair
     people:
