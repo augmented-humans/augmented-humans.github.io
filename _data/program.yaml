@@ -11,179 +11,323 @@ page-title: <strong>P</strong>rogram
 program-title: Program Schedule
 program: The schedule of the sessions themselves can be found directly below.
 
-session-title: Session Schedules
-session: |
-  <h3 style="color: black;">Session 1: Haptic Feedback</h3>
-  <table id="sessions">
-  <tr>
-    <th>Time</th>
-    <th>Paper</th> 
-  </tr>
-  <tr>
-    <td>11:30 - 11:45</td>
-    <td>S78: Designing Interactive Shoes for Tactile Augmented Reality</td> 
-  </tr>
-  <tr>
-    <td>11:45 - 12:00</td>
-    <td>S15: GAuze-MIcrosuture-FICATION: Gamification in Microsuture training with real-time feedback</td> 
-  </tr>
-  <tr>
-    <td>12:00 - 12:15</td>
-    <td>S32: Standing Balance Improved by Electrical Muscle Stimulation to Popliteus Muscles</td> 
-  </tr>
-  <tr>
-    <td>12:15 - 12:30</td>
-    <td>S5: Tactile Vectors for Omnidirectional Arm Guidance</td> 
-  </tr>
-  <tr>
-    <td>12:30 - 12:45</td>
-    <td>S38: Coldness Presentation to Ventral Forearm using Electrical Stimulation with Elastic Gel and Anesthetic Cream</td> 
-  </tr>
-  <tr>
-    <td>12:45 - 13:00</td>
-    <td>Q&A</td> 
-  </tr>
-  </table>
+sessions:
+  - session: "Session 1: Haptic Feedback"
+    papers:
+    - title: 'Designing Interactive Shoes for Tactile Augmented Reality'
+      authors: "Dennis Wittchen et al."
+      doi: 'https://doi.org/10.1145/3582700.3582728'
+      time: '11:30 - 11:45'
+    - title: 'GAuze-MIcrosuture-FICATION: Gamification in Microsuture training with real-time feedback'
+      authors: 'Yuka Tashiro et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582704'
+      time: '11:45 - 12:00'
+    - title: 'Standing Balance Improved by Electrical Muscle Stimulation to Popliteus Muscles'
+      authors: 'Masato Shindo et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582711'
+      time: '12:00 - 12:15'
+    - title: 'Tactile Vectors for Omnidirectional Arm Guidance'
+      authors: 'Hesham Elsayed et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582701'
+      time: '12:15 - 12:30'
+    - title: 'Coldness Presentation to Ventral Forearm using Electrical Stimulation with Elastic Gel and Anesthetic Cream'
+      authors: 'Taiga  Saito et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582713'
+      time: '12:30 - 12:45'
+    - title: 'Q&A'
+      time: '12:45 - 13:00'
 
-  <h3 style="color: black;">Session 2: Perception and Extended Reality</h3>
-  <table id="sessions">
-  <tr>
-    <th>Time</th>
-    <th>Paper</th> 
-  </tr>
-  <tr>
-    <td>14:15 - 14:30</td>
-    <td>S30: Virtual Omnibus Lecture: Investigating the Effects of Varying Lecturer Avatars as Environmental Context on Audience Memory</td> 
-  </tr>
-  <tr>
-    <td>14:30 - 14:45</td>
-    <td>S36: LocatAR: An AR Object Search Assistance System for a Shared Space</td> 
-  </tr>
-  <tr>
-    <td>14:45 - 15:00</td>
-    <td>S16: Generation of realistic facial animation of a CG avatar speaking a moraic language</td> 
-  </tr>
-  <tr>
-    <td>15:00 - 15:15</td>
-    <td>S12: Effect of Weight Adjustment in Virtual Co-embodiment During Collaborative Training</td> 
-  </tr>
-  <tr>
-    <td>15:15 - 15:25</td>
-    <td>S43: Workspace Scaling in Virtual Reality based Robot Teleoperation</td> 
-  </tr>
-  <tr>
-    <td>15:25 - 15:35</td>
-    <td>S22: Tablet Cutting Board: Tablet-based Knife-control Learning Support System for Cookery Beginners</td> 
-  </tr>
-  <tr>
-    <td>15:35 - 15:45</td>
-    <td>S42: Challenges in Virtual Reality Studies: Ethics and Internal and External Validity</td> 
-  </tr>
-  <tr>
-    <td>15:45 - 16:00</td>
-    <td>Q&A</td> 
-  </tr>
-  </table>
+  - session: "Session 2: Perception and Extended Reality"
+    papers:
+    - title: 'Virtual Omnibus Lecture: Investigating the Effects of Varying Lecturer Avatars as Environmental Context on Audience Memory'
+      authors: 'Takato Mizuho et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582709'
+      time: '14:15 - 14:30'
+    - title: 'LocatAR: An AR Object Search Assistance System for a Shared Space'
+      authors: 'Hiroto Oshimi et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582712'
+      time: '14:30 - 14:45'
+    - title: 'Generation of realistic facial animation of a CG avatar speaking a moraic language'
+      authors: 'Yusuke Kikuchi et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582705'
+      time: '14:45 - 15:00'
+    - title: 'Effect of Weight Adjustment in Virtual Co-embodiment During Collaborative Training'
+      authors: 'Daiki Kodama et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582703'
+      time: '15:00 - 15:15'
+    - title: 'Workspace Scaling in Virtual Reality based Robot Teleoperation'
+      authors: 'Bukeikhan Omarali et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582717'
+      time: '15:15 - 15:25'
+    - title: 'Tablet Cutting Board: Tablet-based Knife-control Support System for Cookery Beginners'
+      authors: 'Hatsune Masuda et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582708'
+      time: '15:25 - 15:35'
+    - title: 'Challenges in Virtual Reality Studies: Ethics and Internal and External Validity'
+      authors: 'Sarah Delgado Rodriguez et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582716'
+      time: '15:35 - 15:45'
+    - title: 'Q&A'
+      time: '15:45 - 16:00'
 
-  <h3 style="color: black;">Session 3: Human Empowerment</h3>
-  <table id="sessions">
-  <tr>
-    <th>Time</th>
-    <th>Paper</th> 
-  </tr>
-  <tr>
-    <td>9:00 - 9:15</td>
-    <td>S58: Effects of Wearing Knee-tightening Devices and Presenting Shear Forces to the Knee on Redirected Walking</td> 
-  </tr>
-  <tr>
-    <td>9:15 - 9:30</td>
-    <td>S39: LUNAChair: Remote Wheelchair System Linking Users to Nearby People and Assistants</td> 
-  </tr>
-  <tr>
-    <td>9:30 - 9:45</td>
-    <td>S40: Visuospatial abilities and cervical spine range of motion improvement effects of a non-goal-oriented VR travel program at an older adults facility:A pilot randomized controlled trial</td> 
-  </tr>
-  <tr>
-    <td>9:45 - 10:00</td>
-    <td>S8: Exploration of Sonification Feedback for People with Visual Impairment to Use Ski Simulator</td> 
-  </tr>
-  <tr>
-    <td>10:00 - 10:15</td>
-    <td>S44: DecluttAR: An Interactive Visual Clutter Dimming System to Help Focus on Work</td> 
-  </tr>
-  <tr>
-    <td>10:15 - 10:30</td>
-    <td>S18: ShadowClones: an Interface to Maintain a Multiple Sense of Body-space Coordination in Multiple Visual Perspectives</td> 
-  </tr>
-  <tr>
-    <td>10:30 - 10:45</td>
-    <td>Q&A</td> 
-  </tr>
-  </table>
+  - session: "Session 3: Human Empowerment"
+    papers:
+    - title: 'Effects of Wearing Knee-tightening Devices and Presenting Shear Forces to the Knee on Redirected Walking'
+      authors: 'Gaku Fukui et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582720'
+      time: '9:00 - 9:15'
+    - title: 'LUNAChair: Remote Wheelchair System Linking Users to Nearby People and Assistants'
+      authors: 'Luna Takagi et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582714'
+      time: '9:15 - 9:30'
+    - title: 'Visuospatial abilities and cervical spine range of motion improvement effects of a non-goal-oriented VR travel program at an older adults facility:A pilot randomized controlled trial'
+      authors: 'Atsushi Hiyama et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582715'
+      time: '9:30 - 9:45'
+    - title: 'Exploration of Sonification Feedback for People with Visual Impairment to Use Ski Simulator'
+      authors: 'Yusuke Miura et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582702'
+      time: '9:45 - 10:00'
+    - title: 'DecluttAR: An Interactive Visual Clutter Dimming System to Help Focus on Work'
+      authors: 'Kaito Yokoro et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582718'
+      time: '10:00 - 10:15'
+    - title: 'ShadowClones: an Interface to Maintain a Multiple Sense of Body-space Coordination in Multiple Visual Perspectives'
+      authors: 'Kazuma Takada et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582706'
+      time: '10:15 - 10:30'
+    - title: 'Q&A'
+      time: '10:30 - 10:45'
 
-  <h3 style="color: black;">Session 4: Intelligence Augmentation</h3>
-  <table id="sessions">
-  <tr>
-    <th>Time</th>
-    <th>Paper</th> 
-  </tr>
-  <tr>
-    <td>11:30 - 11:45</td>
-    <td>S31: AI Coach: A Motor Skill Training System using Motion Discrepancy Detection</td> 
-  </tr>
-  <tr>
-    <td>11:45 - 12:00</td>
-    <td>S20: CC-Glasses: Color Communication Support for People with Color Vision Deficiency Using Augmented Reality and Deep Learning</td> 
-  </tr>
-  <tr>
-    <td>12:00 - 12:15</td>
-    <td>S64: AIx speed: Playback Speed Optimization using Listening Comprehension of Speech Recognition Models</td> 
-  </tr>
-  <tr>
-    <td>12:15 - 12:30</td>
-    <td>S70: Exoskeleton for the Mind: Exploring Strategies Against Misinformation with a Metacognitive Agent</td> 
-  </tr>
-  <tr>
-    <td>12:30 - 12:45</td>
-    <td>S63: Investigating Effects of Facial Self-Similarity Levels on the Impression of Virtual Agents in Serious/Non-Serious Contexts</td> 
-  </tr>
-  <tr>
-    <td>12:45 - 13:00</td>
-    <td>Q&A</td> 
-  </tr>
-  </table>
+  - session: "Session 4: Intelligence Augmentation"
+    papers:
+    - title: 'AI Coach: A Motor Skill Training System using Motion Discrepancy Detection'
+      authors: 'Chen-Chieh Liao et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582710'
+      time: '11:30 - 11:45'
+    - title: 'CC-Glasses: Color Communication Support for People with Color Vision Deficiency Using Augmented Reality and Deep Learning'
+      authors: 'Xiaoyang Mao et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582707'
+      time: '11:45 - 12:00'
+    - title: 'AIx speed: Playback Speed Optimization using Listening Comprehension of Speech Recognition Models'
+      authors: 'Kazuki Kawamura et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582722'
+      time: '12:00 - 12:15'
+    - title: 'Exoskeleton for the Mind: Exploring Strategies Against Misinformation with a Metacognitive Agent'
+      authors: 'Yeongdae Kim et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582725'
+      time: '12:15 - 12:30'
+    - title: 'Investigating Effects of Facial Self-Similarity Levels on the Impression of Virtual Agents in Serious/Non-Serious Contexts'
+      authors: 'Masayasu Niwa et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582721'
+      time: '12:30 - 12:45'
+    - title: 'Q&A'
+      time: '12:45 - 13:00'
 
-  <h3 style="color: black;">Session 5: Interfaces for the Body and Beyond</h3>
-  <table id="sessions">
-  <tr>
-    <th>Time</th>
-    <th>Paper</th> 
-  </tr>
-  <tr>
-    <td>14:15 - 14:30</td>
-    <td>S74: Affective Umbrella -- A Wearable System to Visualize Heart and Electrodermal Activity, towards Emotion Regulation through Somaesthetic Appreciation</td> 
-  </tr>
-  <tr>
-    <td>14:30 - 14:45</td>
-    <td>S53: TOMURA: A Mountable Hand-shaped Interface for Versatile Interactions</td> 
-  </tr>
-  <tr>
-    <td>14:45 - 15:00</td>
-    <td>S71: DUMask: A Discrete and Unobtrusive Mask-Based Interface for Facial Gestures</td> 
-  </tr>
-  <tr>
-    <td>15:00 - 15:15</td>
-    <td>S67: Dynamic Derm: Body Surface Deformation Display for Real-World Embodied Interactions</td> 
-  </tr>
-  <tr>
-    <td>15:15 - 15:30</td>
-    <td>S68: Human Coincident Robot: A Non-contact Surrounding Robot Sharing the Coordinate with a Human Inside</td> 
-  </tr>
-  <tr>
-    <td>15:30 - 15:45</td>
-    <td>Q&A</td> 
-  </tr>
-  </table>
+  - session: "Session 5: Interfaces for the Body and Beyond"
+    papers:
+    - title: 'Affective Umbrella -- A Wearable System to Visualize Heart and Electrodermal Activity, towards Emotion Regulation through Somaesthetic Appreciation'
+      authors: 'Kanyu Chen et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582727'
+      time: '14:15 - 14:30'
+    - title: 'TOMURA: A Mountable Hand-shaped Interface for Versatile Interactions'
+      authors: 'Shigeo Yoshida et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582719'
+      time: '14:30 - 14:45'
+    - title: 'DUMask: A Discrete and Unobtrusive Mask-Based Interface for Facial Gestures'
+      authors: 'Arpit Bhatia et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582726'
+      time: '14:45 - 15:00'
+    - title: 'Dynamic Derm: Body Surface Deformation Display for Real-World Embodied Interactions'
+      authors: 'Ryo Murata et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582723'
+      time: '15:00 - 15:15'
+    - title: 'Human Coincident Robot: A Non-contact Surrounding Robot Sharing the Coordinate with a Human Inside'
+      authors: 'Takafumi Watanabe et al.'
+      doi: 'https://doi.org/10.1145/3582700.3582724'
+      time: '15:15 - 15:30'
+    - title: 'Q&A'
+      time: '15:30 - 15:45'
+
+
+
+# session-title: Session Schedules
+# session: |
+#   <h3 style="color: black;">Session 1: Haptic Feedback</h3>
+#   <table id="sessions">
+#   <tr>
+#     <th>Time</th>
+#     <th>Paper</th> 
+#   </tr>
+#   <tr>
+#     <td>11:30 - 11:45</td>
+#     <td>
+#     S78: Designing Interactive Shoes for Tactile Augmented Reality
+#     <p class="authors">Test</p>
+#     <p class="doi"></p>
+#     </td> 
+#   </tr>
+#   <tr>
+#     <td>11:45 - 12:00</td>
+#     <td>S15: GAuze-MIcrosuture-FICATION: Gamification in Microsuture training with real-time feedback</td> 
+#   </tr>
+#   <tr>
+#     <td>12:00 - 12:15</td>
+#     <td>S32: Standing Balance Improved by Electrical Muscle Stimulation to Popliteus Muscles</td> 
+#   </tr>
+#   <tr>
+#     <td>12:15 - 12:30</td>
+#     <td>S5: Tactile Vectors for Omnidirectional Arm Guidance</td> 
+#   </tr>
+#   <tr>
+#     <td>12:30 - 12:45</td>
+#     <td>S38: Coldness Presentation to Ventral Forearm using Electrical Stimulation with Elastic Gel and Anesthetic Cream</td> 
+#   </tr>
+#   <tr>
+#     <td>12:45 - 13:00</td>
+#     <td>Q&A</td> 
+#   </tr>
+#   </table>
+
+#   <h3 style="color: black;">Session 2: Perception and Extended Reality</h3>
+#   <table id="sessions">
+#   <tr>
+#     <th>Time</th>
+#     <th>Paper</th> 
+#   </tr>
+#   <tr>
+#     <td>14:15 - 14:30</td>
+#     <td>S30: Virtual Omnibus Lecture: Investigating the Effects of Varying Lecturer Avatars as Environmental Context on Audience Memory</td> 
+#   </tr>
+#   <tr>
+#     <td>14:30 - 14:45</td>
+#     <td>S36: LocatAR: An AR Object Search Assistance System for a Shared Space</td> 
+#   </tr>
+#   <tr>
+#     <td>14:45 - 15:00</td>
+#     <td>S16: Generation of realistic facial animation of a CG avatar speaking a moraic language</td> 
+#   </tr>
+#   <tr>
+#     <td>15:00 - 15:15</td>
+#     <td>S12: Effect of Weight Adjustment in Virtual Co-embodiment During Collaborative Training</td> 
+#   </tr>
+#   <tr>
+#     <td>15:15 - 15:25</td>
+#     <td>S43: Workspace Scaling in Virtual Reality based Robot Teleoperation</td> 
+#   </tr>
+#   <tr>
+#     <td>15:25 - 15:35</td>
+#     <td>S22: Tablet Cutting Board: Tablet-based Knife-control Learning Support System for Cookery Beginners</td> 
+#   </tr>
+#   <tr>
+#     <td>15:35 - 15:45</td>
+#     <td>S42: Challenges in Virtual Reality Studies: Ethics and Internal and External Validity</td> 
+#   </tr>
+#   <tr>
+#     <td>15:45 - 16:00</td>
+#     <td>Q&A</td> 
+#   </tr>
+#   </table>
+
+#   <h3 style="color: black;">Session 3: Human Empowerment</h3>
+#   <table id="sessions">
+#   <tr>
+#     <th>Time</th>
+#     <th>Paper</th> 
+#   </tr>
+#   <tr>
+#     <td>9:00 - 9:15</td>
+#     <td>S58: Effects of Wearing Knee-tightening Devices and Presenting Shear Forces to the Knee on Redirected Walking</td> 
+#   </tr>
+#   <tr>
+#     <td>9:15 - 9:30</td>
+#     <td>S39: LUNAChair: Remote Wheelchair System Linking Users to Nearby People and Assistants</td> 
+#   </tr>
+#   <tr>
+#     <td>9:30 - 9:45</td>
+#     <td>S40: Visuospatial abilities and cervical spine range of motion improvement effects of a non-goal-oriented VR travel program at an older adults facility:A pilot randomized controlled trial</td> 
+#   </tr>
+#   <tr>
+#     <td>9:45 - 10:00</td>
+#     <td>S8: Exploration of Sonification Feedback for People with Visual Impairment to Use Ski Simulator</td> 
+#   </tr>
+#   <tr>
+#     <td>10:00 - 10:15</td>
+#     <td>S44: DecluttAR: An Interactive Visual Clutter Dimming System to Help Focus on Work</td> 
+#   </tr>
+#   <tr>
+#     <td>10:15 - 10:30</td>
+#     <td>S18: ShadowClones: an Interface to Maintain a Multiple Sense of Body-space Coordination in Multiple Visual Perspectives</td> 
+#   </tr>
+#   <tr>
+#     <td>10:30 - 10:45</td>
+#     <td>Q&A</td> 
+#   </tr>
+#   </table>
+
+#   <h3 style="color: black;">Session 4: Intelligence Augmentation</h3>
+#   <table id="sessions">
+#   <tr>
+#     <th>Time</th>
+#     <th>Paper</th> 
+#   </tr>
+#   <tr>
+#     <td>11:30 - 11:45</td>
+#     <td>S31: AI Coach: A Motor Skill Training System using Motion Discrepancy Detection</td> 
+#   </tr>
+#   <tr>
+#     <td>11:45 - 12:00</td>
+#     <td>S20: CC-Glasses: Color Communication Support for People with Color Vision Deficiency Using Augmented Reality and Deep Learning</td> 
+#   </tr>
+#   <tr>
+#     <td>12:00 - 12:15</td>
+#     <td>S64: AIx speed: Playback Speed Optimization using Listening Comprehension of Speech Recognition Models</td> 
+#   </tr>
+#   <tr>
+#     <td>12:15 - 12:30</td>
+#     <td>S70: Exoskeleton for the Mind: Exploring Strategies Against Misinformation with a Metacognitive Agent</td> 
+#   </tr>
+#   <tr>
+#     <td>12:30 - 12:45</td>
+#     <td>S63: Investigating Effects of Facial Self-Similarity Levels on the Impression of Virtual Agents in Serious/Non-Serious Contexts</td> 
+#   </tr>
+#   <tr>
+#     <td>12:45 - 13:00</td>
+#     <td>Q&A</td> 
+#   </tr>
+#   </table>
+
+#   <h3 style="color: black;">Session 5: Interfaces for the Body and Beyond</h3>
+#   <table id="sessions">
+#   <tr>
+#     <th>Time</th>
+#     <th>Paper</th> 
+#   </tr>
+#   <tr>
+#     <td>14:15 - 14:30</td>
+#     <td>S74: Affective Umbrella -- A Wearable System to Visualize Heart and Electrodermal Activity, towards Emotion Regulation through Somaesthetic Appreciation</td> 
+#   </tr>
+#   <tr>
+#     <td>14:30 - 14:45</td>
+#     <td>S53: TOMURA: A Mountable Hand-shaped Interface for Versatile Interactions</td> 
+#   </tr>
+#   <tr>
+#     <td>14:45 - 15:00</td>
+#     <td>S71: DUMask: A Discrete and Unobtrusive Mask-Based Interface for Facial Gestures</td> 
+#   </tr>
+#   <tr>
+#     <td>15:00 - 15:15</td>
+#     <td>S67: Dynamic Derm: Body Surface Deformation Display for Real-World Embodied Interactions</td> 
+#   </tr>
+#   <tr>
+#     <td>15:15 - 15:30</td>
+#     <td>S68: Human Coincident Robot: A Non-contact Surrounding Robot Sharing the Coordinate with a Human Inside</td> 
+#   </tr>
+#   <tr>
+#     <td>15:30 - 15:45</td>
+#     <td>Q&A</td> 
+#   </tr>
+#   </table>
 
 keynote-title: 'Keynote: Florian Alt'
 keynote: |
