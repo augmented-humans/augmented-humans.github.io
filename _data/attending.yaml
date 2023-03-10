@@ -42,7 +42,7 @@ venue-title: Venue
 venue: |
   The Augmented Humans conference will take place at the <a href="https://www.gla.ac.uk/research/arc/">Mazumdar-Shaw Advanced Research Centre (ARC)</a> at the University of Glasgow (see on <a href="https://goo.gl/maps/H376xmNtg4vZwonU7">Google Maps</a>).
   The ARC is located within the University of Glasgow’s Gilmorehill Campus, a stone’s throw from Byers road and its subway station and numerous bus links.
-  See <a href="https://peoplemakeglasgow.com/good-to-know/getting-around">https://peoplemakeglasgow.com/good-to-know/getting-around</a> for more details on public transit in and around Glasgow.
+  See <a href="https://peoplemakeglasgow.com/good-to-know/getting-around">https://peoplemakeglasgow.com</a> for more details on public transit in and around Glasgow.
   <small><i>Photo courtesy of Keith Hunter.</i></small>
 venue-image: /img/venue/arc-front.jpg
 
@@ -56,9 +56,9 @@ accessibility: |
 arriving-plane-title: Arriving by Plane (Scotland)
 arriving-plane: |
   Both Glasgow and Edinburgh Airports have regular bus links into Glasgow city center, see:
-  • <a href="https://www.glasgowairport.com/to-and-from/bus">https://www.glasgowairport.com/to-and-from/bus</a>
-  • <a href="https://www.edinburghairport.com/transport-links/buses-and-coaches/glasgow-bus-links">https://www.edinburghairport.com/transport-links/buses-and-coaches/glasgow-bus-links</a>
-  • <a href="https://www.citylink.co.uk/timetables-service-updates/glasgow-to-edinburgh-airport">https://www.citylink.co.uk/timetables-service-updates/glasgow-to-edinburgh-airport</a>
+  • <a href="https://www.glasgowairport.com/to-and-from/bus">https://www.glasgowairport.com</a>
+  • <a href="https://www.edinburghairport.com/transport-links/buses-and-coaches/glasgow-bus-links">https://www.edinburghairport.com</a>
+  • <a href="https://www.citylink.co.uk/timetables-service-updates/glasgow-to-edinburgh-airport">https://www.citylink.co.uk</a>
 arriving-plane-image: /img/attending/travel-scotland.png
 
 arriving-train-title: Arriving by Train (Rest of UK)
@@ -73,12 +73,12 @@ arriving-car: |
 hotels-title: Hotels
 hotels: |
   There are a number of hotels within the vicinity of the ARC, including:
-  • Glasgow Grosvenor Hotel: <a href="https://www.gghotel.co.uk/">https://www.gghotel.co.uk/</a> (10% discount available via <a href="https://direct-book.com/properties/glasgowgrosvenor?locale=en&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&currency=GBP&checkInDate=2023-01-20&checkOutDate=2023-01-21&trackPage=yes&promocode=UNI001">this link</a>)
-  • Argyll Western Hotel: <a href="https://www.argyllwestern.co.uk/">https://www.argyllwestern.co.uk/</a>
-  • Ambassador Hotel: <a href="https://ambassador-hotel.net/">https://ambassador-hotel.net/</a>
-  • Albion Hotel: <a href="https://albion-hotel.net/">https://albion-hotel.net/</a>
-  • Argyll Hotel: <a href="https://www.argyllhotelglasgow.co.uk/">https://www.argyllhotelglasgow.co.uk/</a>
-  • Sandyford Hotel: <a href="http://www.sandyfordhotelglasgow.com/">http://www.sandyfordhotelglasgow.com/</a>
+  • Glasgow Grosvenor Hotel: <a href="https://www.gghotel.co.uk/">https://www.gghotel.co.uk</a> (10% discount available via <a href="https://direct-book.com/properties/glasgowgrosvenor?locale=en&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&currency=GBP&checkInDate=2023-01-20&checkOutDate=2023-01-21&trackPage=yes&promocode=UNI001">this link</a>)
+  • Argyll Western Hotel: <a href="https://www.argyllwestern.co.uk/">https://www.argyllwestern.co.uk</a>
+  • Ambassador Hotel: <a href="https://ambassador-hotel.net/">https://ambassador-hotel.net</a>
+  • Albion Hotel: <a href="https://albion-hotel.net/">https://albion-hotel.net</a>
+  • Argyll Hotel: <a href="https://www.argyllhotelglasgow.co.uk/">https://argyllhotelglasgow.co.uk</a>
+  • Sandyford Hotel: <a href="http://www.sandyfordhotelglasgow.com/">http://sandyfordhotelglasgow.com</a>
 
 food-drink-title: Food and Drink
 food-drink: |

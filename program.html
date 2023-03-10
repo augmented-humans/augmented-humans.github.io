@@ -52,12 +52,29 @@ sitemap: false
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
           <span>{{ site.data.program.session-title }}</span></div>
-        {% assign description_paragraphs = site.data.program.session | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p>{{ paragraph }}</p>
+
+      {% for item in site.data.program.sessions %}
+      <h3 style="color: black;">{{ item.session }}</h3>
+      <div style="overflow-x:auto;">
+      <table id="sessions">
+        <tr>
+          <th>Time</th>
+          <th>Paper</th>
+        </tr>
+        {% for paper in item.papers %}
+        <tr>
+          <td>{{ paper.time }}</td>
+          <td>
+            {{ paper.title }}
+            <p class="authors">{{ paper.authors }}</p>
+            <a class="doi" href="{{ paper.doi }}">{{ paper.doi }}</a>
+          </td>
+        </tr>
         {% endfor %}
-      </div>
-      <div class="col-lg-1"></div>
+      </table></div>
+      {% endfor %}
+    </div>
+    <div class="col-lg-1"></div>
     </div>
   </div>
 </section>

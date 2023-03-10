@@ -538,7 +538,7 @@ a.btn {
   background-color: $color-highlight;
   color: black;
   text-transform: uppercase;
-  padding: 15px 50px;
+  padding: 15px 30px;
   letter-spacing: 1px;
   border-radius: 1px;
   transition: 0.5s ease-in-out;
@@ -1404,10 +1404,17 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 .prefooter-logos {
   background-color: white;
   text-align: center;
+
   img {
     height: 80px;
     display: inline;
     margin: 30px 10px 30px 10px;
+  }
+
+  @media (max-width: 768px) {
+  img {
+    height: 50px;
+  }
   }
 }
 
@@ -1728,11 +1735,13 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     border: 1px solid black !important;
   }
 
-  p.authors {
+  p.authors, a.doi {
     color: black;
     font-style: italic;
     font-size: 90%;
+    margin-bottom: 0;
   }
+
 
   @media (min-width: 768px) {
     td,th {
@@ -1831,4 +1840,8 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     vertical-align: middle;
     padding-left: 5px;
   }
+}
+
+.btn-lg {
+  font-size: 16px;
 }
