@@ -11,6 +11,22 @@ page-title: <strong>P</strong>rogram
 program-title: Program Schedule
 program: The schedule of the sessions themselves can be found directly below.
 
+awards-title: Awards
+awards: |
+  <h3 style="color: #003865;">🏆 Best Paper Award</h3>
+  <strong>TOMURA: A Mountable Hand-shaped Interface for Versatile Interactions</strong>
+  <p class="authors">Shigeo Yoshida, Tomoya Sasaki, Zendai Kashino, Masahiko Inami</p>
+  </br>
+  <h3 style="color: #003865;">🏆 Best Poster Award</h3>
+  <strong>First Bite/Chew: Distinguish Typical Allergic Food by Two IMUs</strong>
+  <p class="authors">Juling Li, Xiongqi Wang, Junyu Chen, Thad Starner, George Chernyshov, Jing Huang, Yifei Huang, Kai Kunze, Qing Zhang</p>
+  </br>
+  <h3 style="color: #003865;">🏆 Best Demo Award</h3>
+  <strong>Conducting and Mitigating Portable Thermal Imaging Attacks on User Authentication using AI-driven Methods</strong>
+  <p class="authors">Shaun Alexander Macdonald, Norah Mohsen T Alotaibi, Md Shafiqul Islam, Mohamed Khamis</p>
+
+
+session-title: Session Overview
 sessions:
   - session: "Session 1: Haptic Feedback"
     papers:
