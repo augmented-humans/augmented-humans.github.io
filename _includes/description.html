@@ -36,6 +36,20 @@
         {% for paragraph in description_paragraphs %}
         <p style="text-align:justify;">{{ paragraph }}</p>
         {% endfor %}
+
+        <script type="text/javascript" src="/js/lightbox.js"></script>
+        <div class ="image-gallery">
+          {% for image in site.static_files %}
+          {% if image.path contains 'img/closing' %}
+            <div class="box">
+            <a href="{{ site.baseurl }}{{ image.path }}">
+              <img src="{{ site.baseurl }}{{ image.path }} " alt="{{ name }}"  class="img-gallery" />
+            </a>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
           <span>{{ site.data.program.awards-title }}</span></div>
         {% assign description_paragraphs = site.data.program.awards | newline_to_br | split:'<br />' %}
