@@ -24,3 +24,6 @@ defaults:
       sitemap: false
 
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+imagesurl: "/img/closing/img/"
+thumbsurl: "/img/closing/thumbs/"

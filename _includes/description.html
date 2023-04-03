@@ -25,15 +25,42 @@
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.program.keynote-title }}</span></div>
-        {% assign description_paragraphs = site.data.program.keynote-short | newline_to_br | split:'<br />' %}
+          <span>{{ site.data.landing.closing-title }}</span></div>
+        {% assign description_paragraphs = site.data.landing.closing | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p style="text-align:justify;">{{ paragraph }}</p>
         {% endfor %}
-        <img id="venue-img" class="" src="{{ site.data.program.keynote-img | prepend: site.url }}"/>
-        {% assign author_paragraphs = site.data.program.keynote-author-short | newline_to_br | split:'<br />' %}
-        {% for paragraph in author_paragraphs %}
-        <p  style="text-align:justify;">{{ paragraph }}</p>
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.landing.impressions-title }}</span></div>
+        {% assign description_paragraphs = site.data.landing.impressions | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p style="text-align:justify;">{{ paragraph }}</p>
+        {% endfor %}
+
+        <script type="text/javascript" src="/js/lightbox.js"></script>
+        <div class ="image-gallery">
+          {% for image in site.static_files %}
+          {% if image.path contains 'img/closing' %}
+            <div class="box">
+            <a href="{{ site.baseurl }}{{ image.path }}">
+              <img src="{{ site.baseurl }}{{ image.path }} " alt="{{ name }}"  class="img-gallery" />
+            </a>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.program.awards-title }}</span></div>
+        {% assign description_paragraphs = site.data.program.awards | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p style="text-align:justify;">{{ paragraph }}</p>
+        {% endfor %}
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.landing.feedback-title }}</span></div>
+        {% assign description_paragraphs = site.data.landing.feedback | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p style="text-align:justify;">{{ paragraph }}</p>
         {% endfor %}
       </div>
       <div class="col-lg-1"></div>
