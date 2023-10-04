@@ -11,12 +11,13 @@ page-title: <strong>A</strong>ttending
 # Placeholder
 registration-title: Register Now
 registration: |
-  The registration for <strong>A</strong>ugmented <strong>H</strong>uman<strong>s</strong> 2023 is open!
-  <a href="https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+  The registration for <strong>A</strong>ugmented <strong>H</strong>uman<strong>s</strong> 2024 is coming soon!
+  <!--<a href="https://www.eventbrite.co.uk/e/augmented-humans-2024-registration-tickets-490538553017" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
   <br>
   For inquiries regarding VISA, see the information section below. Early registration deadline is 20th February, so remember to register soon!
   <br>
-  If you're a student attending a <a href="https://www.sicsa.ac.uk/">SICSA institution</a> we also have some free registrations available as part of their sponsorship of the conference - please fill out <a href=" https://forms.office.com/e/urWqvigQBU">the following form</a> before the 17th February to note your interest and we'll be in touch if selected. 
+  If you're a student attending a <a href="https://www.sicsa.ac.uk/">SICSA institution</a> we also have some free registrations available as part of their sponsorship of the conference - please fill out <a href=" https://forms.office.com/e/urWqvigQBU">the following form</a> before the 17th February to note your interest and we'll be in touch if selected. --> 
+
 
 visa-title: Visa Information
 visa: |
@@ -26,25 +27,27 @@ visa: |
   •	Your full affiliation
   •	Whether you are presenting a paper or just attending the conference
   •	If you are presenting a paper, the title of the paper
-  Please fill in all these details into this <a href="https://docs.google.com/forms/d/e/1FAIpQLScLn1t5bEsT1t78Qa40xm92SJUfcSKD44Re8WF9qxSnakUAZA/viewform">survey form</a>.
 
-travel-title: Travel to Glasgow
+
+travel-title: Travel to Melbourne
 travel: |
   
-  Welcome to Glasgow, Scotland!
-  Glasgow is a vibrant and compact city with plenty to offer delegates outside of conference sessions. The city has a range of cultural attractions including many museums and art galleries offering free entry, such as the stunning Kelvingrove Art Gallery and Museum and the award-winning Riverside Museum. Visitors can explore the works of artist and architect Charles Rennie Mackintosh, walk the city centre Art Mural Trail or take a stroll through one of the many parks and green spaces. 
-  Glasgow is a UNESCO City of Music with over 150 live music events per week, plus a full calendar of other exciting events and festivals throughout the year. 
-  The food and drink scene offers something for everyone, from traditional whisky pubs to fine dining, in a variety of lively neighbourhoods including Finnieston (SEC), the City Centre, the West End and Merchant City. Delegates can look forward to a warm welcome in a city voted ‘world’s friendliest city’ by Rough Guides. 
-  If you’re extending your stay, Glasgow has excellent travel connections for exploring Scotland and an exciting selection of year-round tours leaving daily for the Scottish Highlands. Plan your trip at: <a href="www.peoplemakeglasgow.com">www.peoplemakeglasgow.com</a> 
-travel-image: /img/attending/travel-to-glasgow.jpg
+  Welcome to Melbourne, Australia!
+  Melbourne is Australia's mecca for all things trendy and tasty. The city offers up exquisite dining, exhilarating sport and abundant opportunities to experience art.
+  A perfect blend of rich cultural history and new age trends is waiting for you in Melbourne. As the sun goes down, the city comes to life with a vibrant dining scene as well as events and exhibitions. Explore its bustling laneways, trendy neighbourhoods and sophisticated foodie scene to get a taste of what Melbourne is all about.
+  If you’re extending your stay, plan your trip at: <a href="https://www.australia.com/en/places/melbourne-and-surrounds/guide-to-melbourne.html">Guide to Melbourne</a> 
+travel-image: /img/attending/travel_to_mel1.jpg
 
 venue-title: Venue
 venue: |
-  The Augmented Humans conference will take place at the <a href="https://www.gla.ac.uk/research/arc/">Mazumdar-Shaw Advanced Research Centre (ARC)</a> at the University of Glasgow (see on <a href="https://goo.gl/maps/H376xmNtg4vZwonU7">Google Maps</a>).
-  The ARC is located within the University of Glasgow’s Gilmorehill Campus, a stone’s throw from Byers road and its subway station and numerous bus links.
-  See <a href="https://peoplemakeglasgow.com/good-to-know/getting-around">https://peoplemakeglasgow.com</a> for more details on public transit in and around Glasgow.
-  <small><i>Photo courtesy of Keith Hunter.</i></small>
-venue-image: /img/venue/arc-front.jpg
+  The Augmented Humans conference will take place at the Monash University (Caulfield Campus).
+  Located at: 900 Dandenong Road, Caulfield East, Victoria 3145, Australia
+
+  Caulfield campus is Monash University's second largest campus. Starting out as the Caulfield Technical School in 1922, the Monash Caulfield campus has a fascinating story. 
+  See <a href="https://www.melbourne.vic.gov.au/parking-and-transport/public-transport/Pages/public-transport.aspx">Public transport Melbourne</a> and  <a href="https://www.ptv.vic.gov.au/">Public transport Victoria</a> for more details on transit in and around city of Melbourne.
+
+
+venue-image: /img/venue/Monash_Caulfield.jpg
 
 accessibility-title: Accessibility
 accessibility: |

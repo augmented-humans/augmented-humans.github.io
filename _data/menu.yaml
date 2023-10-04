@@ -18,7 +18,7 @@ shortlinks:
     shortcut: /attending
     sublinks:
       - title: Registration
-        shortcut: https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017
+      #  shortcut: https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017
   - title: Program
     shortcut: /program
     sublinks:

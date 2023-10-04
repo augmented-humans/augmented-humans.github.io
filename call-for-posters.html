@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Augmented Humans 2023 | Workshops"
+title: "Augmented Humans 2024 | Workshops"
 description: "Workshops"
 sitemap: true
 ---
@@ -46,7 +46,7 @@ sitemap: true
           <span>{{ site.data.call-for-posters.topics-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-posters.topics | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
-        <p>{{ paragraph }}</p>
+        <p >{{ paragraph }}</p>
         {% endfor %}
       </div>
       <div class="col-lg-1"></div>
@@ -54,22 +54,7 @@ sitemap: true
   </div>
 </section>
 
-<section id="ah-categories" class="flip1" style="border-top: 5px solid #003865;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.call-for-posters.submissions-title }}</span></div>
-        {% assign description_paragraphs = site.data.call-for-posters.submissions | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p>{{ paragraph }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section>
+
 
 <section id="ah-categories" class="flip" style="border-top: 5px solid #FFC847;">
   <div class="container">
@@ -79,6 +64,23 @@ sitemap: true
         <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.call-for-posters.presentation-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-posters.presentation | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.call-for-posters.submissions-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-posters.submissions | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
         {% endfor %}

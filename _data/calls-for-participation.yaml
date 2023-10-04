@@ -2,7 +2,7 @@ page-title: <strong>C</strong>alls <strong>F</strong>or <strong>P</strong>artici
 
 about-title: About the conference
 about: |
-  The Augmented Humans (AHs) International Conference 2023 will be an in-person event, held in March 2023. More information on the time schedule will be made available soon. 
+  The Augmented Humans (AHs) International Conference 2024 will be an in-person event, held in April 2024. More information on the time schedule will be made available soon. 
   The conference focuses on physical, cognitive, and perceptual augmentation of humans through digital technologies. The plural – humans – emphasizes the move towards technologies that enhance human capabilities beyond the individual and will have the potential for impact on a societal scale.
   The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962<sup>[1]</sup>. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
@@ -13,7 +13,7 @@ cfp-title: Calls for Participation
 cfp: |
   The Augmented Humans conference offers many different possibilities for publishing, presenting, and discussing your work.
   Take a look at the <b>Calls for Participation</b> page for more information regarding the submission categories, guidelines, and more.
-  <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
+  <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#FFC847'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
 
 
 topics-title: Topics
@@ -61,7 +61,7 @@ categories: |
 
 instructions-title: Submission Guidelines 
 instructions: |
-  Submissions can be made via <a href="https://easychair.org/cfp/ahs2023">EasyChair</a>.
+  Submissions can be made via <a href="https://easychair.org/cfp/ahs2024">EasyChair</a>.
 
   <b>T</b>he <b>A</b>CM <b>P</b>ublication <b>S</b>ystem (TAPS) will be used for full papers, short papers, posters, and demos. Please be sure to read the instructions on the <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow page</a> carefully.
   
@@ -109,65 +109,40 @@ deadlines-title: Submission Deadlines and Notifications
 deadlines: |
   <table id="deadlines">
     <tr class="tr-break">
-      <td colspan="100%"></td>
+      <td colspan="100%" style="background-color: #FFC847;"></td>
     </tr>
 
     <tr>
       <td><strong>Full/Short Paper</strong> Submission Deadline</td>
-      <td><del>2nd December, 2022</del> 9th December, 2022 (Anywhere on Earth)</td> 
+      <td>8th January 2024 (Anywhere on Earth)</td> 
     </tr>
     <tr>
-      <td><strong>Full/Short Paper</strong> Review Deadline</td>
-      <td>12th January, 2023  (Anywhere on Earth)</td> 
+      <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
+      <td>12th February, 2024 (Anywhere on Earth)</td> 
     </tr>
     <tr>
-      <td><strong>Full/Short Paper</strong> Decision Notifications</td>
-      <td>22nd January, 2023</td> 
+      <td><strong>Full/Short Paper</strong> Camera-Ready</td>
+      <td>26th February, 2024 (Anywhere on Earth)</td> 
     </tr>
 
     <tr class="tr-break">
-      <td colspan="100%"></td>
+      <td colspan="100%" style="background-color: #FFC847;"></td>
     </tr>
 
     <tr>
-      <td><strong>Posters</strong> Submission Deadline</td>
-      <td><del>13th January, 2023</del> 22nd January, 2023 (Anywhere on Earth)</td> 
+      <td><strong>Poster/Demos/Workshop</strong> Submission Deadline</td>
+      <td>12th February, 2024 (Anywhere on Earth)</td> 
     </tr>
     <tr>
-      <td><strong>Posters</strong> Camera-Ready Submission</td>
-      <td>9th February, 2023</td> 
+      <td><strong>Poster/Demos/Workshop</strong> Decisions sent to Author</td>
+      <td>12th February, 2024 (Anywhere on Earth)</td> 
     </tr>
     <tr>
-      <td><strong>Demos</strong> Submission Deadline</td>
-      <td><del>13th January, 2023</del> 22nd January, 2023 (Anywhere on Earth)</td> 
-    </tr>
-    <tr>
-      <td><strong>Demos</strong> Camera-Ready Submission</td>
-      <td>8th February, 2023</td> 
+      <td><strong>Poster/Demos/Workshop</strong> Camera-Ready</td>
+      <td>26th February, 2024 (Anywhere on Earth)</td> 
     </tr>
 
-
-    <tr class="tr-break">
-      <td colspan="100%"></td>
-    </tr>
-    
-    <tr>
-      <td><strong>Workshop Proposals</strong> Submission Deadline</td>
-      <td><del>13th January, 2023</del> 22nd January, 2023 (Anywhere on Earth)</td> 
-    </tr>
-    <tr>
-      <td><strong>Workshop Proposals</strong> Decision Notifications</td>
-      <td><del>20th January, 2023</del> 27th January, 2023</td> 
-    </tr>
-
-    <tr class="tr-break">
-      <td colspan="100%"></td>
-    </tr>
-
-    <tr>
-      <td colspan="100%" style="font-size:medium;">Submission deadlines for the approved workshops will be set by the workshop supervisors themselves. More information can be found on the respective workshop websites.</td>
-    </tr>
-    </table>
+    </table> 
 
 add-title: Additional Information
 add: |

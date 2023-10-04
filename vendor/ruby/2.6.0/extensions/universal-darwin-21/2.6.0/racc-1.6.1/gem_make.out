@@ -1,0 +1,18 @@
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.6.0/gems/racc-1.6.1/ext/racc/cparse
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20231001-76226-1rngoc5.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.6.0/gems/racc-1.6.1/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.6.0/gems/racc-1.6.1/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/a0876c02-1788-11ed-b9c4-96898e02b808/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.6.Internal.sdk/usr/local/lib'
+
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.6.0/gems/racc-1.6.1/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20231001-76226-6f5dtu/racc
