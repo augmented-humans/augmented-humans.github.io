@@ -1,0 +1,16 @@
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/yima3/.rbenv/versions/2.7.3/bin/ruby -I /Users/yima3/.rbenv/versions/2.7.3/lib/ruby/2.7.0 -r ./siteconf20231001-92554-16r1vaa.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/yima3/Desktop/AHweb/augmented-humans.github.io/vendor/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20231001-92554-1tb0m4w
