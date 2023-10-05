@@ -736,6 +736,11 @@ header.masthead {
   padding-top: calc(0.88*5rem + 55px);
   padding-bottom: 0.88*7rem;
   background: url('../img/assets/melb3.jpg');
+  animation: backgroundAnimation 15s linear infinite;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
   &.normal {
     margin-top: -20px;
     padding-bottom: 0.88*1rem;
@@ -770,10 +775,11 @@ header.masthead {
       // font-size:0.88*1rem;
       text-align: center;
       margin: auto; // centers it
-      font-family: 'Work Sans', sans-serif;
+      font-family: 'Monospaced font', sans-serif;
       font-weight: 100;
       color: $theme-offwhite;
       background-color: rgba(0, 56, 101, 0.9);
+      background: linear-gradient(135deg, hwb(194 0% 72%) 10%, hsl(179, 82%, 34%) 60%, rgb(231, 242, 133) 90%);
       border: 5px solid #fff;
 
     }
@@ -781,7 +787,7 @@ header.masthead {
       text-align: center;
       margin: auto; // centers it
       margin-top:2%;
-      font-family: 'Work Sans', sans-serif;
+      font-family: 'Monospaced font', sans-serif;
       opacity: 1;
       //padding: 5px;
       // font-size: 0.88*1.5rem;
@@ -802,9 +808,34 @@ header.masthead {
     background: linear-gradient(0deg, $color-highlight 0%, $color-dblue 100%);
   }
 }
+// header.masthead {
+//   text-align: left;
+//   position: relative;
+//   overflow-x: hidden;
+//   padding-top: calc(0.88*5rem + 55px);
+//   padding-bottom: 0.88*7rem;
+//   background: url('../img/assets/melb1.jpg'); /* Initial background */
+//   animation: backgroundAnimation 15s linear infinite;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   background-attachment: scroll;
+//   background-size: cover;
+// }
+
+@keyframes backgroundAnimation {
+  0%, 33.33% {
+    background-image: url('../img/assets/melb3.jpg'); /* First image */
+  }
+  33.34%, 66.66% {
+    background-image: url('../img/assets/melb.jpg'); /* Second image */
+  }
+  66.67%, 100% {
+    background-image: url('../img/assets/melb4.jpg'); /* Third image */
+  }
+}
 
 .masthead-subheading-notice {
-      font-family: 'Work Sans', sans-serif;
+      font-family: 'Monospaced font', sans-serif;
       // font-weight: 500;
       font-size: 22px;
       //text-align: justify;
@@ -837,11 +868,11 @@ header.masthead {
         font-size: 2.3rem;
         //font-weight: 600;
         //letter-spacing: 0.1rem;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Monospaced font', sans-serif;
         max-width: 80%;
       }
       .masthead-subheading {
-        font-family: 'Work Sans', serif;
+        font-family: 'Bradley Hand', serif;
         font-size: 0.88*2rem;
         opacity: 1;
         max-width: 80%;
@@ -905,7 +936,7 @@ header.masthead {
   padding-bottom: 10px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: "Work Sans";
+  font-family: "Monospaced font";
   text-transform: uppercase;
   text-decoration: underline;
   letter-spacing: 1px;
@@ -935,7 +966,7 @@ header.masthead {
 
 .kw-section-title.kw-huge {
   font-size: 28px;
-  font-family: 'Work Sans', serif;
+  font-family: 'Monospaced font', serif;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 40px;
@@ -964,21 +995,32 @@ header.masthead {
   }
 
   &.kw-huge-alt1 {
-    color: black;
+    color: white;
     span {
       display: inline-block;
       border-style: double;
-      border-color: $theme-background-primary;
+      border-color: white;
       // border-bottom: 10px solid $color-highlight;
     }
   }
 
-  &.kw-huge-alt2 {
+  &.kw-huge-alt11 {
     color: black;
     span {
       display: inline-block;
       border-style: double;
-      border-color: $theme-background-primary;
+      border-color: black;
+      // border-bottom: 10px solid $color-highlight;
+    }
+  }
+
+
+  &.kw-huge-alt2 {
+    color: white;
+    span {
+      display: inline-block;
+      border-style: double;
+      border-color: white;
       // border-bottom: 10px solid $color-highlight;
     }
   }
@@ -1035,13 +1077,13 @@ header.masthead#kw-project-header {
   }
 
   &.flip {
-    background-color: $theme-background-primary;
+    background-color: $theme-background-secondary;
     p {
       color: white;
     }
 
     &.top-bar {
-      border-top: 5px solid $theme-background-secondary;
+      border-top: 5px solid $theme-background-primary;
     }
   }
 
@@ -1056,14 +1098,14 @@ header.masthead#kw-project-header {
     }
 
     &.top-bar {
-      border-top: 5px solid $theme-background-primary;
+      border-top: 5px solid $theme-background-secondary;
     }
   }
 
   &.flip2 {
-    background-color: $theme-background-secondary; //#d0ebe2;
+    background-color: $theme-background-primary; //#d0ebe2;
     p {
-      color: #131313;
+      color: white;
     }
 
     &.top-bar {
@@ -1139,14 +1181,14 @@ header.masthead#kw-project-header {
     // background-color: white;
     padding: 10px 5px 5px 10px;
     margin-bottom: -5px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Monospaced font", sans-serif;
   }
   .kw-news-title {
     margin-top: 5px;
     width: 100%;
     // background-color: white;
     padding: 10px 10px 10px 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Bradley Hand", sans-serif;
     font-size: 25px;
 
     a {
@@ -1671,6 +1713,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     .name {
       margin-top: 20px;
       font-size: large;
+      color:white ;
     }
 
     a:link, a:visited{
@@ -1680,11 +1723,11 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     }
 
     a:hover, a:active {
-      color: darkgrey;
+      color: #3F3446;
     }
   
     .position {
-      color: $theme-background-tertiary;
+      color: #3F3446;
       font-size: small;
     }
   }
