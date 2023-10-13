@@ -127,9 +127,39 @@
           {% for paragraph in description_paragraphs %}
             <p>{{ paragraph }}</p>
           {% endfor %}
-          <img id="venue-img" class="" src="{{ site.data.attending.venue-image | prepend: site.url }}"/>
+          <!-- <img id="venue-img" class="" src="{{ site.data.attending.venue-image | prepend: site.url }}"/> -->
+          <div class="gallery">
+            <img id="currentImg" src="/img/venue/monashaa.jpg" alt="Figure11" style="height: 50%; width: 80%;">
+        </div>
         </div>
         <div class="col-lg-1"></div>
       </div>
     </div>
 </section>
+
+<script>
+  const images = ["/img/venue/monashaa.jpg", "/img/venue/monasha.jpg",
+  "/img/venue/monash0.jpg", "/img/venue/monash1.jpg", "/img/venue/monash2.jpg", "/img/venue/monash3.jpg" ,
+  "/img/venue/monash4.jpg",   "/img/venue/monash5.jpg",  "/img/venue/monash6.jpg","/img/venue/monasha.jpg"
+]; // Add your image URLs here
+  let currentImageIndex = 0;
+  
+  const currentImg = document.getElementById("currentImg");
+  
+  function showImage() {
+      currentImg.src = images[currentImageIndex];
+  }
+  
+  function nextImage() {
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      showImage();
+  }
+  
+  // Automatically change the image every 3 seconds (3000 milliseconds)
+  const imageChangeInterval = setInterval(nextImage, 3000);
+  
+  // To stop the automatic image change, you can use the clearInterval function like this:
+  // clearInterval(imageChangeInterval);
+  
+  showImage(); // Initial image display
+  </script>
