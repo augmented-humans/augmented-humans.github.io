@@ -86,10 +86,10 @@ committee:
         mail: josh.andres@anu.edu.au
         img: /img/committee/josh_andres.jpg
 
-      # - name: Daniel Medeiros
-      #   affiliation: University of Glasgow, United Kingdom
-      #   mail: daniel.piresdesamedeiros@glasgow.ac.uk
-      #   img: /img/committee/daniel_medeiros.jpg
+      - name: Yuta Sugiura
+        affiliation: Keio University, Japan
+        mail: sugiura@keio.jp
+        img: /img/committee/Yuta.jpeg
 
   - group: Publication Chairs
     people:
@@ -98,15 +98,17 @@ committee:
         mail: steeven.villa@ifi.lmu.de
         img: /img/committee/steeven_villa.jpeg
 
-      # - name: Rebecca Panskus
-      #   affiliation: Ruhr-University Bochum, Germany
-      #   img: /img/committee/rebecca_panskus.jpg
+      - name: Yun Suen Pai
+        affiliation: University of Auckland, New Zealand
+        mail: yspai1412@gmail.com
+        img: /img/committee/Yun.png
 
-  # - group: Local Chairs
-  #   people:
-  #     - name: Pejman Saeghe
-  #       affiliation: University of Glasgow, United Kingdom
-  #       img: /img/committee/pejman_saeghe.jpg
+  - group: Local Chairs
+    people:
+      - name: Nathalie Overdevest
+        affiliation: Monash University, Australia
+        mail: Nathalie.overdevest@monash.edu
+        img: /img/committee/Nathalie.png
 
   #     #- name: Iain Christie
   #     #  affiliation: University of Glasgow, United Kingdom
@@ -130,12 +132,12 @@ committee:
     #     affiliation: LMU Munich, Germany
     #     img: /img/committee/steeven_villa.jpeg
 
-  # - group: Sponsorship Chair
-  #   people:
-  #     - name: Irwyn Shepherd
-  #       affiliation: Monash University, Australia
-  #       mail:  irwyn.shepherd@monash.edu
-  #       img: /img/committee/irwyn_shepherd.jpg
+  - group: Sponsorship Chair
+    people:
+      - name: Irwyn Shepherd
+        affiliation: Monash University, Australia
+        mail:  irwyn.shepherd@monash.edu
+        img: /img/committee/irwyn_shepherd.jpg
 
   - group: Student Volunteer Chair
     people:
@@ -144,12 +146,18 @@ committee:
         mail: contact@danulahettiachchi.com
         img: /img/committee/danula_hettiachchi.jpg
 
-  # - group: Social Media Chair
-  #   people:
-  #     - name: Mengxing Li
-  #       affiliation: Monash University, Australia
-  #       mail: mengxing.li@monash.edu
-  #       img: /img/committee/mengxing_li.jpeg
+      - name: Jing Wei
+        affiliation: CSIRO, Australia
+        mail: jing.wei@data61.csiro.au
+        img: /img/committee/jingwei.jpeg
+
+
+  - group: Social Media Chair
+    people:
+      - name: Mengxing Li
+        affiliation: Monash University, Australia
+        mail: mengxing.li@monash.edu
+        img: /img/committee/mengxing_li.jpeg
 
   - group: Web Chair
     people:
@@ -157,6 +165,11 @@ committee:
         affiliation: University of Melbourne, Australia
         website: https://maying0120.github.io/
         img: /img/committee/ying_ma.jpg
+
+      - name: Christopher Katins
+        affiliation: Humboldt University of Berlin, Germany
+        website: https://ckatins.de/en/
+        img: /img/committee/Christopher.jpg
 
   - group: Steering Committee
     people:
