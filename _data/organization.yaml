@@ -53,9 +53,10 @@ committee:
         website: https://qiushi-zhou.github.io/
         img: /img/committee/qiushi_zhou.jpg
 
-      # - name: Yudai Tanaka
-      #   affiliation: University of Chicago, United States
-      #   img: /img/committee/yudai_tanaka.jpg
+      - name: Christopher Katins
+        affiliation: Humboldt University of Berlin, Germany
+        website: https://ckatins.de/en/
+        img: /img/committee/Christopher.jpg
 
   - group: Demo Chairs
     people:
@@ -64,10 +65,10 @@ committee:
         mail: Nathan.Semertzidis1@monash.edu
         img: /img/committee/nathan_semertzidis.jpeg
 
-      # - name: Qing Zhang
-      #   affiliation: Keio University, Japan
-      #   mail: qzkiyoshi@gmail.com
-      #   img: /img/committee/qing_zhang.jpg
+      - name: Allison Jing 
+        affiliation: RMIT University, Australia
+        mail: jing.allison@gmail.com 
+        img: /img/committee/AllisonJing.png
 
       # - name: Friendred Peng
       #   affiliation: University of the Arts London, United Kingdom
@@ -166,10 +167,6 @@ committee:
         website: https://maying0120.github.io/
         img: /img/committee/ying_ma.jpg
 
-      - name: Christopher Katins
-        affiliation: Humboldt University of Berlin, Germany
-        website: https://ckatins.de/en/
-        img: /img/committee/Christopher.jpg
 
   - group: Steering Committee
     people:
