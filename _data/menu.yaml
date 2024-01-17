@@ -8,6 +8,8 @@ shortlinks:
     sublinks:
       - title: Calls for Participation
         shortcut: /calls-for-participation
+      - title: Calls for Fast Track
+        shortcut: /call-for-fasttrack
       - title: Call for Workshops
         shortcut: /call-for-workshops
       - title: Call for Demonstrations

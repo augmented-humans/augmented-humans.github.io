@@ -44,21 +44,21 @@ categories: |
   
   <b>Full papers</b> - up to 16 pages single column (excluding references), anonymized
   <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
-  <b>Fast track publications for revised CHI papers</b> - We have created a special track to facilitate fast publication of papers that went through the CHI R&R process and didn’t get accepted for the final proceedings.
   <b>Demonstration papers</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized, demonstration at the conference <a href="#footnote1"><sup>(see footnote 1)</sup></a>
   <b>Poster papers</b> - up to 4 pages single column (excluding references), anonymized, presented at the conference <a href="#footnote2"><sup>(see footnote 2)</sup></a>
   <b>Workshop proposals</b> - up to 4 pages single column (excluding references and author bios), <b>not</b> anonymized <a href="#footnote3"><sup>(see footnote 3)</sup></a>
-  
+  <b>Fast track publications for revised CHI papers</b> - <a href="#footnote4"><sup>(see footnote 41)</sup></a>
   
   All page lengths are excluding references. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews.
   
   All accepted submissions will be published in the <a href="https://dl.acm.org/">ACM Digital Library</a>. 
   
   <br>
+  
   <p style="font-size: 90%;"><text id="footnote1">¹</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute). More information can be found on the dedicated <a href="/call-for-demos"> Call for Demos</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote3">²</text> More information can be found on the dedicated <a href="/call-for-posters"> Call for Posters</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote2">³</text> More information can be found on the dedicated <a href="/call-for-workshops"> Call for Workshops</a> site.</p>
-
+  <p style="font-size: 90%;"><text id="footnote4">⁴</text> More information can be found on the dedicated <a href="/call-for-fasttrack"> Call for Fast Track</a> site.</p>
 
 
 instructions-title: Submission Guidelines 
@@ -69,12 +69,6 @@ instructions: |
   <b>T</b>he <b>A</b>CM <b>P</b>ublication <b>S</b>ystem (TAPS) will be used for full papers, short papers, posters, and demos. Please be sure to read the instructions on the <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow page</a> carefully.
   
   First, authors will prepare their manuscript using the <a href="https://www.acm.org/publications/proceedings-template"> ACM Primary Article Template</a> in single-column format for review. Upon conditional acceptance, the authors revise their manuscript to submit their publication-ready article. The ACM workflow requests authors to produce final publications (PDF and HTML5) by themselves using TAPS. For this, the authors upload publication-ready source files (single-column Word or double-column LaTeX) to TAPS. TAPS will then generate the double-column PDF and responsive HTML5 document. Further information and the templates for both Latex and Word can be found on the corresponding <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex">Preparing Your Article with LaTeX</a> or <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word">Preparing Your Article with Word</a> pages.
-
-  <u>Fast track publications for revised CHI papers submission guidelines:</u>
-  You will have to submit two documents: 1) the paper with highlighted changes and also 2) a zip folder containing all the supplementary files including the paper without highlights, 5000 character summary of changes that you have submitted to CHI, reviews received from CHI, and any video files. Please note that the submissions missing the above mentioned files, summary changes and chi reviews will be desk rejected. Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2024">EasyChair</a>.
-  
-  Review Process: You will get a Meta review from program chairs. Program chairs will hold a discussion to finalise the decision based on the CHI reviews that you submit along with the paper and the paper’s suitability for Augmented Humans conference.
-
 
   <u>In short:</u> 
   •	Use the <b>single-column Word Submission Template</b> or the <b>single-column LaTeX Template</b> for submission. For LaTeX, you can use <tt>\documentclass[manuscript, review, anonymous]{acmart}</tt> to create an anonymous submission.
