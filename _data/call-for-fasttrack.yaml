@@ -1,0 +1,25 @@
+page-title: <strong>C</strong>all <strong>F</strong>or <strong>F</strong>ast <strong>T</strong>rack
+
+overview-title: Overview
+overview: |
+  Fast track publications for revised CHI papers.
+  We have created a special track to facilitate fast publication of papers that went through the CHI R&R process and didn’t get accepted for the final proceedings.
+  You can submit those papers via EasyChair using Augmented Humans 2024 Fast Track. The deadline for this track is 24th Jan 2024. You will receive decision notifications on the 12th of February 2024 and will be asked to prepare a camera-ready version for the 26th February 2024.
+
+topics-title: Submission Guidelines
+topics: |
+  You will have to submit two documents: 
+  1) the paper with highlighted changes and also 
+  2) a zip folder containing all the supplementary files including the paper without highlights, 5000 character summary of changes that you have submitted to CHI, reviews received from CHI, and any video files. Please note that the submissions missing the above mentioned files, summary changes and chi reviews will be desk rejected.
+
+submissions-title: Submissions
+submissions: |
+  Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2024">EasyChair</a>.
+# presentation-title: Presentation and Format
+# presentation: |
+#   Posters will be presented in person during the conference’s poster session; at least one author will have to bring their poster when they travel to Melbourne (please contact the poster chairs if you foresee any troubles with traveling to Melbourne). Additional information and requirements for the poster presentation will be emailed to the authors upon acceptance.
+
+reviewing-title: Reviewing and Selection
+reviewing: |
+  You will get a Meta review from program chairs. Program chairs will hold a discussion to finalise the decision based on the CHI reviews that you submit along with the paper and the paper’s suitability for Augmented Humans conference..
+
