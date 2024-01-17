@@ -8,21 +8,21 @@ submissions-title: Submissions
 submissions: |
   Workshop proposals should be up to 4 pages in the single column format (excluding references and author bios) and should not be anonymized (see <a href="/calls-for-participation">Calls for Participation</a> for templates and guidelines).
   <strong><u>Proposals should include:</u></strong>
-  <h3 style="color: black;">Background and relevance to the conference</h3>
+  <h3 style="color: #E0A96D;">Background and relevance to the conference</h3>
   Provide a description of the research/industrial/social context around the topic, the problem area that the workshop will address, and how the workshop will contribute to and advance the themes/topics of interest of Augmented Humans 2023.
-  <h3 style="color: black;">Content of Workshop</h3>
+  <h3 style="color: #E0A96D;">Content of Workshop</h3>
   Provide a description of the workshop activities. This should include what attendees will do during the workshop, if there will be presentations (including keynote/invited speakers), and who will run/coordinate each part of the workshop. Please include any on-site requirements you will have, such as projectors, power sockets, furniture, accessibility, etc.
   Augmented Humans 2024 will be an in-person event, however, if any workshop intends to contain an online/remote component, please describe this in your workshop submission. In these cases, workshop organisers will be responsible for arranging, hosting, and running these aspects; basic technical support will be available from the conference venue regarding network access, audio-visual connectivity and on-site facilities, but additional support cannot be guaranteed.
-  <h3 style="color: black;">Goals and Outcomes</h3>
+  <h3 style="color: #E0A96D;">Goals and Outcomes</h3>
   What are the goals of the workshop, and what will the outcomes be? Outcomes include outputs (such as shared publications, position papers or journal special issues), research artefacts (design spaces, challenges or opportunities), social/industrial impact activities, among many others.
-  <h3 style="color: black;">Schedule</h3>
+  <h3 style="color: #E0A96D;">Schedule</h3>
   Explain how long the workshop will be (either in hours or half-day/full-day), a full schedule of each workshop activity, and taking account of breaks.
-  <h3 style="color: black;">Recruitment & Reviewing</h3>
+  <h3 style="color: #E0A96D;">Recruitment & Reviewing</h3>
   Please describe how many attendees the workshop will have, who you will invite to submit papers to your workshop, and how you will reach/recruit them, including a draft call for participation. How will you conduct the process of reviewing and accepting submissions? Please also describe how you will support an accessible and inclusive workshop. Due to room capacity, workshops will be limited to a maximum of 20 on-site participants, including organisers.
-  <h3 style="color: black;">Organizer Biographies</h3>
+  <h3 style="color: #E0A96D;">Organizer Biographies</h3>
   Please provide biographies of all workshop organisers, indicating a primary contact.
-  <h3 style="color: black;">EasyChair</h3>
-  Submissions can be made via <a href="https://easychair.org/cfp/ahs2024">EasyChair</a>.
+  <h3 style="color: #E0A96D;">EasyChair</h3>
+  *Submissions can be made via <a href="https://easychair.org/my/conference?conf=ahs2024">EasyChair</a>.
 
 reviewing-title: Reviewing and Selection
 reviewing: |
