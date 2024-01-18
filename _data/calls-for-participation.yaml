@@ -43,7 +43,7 @@ categories-title: Submission categories
 categories: |
   
   <b>Full papers</b> - up to 16 pages single column (excluding references), anonymized
-  <b>Fast track publications for revised CHI papers</b> - <a href="#footnote4"><sup>(see footnote 1)</sup></a>
+  <b>Special Fast Track for revised CHI papers</b> - <a href="#footnote4"><sup>(see footnote 1)</sup></a>
   <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
   <b>Demonstration papers</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized, demonstration at the conference <a href="#footnote1"><sup>(see footnote 2)</sup></a>
   <b>Poster papers</b> - up to 4 pages single column (excluding references), anonymized, presented at the conference <a href="#footnote2"><sup>(see footnote 3)</sup></a>
@@ -54,7 +54,7 @@ categories: |
   All accepted submissions will be published in the <a href="https://dl.acm.org/">ACM Digital Library</a>. 
   
   <br>
-  <p style="font-size: 90%;"><text id="footnote4">¹</text> More information can be found on the dedicated <a href="/call-for-fasttrack"> Call for Fast Track Publications</a> site.</p> 
+  <p style="font-size: 90%;"><text id="footnote4">¹</text> More information can be found on the dedicated <a href="/call-for-fasttrack"> Special Fast Track CfP</a> site.</p> 
   <p style="font-size: 90%;"><text id="footnote1">²</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute). More information can be found on the dedicated <a href="/call-for-demos"> Call for Demos</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote3">³</text> More information can be found on the dedicated <a href="/call-for-posters"> Call for Posters</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote2">⁴</text> More information can be found on the dedicated <a href="/call-for-workshops"> Call for Workshops</a> site.</p>
@@ -133,15 +133,15 @@ deadlines: |
     </tr>
 
     <tr>
-      <td><strong>Fast track</strong> Submission Deadline</td>
+      <td><strong>Special Fast track</strong> Submission Deadline</td>
       <td>24th January, 2024 (AoE)</td> 
     </tr>
     <tr>
-      <td><strong>Fast track</strong> Decisions sent to Author</td>
+      <td><strong>Special Fast track</strong> Decisions sent to Author</td>
       <td>12th February, 2024 (AoE)</td> 
     </tr>
     <tr>
-      <td><strong>Fast track</strong> Camera-Ready</td>
+      <td><strong>Special Fast track</strong> Camera-Ready</td>
       <td>26th February, 2024 (AoE)</td> 
     </tr>
 

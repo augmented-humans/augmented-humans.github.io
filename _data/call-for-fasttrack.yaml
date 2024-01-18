@@ -1,15 +1,16 @@
-page-title: <strong>C</strong>all <strong>F</strong>or <strong>F</strong>ast <strong>T</strong>rack <strong>P</strong>ublications
+page-title: <strong>S</strong>pecial <strong>F</strong>ast <strong>T</strong>rack <strong>C</strong>fp
 
 overview-title: Overview
 overview: |
-  We have created a special track to facilitate fast publication of papers that went through the CHI R&R process and didn’t get accepted for the final proceedings.
-  You can submit those papers via EasyChair using Augmented Humans 2024 Fast Track. The deadline for this track is 24th Jan 2024. You will receive decision notifications on the 12th of February 2024 and will be asked to prepare a camera-ready version for the 26th February 2024.
+  We have created a special track to facilitate the fast publication of papers that went through the CHI R&R process and were not accepted for the final proceedings.
+  You can submit these papers via EasyChair using the Augmented Humans 2024 Special Fast Track CfP. The submission deadline for this track is 24th January 2024. Decision notifications will be sent by the 12th of February 2024, and authors must prepare a camera-ready version by the 26th of February 2024.
 
 topics-title: Submission Guidelines
 topics: |
   You will have to submit two documents: 
-  1) the paper with highlighted changes and also 
-  2) a zip folder containing all the supplementary files including the paper without highlights, 5000 character summary of changes that you have submitted to CHI, reviews received from CHI, and any video files. Please note that the submissions missing the above mentioned files, summary changes and chi reviews will be desk rejected.
+  1) The paper with highlighted changes.
+  2) A zip folder containing all supplementary files. This includes the paper without highlights, a summary of changes (up to 5000 characters) submitted to CHI, the reviews received from CHI, and any video files.
+     Please note that submissions lacking the required files, summary of changes, or CHI reviews will be subject to desk rejection.
 
 submissions-title: Submissions
 submissions: |
@@ -20,5 +21,5 @@ submissions: |
 
 reviewing-title: Reviewing and Selection
 reviewing: |
-  You will get a Meta review from program chairs. Program chairs will hold a discussion to finalise the decision based on the CHI reviews that you submit along with the paper and the paper’s suitability for Augmented Humans conference..
+  You will get a Meta review from program chairs. Program chairs will hold a discussion to finalise the decision based on the CHI reviews that you submit along with the paper and the paper’s suitability for Augmented Humans conference.
 
