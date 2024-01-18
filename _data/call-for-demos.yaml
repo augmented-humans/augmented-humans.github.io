@@ -2,24 +2,30 @@ page-title: <strong>C</strong>all <strong>F</strong>or <strong>D</strong>emos
 
 overview-title: Overview
 overview: |
-  If you have an interesting prototype, device, system, or exhibit, we encourage you to submit it to the Augmented Humans Demo Track. Sharing hands-on experiences of your work is a great way to stimulate discussions, gather feedback, and directly observe your work's impact on people. Demos will be presented in an interactive manner, meaning that conference attendees can directly interact with the demos while being instructed or guided through the experience by the presenting author(s). 
+  If you have a prototype, device, system, or exhibit thematically related to Augmented Humans, we encourage you to submit it to the Augmented Humans Demo Track. Sharing hands-on experiences of your work is a great way to stimulate discussions, gather feedback, and directly observe your work's impact on people. Demos will be presented in an interactive manner, meaning that conference attendees can directly interact with the demos while being instructed or guided through the experience by the presenting author(s).
 
 submissions-title: Content of the Submissions
 submissions: |
-  Demo submissions should be up to 4 pages single column (excluding references, see <a href="/calls-for-participation">Calls for Participation</a> for templates and guidelines) and not anonymized. They should include an abstract, an introduction to the work which motivates it and states how it contributes to research, a description of the developed prototype/device/system/exhibit, and a conclusion and/or discussion. We specifically ask authors to detail their demo setup and encourage them to add a figure showing how it might look like. Moreover, demo submissions should not have been published before in a similar format (i.e., other conferences' demo or interactivity tracks). We, therefore, ask authors to indicate and reference any prior publications related to the demo in the text. Accepted demos will be published on the ACM Digital Library.
+  Demo submissions should be up to 4 pages single column excluding references and not anonymized. They should include an abstract, an introduction to the work which motivates it and states how it contributes to research, a description of the envisioned exhibit, and a conclusion and/or discussion. The submission details and guidelines such as template, due date, and submission portal can be found at <a href="/calls-for-participation">Calls for Participation</a>.
+
+  We specifically ask authors to detail their demo setup and encourage the addition of figures illustrating your vision of what the demonstration and the exhibit space might look like, and how audiences and participants might observe or interact with the exhibit. Moreover, demo submissions should not have been published before in a similar format (i.e., other conferences' demos or interactivity tracks). We, therefore, ask authors to indicate and reference any prior publications related to the demo in the text. Accepted demos will be published on the ACM Digital Library.
 
 presentation-title: Presentation Format
 presentation: |
-  Demos will be presented in person during the conference’s demo session. So authors will have to bring their demo when they travel to Glasgow and set it up there (please contact the demo chairs if you foresee any troubles with traveling to Glasgow). To ensure that accepted demos operate as intended during the demo session, we ask authors to submit a list of requirements (e.g., tables, chairs, power outlets, etc.), as well as a floor plan of their setup appended to their PDF file.
+  Demos will be presented in person during the conference’s demo session. This means authors will be required to transport their demonstrations to Melbourne and set up their exhibits in person at the Augmented Humans conference space. To ensure that accepted demos operate as intended during the demo session, we ask authors to bring their own devices (e.g. power/data cables) to ensure the demo runs smoothly. We also encourage the authors to include a figure or video of their demo setup and how it runs so we can arrange the most suitable setup location.
+
 
 submission-files-title: Submission Files
 submission-files: |
   We ask demo authors to submit the following files:
-  •	one PDF file consisting in:
+  1)	one PDF file consisting in:
   <p style="padding-left:2em;"> ➥	an up to 4 pages single column (excl. references) paper</p>
   <p style="padding-left:2em;">➥ a floor plan of their demo setup (e.g. a rough top-view sketch of your setup) which also indicates the required space in meters (i.e. length and width)</p>
-  <p style="padding-left:2em;">➥	a list of hardware that needs to be provided by the chairs (e.g., tables, chairs, power outlets, etc.) IMPORTANT: please note that the power plugs used in the UK are not commonly used worldwide. So please bring corresponding adapters, if possible. If you will not be able to bring your own adapters, please specify in your hardware list how many and which adapters you would need for your demo.</p>
-  •	an optional teaser video, showing the demo (approx. 1 minute)
+  
+  2)  An optional figure or video showing roughly how their demo setup looks and runs ideally
+  3)	an optional teaser video, showing the demo (approx. 30 - 60 seconds)
+
+  IMPORTANT: Please note that the power plugs used in Australia are not commonly used worldwide. So please bring corresponding adapters, if needed
 
 
 reviewing-title: Reviewing and Selection
