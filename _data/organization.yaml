@@ -127,11 +127,12 @@ committee:
   #       mail: patrizia.dicamplisanvito@glasgow.ac.uk
   #       img: /img/committee/patrizia_vito.jpg
 
-  # - group: Finance Chair
-    # people:
-    #   - name: Steeven Villa
-    #     affiliation: LMU Munich, Germany
-    #     img: /img/committee/steeven_villa.jpeg
+  - group: Finance Chair
+    people:
+      - name: Rakesh Patibanda
+        affiliation: Monash University, Australia
+        mail:  Rakesh.Patibanda@monash.edu
+        img: /img/committee/Rakesh.png
 
   - group: Sponsorship Chair
     people:
