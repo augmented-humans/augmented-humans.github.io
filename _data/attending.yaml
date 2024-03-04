@@ -11,13 +11,67 @@ page-title: <strong>A</strong>ttending
 # Placeholder
 registration-title: Register Now
 registration: |
-  The registration for <strong>A</strong>ugmented <strong>H</strong>uman<strong>s</strong> 2024 is coming soon!
-  <!--<a href="https://www.eventbrite.co.uk/e/augmented-humans-2024-registration-tickets-490538553017" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
-  <br>
-  For inquiries regarding VISA, see the information section below. Early registration deadline is 20th February, so remember to register soon!
-  <br>
-  If you're a student attending a <a href="https://www.sicsa.ac.uk/">SICSA institution</a> we also have some free registrations available as part of their sponsorship of the conference - please fill out <a href=" https://forms.office.com/e/urWqvigQBU">the following form</a> before the 17th February to note your interest and we'll be in touch if selected. --> 
+  Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
+  Please register for Augmented Humans 2024 using the link below.
+  <a href="https://pay.sydney.edu.au/AHs2024" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
 
+  
+  
+
+
+deadlines-title: Deadlines
+deadlines: |
+  Early Registration: Before 20th March 2024
+  Standard Registration: 20th March 2024 to 3rd April 2024
+  On-Site: 4th to 6th April 2024  
+
+
+price-title: Price
+price: |
+  <table id="deadlines">
+
+    <tr>
+      <td><strong>Type</strong></td>
+      <td><strong>Early</strong></td>
+      <td><strong>Standard</strong></td>
+      <td><strong>On-Site</strong></td>
+    </tr>
+    
+    <tr class="tr-break">
+      <td colspan="100%" style="background-color: #FFC847;"></td>
+    </tr>
+
+    <tr>
+      <td><strong>Professional</strong></td>
+      <td><strong>750</strong></td>
+      <td><strong>900</strong></td>
+      <td><strong>1000</strong></td>
+    </tr>
+
+    <tr>
+      <td><strong>Students</strong></td>
+      <td><strong>500</strong></td>
+      <td><strong>650</strong></td>
+      <td><strong>800</strong></td>
+    </tr>
+
+
+    <tr>
+      <td><strong>Workshop Only </strong></td>
+      <td><strong>150</strong></td>
+      <td><strong>150</strong></td>
+      <td><strong>150</strong></td>
+    </tr>
+
+    <tr>
+      <td><strong> Online Only (Zoom)  </strong></td>
+      <td><strong>100</strong></td>
+      <td><strong>100</strong></td>
+      <td><strong>100</strong></td>
+    </tr>
+
+
+    </table> 
 
 visa-title: Visa Information
 visa: |
