@@ -27,9 +27,9 @@ sitemap: true
             <div class="col-lg-1"></div>
             <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
                 <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-                    <span>{{ site.data.attending.registration-title }}</span>
+                    <span>{{ site.data.attending.price-title }}</span>
                 </div>
-                {% assign description_paragraphs = site.data.attending.registration | newline_to_br | split:'<br />' %}
+                {% assign description_paragraphs = site.data.attending.price | newline_to_br | split:'<br />' %}
                 {% for paragraph in description_paragraphs %}
                 <p>{{ paragraph }}</p>
                 {% endfor %}
@@ -64,9 +64,9 @@ sitemap: true
           <div class="col-lg-1"></div>
           <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
               <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-                  <span>{{ site.data.attending.price-title }}</span>
+                  <span>{{ site.data.attending.registration-title }}</span>
               </div>
-              {% assign description_paragraphs = site.data.attending.price | newline_to_br | split:'<br />' %}
+              {% assign description_paragraphs = site.data.attending.registration | newline_to_br | split:'<br />' %}
               {% for paragraph in description_paragraphs %}
               <p>{{ paragraph }}</p>
               {% endfor %}
