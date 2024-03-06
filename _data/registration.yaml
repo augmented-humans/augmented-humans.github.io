@@ -1,4 +1,4 @@
-page-title: <strong>A</strong>ttending
+page-title: <strong>R</strong>egistration/
 
 # Old registration, comment in and update when registration is open
 #
@@ -13,9 +13,7 @@ registration-title: Register Now
 registration: |
   Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
   Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
-  Please register for Augmented Humans 2024 using the link below.
-  <a href="https://pay.sydney.edu.au/AHs2024" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
-
+  
 
 deadlines-title: Deadlines
 deadlines: |
@@ -24,7 +22,7 @@ deadlines: |
   On-Site: 4th to 6th April 2024  
 
 
-price-title: Price
+price-title: Registration Types
 price: |
   <table id="deadlines">
 
@@ -71,13 +69,17 @@ price: |
 
     </table> 
 
+   <br><br>
+    Please register for Augmented Humans 2024 using the link below.
+  <a href="https://pay.sydney.edu.au/AHs2024" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+
+
 visa-title: Visa Information
 visa: |
   We can supply visa letters for you to attend AHs if you provide us with the following information:
   •	Your full name
   •	Your position (for example “PhD student”)
   •	Your full affiliation
-  • Registration number and Passport number
   •	Whether you are presenting a paper or just attending the conference
   •	If you are presenting a paper, the title of the paper
 

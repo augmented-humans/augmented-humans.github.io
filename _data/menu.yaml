@@ -16,10 +16,12 @@ shortlinks:
         shortcut: /call-for-demos
       - title: Call for Posters
         shortcut: /call-for-posters
-  # - title: Attending
-  #   shortcut: /attending
-  #   sublinks:
-  #     - title: Registration
+  - title: Attending
+    shortcut: /attending
+    sublinks:
+      - title: Registration
+        shortcut: /registration
+      
       #  shortcut: https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017
   - title: Program
     shortcut: /program

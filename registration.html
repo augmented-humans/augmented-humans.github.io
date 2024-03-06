@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Augmented Humans 2024 | Attending"
-description: "Attending"
+title: "Augmented Humans 2024 | registration"
+description: "registration"
 sitemap: true
 ---
 <!-- Contact Section -->
@@ -11,7 +11,7 @@ sitemap: true
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
-                    <h1 class="masthead-heading mb-0">{{ site.data.attending.page-title }}</h1>
+                    <h1 class="masthead-heading mb-0">{{ site.data.registration.page-title }}</h1>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -20,53 +20,15 @@ sitemap: true
 
 </header>
 
-
-<!-- <section id="" class="flip ah-organization ah-override">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
-                <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-                    <span>{{ site.data.attending.price-title }}</span>
-                </div>
-                {% assign description_paragraphs = site.data.attending.price | newline_to_br | split:'<br />' %}
-                {% for paragraph in description_paragraphs %}
-                <p>{{ paragraph }}</p>
-                {% endfor %}
-            </div>
-            <div class="col-lg-1">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.attending.deadlines-title }}</span></div>
-        {% assign description_paragraphs = site.data.attending.deadlines | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p>{{ paragraph }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section>
-
-
 <section id="" class="flip ah-organization ah-override">
   <div class="container">
       <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
               <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-                  <span>{{ site.data.attending.registration-title }}</span>
+                  <span>{{ site.data.registration.registration-title }}</span>
               </div>
-              {% assign description_paragraphs = site.data.attending.registration | newline_to_br | split:'<br />' %}
+              {% assign description_paragraphs = site.data.registration.registration | newline_to_br | split:'<br />' %}
               {% for paragraph in description_paragraphs %}
               <p>{{ paragraph }}</p>
               {% endfor %}
@@ -77,17 +39,56 @@ sitemap: true
   </div>
 </section>
 
- -->
 
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+<section id="" class="flip ah-organization ah-override">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.registration.deadlines-title }}</span></div>
+        {% assign description_paragraphs = site.data.registration.deadlines | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section> 
+
+
+<section id="" class="flip ah-organization ah-override">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
+              <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+                  <span>{{ site.data.registration.price-title }}</span>
+              </div>
+              {% assign description_paragraphs = site.data.registration.price | newline_to_br | split:'<br />' %}
+              {% for paragraph in description_paragraphs %}
+              <p>{{ paragraph }}</p>
+              {% endfor %}
+          </div>
+          <div class="col-lg-1">
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+<!-- <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
     <div class="container">
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
           <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-            <span>{{ site.data.attending.visa-title }}</span></div>
-          {% assign description_paragraphs = site.data.attending.visa | newline_to_br | split:'<br />' %}
+            <span>{{ site.data.registration.visa-title }}</span></div>
+          {% assign description_paragraphs = site.data.registration.visa | newline_to_br | split:'<br />' %}
           {% for paragraph in description_paragraphs %}
           <p>{{ paragraph }}</p>
           {% endfor %}
@@ -103,9 +104,9 @@ sitemap: true
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
           <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-            <span>{{ site.data.attending.travel-title }}</span></div>
+            <span>{{ site.data.registration.travel-title }}</span></div>
             <img id="venue-img" class="" src="{{ site.data.attending.travel-image | prepend: site.url }}"/>
-          {% assign description_paragraphs = site.data.attending.travel | newline_to_br | split:'<br />' %}
+          {% assign description_paragraphs = site.data.registration.travel | newline_to_br | split:'<br />' %}
           {% for paragraph in description_paragraphs %}
           <p>{{ paragraph }}</p>
           {% endfor %}
@@ -114,63 +115,12 @@ sitemap: true
         <div class="col-lg-1"></div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   
   
-  <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-          <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-                    <span>{{ site.data.attending.venue-title }}</span>
-                </div>
-                {% assign description_paragraphs = site.data.attending.venue | newline_to_br | split:'<br />' %}
-                {% for paragraph in description_paragraphs %}
-                <p>{{ paragraph }}</p>
-                {% endfor %}
-                <!-- <img id="venue-img" class="" src="{{ site.data.attending.venue-image | prepend: site.url }}"/>
-                 -->
-                 <div class="gallery">
-                  <img id="currentImg" src="/img/venue/monashaa.jpg" alt="Figure11" style="height: 50%; width: 80%;">
-              </div>
-                </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-</section>
 
-<script>
-  const images = ["/img/venue/monashaa.jpg", "/img/venue/monasha.jpg",
-  "/img/venue/monash0.jpg", "/img/venue/monash1.jpg", "/img/venue/monash2.jpg", "/img/venue/monash3.jpg" ,
-  "/img/venue/monash4.jpg",   "/img/venue/monash5.jpg",  "/img/venue/monash6.jpg","/img/venue/monasha.jpg"
-]; // Add your image URLs here
-  let currentImageIndex = 0;
-  
-  const currentImg = document.getElementById("currentImg");
-  
-  function showImage() {
-      currentImg.src = images[currentImageIndex];
-  }
-  
-  function nextImage() {
-      currentImageIndex = (currentImageIndex + 1) % images.length;
-      showImage();
-  }
-  
-  // Automatically change the image every 3 seconds (3000 milliseconds)
-  const imageChangeInterval = setInterval(nextImage, 3000);
-  
-  // To stop the automatic image change, you can use the clearInterval function like this:
-  // clearInterval(imageChangeInterval);
-  
-  showImage(); // Initial image display
-  </script>
-
-  
-  
   
   <!-- <section id="ah-categories" class="flip">
     <div class="container">
@@ -189,7 +139,7 @@ sitemap: true
     </div>
   </section> -->
 
-  <section id="ah-categories" class="flip">
+  <!-- <section id="ah-categories" class="flip">
     <div class="container">
       <div class="row">
         <div class="col-lg-1"></div>
@@ -203,7 +153,7 @@ sitemap: true
         <div class="col-lg-1"></div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   
   <!-- <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
@@ -259,21 +209,7 @@ sitemap: true
     </div>
   </section> -->
 
-  <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-          <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-            <span>HOTELS</span></div>
-     
-          <p>The hotel information is coming soon!</p>
-       
-        </div>
-        <div class="col-lg-1"></div>
-      </div>
-    </div>
-  </section>
+
 <!--   
   <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
     <div class="container">
