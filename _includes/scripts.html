@@ -28,7 +28,7 @@
 
 <script type="text/javascript">
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS.load('particles-js', '/js/particlesjs2023.json', function() {
+  particlesJS.load('particles-js', '/js/particlesjs2023.json', function () {
     console.log('callback - particles.js config loaded');
   });
 </script>
@@ -39,7 +39,7 @@
 <script src='/js/fullcalendar@6.1.4/index.global.min.js'></script>
 <script>
 
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     var calendarEl = document.getElementById('calendar');
     var calendar = new FullCalendar.Calendar(calendarEl, {
       locale: 'en-UK',
@@ -49,7 +49,7 @@
         end: 'week,day'
       },
       initialView: 'week',
-      initialDate: '2023-03-12',
+      initialDate: '2024-04-04',
       views: {
         week: {
           type: 'timeGrid',
@@ -62,133 +62,281 @@
       },
       scrollTime: '08:00:00',
       visibleRange: {
-        start: '2023-03-12',
+        start: '2024-04-04',
         end: '2023-03-15'
       },
       validRange: {
-        start: '2023-03-12',
+        start: '2024-04-04',
         end: '2023-03-15'
       },
       eventColor: '#FFC847',
       eventTextColor: '#000000',
       events: [
-      {
-        title: 'Workshops',
-        start: '2023-03-12T08:30',
-        end: '2023-03-12T11:00',
-        backgroundColor: '#8de8ba'
-      },
-      {
-        title: 'Workshops',
-        start: '2023-03-12T11:30',
-        end: '2023-03-12T15:30',
-        backgroundColor: '#8de8ba'
-      },
-      {
-        title: 'Coffee Break',
-        start: '2023-03-12T11:00',
-        end: '2023-03-12T11:30',
-        backgroundColor: '#E98D8D'
-      },
-      {
-        title: 'Coffee Break',
-        start: '2023-03-13T11:00',
-        end: '2023-03-13T11:30',
-        backgroundColor: '#E98D8D'
-      },
-      {
-        title: 'Coffee Break',
-        start: '2023-03-14T11:00',
-        end: '2023-03-14T11:30',
-        backgroundColor: '#E98D8D'
-      },
-      {
-        title: 'Lunch',
-        start: '2023-03-13T13:00',
-        end: '2023-03-13T14:15',
-        backgroundColor: '#E98D8D'
-      },
-      {
-        title: 'Lunch',
-        start: '2023-03-14T13:00',
-        end: '2023-03-14T14:15',
-        backgroundColor: '#E98D8D'
-      },
-      {
-        title: 'Welcome Reception',
-        start: '2023-03-12T16:30',
-        end: '2023-03-12T17:30'
-      },
-      {
-        title: 'Registration Open | Poster/Demo Setup',
-        start: '2023-03-13T08:30',
-        end: '2023-03-13T09:00',
-        backgroundColor: '#8dbae8'
-      },
-      {
-        title: 'Opening | Keynote Florian Alt',
-        start: '2023-03-13T09:00',
-        end: '2023-03-13T11:00'
-      },
-      {
-        title: 'Session 1: Haptic Feedback',
-        start: '2023-03-13T11:30',
-        end: '2023-03-13T13:00'
-      },
-      {
-        title: 'Session 2: Perception and Extended Reality',
-        start: '2023-03-13T14:15',
-        end: '2023-03-13T16:00'
-      },
-      {
-        title: 'Coffee + Poster/Demos',
-        start: '2023-03-13T16:00',
-        end: '2023-03-13T18:00',
-        backgroundColor: '#E98D8D'
-      },
-      {
-        title: 'Speed Mentoring',
-        start: '2023-03-13T16:30',
-        end: '2023-03-13T17:30',
-        backgroundColor: '#8de8e8'
-      },
-      {
-        title: 'Reception (@ Òran Mór¹)',
-        start: '2023-03-13T18:15',
-        end: '2023-03-14T00:00'
-      },
-      {
-        title: 'Registration Open | Poster/Demo Setup',
-        start: '2023-03-14T08:30',
-        end: '2023-03-14T09:00',
-        backgroundColor: '#8dbae8'
-      },
-      {
-        title: 'Session 3: Human Empowerment',
-        start: '2023-03-14T09:00',
-        end: '2023-03-14T11:00'
-      },
-      {
-        title: 'Session 4: Intelligence Augmentation',
-        start: '2023-03-14T11:30',
-        end: '2023-03-14T13:00'
-      },
-      {
-        title: 'Session 5: Interfaces for the Body and Beyond',
-        start: '2023-03-14T14:15',
-        end: '2023-03-14T15:45'
-      },
-      {
-        title: 'Coffee + Poster/Demos',
-        start: '2023-03-14T15:45',
-        end: '2023-03-14T17:00',
-        backgroundColor: '#E98D8D'
-      },
-      {
-        title: 'Closing',
-        start: '2023-03-14T17:00',
-        end: '2023-03-14T18:00'
-      }
+        {
+          title: 'Registration',
+          start: '2024-04-04T08:30',
+          end: '2024-04-04T09:00',
+          backgroundColor: '#8dbae8'
+        },
+        {
+          title: 'Openning Keynote',
+          start: '2024-04-04T09:00',
+          end: '2024-04-04T10:30',
+          backgroundColor: '#8de8ba'
+        },
+        {
+          title: 'Coffee Break',
+          start: '2024-04-04T10:30',
+          end: '2024-04-04T11:00',
+          backgroundColor: '#E98D8D'
+        },
+        {
+          title: 'Paper Session 1: Wearables and Sensors 1',
+          start: '2024-04-04T11:00',
+          end: '2024-04-04T12:00'
+        },
+
+        {
+          title: 'Lunch',
+          start: '2024-04-04T12:00',
+          end: '2024-04-04T14:00',
+          backgroundColor: '#E98D8D'
+        },
+
+        {
+          title: 'Paper Session 2: Extended Reality',
+          start: '2024-04-04T14:00',
+          end: '2024-04-04T15:15',
+          backgroundColor: '#f0b378' // Assuming a new color for variety
+        },
+
+        {
+          title: 'Coffee Break',
+          start: '2024-04-04T15:15',
+          end: '2024-04-04T15:30',
+          backgroundColor: '#E98D8D'
+        },
+
+        {
+          title: 'Demos and Posters',
+          start: '2024-04-04T15:30',
+          end: '2024-04-04T16:30',
+          backgroundColor: '#8dbae8' // Reusing the registration color for consistency
+        },
+
+        {
+          title: 'Paper Session 3: Wearables and Sensors 2',
+          start: '2024-04-04T16:30',
+          end: '2024-04-04T17:30',
+          backgroundColor: '#f0b378' // Matching color to other paper sessions
+        },
+        {
+          title: 'Reception+Dinner',
+          start: '2024-04-04T18:30',
+          end: '2024-04-04T22:00',
+          backgroundColor: '#e8d28d' // A new color to signify special events
+        },
+        // Start of Day 2
+        {
+          title: 'Registration',
+          start: '2024-04-05T08:30',
+          end: '2024-04-05T09:00',
+          backgroundColor: '#8dbae8'
+        },
+        {
+          title: 'Paper Session 4: Augmenting in VR',
+          start: '2024-04-05T09:00',
+          end: '2024-04-05T10:15',
+          backgroundColor: '#f0b378'
+        },
+        {
+          title: 'Coffee Break',
+          start: '2024-04-05T10:15',
+          end: '2024-04-05T10:45',
+          backgroundColor: '#E98D8D'
+        },
+        {
+          title: 'Demos and Posters',
+          start: '2024-04-05T10:45',
+          end: '2024-04-05T12:15',
+          backgroundColor: '#8dbae8'
+        },
+        {
+          title: 'Lunch',
+          start: '2024-04-05T12:15',
+          end: '2024-04-05T14:00',
+          backgroundColor: '#E98D8D'
+        },
+        {
+          title: 'Paper Session 5: Learning Augmentation',
+          start: '2024-04-05T14:00',
+          end: '2024-04-05T15:00',
+          backgroundColor: '#f0b378'
+        },
+        {
+          title: 'Coffee Break',
+          start: '2024-04-05T15:00',
+          end: '2024-04-05T15:30',
+          backgroundColor: '#E98D8D'
+        },
+        {
+          title: 'Closing Keynote',
+          start: '2024-04-05T15:30',
+          end: '2024-04-05T16:30',
+          backgroundColor: '#8de8ba' // A distinct color for keynote sessions
+        },
+        {
+          title: 'Closing Remarks',
+          start: '2024-04-05T16:30',
+          end: '2024-04-05T17:00',
+          backgroundColor: '#e8d28d' // Using the special event color
+        },
+        // Start of Day 3
+        {
+          title: 'Registration',
+          start: '2024-04-06T08:30',
+          end: '2024-04-06T09:00',
+          backgroundColor: '#8dbae8'
+        },
+        {
+          title: 'Workshop Morning Session',
+          start: '2024-04-06T09:00',
+          end: '2024-04-06T10:30',
+          backgroundColor: '#8de8ba' // A color to signify workshops
+        },
+        {
+          title: 'Coffee Break',
+          start: '2024-04-06T10:30',
+          end: '2024-04-06T11:00',
+          backgroundColor: '#E98D8D'
+        },
+        {
+          title: 'Workshop Morning Session',
+          start: '2024-04-06T11:00',
+          end: '2024-04-06T12:30',
+          backgroundColor: '#8de8ba' // A color to signify workshops
+        },
+        {
+          title: 'Lunch',
+          start: '2024-04-06T12:30',
+          end: '2024-04-06T14:00',
+          backgroundColor: '#E98D8D'
+        },
+
+        {
+          title: 'Workshop Afternoon Session',
+          start: '2024-04-06T14:00',
+          end: '2024-04-06T15:30',
+          backgroundColor: '#8de8ba' // A color to signify workshops
+        },
+        {
+          title: 'Coffee Break',
+          start: '2024-04-06T15:30',
+          end: '2024-04-06T16:00',
+          backgroundColor: '#E98D8D'
+        },
+        {
+          title: 'Workshop Afternoon Session',
+          start: '2024-04-06T16:00',
+          end: '2024-04-06T17:30',
+          backgroundColor: '#8de8ba' // A color to signify workshops
+        },
+
+
+
+        // {
+        //   title: 'Coffee Break',
+        //   start: '2024-04-06T11:00',
+        //   end: '2024-04-06T11:30',
+        //   backgroundColor: '#E98D8D'
+        // },
+        // {
+        //   title: 'Lunch',
+        //   start: '2024-04-05T13:00',
+        //   end: '2024-04-05T14:15',
+        //   backgroundColor: '#E98D8D'
+        // },
+        // {
+        //   title: 'Lunch',
+        //   start: '2024-04-06T13:00',
+        //   end: '2024-04-06T14:15',
+        //   backgroundColor: '#E98D8D'
+        // },
+        // {
+        //   title: 'Welcome Reception',
+        //   start: '2024-04-04T16:30',
+        //   end: '2024-04-04T17:30'
+        // },
+        // {
+        //   title: 'Registration Open | Poster/Demo Setup',
+        //   start: '2024-04-05T08:30',
+        //   end: '2024-04-05T09:00',
+        //   backgroundColor: '#8dbae8'
+        // },
+        // {
+        //   title: 'Opening | Keynote Florian Alt',
+        //   start: '2024-04-05T09:00',
+        //   end: '2024-04-05T11:00'
+        // },
+        // {
+        //   title: 'Session 1: Haptic Feedback',
+        //   start: '2024-04-05T11:30',
+        //   end: '2024-04-05T13:00'
+        // },
+        // {
+        //   title: 'Session 2: Perception and Extended Reality',
+        //   start: '2024-04-05T14:15',
+        //   end: '2024-04-05T16:00'
+        // },
+        // {
+        //   title: 'Coffee + Poster/Demos',
+        //   start: '2024-04-05T16:00',
+        //   end: '2024-04-05T18:00',
+        //   backgroundColor: '#E98D8D'
+        // },
+        // {
+        //   title: 'Speed Mentoring',
+        //   start: '2024-04-05T16:30',
+        //   end: '2024-04-05T17:30',
+        //   backgroundColor: '#8de8e8'
+        // },
+        // {
+        //   title: 'Reception (@ Òran Mór¹)',
+        //   start: '2024-04-05T18:15',
+        //   end: '2024-04-06T00:00'
+        // },
+        // {
+        //   title: 'Registration Open | Poster/Demo Setup',
+        //   start: '2024-04-06T08:30',
+        //   end: '2024-04-06T09:00',
+        //   backgroundColor: '#8dbae8'
+        // },
+        // {
+        //   title: 'Session 3: Human Empowerment',
+        //   start: '2024-04-06T09:00',
+        //   end: '2024-04-06T11:00'
+        // },
+        // {
+        //   title: 'Session 4: Intelligence Augmentation',
+        //   start: '2024-04-06T11:30',
+        //   end: '2024-04-06T13:00'
+        // },
+        // {
+        //   title: 'Session 5: Interfaces for the Body and Beyond',
+        //   start: '2024-04-06T14:15',
+        //   end: '2024-04-06T15:45'
+        // },
+        // {
+        //   title: 'Coffee + Poster/Demos',
+        //   start: '2024-04-06T15:45',
+        //   end: '2024-04-06T17:00',
+        //   backgroundColor: '#E98D8D'
+        // },
+        // {
+        //   title: 'Closing',
+        //   start: '2024-04-06T17:00',
+        //   end: '2024-04-06T18:00'
+        // }
       ]
     });
     calendar.render();
@@ -200,14 +348,14 @@
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
-          _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageview']);
   (function () {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
   })();
 
 
