@@ -53,21 +53,24 @@
       views: {
         week: {
           type: 'timeGrid',
-          duration: { days: 3 }
+          duration: { days: 3 },
+          minTime: '08:00:00', 
         },
         day: {
           type: 'timeGrid',
-          duration: { days: 1 }
+          duration: { days: 1 },
+          minTime: '08:00:00', 
+          
         }
       },
       scrollTime: '08:00:00',
       visibleRange: {
         start: '2024-04-04',
-        end: '2023-03-15'
+        end: '2024-04-07'
       },
       validRange: {
         start: '2024-04-04',
-        end: '2023-03-15'
+        end: '2024-04-07'
       },
       eventColor: '#FFC847',
       eventTextColor: '#000000',
