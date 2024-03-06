@@ -1,4 +1,4 @@
-page-title: <strong>R</strong>egistration/
+page-title: <strong>R</strong>egistration
 
 # Old registration, comment in and update when registration is open
 #
@@ -9,7 +9,7 @@ page-title: <strong>R</strong>egistration/
 #  <br>
 
 # Placeholder
-registration-title: Register Now
+registration-title: Register 
 registration: |
   Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
   Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.

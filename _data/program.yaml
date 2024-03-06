@@ -59,7 +59,7 @@ sessions:
       authors: 'Florian Mathis'
       # doi: 'https://doi.org/10.1145/3582700.3582709'
       time: 'April 4th 14:00 - 14:15'
-    - title: 'Generation of realistic facial animation of a CG avatar speaking a moraic languages'
+    - title: 'GestureMark: Shortcut Input Technique using Smartwatch Touch Gestures for XR Glasses'
       authors: 'Juyoung Lee et al.'
       # doi: 'https://doi.org/10.1145/3582700.3582712'
       time: 'April 4th 14:15 - 14:30'
