@@ -470,7 +470,7 @@ description: "Program Committee"
   </div>
 </section>
 
-<section id="steering" class="kw-committee-section flip2 ah-organization ah-override">
+<!-- <section id="steering" class="kw-committee-section flip2 ah-organization ah-override">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -487,4 +487,23 @@ description: "Program Committee"
     </div>
   </div>
 </section>
+
+<section id="pc" class="kw-committee-section flip2 ah-organization ah-override">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.organization.pc-title }}</span>
+        </div>
+        {% assign description_paragraphs = site.data.organization.pc | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section> -->
+
 {% endcomment %}
