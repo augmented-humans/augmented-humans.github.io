@@ -1,22 +1,51 @@
 page-title: <strong>L</strong>ist <strong>O</strong>f <strong>W</strong>orkshops
 
-overview-title: Attend a Workshop
-overview: |
-  For the first time this year, the Augmented Humans International Conference offers workshops. Listed below are the workshops that will be available during the conference.
-  Please note that the attendance of the workshops <strong>is</strong> included in the full registration, so there is no further cost in attending a workshop! Furthermore, some workshops are still accepting late submissions, more information regarding that can be found on the respective workshop websites linked below.
+# overview-title: Attend a Workshop
+# overview: |
+#   For the first time this year, the Augmented Humans International Conference offers workshops. Listed below are the workshops that will be available during the conference.
+#   Please note that the attendance of the workshops <strong>is</strong> included in the full registration, so there is no further cost in attending a workshop! Furthermore, some workshops are still accepting late submissions, more information regarding that can be found on the respective workshop websites linked below.
 
 
-ws1-title: "Exploring the Design Space of Assistive Augmentation"
-ws1-organizer: Suranga Nanayakkara, Masahiko Inami, Florian Mueller, Jochen Huber, Chitralekha Gupta, Christophe Jouffrais, Kai Kunze, Rakesh Patibanda, Samantha W T Chan and Moritz Alexander Messerschmidt
-ws1-link: https://ah2023.ahlab.org/
-ws1-img: /img/workshops/ws1.jpg
+ws1-title: "Exploring Shared Bodily Control: Designing Augmented Human Systems for Intra- and Inter-Corporeality"
+ws1-organizer1: RAKESH PATIBANDA, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
+ws1-organizer2: NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
+ws1-organizer3: ARYAN SAINI, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
+ws1-organizer4: ZHUYING LI, Southeast University, China
+ws1-organizer5: JOSH ANDRES, Australian National University, Australia
+ws1-organizer6: ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology, The Netherlands
+ws1-organizer7: FLORIAN ‘FLOYD’ MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
 
-ws2-title: "Cyborgs on the Road: Workshop on Augmenting Road Users to Quantify their Behaviour"
-ws2-organizer: Ammar Al-Taie, Katharina Margareta Theresa Pöhlmann, Thomas Goodge, Andrii Matviienko, Frank Pollick and Stephen Brewster
-ws2-link: http://mig.dcs.gla.ac.uk/workshops/cyborgs_on_the_road.html
-ws2-img: /img/workshops/ws2.jpg
+# ws1-organizer: RAKESH PATIBANDA, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ARYAN SAINI, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ZHUYING LI, Southeast University, China; JOSH ANDRES, Australian National University, Australia; ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology, The Netherlands; FLORIAN ‘FLOYD’ MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
 
-ws3-title: "Intelligent Music Interfaces: When Interactive Assistance and Augmentation Meet Musical Instruments"
-ws3-organizer: Jordan Aiko Deja, Bettina Eska, Snehesh Shrestha, Matthias Hoppe, Jakob Karolus, Thomas Kosch, Andrii Matviienko, Andreas Weiß and Karola Marky
-ws3-link: https://thomaskosch.com/imi/
-ws3-img: /img/workshops/ws3.jpg
+# NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University,
+# Australia
+# ARYAN SAINI, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
+# ZHUYING LI, Southeast University, China
+# JOSH ANDRES, Australian National University, Australia
+# ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology,
+# The Netherlands
+# FLORIAN ‘FLOYD’ MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash
+# University, Australia
+# ws1-link: https://ah2023.ahlab.org/
+# ws1-img: /img/workshops/ws1.jpg
+
+ws2-title: "Developing Strategies for Co-designing Assistive Augmentation Technologies"
+ws2-organizer1: ADELE TONG, The University of Sydney, Australia
+ws2-organizer2: ZHANNA SARSENBAYEVA, The University of Sydney, Australia
+ws2-organizer3: JORGE GONCALVES, The University of Melbourne, Australia
+ws2-organizer4: HIDEKI KOIKE, Tokyo Institute of Technology, Japan
+ws2-organizer5: MASAHIKO INAMI, Keio University, Japan
+ws2-organizer6:  ALISTAIR MCEWAN, The University of Sydney, Australia
+ws2-organizer7:  ANUSHA WITHANA, The University of Sydney, Australia
+
+# ws2-link: http://mig.dcs.gla.ac.uk/workshops/cyborgs_on_the_road.html
+# ws2-img: /img/workshops/ws2.jpg
+
+ws3-title: "Intelligent Music Interfaces: When Interactive Assistance and Adaptive Augmentation Meet Musical Instruments"
+ws3-organizer1: THOMAS KOSCH, HU Berlin, Germany
+ws3-organizer2: ANDREAS WEISS, Musikschule Schallkultur, Germany
+ws3-organizer3: JORDAN AIKO DEJA, University of Primorska, Slovenia and De La Salle University, Philippines
+ws3-organizer4: SNEHESH SHRESTHA, University of Maryland, USA
+ws3-organizer5: MATTHIAS HOPPE, LMU Munich, Germany
+ws3-organizer6: ANDRII MATVIIENKO, KTH Royal Institute of Technology, Sweden
+ws3-organizer7: KAROLA MARKY, Ruhr University Bochum, Germany
