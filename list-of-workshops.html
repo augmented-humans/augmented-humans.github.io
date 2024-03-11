@@ -125,8 +125,8 @@ sitemap: true
           <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws3-organizer6 }}</p>
           <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws3-organizer7 }}</p>
 
-          <!-- <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws3-link }}">Link to workshop website</a>
-          <br/><br/>
+          <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws3-link }}">Link to workshop website</a>
+          <!--<br/><br/>
           <img id="venue-img" class="" src="{{ site.data.list-of-workshops.ws3-img | prepend: site.url }}"/> -->
         {% assign description_paragraphs = site.data.list-of-workshops.ws3 | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
