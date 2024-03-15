@@ -1,5 +1,16 @@
 page-title: <strong>C</strong>all <strong>F</strong>or <strong>D</strong>emos
 
+
+
+submission-test-title: Accepted Demos
+submission-test: |
+  1): Demonstrating VabricBeads 
+  2): Metacognition-EnGauge: Real-time Augmentation of Self-and-Group Engagement Levels Understanding by Gauge Interface in Online Meetings
+  3): RadioMe: Adaptive Radio with Music Intervention and Reminder System for People with Dementia in Their Own Home
+  4): E-Scooter Dynamics: Unveiling Rider Behaviours and Interactions with Road Users through Multi-Modal Data Analysis
+  5): PairPlayVR: Shared Hand Control for Virtual Games
+  6): Tuning Infill Characteristics to Fabricate Customizable 3D Printed Pressure Sensors
+
 overview-title: Overview
 overview: |
   If you have a prototype, device, system, or exhibit thematically related to Augmented Humans, we encourage you to submit it to the Augmented Humans Demo Track. Sharing hands-on experiences of your work is a great way to stimulate discussions, gather feedback, and directly observe your work's impact on people. Demos will be presented in an interactive manner, meaning that conference attendees can directly interact with the demos while being instructed or guided through the experience by the presenting author(s).
