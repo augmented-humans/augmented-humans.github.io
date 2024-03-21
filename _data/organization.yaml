@@ -135,12 +135,12 @@ committee:
         mail:  Rakesh.Patibanda@monash.edu
         img: /img/committee/Rakesh.png
 
-  - group: Sponsorship Chair
-    people:
-      - name: Irwyn Shepherd
-        affiliation: Monash University, Australia
-        mail:  irwyn.shepherd@monash.edu
-        img: /img/committee/irwyn_shepherd.jpg
+  # - group: Sponsorship Chair
+  #   people:
+  #     - name: Irwyn Shepherd
+  #       affiliation: Monash University, Australia
+  #       mail:  irwyn.shepherd@monash.edu
+  #       img: /img/committee/irwyn_shepherd.jpg
 
   - group: Student Volunteer Chair
     people:
