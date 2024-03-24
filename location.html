@@ -25,19 +25,61 @@ sitemap: false
   <!-- <div class="bg-circle-4 bg-circle"></div> -->
 </header>
 
-<section id="contact" class="kw-conference-location">
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
   <div class="container">
-      <div class="row">
-          <div class="col-lg-10 col-lg-offset-1" id="contact-footer">
-            <!-- <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left"><span>Location</span></div> -->
-            <p></p>
-            <p class="contact-footer-address">{{ site.data.location.address | newline_to_br }}</p>
-
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6520310.313630737!2d16.750201277938615!3d66.48533748463106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b4bc19896d905%3A0xd50bbf9fa3342b42!2sLapin%20yliopisto!5e0!3m2!1sen!2sfi!4v1592559337359!5m2!1sen!2sfi" max-width="700" width="100% !important" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+                  <span>{{ site.data.attending.venue-title }}</span>
+              </div>
+              {% assign description_paragraphs = site.data.attending.venue | newline_to_br | split:'<br />' %}
+              {% for paragraph in description_paragraphs %}
+              <p>{{ paragraph }}</p>
+              {% endfor %}
+              <!-- <img id="venue-img" class="" src="{{ site.data.attending.venue-image | prepend: site.url }}"/>
+               -->
+               <div class="gallery">
+                <img id="currentImg" src="/img/venue/monashaa.jpg" alt="Figure11" style="height: 50%; width: 80%;">
+            </div>
+              </div>
+          <div class="col-lg-1"></div>
       </div>
-
   </div>
 </section>
+
+
+
+<section id="ah-categories" class="flip">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>Getting to the conference location</span></div>
+   
+        <p>Monash University’s Caulfield Campus is easily accessible by public transport and car. We recommend using public transport, as parking space might be limited. </p>
+        <br><br>
+        <h4 style="color: black;" >Travelling by public transport:</h4><p>Near Monash University’s Caulfield Campus, there are several tram lines, train lines and buses that can be used. </p>
+        <br><br>
+        <h4 style="color: black;">Arriving by train:</h4><p>Caulfield station is a 3 minute walk from the conference location. The Cranbourne, Pakenham and Frankston lines stop here. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d787.3214065564424!2d145.0423073!3d-37.8770025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6698cc8ace7eb%3A0x1d04567609f501c0!2sCaulfield!5e0!3m2!1sen!2sau!4v1710237082187!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <br><br><br><br>
+        <h4 style="color: black;">Arriving by tram:</h4><p>Tram line 3 stops a 5 minute walking distance from the conference centre. Exit the tram at Caulfield Railway Station/Derby Road (Stop 57).  </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1574.6569431977048!2d145.0408581!3d-37.8763415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669f32da34eeb%3A0x5b54c293a343cb69!2sCaulfield%20Railway%20Station%2FDerby%20Rd%20%2357!5e0!3m2!1sen!2sau!4v1710237250672!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br><br><br><br>
+        <h4 style="color: black;">Arriving by bus:</h4><p>Several bus lines stop at Caulfield Train Station, which is 3 minutes from the conference location. Buslines 624 and 900 stop here. </p>
+        <br><br>
+        <h4 style="color: black;">Travel by car:</h4><p>Parking is available on campus at the Monash University Car Park, though available spots might be limited. This car park has a pay-and-display ticket system. To access this car park, navigate to: </p>
+        <p>Monash University Car Park， 11 Princes Ave， Caulfield East VIC 3145</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12597.201069618375!2d145.0432178283022!3d-37.87666004683221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669f35907b8b1%3A0x478544f3d274fc93!2sMonash%20University%20Car%20Park!5e0!3m2!1sen!2sau!4v1710237806547!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
 
 <!-- 35.5520738,139.6472578 -->
