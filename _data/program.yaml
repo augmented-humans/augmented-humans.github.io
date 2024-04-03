@@ -366,7 +366,7 @@ sessions:
 
 keynote-title: 'Opening Keynote'
 keynote: |
-  <h3 style="color:#003865;">Skill Acquisition and Transfer Systems with AI and XR for Augmented Human</h3>
+  <h3 style="color:#FFC847;">Skill Acquisition and Transfer Systems with AI and XR for Augmented Human</h3>
   <strong>Abstract:</strong> As AI has advanced significantly and begun to surpass human capabilities, the importance of human augmentation technologies to enhance human abilities has increased. Among these, skill acquisition support not only streamlines the acquisition of advanced skills by experts in various fields such as sports and music, but also contributes to the pursuit of well-being through hobby acquisition for the general public. In this presentation, we will introduce the skill acquisition support system that we are currently researching and developing. By incorporating the latest AI and XR technologies, we aim to liberate users from complex measurement environments, enable AI to explain core skills, and provide real-time intuitive feedback. Furthermore, I will discuss the ecosystem made possible by the democratization of skill acquisition support systems.
 keynote-author: |
   <strong> Prof. Hideki Koike</strong>
