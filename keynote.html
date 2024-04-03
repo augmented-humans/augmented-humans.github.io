@@ -1,0 +1,66 @@
+---
+layout: default
+title: "Augmented Humans 2024 | keynote"
+description: "keynote"
+sitemap: true
+---
+<!-- Contact Section -->
+<header class="masthead text-center text-white normal" style="background-color:#CEF1CC ;">
+    <div id="particles-js" class="masthead-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <h1 class="masthead-heading mb-0">{{ site.data.keynote.page-title }}</h1>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #003865;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.program.keynote-title }}</span></div>
+        {% assign description_paragraphs = site.data.program.keynote | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p style="text-align:justify;">{{ paragraph }}</p>
+        {% endfor %}
+        <img id="venue-img" class="" src="{{ site.data.program.keynote-img | prepend: site.url }}" style="width: 30%;"/>
+        {% assign author_paragraphs = site.data.program.keynote-author | newline_to_br | split:'<br />' %}
+        {% for paragraph in author_paragraphs %}
+        <p  style="text-align:justify;">{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="ah-categories" class="flip1" style="border-top: 5px solid #003865;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span style="color: black;">{{ site.data.program.closekeynote-title }}</span></div>
+        {% assign description_paragraphs = site.data.program.closekeynote | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p style="text-align:justify;">{{ paragraph }}</p>
+        {% endfor %}
+        <img id="venue-img" class="" src="{{ site.data.program.closekeynote-img | prepend: site.url }}" style="width: 30%;"/>
+        {% assign author_paragraphs = site.data.program.closekeynote-author | newline_to_br | split:'<br />' %}
+        {% for paragraph in author_paragraphs %}
+        <p  style="text-align:justify;">{{ paragraph }}</p>
+        {% endfor %}
+   </div>
+    <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
