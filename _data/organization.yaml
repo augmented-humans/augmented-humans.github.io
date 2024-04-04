@@ -169,6 +169,19 @@ committee:
         website: https://maying0120.github.io/
         img: /img/committee/ying_ma.jpg
 
+  - group: Student Volunteers
+    people:
+      - name: Linjia He
+        affiliation: Monash university, Australia
+        img: /img/committee/Linjia.jpg
+      - name: Kaining Zhang
+        affiliation: University of South Australia, Australia
+        img: /img/committee/kai.jpg
+      - name: Siyi Liu
+        affiliation: Monash university, Australia
+        img: /img/committee/siyi.jpg
+
+
 
   - group: Steering Committee
     people:

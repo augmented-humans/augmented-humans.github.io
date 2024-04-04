@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Augmented Humans 2024 | registration"
-description: "registration"
+title: "Augmented Humans 2024 | keynote"
+description: "keynote"
 sitemap: true
 ---
 <!-- Contact Section -->
@@ -11,7 +11,7 @@ sitemap: true
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
-                    <h1 class="masthead-heading mb-0">{{ site.data.registration.page-title }}</h1>
+                    <h1 class="masthead-heading mb-0">{{ site.data.keynote.page-title }}</h1>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -26,9 +26,9 @@ sitemap: true
           <div class="col-lg-1"></div>
           <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 0.5em;">
               <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-                  <span>{{ site.data.registration.registration-title }}</span>
+                  <span>{{ site.data.keynote.keynote-title }}</span>
               </div>
-              {% assign description_paragraphs = site.data.registration.registration | newline_to_br | split:'<br />' %}
+              {% assign description_paragraphs = site.data.keynote.keynote | newline_to_br | split:'<br />' %}
               {% for paragraph in description_paragraphs %}
               <p>{{ paragraph }}</p>
               {% endfor %}

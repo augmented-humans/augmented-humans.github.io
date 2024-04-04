@@ -387,6 +387,30 @@ description: "Program Committee"
   </div>
 </section>
 
+<section id="" class="kw-committee-section flip2 ah-organization ah-override">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
+          <span>{{ site.data.organization.student-volunteers-title }}</span>
+        </div>
+        <div class="people">
+          {% assign description_paragraphs = site.data.organization.student-volunteers %}
+          {% for paragraph in description_paragraphs %}
+          <div class="person">
+            <img class="committe-image" src="{{ paragraph.image | prepend: site.url }}" width="180px" />
+            <p><strong><strong>{{ paragraph.name }}</strong></strong><br />{{ paragraph.affiliation }}<br />{{
+              paragraph.country }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
 {% endcomment %}
 
 <section id="" class="kw-committee-section flip ah-organization ah-override">
