@@ -13,8 +13,8 @@ registration-title: Register Now
 registration: |
   Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
   Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
-  Please register for Augmented Humans 2024 using the link below.
-  <a href="https://pay.sydney.edu.au/AHs2024" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+  Please register for Augmented Humans 2025 using the link below.
+  <a href="https://pay.sydney.edu.au/AHs2025" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
 
 
 deadlines-title: Deadlines
@@ -96,13 +96,11 @@ travel-image: /img/attending/travel_to_mel1.jpg
 venue-title: Conference location
 venue: |
   The conference takes place at: 
-  Room H1.16, Building H, Caulfield Campus, Monash University
-  900 Dandenong Road
-  Caulfield East VIC 3145
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1574.6553891124004!2d145.044591!3d-37.8764142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669f498ca5f4b%3A0x181d580c1d21b551!2sCaulfield%20School%20of%20Information%20Technology!5e0!3m2!1sen!2sau!4v1710239027473!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-  Building H has two entrances: one on the side of Dandenong Road and one on the side of the Campus Walk North. Both entrances can be used to access Room H1.16. The main entry of Room H1.16 is on the side of Campus Walk North. <a href="https://www.monash.edu/__data/assets/pdf_file/0010/2658961/Caulfield-campus-map.pdf">Check the campus map</a>
-
+  MBZUAI Building
+  Masdar Institute Administration Offices 2
+  Masdar City, Abu Dhabi
+  United Arab Emirates
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.521552422867!2d54.61617197607255!3d24.43268396224013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e498b063d771d%3A0x7b3a8f08ebee4b27!2sMBZUAI%20Building!5e0!3m2!1sen!2sde!4v1731367431946!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 venue-image: /img/venue/monashaa.jpg
 
