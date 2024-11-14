@@ -2,7 +2,7 @@ page-title: <strong>C</strong>alls <strong>F</strong>or <strong>P</strong>artici
 
 about-title: About the conference
 about: |
-  The Augmented Humans (AHs) International Conference 2024 will be an in-person event, held in April 2024. More information on the time schedule will be made available soon. 
+  The Augmented Humans (AHs) International Conference 2025 will be an in-person event, held in March 2025. More information on the time schedule will be made available soon. 
   The conference focuses on physical, cognitive, and perceptual augmentation of humans through digital technologies. The plural – humans – emphasizes the move towards technologies that enhance human capabilities beyond the individual and will have the potential for impact on a societal scale.
   The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962<sup>[1]</sup>. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
@@ -13,7 +13,7 @@ cfp-title: Calls for Participation
 cfp: |
   The Augmented Humans conference offers many different possibilities for publishing, presenting, and discussing your work.
   Take a look at the <b>Calls for Participation</b> page for more information regarding the submission categories, guidelines, and more.
-  <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#FFC847'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
+  <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#c41a2e'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
 
 
 topics-title: Topics
@@ -64,7 +64,7 @@ categories: |
 instructions-title: Submission Guidelines 
 instructions: |
   
-  <strong> * Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2024">EasyChair</a>.</strong>
+  <strong> * Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2025">EasyChair</a>.</strong>
 
   <b>T</b>he <b>A</b>CM <b>P</b>ublication <b>S</b>ystem (TAPS) will be used for full papers, short papers, posters, and demos. Please be sure to read the instructions on the <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow page</a> carefully.
   
@@ -112,54 +112,54 @@ deadlines-title: Submission Deadlines and Notifications
 deadlines: |
   <table id="deadlines">
     <tr class="tr-break">
-      <td colspan="100%" style="background-color: #FFC847;"></td>
+      <td colspan="100%" style="background-color: #c41a2e;"></td>
     </tr>
 
     <tr>
       <td><strong>Full/Short Paper/</strong> Submission Deadline</td>
-      <td><s> 16th January, 2024 (AoE)</s></td> 
+      <td>16th January, 2025 (AoE)</td> 
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
-      <td><s>12th February, 2024 (AoE)</s></td> 
+      <td>13th February, 2025 (AoE)</td> 
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Camera-Ready</td>
-      <td>26th February, 2024 (AoE)</td> 
+      <td>27th February, 2025 (AoE)</td> 
     </tr>
 
         <tr class="tr-break">
-      <td colspan="100%" style="background-color: #FFC847;"></td>
+      <td colspan="100%" style="background-color: #c41a2e;"></td>
     </tr>
 
     <tr>
       <td><strong>Special Fast track</strong> Submission Deadline</td>
-      <td>26th January, 2024 (AoE)</td> 
+      <td>27th January, 2025 (AoE)</td> 
     </tr>
     <tr>
       <td><strong>Special Fast track</strong> Decisions sent to Author</td>
-      <td><s>12th February, 2024 (AoE)</s></td> 
+      <td>13th February, 2025 (AoE)</td> 
     </tr>
     <tr>
       <td><strong>Special Fast track</strong> Camera-Ready</td>
-      <td>26th February, 2024 (AoE)</td> 
+      <td>27th February, 2025 (AoE)</td> 
     </tr>
 
     <tr class="tr-break">
-      <td colspan="100%" style="background-color: #FFC847;"></td>
+      <td colspan="100%" style="background-color: #c41a2e;"></td>
     </tr>
 
     <tr>
       <td><strong>Poster/Demos/Workshop</strong> Submission Deadline</td>
-      <td><s>12th February, 2024 </s> &nbsp; 21st February, 2024 (AoE)</td> 
+      <td>13th February, 2025 (AoE)</td> 
     </tr>
     <tr>
       <td><strong>Poster/Demos/Workshop</strong> Decisions sent to Author</td>
-      <td><s>16th February, 2024 </s> &nbsp; 27th February, 2024 (AoE)</td> 
+      <td>20th February, 2025 (AoE)</td> 
     </tr>
     <tr>
       <td><strong>Poster/Demos/Workshop</strong> Camera-Ready</td>
-      <td><s>26th February, 2024 </s> &nbsp; 5th March, 2024 (AoE)</td> 
+      <td>27th February, 2025 (AoE)</td> 
     </tr>
 
     </table> 

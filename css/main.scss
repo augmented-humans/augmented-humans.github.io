@@ -33,18 +33,20 @@
 //     }
 // }
 
-$theme-background-primary: #201E20;
-$theme-background-secondary:  #E0A96D;
+$theme-background-primary: #c41a2e;
+$theme-background-secondary:  #FFF;
 $theme-background-tertiary:#FAFAFF;
 
 
-$theme-primary: #DDC3A5;
-$theme-secondary: #7869A6;
-$theme-tertiary: #E05263;
+$theme-primary: #000;
+$theme-secondary:#c41a2e;
+$theme-tertiary: #c07d85;
 $theme-offwhite: #FAFAFF;
 
 
-$theme-accent: #FAFAFF;
+$theme-accent: #c41a2e;
+
+$hyperlinks: #000;
 $color-highlight: $theme-accent;
 
 // variables.less link and gradient background
