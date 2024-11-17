@@ -736,8 +736,8 @@ header.masthead {
   overflow-x: hidden;
   padding-top: calc(0.88*5rem + 55px);
   padding-bottom: 0.88*7rem;
-  background: url('../img/assets/melb3.jpg');
-  animation: backgroundAnimation 15s linear infinite;
+  background: url('../img/assets/AugmentedHumansHeader25.png');
+  // animation: backgroundAnimation 15s linear infinite;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -747,7 +747,7 @@ header.masthead {
     padding-bottom: 0.88*1rem;
     max-height: 205px;
     padding-top: 20px;
-    background-image: none;
+    // background-image: none;
     background-color: $theme-primary;
   }
   background-repeat: no-repeat;
@@ -780,7 +780,7 @@ header.masthead {
       font-weight: 100;
       color: $theme-offwhite;
       background-color: rgba(0, 56, 101, 0.9);
-      background: linear-gradient(135deg, $theme-background-primary 60%, $theme-background-secondary 90%);
+      background: linear-gradient(135deg, #c60017 60%, #D96A6C 90%);
       border: 5px solid #fff;
 
     }
