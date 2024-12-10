@@ -8,16 +8,15 @@ committee:
         mail: anusha.withana@sydney.edu.au
         img: /img/committee/anusha_withana.jpeg
 
-      - name: Mark Billinghurst
-        affiliation: University of South Australia, Australia
-        mail: Mark.Billinghurst@unisa.edu.au
-        img: /img/committee/mark_billinghurst.jpeg
+      - name: Andrew Vargo
+        affiliation: Osaka Metropolitan University, Japan
+        mail: awv@omu.ac.jp
+        img: /img/committee/2025/andrew_vargo.jpeg
 
-
-      - name: Karola Marky
-        affiliation: Ruhr-University Bochum, Germany
-        mail: karola.marky@rub.de
-        img: /img/committee/karola_marky.jpg
+      - name: Yomna Abdelrahman
+        affiliation: Bundeswehr University Munich, Germany
+        mail: yomna.eldin@gmail.com
+        img: /img/committee/2025/yomna_abdelrahman.jpg
 
   # - group: General Chair Assistance
   #   people:
@@ -28,20 +27,20 @@ committee:
 
   - group: Program Chairs
     people:
-      - name: Zhanna Sarsenbayeva
-        affiliation: The University of Sydney, Australia
-        mail: zhanna.sarsenbayeva@sydney.edu.au
-        img: /img/committee/zhanna_sarsenbayeva.jpeg
-
-      - name: Don Samitha Elvitigala
-        affiliation: Monash University, Australia
-        mail: Don.Elvitigala@monash.edu
-        img: /img/committee/samitha_elvitigala.jpg
+      - name: Liwei Chan
+        affiliation: National Yang Ming Chiao Tung University
+        mail: liwei.name@gmail.com
+        img: /img/committee/2025/liwei_chan.jpeg
 
       - name: Benjamin Tag
         affiliation: Monash University, Australia
-        website: Benjamin.Tag@monash.edu
+        mail: Benjamin.Tag@monash.edu
         img: /img/committee/benjamin_tag.jpg
+
+      - name: Niels Henze
+        affiliation: 
+        mail: 
+        img: /img/committee/2025/niels_henze.jpg
 
   - group: Poster Chairs
     people:
@@ -49,27 +48,27 @@ committee:
       #   affiliation: LMU Munich, Germany
       #   img: /img/committee/steeven_villa.jpg
 
-      - name: Qiushi Zhou
-        affiliation: University of Melbourne, Australia
-        website: https://qiushi-zhou.github.io/
-        img: /img/committee/qiushi_zhou.jpg
+      - name: Mariam Hassib
+        affiliation: 
+        mail: mariam.hassib@gmail.com
+        img: /img/committee/2025/mariam_hassib.jpg
 
-      - name: Christopher Katins
-        affiliation: Humboldt University of Berlin, Germany
-        website: https://ckatins.de/en/
-        img: /img/committee/Christopher.jpg
+      - name: Yugo Nakamura
+        affiliation: Kyushu University, Japan
+        mail: y-nakamura@ait.kyushu-u.ac.jp
+        img: /img/committee/2025/yugo_nakamura.png
 
   - group: Demo Chairs
     people:
-      - name: Nathan Semertzidis
-        affiliation:  Institute for Social Neuroscience, Australia
-        mail: Nathan.Semertzidis1@monash.edu
-        img: /img/committee/nathan_semertzidis.jpeg
+      - name: Ko Watanabe
+        affiliation:  DFKI GmbH
+        mail: ko.watanabe@dfki.de
+        img: /img/committee/2025/ko_watanabe.png
 
-      - name: Allison Jing 
-        affiliation: RMIT University, Australia
-        mail: jing.allison@gmail.com 
-        img: /img/committee/AllisonJing.png
+      # - name: Allison Jing 
+      #   affiliation: RMIT University, Australia
+      #   mail: jing.allison@gmail.com 
+      #   img: /img/committee/AllisonJing.png
 
       # - name: Friendred Peng
       #   affiliation: University of the Arts London, United Kingdom
@@ -83,15 +82,15 @@ committee:
 
   - group: Workshop Chairs
     people:
-      - name: Josh Andres
-        affiliation: The Australian National University, Australia
-        mail: josh.andres@anu.edu.au
-        img: /img/committee/josh_andres.jpg
+      - name: Ebtisam Alabdulqader
+        affiliation: King Saud University, Saudi Arabia
+        mail: eabdulqader@ksu.edu.sa
+        img: /img/committee/2025/ebtisam_alabdulqader.jpg
 
-      - name: Yuta Sugiura
-        affiliation: Keio University, Japan
-        mail: sugiura@keio.jp
-        img: /img/committee/Yuta.jpeg
+      - name: Yi Li
+        affiliation: Monash University
+        mail: yi.li5@monash.edu
+        img: /img/committee/2025/yi_li.JPG
 
   - group: Publication Chairs
     people:
@@ -105,12 +104,12 @@ committee:
         mail: yspai1412@gmail.com
         img: /img/committee/Yun.png
 
-  - group: Local Chairs
-    people:
-      - name: Nathalie Overdevest
-        affiliation: Monash University, Australia
-        mail: Nathalie.overdevest@monash.edu
-        img: /img/committee/Nathalie.png
+  # - group: Local Chairs
+  #   people:
+  #     - name: Nathalie Overdevest
+  #       affiliation: Monash University, Australia
+  #       mail: Nathalie.overdevest@monash.edu
+  #       img: /img/committee/Nathalie.png
 
   #     #- name: Iain Christie
   #     #  affiliation: University of Glasgow, United Kingdom
@@ -128,12 +127,12 @@ committee:
   #       mail: patrizia.dicamplisanvito@glasgow.ac.uk
   #       img: /img/committee/patrizia_vito.jpg
 
-  - group: Finance Chair
-    people:
-      - name: Rakesh Patibanda
-        affiliation: Monash University, Australia
-        mail:  Rakesh.Patibanda@monash.edu
-        img: /img/committee/Rakesh.png
+  # - group: Finance Chair
+  #   people:
+      # - name: Rakesh Patibanda
+      #   affiliation: Monash University, Australia
+      #   mail:  Rakesh.Patibanda@monash.edu
+      #   img: /img/committee/Rakesh.png
 
   # - group: Sponsorship Chair
   #   people:
@@ -144,132 +143,142 @@ committee:
 
   - group: Student Volunteer Chair
     people:
-      - name: Danula Hettiachchi
-        affiliation: RMIT University, Australia
-        mail: contact@danulahettiachchi.com
-        img: /img/committee/danula_hettiachchi.jpg
+      - name: Alia Saad
+        affiliation: Essen, Germany
+        mail: aliaksaad@gmail.com
+        img: /img/committee/2025/alia_saad.jpg
 
-      - name: Jing Wei
-        affiliation: CSIRO, Australia
-        mail: jing.wei@data61.csiro.au
-        img: /img/committee/jingwei.jpeg
+      # - name: Jing Wei
+      #   affiliation: CSIRO, Australia
+      #   mail: jing.wei@data61.csiro.au
+      #   img: /img/committee/jingwei.jpeg
 
 
   - group: Social Media Chair
     people:
+      - name: Passant Elagroudy
+        affiliation: German Research Center for Artificial Intelligence (DFKI)
+        mail: passant.elagroudy@gmail.com
+        img: /img/committee/2025/passant_elagroudy.jpeg
+      
       - name: Mengxing Li
-        affiliation: Monash University, Australia
+        affiliation: Monash University
         mail: mengxing.li@monash.edu
-        img: /img/committee/mengxing_li.jpeg
+        img: /img/committee/2025/mengxing_li.jpeg
 
   - group: Web Chair
     people:
+      - name: Elhassan Makled
+        affiliation: Ilmenau University of Technology, Germany
+        website: https://mkld.me
+        img: /img/committee/2025/elhassan_makled.jpg
+
       - name: Ying Ma
         affiliation: University of Melbourne, Australia
         website: https://maying0120.github.io/
         img: /img/committee/ying_ma.jpg
 
-  - group: Student Volunteers
-    people:
-      - name: Linjia He
-        affiliation: Monash university, Australia
-        img: /img/committee/Linjia.jpg
-      - name: Kaining Zhang
-        affiliation: University of South Australia, Australia
-        img: /img/committee/kai.jpg
-      - name: Siyi Liu
-        affiliation: Monash university, Australia
-        img: /img/committee/siyi.jpg
+  # - group: Student Volunteers
+  #   people:
+  #     - name: Linjia He
+  #       affiliation: Monash university, Australia
+  #       img: /img/committee/Linjia.jpg
+  #     - name: Kaining Zhang
+  #       affiliation: University of South Australia, Australia
+  #       img: /img/committee/kai.jpg
+  #     - name: Siyi Liu
+  #       affiliation: Monash university, Australia
+  #       img: /img/committee/siyi.jpg
 
 
 
-  - group: Steering Committee
-    people:
-      - name: Thomas Kosch
-        affiliation: Humboldt University of Berlin, Germany
-      - name: Paul Strohmeier
-        affiliation: Max Planck Institute for Informatics, Germany
-      - name: Masahiko Inami
-        affiliation: The University of Tokyo, Japan
-      - name: Albrecht Schmidt
-        affiliation: LMU Munich, Germany
-      - name: Pattie Maes
-        affiliation: MIT Cambridge, USA
-      - name: Woontack Woo
-        affiliation: KAIST, Korea
-      - name: Ellen Yi-Luen Do
-        affiliation: University of Colorado Boulder, USA
-      - name: Paul Lukowicz
-        affiliation: DFKI Kaiserslautern, Germany
-      - name: Suranga Nanayakkara
-        affiliation: National University of Singapore, Singapore
-      - name: Tsutomu Terada
-        affiliation: University of Kobe, Japan
-      - name: Jun Rekimoto
-        affiliation: The University of Tokyo, Japan
-      - name: Katrin Wolf
-        affiliation: Berlin University of Applied Sciences and Technology, Germany
-      - name: Hideki Koike
-        affiliation: Tokyo Institute of Technology, Japan
-      - name: Kai Kunze
-        affiliation: Keio University, Japan
+  # - group: Steering Committee
+  #   people:
+  #     - name: Thomas Kosch
+  #       affiliation: Humboldt University of Berlin, Germany
+  #     - name: Paul Strohmeier
+  #       affiliation: Max Planck Institute for Informatics, Germany
+  #     - name: Masahiko Inami
+  #       affiliation: The University of Tokyo, Japan
+  #     - name: Albrecht Schmidt
+  #       affiliation: LMU Munich, Germany
+  #     - name: Pattie Maes
+  #       affiliation: MIT Cambridge, USA
+  #     - name: Woontack Woo
+  #       affiliation: KAIST, Korea
+  #     - name: Ellen Yi-Luen Do
+  #       affiliation: University of Colorado Boulder, USA
+  #     - name: Paul Lukowicz
+  #       affiliation: DFKI Kaiserslautern, Germany
+  #     - name: Suranga Nanayakkara
+  #       affiliation: National University of Singapore, Singapore
+  #     - name: Tsutomu Terada
+  #       affiliation: University of Kobe, Japan
+  #     - name: Jun Rekimoto
+  #       affiliation: The University of Tokyo, Japan
+  #     - name: Katrin Wolf
+  #       affiliation: Berlin University of Applied Sciences and Technology, Germany
+  #     - name: Hideki Koike
+  #       affiliation: Tokyo Institute of Technology, Japan
+  #     - name: Kai Kunze
+  #       affiliation: Keio University, Japan
 
-  - group: PC Members
-    people:
-      - name: Akishige Yuguchi
-        affiliation: Tokyo University of Science / RIKEN GRP
-      - name: Keiichi Zempo
-        affiliation: University of Tsukuba
-      - name: Maximiliane Windl
-        affiliation: LMU Munich
-      - name: Matthias Hoppe
-        affiliation: Ludwig Maximilian University of Munich
-      - name: Damien Brun
-        affiliation: University of Lapland
-      - name: Athanasios Vourvopoulos
-        affiliation: Institute for Systems and Robotics, Instituto Superior Técnico
-      - name: Nami Ogawa
-        affiliation: The University of Tokyo
-      - name: Shan-Yuan Teng
-        affiliation: University of Chicago
-      - name: Daniel Wessolek
-        affiliation: Futurium gGmbH
-      - name: Florian Müller
-        affiliation: LMU Munich
-      - name: Yuichi Kurita
-        affiliation: Hiroshima University
-      - name: Henning Pohl
-        affiliation: Aalborg University
-      - name: Jochen Huber
-        affiliation: Furtwangen University
-      - name: Zhongyi Bai
-        affiliation: The University of Sydney
-      - name: Denys J.C. Matthies
-        affiliation: Fraunhofer
-      - name: Sarah Delgado Rodriguez
-        affiliation: University of Bundeswehr, Munich
-      - name: Weiwei Jiang
-        affiliation: The University of Melbourne
-      - name: Aditya Shekhar Nittala
-        affiliation: Saarland University
-      - name: Martin Weigel
-        affiliation: Technische Hochschule Mittelhessen
-      - name: Maki Sugimoto
-        affiliation: Keio University
-      - name: Shoya Ishimaru
-        affiliation: Osaka Prefecture University
-      - name: Chaofan Wang
-        affiliation: The University of Melbourne
-      - name: Monica Perusquía-Hernández
-        affiliation: Nara Institute of Science and Technology (NAIST), NTT Communication Science Laboratories
-      - name: Ian Oakley
-        affiliation: University of Madeira
-      - name: Kristof Van Laerhoven
-        affiliation: University of Siegen
-      - name: Masaaki Mochimaru
-        affiliation: Human Augmentation Research Center, AIST
-      - name: Chu Luo
-        affiliation: The University of Melbourne
+  # - group: PC Members
+  #   people:
+  #     - name: Akishige Yuguchi
+  #       affiliation: Tokyo University of Science / RIKEN GRP
+  #     - name: Keiichi Zempo
+  #       affiliation: University of Tsukuba
+  #     - name: Maximiliane Windl
+  #       affiliation: LMU Munich
+  #     - name: Matthias Hoppe
+  #       affiliation: Ludwig Maximilian University of Munich
+  #     - name: Damien Brun
+  #       affiliation: University of Lapland
+  #     - name: Athanasios Vourvopoulos
+  #       affiliation: Institute for Systems and Robotics, Instituto Superior Técnico
+  #     - name: Nami Ogawa
+  #       affiliation: The University of Tokyo
+  #     - name: Shan-Yuan Teng
+  #       affiliation: University of Chicago
+  #     - name: Daniel Wessolek
+  #       affiliation: Futurium gGmbH
+  #     - name: Florian Müller
+  #       affiliation: LMU Munich
+  #     - name: Yuichi Kurita
+  #       affiliation: Hiroshima University
+  #     - name: Henning Pohl
+  #       affiliation: Aalborg University
+  #     - name: Jochen Huber
+  #       affiliation: Furtwangen University
+  #     - name: Zhongyi Bai
+  #       affiliation: The University of Sydney
+  #     - name: Denys J.C. Matthies
+  #       affiliation: Fraunhofer
+  #     - name: Sarah Delgado Rodriguez
+  #       affiliation: University of Bundeswehr, Munich
+  #     - name: Weiwei Jiang
+  #       affiliation: The University of Melbourne
+  #     - name: Aditya Shekhar Nittala
+  #       affiliation: Saarland University
+  #     - name: Martin Weigel
+  #       affiliation: Technische Hochschule Mittelhessen
+  #     - name: Maki Sugimoto
+  #       affiliation: Keio University
+  #     - name: Shoya Ishimaru
+  #       affiliation: Osaka Prefecture University
+  #     - name: Chaofan Wang
+  #       affiliation: The University of Melbourne
+  #     - name: Monica Perusquía-Hernández
+  #       affiliation: Nara Institute of Science and Technology (NAIST), NTT Communication Science Laboratories
+  #     - name: Ian Oakley
+  #       affiliation: University of Madeira
+  #     - name: Kristof Van Laerhoven
+  #       affiliation: University of Siegen
+  #     - name: Masaaki Mochimaru
+  #       affiliation: Human Augmentation Research Center, AIST
+  #     - name: Chu Luo
+  #       affiliation: The University of Melbourne
 
   # # - group: PC Members
   #     people: 

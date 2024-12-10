@@ -37,8 +37,8 @@ shortlinks:
   #       shortcut: /list-of-workshops
   #     - title: Mentoring
   #       shortcut: /mentoring
-  # - title: Committee
-  #   shortcut: /committee
+  - title: Committee
+    shortcut: /committee
   - title: Past conferences
     shortcut: /previous-conferences
 
