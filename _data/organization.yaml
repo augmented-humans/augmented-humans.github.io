@@ -33,7 +33,7 @@ committee:
         img: /img/committee/2025/liwei_chan.jpeg
 
       - name: Benjamin Tag
-        affiliation: Monash University, Australia
+        affiliation: University of New South Wales
         mail: Benjamin.Tag@monash.edu
         img: /img/committee/benjamin_tag.jpg
 
@@ -94,15 +94,15 @@ committee:
 
   - group: Publication Chairs
     people:
-      - name: Steeven Villa
-        affiliation: LMU Munich, Germany
-        mail: steeven.villa@ifi.lmu.de
-        img: /img/committee/steeven_villa.jpeg
+      - name: Yuki Matsuda
+        affiliation: Okayama University 
+        # mail: steeven.villa@ifi.lmu.de
+        img: /img/committee/yuki_matsuda.jpeg
 
-      - name: Yun Suen Pai
-        affiliation: University of Auckland, New Zealand
-        mail: yspai1412@gmail.com
-        img: /img/committee/Yun.png
+      # - name: Yun Suen Pai
+      #   affiliation: University of Auckland, New Zealand
+      #   mail: yspai1412@gmail.com
+      #   img: /img/committee/Yun.png
 
   # - group: Local Chairs
   #   people:
