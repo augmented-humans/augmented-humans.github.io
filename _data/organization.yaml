@@ -96,8 +96,13 @@ committee:
     people:
       - name: Yuki Matsuda
         affiliation: Okayama University 
-        # mail: steeven.villa@ifi.lmu.de
-        img: /img/committee/yuki_matsuda.jpeg
+        mail: yukimat@okayama-u.ac.jp
+        img: /img/committee/2025/yuki_matsuda.jpg
+
+      - name: Maxim Spur
+        affiliation: Brest National School of Engineering (ENIB), France
+        mail: maxim.spur@enib.fr
+        img: /img/committee/2025/maxim_spur.jpeg
 
       # - name: Yun Suen Pai
       #   affiliation: University of Auckland, New Zealand
