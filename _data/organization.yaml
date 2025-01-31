@@ -3,21 +3,20 @@ page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 committee:
   - group: General Chairs
     people:
-      - name: Anusha Withana
-        affiliation: The University of Sydney, Australia
-        mail: anusha.withana@sydney.edu.au
-        img: /img/committee/anusha_withana.jpeg
-
+      - name: Yomna Abdelrahman
+        affiliation: Bundeswehr University Munich, Germany
+        mail: yomna.eldin@gmail.com
+        img: /img/committee/2025/yomna_abdelrahman.jpg
+        
       - name: Andrew Vargo
         affiliation: Osaka Metropolitan University, Japan
         mail: awv@omu.ac.jp
         img: /img/committee/2025/andrew_vargo.jpeg
 
-      - name: Yomna Abdelrahman
-        affiliation: Bundeswehr University Munich, Germany
-        mail: yomna.eldin@gmail.com
-        img: /img/committee/2025/yomna_abdelrahman.jpg
-
+      - name: Anusha Withana
+        affiliation: The University of Sydney, Australia
+        mail: anusha.withana@sydney.edu.au
+        img: /img/committee/anusha_withana.jpeg
   # - group: General Chair Assistance
   #   people:
   #     - name: Habiba Farzand
