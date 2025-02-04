@@ -201,36 +201,36 @@ committee:
 
 
 
-  # - group: Steering Committee
-  #   people:
-  #     - name: Thomas Kosch
-  #       affiliation: Humboldt University of Berlin, Germany
-  #     - name: Paul Strohmeier
-  #       affiliation: Max Planck Institute for Informatics, Germany
-  #     - name: Masahiko Inami
-  #       affiliation: The University of Tokyo, Japan
-  #     - name: Albrecht Schmidt
-  #       affiliation: LMU Munich, Germany
-  #     - name: Pattie Maes
-  #       affiliation: MIT Cambridge, USA
-  #     - name: Woontack Woo
-  #       affiliation: KAIST, Korea
-  #     - name: Ellen Yi-Luen Do
-  #       affiliation: University of Colorado Boulder, USA
-  #     - name: Paul Lukowicz
-  #       affiliation: DFKI Kaiserslautern, Germany
-  #     - name: Suranga Nanayakkara
-  #       affiliation: National University of Singapore, Singapore
-  #     - name: Tsutomu Terada
-  #       affiliation: University of Kobe, Japan
-  #     - name: Jun Rekimoto
-  #       affiliation: The University of Tokyo, Japan
-  #     - name: Katrin Wolf
-  #       affiliation: Berlin University of Applied Sciences and Technology, Germany
-  #     - name: Hideki Koike
-  #       affiliation: Tokyo Institute of Technology, Japan
-  #     - name: Kai Kunze
-  #       affiliation: Keio University, Japan
+  - group: Steering Committee
+    people:
+      - name: Thomas Kosch
+        affiliation: Humboldt University of Berlin, Germany
+      - name: Paul Strohmeier
+        affiliation: Max Planck Institute for Informatics, Germany
+      - name: Masahiko Inami
+        affiliation: The University of Tokyo, Japan
+      - name: Albrecht Schmidt
+        affiliation: LMU Munich, Germany
+      - name: Pattie Maes
+        affiliation: MIT Cambridge, USA
+      - name: Woontack Woo
+        affiliation: KAIST, Korea
+      - name: Ellen Yi-Luen Do
+        affiliation: University of Colorado Boulder, USA
+      - name: Paul Lukowicz
+        affiliation: DFKI Kaiserslautern, Germany
+      - name: Suranga Nanayakkara
+        affiliation: National University of Singapore, Singapore
+      - name: Tsutomu Terada
+        affiliation: University of Kobe, Japan
+      - name: Jun Rekimoto
+        affiliation: The University of Tokyo, Japan
+      - name: Katrin Wolf
+        affiliation: Berlin University of Applied Sciences and Technology, Germany
+      - name: Hideki Koike
+        affiliation: Tokyo Institute of Technology, Japan
+      - name: Kai Kunze
+        affiliation: Keio University, Japan
 
   # - group: PC Members
   #   people:
