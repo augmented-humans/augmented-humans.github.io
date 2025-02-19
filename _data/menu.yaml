@@ -16,15 +16,30 @@ shortlinks:
         shortcut: /call-for-demos
       - title: Call for Posters
         shortcut: /call-for-posters
+      - title: Student Volunteers
+        shortcut: /student-volunteer
+  - title: Attending
+    shortcut: /attending
+    sublinks:
+      # - title: Registration
+      #   shortcut: /registration
+      - title: Location
+        shortcut: /location
+      - title: Travel
+        shortcut: /travel
+        # sublinks:
+        # - title: Visa
+        #   shortcut: /visa
+        # - title: Guidelines
+        #   shortcut: /guidelines
+      - title: Hotels & Transportation
+        shortcut: /hotels
   # - title: Attending
   #   shortcut: /attending
   #   sublinks:
   #     - title: Registration
-  #       shortcut: /registration
-  #     - title: Location
-  #       shortcut: /location
-  - title: Location
-    shortcut: /location
+  #       shortcult:/registration
+  #     - title: 
 
       
       #  shortcut: https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017

@@ -1,0 +1,54 @@
+page-title: <strong>H</strong>otels & <strong>T</strong>ransportation
+
+hotels-title: Recommendation for hotels
+hotels: | 
+  <div id="hotels">
+  <p>For booking with the below rates please get in touch with Bin Ham travel agency bht.ops@binham.travel indicating your participation in Ahs2025.</p>
+  <table>
+    <tr>
+        <th>Hotel Name</th>
+        <th>Room Type</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Novotel Abu Dhabi Gate<br>⭐️⭐️⭐️⭐️</td>
+        <td>Superior Single Room</td>
+        <td>AED 400</td>
+    </tr>
+    <tr>
+        <td>Superior Double Room</td>
+        <td>AED 400</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Park Rotana Abu Dhabi<br>⭐️⭐️⭐️⭐️⭐️</td>
+        <td>Deluxe Single Room</td>
+        <td>AED 400</td>
+    </tr>
+    <tr>
+        <td>Deluxe Double Room</td>
+        <td>AED 450</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Park Inn Radisson Yas Island<br>⭐️⭐️⭐️</td>
+        <td>Classic Single Room</td>
+        <td>AED 450</td>
+    </tr>
+    <tr>
+        <td>Classic Double Room</td>
+        <td>AED 450</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Marriott Al Forsan<br>⭐️⭐️⭐️⭐️⭐️</td>
+        <td>Standard Single Room</td>
+        <td>AED 500</td>
+    </tr>
+    <tr>
+        <td>Standard Double Room</td>
+        <td>AED 500</td>
+    </tr>
+  </table>
+  <ul>
+    <li>Prices are per room per night.</li>
+    <li>Prices may be subject to change upon booking.</li>
+  </ul>
+  </div>

@@ -1,0 +1,38 @@
+---
+layout: default
+title: "Augmented Humans 2025 | Travel"
+description: "Travel"
+sitemap: true
+---
+<!-- Contact Section -->
+<header class="masthead text-center text-white normal" style="background-color:#CEF1CC ;">
+    <div id="particles-js" class="masthead-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <h1 class="masthead-heading mb-0">{{ site.data.travel.page-title }}</h1>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<section id="ah-categories" class="flip1" style="border-top: 5px solid #FFC847;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.travel.visa-title }}</span></div>
+        {% assign description_paragraphs = site.data.travel.visa | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>

@@ -1764,6 +1764,35 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   }
 }
 
+#hotels {
+  table {
+      // border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 40px;
+
+  }
+
+  td,th {
+      // text-align: left;
+      padding: 16px;
+      color: #c41a2e;
+      font-size: larger;
+      border: 2px solid black;
+  }
+
+  .tr-break {
+    background-color: $theme-background-tertiary;
+  }
+
+  ul{
+    color: #c41a2e;
+  }
+
+  p{
+    color:black;
+  }
+}
+
 #sessions {
   table {
       // border-collapse: collapse;

@@ -1,0 +1,91 @@
+---
+layout: default
+title: "Augmented Humans 2025 | Student Volunteer"
+description: "Student Volunteer"
+sitemap: true
+---
+<!-- Contact Section -->
+<header class="masthead text-center text-white normal" style="background-color:#CEF1CC ;">
+    <div id="particles-js" class="masthead-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <h1 class="masthead-heading mb-0">{{ site.data.student-volunteers.page-title }}</h1>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.student-volunteers.application-instructions-title }}</span></div>
+        {% assign description_paragraphs = site.data.student-volunteers.application-instructions | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip" style="border-top: 5px solid #FFC847;">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+            <span>{{ site.data.student-volunteers.duties-title }}</span></div>
+            {% assign description_paragraphs = site.data.student-volunteers.duties | newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+        
+        </div>
+        <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+            <span>{{ site.data.student-volunteers.arriving-title }}</span></div>
+          {% assign description_paragraphs = site.data.student-volunteers.arriving | newline_to_br | split:'<br />' %}
+          {% for paragraph in description_paragraphs %}
+          <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="ah-categories" class="flip" style="border-top: 5px solid #FFC847;">
+      <div class="container">
+          <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+              <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+              <span>{{ site.data.student-volunteers.acommodation-title }}</span></div>
+              {% assign description_paragraphs = site.data.student-volunteers.accomodation | newline_to_br | split:'<br />' %}
+              {% for paragraph in description_paragraphs %}
+              <p>{{ paragraph }}</p>
+              {% endfor %}
+          
+          </div>
+          <div class="col-lg-1"></div>
+          </div>
+      </div>
+  </section>
