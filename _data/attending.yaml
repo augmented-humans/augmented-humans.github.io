@@ -9,213 +9,214 @@ page-title: <strong>A</strong>ttending
 #  <br>
 
 # Placeholder
-registration-title: Register Now
+registration-title: Registration and Prices
 registration: |
-  Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
-  Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
-  Please register for Augmented Humans 2025 using the link below.
-  <a href="https://pay.sydney.edu.au/AHs2025" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+  More information regarding registration and prices will be shared soon.
+# Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
+# Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
+# Please register for Augmented Humans 2025 using the link below.
+# <a href="https://pay.sydney.edu.au/AHs2025" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
 
 
-deadlines-title: Deadlines
-deadlines: |
-  Early Registration: Before 20th March 2024
-  Standard Registration: 20th March 2024 to 3rd April 2024
-  On-Site: 4th to 6th April 2024  
+# deadlines-title: Deadlines
+# deadlines: |
+#   Early Registration: Before 20th March 2024
+#   Standard Registration: 20th March 2024 to 3rd April 2024
+#   On-Site: 4th to 6th April 2024  
 
 
-price-title: Price
-price: |
-  <table id="deadlines">
+# price-title: Price
+# price: |
+#   <table id="deadlines">
 
-    <tr>
-      <td><strong>Type</strong></td>
-      <td><strong>Early</strong></td>
-      <td><strong>Standard</strong></td>
-      <td><strong>On-Site</strong></td>
-    </tr>
+#     <tr>
+#       <td><strong>Type</strong></td>
+#       <td><strong>Early</strong></td>
+#       <td><strong>Standard</strong></td>
+#       <td><strong>On-Site</strong></td>
+#     </tr>
     
-    <tr class="tr-break">
-      <td colspan="100%" style="background-color: #FFC847;"></td>
-    </tr>
+#     <tr class="tr-break">
+#       <td colspan="100%" style="background-color: #FFC847;"></td>
+#     </tr>
 
-    <tr>
-      <td><strong>Professional</strong></td>
-      <td><strong>750</strong></td>
-      <td><strong>900</strong></td>
-      <td><strong>1000</strong></td>
-    </tr>
+#     <tr>
+#       <td><strong>Professional</strong></td>
+#       <td><strong>750</strong></td>
+#       <td><strong>900</strong></td>
+#       <td><strong>1000</strong></td>
+#     </tr>
 
-    <tr>
-      <td><strong>Students</strong></td>
-      <td><strong>500</strong></td>
-      <td><strong>650</strong></td>
-      <td><strong>800</strong></td>
-    </tr>
-
-
-    <tr>
-      <td><strong>Workshop Only </strong></td>
-      <td><strong>150</strong></td>
-      <td><strong>150</strong></td>
-      <td><strong>150</strong></td>
-    </tr>
-
-    <tr>
-      <td><strong> Online Only (Zoom)  </strong></td>
-      <td><strong>100</strong></td>
-      <td><strong>100</strong></td>
-      <td><strong>100</strong></td>
-    </tr>
+#     <tr>
+#       <td><strong>Students</strong></td>
+#       <td><strong>500</strong></td>
+#       <td><strong>650</strong></td>
+#       <td><strong>800</strong></td>
+#     </tr>
 
 
-    </table> 
+#     <tr>
+#       <td><strong>Workshop Only </strong></td>
+#       <td><strong>150</strong></td>
+#       <td><strong>150</strong></td>
+#       <td><strong>150</strong></td>
+#     </tr>
 
-visa-title: Visa Information
-visa: |
-  We can supply visa letters for you to attend AHs if you provide us with the following information:
-  •	Your full name
-  •	Your position (for example “PhD student”)
-  •	Your full affiliation
-  • Registration number and Passport number
-  •	Whether you are presenting a paper or just attending the conference
-  •	If you are presenting a paper, the title of the paper
+#     <tr>
+#       <td><strong> Online Only (Zoom)  </strong></td>
+#       <td><strong>100</strong></td>
+#       <td><strong>100</strong></td>
+#       <td><strong>100</strong></td>
+#     </tr>
+
+
+#     </table> 
+
+# visa-title: Visa Information
+# visa: |
+#   We can supply visa letters for you to attend AHs if you provide us with the following information:
+#   •	Your full name
+#   •	Your position (for example “PhD student”)
+#   •	Your full affiliation
+#   • Registration number and Passport number
+#   •	Whether you are presenting a paper or just attending the conference
+#   •	If you are presenting a paper, the title of the paper
 
 
 
 
-travel-title: Getting around in Melbourne
-travel: |
+# travel-title: Getting around in Melbourne
+# travel: |
   
-  Welcome to Melbourne, Australia!
-  Melbourne is Australia's mecca for all things trendy and tasty. The city offers up exquisite dining, exhilarating sport and abundant opportunities to experience art.
-  A perfect blend of rich cultural history and new age trends is waiting for you in Melbourne. As the sun goes down, the city comes to life with a vibrant dining scene as well as events and exhibitions. Explore its bustling laneways, trendy neighbourhoods and sophisticated foodie scene to get a taste of what Melbourne is all about.
-  If you’re extending your stay, plan your trip at: <a href="https://www.australia.com/en/places/melbourne-and-surrounds/guide-to-melbourne.html" style="color:#286090;" target="_blank">Guide to Melbourne.</a> 
-travel-image: /img/attending/travel_to_mel1.jpg
+#   Welcome to Melbourne, Australia!
+#   Melbourne is Australia's mecca for all things trendy and tasty. The city offers up exquisite dining, exhilarating sport and abundant opportunities to experience art.
+#   A perfect blend of rich cultural history and new age trends is waiting for you in Melbourne. As the sun goes down, the city comes to life with a vibrant dining scene as well as events and exhibitions. Explore its bustling laneways, trendy neighbourhoods and sophisticated foodie scene to get a taste of what Melbourne is all about.
+#   If you’re extending your stay, plan your trip at: <a href="https://www.australia.com/en/places/melbourne-and-surrounds/guide-to-melbourne.html" style="color:#286090;" target="_blank">Guide to Melbourne.</a> 
+# travel-image: /img/attending/travel_to_mel1.jpg
 
-venue-title: Conference location
-venue: |
-  The conference takes place at: 
-  MBZUAI Building
-  Masdar Institute Administration Offices 2
-  Masdar City, Abu Dhabi
-  United Arab Emirates
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.521552422867!2d54.61617197607255!3d24.43268396224013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e498b063d771d%3A0x7b3a8f08ebee4b27!2sMBZUAI%20Building!5e0!3m2!1sen!2sde!4v1731367431946!5m2!1sen!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+# venue-title: Conference location
+# venue: |
+#   The conference takes place at: 
+#   MBZUAI Building
+#   Masdar Institute Administration Offices 2
+#   Masdar City, Abu Dhabi
+#   United Arab Emirates
+#   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.521552422867!2d54.61617197607255!3d24.43268396224013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e498b063d771d%3A0x7b3a8f08ebee4b27!2sMBZUAI%20Building!5e0!3m2!1sen!2sde!4v1731367431946!5m2!1sen!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-venue-image: /img/venue/monashaa.jpg
-
-
-accessibility-title: Accessibility
-accessibility: |
-  If you have any accessibility needs, please indicate them through the conference registration form, and we'll be in touch to see how we can help.
-  The <a href="https://www.gla.ac.uk/research/arc/accessibility/">conference venue has a range of accessibility options</a>, including step-free access, accessible toilets, baby feeding/changing facilities, and induction loops for hearing systems.
-  Beyond the ARC, access guides for a variety of attractions and locations in Glasgow can be found via <a href="https://www.accessable.co.uk/glasgow-city-council">AcessAble</a>.
-  Contact our Accessibility Chair <a href="mailto:Patrizia.DiCampliSanVito@glasgow.ac.uk">Patrizia Di Campli San Vito</a> if you have any queries here. 
-
-arriving-plane-title: Arriving by Plane 
-arriving-plane: |
-  When you arrive at either Melbourne Tullamarine Airport or Avalon Airport, you can either use a taxi or Uber to reach Melbourne CBD or the conference location. Taxi fares from Tullamarine Airport to Melbourne CBD are around AU$90.00, to Caulfield would be around AU$110.00.
-  Another option is using SkyBus. This bus service operates from both Tullamarine Airport and Avalon Airport, stopping at Southern Cross Station in Melbourne CBD. From Southern Cross Station, you can easily travel onwards using public transport. SkyBus services run on the following schedule:
-  • Tullamarine Airport: every 10 minutes, between 4:00 am and 1:00 am;
-  • Avalon Airport: every arriving and departing flight. 
-  In order to use SkyBus, you need to buy a ticket at the SkyBus Kiosk at the airport arrival hall, or online: <a href="https://www.skybus.com.au/buy-tickets/" style="color:#286090;" target="_blank">Buy Tickets.</a>
-# arriving-plane-image: /img/attending/travel-scotland.png
-
-arriving-train-title: Using public transport
-arriving-train: |
- In order to access public transport, you need a Myki card. With this prepaid card, you gain access to all trams, buses, and local trains. You can buy a Myki card at: 
- • All 7/11 shops;
- • All train stations
- • The Melbourne Airport Tullamarine Arrival Hall;
- • And many other shops.
-
- In order to use the Myki card, you need to top up. You can use credit cards, debit cards and cash to do so. Top up machines can be found at all train stations and all Myki outlets. The standard fare is AU$5.30 for 2 hours of travel, with a maximum daily fare of AU$10.60.  <a href="https://www.ptv.vic.gov.au/tickets/myki/buy-a-myki-and-top-up/where-to-buy-and-top-up/" style="color:#286090;" target="_blank">More Info</a>.
-
- When using public transport, you always need to tap on and off with you Myki, unless: 
- • You are travelling by tram: then only tapping on is needed. 
- • You are travelling within the Free Tram Zone: no tapping on/off is needed here. The Free Tram Zone encapsulates most of Melbourne’s CBD area. The conference location is outside of the Free Tram Zone. For the map of the Free Tram Zone, see:  <a href="https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/Free-Tram-Zone-Map-Map-2023.pdf" style="color:#286090;" target="_blank">Map</a>.
-
- For the most up to date information and to plan your travels, you can use Google Maps or the Public Transport Victoria (PTV) app:   <a href="https://www.ptv.vic.gov.au/footer/about-ptv/digital-tools/mobile-apps/" style="color:#286090;" target="_blank">App</a>.
-
-# arriving-train-image: /img/attending/travel-uk.png
+# venue-image: /img/venue/monashaa.jpg
 
 
-conference-title: Getting to the conference location
-conference-subtitle: |
-  Monash University’s Caulfield Campus is easily accessible by public transport and car. We recommend using public transport, as parking space might be limited. 
+# accessibility-title: Accessibility
+# accessibility: |
+#   If you have any accessibility needs, please indicate them through the conference registration form, and we'll be in touch to see how we can help.
+#   The <a href="https://www.gla.ac.uk/research/arc/accessibility/">conference venue has a range of accessibility options</a>, including step-free access, accessible toilets, baby feeding/changing facilities, and induction loops for hearing systems.
+#   Beyond the ARC, access guides for a variety of attractions and locations in Glasgow can be found via <a href="https://www.accessable.co.uk/glasgow-city-council">AcessAble</a>.
+#   Contact our Accessibility Chair <a href="mailto:Patrizia.DiCampliSanVito@glasgow.ac.uk">Patrizia Di Campli San Vito</a> if you have any queries here. 
+
+# arriving-plane-title: Arriving by Plane 
+# arriving-plane: |
+#   When you arrive at either Melbourne Tullamarine Airport or Avalon Airport, you can either use a taxi or Uber to reach Melbourne CBD or the conference location. Taxi fares from Tullamarine Airport to Melbourne CBD are around AU$90.00, to Caulfield would be around AU$110.00.
+#   Another option is using SkyBus. This bus service operates from both Tullamarine Airport and Avalon Airport, stopping at Southern Cross Station in Melbourne CBD. From Southern Cross Station, you can easily travel onwards using public transport. SkyBus services run on the following schedule:
+#   • Tullamarine Airport: every 10 minutes, between 4:00 am and 1:00 am;
+#   • Avalon Airport: every arriving and departing flight. 
+#   In order to use SkyBus, you need to buy a ticket at the SkyBus Kiosk at the airport arrival hall, or online: <a href="https://www.skybus.com.au/buy-tickets/" style="color:#286090;" target="_blank">Buy Tickets.</a>
+# # arriving-plane-image: /img/attending/travel-scotland.png
+
+# arriving-train-title: Using public transport
+# arriving-train: |
+#  In order to access public transport, you need a Myki card. With this prepaid card, you gain access to all trams, buses, and local trains. You can buy a Myki card at: 
+#  • All 7/11 shops;
+#  • All train stations
+#  • The Melbourne Airport Tullamarine Arrival Hall;
+#  • And many other shops.
+
+#  In order to use the Myki card, you need to top up. You can use credit cards, debit cards and cash to do so. Top up machines can be found at all train stations and all Myki outlets. The standard fare is AU$5.30 for 2 hours of travel, with a maximum daily fare of AU$10.60.  <a href="https://www.ptv.vic.gov.au/tickets/myki/buy-a-myki-and-top-up/where-to-buy-and-top-up/" style="color:#286090;" target="_blank">More Info</a>.
+
+#  When using public transport, you always need to tap on and off with you Myki, unless: 
+#  • You are travelling by tram: then only tapping on is needed. 
+#  • You are travelling within the Free Tram Zone: no tapping on/off is needed here. The Free Tram Zone encapsulates most of Melbourne’s CBD area. The conference location is outside of the Free Tram Zone. For the map of the Free Tram Zone, see:  <a href="https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/Free-Tram-Zone-Map-Map-2023.pdf" style="color:#286090;" target="_blank">Map</a>.
+
+#  For the most up to date information and to plan your travels, you can use Google Maps or the Public Transport Victoria (PTV) app:   <a href="https://www.ptv.vic.gov.au/footer/about-ptv/digital-tools/mobile-apps/" style="color:#286090;" target="_blank">App</a>.
+
+# # arriving-train-image: /img/attending/travel-uk.png
 
 
-arriving-car-title: Arriving by Car
-arriving-car: |
-  While it is possible to arrive by car, we strongly advise against it, since there will be a lot of traffic, as well as only a few and expensive parking options.
+# conference-title: Getting to the conference location
+# conference-subtitle: |
+#   Monash University’s Caulfield Campus is easily accessible by public transport and car. We recommend using public transport, as parking space might be limited. 
 
-hotels-title: Hotels
-hotels: |
-  There are a number of hotels within the vicinity of the ARC, including:
-  • Glasgow Grosvenor Hotel: <a href="https://www.gghotel.co.uk/">https://www.gghotel.co.uk</a> (10% discount available via <a href="https://direct-book.com/properties/glasgowgrosvenor?locale=en&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&currency=GBP&checkInDate=2023-01-20&checkOutDate=2023-01-21&trackPage=yes&promocode=UNI001">this link</a>)
-  • Argyll Western Hotel: <a href="https://www.argyllwestern.co.uk/">https://www.argyllwestern.co.uk</a>
-  • Ambassador Hotel: <a href="https://ambassador-hotel.net/">https://ambassador-hotel.net</a>
-  • Albion Hotel: <a href="https://albion-hotel.net/">https://albion-hotel.net</a>
-  • Argyll Hotel: <a href="https://www.argyllhotelglasgow.co.uk/">https://argyllhotelglasgow.co.uk</a>
-  • Sandyford Hotel: <a href="http://www.sandyfordhotelglasgow.com/">http://sandyfordhotelglasgow.com</a>
 
-food-drink-title: Conference Dinner
-food-drink: |
+# arriving-car-title: Arriving by Car
+# arriving-car: |
+#   While it is possible to arrive by car, we strongly advise against it, since there will be a lot of traffic, as well as only a few and expensive parking options.
+
+# hotels-title: Hotels
+# hotels: |
+#   There are a number of hotels within the vicinity of the ARC, including:
+#   • Glasgow Grosvenor Hotel: <a href="https://www.gghotel.co.uk/">https://www.gghotel.co.uk</a> (10% discount available via <a href="https://direct-book.com/properties/glasgowgrosvenor?locale=en&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&currency=GBP&checkInDate=2023-01-20&checkOutDate=2023-01-21&trackPage=yes&promocode=UNI001">this link</a>)
+#   • Argyll Western Hotel: <a href="https://www.argyllwestern.co.uk/">https://www.argyllwestern.co.uk</a>
+#   • Ambassador Hotel: <a href="https://ambassador-hotel.net/">https://ambassador-hotel.net</a>
+#   • Albion Hotel: <a href="https://albion-hotel.net/">https://albion-hotel.net</a>
+#   • Argyll Hotel: <a href="https://www.argyllhotelglasgow.co.uk/">https://argyllhotelglasgow.co.uk</a>
+#   • Sandyford Hotel: <a href="http://www.sandyfordhotelglasgow.com/">http://sandyfordhotelglasgow.com</a>
+
+# food-drink-title: Conference Dinner
+# food-drink: |
   
-  Dinner at Melbourne Racing Club
-  • Caulfield Committee Room - Level 3
+#   Dinner at Melbourne Racing Club
+#   • Caulfield Committee Room - Level 3
 
 
-food-drink-image: /img/attending/conference.png
+# food-drink-image: /img/attending/conference.png
 
-what-to-do-title: What to Do in Glasgow
-what-to-do: |
+# what-to-do-title: What to Do in Glasgow
+# what-to-do: |
   
-  Glasgow has a wide variety of museums and sights you may want to take in when you visit. Here are some itineraries and links to help you on your way:
-  • <a href="https://glasgowconventionbureau.com/media/2669/explore-the-west-end.pdf">West End itinerary</a> - covering the area around the conference venue, including famous landmarks like the Hunterian Museum, UoG’s Gilbert Scott Building (built 1891), and the Kelvingrove Art Gallery & Museum - all must sees!
-  • <a href="https://glasgowconventionbureau.com/media/2769/explore-the-city-centre.pdf">City Centre itinerary</a>
-  • <a href="https://peoplemakeglasgow.com/trip-inspiration/gateway-to-scotland/whisky-and-distilleries">Whisky and distillery tours</a> and <a href="https://peoplemakeglasgow.com/things-to-do/tours">other tours around the city</a>
-  • <a href="https://www.glasgowlife.org.uk/museums">Museums</a>
-  • <a href="https://www.lonelyplanet.com/scotland/glasgow">Lonely Planet guide to Glasgow</a>
-  • <a href="https://www.roughguides.com/articles/glasgow-an-insiders-guide/?redirect_n">Rough Guides guide to Glasgow</a>
-  • <a href="https://www.visitscotland.com/">VisitScotland</a>
-  • <a href="https://www.tripadvisor.co.uk/Tourism-g186534-Glasgow_Scotland-Vacations.html">Tripadvisor</a>
-  • <a href="https://peoplemakeglasgow.com/see-do/glasgow-for-music-lovers/scottish-music-experiences">Scottish music</a>, <a href="https://www.thepipingcentre.co.uk/visit/concerts/concerts">piping concerts</a> and <a href="https://www.visitscotland.com/about/uniquely-scottish/bagpipes-traditional-music-ceilidhs/">ceilidhs</a>
-  • Glasgow and Edinburgh both also have a number of theatres and concert halls e.g. the <a href="https://www.whatsonstage.com/shows/glasgow-theatre">Theatre Royal, Kings Theatre</a>, <a href="https://www.capitaltheatres.com/whats-on">Edinburgh Festival Theatre</a> etc. 
-what-to-do-image: /img/attending/glasgow.png
+#   Glasgow has a wide variety of museums and sights you may want to take in when you visit. Here are some itineraries and links to help you on your way:
+#   • <a href="https://glasgowconventionbureau.com/media/2669/explore-the-west-end.pdf">West End itinerary</a> - covering the area around the conference venue, including famous landmarks like the Hunterian Museum, UoG’s Gilbert Scott Building (built 1891), and the Kelvingrove Art Gallery & Museum - all must sees!
+#   • <a href="https://glasgowconventionbureau.com/media/2769/explore-the-city-centre.pdf">City Centre itinerary</a>
+#   • <a href="https://peoplemakeglasgow.com/trip-inspiration/gateway-to-scotland/whisky-and-distilleries">Whisky and distillery tours</a> and <a href="https://peoplemakeglasgow.com/things-to-do/tours">other tours around the city</a>
+#   • <a href="https://www.glasgowlife.org.uk/museums">Museums</a>
+#   • <a href="https://www.lonelyplanet.com/scotland/glasgow">Lonely Planet guide to Glasgow</a>
+#   • <a href="https://www.roughguides.com/articles/glasgow-an-insiders-guide/?redirect_n">Rough Guides guide to Glasgow</a>
+#   • <a href="https://www.visitscotland.com/">VisitScotland</a>
+#   • <a href="https://www.tripadvisor.co.uk/Tourism-g186534-Glasgow_Scotland-Vacations.html">Tripadvisor</a>
+#   • <a href="https://peoplemakeglasgow.com/see-do/glasgow-for-music-lovers/scottish-music-experiences">Scottish music</a>, <a href="https://www.thepipingcentre.co.uk/visit/concerts/concerts">piping concerts</a> and <a href="https://www.visitscotland.com/about/uniquely-scottish/bagpipes-traditional-music-ceilidhs/">ceilidhs</a>
+#   • Glasgow and Edinburgh both also have a number of theatres and concert halls e.g. the <a href="https://www.whatsonstage.com/shows/glasgow-theatre">Theatre Royal, Kings Theatre</a>, <a href="https://www.capitaltheatres.com/whats-on">Edinburgh Festival Theatre</a> etc. 
+# what-to-do-image: /img/attending/glasgow.png
 
-beyond-glasgow-title: Beyond Glasgow
-beyond-glasgow: |
+# beyond-glasgow-title: Beyond Glasgow
+# beyond-glasgow: |
   
-  Glasgow is also a fantastic base to visit the rest of Scotland. There are lots of great options here for sightseeing, including:
-  • <a href="https://trustinthepark.org/visitor-transport/3150-2/">sustainable days out from Glasgow</a> that can be reached by train alone
-  • visits to nearby cities (e.g. Edinburgh, Stirling)
-  • country parks (e.g. <a href="https://burrellcollection.com/">Pollock Park and the Burrell Collection</a>) 
-  • escapes to nature (e.g. Loch Lomond - <a href="https://www.walkhighlands.co.uk/lochlomond/conic-hill.shtml">climb Conic Hill at Balloch for incredible views</a>!)
-  • to trips further afield (e.g. <a href="https://www.oban.org.uk/">Oban</a>, the unofficial capital of the West Highlands and the gateway to the Hebridean Isles)
-beyond-glasgow-image: /img/attending/beyond.png
+#   Glasgow is also a fantastic base to visit the rest of Scotland. There are lots of great options here for sightseeing, including:
+#   • <a href="https://trustinthepark.org/visitor-transport/3150-2/">sustainable days out from Glasgow</a> that can be reached by train alone
+#   • visits to nearby cities (e.g. Edinburgh, Stirling)
+#   • country parks (e.g. <a href="https://burrellcollection.com/">Pollock Park and the Burrell Collection</a>) 
+#   • escapes to nature (e.g. Loch Lomond - <a href="https://www.walkhighlands.co.uk/lochlomond/conic-hill.shtml">climb Conic Hill at Balloch for incredible views</a>!)
+#   • to trips further afield (e.g. <a href="https://www.oban.org.uk/">Oban</a>, the unofficial capital of the West Highlands and the gateway to the Hebridean Isles)
+# beyond-glasgow-image: /img/attending/beyond.png
 
-# <h4>Early Registration</h4>
-  # Non-Student: ¥15,000
-  # Student: ¥10,000
-  # <br>
+# # <h4>Early Registration</h4>
+#   # Non-Student: ¥15,000
+#   # Student: ¥10,000
+#   # <br>
 
-  # <h4>Late Registration</h4>
-  # Non-Student: ¥20,000
-  # Student: ¥12,000
-  # <br>
+#   # <h4>Late Registration</h4>
+#   # Non-Student: ¥20,000
+#   # Student: ¥12,000
+#   # <br>
 
-  # <h4>Special Session</h4>
-  # Organizing Fee: ¥200,000
-  # Application Deadline: Dec 9th, 2021
-  # <br>
+#   # <h4>Special Session</h4>
+#   # Organizing Fee: ¥200,000
+#   # Application Deadline: Dec 9th, 2021
+#   # <br>
 
 
-# registration: |
-#   All participants are required to register before attending the conference. Every accepted paper requires at least one registered author. The registration includes virtual attendance, publication, and administration costs. 
+# # registration: |
+# #   All participants are required to register before attending the conference. Every accepted paper requires at least one registered author. The registration includes virtual attendance, publication, and administration costs. 
 
-#   <b>ACM Members:</b> 100€
-#   <b>ACM Non-Members:</b> 120€
-#   <b>Students:</b> 70€
+# #   <b>ACM Members:</b> 100€
+# #   <b>ACM Non-Members:</b> 120€
+# #   <b>Students:</b> 70€
 
-#   <b><a class="page-scroll" href="https://ilmo.contio.fi/rlc/main.aspx?id=223" target="_blank">Click here</a> to register.</b>
+# #   <b><a class="page-scroll" href="https://ilmo.contio.fi/rlc/main.aspx?id=223" target="_blank">Click here</a> to register.</b>
