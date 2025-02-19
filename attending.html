@@ -20,8 +20,26 @@ sitemap: true
 
 </header>
 
+<section id="" class="flip ah-organization ah-override">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
+              <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+                  <span>{{ site.data.attending.registration-title }}</span>
+              </div>
+              {% assign description_paragraphs = site.data.attending.registration | newline_to_br | split:'<br />' %}
+              {% for paragraph in description_paragraphs %}
+              <p>{{ paragraph }}</p>
+              {% endfor %}
+          </div>
+          <div class="col-lg-1">
+          </div>
+      </div>
+  </div>
+</section>
 
-<!-- <section id="" class="flip ah-organization ah-override">
+<section id="" class="flip ah-organization ah-override">
     <div class="container">
         <div class="row">
             <div class="col-lg-1"></div>
@@ -54,26 +72,6 @@ sitemap: true
       </div>
       <div class="col-lg-1"></div>
     </div>
-  </div>
-</section>
-
- -->
-<section id="" class="flip ah-organization ah-override">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
-              <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-                  <span>{{ site.data.attending.registration-title }}</span>
-              </div>
-              {% assign description_paragraphs = site.data.attending.registration | newline_to_br | split:'<br />' %}
-              {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-              {% endfor %}
-          </div>
-          <div class="col-lg-1">
-          </div>
-      </div>
   </div>
 </section>
 
