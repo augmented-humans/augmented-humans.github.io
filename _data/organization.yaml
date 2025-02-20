@@ -37,8 +37,8 @@ committee:
         img: /img/committee/benjamin_tag.jpg
 
       - name: Niels Henze
-        affiliation: 
-        mail: 
+        affiliation: University of Regensburg
+        website: https://nhenze.net 
         img: /img/committee/2025/niels_henze.jpg
 
   - group: Poster Chairs
