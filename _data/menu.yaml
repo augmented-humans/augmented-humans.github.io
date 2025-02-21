@@ -21,8 +21,8 @@ shortlinks:
   - title: Attending
     shortcut: /attending
     sublinks:
-      # - title: Registration
-      #   shortcut: /registration
+      - title: Registration
+        shortcut: /attending
       - title: Location
         shortcut: /location
       - title: Travel
