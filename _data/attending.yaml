@@ -11,11 +11,12 @@ page-title: <strong>A</strong>ttending
 # Placeholder
 registration-title: Registration and Prices
 registration: |
-  More information regarding registration and payment will be shared soon.
-# Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
-# Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
-# Please register for Augmented Humans 2025 using the link below.
-# <a href="https://pay.sydney.edu.au/AHs2025" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+  Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
+  Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
+  Please register for Augmented Humans 2025 using the link below.
+  <a href="https://registration-augmented-humans.org/" class="btn btn-lg " style="background-color: #c41a2e; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='##c41a2e'">Click here to register</a>
+
+# More information regarding registration and payment will be shared soon.
 
 
 deadlines-title: Deadlines
