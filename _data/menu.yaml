@@ -43,8 +43,8 @@ shortlinks:
 
       
       #  shortcut: https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017
-  # - title: Program
-  #   shortcut: /program
+  - title: Program
+    shortcut: /program
   #   sublinks:
   #     - title: Keynote
   #       shortcut: /keynote

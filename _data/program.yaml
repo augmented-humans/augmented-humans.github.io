@@ -9,28 +9,28 @@ page-title: <strong>P</strong>rogram
 #    <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Download PDF</a>
 
 program-title: Program Schedule
-program: The schedule of the sessions themselves can be found directly below.
+program: This year’s Augmented Humans Conference takes place over 5 days to facilitate the programme. Each conference day ends at 14:00 to be in accordance with University working hours during Ramadan.
 
-awards-title: Awards
-awards: |
-  <h3 style="color: #FFC847;">🏆 Best Paper Award</h3>
-  <strong>Real-time Slow-motion : A Framework for Slow-motion Without Deviating from Real-Time</strong>
-  <p class="authors"> Goki Muramoto, Hiroto Saito, Sohei Wakisaka and Masahiko Inami</p>
-  <img src="../img/bestpaper.png" alt="bestpapaer" style="width:23em;">
-  </br>
-  <h3 style="color: #FFC847;">🏆 Best Paper Honourable Mention </h3>
-  <strong>Serendipity Wall: A Discussion Support System Using Real-time Speech Recognition and Large Language Model</strong>
-  <p class="authors">Shota Imamura, Hirotaka Hiraki and Jun Rekimoto.</p>
-  <img src="../img/hm.png" alt="Honourable" style="width:23em;">
-  </br>
-  <h3 style="color: #FFC847;">🏆 Best Poster Award</h3>
-  <strong>Aged Eyes: Optically Simulating Presbyopia Using Tunable Lenses</strong>
-  <p class="authors">Qing Zhang, Yoshihito Kondoh, Yuta Itoh and Jun Rekimoto</p>
-  </br>
-  <h3 style="color: #FFC847;">🏆 Best Demo Award</h3>
-  <strong>Demonstrating VabricBeads</strong>
-  <p class="authors">Jefferson Pardomuan, Shio Miyafuji, Nobuhiro Takahashi and Hideki Koike</p>
-  <img src="../img/demo.png" alt="demo" style="width:23em;">
+# awards-title: Awards
+# awards: |
+#   <h3 style="color: #FFC847;">🏆 Best Paper Award</h3>
+#   <strong>Real-time Slow-motion : A Framework for Slow-motion Without Deviating from Real-Time</strong>
+#   <p class="authors"> Goki Muramoto, Hiroto Saito, Sohei Wakisaka and Masahiko Inami</p>
+#   <img src="../img/bestpaper.png" alt="bestpapaer" style="width:23em;">
+#   </br>
+#   <h3 style="color: #FFC847;">🏆 Best Paper Honourable Mention </h3>
+#   <strong>Serendipity Wall: A Discussion Support System Using Real-time Speech Recognition and Large Language Model</strong>
+#   <p class="authors">Shota Imamura, Hirotaka Hiraki and Jun Rekimoto.</p>
+#   <img src="../img/hm.png" alt="Honourable" style="width:23em;">
+#   </br>
+#   <h3 style="color: #FFC847;">🏆 Best Poster Award</h3>
+#   <strong>Aged Eyes: Optically Simulating Presbyopia Using Tunable Lenses</strong>
+#   <p class="authors">Qing Zhang, Yoshihito Kondoh, Yuta Itoh and Jun Rekimoto</p>
+#   </br>
+#   <h3 style="color: #FFC847;">🏆 Best Demo Award</h3>
+#   <strong>Demonstrating VabricBeads</strong>
+#   <p class="authors">Jefferson Pardomuan, Shio Miyafuji, Nobuhiro Takahashi and Hideki Koike</p>
+#   <img src="../img/demo.png" alt="demo" style="width:23em;">
 
 
 session-title: Session Overview

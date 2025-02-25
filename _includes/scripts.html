@@ -49,200 +49,206 @@
         end: 'week,day'
       },
       initialView: 'week',
-      initialDate: '2024-04-04',
+      initialDate: '2025-03-16',
       views: {
         week: {
           type: 'timeGrid',
-          duration: { days: 3 },
-          minTime: '08:00:00', 
+          duration: { days: 5 },
+          minTime: '08:30:00', 
         },
         day: {
           type: 'timeGrid',
           duration: { days: 1 },
-          minTime: '08:00:00', 
+          minTime: '08:30:00', 
           
         }
       },
-      scrollTime: '08:00:00',
+      scrollTime: '08:30:00',
       visibleRange: {
-        start: '2024-04-04',
-        end: '2024-04-07'
+        start: '2025-03-16',
+        end: '2025-03-21'
       },
       validRange: {
-        start: '2024-04-04',
-        end: '2024-04-07'
+        start: '2025-03-16',
+        end: '2025-03-21'
       },
       eventColor: '#FFC847',
       eventTextColor: '#000000',
       events: [
         {
           title: 'Registration',
-          start: '2024-04-04T08:30',
-          end: '2024-04-04T09:00',
+          start: '2025-03-16T08:30',
+          end: '2025-03-16T09:00',
           backgroundColor: '#8dbae8'
         },
         {
-          title: 'Opening Keynote',
-          start: '2024-04-04T09:00',
-          end: '2024-04-04T10:30',
-          backgroundColor: '#8de8ba'
+          title: 'Workshops',
+          start: '2025-03-16T09:00',
+          end: '2025-03-16T10:30',
+          backgroundColor: '#f0b378'
         },
         {
           title: 'Coffee Break',
-          start: '2024-04-04T10:30',
-          end: '2024-04-04T11:00',
+          start: '2025-03-16T10:30',
+          end: '2025-03-16T11:00',
           backgroundColor: '#E98D8D'
         },
         {
-          title: 'Paper Session 1: Wearables and Sensors 1',
-          start: '2024-04-04T11:00',
-          end: '2024-04-04T12:00'
+          title: 'Workshops',
+          start: '2025-03-16T11:00',
+          end: '2025-03-16T12:00',
+          backgroundColor: '#f0b378'
         },
 
         {
           title: 'Lunch',
-          start: '2024-04-04T12:00',
-          end: '2024-04-04T14:00',
+          start: '2025-03-16T12:00',
+          end: '2025-03-16T13:00',
           backgroundColor: '#E98D8D'
         },
 
         {
-          title: 'Paper Session 2: Extended Reality',
-          start: '2024-04-04T14:00',
-          end: '2024-04-04T15:15',
+          title: 'Workshops',
+          start: '2025-03-16T13:00',
+          end: '2025-03-16T14:00',
           backgroundColor: '#f0b378' // Assuming a new color for variety
-        },
-
-        {
-          title: 'Coffee Break',
-          start: '2024-04-04T15:15',
-          end: '2024-04-04T15:30',
-          backgroundColor: '#E98D8D'
-        },
-
-        {
-          title: 'Demos and Posters',
-          start: '2024-04-04T15:30',
-          end: '2024-04-04T16:30',
-          backgroundColor: '#8dbae8' // Reusing the registration color for consistency
-        },
-
-        {
-          title: 'Paper Session 3: Wearables and Sensors 2',
-          start: '2024-04-04T16:30',
-          end: '2024-04-04T17:30',
-          backgroundColor: '#f0b378' // Matching color to other paper sessions
-        },
-        {
-          title: 'Reception+Dinner',
-          start: '2024-04-04T18:30',
-          end: '2024-04-04T22:00',
-          backgroundColor: '#e8d28d' // A new color to signify special events
         },
         // Start of Day 2
         {
           title: 'Registration',
-          start: '2024-04-05T08:30',
-          end: '2024-04-05T09:00',
+          start: '2025-03-17T08:30',
+          end: '2025-03-17T09:00',
           backgroundColor: '#8dbae8'
         },
         {
-          title: 'Paper Session 4: Augmenting in VR',
-          start: '2024-04-05T09:00',
-          end: '2024-04-05T10:15',
-          backgroundColor: '#f0b378'
+          title: 'Opening + Keynote',
+          start: '2025-03-17T09:00',
+          end: '2025-03-17T10:30',
+          backgroundColor: '#cda1ee'
         },
         {
           title: 'Coffee Break',
-          start: '2024-04-05T10:15',
-          end: '2024-04-05T10:45',
+          start: '2025-03-17T10:30',
+          end: '2025-03-17T11:00',
           backgroundColor: '#E98D8D'
         },
         {
-          title: 'Demos and Posters',
-          start: '2024-04-05T10:45',
-          end: '2024-04-05T12:15',
-          backgroundColor: '#8dbae8'
+          title: 'Paper Session 1',
+          start: '2025-03-17T11:00',
+          end: '2025-03-17T12:00',
+          backgroundColor: '#8de8ba'
         },
         {
           title: 'Lunch',
-          start: '2024-04-05T12:15',
-          end: '2024-04-05T14:00',
+          start: '2025-03-17T12:00',
+          end: '2025-03-17T13:00',
           backgroundColor: '#E98D8D'
         },
         {
-          title: 'Paper Session 5: Learning Augmentation',
-          start: '2024-04-05T14:00',
-          end: '2024-04-05T15:00',
-          backgroundColor: '#f0b378'
-        },
-        {
-          title: 'Coffee Break',
-          start: '2024-04-05T15:00',
-          end: '2024-04-05T15:30',
-          backgroundColor: '#E98D8D'
-        },
-        {
-          title: 'Closing Remarks',
-          start: '2024-04-05T15:30',
-          end: '2024-04-05T16:30',
-          backgroundColor: '#8de8ba' // A distinct color for keynote sessions
-        },
-        {
-          title: 'Closing Keynote',
-          start: '2024-04-05T16:30',
-          end: '2024-04-05T17:00',
-          backgroundColor: '#e8d28d' // Using the special event color
+          title: 'Paper Session 2',
+          start: '2025-03-17T13:00',
+          end: '2025-03-17T14:00',
+          backgroundColor: '#8de8ba'
         },
         // Start of Day 3
         {
           title: 'Registration',
-          start: '2024-04-06T08:30',
-          end: '2024-04-06T09:00',
+          start: '2025-03-18T08:30',
+          end: '2025-03-18T09:00',
           backgroundColor: '#8dbae8'
         },
         {
-          title: 'Workshop Morning Session',
-          start: '2024-04-06T09:00',
-          end: '2024-04-06T10:30',
+          title: 'Paper Session 3',
+          start: '2025-03-18T09:00',
+          end: '2025-03-18T10:30',
           backgroundColor: '#8de8ba' // A color to signify workshops
         },
         {
           title: 'Coffee Break',
-          start: '2024-04-06T10:30',
-          end: '2024-04-06T11:00',
+          start: '2025-03-18T10:30',
+          end: '2025-03-18T11:00',
           backgroundColor: '#E98D8D'
         },
         {
-          title: 'Workshop Morning Session',
-          start: '2024-04-06T11:00',
-          end: '2024-04-06T12:30',
+          title: 'Paper Session 4',
+          start: '2025-03-18T11:00',
+          end: '2025-03-18T12:00',
           backgroundColor: '#8de8ba' // A color to signify workshops
         },
         {
           title: 'Lunch',
-          start: '2024-04-06T12:30',
-          end: '2024-04-06T14:00',
+          start: '2025-03-18T12:00',
+          end: '2025-03-18T13:00',
           backgroundColor: '#E98D8D'
         },
 
         {
-          title: 'Workshop Afternoon Session',
-          start: '2024-04-06T14:00',
-          end: '2024-04-06T15:30',
+          title: 'Paper Session 5',
+          start: '2025-03-18T13:00',
+          end: '2025-03-18T14:00',
+          backgroundColor: '#8de8ba' // A color to signify workshops
+        },
+        {
+          title: 'Banquet',
+          start: '2025-03-18T18:00',
+          end: '2025-03-18T20:00',
+          backgroundColor: '#cda1ee' // A color to signify workshops
+        },
+        // Start of Day 4
+        {
+          title: 'Registration',
+          start: '2025-03-19T08:30',
+          end: '2025-03-19T09:00',
+          backgroundColor: '#8dbae8'
+        },
+        {
+          title: 'Paper Session 6',
+          start: '2025-03-19T09:00',
+          end: '2025-03-19T10:30',
           backgroundColor: '#8de8ba' // A color to signify workshops
         },
         {
           title: 'Coffee Break',
-          start: '2024-04-06T15:30',
-          end: '2024-04-06T16:00',
+          start: '2025-03-19T10:30',
+          end: '2025-03-19T11:00',
           backgroundColor: '#E98D8D'
         },
         {
-          title: 'Workshop Afternoon Session',
-          start: '2024-04-06T16:00',
-          end: '2024-04-06T17:30',
+          title: 'Paper Session 8',
+          start: '2025-03-19T11:00',
+          end: '2025-03-19T12:00',
           backgroundColor: '#8de8ba' // A color to signify workshops
+        },
+        {
+          title: 'Demo and Poser Reception',
+          start: '2025-03-19T12:00',
+          end: '2025-03-19T14:00',
+          backgroundColor: '#f0b378'
+        },
+         // Start of Day 5
+         {
+          title: 'Registration',
+          start: '2025-03-20T08:30',
+          end: '2025-03-20T09:00',
+          backgroundColor: '#8dbae8'
+        },
+        {
+          title: 'Paper Session 9',
+          start: '2025-03-20T09:00',
+          end: '2025-03-20T10:30',
+          backgroundColor: '#8de8ba' // A color to signify workshops
+        },
+        {
+          title: 'Coffee Break',
+          start: '2025-03-20T10:30',
+          end: '2025-03-20T11:00',
+          backgroundColor: '#E98D8D'
+        },
+        {
+          title: 'Closing Keynote + Handover',
+          start: '2025-03-20T11:00',
+          end: '2025-03-20T14:00',
+          backgroundColor: '#cda1ee' // A color to signify workshops
         },
 
 
