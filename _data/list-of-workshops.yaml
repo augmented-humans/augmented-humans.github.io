@@ -1,19 +1,19 @@
 page-title: <strong>L</strong>ist <strong>O</strong>f <strong>W</strong>orkshops
 
-# overview-title: Attend a Workshop
-# overview: |
-#   For the first time this year, the Augmented Humans International Conference offers workshops. Listed below are the workshops that will be available during the conference.
-#   Please note that the attendance of the workshops <strong>is</strong> included in the full registration, so there is no further cost in attending a workshop! Furthermore, some workshops are still accepting late submissions, more information regarding that can be found on the respective workshop websites linked below.
+overview-title: Attend a Workshop
+overview: |
+  Listed below are the workshops that will be available during the conference.
+  Please note that AHs 2025 registration includes access to workshops; however, a separate sign-up is required to secure your spot in your preferred workshop. Please use the link below to sign up for a workshop.
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScKTnW-LHtINKs6NxXU5yTx2YEebkATO6AI94q7sTzrpG_jAw/viewform" class="btn btn-lg " style="background-color: #c41a2e; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='##c41a2e'">Sign Up To Workshop</a>
 
 
-ws1-title: "Exploring Shared Bodily Control: Designing Augmented Human Systems for Intra- and Inter-Corporeality"
-ws1-organizer1: RAKESH PATIBANDA, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
-ws1-organizer2: NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
-ws1-organizer3: ARYAN SAINI, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
-ws1-organizer4: ZHUYING LI, Southeast University, China
-ws1-organizer5: JOSH ANDRES, Australian National University, Australia
-ws1-organizer6: ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology, The Netherlands
-ws1-organizer7: FLORIAN ‘FLOYD’ MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
+ws1-title: "Secured Augmentation: On-Body Security and Safety Interfaces"
+ws1-organizer1: Oliver Hein, Bundeswehr University Munich, Munich, Germany
+ws1-organizer2: Alia Saad, University Duisburg Essen, Essen, Germany
+ws1-organizer3: Yomna Abdelrahman, Bundeswehr University Munich, Munich, Germany
+ws1-organizer4: Florian Alt, Ludwig Maximilian University of Munich, Munich, Germany
+ws1-overview: With the rapid integration of wearable sensors and head-mounted displays (HMDs), ensuring security and safety in human-computer interaction has never been more critical. The On-Body Security and Safety Interfaces workshop explores the intersection of biometric authentication, safety- and privacy-preserving wearables, physiological sensing, and safety- and security-driven augmented interfaces.
+  Key topics include novel authentication methods for wearable devices, privacy-preserving techniques for continuous physiological monitoring, secure interaction paradigms for AR and VR environments, and adaptive safety mechanisms that enhance user trust and system reliability. Through discussions and collaborative sessions, this workshop aims to foster new ideas and interdisciplinary approaches to ensuring secure, safe, and user-friendly on-body computing. We also invite participants to submit position papers via email to the organizers or bring hands-on demonstrations. By addressing both emerging challenges and future opportunities, this workshop seeks to pave the way for more resilient, privacy-conscious, and intelligent wearable and augmented systems that prioritize user well-being while maintaining seamless interaction experiences.
 ws1-link: https://exertiongameslab.org/workshops-events/sharedcontrol-an-ah-2024-workshop
 # ws1-organizer: RAKESH PATIBANDA, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ARYAN SAINI, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ZHUYING LI, Southeast University, China; JOSH ANDRES, Australian National University, Australia; ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology, The Netherlands; FLORIAN ‘FLOYD’ MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
 
@@ -29,23 +29,23 @@ ws1-link: https://exertiongameslab.org/workshops-events/sharedcontrol-an-ah-2024
 # ws1-link: https://ah2023.ahlab.org/
 # ws1-img: /img/workshops/ws1.jpg
 
-ws2-title: "Developing Strategies for Co-designing Assistive Augmentation Technologies"
-ws2-organizer1: ADELE TONG, The University of Sydney, Australia
-ws2-organizer2: ZHANNA SARSENBAYEVA, The University of Sydney, Australia
-ws2-organizer3: JORGE GONCALVES, The University of Melbourne, Australia
-ws2-organizer4: HIDEKI KOIKE, Tokyo Institute of Technology, Japan
-ws2-organizer5: MASAHIKO INAMI, Keio University, Japan
-ws2-organizer6:  ALISTAIR MCEWAN, The University of Sydney, Australia
-ws2-organizer7:  ANUSHA WITHANA, The University of Sydney, Australia
+ws2-title: "Beyond Human: Cognitive and Physical Augmentation through AI, Robotics, and XR – Opportunities and Risks"
+ws2-organizer1: JIE LI, Human, AI Symbiosis Alliance, The Netherlands
+ws2-organizer2: ANUSHA WITHANA, University of Sydney, Australia
+ws2-organizer3: ALEXANDRA DIENING, Human-AI Symbiosis Alliance, Switzerland
+ws2-organizer4: KAI KUNZE, Keio University, Japan
+ws2-organizer5: MASAHIKO INAMI, University of Tokyo, Japan
+ws2-overview: As human augmentation technologies evolve, the convergence of AI, robotics, and extended reality (XR) is redefining human potential—enhancing cognition, perception, and physical abilities. However, these advancements also introduce ethical dilemmas, security risks, and concerns over loss of control. This workshop explores both the transformative potential and the unintended consequences of augmentation technologies. Bringing together experts from HCI, neuroscience, robotics, and ethics, we will examine real-world applications, emerging risks, and governance strategies for responsible augmentation.
+  The workshop will feature keynote talks and interactive discussions, addressing topics such as AI-enhanced cognition, wearable robotics, neural interfaces, and XR-driven augmentation. By fostering multidisciplinary dialogue, this workshop aims to generate actionable insights for responsible innovation, proposing ethical frameworks to balance human empowerment with risk mitigation. We invite researchers, practitioners, and industry leaders to contribute their perspectives and help shape the future of human augmentation.
 ws2-link: https://aatcodesign2024.wordpress.com/
 # ws2-img: /img/workshops/ws2.jpg
 
-ws3-title: "Intelligent Music Interfaces: When Interactive Assistance and Adaptive Augmentation Meet Musical Instruments"
-ws3-organizer1: THOMAS KOSCH, HU Berlin, Germany
-ws3-organizer2: ANDREAS WEISS, Musikschule Schallkultur, Germany
-ws3-organizer3: JORDAN AIKO DEJA, University of Primorska, Slovenia and De La Salle University, Philippines
-ws3-organizer4: SNEHESH SHRESTHA, University of Maryland, USA
-ws3-organizer5: MATTHIAS HOPPE, LMU Munich, Germany
-ws3-organizer6: ANDRII MATVIIENKO, KTH Royal Institute of Technology, Sweden
-ws3-organizer7: KAROLA MARKY, Ruhr University Bochum, Germany
-ws3-link: https://www.snehesh.com/imi/
+# ws3-title: "Intelligent Music Interfaces: When Interactive Assistance and Adaptive Augmentation Meet Musical Instruments"
+# ws3-organizer1: THOMAS KOSCH, HU Berlin, Germany
+# ws3-organizer2: ANDREAS WEISS, Musikschule Schallkultur, Germany
+# ws3-organizer3: JORDAN AIKO DEJA, University of Primorska, Slovenia and De La Salle University, Philippines
+# ws3-organizer4: SNEHESH SHRESTHA, University of Maryland, USA
+# ws3-organizer5: MATTHIAS HOPPE, LMU Munich, Germany
+# ws3-organizer6: ANDRII MATVIIENKO, KTH Royal Institute of Technology, Sweden
+# ws3-organizer7: KAROLA MARKY, Ruhr University Bochum, Germany
+# ws3-link: https://www.snehesh.com/imi/

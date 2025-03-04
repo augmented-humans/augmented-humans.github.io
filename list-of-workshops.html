@@ -33,7 +33,7 @@ sitemap: true
       <div class="col-lg-1"></div>
     </div>
   </div>
-</section> 
+</section>  -->
 
  <section id="ah-categories" class="flip">
   <div class="container">
@@ -51,7 +51,7 @@ sitemap: true
     </div>
   </div>
 </section>
--->
+
 
 
 <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
@@ -61,16 +61,20 @@ sitemap: true
       <div class="col-lg-10">
         <div style="margin-bottom: 10px;" class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
           <span>{{ site.data.list-of-workshops.ws1-title }}</span></div>
-          <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws1-organizer1 }}</p>
-          <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws1-organizer2 }}</p>
-          <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws1-organizer3 }}</p>
-          <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws1-organizer4 }}</p>
-          <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws1-organizer5 }}</p>
-          <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws1-organizer6 }}</p>
-          <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws1-organizer7 }}</p>
+          <div>
+            <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-overview }}</p>
+          </div>
+          <p style="font-size: 120%;color: white;">Organizers:</p>
+          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-organizer1 }}</p>
+          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-organizer2 }}</p>
+          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-organizer3 }}</p>
+          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-organizer4 }}</p>
+          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-organizer5 }}</p>
+          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-organizer6 }}</p>
+          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws1-organizer7 }}</p>
 
 
-          <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws1-link }}" target="_blank">Link to workshop website</a>
+          <!-- <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws1-link }}" target="_blank">Link to workshop website</a> -->
           <!-- <br/><br/> -->
           <!-- <img id="venue-img" class="" src="{{ site.data.list-of-workshops.ws1-img | prepend: site.url }}"/> -->
         {% assign description_paragraphs = site.data.list-of-workshops.ws1 | newline_to_br | split:'<br />' %}
@@ -90,14 +94,18 @@ sitemap: true
       <div class="col-lg-10">
         <div style="margin-bottom: 10px;" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.list-of-workshops.ws2-title }}</span></div>
-          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws2-organizer1 }}</p>
-          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws2-organizer2 }}</p>
-          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws2-organizer3 }}</p>
-          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws2-organizer4 }}</p>
-          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws2-organizer5 }}</p>
-          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws2-organizer6 }}</p>
-          <p style="font-size: 120%;color: white;">{{ site.data.list-of-workshops.ws2-organizer7 }}</p>
-         <a style="margin:0 auto;font-size: 150%; text-align: center; color:#286090;" href="{{ site.data.list-of-workshops.ws2-link }}"  target="_blank">Link to workshop website</a>
+          <div>
+            <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-overview }}</p>
+          </div>
+          <p style="font-size: 120%;color: black;">Organizers:</p>
+          <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-organizer1 }}</p>
+          <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-organizer2 }}</p>
+          <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-organizer3 }}</p>
+          <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-organizer4 }}</p>
+          <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-organizer5 }}</p>
+          <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-organizer6 }}</p>
+          <p style="font-size: 120%;color: black;">{{ site.data.list-of-workshops.ws2-organizer7 }}</p>
+         <!-- <a style="margin:0 auto;font-size: 150%; text-align: center; color:#286090;" href="{{ site.data.list-of-workshops.ws2-link }}"  target="_blank">Link to workshop website</a> -->
            <!-- <br/><br/>
           <img id="venue-img" class="" src="{{ site.data.list-of-workshops.ws2-img | prepend: site.url }}"/> -->
         {% assign description_paragraphs = site.data.list-of-workshops.ws2 | newline_to_br | split:'<br />' %}
@@ -110,7 +118,7 @@ sitemap: true
   </div>
 </section>
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+<!-- <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -125,10 +133,10 @@ sitemap: true
           <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws3-organizer6 }}</p>
           <p style="font-size: 120%;color: darkgray;">{{ site.data.list-of-workshops.ws3-organizer7 }}</p>
 
-          <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws3-link }}"  target="_blank">Link to workshop website</a>
+          <a style="margin:0 auto;font-size: 150%; text-align: center;" href="{{ site.data.list-of-workshops.ws3-link }}"  target="_blank">Link to workshop website</a> -->
           <!--<br/><br/>
           <img id="venue-img" class="" src="{{ site.data.list-of-workshops.ws3-img | prepend: site.url }}"/> -->
-        {% assign description_paragraphs = site.data.list-of-workshops.ws3 | newline_to_br | split:'<br />' %}
+        <!-- {% assign description_paragraphs = site.data.list-of-workshops.ws3 | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
         {% endfor %}
@@ -136,4 +144,4 @@ sitemap: true
       <div class="col-lg-1"></div>
     </div>
   </div>
-</section> 
+</section>  -->
