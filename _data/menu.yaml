@@ -49,7 +49,7 @@ shortlinks:
   #     - title: Keynote
   #       shortcut: /keynote
       - title: Program
-        shortcut: /Program
+        shortcut: /program
       - title: List of Workshops
         shortcut: /list-of-workshops
   #     - title: Mentoring
