@@ -48,6 +48,8 @@ shortlinks:
     sublinks:
   #     - title: Keynote
   #       shortcut: /keynote
+      - title: Program
+        shortcut: /Program
       - title: List of Workshops
         shortcut: /list-of-workshops
   #     - title: Mentoring
