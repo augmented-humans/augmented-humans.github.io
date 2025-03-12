@@ -35,53 +35,53 @@ program: This year’s Augmented Humans Conference takes place over 5 days to fa
 
 session-title: Session Overview
 sessions:
-  - session: "Session 1: Wearables and sensors"
+  - session: "Session 1: AR/VR Interaction & Physical Augmentation"
     papers:
-    - title: 'WhisperMask: a noise suppressive mask-type microphone for whisper speech'
-      authors: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru and Jun Rekimoto"
+    - title: 'Beyond Boundaries: Exploring Augmented Reality Barrier-Bypassing Display Modalities'
+      # authors: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru and Jun Rekimoto"
       # doi: 'https://doi.org/10.1145/3582700.3582728'
-      time: 'April 4th 11:00 - 11:15'
-    - title: 'Synthetic Visual Sensations: Augmenting Human Spatial Awareness with a Wearable Retinal Electric Stimulation Device'
-      authors: 'Valdemar Munch Danry, Laura Chicos, Matheus Fonseca, Ishraki Kazi and Pattie Maes'
+      # time: 'April 4th 11:00 - 11:15'
+    - title: 'Understanding the Effects of Rhythmic Frame-by-Frame Presentation for Improving Dance Learning'
+      # authors: 'Valdemar Munch Danry, Laura Chicos, Matheus Fonseca, Ishraki Kazi and Pattie Maes'
       # doi: 'https://doi.org/10.1145/3582700.3582704'
-      time: 'April 4th 11:15 - 11:30'
-    - title: 'Looking From a Different Angle: Placing Head-Worn Displays Near the Nose'
-      authors: 'Yukun Song, Parth Arora, Srikanth T. Varadharajan, Rajandeep Singh, Malcolm Haynes and Thad Starner'
+      # time: 'April 4th 11:15 - 11:30'
+    - title: 'Conditions for Inter-Brain Synchronization in Remote Communication: Investigating the Role of Transmission Delay'
+      # authors: 'Yukun Song, Parth Arora, Srikanth T. Varadharajan, Rajandeep Singh, Malcolm Haynes and Thad Starner'
       # doi: 'https://doi.org/10.1145/3582700.3582711'
-      time: 'April 4th 11:30 - 11:45'
+      # time: 'April 4th 11:30 - 11:45'
     # - title: 'Tactile Vectors for Omnidirectional Arm Guidance'
     #   authors: 'Hesham Elsayed et al.'
       # doi: 'https://doi.org/10.1145/3582700.3582701'
       # time: '11:45 - 12:00'
-    - title: 'Future So Bright, Gotta Wear Shades: Lens Tint May Affect Social Perception of Head-Worn Displays'
-      authors: 'Sofia Vempala, Joseph Mushyakov, Srikanth Tindivanam Varadharajan and Thad Starner'
+    - title: 'Effects of Replay Modification and Viewpoint in Virtual Reality on Self-Efficacy'
+      # authors: 'Sofia Vempala, Joseph Mushyakov, Srikanth Tindivanam Varadharajan and Thad Starner'
       # doi: 'https://doi.org/10.1145/3582700.3582713'
-      time: 'April 4th 11:45 - 12:00'
+      # time: 'April 4th 11:45 - 12:00'
     # - title: 'Q&A'
     #   time: '12:45 - 13:00'
 
-  - session: "Session 2: Extended Reality"
+  - session: "Session 2: Virtual Reality & Human Experience Enhancement"
     papers:
-    - title: 'Everyday Life Challenges and Augmented Realities: Exploring Use-Cases For, and User Perspectives on, an Augmented Everyday Life'
-      authors: 'Florian Mathis'
+    - title: 'ChromaGazer-HMD: Visual Modulation Using Unobtrusive Color Vibration for Gaze Guidance with Head-Mounted Displays'
+      # authors: 'Florian Mathis'
       # doi: 'https://doi.org/10.1145/3582700.3582709'
-      time: 'April 4th 14:00 - 14:15'
-    - title: 'GestureMark: Shortcut Input Technique using Smartwatch Touch Gestures for XR Glasses'
-      authors: 'Juyoung Lee, Minju Baeck, Hui-Shyong Yeo, Thad Starner and Woontack Woo'
+      # time: 'April 4th 14:00 - 14:15'
+    - title: 'Enhancing VR Interaction Through Dynamic Virtual Hand Size Changes and Detection Thresholds'
+      # authors: 'Juyoung Lee, Minju Baeck, Hui-Shyong Yeo, Thad Starner and Woontack Woo'
       # doi: 'https://doi.org/10.1145/3582700.3582712'
-      time: 'April 4th 14:15 - 14:30'
-    - title: 'Holistic Patient Assessment System using Digital Twin for XR Medical Teleconsultation'
-      authors: 'Taeyeon Kim, Hyunsong Kwon, Kyunghyun Cho and Woontack Woo'
+      # time: 'April 4th 14:15 - 14:30'
+    - title: 'GazeScope: Gaze Target Selection with a Magnifier in VR Environments'
+      # authors: 'Taeyeon Kim, Hyunsong Kwon, Kyunghyun Cho and Woontack Woo'
       # doi: 'https://doi.org/10.1145/3582700.3582705'
-      time: 'April 4th 14:30 - 14:45'
-    - title: 'Exploring the Kuroko Paradigm: The Effect of Enhancing Virtual Humans with Reality Actuators in Augmented Reality'
-      authors: 'Émilie Fabre and Yuta Itoh'
+      # time: 'April 4th 14:30 - 14:45'
+    - title: 'Just Before Touch: Manipulating Perceived Haptic Sensations Through Proactive Vibrotactile Cues in Virtual Reality'
+      # authors: 'Émilie Fabre and Yuta Itoh'
       # doi: 'https://doi.org/10.1145/3582700.3582703'
-      time: 'April 4th 14:45 - 15:00'
-    - title: 'Real-time Slow-motion : A Framework for Slow-motion Without Deviating from Real-Time'
-      authors: 'Goki Muramoto, Hiroto Saito, Sohei Wakisaka and Masahiko Inami'
+      # time: 'April 4th 14:45 - 15:00'
+    # - title: 'Real-time Slow-motion : A Framework for Slow-motion Without Deviating from Real-Time'
+      # authors: 'Goki Muramoto, Hiroto Saito, Sohei Wakisaka and Masahiko Inami'
       # doi: 'https://doi.org/10.1145/3582700.3582717'
-      time: 'April 4th 15:00 - 15:15'
+      # time: 'April 4th 15:00 - 15:15'
     # - title: 'Tablet Cutting Board: Tablet-based Knife-control Support System for Cookery Beginners'
     #   authors: 'Hatsune Masuda et al.'
     #   doi: 'https://doi.org/10.1145/3582700.3582708'
@@ -93,24 +93,24 @@ sessions:
     # - title: 'Q&A'
     #   time: '15:45 - 16:00'
 
-  - session: "Session 3: Wearables and sensors 2"
+  - session: "Session 3: Bionic & Assistive Systems"
     papers:
-    - title: 'Identifying Hand-based Input Preference Based on Wearable EEG'
-      authors: 'Kaining Zhang, Zehong Cao, Xianglin Zheng and Mark Billinghurst'
+    - title: 'Tape-Tics: A Flexible and Modular Vibrotactile Feedback System for Rapid Prototyping of Haptic Applications in Education'
+      # authors: 'Kaining Zhang, Zehong Cao, Xianglin Zheng and Mark Billinghurst'
       # doi: 'https://doi.org/10.1145/3582700.3582720'
-      time: 'April 4th 16:30 - 16:45'
-    - title: 'Personal Identification and Authentication Method Using Ear Images Acquired with a Camera-Equipped Hearable Device'
-      authors: 'Yurina Mizuho, Yohei Kawasaki, Takashi Amesaka and Yuta Sugiura'
+      # time: 'April 4th 16:30 - 16:45'
+    - title: 'Slide Redirection: A Walker-Type Device for Enhancing Redirected Walking Through Friction Sensation of a Rotating Handrail'
+      # authors: 'Yurina Mizuho, Yohei Kawasaki, Takashi Amesaka and Yuta Sugiura'
       # doi: 'https://doi.org/10.1145/3582700.3582714'
-      time: 'April 4th 16:45 - 17:00'
-    - title: 'iFace: Hand-Over-Face Gesture Recognition Leveraging Impedance Sensing'
-      authors: 'Mengxi Liu, Hymalai Bello, Bo Zhou, Paul Lukowicz and Jakob Karolus'
+      # time: 'April 4th 16:45 - 17:00'
+    - title: 'Effects of the Combination of a Mobile Robot for Haptic Feedback and Hand Redirection on Detection Thresholds'
+      # authors: 'Mengxi Liu, Hymalai Bello, Bo Zhou, Paul Lukowicz and Jakob Karolus'
       # doi: 'https://doi.org/10.1145/3582700.3582715'
-      time: 'April 4th 17:00 - 17:15'
-    - title: 'Auditory Interface for Empathetic Synchronization of Facial Expressions between People with Visual Impairment and the Interlocutors'
-      authors: 'Takayuki Komoda, Hisham Elser Bilal Salih, Tadashi Ebihara, Naoto Wakatsuki and Keiichi Zempo'
+      # time: 'April 4th 17:00 - 17:15'
+    - title: '<b class="label" style="color:#c41a2e">[Best Paper]</b>texTENG: Fabricating Wearable Textile-Based Triboelectric Nanogenerators'
+      # authors: 'Takayuki Komoda, Hisham Elser Bilal Salih, Tadashi Ebihara, Naoto Wakatsuki and Keiichi Zempo'
       # doi: 'https://doi.org/10.1145/3582700.3582702'
-      time: 'April 4th 17:15 - 17:30'
+      # time: 'April 4th 17:15 - 17:30'
     # - title: 'DecluttAR: An Interactive Visual Clutter Dimming System to Help Focus on Work'
     #   authors: 'Kaito Yokoro et al.'
     #   doi: 'https://doi.org/10.1145/3582700.3582718'
@@ -147,43 +147,33 @@ sessions:
   #     time: '9:45 - 10:00'
 
 
-  - session: "Session 4: Augmenting in VR"
+  - session: "Session 4: Robotics and Avatars"
     papers:
-    - title: 'Techniques using Parallel Views for Asynchronous VR Search Tasks'
-      authors: 'Theophilus Teo, Kuniharu Sakurada, Maki Sugimoto, Gun Lee and Mark Billinghurst'
-      time: 'April 5th 9:00 - 09:15'
-    - title: 'Social Simon Effect in Virtual Reality: Investigating the Impact of Coactor Avatars Visual Representation'
-      authors: 'Xiaotong Li, Yuji Hatada and Takuji Narumi'
-      time: 'April 5th 09:15 - 09:30'
-    - title: 'Multiplexed VR: Individualized Multiplexing Virtual Environment to Facilitate Switches for Group Ideation Creativity'
-      authors: 'Masahiro Kamihira, Juro Hosoi, Yuki Ban and Shin Ichi Warisawa'
-      time: 'April 5th 09:30 - 09:45'
-    - title: 'VR remote tourism system with natural Gaze induction without causing user discomfort'
-      authors: 'Shogo Aoyagi, Takayoshi Yamada, Kelvin Cheng, Soh Masuko and Keiichi Zempo'
-      time: 'April 5th 09:45 - 10:00'
-    - title: 'GUI Presentation Method based on Binocular Rivalry for Non-overlay Information Recognition in Visual Scenes'
-      authors: 'Kai Guo, Yuki Shimomura, Juro Hosoi, Yuki Ban and Shin Ichi Warisawa'
-      time: 'April 5th 10:00 - 10:15'
+    - title: '<b class="label" style="color: #c41a2e">[Honourable Mention]</b>“When to Take the Lead?” Mediation of Motion Intention in Collaborative Avatar Manipulation'
+    - title: 'Locomotion Generation of Hand-Shaped Robotic Avatar'
+    - title: '<b class="label" style="color: #c41a2e">[Honourable Mention]</b>Cuddle-Fish: Exploring a Soft Floating Robot with Flapping Wings for Physical Interactions'
+    - title: 'Augmented Body Communicator: Enhancing Daily Body Expression for People with Upper Limb Limitations Through LLM and a Robotic Arm'
 
 
-  - session: "Session 5: Learning Augmentation"
+
+  - session: "Session 5: Decision-Making & Human Behavior"
     papers:
-    - title: 'FastPerson: Enhancing Video Learning through Effective Video Summarization that Preserves Linguistic and Visual Contexts'
-      authors: 'Kazuki Kawamura and Jun Rekimoto'
+    - title: 'The Impact of Asymmetric AI Assistance on Decision-Making in Social Dilemmas: A Study on Human Augmentation in Economic Games'
+      # authors: 'Kazuki Kawamura and Jun Rekimoto'
       # doi: 'https://doi.org/10.1145/3582700.3582727'
-      time: 'April 5th 14:00 - 14:15'
-    - title: 'SkillsInterpreter: A Case Study of Automatic Annotation of Flowcharts to Support Browsing Instructional Videos in Modern Martial Arts using Large Language Models'
-      authors: 'Kotaro Oomori, Yoshio Ishiguro and Jun Rekimoto'
+      # time: 'April 5th 14:00 - 14:15'
+    - title: 'Resonance: Drawing from Memories to Imagine Positive Futures Through AI-Augmented Journaling'
+      # authors: 'Kotaro Oomori, Yoshio Ishiguro and Jun Rekimoto'
       # doi: 'https://doi.org/10.1145/3582700.3582719'
-      time: 'April 5th 14:15 - 14:30'
-    - title: 'Kavy: Fostering Language Speaking Skills and Self-Confidence Through Conversational AI'
-      authors: 'Sankha Cooray, Chathuranga Hettiarachchi, Vishaka Nanayakkara, Denys Matthies, Yasith Samaradivakara and Suranga Nanayakkara'
+      # time: 'April 5th 14:15 - 14:30'
+    - title: 'Evaluation of the Impact of Visualizing Mutual Contexts in Multiplexed Virtual Environments on Creativity in Discussions'
+      # authors: 'Sankha Cooray, Chathuranga Hettiarachchi, Vishaka Nanayakkara, Denys Matthies, Yasith Samaradivakara and Suranga Nanayakkara'
       # doi: 'https://doi.org/10.1145/3582700.3582726'
-      time: 'April 5th 14:30 - 14:45'
-    - title: 'Serendipity Wall: A Discussion Support System Using Real-time Speech Recognition and Large Language Model'
-      authors: 'Shota Imamura, Hirotaka Hiraki and Jun Rekimoto'
+      # time: 'April 5th 14:30 - 14:45'
+    - title: '<b class="label" style="color: #c41a2e">[Honourable Mention]</b>MR Nudge: A Study on Behavior Changes Prompted by Virtual Objects in Mixed Reality'
+      # authors: 'Shota Imamura, Hirotaka Hiraki and Jun Rekimoto'
       # doi: 'https://doi.org/10.1145/3582700.3582723'
-      time: 'April 5th 14:45 - 15:00'
+      # time: 'April 5th 14:45 - 15:00'
     # - title: 'Human Coincident Robot: A Non-contact Surrounding Robot Sharing the Coordinate with a Human Inside'
     #   authors: 'Takafumi Watanabe et al.'
     #   doi: 'https://doi.org/10.1145/3582700.3582724'
@@ -191,8 +181,69 @@ sessions:
     # - title: 'Q&A'
     #   time: '15:30 - 15:45'
 
+  - session: "Session 6: Exploring Body-Augmentation"
+    papers:
+    - title: 'Purrfect Pitch: Exploring Pitch Interval Learning Through an Audio-Haptic Interface'
+    - title: 'The Effect of Elbow and Shoulder Supports on Detection Threshold of Horizontal and Vertical Hand Redirection'
+    - title: 'Addressing Performance Drop in Motor Learning in Virtual Co-Embodiment: A Method to Enhance Awareness of Movement Differences'
+    - title: 'Understanding Dynamic Peephole Pointing Using Coupled and Decoupled Target Acquisition on Single and Multiple Surfaces '
 
+  - session: "Session 7: Cognitive & Perceptual Augmentation with AI"
+    papers:
+    - title: 'GenAIReading: Augmenting Human Cognition with Interactive Digital Textbooks Using Large Language Models and Image Generation Models'
+    - title: 'GazeLLM: Multimodal LLMs Incorporating Human Visual Attention'
+    - title: 'Addressing Performance Drop in Motor Learning in Virtual Co-Embodiment: A Method to Enhance Awareness of Movement Differences'
+    - title: 'Wrapped in Anansi’s Web: Unweaving the Impacts of Generative-AI Personalization and VR Immersion in Oral Storytelling'
 
+  - session: "Session 8: Sensory Technologies"
+    papers:
+    - title: 'MaskClip: Detachable Clip-On Piezoelectric Sensing of Mask Surface Vibrations for Real-Time Noise-Robust Speech Input'
+    - title: 'SoleLoadEvaluator: A Real-Time Feedback System for Walking Posture with Anterior Load Using Insole Sensors'
+    - title: 'Exploring Full-Body Wind Sensations Through Multisensory Feedback to Multiple Body Regions in Virtual Reality'
+    - title: 'SlopeNav: A Realtime Wearable Blind Ski Assistance System with Adaptive Path Planning for Simulated Environments'
+    - title: 'Exploring the Alignment of Perceived and Measured Sleep Quality with Working Memory Using Consumer Wearables'
+
+workshops-title: "Workshop Schedule"
+workshops:
+  - workshop-title: "W1: Secured Augmentation: On-Body Security and Safety Interfaces"
+    workshop-entries:
+      - workshop-entry:
+        entry-time: "09:00-10:00"
+        entry-activity: "Welcome & Introduction"
+      - workshop-entry:
+        entry-time: "10:00-11:00"
+        entry-activity: "Keynote: Future of On-Body Security"
+      - workshop-entry:
+        entry-time: "11:00-11:15"
+        entry-activity: "Coffee Break"
+      - workshop-entry:
+        entry-time: "11:15-12:00"
+        entry-activity: "Ideation and Panel Discussion"
+      - workshop-entry:
+        entry-time: "12:00-13:00"
+        entry-activity: "Lunch"
+      - workshop-entry:
+        entry-time: "13:00-14:00"
+        entry-activity: "Closing Remarks & Next Steps"
+    
+  - workshop-title: "W2: Beyond Human: Cognitive and Physical Augmentation through AI, Robotics, and XR – Opportunities and Risks"
+    workshop-entries:
+      - workshop-entry:
+        entry-time: "09:00-09:30"
+        entry-activity: "Welcome & Lighting Talks"
+      - workshop-entry:
+        entry-time: "09:30-10:30"
+        entry-activity: "Keynote & Expert Talks"
+      - workshop-entry:
+        entry-time: "10:30-10:45"
+        entry-activity: "Coffee Break"
+      - workshop-entry:
+        entry-time: "10:45-11:45"
+        entry-activity: "Moderated Discussion"
+      - workshop-entry:
+        entry-time: "11:45-12:30"
+        entry-activity: "Group Presentation"
+    
 # session-title: Session Schedules
 # session: |
 #   <h3 style="color: black;">Session 1: Haptic Feedback</h3>

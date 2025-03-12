@@ -78,7 +78,7 @@ sitemap: false
   </div>
 </section> -->
 
-<!-- <section id="ah-categories" class="flip1" style="border-top: 5px solid #003865;">
+<section id="ah-categories" class="flip1" style="border-top: 5px solid #003865;">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -86,58 +86,62 @@ sitemap: false
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
           <span style="color: black;">{{ site.data.program.session-title }}</span></div>
 
-          <a href="https://augmented-humans.org/keynote"> <h3 style="color: blue; text-decoration: underline;">Opening Keynote</h3></a>
+          <!-- <a href="https://augmented-humans.org/keynote"> <h3 style="color: blue; text-decoration: underline;">Opening Keynote</h3></a> -->
      
       {% for item in site.data.program.sessions %}
       <h3 style="color: black;">{{ item.session }}</h3>
       <div style="overflow-x:auto;">
-      <table id="sessions">
-        <tr>
-          <th>Time</th>
-          <th>Paper</th>
-        </tr>
-        {% for paper in item.papers %}
-        <tr>
-          <td>{{ paper.time }}</td>
-          <td>
-            {{ paper.title }}
-            <p class="authors">{{ paper.authors }}</p>
-            <a class="doi" href="{{ paper.doi }}">{{ paper.doi }}</a>
-          </td>
-        </tr>
-        {% endfor %}
-      </table></div>
+      <div id="">
+        <ol style="color:black">
+          {% for paper in item.papers %}
+          <li>
+            <p>{{ paper.title }}</p>
+            <!-- <p class="authors">{{ paper.authors }}</p> -->
+            <!-- <a class="doi" href="{{ paper.doi }}">{{ paper.doi }}</a> -->
+          </li>
+          {% endfor %}
+        </ol>
+      </div></div>
       {% endfor %}
-      <a href="https://augmented-humans.org/keynote"> <h3 style="color: blue; text-decoration: underline;">Closing Keynote</h3></a>
+      <!-- <a href="https://augmented-humans.org/keynote"> <h3 style="color: blue; text-decoration: underline;">Closing Keynote</h3></a> -->
      
     </div>
     <div class="col-lg-1"></div>
     </div>
   </div>
-</section> -->
+</section>
 
 
-<!-- <section id="ah-categories" class="flip2" style="border-top: 5px solid #003865;">
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #003865;">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>ACCEPTED DEMOS</span></div>
-
-        <p style="text-align:left;"> 1）: Demonstrating VabricBeads  - Jefferson Pardomuan, Shio Miyafuji, Nobuhiro Takahashi and Hideki Koike</p>
-        <p style="text-align:left;"> 2）: Metacognition-EnGauge: Real-time Augmentation of Self-and-Group Engagement Levels Understanding by Gauge Interface in Online Meetings  - Ko Watanabe, Andreas Dengel and Shoya Ishimaru</p>
-        <p style="text-align:left;"> 3）: RadioMe: Adaptive Radio with Music Intervention and Reminder System for People with Dementia in Their Own Home  - Patrizia Di Campli San Vito, Xiaochen Yang, James Ross, Gözel Shakeri, Stephen Brewster, Satvik Venkatesh, Alex Street, Jörg Fachner, Paul Fernie, Leonardo Muller-Rodriguez, Ming Hung Hsu, Helen Odell-Miller, Hari Shaji, Paulo Vitor Itaborai, Nicolas Farina, Sube Banerjee, Alexis Kirke and Eduardo Miranda</p>
-        <p style="text-align:left;"> 4）: E-Scooter Dynamics: Unveiling Rider Behaviours and Interactions with Road Users through Multi-Modal Data Analysis  - Hiruni Kegalle, Danula Hettiachchi, Jeffrey Chan, Flora Salim and Mark Sanderson</p>   
-        <p style="text-align:left;"> 5）: PairPlayVR: Shared Hand Control for Virtual Games - Hongyu Zhou, Pamuditha Somarathne, Treshan Ayesh Peirispulle, Chenyu Fan, Zhanna Sarsenbayeva and Anusha Withana</p>  
-        <p style="text-align:left;"> 6）: Tuning Infill Characteristics to Fabricate Customizable 3D Printed Pressure Sensors - Jiakun Yu, Praneeth Perera and Anusha Withana</p>          
-        
+          <span style="color: white;">{{ site.data.program.workshops-title }}</span></div>
+          {% for item in site.data.program.workshops %}
+          <h3 style="color: white;">{{ item.workshop-title }}</h3>
+          <div style="overflow-x:auto;">
+            <table id="sessions">
+              <tr>
+                <th>Time</th>
+                <th>Activity</th>
+              </tr>
+              {% for entry in item.workshop-entries %}
+              <tr>
+                <td>{{entry.entry-time}}</td>
+                <td>{{entry.entry-activity}}</td>
+              </tr>
+              {% endfor %}
+            </table>
+          </div>
+          {% endfor %}
 
       </div>
       <div class="col-lg-1"></div>
     </div>
   </div>
-</section> -->
+</section>
 
 
 
