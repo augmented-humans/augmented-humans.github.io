@@ -91,12 +91,12 @@ sitemap: false
       {% for item in site.data.program.sessions %}
       <h3 style="color: black;">{{ item.session }}</h3>
       <div style="overflow-x:auto;">
-      <div id="">
+      <div id="sessions">
         <ol style="color:black">
           {% for paper in item.papers %}
           <li>
             <p>{{ paper.title }}</p>
-            <!-- <p class="authors">{{ paper.authors }}</p> -->
+            <p class="authors">{{ paper.authors }}</p>
             <!-- <a class="doi" href="{{ paper.doi }}">{{ paper.doi }}</a> -->
           </li>
           {% endfor %}

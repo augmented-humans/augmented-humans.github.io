@@ -38,15 +38,15 @@ sessions:
   - session: "Session 1: AR/VR Interaction & Physical Augmentation"
     papers:
     - title: 'Beyond Boundaries: Exploring Augmented Reality Barrier-Bypassing Display Modalities'
-      # authors: "Hirotaka Hiraki, Shusuke Kanazawa, Takahiro Miura, Manabu Yoshida, Masaaki Mochimaru and Jun Rekimoto"
+      authors: "Oliver Hein, Adnan Al Qalaq and Florian Alt"
       # doi: 'https://doi.org/10.1145/3582700.3582728'
       # time: 'April 4th 11:00 - 11:15'
     - title: 'Understanding the Effects of Rhythmic Frame-by-Frame Presentation for Improving Dance Learning'
-      # authors: 'Valdemar Munch Danry, Laura Chicos, Matheus Fonseca, Ishraki Kazi and Pattie Maes'
+      authors: 'Satomi Tokida and Yoshio Ishiguro'
       # doi: 'https://doi.org/10.1145/3582700.3582704'
       # time: 'April 4th 11:15 - 11:30'
     - title: 'Conditions for Inter-Brain Synchronization in Remote Communication: Investigating the Role of Transmission Delay'
-      # authors: 'Yukun Song, Parth Arora, Srikanth T. Varadharajan, Rajandeep Singh, Malcolm Haynes and Thad Starner'
+      authors: 'Sinyu Lai, Wanhui Li, Kaoru Amano and Jun Rekimoto'
       # doi: 'https://doi.org/10.1145/3582700.3582711'
       # time: 'April 4th 11:30 - 11:45'
     # - title: 'Tactile Vectors for Omnidirectional Arm Guidance'
@@ -54,7 +54,7 @@ sessions:
       # doi: 'https://doi.org/10.1145/3582700.3582701'
       # time: '11:45 - 12:00'
     - title: 'Effects of Replay Modification and Viewpoint in Virtual Reality on Self-Efficacy'
-      # authors: 'Sofia Vempala, Joseph Mushyakov, Srikanth Tindivanam Varadharajan and Thad Starner'
+      authors: 'Kiyu Tanaka, Keigo Matsumoto, Takuto Nakamura, Takuji Narumi and Hideaki Kuzuoka'
       # doi: 'https://doi.org/10.1145/3582700.3582713'
       # time: 'April 4th 11:45 - 12:00'
     # - title: 'Q&A'
@@ -63,19 +63,19 @@ sessions:
   - session: "Session 2: Virtual Reality & Human Experience Enhancement"
     papers:
     - title: 'ChromaGazer-HMD: Visual Modulation Using Unobtrusive Color Vibration for Gaze Guidance with Head-Mounted Displays'
-      # authors: 'Florian Mathis'
+      authors: 'Youfang Shen, Rinto Tosa, Yuji Hatada, Yuichi Hiroi, Takefumi Hiraki and Takeshi Naemura'
       # doi: 'https://doi.org/10.1145/3582700.3582709'
       # time: 'April 4th 14:00 - 14:15'
     - title: 'Enhancing VR Interaction Through Dynamic Virtual Hand Size Changes and Detection Thresholds'
-      # authors: 'Juyoung Lee, Minju Baeck, Hui-Shyong Yeo, Thad Starner and Woontack Woo'
+      authors: 'Kosuke Morimoto and Keita Watanabe'
       # doi: 'https://doi.org/10.1145/3582700.3582712'
       # time: 'April 4th 14:15 - 14:30'
     - title: 'GazeScope: Gaze Target Selection with a Magnifier in VR Environments'
-      # authors: 'Taeyeon Kim, Hyunsong Kwon, Kyunghyun Cho and Woontack Woo'
+      authors: 'Reo Sato, Taisei Yamaguchi, Tadatsugu Shibahara, Kirk Honda, Myungguen Choi and Buntarou Shizuki'
       # doi: 'https://doi.org/10.1145/3582700.3582705'
       # time: 'April 4th 14:30 - 14:45'
     - title: 'Just Before Touch: Manipulating Perceived Haptic Sensations Through Proactive Vibrotactile Cues in Virtual Reality'
-      # authors: 'Émilie Fabre and Yuta Itoh'
+      authors: 'Yihao Dong, Pamuditha Somarathne, Craig T Jin, Juno Kim, Andrea Bianchi and Anusha Withana'
       # doi: 'https://doi.org/10.1145/3582700.3582703'
       # time: 'April 4th 14:45 - 15:00'
     # - title: 'Real-time Slow-motion : A Framework for Slow-motion Without Deviating from Real-Time'
@@ -96,19 +96,19 @@ sessions:
   - session: "Session 3: Bionic & Assistive Systems"
     papers:
     - title: 'Tape-Tics: A Flexible and Modular Vibrotactile Feedback System for Rapid Prototyping of Haptic Applications in Education'
-      # authors: 'Kaining Zhang, Zehong Cao, Xianglin Zheng and Mark Billinghurst'
+      authors: 'Carlos Paniagua, Hiroki Ota, Yutaro Hirao, Monica Perusquia-Hernandez, Hideaki Uchiyama and Kiyoshi Kiyokawa'
       # doi: 'https://doi.org/10.1145/3582700.3582720'
       # time: 'April 4th 16:30 - 16:45'
     - title: 'Slide Redirection: A Walker-Type Device for Enhancing Redirected Walking Through Friction Sensation of a Rotating Handrail'
-      # authors: 'Yurina Mizuho, Yohei Kawasaki, Takashi Amesaka and Yuta Sugiura'
+      authors: 'Yuto Ohashi, Keigo Matsumoto, Yutaro Hirao, Monica Perusquia-Hernandez, Nobuchika Sakata, Hideaki Uchiyama and Kiyoshi Kiyokawa'
       # doi: 'https://doi.org/10.1145/3582700.3582714'
       # time: 'April 4th 16:45 - 17:00'
     - title: 'Effects of the Combination of a Mobile Robot for Haptic Feedback and Hand Redirection on Detection Thresholds'
-      # authors: 'Mengxi Liu, Hymalai Bello, Bo Zhou, Paul Lukowicz and Jakob Karolus'
+      authors: 'Sotaro Yokoi, Keigo Matsumoto, Takuji Narumi and Hideaki Kuzuoka'
       # doi: 'https://doi.org/10.1145/3582700.3582715'
       # time: 'April 4th 17:00 - 17:15'
     - title: '<b class="label" style="color:#c41a2e">[Best Paper]</b>texTENG: Fabricating Wearable Textile-Based Triboelectric Nanogenerators'
-      # authors: 'Takayuki Komoda, Hisham Elser Bilal Salih, Tadashi Ebihara, Naoto Wakatsuki and Keiichi Zempo'
+      authors: 'Ritik Batra, Narjes Pourjafarian, Samantha Chang, Margaret Tsai, Jacob Revelo and Cindy Hsin-Liu Kao'
       # doi: 'https://doi.org/10.1145/3582700.3582702'
       # time: 'April 4th 17:15 - 17:30'
     # - title: 'DecluttAR: An Interactive Visual Clutter Dimming System to Help Focus on Work'
@@ -150,28 +150,31 @@ sessions:
   - session: "Session 4: Robotics and Avatars"
     papers:
     - title: '<b class="label" style="color: #c41a2e">[Honourable Mention]</b>“When to Take the Lead?” Mediation of Motion Intention in Collaborative Avatar Manipulation'
+      authors: 'Kenta Hashiura, Kazuma Takada, Takayoshi Hagiwara, Sohei Wakisaka and Kouta Minamizawa'
     - title: 'Locomotion Generation of Hand-Shaped Robotic Avatar'
+      authors: 'Tomoya Sasaki, Hideki Shimobayashi, Marwan Hamze, Masahiko Inami and Eiichi Yoshida'
     - title: '<b class="label" style="color: #c41a2e">[Honourable Mention]</b>Cuddle-Fish: Exploring a Soft Floating Robot with Flapping Wings for Physical Interactions'
+      authors: 'Mingyang Xu, Jiayi Shao, Yulan Ju, Ximing Shen, Qingyuan Gao, Weijen Chen, Qing Zhang, Yun Suen Pai, Giulia Barbareschi, Matthias Hoppe, Kouta Minamizawa and Kai Kunze'
     - title: 'Augmented Body Communicator: Enhancing Daily Body Expression for People with Upper Limb Limitations Through LLM and a Robotic Arm'
-
+      authors: 'Songchen Zhou, Mark Armstrong, Giulia Barbareschi, Toshihiro Ajioka, Zheng Hu, Ando Ryoichi, Kentaro Yoshifuji, Masatane Muto and Kouta Minamizawa'
 
 
   - session: "Session 5: Decision-Making & Human Behavior"
     papers:
     - title: 'The Impact of Asymmetric AI Assistance on Decision-Making in Social Dilemmas: A Study on Human Augmentation in Economic Games'
-      # authors: 'Kazuki Kawamura and Jun Rekimoto'
+      authors: 'Chenxinran Shen, Jurgis Karpus, Thomas Kosch, Daniela Fernandes, Beatriz Mello, Robin Welsch and Steeven Villa'
       # doi: 'https://doi.org/10.1145/3582700.3582727'
       # time: 'April 5th 14:00 - 14:15'
     - title: 'Resonance: Drawing from Memories to Imagine Positive Futures Through AI-Augmented Journaling'
-      # authors: 'Kotaro Oomori, Yoshio Ishiguro and Jun Rekimoto'
+      authors: 'Wazeer Zulfikar, Treyden Chiaravalloti, Jocelyn Shen, Rosalind Picard and Pattie Maes'
       # doi: 'https://doi.org/10.1145/3582700.3582719'
       # time: 'April 5th 14:15 - 14:30'
     - title: 'Evaluation of the Impact of Visualizing Mutual Contexts in Multiplexed Virtual Environments on Creativity in Discussions'
-      # authors: 'Sankha Cooray, Chathuranga Hettiarachchi, Vishaka Nanayakkara, Denys Matthies, Yasith Samaradivakara and Suranga Nanayakkara'
+      authors: "Masahiro Kamihira, Yuki Ban and Shin'Ichi Warisawa"
       # doi: 'https://doi.org/10.1145/3582700.3582726'
       # time: 'April 5th 14:30 - 14:45'
     - title: '<b class="label" style="color: #c41a2e">[Honourable Mention]</b>MR Nudge: A Study on Behavior Changes Prompted by Virtual Objects in Mixed Reality'
-      # authors: 'Shota Imamura, Hirotaka Hiraki and Jun Rekimoto'
+      authors: 'Yuma Kasahara, Myungguen Choi, Daisuke Sakamoto and Tetsuo Ono'
       # doi: 'https://doi.org/10.1145/3582700.3582723'
       # time: 'April 5th 14:45 - 15:00'
     # - title: 'Human Coincident Robot: A Non-contact Surrounding Robot Sharing the Coordinate with a Human Inside'
@@ -184,24 +187,35 @@ sessions:
   - session: "Session 6: Exploring Body-Augmentation"
     papers:
     - title: 'Purrfect Pitch: Exploring Pitch Interval Learning Through an Audio-Haptic Interface'
+      authors: 'Sam Chin, Cathy Mengying Fang, Nikhil Singh, Ibrahim Ibrahim, Joe Paradiso and Pattie Maes'
     - title: 'The Effect of Elbow and Shoulder Supports on Detection Threshold of Horizontal and Vertical Hand Redirection'
+      authors: 'Gaku Fukui, Maki Ogawa, Keigo Matsumoto, Takuto Nakamura, Takuji Narumi and Hideaki Kuzuoka'
     - title: 'Addressing Performance Drop in Motor Learning in Virtual Co-Embodiment: A Method to Enhance Awareness of Movement Differences'
+      authors: 'Daichi Inoue, Daisuke Mine, Kenta Hashiura, Takeru Hashimoto, Tomohiro Tanikawa, Takuji Narumi and Hideaki Kuzuoka'
     - title: 'Understanding Dynamic Peephole Pointing Using Coupled and Decoupled Target Acquisition on Single and Multiple Surfaces '
+      authors: 'Yuan Chen, Géry Casiez, Daniel Vogel and Sylvain Malacria'
 
   - session: "Session 7: Cognitive & Perceptual Augmentation with AI"
     papers:
     - title: 'GenAIReading: Augmenting Human Cognition with Interactive Digital Textbooks Using Large Language Models and Image Generation Models'
+      authors: 'Ryugo Morita, Ko Watanabe, Jinjia Zhou, Andreas Dengel and Shoya Ishimaru'
     - title: 'GazeLLM: Multimodal LLMs Incorporating Human Visual Attention'
-    - title: 'Addressing Performance Drop in Motor Learning in Virtual Co-Embodiment: A Method to Enhance Awareness of Movement Differences'
+      authors: 'Jun Rekimoto'
     - title: 'Wrapped in Anansi’s Web: Unweaving the Impacts of Generative-AI Personalization and VR Immersion in Oral Storytelling'
+      authors: 'Ka Hei Carrie Lau, Bhada Yun, Samuel Saruba, Efe Bozkir and Enkelejda Kasneci'
 
   - session: "Session 8: Sensory Technologies"
     papers:
     - title: 'MaskClip: Detachable Clip-On Piezoelectric Sensing of Mask Surface Vibrations for Real-Time Noise-Robust Speech Input'
+      authors: 'Hirotaka Hiraki and Jun Rekimoto'
     - title: 'SoleLoadEvaluator: A Real-Time Feedback System for Walking Posture with Anterior Load Using Insole Sensors'
+      authors: 'Shino Ito, Yichen Peng, Erwin Wu and Hideaki Koike'
     - title: 'Exploring Full-Body Wind Sensations Through Multisensory Feedback to Multiple Body Regions in Virtual Reality'
+      authors: "Tenta Mochizuki, Juro Hosoi, Yuki Ban, Koki Honda and Shin'Ichi Warisawa"
     - title: 'SlopeNav: A Realtime Wearable Blind Ski Assistance System with Adaptive Path Planning for Simulated Environments'
+      authors: ' Toshihiro Hirano, Yichen Peng, Masaki Kuribayashi, Erwin Wu, Shigeo Morishima and Hideki Koike'
     - title: 'Exploring the Alignment of Perceived and Measured Sleep Quality with Working Memory Using Consumer Wearables'
+      authors: 'Peter Neigel, David Antony Selby, Shota Arai, Benjamin Tag, Niels van Berkel, Sebastian Vollmer, Andrew Vargo and Koichi Kise'
 
 workshops-title: "Workshop Schedule"
 workshops:
