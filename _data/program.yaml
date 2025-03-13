@@ -32,7 +32,6 @@ program: This year’s Augmented Humans Conference takes place over 5 days to fa
 #   <p class="authors">Jefferson Pardomuan, Shio Miyafuji, Nobuhiro Takahashi and Hideki Koike</p>
 #   <img src="../img/demo.png" alt="demo" style="width:23em;">
 
-
 session-title: Session Overview
 sessions:
   - session: "Session 1: AR/VR Interaction & Physical Augmentation"
@@ -257,7 +256,38 @@ workshops:
       - workshop-entry:
         entry-time: "11:45-12:30"
         entry-activity: "Group Presentation"
-    
+
+poster-title: 'Accepted Posters'
+posters:
+  - title: 'Tactile Muscle Pumping: A System for Virtual Muscle Expansion and  Cloth Bursting'
+    authors: 'Hayato Yaginuma and Akihiro Matsuura'
+  - title: 'Effects of a foot - eye coordination training system using a VR environment'
+    authors: 'Iori Endo and Tatsuo Nakajima'
+  - title: 'Evaluating Acute Stress Levels Using Physiological Data'
+    authors: 'Haruya Fujii, Andrew Vargo, Motoi Iwata and Koichi Kise'
+  - title: 'Designing Undetectable Morphing Speech: How Morph Rate and Discrete/Continuous Changes Influences Change Detection Thresholds'
+    authors: 'Hiiro Okano, Naoto Wakatsuki, Yukihiko Okanda and Keiichi Zempo'
+  - title: 'The Use of Large Language Models in HCI: A Critical Analysis of Synthetic Users'
+    authors: 'Joni Salminen, Danial Amin, Soon-Gyo Jung and Bernard Jansen'
+  - title: 'Look and Talk: Seamless AI Assistant Interaction with Gaze-Triggered Activation'
+    authors: 'Qing Zhang and Jun Rekimoto'
+  - title: 'Effect of Tilt Information Provided by Motion Seat on Teleoperated Hydraulic Excavator on Tilt Perception'
+    authors: 'Tastuya Ueta, Masaki Nagai, Masaru Ito, Seiji Saiki, Yoichiro Yamazaki and Yuichi Kurita'
+  - title: 'Latency-Induced Impairments in Remote Operation of an Excavator: Reduced Sense of Agency and Narrowed Effective Visual Field'
+    authors: 'Natsumi Morikawa, Masaki Nagai, Masaru Ito, Chiaki Raima, Seiji Saiki, Yoichiro Yamazaki and Yuichi Kurita'
+  - title: 'Illusory Body Ownership of Empty Space between Split Bodies'
+    authors: 'Ryota Kondo and Michitaka Hirose'
+  - title: 'Designing a Co-Eating system based on Augmented Reality and Generative AI'
+    authors: 'Ryunosuke Akiyoshi and Tatsuo Nakajima'
+  - title: 'VR Shooting Form Practice System for Inexperienced Kyudo Players'
+    authors: 'Sogo Kase and Tatsuo Nakajima'
+  - title: 'Using wearbles to measure the impact of sleep on decision making'
+    authors: 'Toma Hara, Andrew Vargo, Motoi Iwata and Koichi Kise'
+  - title: 'Sound Seeker Beat: 360-Degree VR Rhythm Game with Surround Audio for Immersive Training in Spatial Cognition'
+    authors: 'Yuta Yamauchi, Kai Shishido, Shota Sasaki, Taiga Noguchi, Modar Hassan and Keiichi Zempo'
+  - title: 'EarLume: Nonverbal Self-Expression Through Light-Based Earable'
+    authors: 'Ling Ma, Chenhao Wei and Cindy Hsin-Liu Kao'
+
 # session-title: Session Schedules
 # session: |
 #   <h3 style="color: black;">Session 1: Haptic Feedback</h3>
