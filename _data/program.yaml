@@ -9,7 +9,7 @@ page-title: <strong>P</strong>rogram
 #    <a href="../img/print/AHs2022Program.pdf" class="btn btn-md" style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" onMouseOut="this.style['background-color']='#FFC847'">Download PDF</a>
 
 program-title: Program Schedule
-program: This year’s Augmented Humans Conference takes place over 5 days to facilitate the programme. Each conference day ends at 14:00 to be in accordance with University working hours during Ramadan.
+program: <p>This year’s Augmented Humans Conference takes place over 5 days to facilitate the programme. Each conference day ends at 14:00 to be in accordance with University working hours during Ramadan.</p><p>This year's banquet will take place in <a href="https://maps.app.goo.gl/84pnuogF6WChm5eo7">Fairmont Bab Al Bahr</a></p>
 
 # awards-title: Awards
 # awards: |
