@@ -45,17 +45,17 @@ body {
   margin: 0 0; /* bottom = footer height */
   display: flex;
   flex-direction: column;
-  background-color: $theme-background-primary;
+  background: linear-gradient(to bottom, #f0f8ff 0%, #fff8dc 100%); // 空から砂浜へのグラデーション
 }
 
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: lightgrey;
+  color: #0077be; // 海の青
   text-decoration: underline;
   &:hover, &:focus {
-    color: $hyperlinks;
+    color: #4ecdc4; // エメラルドグリーン
   }
 }
 
@@ -110,7 +110,7 @@ p {
       font-weight: 200;
       letter-spacing: 1px;
       &:hover, &:focus {
-        color: #fcbd20;
+        color: #4ecdc4; // エメラルドグリーン
       }
     }
     .navbar-toggle {
@@ -499,7 +499,7 @@ footer {
       font-size: 16px;
       color: #fff;
       &:hover, &:focus, &:active, &.active {
-        color: #c41a2e;
+        color: #4ecdc4; // エメラルドグリーン
         text-decoration: none;
       }
     }
@@ -536,16 +536,16 @@ footer {
 
 a.btn {
   font-family: 'Work Sans', sans-serif;
-  background-color: $hyperlinks;
-  color: black;
+  background-color: $theme-accent; // サンゴのオレンジ
+  color: white;
   text-transform: uppercase;
   padding: 15px 30px;
   letter-spacing: 1px;
   border-radius: 1px;
   transition: 0.5s ease-in-out;
   &:hover {
-    // color: white;
-    background-color: darken($hyperlinks, 10%);
+    color: white;
+    background-color: #4ecdc4; // エメラルドグリーンにホバー
     transition: 0.5s ease-in-out;
   }
 }
@@ -736,8 +736,8 @@ header.masthead {
   overflow-x: hidden;
   padding-top: calc(0.88*5rem + 55px);
   padding-bottom: 0.88*7rem;
-  background: url('../img/assets/AugmentedHumansHeader25.png');
-  // animation: backgroundAnimation 15s linear infinite;
+        background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%); // 沖縄の海のグラデーション
+      animation: okinawaWaveAnimation 20s ease-in-out infinite; // 沖縄の波のアニメーション
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -778,9 +778,9 @@ header.masthead {
       margin: auto; // centers it
       font-family: 'Monospaced font', sans-serif;
       font-weight: 100;
-      color: $theme-offwhite;
-      background-color: rgba(0, 56, 101, 0.9);
-      background: linear-gradient(135deg, #c60017 60%, #D96A6C 90%);
+      color: white;
+      background-color: rgba(0, 119, 190, 0.9);
+      background: linear-gradient(135deg, #0077be 60%, #4ecdc4 90%); // 海の青からエメラルドグリーンへ
       border: 5px solid #fff;
 
     }
@@ -794,9 +794,9 @@ header.masthead {
       // font-size: 0.88*1.5rem;
       // color: $theme-offwhite;
       // background-color: rgba(58, 175, 185, 0.9);
-      color: $theme-background-primary;
-      background-color: rgba(255, 255, 255, 0.85);
-      border: 3px solid #fff;
+      color: #ff6b35; // サンゴのオレンジ
+      background-color: rgba(255, 248, 220, 0.95); // 砂浜色の背景
+      border: 3px solid #4ecdc4; // エメラルドグリーンの枠線
     }
     .container {
       pointer-events: none;
@@ -832,6 +832,25 @@ header.masthead {
   }
   66.67%, 100% {
     background-image: url('../img/assets/ah3.jpg'); /* Third image */
+  }
+}
+
+// 沖縄の波のアニメーション
+@keyframes okinawaWaveAnimation {
+  0% {
+    background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%);
+  }
+  25% {
+    background: linear-gradient(135deg, #4ecdc4 0%, #87ceeb 50%, #0077be 100%);
+  }
+  50% {
+    background: linear-gradient(135deg, #87ceeb 0%, #0077be 50%, #4ecdc4 100%);
+  }
+  75% {
+    background: linear-gradient(135deg, #0077be 0%, #87ceeb 50%, #4ecdc4 100%);
+  }
+  100% {
+    background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%);
   }
 }
 

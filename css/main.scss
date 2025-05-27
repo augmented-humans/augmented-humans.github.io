@@ -33,25 +33,24 @@
 //     }
 // }
 
-$theme-background-primary: #c41a2e;
-$theme-background-secondary:  #FFF;
-$theme-background-tertiary:#FAFAFF;
+// 沖縄カラーテーマ
+$theme-background-primary: #0077be; // 沖縄の海の青
+$theme-background-secondary: #FFF;
+$theme-background-tertiary: #f0f8ff; // 薄い空色
 
+$theme-primary: #ff6b35; // サンゴのオレンジ
+$theme-secondary: #0077be; // 海の青
+$theme-tertiary: #4ecdc4; // エメラルドグリーン（沖縄の海）
+$theme-offwhite: #fff8dc; // 砂浜の色
 
-$theme-primary: #000;
-$theme-secondary:#c41a2e;
-$theme-tertiary: #c07d85;
-$theme-offwhite: #FAFAFF;
+$theme-accent: #ff6b35; // サンゴのオレンジ
 
-
-$theme-accent: #c41a2e;
-
-$hyperlinks: #000;
+$hyperlinks: #0077be; // 海の青
 $color-highlight: $theme-accent;
 
 // variables.less link and gradient background
-$head-primary: #385566 ;
-$head-secondary: #243c46 ;
+$head-primary: #0077be; // 海の青
+$head-secondary: #004d7a; // 深い海の青
 
 // $theme-primary: #527aac; //#385566; //   00ff9f ;
 // $theme-secondary: #abc6e6;//#527aac; //#5e7cbd;
