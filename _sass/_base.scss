@@ -55,7 +55,7 @@ a {
   color: #0077be; // 海の青
   text-decoration: underline;
   &:hover, &:focus {
-    color: #4ecdc4; // エメラルドグリーン
+    color: $theme-tertiary;
   }
 }
 
@@ -110,7 +110,7 @@ p {
       font-weight: 200;
       letter-spacing: 1px;
       &:hover, &:focus {
-        color: #4ecdc4; // エメラルドグリーン
+        color: $theme-tertiary;
       }
     }
     .navbar-toggle {
@@ -136,7 +136,7 @@ p {
         color: #222222;
       }
       &:hover, &:focus:hover {
-        color: $hyperlinks;
+        color: $navbar-hover;
         text-decoration: underline !important;
         // color: $theme-primary;
       }
@@ -172,12 +172,12 @@ p {
       }
     }
     .nav > li > a {
-      color: $color-white;
+      color: white;
       &:focus {
-        color: rgba(255, 255, 255, 0.55);
+        color: rgba(255, 255, 255, 0.7);
       }
       &:hover, &:focus:hover {
-        color: $color-white;
+        color: $navbar-hover;
       }
     }
     &.navbar-index {
@@ -190,7 +190,7 @@ p {
           color: rgba(255, 255, 255, 0.7);
         }
         &:hover, &:focus:hover {
-          color: $hyperlinks;
+          color: $navbar-hover;
         }
       }
     }
@@ -224,7 +224,7 @@ p {
           color: white;
         }
         &:hover, &:focus:hover {
-          color: $hyperlinks;
+          color: $navbar-hover;
         }
       }
     }
@@ -499,7 +499,7 @@ footer {
       font-size: 16px;
       color: #fff;
       &:hover, &:focus, &:active, &.active {
-        color: #4ecdc4; // エメラルドグリーン
+        color: $theme-tertiary;
         text-decoration: none;
       }
     }
@@ -545,7 +545,7 @@ a.btn {
   transition: 0.5s ease-in-out;
   &:hover {
     color: white;
-    background-color: #4ecdc4; // エメラルドグリーンにホバー
+    background-color: $theme-tertiary;
     transition: 0.5s ease-in-out;
   }
 }
@@ -1006,7 +1006,7 @@ header.masthead {
   }
 
   &.kw-huge-alt {
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
     span {
       display: inline-block;
       border-style: double;
@@ -1019,7 +1019,7 @@ header.masthead {
     span {
       display: inline-block;
       border-style: double;
-      border-color: #c41a2e;
+      border-color: #0077be; // 沖縄の海の青
       // border-bottom: 10px solid $color-highlight;
     }
   }
@@ -1594,8 +1594,8 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 }
 
 .kw-program-top {
-  border-bottom: 8px #c41a2e solid;
-  background-color: #c41a2e !important;
+  border-bottom: 8px #0077be solid; // 沖縄の海の青
+  background-color: #0077be !important; // 沖縄の海の青
 }
 
 .kw-maillist {
@@ -1737,13 +1737,13 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
     }
 
     a:link, a:visited{
-      color: #c41a2e;
+      color: #0077be; // 沖縄の海の青
       font-size: large;
       text-decoration: underline;
     }
 
     a:hover, a:active {
-      color: #c41a2e;
+      color: $theme-tertiary;
     }
   
     .position {
@@ -1754,7 +1754,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   margin-bottom: 20px !important;
 
   .k-title {
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
   }
 }
 
@@ -1774,7 +1774,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   td,th {
       // text-align: left;
       padding: 16px;
-      color: #c41a2e;
+      color: #0077be; // 沖縄の海の青
       font-size: larger;
   }
 
@@ -1794,7 +1794,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   td,th {
       // text-align: left;
       padding: 16px;
-      color: #c41a2e;
+      color: #0077be; // 沖縄の海の青
       font-size: larger;
       border: 2px solid black;
   }
@@ -1804,7 +1804,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   }
 
   ul{
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
   }
 
   p{
@@ -1828,7 +1828,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   }
 
   p.authors, a.doi {
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
     font-style: italic;
     font-size: 90%;
     // margin-bottom: 0;
@@ -1884,7 +1884,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       color: #222222;
     }
     &:hover, &:focus:hover {
-      color: $hyperlinks;
+      color: $navbar-hover;
       text-decoration: underline !important;
       // color: $theme-primary;
     }
@@ -2058,4 +2058,16 @@ transform-origin: 50% 50%;
     -moz-user-select: none;    
     -ms-user-select: none;      
     user-select: none;
+}
+
+// X (Twitter) icon hover effect
+.navbar-nav li a svg {
+  transition: color 0.3s ease;
+  fill: currentColor;
+}
+
+.navbar-nav li a:hover svg,
+.navbar-default .nav > li > a:hover svg {
+  color: $navbar-hover !important;
+  fill: $navbar-hover !important;
 }

@@ -14,7 +14,7 @@ registration: |
   Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
   Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
   Please register for Augmented Humans 2025 using the link below.
-  <a href="https://registration-augmented-humans.org/" class="btn btn-lg " style="background-color: #c41a2e; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='##c41a2e'">Click here to register</a>
+  <a href="https://registration-augmented-humans.org/" class="btn btn-lg " style="background-color: #ff6b35; border: 2px solid #F4FDD9; color: white !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#ff6b35'">Click here to register</a>
 
 # More information regarding registration and payment will be shared soon.
 
@@ -72,7 +72,7 @@ price: |
 # visa: |
 #   We can supply visa letters for you to attend AHs if you provide us with the following information:
 #   •	Your full name
-#   •	Your position (for example “PhD student”)
+#   •	Your position (for example "PhD student")
 #   •	Your full affiliation
 #   • Registration number and Passport number
 #   •	Whether you are presenting a paper or just attending the conference
@@ -87,7 +87,7 @@ price: |
 #   Welcome to Melbourne, Australia!
 #   Melbourne is Australia's mecca for all things trendy and tasty. The city offers up exquisite dining, exhilarating sport and abundant opportunities to experience art.
 #   A perfect blend of rich cultural history and new age trends is waiting for you in Melbourne. As the sun goes down, the city comes to life with a vibrant dining scene as well as events and exhibitions. Explore its bustling laneways, trendy neighbourhoods and sophisticated foodie scene to get a taste of what Melbourne is all about.
-#   If you’re extending your stay, plan your trip at: <a href="https://www.australia.com/en/places/melbourne-and-surrounds/guide-to-melbourne.html" style="color:#286090;" target="_blank">Guide to Melbourne.</a> 
+#   If you're extending your stay, plan your trip at: <a href="https://www.australia.com/en/places/melbourne-and-surrounds/guide-to-melbourne.html" style="color:#286090;" target="_blank">Guide to Melbourne.</a> 
 # travel-image: /img/attending/travel_to_mel1.jpg
 
 venue-title: Conference location
@@ -114,13 +114,13 @@ venue: |
 #   When you arrive at either Melbourne Tullamarine Airport or Avalon Airport, you can either use a taxi or Uber to reach Melbourne CBD or the conference location. Taxi fares from Tullamarine Airport to Melbourne CBD are around AU$90.00, to Caulfield would be around AU$110.00.
 #   Another option is using SkyBus. This bus service operates from both Tullamarine Airport and Avalon Airport, stopping at Southern Cross Station in Melbourne CBD. From Southern Cross Station, you can easily travel onwards using public transport. SkyBus services run on the following schedule:
 #   • Tullamarine Airport: every 10 minutes, between 4:00 am and 1:00 am;
-#   • Avalon Airport: every arriving and departing flight. 
+#   • Avalon Airport: every arriving and departing flight. 
 #   In order to use SkyBus, you need to buy a ticket at the SkyBus Kiosk at the airport arrival hall, or online: <a href="https://www.skybus.com.au/buy-tickets/" style="color:#286090;" target="_blank">Buy Tickets.</a>
 # # arriving-plane-image: /img/attending/travel-scotland.png
 
 # arriving-train-title: Using public transport
 # arriving-train: |
-#  In order to access public transport, you need a Myki card. With this prepaid card, you gain access to all trams, buses, and local trains. You can buy a Myki card at: 
+#  In order to access public transport, you need a Myki card. With this prepaid card, you gain access to all trams, buses, and local trains. You can buy a Myki card at: 
 #  • All 7/11 shops;
 #  • All train stations
 #  • The Melbourne Airport Tullamarine Arrival Hall;
@@ -128,18 +128,18 @@ venue: |
 
 #  In order to use the Myki card, you need to top up. You can use credit cards, debit cards and cash to do so. Top up machines can be found at all train stations and all Myki outlets. The standard fare is AU$5.30 for 2 hours of travel, with a maximum daily fare of AU$10.60.  <a href="https://www.ptv.vic.gov.au/tickets/myki/buy-a-myki-and-top-up/where-to-buy-and-top-up/" style="color:#286090;" target="_blank">More Info</a>.
 
-#  When using public transport, you always need to tap on and off with you Myki, unless: 
-#  • You are travelling by tram: then only tapping on is needed. 
-#  • You are travelling within the Free Tram Zone: no tapping on/off is needed here. The Free Tram Zone encapsulates most of Melbourne’s CBD area. The conference location is outside of the Free Tram Zone. For the map of the Free Tram Zone, see:  <a href="https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/Free-Tram-Zone-Map-Map-2023.pdf" style="color:#286090;" target="_blank">Map</a>.
+#  When using public transport, you always need to tap on and off with you Myki, unless: 
+#  • You are travelling by tram: then only tapping on is needed. 
+#  • You are travelling within the Free Tram Zone: no tapping on/off is needed here. The Free Tram Zone encapsulates most of Melbourne's CBD area. The conference location is outside of the Free Tram Zone. For the map of the Free Tram Zone, see:  <a href="https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/Free-Tram-Zone-Map-Map-2023.pdf" style="color:#286090;" target="_blank">Map</a>.
 
-#  For the most up to date information and to plan your travels, you can use Google Maps or the Public Transport Victoria (PTV) app:   <a href="https://www.ptv.vic.gov.au/footer/about-ptv/digital-tools/mobile-apps/" style="color:#286090;" target="_blank">App</a>.
+#  For the most up to date information and to plan your travels, you can use Google Maps or the Public Transport Victoria (PTV) app:   <a href="https://www.ptv.vic.gov.au/footer/about-ptv/digital-tools/mobile-apps/" style="color:#286090;" target="_blank">App</a>.
 
 # # arriving-train-image: /img/attending/travel-uk.png
 
 
 # conference-title: Getting to the conference location
 # conference-subtitle: |
-#   Monash University’s Caulfield Campus is easily accessible by public transport and car. We recommend using public transport, as parking space might be limited. 
+#   Monash University's Caulfield Campus is easily accessible by public transport and car. We recommend using public transport, as parking space might be limited. 
 
 
 # arriving-car-title: Arriving by Car
@@ -169,7 +169,7 @@ venue: |
 # what-to-do: |
   
 #   Glasgow has a wide variety of museums and sights you may want to take in when you visit. Here are some itineraries and links to help you on your way:
-#   • <a href="https://glasgowconventionbureau.com/media/2669/explore-the-west-end.pdf">West End itinerary</a> - covering the area around the conference venue, including famous landmarks like the Hunterian Museum, UoG’s Gilbert Scott Building (built 1891), and the Kelvingrove Art Gallery & Museum - all must sees!
+#   • <a href="https://glasgowconventionbureau.com/media/2669/explore-the-west-end.pdf">West End itinerary</a> - covering the area around the conference venue, including famous landmarks like the Hunterian Museum, UoG's Gilbert Scott Building (built 1891), and the Kelvingrove Art Gallery & Museum - all must sees!
 #   • <a href="https://glasgowconventionbureau.com/media/2769/explore-the-city-centre.pdf">City Centre itinerary</a>
 #   • <a href="https://peoplemakeglasgow.com/trip-inspiration/gateway-to-scotland/whisky-and-distilleries">Whisky and distillery tours</a> and <a href="https://peoplemakeglasgow.com/things-to-do/tours">other tours around the city</a>
 #   • <a href="https://www.glasgowlife.org.uk/museums">Museums</a>

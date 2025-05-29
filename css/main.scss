@@ -33,24 +33,25 @@
 //     }
 // }
 
-// 沖縄カラーテーマ
-$theme-background-primary: #0077be; // 沖縄の海の青
+// color theme for Okinawa
+$theme-background-primary: #0077be;
 $theme-background-secondary: #FFF;
-$theme-background-tertiary: #f0f8ff; // 薄い空色
+$theme-background-tertiary: #f0f8ff;
 
-$theme-primary: #ff6b35; // サンゴのオレンジ
-$theme-secondary: #0077be; // 海の青
-$theme-tertiary: #4ecdc4; // エメラルドグリーン（沖縄の海）
-$theme-offwhite: #fff8dc; // 砂浜の色
+$theme-primary: #ff6b35;
+$theme-secondary: #0077be;
+$theme-tertiary: #4ecdc4;
+$theme-offwhite: #fff8dc;
 
-$theme-accent: #ff6b35; // サンゴのオレンジ
+$theme-accent: #ff6b35;
 
-$hyperlinks: #0077be; // 海の青
-$color-highlight: $theme-accent;
+$hyperlinks: #0077be;
+$color-highlight: #0077be;
+$navbar-hover: #4ecdc4;
 
 // variables.less link and gradient background
-$head-primary: #0077be; // 海の青
-$head-secondary: #004d7a; // 深い海の青
+$head-primary: #0077be;
+$head-secondary: #004d7a;
 
 // $theme-primary: #527aac; //#385566; //   00ff9f ;
 // $theme-secondary: #abc6e6;//#527aac; //#5e7cbd;
