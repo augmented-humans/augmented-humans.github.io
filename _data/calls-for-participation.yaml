@@ -11,10 +11,12 @@ about: |
 
 cfp-title: Calls for Participation
 cfp: |
-  The Augmented Humans conference offers many different possibilities for publishing, presenting, and discussing your work.
-  Take a look at the <b>Calls for Participation</b> page for more information regarding the submission categories, guidelines, and more.
-  To register as a student volunteer, please follow the instructions <a style="color:#0077be"href="/student-volunteer">here</a>
-  <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
+  COMING SOON...
+# cfp: |
+  # The Augmented Humans conference offers many different possibilities for publishing, presenting, and discussing your work.
+  # Take a look at the <b>Calls for Participation</b> page for more information regarding the submission categories, guidelines, and more.
+  # To register as a student volunteer, please follow the instructions <a style="color:#0077be"href="/student-volunteer">here</a>
+  # <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
 
 
 topics-title: Topics
@@ -120,18 +122,15 @@ deadlines: |
 
     <tr>
       <td><strong>Full/Short Paper/</strong> Submission Deadline</td>
-      <td><s>16th January, 2025 (AoE)</s></td>
-      <td>23rd January, 2025 (AoE)</td>
+      <td>COMING SOON...</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
-      <td><s>13th February, 2025 (AoE)</s></td> 
-      <td>20th February, 2025 (AoE)</td>
+      <td>COMING SOON...</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Camera-Ready</td>
-      <td><s>27th February, 2025 (AoE)</s></td> 
-      <td>6th March, 2025 (AoE)</td> 
+      <td>COMING SOON...</td> 
     </tr>
 
         <tr class="tr-break">
@@ -140,15 +139,15 @@ deadlines: |
 
     <tr>
       <td><strong>Special Fast track</strong> Submission Deadline</td>
-      <td>27th January, 2025 (AoE)</td> 
+      <td>COMING SOON...</td> 
     </tr>
     <tr>
       <td><strong>Special Fast track</strong> Decisions sent to Author</td>
-      <td>13th February, 2025 (AoE)</td> 
+      <td>COMING SOON...</td> 
     </tr>
     <tr>
       <td><strong>Special Fast track</strong> Camera-Ready</td>
-      <td>6th March, 2025 (AoE)</td> 
+      <td>COMING SOON...</td> 
     </tr>
 
     <tr class="tr-break">
@@ -157,17 +156,15 @@ deadlines: |
 
     <tr>
       <td><strong>Poster/Demos/Workshop</strong> Submission Deadline</td>
-      <td><s>13th February, 2025 (AoE)</s></td> 
-      <td>20th February, 2025 (AoE)</td> 
+      <td>COMING SOON...</td> 
     </tr>
     <tr>
       <td><strong>Poster/Demos/Workshop</strong> Decisions sent to Author</td>
-      <td><s>20th February, 2025 (AoE)</s></td>
-      <td>23rd February, 2025 (AoE)</td>  
+      <td>COMING SOON...</td>
     </tr>
     <tr>
       <td><strong>Poster/Demos/Workshop</strong> Camera-Ready</td>
-      <td>6th March, 2025 (AoE)</td> 
+      <td>COMING SOON...</td> 
     </tr>
 
     </table> 
