@@ -5,6 +5,10 @@ notice:
 
 show_notice: false
 
+news-title: News
+news: |
+  • Website is now open!
+
 about-title: About the Conference
 about: |
   The Augmented Humans (AHs) International Conference 2026 will be an in-person event, held in March 2026 at Okinawa Institute of Science and Technology graduate university (OIST).
@@ -12,7 +16,7 @@ about: |
   The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962&nbsp[1]. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
 
-  <text style="font-size: medium">[1] Engelbart, Douglas C.: “AUGMENTING HUMAN INTELLECT: A Conceptual Framework.” (1962)</text>
+  <text style="font-size: medium">[1] Engelbart, Douglas C.: "AUGMENTING HUMAN INTELLECT: A Conceptual Framework." (1962)</text>
 
 # closing-title: Until next year!
 # closing: |
