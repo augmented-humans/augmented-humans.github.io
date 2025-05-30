@@ -3,15 +3,15 @@ page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 committee:
   - group: General Chairs
     people:
-      - name: Kouta Minamizawa
-        affiliation: Keio Media Design, Japan
-        mail: https://www.kmd.keio.ac.jp/ja/faculty/kouta-minamizawa/
+      - name: Kouta MINAMIZAWA
+        affiliation: Keio University Graduate School of Media Design, Japan
+        mail: https://www.embodiedmedia.org
         img: /img/committee/2026/kouta_minamizawa.jpg
         
-      - name: Shunichi Kasahara
-        affiliation: Sony Computer Science Laboratories, Inc. / Okinawa Institute of Science and Technology graduate university, Japan
-        mail: awv@omu.ac.jp
-        img: /img/committee/2026/shunichi_kasahara.jpg
+      - name: Shunichi KASAHARA
+        affiliation: Researcher, Sony Computer Science Laboratories, Inc. (Sony CSL) / Okinawa Institute of Science and Technology Graduate University (OIST), Japan
+        mail: https://cybernetichumanity.com/
+        img: /img/committee/2026/shunichi_kasahara.png
 
       - name: COMING SOON...
         affiliation: COMING SOON...
@@ -25,9 +25,9 @@ committee:
 
   - group: Program Chairs
     people:
-      - name: Maki Sugimoto
+      - name: Maki SUGIMOTO
         affiliation: Keio University, Japan
-        mail: https://im-lab.net/maki-sugimoto/
+        mail: https://www.st.keio.ac.jp/en/tprofile/ics/sugimoto.html
         img: /img/committee/2026/maki_sugimoto.jpg
 
       - name: COMING SOON...
@@ -42,10 +42,10 @@ committee:
 
   - group: Poster & Demo Chairs
     people:
-      - name: COMING SOON...
-        affiliation: COMING SOON...
-        mail: https://www.google.com/
-        img: /img/committee/2026/shunichi_kasahara.jpg
+      - name: Ko WATANABE
+        affiliation: DFKI GmbH, Germany
+        mail: https://ko-watanabe.github.io/
+        img: /img/committee/2026/ko_watanabe.png
 
       - name: COMING SOON...
         affiliation: COMING SOON...
@@ -66,7 +66,7 @@ committee:
 
   - group: Publication Chairs
     people:
-      - name: Steeven Illa
+      - name: Steeven Villa
         affiliation: LMU Munich, Germany
         mail: https://scholar.google.com.br/citations?user=j6rFI50AAAAJ&hl=es
         img: /img/committee/2026/shunichi_kasahara.jpg
@@ -85,22 +85,22 @@ committee:
   
   - group: Local Arrangement Chair
     people:
-      - name: Takeru Hashimoto
-        affiliation: Sony Computer Science Laboratories, Inc., Japan
-        mail: https://www.google.com/
+      - name: Takeru HASHIMOTO
+        affiliation: SonyCSL/OIST, Japan
+        mail: https://tkrtkr.com/
         img: /img/committee/2026/takeru_hashimoto.jpg
   
   - group: Financial Chair
     people:
-      - name: COMING SOON...
-        affiliation: COMING SOON...
-        mail: https://www.google.com/
-        img: /img/committee/2026/shunichi_kasahara.jpg
+      - name: Keiichi ZEMPO
+        affiliation: University of Tsukuba, Japan
+        mail: https://www.xpercept.aclab.esys.tsukuba.ac.jp
+        img: /img/committee/2026/keiichi_zempo.jpeg
 
   - group: Web Chair
     people:
-      - name: Kazuma Takada
-        affiliation: Okinawa Institute of Science and Technology graduate university / Sony Computer Science Laboratories, Inc., Japan
+      - name: Kazuma TAKADA
+        affiliation: OIST / SonyCSL, Japan
         website: https://www.google.com/
         img: /img/committee/2026/kazuma_takada.png
 
@@ -148,110 +148,3 @@ committee:
         affiliation: Tokyo Institute of Technology, Japan
       - name: Kai Kunze
         affiliation: Keio University, Japan
-
-  # - group: PC Members
-  #   people:
-  #     - name: Akishige Yuguchi
-  #       affiliation: Tokyo University of Science / RIKEN GRP
-  #     - name: Keiichi Zempo
-  #       affiliation: University of Tsukuba
-  #     - name: Maximiliane Windl
-  #       affiliation: LMU Munich
-  #     - name: Matthias Hoppe
-  #       affiliation: Ludwig Maximilian University of Munich
-  #     - name: Damien Brun
-  #       affiliation: University of Lapland
-  #     - name: Athanasios Vourvopoulos
-  #       affiliation: Institute for Systems and Robotics, Instituto Superior Técnico
-  #     - name: Nami Ogawa
-  #       affiliation: The University of Tokyo
-  #     - name: Shan-Yuan Teng
-  #       affiliation: University of Chicago
-  #     - name: Daniel Wessolek
-  #       affiliation: Futurium gGmbH
-  #     - name: Florian Müller
-  #       affiliation: LMU Munich
-  #     - name: Yuichi Kurita
-  #       affiliation: Hiroshima University
-  #     - name: Henning Pohl
-  #       affiliation: Aalborg University
-  #     - name: Jochen Huber
-  #       affiliation: Furtwangen University
-  #     - name: Zhongyi Bai
-  #       affiliation: The University of Sydney
-  #     - name: Denys J.C. Matthies
-  #       affiliation: Fraunhofer
-  #     - name: Sarah Delgado Rodriguez
-  #       affiliation: University of Bundeswehr, Munich
-  #     - name: Weiwei Jiang
-  #       affiliation: The University of Melbourne
-  #     - name: Aditya Shekhar Nittala
-  #       affiliation: Saarland University
-  #     - name: Martin Weigel
-  #       affiliation: Technische Hochschule Mittelhessen
-  #     - name: Maki Sugimoto
-  #       affiliation: Keio University
-  #     - name: Shoya Ishimaru
-  #       affiliation: Osaka Prefecture University
-  #     - name: Chaofan Wang
-  #       affiliation: The University of Melbourne
-  #     - name: Monica Perusquía-Hernández
-  #       affiliation: Nara Institute of Science and Technology (NAIST), NTT Communication Science Laboratories
-  #     - name: Ian Oakley
-  #       affiliation: University of Madeira
-  #     - name: Kristof Van Laerhoven
-  #       affiliation: University of Siegen
-  #     - name: Masaaki Mochimaru
-  #       affiliation: Human Augmentation Research Center, AIST
-  #     - name: Chu Luo
-  #       affiliation: The University of Melbourne
-
-  # # - group: PC Members
-  #     people: 
-  #     - name:  Akishige Yuguchi(LMU Munich, Germany)
-  #     - name:  Daniel Wessolek (Futurium gGmbH)
-  #       Nami Ogawa (University of Tokyo, Japan)
-  #       Hesham Elsayed (TU Darmstadt, Germany)
-  #       Ken Nakagaki (University of Chicago, United States)
-  #       Thomas Kosch (TU Darmstadt, Germany)
-  #       Eleonora Mencarini (Fondazione Bruno Kessler)
-  #       Keita Higuchi (University of Tokyo, Japan)
-  #       Henning Pohl (University of Copenhagen, Denmark)
-  #       Kirill Ragozin (Keio University, Japan)
-  #       Shoya Ishimaru (Osaka Prefecture University, Japan)
-  #       Yusuke Tamura (Tohoku University, Japan)
-  #       Keiichi Zempo (University of Tsukuba, Japan)
-  #       Yasutaka Nakashima (Kyushu University, Japan)
-  #       Jamie Anthony Ward (University College London, United Kingdom)
-  #       Don Samitha Elvitigala (University of Auckland, New Zealand)
-  #       Maki Sugimoto (Keio University, Japan)
-  #       Julian Rasch (LMU Munich, Germany)
-  #       Anthanasios Vourvopoulos (Institute for Systems and Robotics, Portugal)
-  #       Aditya Shekhar Nittala (Saarland University, Germany)
-  #       Martin Weigel (Technische Hochschule Mittelhessen, Germany)
-  #       Kristof Van Laerhoven (University of Siegen, Germany)
-  #       Pascal Knierim (Ludwig Maximilian University of Munich, Germany)
-  #       Niels Henze (University of Regensburg, Germany)
-  #       Jochen Huber (Furtwangen University, Germany)
-  #       Florian Müller (LMU Munich, Germany)
-  #       Julius von Willich (TU Darmstadt, Germany)
-  #       Masa Ogata (National Institute of Advanced Industrial Science and Technology, Japan)
-  #       Akishige Yuguchi (RIKEN Guardian Robot Project)
-  #       Roshan Peiris (Rochested Institute of Technology, United States)
-  #       Tadayoshi Aoyama (Nagoya University, Japan)
-  #       Nina Gerber (TU Darmstadt, Germany)
-  #       Shunichi Kasahara (University of Tokyo, Japan)
-  #       Monica Perusquía-Hernández (University of Essex, Germany)
-  #       Stefan Schneegass (University of Duisburg-Essen, Germany)
-  #       Harutoyo Hirano (Shizuoka University, Japan)
-  #       Damien Brun (University of Lapland, Finland)
-  #       Geehyuk Lee (Korea Advanced Institute of Science and Technology, Korea)
-  #       Enriko Rukzio (Ulm University, Germany)
-  #       Paweł Woźniak (Chanmers University of Technology, Sweden)
-  #       Denys J.C. Matthies (Fraunhofer)
-  #       Kai Kunze (Keio University, Japan)
-  #       Ian Oakley (University of Madeira, Portugal)
-  #       Liwei Chan (National Taiwan University, Republic of China)
-  #       Yumeko Imamura (National Institute of Advanced Industrial Science and Technology, Japan)
-  #       Tsutomu Terada (Kobe University, Japan)
-  #       Naoya Koizumi (University of Electro-Communications, Japan)
