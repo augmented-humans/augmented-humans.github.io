@@ -4,147 +4,186 @@ committee:
   - group: General Chairs
     people:
       - name: Kouta MINAMIZAWA
+        position: Professor
         affiliation: Keio University Graduate School of Media Design, Japan
-        mail: https://www.embodiedmedia.org
+        mail: minamizawa@example.com
+        link: https://www.embodiedmedia.org
         img: /img/committee/2026/kouta_minamizawa.jpg
         
       - name: Shunichi KASAHARA
+        position: Researcher
         affiliation: Researcher, Sony Computer Science Laboratories, Inc. (Sony CSL) / Okinawa Institute of Science and Technology Graduate University (OIST), Japan
-        mail: https://cybernetichumanity.com/
+        link: https://cybernetichumanity.com/
+        mail: kasahara@csl.sony.co.jp
         img: /img/committee/2026/shunichi_kasahara.png
 
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
   - group: Program Chairs
     people:
       - name: Maki SUGIMOTO
+        position: Professor
         affiliation: Keio University, Japan
-        mail: https://www.st.keio.ac.jp/en/tprofile/ics/sugimoto.html
+        mail: sugimoto@ics.keio.ac.jp
+        link: https://www.st.keio.ac.jp/en/tprofile/ics/sugimoto.html
         img: /img/committee/2026/maki_sugimoto.jpg
 
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
   - group: Poster & Demo Chairs
     people:
       - name: Ko WATANABE
+        position: Senior/Postdoc Researcher
         affiliation: DFKI GmbH, Germany
-        mail: https://ko-watanabe.github.io/
+        link: https://ko-watanabe.github.io/
         img: /img/committee/2026/ko_watanabe.png
 
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
       
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
   - group: Workshop Chairs
     people:
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
   - group: Publication Chairs
     people:
       - name: Steeven Villa
+        position: Researcher
         affiliation: LMU Munich, Germany
-        mail: https://scholar.google.com.br/citations?user=j6rFI50AAAAJ&hl=es
+        link: https://scholar.google.com.br/citations?user=j6rFI50AAAAJ&hl=es
         img: /img/committee/2026/shunichi_kasahara.jpg
 
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
   - group: Student Volunteer Chair
     people:
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
   
   - group: Local Arrangement Chair
     people:
       - name: Takeru HASHIMOTO
+        position: Project Researcher
         affiliation: SonyCSL/OIST, Japan
-        mail: https://tkrtkr.com/
+        link: https://tkrtkr.com/
+        mail: hashimoto@csl.sony.co.jp
         img: /img/committee/2026/takeru_hashimoto.jpg
   
   - group: Financial Chair
     people:
       - name: Keiichi ZEMPO
+        position:  Associate Professor
         affiliation: University of Tsukuba, Japan
-        mail: https://www.xpercept.aclab.esys.tsukuba.ac.jp
+        mail: zempo@iit.tsukuba.ac.jp
+        link: https://www.xpercept.aclab.esys.tsukuba.ac.jp
         img: /img/committee/2026/keiichi_zempo.jpeg
 
   - group: Web Chair
     people:
       - name: Kazuma TAKADA
+        position: Ph.D. candidate / Research Assistant
         affiliation: OIST / SonyCSL, Japan
-        website: https://www.google.com/
+        mail: k.takada@oist.jp
+        link: https://www.google.com/
         img: /img/committee/2026/kazuma_takada.png
 
   - group: Social Event Co-Chair
     people:
       - name: Ryoichi Ando
+        position: Researcher
         affiliation: Keio Media Design, Japan
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
   - group: Awards Committee Chairs
     people:
       - name: COMING SOON...
+        position: TBD
         affiliation: COMING SOON...
-        mail: https://www.google.com/
+        link: https://www.google.com/
         img: /img/committee/2026/shunichi_kasahara.jpg
 
   - group: Steering Committee
     people:
       - name: Thomas Kosch
+        position: Professor
         affiliation: Humboldt University of Berlin, Germany
       - name: Paul Strohmeier
+        position: Researcher
         affiliation: Max Planck Institute for Informatics, Germany
       - name: Masahiko Inami
+        position: Professor
         affiliation: The University of Tokyo, Japan
       - name: Albrecht Schmidt
+        position: Professor
         affiliation: LMU Munich, Germany
       - name: Pattie Maes
+        position: Professor
         affiliation: MIT Cambridge, USA
       - name: Woontack Woo
+        position: Professor
         affiliation: KAIST, Korea
       - name: Ellen Yi-Luen Do
+        position: Professor
         affiliation: University of Colorado Boulder, USA
       - name: Paul Lukowicz
+        position: Professor
         affiliation: DFKI Kaiserslautern, Germany
       - name: Suranga Nanayakkara
+        position: Professor
         affiliation: National University of Singapore, Singapore
       - name: Tsutomu Terada
+        position: Professor
         affiliation: University of Kobe, Japan
       - name: Jun Rekimoto
+        position: Professor
         affiliation: The University of Tokyo, Japan
       - name: Katrin Wolf
+        position: Professor
         affiliation: Berlin University of Applied Sciences and Technology, Germany
       - name: Hideki Koike
+        position: Professor
         affiliation: Tokyo Institute of Technology, Japan
       - name: Kai Kunze
+        position: Professor
         affiliation: Keio University, Japan

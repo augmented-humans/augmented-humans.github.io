@@ -1717,23 +1717,39 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       background-size:cover;
       background-repeat:no-repeat;
       margin: 0 auto;
-      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
-      transition: -webkit-filter 0.5s ease-in-out;
-      transition: filter 0.5s ease-in-out;
-    }
-
-    .image:hover {
-      -webkit-filter: none; /* Safari 6.0 - 9.0 */
-      filter: none;
-      transition: -webkit-filter 0.5s ease;
-      transition: filter 0.5s ease;
     }
 
     .name {
       margin-top: 20px;
       font-size: large;
       color:#3F3446 ;
+    }
+
+    .title {
+      margin-top: 5px;
+      font-size: medium;
+      color: #0077be;
+      font-style: italic;
+      position: relative;
+      
+      .email-icon {
+        margin-left: 10px;
+        color: #ff6b35;
+        font-size: 16px;
+        text-decoration: none !important;
+        transition: color 0.3s ease;
+        display: inline-block;
+        vertical-align: middle;
+        
+        &:hover {
+          color: #e55a2b;
+          transform: scale(1.1);
+        }
+        
+        i {
+          font-style: normal !important;
+        }
+      }
     }
 
     a:link, a:visited{
