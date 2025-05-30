@@ -61,6 +61,8 @@ categories: |
   <p style="font-size: 90%;"><text id="footnote1">²</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute). More information can be found on the dedicated <a href="/call-for-demos"> Call for Demos</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote3">³</text> More information can be found on the dedicated <a href="/call-for-posters"> Call for Posters</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote2">⁴</text> More information can be found on the dedicated <a href="/call-for-workshops"> Call for Workshops</a> site.</p>
+  
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize the workshop, please contact the AHs general chairs <a href="mailto:ahs2026-general-chairs@gmail.com">ahs2026-general-chairs@gmail.com</a>.</p>
  
 
 
@@ -122,15 +124,15 @@ deadlines: |
 
     <tr>
       <td><strong>Full/Short Paper/</strong> Submission Deadline</td>
-      <td>COMING SOON...</td>
+      <td>November 18th, 2025</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
-      <td>COMING SOON...</td>
+      <td>January 15th, 2026</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Camera-Ready</td>
-      <td>COMING SOON...</td> 
+      <td>TBD</td> 
     </tr>
 
         <tr class="tr-break">
@@ -138,39 +140,41 @@ deadlines: |
     </tr>
 
     <tr>
-      <td><strong>Special Fast track</strong> Submission Deadline</td>
-      <td>COMING SOON...</td> 
+      <td><strong>Poster/Demos</strong> Submission Deadline</td>
+      <td>January 16th, 2026</td> 
     </tr>
     <tr>
-      <td><strong>Special Fast track</strong> Decisions sent to Author</td>
-      <td>COMING SOON...</td> 
+      <td><strong>Poster/Demos</strong> Decisions sent to Author</td>
+      <td>TBD</td>
     </tr>
     <tr>
-      <td><strong>Special Fast track</strong> Camera-Ready</td>
-      <td>COMING SOON...</td> 
-    </tr>
-
-    <tr class="tr-break">
-      <td colspan="100%" style="background-color: #0077be;"></td>
-    </tr>
-
-    <tr>
-      <td><strong>Poster/Demos/Workshop</strong> Submission Deadline</td>
-      <td>COMING SOON...</td> 
-    </tr>
-    <tr>
-      <td><strong>Poster/Demos/Workshop</strong> Decisions sent to Author</td>
-      <td>COMING SOON...</td>
-    </tr>
-    <tr>
-      <td><strong>Poster/Demos/Workshop</strong> Camera-Ready</td>
-      <td>COMING SOON...</td> 
+      <td><strong>Poster/Demos</strong> Camera-Ready</td>
+      <td>TBD</td> 
     </tr>
 
     </table> 
 
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize the workshop, please contact the AHs general chairs <a href="mailto:ahs2026-general-chairs@gmail.com">ahs2026-general-chairs@gmail.com</a>.</p>
 
 
 add-title: Additional Information
 add: |
   At least one author of each accepted paper must register for the conference and present the paper in Abu Dhabi. Exceptions of in-person presentations can be granted in emergency situations (e.g., visa issues) upon request from the general chairs. If you are in such a situation please contact the general chairs via e-mail.
+
+
+# <tr>
+  #   <td><strong>Special Fast track</strong> Submission Deadline</td>
+  #   <td>COMING SOON...</td> 
+  # </tr>
+  # <tr>
+  #   <td><strong>Special Fast track</strong> Decisions sent to Author</td>
+  #   <td>COMING SOON...</td> 
+  # </tr>
+  # <tr>
+  #   <td><strong>Special Fast track</strong> Camera-Ready</td>
+  #   <td>COMING SOON...</td> 
+  # </tr>
+
+  # <tr class="tr-break">
+  #   <td colspan="100%" style="background-color: #0077be;"></td>
+  # </tr>
