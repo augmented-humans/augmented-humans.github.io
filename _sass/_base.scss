@@ -782,13 +782,15 @@ header.masthead {
       background-color: rgba(0, 119, 190, 0.9);
       background: linear-gradient(135deg, #0077be 60%, #4ecdc4 90%); // 海の青からエメラルドグリーンへ
       border: 5px solid #fff;
+      max-width: 90%; // モバイルでも最大幅を設定
+      font-size: 1.8rem; // モバイル用のフォントサイズ
 
     }
     .masthead-subheading {
       text-align: center;
       margin: auto; // centers it
       margin-top:2%;
-      font-family: 'Monospaced font', sans-serif;
+      font-family: 'Bradley Hand', serif; // モバイルでもBradley Handを使用
       opacity: 1;
       //padding: 5px;
       // font-size: 0.88*1.5rem;
@@ -797,6 +799,8 @@ header.masthead {
       color: #ff6b35; // サンゴのオレンジ
       background-color: rgba(255, 248, 220, 0.95); // 砂浜色の背景
       border: 3px solid #4ecdc4; // エメラルドグリーンの枠線
+      max-width: 90%; // モバイルでも最大幅を設定
+      font-size: 1.2rem; // モバイル用のフォントサイズ
     }
     .container {
       pointer-events: none;
@@ -889,13 +893,47 @@ header.masthead {
         //font-weight: 600;
         //letter-spacing: 0.1rem;
         font-family: 'Monospaced font', sans-serif;
-        max-width: 80%;
+        max-width: 85%; // 幅を少し調整
       }
       .masthead-subheading {
-        font-family: 'Bradley Hand', serif;
+        font-family: 'Bradley Hand', serif; // 元のフォントファミリーに戻す
         font-size: 0.88*2rem;
         opacity: 1;
-        max-width: 80%;
+        max-width: 85%; // 幅を調整して統一
+      }
+    }
+  }
+}
+
+// モバイルとタブレット用の追加レスポンシブ対応
+@media (max-width: 991px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        max-width: 95%; // 小さい画面でより多くの幅を使用
+        font-size: 1.5rem; // タブレット用のフォントサイズ
+      }
+      .masthead-subheading {
+        max-width: 95%; // 小さい画面でより多くの幅を使用
+        font-size: 1.1rem; // タブレット用のフォントサイズ
+      }
+    }
+  }
+}
+
+// 非常に小さな画面（スマートフォン）用
+@media (max-width: 576px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        max-width: 98%; // 最小の画面でほぼ全幅を使用
+        font-size: 1.3rem; // スマートフォン用のフォントサイズ
+        padding: 10px 5px; // パディングを調整
+      }
+      .masthead-subheading {
+        max-width: 98%; // 最小の画面でほぼ全幅を使用
+        font-size: 1rem; // スマートフォン用のフォントサイズ
+        padding: 8px 5px; // パディングを調整
       }
     }
   }
@@ -972,11 +1010,11 @@ header.masthead {
 //   background-color: #000000;
 // }
 
-.masthead-subheading {
-  font-weight: 200;
-  font-family: 'TT3R', serif;
-  letter-spacing: 1px;
-}
+// .masthead-subheading {
+//   font-weight: 200;
+//   font-family: 'TT3R', serif;
+//   letter-spacing: 1px;
+// }
 
 #kw-featured {
   background-color: #f5f5f5;
@@ -1068,12 +1106,13 @@ header.masthead#kw-project-header {
   font-size: 18px;
 }
 
-#ah-description, #ah-topics, #ah-categories, #ah-about, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards, #ah-program, #ah-cfp {
+#ah-description, #ah-topics, #ah-categories, #ah-about, #ah-news, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards, #ah-program, #ah-cfp {
   text-align: left;
   padding-top: 40px;
   padding-bottom: 80px;
   color: $theme-background-secondary;
   background-color: white;
+  min-height: 200px; // 最小高さを設定して背景色が消えないようにする
 
   p {
     color: black;
@@ -1097,7 +1136,8 @@ header.masthead#kw-project-header {
   }
 
   &.flip {
-    background-color: $theme-background-secondary;
+    background-color: $theme-background-secondary; // 元の背景色に戻す
+    min-height: 250px; // flip クラスにも最小高さを設定
     p {
       color: black;
     }
@@ -2086,4 +2126,103 @@ transform-origin: 50% 50%;
 .navbar-default .nav > li > a:hover svg {
   color: $navbar-hover !important;
   fill: $navbar-hover !important;
+}
+
+// News欄専用の追加スタイル
+#ah-news {
+  &.flip {
+    background-color: rgba(255, 248, 220, 0.95) !important; // subtitleと同じ砂浜色の背景
+    padding-top: 25px !important; // 上部のpaddingをさらに減らす
+    padding-bottom: 35px !important; // 下部のpaddingをさらに減らす
+    // 小さな画面でも背景色が消えないように確実にする
+    @media (max-height: 600px) {
+      min-height: 250px; // 最小高さも調整
+    }
+    @media (max-height: 500px) {
+      min-height: 280px;
+    }
+    @media (max-width: 768px) {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      min-height: 220px; // モバイルの最小高さも調整
+    }
+  }
+  
+  // NEWSタイトルのmarginを調整
+  .kw-section-title {
+    margin-bottom: 15px !important; // タイトル下のmarginを削減
+    margin-top: 0 !important; // タイトル上のmarginを削除
+  }
+  
+  .news-container {
+    max-height: 280px; // 縦幅を小さく調整
+    overflow-y: auto; // 縦スクロールを有効にする
+    padding-right: 8px; // スクロールバーのためのスペースを減らす
+    margin-bottom: 0; // 下のmarginを削除
+    margin-top: 0; // 上のmarginを削除
+    
+    // スクロールバーのスタイリング
+    &::-webkit-scrollbar {
+      width: 6px; // スクロールバーを細く
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 119, 190, 0.6); // 沖縄の海の青
+      border-radius: 3px;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 119, 190, 0.8);
+    }
+  }
+  
+  .news-item {
+    margin-bottom: 15px; // marginを減らす
+    padding: 12px; // paddingを減らす
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px; // 角丸を小さく
+    border-left: 3px solid #4ecdc4; // ボーダーを細く
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-1px); // ホバー効果を控えめに
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .news-date {
+    font-family: 'Monospaced font', sans-serif;
+    font-size: 13px; // フォントサイズを小さく
+    color: #0077be; // 沖縄の海の青
+    font-weight: 600;
+    margin-bottom: 6px; // marginを減らす
+    display: block;
+  }
+  
+  .news-content {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px; // フォントサイズを小さく
+    color: #333;
+    line-height: 1.4; // 行間を詰める
+  }
+}
+
+.ah-organization.ah-override {
+    &:not(:first-child) {
+      padding-top: 20px !important;
+      padding-bottom: 10px !important;
+    }
+    &:last-child {
+      padding-bottom: 20px !important;
+    }
+  // padding-bottom: 20px !important;
 }

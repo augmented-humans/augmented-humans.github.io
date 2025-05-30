@@ -6,8 +6,9 @@ notice:
 show_notice: false
 
 news-title: News
-news: |
-  • Website is now open!
+news:
+  - date: "2025-05-30"
+    content: "Website is now open!"
 
 about-title: About the Conference
 about: |

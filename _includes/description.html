@@ -5,10 +5,18 @@
           <div class="col-lg-10">
             <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left"><span>{{ site.data.landing.news-title }}</span></div>
             
-            {% assign news_paragraphs = site.data.landing.news | newline_to_br | split:'<br />' %}
-            {% for paragraph in news_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
+            <div class="news-container">
+              {% if site.data.landing.news and site.data.landing.news.size > 0 %}
+                {% for news_item in site.data.landing.news %}
+                  <div class="news-item">
+                    <div class="news-date">{{ news_item.date | date: "%B %d, %Y" }}</div>
+                    <div class="news-content">{{ news_item.content }}</div>
+                  </div>
+                {% endfor %}
+              {% else %}
+                <p>No news available at the moment.</p>
+              {% endif %}
+            </div>
           </div>
           <div class="col-lg-1"></div>
         </div>
