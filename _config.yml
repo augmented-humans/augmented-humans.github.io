@@ -1,10 +1,26 @@
 # Site settings
-title: Augmented Humans Conference 2025
+title: Augmented Humans Conference 2026
 url: https://augmented-humans.org
 description: "The Augmented Humans (AHs) International Conference will be held in Melbourne, Australia focusing on physical, cognitive, and perceptual augmenting humans through digital technologies."
 keywords: "Augmented Human, HCI, Human Computer Integration, Computer Science"
 meta_author: Augmented Humans
 baseurl: ""
+
+# Social media and meta card settings
+twitter:
+  username: augmented_humans  # Twitterアカウントがある場合
+  card: summary_large_image
+
+# Open Graph settings
+og_image: /img/assets/og-image.png  # サイトのデフォルト画像パス
+og_type: website
+
+# Jekyll SEO Tag settings
+social:
+  name: Augmented Humans Conference
+  links:
+    - https://twitter.com/augmented_humans  # 実際のSNSリンクに変更
+    - https://www.facebook.com/augmentedhumans  # 実際のSNSリンクに変更
 
 mailchimp: "https://augmented-humans.us19.list-manage.com/subscribe/post?u=24833caa46a883a452cd0007c&amp;id=38ddd23071"
 

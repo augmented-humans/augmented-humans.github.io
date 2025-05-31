@@ -33,25 +33,25 @@
 //     }
 // }
 
-$theme-background-primary: #c41a2e;
-$theme-background-secondary:  #FFF;
-$theme-background-tertiary:#FAFAFF;
+// color theme for Okinawa
+$theme-background-primary: #0077be;
+$theme-background-secondary: #FFF;
+$theme-background-tertiary: #f0f8ff;
 
+$theme-primary: #ff6b35;
+$theme-secondary: #0077be;
+$theme-tertiary: #4ecdc4;
+$theme-offwhite: #fff8dc;
 
-$theme-primary: #000;
-$theme-secondary:#c41a2e;
-$theme-tertiary: #c07d85;
-$theme-offwhite: #FAFAFF;
+$theme-accent: #ff6b35;
 
-
-$theme-accent: #c41a2e;
-
-$hyperlinks: #000;
-$color-highlight: $theme-accent;
+$hyperlinks: #0077be;
+$color-highlight: #0077be;
+$navbar-hover: #4ecdc4;
 
 // variables.less link and gradient background
-$head-primary: #385566 ;
-$head-secondary: #243c46 ;
+$head-primary: #0077be;
+$head-secondary: #004d7a;
 
 // $theme-primary: #527aac; //#385566; //   00ff9f ;
 // $theme-secondary: #abc6e6;//#527aac; //#5e7cbd;

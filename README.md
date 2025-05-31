@@ -70,3 +70,43 @@ Much of the rest mostly is old content from earlier years (e.g., the blog).
 The two most important files are `_sass/base.scss` (containing additional, custom CSS next to the base bootstrap theme) and `css/main.scss` (containing the definitions of the color palette).
 Some CSS can still be found directly in the `.html` files and not all colors are correctly parameterized yet.
 Most sites make use of the `flip`, `flip1`, and `flip2` classes which works for the most part, but there are some `style` parts in the `.html` files here and there.
+
+---
+## Customizing Colors
+
+The website uses a hierarchical color system that can be customized at different levels:
+
+### Global Color Variables
+The main color palette is defined in `css/main.scss`:
+```scss
+// Main theme colors
+$theme-background-primary: #0077be; // Primary background (Okinawa ocean blue)
+$theme-primary: #ff6b35; // Accent color (Coral orange)
+$theme-tertiary: #4ecdc4; // Hover color (Emerald green)
+$hyperlinks: #0077be; // Link color (Ocean blue)
+$color-highlight: #0077be; // Highlight color (Ocean blue)
+```
+
+### Element-Specific Colors
+Individual elements are styled in `_sass/_base.scss`:
+- **Text colors**: Lines 49-54 (links), 1008, 1021 (headings)
+- **Border colors**: Line 997 (heading underlines), 1095-1115 (section borders)
+- **Table colors**: Lines 1765-1785 (deadlines table)
+
+### Inline Colors
+Some colors are defined directly in YAML data files:
+- `_data/calls-for-participation.yaml` - Button and link colors
+- `_data/attending.yaml` - Registration button colors
+- `_data/travel.yaml` - Link colors
+
+### How to Change Colors
+1. **For global changes**: Modify the variables in `css/main.scss`
+2. **For specific elements**: Find the relevant selector in `_sass/_base.scss`
+3. **For inline elements**: Update the color values in the respective YAML files
+
+### Current Color Palette (Okinawa Theme)
+- Ocean Blue: `#0077be` - Primary color for backgrounds, links, and highlights
+- Coral Orange: `#ff6b35` - Accent color for buttons and important elements
+- Emerald Green: `#4ecdc4` - Hover states and secondary highlights
+- Sand Beige: `#fff8dc` - Light backgrounds
+- Sky Blue: `#f0f8ff` - Section backgrounds
