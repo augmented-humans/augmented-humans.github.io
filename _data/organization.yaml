@@ -130,11 +130,12 @@ committee:
 
   - group: Social Event Co-Chair
     people:
-      - name: Ryoichi Ando
-        position: Researcher
-        affiliation: Keio Media Design, Japan
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Ryoichi ANDO
+        position: President / Researcher / Director / Visiting Professor
+        affiliation: AXEREAL co., LTD. / KMD / B Lab Superhuman Sports Project / Professional University of Information and Management for Innovation(, Japan
+        link: https://superhuman-sports.org/
+        mail: ando@axereal.co
+        img: /img/committee/2026/ryoichi_ando.png
 
   - group: Awards Committee Chairs
     people:
