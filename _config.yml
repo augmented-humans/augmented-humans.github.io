@@ -8,18 +8,17 @@ baseurl: ""
 
 # Social media and meta card settings
 twitter:
-  username: augmented_humans  # Twitterアカウントがある場合
+  username: augmented_humans  # for twitter
   card: summary_large_image
 
-# Open Graph settings - jekyll-seo-tag用の正しい設定
-image: /img/assets/meta_card_2026.png # デフォルト画像（絶対パス形式）
+# Open Graph settings
+image: /img/assets/meta_card_2026.jpg # compressed
 
 # Jekyll SEO Tag settings
 social:
   name: Augmented Humans Conference
   links:
-    - https://twitter.com/augmented_humans  # 実際のSNSリンクに変更
-    - https://www.facebook.com/augmentedhumans  # 実際のSNSリンクに変更
+    - https://x.com/aug_humans
 
 mailchimp: "https://augmented-humans.us19.list-manage.com/subscribe/post?u=24833caa46a883a452cd0007c&amp;id=38ddd23071"
 
@@ -42,7 +41,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /img/assets/meta_card_2026.png
+      image: /img/assets/meta_card_2026.jpg
   - scope:
       path: "img/posts/**"
       path: "sessions/**"
