@@ -31,6 +31,17 @@ permalink: pretty
 paginate: 10
 paginate_path: "/blog/page:num/"
 
+# Kramdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 imagesurl: "/img/closing/img/"
