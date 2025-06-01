@@ -429,14 +429,28 @@ description: "Program Committee"
                   {% if person.img %}
                   <div class="zoom-container"><div class="image" style="background-image: url({% include relative-src.html src=person.img %})"></div></div>
                   {% endif %}
-                  {% if person.mail %}
-                    <div class="name"><a href="mailto: {{ person.mail }}">{{ person.name }}</a></div>
-                  {% elsif person.website %}
-                    <div class="name"><a href="{{ person.website }}" target="_blank">{{ person.name }}</a></div>
+                  {% if person.link %}
+                    <div class="name"><a href="{{ person.link }}" target="_blank">{{ person.name }}</a></div>
                   {% else %}
                     <div class="name">{{ person.name }}</div>
                   {% endif %}
-                  <div class="position">{{ person.affiliation }}</div>
+                  {% if item.group == "Steering Committee" %}
+                    <!-- Steering Committee: show only affiliation -->
+                    <div class="position">{{ person.affiliation }}</div>
+                  {% else %}
+                    <!-- Other committees: show position with email icon and affiliation -->
+                    {% if person.position %}
+                      <div class="title">
+                        {{ person.position }}
+                        {% if person.mail %}
+                          <a href="mailto:{{ person.mail }}" class="email-icon" title="Send email">
+                            <i class="fas fa-envelope"></i>
+                          </a>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                    <div class="position">{{ person.affiliation }}</div>
+                  {% endif %}
                 </li>
             {% endfor %}
           </div>

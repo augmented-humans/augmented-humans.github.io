@@ -7,14 +7,16 @@ about: |
   The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962<sup>[1]</sup>. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
 
-  <text style="font-size: medium">[1] Engelbart, Douglas C.: “AUGMENTING HUMAN INTELLECT: A Conceptual Framework.” (1962)</text>
+  <text style="font-size: medium">[1] Engelbart, Douglas C.: "AUGMENTING HUMAN INTELLECT: A Conceptual Framework." (1962)</text>
 
 cfp-title: Calls for Participation
 cfp: |
-  The Augmented Humans conference offers many different possibilities for publishing, presenting, and discussing your work.
-  Take a look at the <b>Calls for Participation</b> page for more information regarding the submission categories, guidelines, and more.
-  To register as a student volunteer, please follow the instructions <a style="color:#c41a2e"href="/student-volunteer">here</a>
-  <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#c41a2e'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
+  TBD
+# cfp: |
+  # The Augmented Humans conference offers many different possibilities for publishing, presenting, and discussing your work.
+  # Take a look at the <b>Calls for Participation</b> page for more information regarding the submission categories, guidelines, and more.
+  # To register as a student volunteer, please follow the instructions <a style="color:#0077be"href="/student-volunteer">here</a>
+  # <a href="/calls-for-participation" class="btn btn-md" style="background-color: #F5F5F5; border: 2px solid #003865; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#F5F5F5'">Calls for Participation</a>
 
 
 topics-title: Topics
@@ -59,6 +61,8 @@ categories: |
   <p style="font-size: 90%;"><text id="footnote1">²</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute). More information can be found on the dedicated <a href="/call-for-demos"> Call for Demos</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote3">³</text> More information can be found on the dedicated <a href="/call-for-posters"> Call for Posters</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote2">⁴</text> More information can be found on the dedicated <a href="/call-for-workshops"> Call for Workshops</a> site.</p>
+  
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize the workshop, please contact the AHs general chairs <a href="mailto:ahs2026-general-chairs@gmail.com">ahs2026-general-chairs@gmail.com</a>.</p>
  
 
 
@@ -84,7 +88,7 @@ overview: |
 
   For the first time this year, dedicated workshops will also be part of the conference. The deadline for workshop proposals can be found below. The approved workshops and their corresponding websites will also be linked here in due time.
 
-  To register as a student volunteer, please follow the instructions <a style="color:#c41a2e"href="/student-volunteer">here</a>
+  To register as a student volunteer, please follow the instructions <a style="color:#0077be"href="/student-volunteer">here</a>
 
 
 # <b>Full papers</b> – up to 10 pages excluding references, anonymized, 7 minutes presentation, 7 minutes Q&A, invited demo
@@ -92,7 +96,7 @@ overview: |
 # <b>Demonstration papers</b> - 2 pages excluding references, anonymized, demonstration at the conference
 # <b>Poster papers</b> - 2 pages excluding references, anonymized, presented at the conference
 # <b>Design exhibition</b> - up to 6 pages excluding references, exhibited at conference
-# <b>Doctoral Colloquium</b> – up to 2 pages (extended abstract format). Please include the planned title of the thesis, faculty/field of science, supervisor(s) and the following sections: (1) Motivation, research goal and research questions, (2) Research approach, process and methods, incl. planned studies, time schedule and hat has been done to date, (3) Work done so far, Initial results, and (4) any questions/issues you want to discuss in the DC. The Doctoral Colloquium papers are not published in the ACM Digital Library but you are welcome to submit a poster of your topic through the poster track. Submission by email: Please submit your Doctoral Colloquium submission via email with the subject: “AHs2021 DC” to <a href="mailto:kaisa.vaananen@tuni.fi,albrecht.schmidt@ifi.lmu.de?subject=AHs2021 DC">kaisa.vaananen@tuni.fi and albrecht.schmidt@ifi.lmu.de</a>
+# <b>Doctoral Colloquium</b> – up to 2 pages (extended abstract format). Please include the planned title of the thesis, faculty/field of science, supervisor(s) and the following sections: (1) Motivation, research goal and research questions, (2) Research approach, process and methods, incl. planned studies, time schedule and hat has been done to date, (3) Work done so far, Initial results, and (4) any questions/issues you want to discuss in the DC. The Doctoral Colloquium papers are not published in the ACM Digital Library but you are welcome to submit a poster of your topic through the poster track. Submission by email: Please submit your Doctoral Colloquium submission via email with the subject: "AHs2021 DC" to <a href="mailto:kaisa.vaananen@tuni.fi,albrecht.schmidt@ifi.lmu.de?subject=AHs2021 DC">kaisa.vaananen@tuni.fi and albrecht.schmidt@ifi.lmu.de</a>
 
 # All page lengths are excluding references. Please use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/paper-poster-demo.zip">SIGCHI two-column format</a> for full papers, short papers, posters, and demos (SigConf template). Use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/design-exhibitions.zip">extended abstract</a> (<a href="https://www.overleaf.com/latex/templates/legacy-sigchi-extended-abstract-template/zzzfqvkmrfzn">Overleaf</a>) format for design exhibitions
 
@@ -115,65 +119,62 @@ deadlines-title: Submission Deadlines and Notifications
 deadlines: |
   <table id="deadlines">
     <tr class="tr-break">
-      <td colspan="100%" style="background-color: #c41a2e;"></td>
+      <td colspan="100%" style="background-color: #0077be;"></td>
     </tr>
 
     <tr>
       <td><strong>Full/Short Paper/</strong> Submission Deadline</td>
-      <td><s>16th January, 2025 (AoE)</s></td>
-      <td>23rd January, 2025 (AoE)</td>
+      <td>November 18th, 2025</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
-      <td><s>13th February, 2025 (AoE)</s></td> 
-      <td>20th February, 2025 (AoE)</td>
+      <td>January 15th, 2026</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Camera-Ready</td>
-      <td><s>27th February, 2025 (AoE)</s></td> 
-      <td>6th March, 2025 (AoE)</td> 
+      <td>TBD</td> 
     </tr>
 
         <tr class="tr-break">
-      <td colspan="100%" style="background-color: #c41a2e;"></td>
+      <td colspan="100%" style="background-color: #0077be;"></td>
     </tr>
 
     <tr>
-      <td><strong>Special Fast track</strong> Submission Deadline</td>
-      <td>27th January, 2025 (AoE)</td> 
+      <td><strong>Poster/Demos</strong> Submission Deadline</td>
+      <td>January 16th, 2026</td> 
     </tr>
     <tr>
-      <td><strong>Special Fast track</strong> Decisions sent to Author</td>
-      <td>13th February, 2025 (AoE)</td> 
+      <td><strong>Poster/Demos</strong> Decisions sent to Author</td>
+      <td>TBD</td>
     </tr>
     <tr>
-      <td><strong>Special Fast track</strong> Camera-Ready</td>
-      <td>6th March, 2025 (AoE)</td> 
-    </tr>
-
-    <tr class="tr-break">
-      <td colspan="100%" style="background-color: #c41a2e;"></td>
-    </tr>
-
-    <tr>
-      <td><strong>Poster/Demos/Workshop</strong> Submission Deadline</td>
-      <td><s>13th February, 2025 (AoE)</s></td> 
-      <td>20th February, 2025 (AoE)</td> 
-    </tr>
-    <tr>
-      <td><strong>Poster/Demos/Workshop</strong> Decisions sent to Author</td>
-      <td><s>20th February, 2025 (AoE)</s></td>
-      <td>23rd February, 2025 (AoE)</td>  
-    </tr>
-    <tr>
-      <td><strong>Poster/Demos/Workshop</strong> Camera-Ready</td>
-      <td>6th March, 2025 (AoE)</td> 
+      <td><strong>Poster/Demos</strong> Camera-Ready</td>
+      <td>TBD</td> 
     </tr>
 
     </table> 
 
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize the workshop, please contact the AHs general chairs <a href="mailto:ahs2026-general-chairs@gmail.com">ahs2026-general-chairs@gmail.com</a>.</p>
 
 
 add-title: Additional Information
 add: |
   At least one author of each accepted paper must register for the conference and present the paper in Abu Dhabi. Exceptions of in-person presentations can be granted in emergency situations (e.g., visa issues) upon request from the general chairs. If you are in such a situation please contact the general chairs via e-mail.
+
+
+# <tr>
+  #   <td><strong>Special Fast track</strong> Submission Deadline</td>
+  #   <td>COMING SOON...</td> 
+  # </tr>
+  # <tr>
+  #   <td><strong>Special Fast track</strong> Decisions sent to Author</td>
+  #   <td>COMING SOON...</td> 
+  # </tr>
+  # <tr>
+  #   <td><strong>Special Fast track</strong> Camera-Ready</td>
+  #   <td>COMING SOON...</td> 
+  # </tr>
+
+  # <tr class="tr-break">
+  #   <td colspan="100%" style="background-color: #0077be;"></td>
+  # </tr>
