@@ -136,39 +136,77 @@
           {% for paragraph in description_paragraphs %}
             <p>{{ paragraph }}</p>
           {% endfor %}
-          <img id="venue-img" class="" src="{{ site.data.attending.venue-image | prepend: site.url }}"/>
-          <div class="gallery">
-            <img id="currentImg" src="/img/venue/monashaa.jpg" alt="Figure11" style="height: 50%; width: 80%;">
-        </div>
+          
+          <!-- Venue Image Gallery -->
+          <div class="venue-gallery" style="margin-top: 30px;">
+            <div class="gallery-row">
+              <div class="gallery-item">
+                <img src="/img/venue/2026/oist1.jpg" alt="OIST Venue 1" />
+              </div>
+              <div class="gallery-item">
+                <img src="/img/venue/2026/oist2.jpg" alt="OIST Venue 2" />
+              </div>
+            </div>
+            <div class="gallery-row">
+              <div class="gallery-item">
+                <img src="/img/venue/2026/oist3.jpg" alt="OIST Venue 3" />
+              </div>
+              <div class="gallery-item">
+                <img src="/img/venue/2026/oist4.jpg" alt="OIST Venue 4" />
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-1"></div>
       </div>
     </div>
 </section>
 
-<script>
-  const images = ["/img/venue/monashaa.jpg", "/img/venue/monasha.jpg",
-  "/img/venue/monash0.jpg", "/img/venue/monash1.jpg", "/img/venue/monash2.jpg", "/img/venue/monash3.jpg" ,
-  "/img/venue/monash4.jpg",   "/img/venue/monash5.jpg",  "/img/venue/monash6.jpg","/img/venue/monasha.jpg"
-]; // Add your image URLs here
-  let currentImageIndex = 0;
-  
-  const currentImg = document.getElementById("currentImg");
-  
-  function showImage() {
-      currentImg.src = images[currentImageIndex];
+<style>
+.venue-gallery {
+  max-width: 100%;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.gallery-item {
+  flex: 1;
+  min-width: calc(50% - 7.5px);
+  max-width: calc(50% - 7.5px);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile layout - stack vertically */
+@media (max-width: 768px) {
+  .gallery-row {
+    flex-direction: column;
+    gap: 15px;
   }
   
-  function nextImage() {
-      currentImageIndex = (currentImageIndex + 1) % images.length;
-      showImage();
+  .gallery-item {
+    min-width: 100%;
+    max-width: 100%;
   }
   
-  // Automatically change the image every 3 seconds (3000 milliseconds)
-  const imageChangeInterval = setInterval(nextImage, 3000);
-  
-  // To stop the automatic image change, you can use the clearInterval function like this:
-  // clearInterval(imageChangeInterval);
-  
-  showImage(); // Initial image display
-  </script>
+  .gallery-item img {
+    height: 200px;
+  }
+}
+</style>
