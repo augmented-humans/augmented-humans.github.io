@@ -8,11 +8,11 @@ baseurl: ""
 
 # Social media and meta card settings
 twitter:
-  username: augmented_humans  # for twitter
+  username: aug_humans  # Twitterアカウント名と一致させる
   card: summary_large_image
 
 # Open Graph settings
-image: /img/assets/meta_card_2026.jpg # compressed
+image: https://augmented-humans.org/img/assets/meta_card_2026.jpg # compressed
 
 # Jekyll SEO Tag settings
 social:
@@ -41,7 +41,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /img/assets/meta_card_2026.jpg
+      image: https://augmented-humans.org/img/assets/meta_card_2026.jpg
   - scope:
       path: "img/posts/**"
       path: "sessions/**"
