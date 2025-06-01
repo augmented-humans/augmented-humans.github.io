@@ -59,11 +59,12 @@ committee:
         link: https://ko-watanabe.github.io/
         img: /img/committee/2026/ko_watanabe.png
 
-      - name: COMING SOON...
-        position: TBD
-        affiliation: COMING SOON...
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Yuki BAN
+        position: Project Associate Professor
+        affiliation: Graduate School of Frontier Sciences, The University of Tokyo, Japan
+        link: https://yukib.github.io/
+        mail:  ban@edu.k.u-tokyo.ac.jp
+        img: /img/committee/2026/yuki_ban.jpg
       
       - name: COMING SOON...
         position: TBD
