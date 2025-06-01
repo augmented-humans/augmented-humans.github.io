@@ -12,7 +12,7 @@ twitter:
   card: summary_large_image
 
 # Open Graph settings
-og_image: /img/assets/og-image.png  # サイトのデフォルト画像パス
+og_image: /img/assets/meta_card_2026.png # サイトのデフォルト画像パス
 og_type: website
 
 # Jekyll SEO Tag settings
