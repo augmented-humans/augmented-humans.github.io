@@ -66,10 +66,7 @@
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
           <div class="kw-section-title kw-huge kw-huge-alt11 kw-huge-left"><span style="color: black;">{{ site.data.calls-for-participation.cfp-title }}</span></div>
-            {% assign description_paragraphs = site.data.calls-for-participation.cfp | newline_to_br | split:'<br />' %}
-            {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
+            {{ site.data.calls-for-participation.cfp }}
           </div>
           <div class="col-lg-1"></div>
         </div>
