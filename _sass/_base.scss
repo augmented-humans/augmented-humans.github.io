@@ -45,17 +45,17 @@ body {
   margin: 0 0; /* bottom = footer height */
   display: flex;
   flex-direction: column;
-  background-color: $theme-background-primary;
+  background: linear-gradient(to bottom, #f0f8ff 0%, #fff8dc 100%); // 空から砂浜へのグラデーション
 }
 
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: lightgrey;
+  color: #0077be; // 海の青
   text-decoration: underline;
   &:hover, &:focus {
-    color: $hyperlinks;
+    color: $theme-tertiary;
   }
 }
 
@@ -110,7 +110,7 @@ p {
       font-weight: 200;
       letter-spacing: 1px;
       &:hover, &:focus {
-        color: #fcbd20;
+        color: $theme-tertiary;
       }
     }
     .navbar-toggle {
@@ -136,7 +136,7 @@ p {
         color: #222222;
       }
       &:hover, &:focus:hover {
-        color: $hyperlinks;
+        color: $navbar-hover;
         text-decoration: underline !important;
         // color: $theme-primary;
       }
@@ -172,12 +172,12 @@ p {
       }
     }
     .nav > li > a {
-      color: $color-white;
+      color: white;
       &:focus {
-        color: rgba(255, 255, 255, 0.55);
+        color: rgba(255, 255, 255, 0.7);
       }
       &:hover, &:focus:hover {
-        color: $color-white;
+        color: $navbar-hover;
       }
     }
     &.navbar-index {
@@ -190,7 +190,7 @@ p {
           color: rgba(255, 255, 255, 0.7);
         }
         &:hover, &:focus:hover {
-          color: $hyperlinks;
+          color: $navbar-hover;
         }
       }
     }
@@ -224,7 +224,7 @@ p {
           color: white;
         }
         &:hover, &:focus:hover {
-          color: $hyperlinks;
+          color: $navbar-hover;
         }
       }
     }
@@ -499,7 +499,7 @@ footer {
       font-size: 16px;
       color: #fff;
       &:hover, &:focus, &:active, &.active {
-        color: #c41a2e;
+        color: $theme-tertiary;
         text-decoration: none;
       }
     }
@@ -536,16 +536,16 @@ footer {
 
 a.btn {
   font-family: 'Work Sans', sans-serif;
-  background-color: $hyperlinks;
-  color: black;
+  background-color: $theme-accent; // サンゴのオレンジ
+  color: white;
   text-transform: uppercase;
   padding: 15px 30px;
   letter-spacing: 1px;
   border-radius: 1px;
   transition: 0.5s ease-in-out;
   &:hover {
-    // color: white;
-    background-color: darken($hyperlinks, 10%);
+    color: white;
+    background-color: $theme-tertiary;
     transition: 0.5s ease-in-out;
   }
 }
@@ -736,8 +736,8 @@ header.masthead {
   overflow-x: hidden;
   padding-top: calc(0.88*5rem + 55px);
   padding-bottom: 0.88*7rem;
-  background: url('../img/assets/AugmentedHumansHeader25.png');
-  // animation: backgroundAnimation 15s linear infinite;
+        background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%); // 沖縄の海のグラデーション
+      animation: okinawaWaveAnimation 20s ease-in-out infinite; // 沖縄の波のアニメーション
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -778,25 +778,29 @@ header.masthead {
       margin: auto; // centers it
       font-family: 'Monospaced font', sans-serif;
       font-weight: 100;
-      color: $theme-offwhite;
-      background-color: rgba(0, 56, 101, 0.9);
-      background: linear-gradient(135deg, #c60017 60%, #D96A6C 90%);
+      color: white;
+      background-color: rgba(0, 119, 190, 0.9);
+      background: linear-gradient(135deg, #0077be 60%, #4ecdc4 90%); // 海の青からエメラルドグリーンへ
       border: 5px solid #fff;
+      max-width: 90%; // モバイルでも最大幅を設定
+      font-size: 1.8rem; // モバイル用のフォントサイズ
 
     }
     .masthead-subheading {
       text-align: center;
       margin: auto; // centers it
       margin-top:2%;
-      font-family: 'Monospaced font', sans-serif;
+      font-family: 'Bradley Hand', serif; // モバイルでもBradley Handを使用
       opacity: 1;
       //padding: 5px;
       // font-size: 0.88*1.5rem;
       // color: $theme-offwhite;
       // background-color: rgba(58, 175, 185, 0.9);
-      color: $theme-background-primary;
-      background-color: rgba(255, 255, 255, 0.85);
-      border: 3px solid #fff;
+      color: #ff6b35; // サンゴのオレンジ
+      background-color: rgba(255, 248, 220, 0.95); // 砂浜色の背景
+      border: 3px solid #4ecdc4; // エメラルドグリーンの枠線
+      max-width: 90%; // モバイルでも最大幅を設定
+      font-size: 1.2rem; // モバイル用のフォントサイズ
     }
     .container {
       pointer-events: none;
@@ -835,6 +839,25 @@ header.masthead {
   }
 }
 
+// 沖縄の波のアニメーション
+@keyframes okinawaWaveAnimation {
+  0% {
+    background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%);
+  }
+  25% {
+    background: linear-gradient(135deg, #4ecdc4 0%, #87ceeb 50%, #0077be 100%);
+  }
+  50% {
+    background: linear-gradient(135deg, #87ceeb 0%, #0077be 50%, #4ecdc4 100%);
+  }
+  75% {
+    background: linear-gradient(135deg, #0077be 0%, #87ceeb 50%, #4ecdc4 100%);
+  }
+  100% {
+    background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%);
+  }
+}
+
 .masthead-subheading-notice {
       font-family: 'Monospaced font', sans-serif;
       // font-weight: 500;
@@ -870,13 +893,47 @@ header.masthead {
         //font-weight: 600;
         //letter-spacing: 0.1rem;
         font-family: 'Monospaced font', sans-serif;
-        max-width: 80%;
+        max-width: 85%; // 幅を少し調整
       }
       .masthead-subheading {
-        font-family: 'Bradley Hand', serif;
+        font-family: 'Bradley Hand', serif; // 元のフォントファミリーに戻す
         font-size: 0.88*2rem;
         opacity: 1;
-        max-width: 80%;
+        max-width: 85%; // 幅を調整して統一
+      }
+    }
+  }
+}
+
+// モバイルとタブレット用の追加レスポンシブ対応
+@media (max-width: 991px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        max-width: 95%; // 小さい画面でより多くの幅を使用
+        font-size: 1.5rem; // タブレット用のフォントサイズ
+      }
+      .masthead-subheading {
+        max-width: 95%; // 小さい画面でより多くの幅を使用
+        font-size: 1.1rem; // タブレット用のフォントサイズ
+      }
+    }
+  }
+}
+
+// 非常に小さな画面（スマートフォン）用
+@media (max-width: 576px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        max-width: 98%; // 最小の画面でほぼ全幅を使用
+        font-size: 1.3rem; // スマートフォン用のフォントサイズ
+        padding: 10px 5px; // パディングを調整
+      }
+      .masthead-subheading {
+        max-width: 98%; // 最小の画面でほぼ全幅を使用
+        font-size: 1rem; // スマートフォン用のフォントサイズ
+        padding: 8px 5px; // パディングを調整
       }
     }
   }
@@ -953,11 +1010,11 @@ header.masthead {
 //   background-color: #000000;
 // }
 
-.masthead-subheading {
-  font-weight: 200;
-  font-family: 'TT3R', serif;
-  letter-spacing: 1px;
-}
+// .masthead-subheading {
+//   font-weight: 200;
+//   font-family: 'TT3R', serif;
+//   letter-spacing: 1px;
+// }
 
 #kw-featured {
   background-color: #f5f5f5;
@@ -987,7 +1044,7 @@ header.masthead {
   }
 
   &.kw-huge-alt {
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
     span {
       display: inline-block;
       border-style: double;
@@ -1000,7 +1057,7 @@ header.masthead {
     span {
       display: inline-block;
       border-style: double;
-      border-color: #c41a2e;
+      border-color: #0077be; // 沖縄の海の青
       // border-bottom: 10px solid $color-highlight;
     }
   }
@@ -1049,12 +1106,13 @@ header.masthead#kw-project-header {
   font-size: 18px;
 }
 
-#ah-description, #ah-topics, #ah-categories, #ah-about, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards, #ah-program, #ah-cfp {
+#ah-description, #ah-topics, #ah-categories, #ah-about, #ah-news, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards, #ah-program, #ah-cfp {
   text-align: left;
   padding-top: 40px;
   padding-bottom: 80px;
   color: $theme-background-secondary;
   background-color: white;
+  min-height: 200px; // 最小高さを設定して背景色が消えないようにする
 
   p {
     color: black;
@@ -1078,7 +1136,8 @@ header.masthead#kw-project-header {
   }
 
   &.flip {
-    background-color: $theme-background-secondary;
+    background-color: $theme-background-secondary; // 元の背景色に戻す
+    min-height: 250px; // flip クラスにも最小高さを設定
     p {
       color: black;
     }
@@ -1575,8 +1634,8 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 }
 
 .kw-program-top {
-  border-bottom: 8px #c41a2e solid;
-  background-color: #c41a2e !important;
+  border-bottom: 8px #0077be solid; // 沖縄の海の青
+  background-color: #0077be !important; // 沖縄の海の青
 }
 
 .kw-maillist {
@@ -1698,17 +1757,6 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       background-size:cover;
       background-repeat:no-repeat;
       margin: 0 auto;
-      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
-      transition: -webkit-filter 0.5s ease-in-out;
-      transition: filter 0.5s ease-in-out;
-    }
-
-    .image:hover {
-      -webkit-filter: none; /* Safari 6.0 - 9.0 */
-      filter: none;
-      transition: -webkit-filter 0.5s ease;
-      transition: filter 0.5s ease;
     }
 
     .name {
@@ -1717,14 +1765,41 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       color:#3F3446 ;
     }
 
+    .title {
+      margin-top: 5px;
+      font-size: medium;
+      color: #0077be;
+      font-style: italic;
+      position: relative;
+      
+      .email-icon {
+        margin-left: 10px;
+        color: #ff6b35;
+        font-size: 16px;
+        text-decoration: none !important;
+        transition: color 0.3s ease;
+        display: inline-block;
+        vertical-align: middle;
+        
+        &:hover {
+          color: #e55a2b;
+          transform: scale(1.1);
+        }
+        
+        i {
+          font-style: normal !important;
+        }
+      }
+    }
+
     a:link, a:visited{
-      color: #c41a2e;
+      color: #0077be; // 沖縄の海の青
       font-size: large;
       text-decoration: underline;
     }
 
     a:hover, a:active {
-      color: #c41a2e;
+      color: $theme-tertiary;
     }
   
     .position {
@@ -1735,7 +1810,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   margin-bottom: 20px !important;
 
   .k-title {
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
   }
 }
 
@@ -1755,7 +1830,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   td,th {
       // text-align: left;
       padding: 16px;
-      color: #c41a2e;
+      color: #0077be; // 沖縄の海の青
       font-size: larger;
   }
 
@@ -1775,7 +1850,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   td,th {
       // text-align: left;
       padding: 16px;
-      color: #c41a2e;
+      color: #0077be; // 沖縄の海の青
       font-size: larger;
       border: 2px solid black;
   }
@@ -1785,7 +1860,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   }
 
   ul{
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
   }
 
   p{
@@ -1809,7 +1884,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
   }
 
   p.authors, a.doi {
-    color: #c41a2e;
+    color: #0077be; // 沖縄の海の青
     font-style: italic;
     font-size: 90%;
     // margin-bottom: 0;
@@ -1865,7 +1940,7 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       color: #222222;
     }
     &:hover, &:focus:hover {
-      color: $hyperlinks;
+      color: $navbar-hover;
       text-decoration: underline !important;
       // color: $theme-primary;
     }
@@ -2039,4 +2114,115 @@ transform-origin: 50% 50%;
     -moz-user-select: none;    
     -ms-user-select: none;      
     user-select: none;
+}
+
+// X (Twitter) icon hover effect
+.navbar-nav li a svg {
+  transition: color 0.3s ease;
+  fill: currentColor;
+}
+
+.navbar-nav li a:hover svg,
+.navbar-default .nav > li > a:hover svg {
+  color: $navbar-hover !important;
+  fill: $navbar-hover !important;
+}
+
+// News欄専用の追加スタイル
+#ah-news {
+  &.flip {
+    background-color: rgba(255, 248, 220, 0.95) !important; // subtitleと同じ砂浜色の背景
+    padding-top: 25px !important; // 上部のpaddingをさらに減らす
+    padding-bottom: 35px !important; // 下部のpaddingをさらに減らす
+    // 小さな画面でも背景色が消えないように確実にする
+    @media (max-height: 600px) {
+      min-height: 250px; // 最小高さも調整
+    }
+    @media (max-height: 500px) {
+      min-height: 280px;
+    }
+    @media (max-width: 768px) {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      min-height: 220px; // モバイルの最小高さも調整
+    }
+  }
+  
+  // NEWSタイトルのmarginを調整
+  .kw-section-title {
+    margin-bottom: 15px !important; // タイトル下のmarginを削減
+    margin-top: 0 !important; // タイトル上のmarginを削除
+  }
+  
+  .news-container {
+    max-height: 280px; // 縦幅を小さく調整
+    overflow-y: auto; // 縦スクロールを有効にする
+    padding-right: 8px; // スクロールバーのためのスペースを減らす
+    margin-bottom: 0; // 下のmarginを削除
+    margin-top: 0; // 上のmarginを削除
+    
+    // スクロールバーのスタイリング
+    &::-webkit-scrollbar {
+      width: 6px; // スクロールバーを細く
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 119, 190, 0.6); // 沖縄の海の青
+      border-radius: 3px;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 119, 190, 0.8);
+    }
+  }
+  
+  .news-item {
+    margin-bottom: 15px; // marginを減らす
+    padding: 12px; // paddingを減らす
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px; // 角丸を小さく
+    border-left: 3px solid #4ecdc4; // ボーダーを細く
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-1px); // ホバー効果を控えめに
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .news-date {
+    font-family: 'Monospaced font', sans-serif;
+    font-size: 13px; // フォントサイズを小さく
+    color: #0077be; // 沖縄の海の青
+    font-weight: 600;
+    margin-bottom: 6px; // marginを減らす
+    display: block;
+  }
+  
+  .news-content {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px; // フォントサイズを小さく
+    color: #333;
+    line-height: 1.4; // 行間を詰める
+  }
+}
+
+.ah-organization.ah-override {
+    &:not(:first-child) {
+      padding-top: 20px !important;
+      padding-bottom: 10px !important;
+    }
+    &:last-child {
+      padding-bottom: 20px !important;
+    }
+  // padding-bottom: 20px !important;
 }

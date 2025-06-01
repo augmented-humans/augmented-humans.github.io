@@ -3,338 +3,190 @@ page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 committee:
   - group: General Chairs
     people:
-      - name: Yomna Abdelrahman
-        affiliation: Bundeswehr University Munich, Germany
-        mail: yomna.eldin@gmail.com
-        img: /img/committee/2025/yomna_abdelrahman.jpg
+      - name: Kouta MINAMIZAWA
+        position: Professor
+        affiliation: Keio University Graduate School of Media Design, Japan
+        mail: minamizawa@example.com
+        link: https://www.embodiedmedia.org
+        img: /img/committee/2026/kouta_minamizawa.jpg
         
-      - name: Andrew Vargo
-        affiliation: Osaka Metropolitan University, Japan
-        mail: awv@omu.ac.jp
-        img: /img/committee/2025/andrew_vargo.jpeg
+      - name: Shunichi KASAHARA
+        position: Researcher
+        affiliation: Researcher, Sony Computer Science Laboratories, Inc. (Sony CSL) / Okinawa Institute of Science and Technology Graduate University (OIST), Japan
+        link: https://cybernetichumanity.com/
+        mail: kasahara@csl.sony.co.jp
+        img: /img/committee/2026/shunichi_kasahara.png
 
-      - name: Anusha Withana
-        affiliation: The University of Sydney, Australia
-        mail: anusha.withana@sydney.edu.au
-        img: /img/committee/anusha_withana.jpeg
-  # - group: General Chair Assistance
-  #   people:
-  #     - name: Habiba Farzand
-  #       affiliation: University of Glasgow, United Kingdom
-  #       mail: habiba.farzand@glasgow.ac.uk
-  #       img: /img/committee/habiba_farzand.jpg
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
+
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
 
   - group: Program Chairs
     people:
-      - name: Liwei Chan
-        affiliation: National Yang Ming Chiao Tung University
-        mail: liwei.name@gmail.com
-        img: /img/committee/2025/liwei_chan.jpeg
+      - name: Maki SUGIMOTO
+        position: Professor
+        affiliation: Keio University, Japan
+        mail: sugimoto@ics.keio.ac.jp
+        link: https://www.st.keio.ac.jp/en/tprofile/ics/sugimoto.html
+        img: /img/committee/2026/maki_sugimoto.jpg
 
-      - name: Benjamin Tag
-        affiliation: University of New South Wales
-        mail: Benjamin.Tag@monash.edu
-        img: /img/committee/benjamin_tag.jpg
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
 
-      - name: Niels Henze
-        affiliation: University of Regensburg
-        website: https://nhenze.net 
-        img: /img/committee/2025/niels_henze.jpg
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
 
-  - group: Poster Chairs
+  - group: Poster & Demo Chairs
     people:
-      # - name: Steeven Villa
-      #   affiliation: LMU Munich, Germany
-      #   img: /img/committee/steeven_villa.jpg
-
-      - name: Mariam Hassib
-        affiliation: 
-        mail: mariam.hassib@gmail.com
-        img: /img/committee/2025/mariam_hassib.jpg
-
-      - name: Yugo Nakamura
-        affiliation: Kyushu University, Japan
-        mail: y-nakamura@ait.kyushu-u.ac.jp
-        img: /img/committee/2025/yugo_nakamura.png
-
-  - group: Demo Chairs
-    people:
-      - name: Ko Watanabe
-        affiliation:  DFKI GmbH
+      - name: Ko WATANABE
+        position: Senior/Postdoc Researcher
+        affiliation: DFKI GmbH, Germany
         mail: ko.watanabe@dfki.de
-        img: /img/committee/2025/ko_watanabe.png
+        link: https://ko-watanabe.github.io/
+        img: /img/committee/2026/ko_watanabe.png
 
-      - name: Victoria Abou-Khalil
-        affiliation: EPFL - Swiss Federal Technology Institute of Lausanne
-        mail: victoria.aboukhalil@epfl.ch
-        img: /img/committee/2025/Victoria_Abou-Khalil.jpeg
-
-      # - name: Allison Jing 
-      #   affiliation: RMIT University, Australia
-      #   mail: jing.allison@gmail.com 
-      #   img: /img/committee/AllisonJing.png
-
-      # - name: Friendred Peng
-      #   affiliation: University of the Arts London, United Kingdom
-      #   website: https://friendred.studio
-      #   img: /img/committee/friendred_peng.jpg
-
-      # - name: Nihar Sabnis
-      #   affiliation: Max Planck Institute of Informatics, Germany
-      #   mail: nsabnis@mpi-inf.mpg.de
-      #   img: /img/committee/nihar_sabnis.jpg
+      - name: Yuki BAN
+        position: Project Associate Professor
+        affiliation: Graduate School of Frontier Sciences, The University of Tokyo, Japan
+        link: https://yukib.github.io/
+        mail:  ban@edu.k.u-tokyo.ac.jp
+        img: /img/committee/2026/yuki_ban.jpg
+      
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
 
   - group: Workshop Chairs
     people:
-      - name: Ebtisam Alabdulqader
-        affiliation: King Saud University, Saudi Arabia
-        mail: eabdulqader@ksu.edu.sa
-        img: /img/committee/2025/ebtisam_alabdulqader.jpg
-
-      - name: Yi Li
-        affiliation: Monash University
-        mail: yi.li5@monash.edu
-        img: /img/committee/2025/yi_li.jpg
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
 
   - group: Publication Chairs
     people:
-      - name: Yuki Matsuda
-        affiliation: Okayama University 
-        mail: yukimat@okayama-u.ac.jp
-        img: /img/committee/2025/yuki_matsuda.jpg
+      - name: Steeven Villa
+        position: Researcher
+        affiliation: LMU Munich, Germany
+        link: https://scholar.google.com.br/citations?user=j6rFI50AAAAJ&hl=es
+        img: /img/committee/2026/tbd.png
 
-      - name: Maxim Spur
-        affiliation: Brest National School of Engineering (ENIB), France
-        mail: maxim.spur@enib.fr
-        img: /img/committee/2025/maxim_spur.jpeg
-
-      # - name: Yun Suen Pai
-      #   affiliation: University of Auckland, New Zealand
-      #   mail: yspai1412@gmail.com
-      #   img: /img/committee/Yun.png
-
-  # - group: Local Chairs
-  #   people:
-  #     - name: Nathalie Overdevest
-  #       affiliation: Monash University, Australia
-  #       mail: Nathalie.overdevest@monash.edu
-  #       img: /img/committee/Nathalie.png
-
-  #     #- name: Iain Christie
-  #     #  affiliation: University of Glasgow, United Kingdom
-  #     #  img: /img/committee/iain_christie.jpg
-
-  #     - name: Katharina Pöhlmann
-  #       affiliation: University of Glasgow, United Kingdom
-  #       mail: katharina.pohlmann@glasgow.ac.uk
-  #       img: /img/committee/katharina_poehlmann.jpg
-
-  # - group: Accessibility Chair
-  #   people:
-  #     - name: Patrizia Di Campli San Vito
-  #       affiliation: University of Glasgow, United Kingdom
-  #       mail: patrizia.dicamplisanvito@glasgow.ac.uk
-  #       img: /img/committee/patrizia_vito.jpg
-
-  # - group: Finance Chair
-  #   people:
-      # - name: Rakesh Patibanda
-      #   affiliation: Monash University, Australia
-      #   mail:  Rakesh.Patibanda@monash.edu
-      #   img: /img/committee/Rakesh.png
-
-  # - group: Sponsorship Chair
-  #   people:
-  #     - name: Irwyn Shepherd
-  #       affiliation: Monash University, Australia
-  #       mail:  irwyn.shepherd@monash.edu
-  #       img: /img/committee/irwyn_shepherd.jpg
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
 
   - group: Student Volunteer Chair
     people:
-      - name: Alia Saad
-        affiliation: Essen, Germany
-        mail: aliaksaad@gmail.com
-        img: /img/committee/2025/alia_saad.jpg
-
-      # - name: Jing Wei
-      #   affiliation: CSIRO, Australia
-      #   mail: jing.wei@data61.csiro.au
-      #   img: /img/committee/jingwei.jpeg
-
-
-  - group: Social Media Chair
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
+  
+  - group: Local Arrangement Chair
     people:
-      - name: Passant Elagroudy
-        affiliation: German Research Center for Artificial Intelligence (DFKI)
-        mail: passant.elagroudy@gmail.com
-        img: /img/committee/2025/passant_elagroudy.jpg
-      
-      - name: Mengxing Li
-        affiliation: Monash University
-        mail: mengxing.li@monash.edu
-        img: /img/committee/2025/mengxing_li.jpg
+      - name: Takeru HASHIMOTO
+        position: Project Researcher
+        affiliation: SonyCSL/OIST, Japan
+        link: https://tkrtkr.com/
+        mail: hashimoto@csl.sony.co.jp
+        img: /img/committee/2026/takeru_hashimoto.jpg
+  
+  - group: Financial Chair
+    people:
+      - name: Keiichi ZEMPO
+        position:  Associate Professor
+        affiliation: University of Tsukuba, Japan
+        mail: zempo@iit.tsukuba.ac.jp
+        link: https://www.xpercept.aclab.esys.tsukuba.ac.jp
+        img: /img/committee/2026/keiichi_zempo.jpeg
 
   - group: Web Chair
     people:
-      - name: Elhassan Makled
-        affiliation: Ilmenau University of Technology, Germany
-        website: https://mkld.me
-        img: /img/committee/2025/elhassan_makled.jpg
+      - name: Kazuma TAKADA
+        position: Ph.D. candidate / Research Assistant
+        affiliation: OIST / SonyCSL, Japan
+        mail: k.takada@oist.jp
+        link: https://www.google.com/
+        img: /img/committee/2026/kazuma_takada.png
 
-      - name: Ying Ma
-        affiliation: University of Melbourne, Australia
-        website: https://maying0120.github.io/
-        img: /img/committee/ying_ma.jpg
+  - group: Social Event Co-Chair
+    people:
+      - name: Ryoichi ANDO
+        position: President / Researcher / Director / Visiting Professor
+        affiliation: AXEREAL co., LTD. / KMD / B Lab Superhuman Sports Project / Professional University of Information and Management for Innovation(, Japan
+        link: https://superhuman-sports.org/
+        mail: ando@axereal.co
+        img: /img/committee/2026/ryoichi_ando.png
 
-  # - group: Student Volunteers
-  #   people:
-  #     - name: Linjia He
-  #       affiliation: Monash university, Australia
-  #       img: /img/committee/Linjia.jpg
-  #     - name: Kaining Zhang
-  #       affiliation: University of South Australia, Australia
-  #       img: /img/committee/kai.jpg
-  #     - name: Siyi Liu
-  #       affiliation: Monash university, Australia
-  #       img: /img/committee/siyi.jpg
-
-
+  - group: Awards Committee Chairs
+    people:
+      - name: COMING SOON...
+        position: TBD
+        affiliation: COMING SOON...
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
 
   - group: Steering Committee
     people:
       - name: Thomas Kosch
+        position: Professor
         affiliation: Humboldt University of Berlin, Germany
       - name: Paul Strohmeier
+        position: Researcher
         affiliation: Max Planck Institute for Informatics, Germany
       - name: Masahiko Inami
+        position: Professor
         affiliation: The University of Tokyo, Japan
       - name: Albrecht Schmidt
+        position: Professor
         affiliation: LMU Munich, Germany
       - name: Pattie Maes
+        position: Professor
         affiliation: MIT Cambridge, USA
       - name: Woontack Woo
+        position: Professor
         affiliation: KAIST, Korea
       - name: Ellen Yi-Luen Do
+        position: Professor
         affiliation: University of Colorado Boulder, USA
       - name: Paul Lukowicz
+        position: Professor
         affiliation: DFKI Kaiserslautern, Germany
       - name: Suranga Nanayakkara
+        position: Professor
         affiliation: National University of Singapore, Singapore
       - name: Tsutomu Terada
+        position: Professor
         affiliation: University of Kobe, Japan
       - name: Jun Rekimoto
+        position: Professor
         affiliation: The University of Tokyo, Japan
       - name: Katrin Wolf
+        position: Professor
         affiliation: Berlin University of Applied Sciences and Technology, Germany
       - name: Hideki Koike
+        position: Professor
         affiliation: Tokyo Institute of Technology, Japan
       - name: Kai Kunze
+        position: Professor
         affiliation: Keio University, Japan
-
-  # - group: PC Members
-  #   people:
-  #     - name: Akishige Yuguchi
-  #       affiliation: Tokyo University of Science / RIKEN GRP
-  #     - name: Keiichi Zempo
-  #       affiliation: University of Tsukuba
-  #     - name: Maximiliane Windl
-  #       affiliation: LMU Munich
-  #     - name: Matthias Hoppe
-  #       affiliation: Ludwig Maximilian University of Munich
-  #     - name: Damien Brun
-  #       affiliation: University of Lapland
-  #     - name: Athanasios Vourvopoulos
-  #       affiliation: Institute for Systems and Robotics, Instituto Superior Técnico
-  #     - name: Nami Ogawa
-  #       affiliation: The University of Tokyo
-  #     - name: Shan-Yuan Teng
-  #       affiliation: University of Chicago
-  #     - name: Daniel Wessolek
-  #       affiliation: Futurium gGmbH
-  #     - name: Florian Müller
-  #       affiliation: LMU Munich
-  #     - name: Yuichi Kurita
-  #       affiliation: Hiroshima University
-  #     - name: Henning Pohl
-  #       affiliation: Aalborg University
-  #     - name: Jochen Huber
-  #       affiliation: Furtwangen University
-  #     - name: Zhongyi Bai
-  #       affiliation: The University of Sydney
-  #     - name: Denys J.C. Matthies
-  #       affiliation: Fraunhofer
-  #     - name: Sarah Delgado Rodriguez
-  #       affiliation: University of Bundeswehr, Munich
-  #     - name: Weiwei Jiang
-  #       affiliation: The University of Melbourne
-  #     - name: Aditya Shekhar Nittala
-  #       affiliation: Saarland University
-  #     - name: Martin Weigel
-  #       affiliation: Technische Hochschule Mittelhessen
-  #     - name: Maki Sugimoto
-  #       affiliation: Keio University
-  #     - name: Shoya Ishimaru
-  #       affiliation: Osaka Prefecture University
-  #     - name: Chaofan Wang
-  #       affiliation: The University of Melbourne
-  #     - name: Monica Perusquía-Hernández
-  #       affiliation: Nara Institute of Science and Technology (NAIST), NTT Communication Science Laboratories
-  #     - name: Ian Oakley
-  #       affiliation: University of Madeira
-  #     - name: Kristof Van Laerhoven
-  #       affiliation: University of Siegen
-  #     - name: Masaaki Mochimaru
-  #       affiliation: Human Augmentation Research Center, AIST
-  #     - name: Chu Luo
-  #       affiliation: The University of Melbourne
-
-  # # - group: PC Members
-  #     people: 
-  #     - name:  Akishige Yuguchi(LMU Munich, Germany)
-  #     - name:  Daniel Wessolek (Futurium gGmbH)
-  #       Nami Ogawa (University of Tokyo, Japan)
-  #       Hesham Elsayed (TU Darmstadt, Germany)
-  #       Ken Nakagaki (University of Chicago, United States)
-  #       Thomas Kosch (TU Darmstadt, Germany)
-  #       Eleonora Mencarini (Fondazione Bruno Kessler)
-  #       Keita Higuchi (University of Tokyo, Japan)
-  #       Henning Pohl (University of Copenhagen, Denmark)
-  #       Kirill Ragozin (Keio University, Japan)
-  #       Shoya Ishimaru (Osaka Prefecture University, Japan)
-  #       Yusuke Tamura (Tohoku University, Japan)
-  #       Keiichi Zempo (University of Tsukuba, Japan)
-  #       Yasutaka Nakashima (Kyushu University, Japan)
-  #       Jamie Anthony Ward (University College London, United Kingdom)
-  #       Don Samitha Elvitigala (University of Auckland, New Zealand)
-  #       Maki Sugimoto (Keio University, Japan)
-  #       Julian Rasch (LMU Munich, Germany)
-  #       Anthanasios Vourvopoulos (Institute for Systems and Robotics, Portugal)
-  #       Aditya Shekhar Nittala (Saarland University, Germany)
-  #       Martin Weigel (Technische Hochschule Mittelhessen, Germany)
-  #       Kristof Van Laerhoven (University of Siegen, Germany)
-  #       Pascal Knierim (Ludwig Maximilian University of Munich, Germany)
-  #       Niels Henze (University of Regensburg, Germany)
-  #       Jochen Huber (Furtwangen University, Germany)
-  #       Florian Müller (LMU Munich, Germany)
-  #       Julius von Willich (TU Darmstadt, Germany)
-  #       Masa Ogata (National Institute of Advanced Industrial Science and Technology, Japan)
-  #       Akishige Yuguchi (RIKEN Guardian Robot Project)
-  #       Roshan Peiris (Rochested Institute of Technology, United States)
-  #       Tadayoshi Aoyama (Nagoya University, Japan)
-  #       Nina Gerber (TU Darmstadt, Germany)
-  #       Shunichi Kasahara (University of Tokyo, Japan)
-  #       Monica Perusquía-Hernández (University of Essex, Germany)
-  #       Stefan Schneegass (University of Duisburg-Essen, Germany)
-  #       Harutoyo Hirano (Shizuoka University, Japan)
-  #       Damien Brun (University of Lapland, Finland)
-  #       Geehyuk Lee (Korea Advanced Institute of Science and Technology, Korea)
-  #       Enriko Rukzio (Ulm University, Germany)
-  #       Paweł Woźniak (Chanmers University of Technology, Sweden)
-  #       Denys J.C. Matthies (Fraunhofer)
-  #       Kai Kunze (Keio University, Japan)
-  #       Ian Oakley (University of Madeira, Portugal)
-  #       Liwei Chan (National Taiwan University, Republic of China)
-  #       Yumeko Imamura (National Institute of Advanced Industrial Science and Technology, Japan)
-  #       Tsutomu Terada (Kobe University, Japan)
-  #       Naoya Koizumi (University of Electro-Communications, Japan)
