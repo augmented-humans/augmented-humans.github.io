@@ -1,7 +1,7 @@
 page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 
 committee:
-  - group: General Chairs
+  - group: General Co-Chairs
     people:
       - name: Kouta MINAMIZAWA
         position: Professor
@@ -17,19 +17,19 @@ committee:
         mail: kasahara@csl.sony.co.jp
         img: /img/committee/2026/shunichi_kasahara.png
 
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
 
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
 
-  - group: Program Chairs
+  - group: Program Co-Chairs
     people:
       - name: Maki SUGIMOTO
         position: Professor
@@ -38,19 +38,19 @@ committee:
         link: https://www.st.keio.ac.jp/en/tprofile/ics/sugimoto.html
         img: /img/committee/2026/maki_sugimoto.jpg
 
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
 
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
 
-  - group: Poster & Demo Chairs
+  - group: Poster & Demo Co-Chairs
     people:
       - name: Ko WATANABE
         position: Senior/Postdoc Researcher
@@ -66,21 +66,21 @@ committee:
         mail:  ban@edu.k.u-tokyo.ac.jp
         img: /img/committee/2026/yuki_ban.jpg
       
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
 
-  - group: Workshop Chairs
-    people:
-      - name: COMING SOON...
-        position: TBD
-        affiliation: COMING SOON...
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+  # - group: Workshop Chairs
+  #   people:
+  #     - name: COMING SOON...
+  #       position: TBD
+  #       affiliation: COMING SOON...
+  #       link: https://www.google.com/
+  #       img: /img/committee/2026/tbd.png
 
-  - group: Publication Chairs
+  - group: Publication Co-Chairs
     people:
       - name: Steeven Villa
         position: Researcher
@@ -88,17 +88,17 @@ committee:
         link: https://scholar.google.com.br/citations?user=j6rFI50AAAAJ&hl=es
         img: /img/committee/2026/tbd.png
 
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
 
   - group: Student Volunteer Chair
     people:
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
   
@@ -129,7 +129,7 @@ committee:
         link: https://www.google.com/
         img: /img/committee/2026/kazuma_takada.png
 
-  - group: Social Event Co-Chair
+  - group: Social Event Co-Chairs
     people:
       - name: Ryoichi ANDO
         position: President / Researcher / Director / Visiting Professor
@@ -137,12 +137,17 @@ committee:
         link: https://superhuman-sports.org/
         mail: ando@axereal.co
         img: /img/committee/2026/ryoichi_ando.png
-
-  - group: Awards Committee Chairs
-    people:
-      - name: COMING SOON...
+      - name: TBD
         position: TBD
-        affiliation: COMING SOON...
+        affiliation: TBD
+        link: https://www.google.com/
+        img: /img/committee/2026/tbd.png
+
+  - group: Awards Committee Chair
+    people:
+      - name: TBD
+        position: TBD
+        affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
 
