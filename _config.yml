@@ -8,7 +8,7 @@ baseurl: ""
 
 # Social media and meta card settings
 twitter:
-  username: aug_humans  # Twitterアカウント名と一致させる
+  username: aug_humans  #
   card: summary_large_image
 
 # Open Graph settings
@@ -58,3 +58,9 @@ defaults:
       path: "sessions/**"
     values:
       sitemap: false
+
+# デフォルトのOG画像設定
+og:
+  image: https://augmented-humans.org/img/assets/meta_card_2026.jpg
+  image_width: 1200
+  image_height: 630
