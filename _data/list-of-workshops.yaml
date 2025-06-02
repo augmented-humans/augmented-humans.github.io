@@ -3,7 +3,7 @@ page-title: <strong>L</strong>ist <strong>O</strong>f <strong>W</strong>orkshops
 overview-title: Attend a Workshop
 overview: |
   Listed below are the workshops that will be available during the conference.
-  Please note that AHs 2025 registration includes access to workshops; however, a separate sign-up is required to secure your spot in your preferred workshop. Please use the link below to sign up for a workshop.
+  Please note that AHs 2026 registration includes access to workshops; however, a separate sign-up is required to secure your spot in your preferred workshop. Please use the link below to sign up for a workshop.
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScKTnW-LHtINKs6NxXU5yTx2YEebkATO6AI94q7sTzrpG_jAw/viewform" class="btn btn-lg " style="background-color: #c41a2e; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='##c41a2e'">Sign Up To Workshop</a>
 
 
@@ -15,7 +15,7 @@ ws1-organizer4: Florian Alt, Ludwig Maximilian University of Munich, Munich, Ger
 ws1-overview: With the rapid integration of wearable sensors and head-mounted displays (HMDs), ensuring security and safety in human-computer interaction has never been more critical. The On-Body Security and Safety Interfaces workshop explores the intersection of biometric authentication, safety- and privacy-preserving wearables, physiological sensing, and safety- and security-driven augmented interfaces.
   Key topics include novel authentication methods for wearable devices, privacy-preserving techniques for continuous physiological monitoring, secure interaction paradigms for AR and VR environments, and adaptive safety mechanisms that enhance user trust and system reliability. Through discussions and collaborative sessions, this workshop aims to foster new ideas and interdisciplinary approaches to ensuring secure, safe, and user-friendly on-body computing. We also invite participants to submit position papers via email to the organizers or bring hands-on demonstrations. By addressing both emerging challenges and future opportunities, this workshop seeks to pave the way for more resilient, privacy-conscious, and intelligent wearable and augmented systems that prioritize user well-being while maintaining seamless interaction experiences.
 ws1-link: https://exertiongameslab.org/workshops-events/sharedcontrol-an-ah-2024-workshop
-# ws1-organizer: RAKESH PATIBANDA, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ARYAN SAINI, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ZHUYING LI, Southeast University, China; JOSH ANDRES, Australian National University, Australia; ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology, The Netherlands; FLORIAN ‘FLOYD’ MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
+# ws1-organizer: RAKESH PATIBANDA, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ARYAN SAINI, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia; ZHUYING LI, Southeast University, China; JOSH ANDRES, Australian National University, Australia; ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology, The Netherlands; FLORIAN 'FLOYD' MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash University, Australia
 
 # NATHALIE OVERDEVEST, Exertion Games Lab, Department of Human-Centered Computing, Monash University,
 # Australia
@@ -24,7 +24,7 @@ ws1-link: https://exertiongameslab.org/workshops-events/sharedcontrol-an-ah-2024
 # JOSH ANDRES, Australian National University, Australia
 # ELISE VAN DEN HOVEN, University of Technology Sydney, Australia and Eindhoven University of Technology,
 # The Netherlands
-# FLORIAN ‘FLOYD’ MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash
+# FLORIAN 'FLOYD' MUELLER, Exertion Games Lab, Department of Human-Centered Computing, Monash
 # University, Australia
 # ws1-link: https://ah2023.ahlab.org/
 # ws1-img: /img/workshops/ws1.jpg
