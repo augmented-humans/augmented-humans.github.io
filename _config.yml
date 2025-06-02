@@ -14,6 +14,9 @@ twitter:
 # Open Graph settings
 image: https://augmented-humans.org/img/assets/meta_card_2026.jpg
 
+# テーマ設定
+theme_color: "#4285f4"  # Discord/Slackの埋め込みでのテーマカラー
+
 # Jekyll SEO Tag settings
 social:
   name: Augmented Humans Conference
@@ -23,7 +26,7 @@ social:
 mailchimp: "https://augmented-humans.us19.list-manage.com/subscribe/post?u=24833caa46a883a452cd0007c&amp;id=38ddd23071"
 
 # Build settings
-plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
 
 markdown: kramdown
 highlighter: rouge
