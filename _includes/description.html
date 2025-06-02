@@ -60,6 +60,23 @@
     </div>
 </section>
 
+<section id="ah-deadlines" class="flip top-bar" style="border-top: 5px solid black;">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10" >
+          <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left" >
+            <span>{{ site.data.calls-for-participation.deadlines-title }}</span></div>
+            {% assign description_paragraphs = site.data.calls-for-participation.deadlines | newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+</section>
+
 <section id="ah-categories" class="flip1 top-bar" style="border-top: 5px solid #F5F5F5;">
     <div class="container">
       <div class="row">
@@ -100,26 +117,9 @@
             
             <div class="hotel-section">
               <h3><strong>The closest hotel</strong></h3>
-              <p><a href="https://www.expedia.co.jp/en/Okinawa-Hotels-Rizzan-Sea-Park-Hotel-Tancha-Bay.h4980630[…]top_cur=JPY&top_dp=10236&useRewards=true&userIntent=&x_pwa=1" target="_blank" class="hotel-link">Rizzan Sea Park Hotel Tancha Bay</a></p>
+              <p><a href="https://www.rizzan.co.jp/english/index.html" target="_blank" class="hotel-link">Rizzan Sea Park Hotel Tancha Bay</a></p>
             </div>
 
-          </div>
-          <div class="col-lg-1"></div>
-        </div>
-      </div>
-</section>
-
-<section id="ah-deadlines" class="flip top-bar" style="border-top: 5px solid black;">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10" >
-          <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left" >
-            <span>{{ site.data.calls-for-participation.deadlines-title }}</span></div>
-            {% assign description_paragraphs = site.data.calls-for-participation.deadlines | newline_to_br | split:'<br />' %}
-            {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
           </div>
           <div class="col-lg-1"></div>
         </div>
