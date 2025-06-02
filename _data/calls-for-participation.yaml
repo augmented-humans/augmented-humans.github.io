@@ -2,7 +2,7 @@ page-title: <strong>C</strong>alls <strong>F</strong>or <strong>P</strong>artici
 
 about-title: About the conference
 about: |
-  The Augmented Humans (AHs) International Conference 2025 will be an in-person event, held in March 2025. More information on the time schedule will be made available soon. 
+  The Augmented Humans (AHs) International Conference 2026 will be an in-person event, held in March 2026. More information on the time schedule will be made available soon. 
   The conference focuses on physical, cognitive, and perceptual augmentation of humans through digital technologies. The plural – humans – emphasizes the move towards technologies that enhance human capabilities beyond the individual and will have the potential for impact on a societal scale.
   The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962<sup>[1]</sup>. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
@@ -13,25 +13,23 @@ cfp-title: Calls for Participation
 
 topics-title: Topics
 topics: |
-  •	Applications in tourism, games, art
-  •	Security, privacy and trust aspects of augmented human technology
-  •	Augmentation of human health through digital technologies
-  •	Augmentation technologies for aspects of live (e.g., sleep, eating)
-  •	Augmented, virtual and mixed reality
-  •	Augmented sport activities
-  •	Bionic systems for amplification and augmentation of human abilities
-  •	Brain-machine interfaces
-  •	Co-robots for human augmentation
-  •	Digital technologies for physical, cognitive, mental, and perceptional augmentation
-  •	Exoskeletons and assistive devices for the amplification of human physical strength and physiological sensing
-  •	Implanted technologies and interfaces
-  •	Sensing for context-awareness
-  •	Sensors and actuators for smart artifacts and smart textiles
-  •	Supernumerary robotic limbs
-  •	Technologies to improve human experience and to reduce stress
-  •	Tele-manipulation and tele-existence using robotics technology
-  •	Training and rehabilitation technology
-  •	Wearable computing and ubiquitous computing for augmenting human capabilities
+  •	AI and Human Augmentation
+  •	Human-AI Symbiosis and Co-Evolution
+  •	Augmented, Virtual, and Mixed Reality (XR)
+  •	Brain-Machine Interfaces (BMI)
+  •	Cognitive Neural Science for Human Augmentation
+  •	Cyborgs, Exoskeletons, and Assistive Technologies
+  •	Telexistence and Cybernetic Avatars
+  •	Augmented Sports and Superhuman Sports
+  •	Haptics for Enhancing Human Abilities
+  •	Wearable and Ubiquitous Computing for Augmented Capabilities
+  •	Applications in Rehabilitation, Healthcare, Mental Health, Games, Sleep, Eating, Art, and Performance
+  •	Neurodiversity and Social Inclusion
+  •	Augmented Identity and Social Interaction
+  •	Security, Privacy, and Trust in Human Augmentation Technologies
+  •	Ethical, Legal, and Social Issues in Human Augmentation
+  •	Human-AI Symbiosis, Coevolution
+  •	Augmented Identity, Social Interaction
 
 
 categories-title: Submission categories
@@ -61,7 +59,7 @@ categories: |
 instructions-title: Submission Guidelines 
 instructions: |
   
-  <strong> * Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2025">EasyChair</a>.</strong>
+  <strong> * Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2026">EasyChair</a>.</strong>
 
   <b>T</b>he <b>A</b>CM <b>P</b>ublication <b>S</b>ystem (TAPS) will be used for full papers, short papers, posters, and demos. Please be sure to read the instructions on the <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow page</a> carefully.
   
@@ -116,7 +114,7 @@ deadlines: |
 
     <tr>
       <td><strong>Full/Short Paper/</strong> Submission Deadline</td>
-      <td>November 18th, 2025</td>
+      <td>November 18th, 2026</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
