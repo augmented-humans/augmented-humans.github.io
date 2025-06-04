@@ -17,11 +17,12 @@ committee:
         mail: kasahara@csl.sony.co.jp
         img: /img/committee/2026/shunichi_kasahara.png
 
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Paul STROHMEIER
+        position: Senior Researcher
+        affiliation: Max Planck Institute for Informatics, Germany
+        link: https://sensint.mpi-inf.mpg.de/
+        mail: paul.strohmeier@mpi-inf.mpg.de 
+        img: /img/committee/2026/paul_strohmeier.jpg
 
       - name: TBD
         position: TBD
@@ -66,11 +67,12 @@ committee:
         mail:  ban@edu.k.u-tokyo.ac.jp
         img: /img/committee/2026/yuki_ban.jpg
       
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Marie MORITA
+        position: Assistant Professor
+        affiliation: College of Information Science and Engineering, Ritsumeikan University, Japan
+        link: https://researchmap.jp/mariemorita
+        mail: ma-mrt@fc.ritsumei.ac.jp
+        img: /img/committee/2026/marie_morita.jpg
 
   # - group: Workshop Chairs
   #   people:
