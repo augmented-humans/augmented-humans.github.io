@@ -24,11 +24,12 @@ committee:
         mail: paul.strohmeier@mpi-inf.mpg.de 
         img: /img/committee/2026/paul_strohmeier.jpg
 
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Yomna ABDELRAHMAN
+        position: Professor
+        affiliation: Bundeswehr University Munich, Germany
+        mail: yomna.eldin@gmail.com
+        link: https://www.unibw.de/usable-security-and-privacy-en/team/dr-yomna-abdelrahman
+        img: /img/committee/2026/yomna_abdelrahman.jpg
 
   - group: Program Co-Chairs
     people:
