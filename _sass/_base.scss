@@ -1749,6 +1749,95 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
       }
   
     }
+
+    .zoom-container {
+      margin-bottom: 40px;
+    }
+  
+    .image {
+      width: 200px;
+      height: 200px;
+      border-radius: 200px;
+      background-size:cover;
+      background-repeat:no-repeat;
+      margin: 0 auto;
+    }
+
+    .name {
+      margin-top: 20px;
+      font-size: large;
+      color:#3F3446 ;
+    }
+
+    .title {
+      margin-top: 5px;
+      font-size: medium;
+      color: #0077be;
+      font-style: italic;
+      position: relative;
+      
+      .email-icon {
+        margin-left: 10px;
+        color: #ff6b35;
+        font-size: 16px;
+        text-decoration: none !important;
+        transition: color 0.3s ease;
+        display: inline-block;
+        vertical-align: middle;
+        
+        &:hover {
+          color: #e55a2b;
+          transform: scale(1.1);
+        }
+        
+        i {
+          font-style: normal !important;
+        }
+      }
+    }
+
+    a:link, a:visited{
+      color: #0077be; // 沖縄の海の青
+      font-size: large;
+      text-decoration: underline;
+    }
+
+    a:hover, a:active {
+      color: $theme-tertiary;
+    }
+  
+    .position {
+      color: #3F3446;
+      font-size: small;
+    }
+  }
+
+  // 2x2 grid for General Co-Chairs only
+  .people-2x2 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    @extend %flexbox;
+    @include flex-flow(wrap);
+    text-align: center;
+    li {
+      padding: 30px 20px;
+      box-sizing: border-box;
+      width: 100%;
+  
+      @media #{$tablet} {
+        @include flex(1, 1, 50%);
+      }
+  
+      @media #{$desktop} {
+        @include flex(1, 1, 50%);
+      }
+  
+    }
+
+    .zoom-container {
+      margin-bottom: 40px;
+    }
   
     .image {
       width: 200px;
