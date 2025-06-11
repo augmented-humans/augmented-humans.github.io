@@ -91,11 +91,12 @@ committee:
         link: https://scholar.google.com.br/citations?user=j6rFI50AAAAJ&hl=es
         img: /img/committee/2026/tbd.png
 
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Takefumi HIRAKI
+        position: Associate Professor
+        affiliation: University of Tsukuba / Cluster Metaverse Lab, Japan
+        mail: hiraki@slis.tsukuba.ac.jp
+        link: http://takefumihiraki.com/jp/
+        img: /img/committee/2026/takefumi_hiraki.jpg
 
   - group: Student Volunteer Chair
     people:
