@@ -38,12 +38,12 @@ committee:
         affiliation: Keio University, Japan
         mail: sugimoto@ics.keio.ac.jp
         link: https://www.st.keio.ac.jp/en/tprofile/ics/sugimoto.html
-        img: /img/committee/2026/maki_sugimoto.jpg
+        img: /img/committee/2026/matthias_hoppe.jpg
 
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
+      - name: Matthia Hoppe
+        position: Post-Doc Researcher
+        affiliation: KMD, Japan
+        link: matthias.hoppe@kmd.keio.ac.jp
         img: /img/committee/2026/tbd.png
 
       - name: TBD
