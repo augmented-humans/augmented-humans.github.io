@@ -43,7 +43,8 @@ committee:
       - name: Matthias Hoppe
         position: Post-Doc Researcher
         affiliation: KMD, Japan
-        link: matthias.hoppe@kmd.keio.ac.jp
+        mail: matthias.hoppe@kmd.keio.ac.jp
+        link: https://scholar.google.com/citations?user=N2Bw-lMAAAAJ&hl=en&oi=ao
         img: /img/committee/2026/matthias_hope.jpg
 
       - name: TBD
