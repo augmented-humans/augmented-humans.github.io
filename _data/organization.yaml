@@ -75,6 +75,13 @@ committee:
         link: https://researchmap.jp/mariemorita
         mail: ma-mrt@fc.ritsumei.ac.jp
         img: /img/committee/2026/marie_morita.jpg
+      
+      - name: Sungho Suh
+        position: Assistant Professor
+        affiliation: Department of Artificial Intelligence at Korea University, Korea
+        link: https://sites.google.com/view/sunghosuh/
+        mail: sungho_suh@korea.ac.kr
+        img: /img/committee/2026/sungho_suh.jpg
 
   # - group: Workshop Chairs
   #   people:
