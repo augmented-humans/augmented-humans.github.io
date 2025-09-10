@@ -38,14 +38,14 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | relative_url }}">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="{{ '/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}" type="text/css">
 
     <!-- KR Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600|Work+Sans:300,400,500, 600&display=swap&subset=latin-ext" rel="stylesheet">
@@ -57,14 +57,13 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> -->
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="{{ '/css/animate.min.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/vendor/font-awesome/css/font-awesome.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/vendor/simple-line-icons/css/simple-line-icons.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     
-    <!-- Custom CSS
-    <link rel="stylesheet" href="css/main.css" type="text/css"> -->
-    <link href="/css/main.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{{ '/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
