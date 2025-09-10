@@ -58,6 +58,8 @@ shortlinks:
     shortcut: /committee
   - title: Past conferences
     shortcut: /previous-conferences
+  - title: Access
+    shortcut: /access
 
 # item-7-title: Blog
 # item-7-shortcut: /blog
