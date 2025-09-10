@@ -1505,18 +1505,26 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
 
 .prefooter-logos {
   background-color: white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  padding: 10px 0;
 
   img {
     height: 80px;
-    display: inline;
-    margin: 30px 10px 30px 10px;
+    display: block;
+    margin: 20px 10px;
   }
 
   @media (max-width: 768px) {
-  img {
-    height: 50px;
-  }
+    flex-direction: column;
+    align-items: center;
+    img {
+      height: 50px;
+      margin: 10px 0;
+    }
   }
 }
 
@@ -1592,6 +1600,80 @@ section.flip2, .kw-blog-post .post-content, .kw-conference-location {
         padding-bottom: 40px;
       }
     }
+}
+
+/* Access page enhancements */
+.access-hero {
+  background: #fff;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin: 20px 0 0 0;
+  }
+}
+
+.access-address {
+  margin: 30px 0 10px 0;
+  address {
+    font-style: normal;
+    font-size: 16px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 12px 14px;
+    color: #131313;
+  }
+}
+
+.access-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 10px 0;
+
+  a.access-btn {
+    min-width: 140px;
+    text-align: center;
+    padding: 12px 18px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    background-color: #003865; /* deep navy */
+    color: #fff !important;
+    text-decoration: none !important;
+    border: 1px solid #003865;
+    border-radius: 6px;
+  }
+  a.access-btn:hover {
+    background-color: #16507a;
+    border-color: #16507a;
+  }
+}
+@media (max-width: 768px) {
+  .access-buttons a.access-btn {
+    flex: 1 1 100%;
+  }
+}
+
+.access-subtitle {
+  color: #000;
+  margin: 24px 0 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 12px;
+  border-left: 5px solid #003865;
+}
+
+.access-section {
+  background: #fff;
+  color: #131313;
+  padding: 40px 0 60px 0;
+  p { color: #131313; }
+}
+.access-section.alt {
+  background: #f7fafc;
 }
 
 .keynote {
