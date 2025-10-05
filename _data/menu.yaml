@@ -58,10 +58,10 @@ shortlinks:
   # #       shortcut: /mentoring
   - title: Committee
     shortcut: /committee
-  - title: Past conferences
-    shortcut: /previous-conferences
   - title: Access
     shortcut: /access
+  - title: Past conferences
+    shortcut: /previous-conferences
 
 # item-7-title: Blog
 # item-7-shortcut: /blog
