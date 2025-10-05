@@ -3,8 +3,17 @@
 shortlinks:
   - title: Home
     shortcut: /
-  - title: Submission
+  - title: Guidelines
     shortcut: /submission-guideline
+    sublinks:
+      - title: Submission
+        shortcut: /submission-guideline
+      - title: Registration
+        shortcut: /registration
+      - title: Full&Short Paper
+        shortcut: /calls-for-participation
+      - title: Poster&Demo Paper
+        shortcut: /call-for-posters
   # - title: Participating
   #   shortcut: /calls-for-participation
   #   sublinks:
