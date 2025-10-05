@@ -1,0 +1,53 @@
+page-title: <strong>C</strong>all <strong>F</strong>or <strong>P</strong>osters & <strong>D</strong>emos
+
+overview-title: Overview
+overview: |
+  For 2026, we combine posters and demos to streamline submissions and on-site experiences. All submissions must be up to 4 pages in single-column format, excluding references. Authors are required to select a preferred presentation style in the submission form (see categories below). Accepted works will appear in the ACM Digital Library and follow the ACM TAPS workflow after conditional acceptance.
+
+aims-title: Aims & Scope
+aims: |
+  We invite early-stage research, promising interaction concepts, small-scale study results, prototypes, systems, and design explorations that benefit from discussion and/or hands-on engagement with attendees. Please also refer to the suggested topics.
+
+presentation-styles-title: Presentation Styles (select one at submission)
+presentation-styles: |
+  All styles share the same format: up to 4 pages excluding references, single-column.
+  • Poster-only presentation — Allocation: one poster panel (A0 portrait recommended; panels are typically around 1.2 m W × 1.8 m H; poster must fit the board). Format: in-person discussion at the poster.
+  • Poster + desk (hands-on demo) — Allocation: one poster panel + one small desk. Extra file(s): include a top-view floor plan indicating the required space and key elements; an optional figure or short video (≈30–60 s) showing the setup is encouraged. These do not count toward the page limit (appendix).
+  • Poster + demo booth — Allocation: one poster panel + a 1.8 m × 1.8 m booth area. Extra file(s): same as above—floor plan + requirements list as appendix; optional teaser video (30–60 s). Power & on-site notes: Authors should bring required equipment and adapters.
+
+submission-format-title: Submission Format (common to all styles)
+submission-format: |
+  • Length: Up to 4 pages, single-column (references excluded).
+  • Template: ACM Primary Article Template (Word or LaTeX, single-column for review).
+  • Submission site: EasyChair.
+  • Production: Upon (conditional) acceptance, authors follow ACM TAPS.
+
+anonymity-review-title: Anonymity & Review
+anonymity-review: |
+  2026 policy: Double-blind review for all submissions. Please submit your manuscript anonymized. (Please remove author identities from PDFs and supplementary materials).
+
+evaluation-title: Evaluation Criteria
+evaluation: |
+  • Relevance to Augmented Humans.
+  • Originality / potential contribution.
+  • Clarity of the work and presentation.
+  • Feasibility and safety of interactive presentation (for desk/booth styles).
+  • Ability to stimulate discussion and community interest.
+
+presentation-registration-title: Presentation & Registration
+presentation-registration: |
+  At least one author must attend in person to present the accepted work. Each accepted submission requires a registered author (student rates typically available). Exceptions for emergencies (e.g., visa issues) may be granted by the general chairs.
+
+dates-title: Important Dates
+dates: |
+  • Submission (Posters & Demos, all styles): January 26th, 2026 (AOE)
+  • Notification: TBD
+  • Camera-ready/TAPS: TBD
+
+prepare-title: What to Prepare (desk/booth styles)
+prepare: |
+  Include in your appendix (excluded from page limit):
+  • Floor plan (top-view) with required area (m), table placement, circulation, audience interaction points.
+  • Requirements list: power outlets, furniture, network, lighting/space constraints, safety considerations.
+  • Optional: setup figure or teaser video (≈30–60 s).
+

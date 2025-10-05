@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Augmented Humans 2026 | Posters"
-description: "Posters"
+title: "Augmented Humans 2026 | Posters&Demos"
+description: "Posters&Demos"
 sitemap: true
 ---
 <header class="masthead text-center text-white normal" style="background-color:#9AB961">
@@ -11,7 +11,7 @@ sitemap: true
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-          <h1 class="masthead-heading mb-0">{{ site.data.call-for-posters.page-title}}</h1>
+          <h1 class="masthead-heading mb-0">{{ site.data.call-for-poster-demo.page-title}}</h1>
         </div>
         <div class="col-lg-1"></div>
       </div>
@@ -20,32 +20,14 @@ sitemap: true
 </header>
 
 
-<!-- <section id="ah-categories" class="flip1" style="border-top: 5px solid #F5F5F5;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: #FFC847;">{{ site.data.call-for-posters.submission-post-title }}</span></div>
-        {% assign description_paragraphs = site.data.call-for-posters.submission-post | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p >{{ paragraph }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section> -->
-
-
 <section id="ah-categories" class="flip">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-          <span>{{ site.data.call-for-posters.overview-title }}</span></div>
-        {% assign description_paragraphs = site.data.call-for-posters.overview | newline_to_br | split:'<br />' %}
+          <span>{{ site.data.call-for-poster-demo.overview-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.overview | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
         {% endfor %}
@@ -61,18 +43,16 @@ sitemap: true
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.call-for-posters.topics-title }}</span></div>
-        {% assign description_paragraphs = site.data.call-for-posters.topics | newline_to_br | split:'<br />' %}
+          <span>{{ site.data.call-for-poster-demo.aims-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.aims | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
-        <p >{{ paragraph }}</p>
+        <p>{{ paragraph }}</p>
         {% endfor %}
       </div>
       <div class="col-lg-1"></div>
     </div>
   </div>
-</section>
-
-
+  </section>
 
 <section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
   <div class="container">
@@ -80,8 +60,8 @@ sitemap: true
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
-          <span>{{ site.data.call-for-posters.presentation-title }}</span></div>
-        {% assign description_paragraphs = site.data.call-for-posters.presentation | newline_to_br | split:'<br />' %}
+          <span>{{ site.data.call-for-poster-demo.presentation-styles-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.presentation-styles | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
         {% endfor %}
@@ -97,8 +77,8 @@ sitemap: true
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.call-for-posters.submissions-title }}</span></div>
-        {% assign description_paragraphs = site.data.call-for-posters.submissions | newline_to_br | split:'<br />' %}
+          <span>{{ site.data.call-for-poster-demo.submission-format-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.submission-format | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
         {% endfor %}
@@ -114,8 +94,8 @@ sitemap: true
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
         <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: #c41a2e">{{ site.data.call-for-posters.reviewing-title }}</span></div>
-        {% assign description_paragraphs = site.data.call-for-posters.reviewing | newline_to_br | split:'<br />' %}
+          <span style="color: #c41a2e">{{ site.data.call-for-poster-demo.anonymity-review-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.anonymity-review | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p>{{ paragraph }}</p>
         {% endfor %}
@@ -125,37 +105,70 @@ sitemap: true
   </div>
 </section>
 
-<!-- <section id="" class="kw-committee-section flip ah-organization ah-override" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
-      <div class="col-lg-10" style="padding-top: 30px; padding-bottom: 30px;">
-        {% assign workshop-group = site.data.organization.committee | where: "group","Poster Chairs" %}
-        {% for item in workshop-group %}
-        <div class="kw-committee-group">
-          <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-            <span class="k-title">{{ item.group }}</span>
-          </div>
-          <div class="people">
-            {% for person in item.people %}
-                <li>
-                  {% if person.img %}
-                  <div class="zoom-container"><div class="image" style="background-image: url({% include relative-src.html src=person.img %})"></div></div>
-                  {% endif %}
-                  {% if person.mail %}
-                    <div class="name"><a href="mailto: {{ person.mail }}">{{ person.name }}</a></div>
-                  {% elsif person.website %}
-                    <div class="name"><a href="{{ person.website }}" target="_blank">{{ person.name }}</a></div>
-                  {% else %}
-                    <div class="name">{{ person.name }}</div>
-                  {% endif %}
-                  <div class="position">{{ person.affiliation }}</div>
-                </li>
-            {% endfor %}
-          </div>
-        </div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-poster-demo.evaluation-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.evaluation | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
         {% endfor %}
       </div>
       <div class="col-lg-1"></div>
     </div>
-</section> -->
+  </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.call-for-poster-demo.presentation-registration-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.presentation-registration | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-poster-demo.dates-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.dates | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip1" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span style="color: #0077be">{{ site.data.call-for-poster-demo.prepare-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-poster-demo.prepare | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
