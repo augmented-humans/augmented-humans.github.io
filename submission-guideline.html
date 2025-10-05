@@ -1,0 +1,237 @@
+---
+layout: default
+title: "Augmented Humans 2024 | Calls for participation"
+description: "Calls for participation"
+sitemap: true
+---
+<header class="masthead text-center text-white normal" style="background-color: #a9c4e5;">
+  <!-- <div class="overlay"></div> -->
+  <div id="particles-js" class="masthead-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1 class="masthead-heading mb-0">{{ site.data.submission-guideline.page-title}}</h1>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section id="ah-categories" class="flip">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.submission-guideline.overview-title }}</span></div>
+        {% assign description_paragraphs = site.data.submission-guideline.overview | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Scope styles to this section only */
+  .acm-icps-section .apc-details { margin: 14px 0; }
+  .acm-icps-section .apc-details summary {
+    cursor: pointer;
+    font-weight: 600;
+    background: #0077be;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.4);
+    list-style: none;
+  }
+  .acm-icps-section .apc-details summary::-webkit-details-marker { display: none; }
+  .acm-icps-section .apc-details summary::after {
+    content: '▾';
+    float: right;
+    font-size: 14px;
+    line-height: 1;
+    margin-left: 8px;
+    transition: transform .2s ease;
+  }
+  .acm-icps-section .apc-details[open] summary::after { transform: rotate(180deg); }
+
+  /* Ensure table text is readable on white rows */
+  .acm-icps-section #acm-apc-rates thead th {
+    background-color: #0077be !important;
+    color: #fff !important;
+  }
+  .acm-icps-section #acm-apc-rates tbody td,
+  .acm-icps-section #acm-apc-rates tbody th {
+    color: #000 !important;
+  }
+  /* Light zebra striping tuned for blue theme */
+  .acm-icps-section #acm-apc-rates tbody tr:nth-child(even) td { background-color: #f5f9ff !important; }
+  .acm-icps-section #acm-apc-rates tbody tr:nth-child(odd) td { background-color: #ffffff !important; }
+
+  /* Link color in blue-background sections (flip2) */
+  section.flip2 a,
+  section.flip2 a:visited {
+    color: #FFD700 !important; /* gold */
+  }
+  section.flip2 a:hover,
+  section.flip2 a:focus {
+    color: #ffea70 !important; /* slightly brighter on hover */
+  }
+</style>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.submission-guideline.categories-title }}</span></div>
+        {% assign description_paragraphs = site.data.submission-guideline.categories | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.submission-guideline.deadlines-title }}</span></div>
+        {% assign description_paragraphs = site.data.submission-guideline.deadlines | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.submission-guideline.instructions-title }}</span></div>
+        {% assign description_paragraphs = site.data.submission-guideline.instructions | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.submission-guideline.add-title }}</span></div>
+        {% assign description_paragraphs = site.data.submission-guideline.add | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 35.5520738,139.6472578 -->
+
+<section id="ah-categories" class="flip2 acm-icps-section" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>ACM ICPS Open Access Publishing Information</span></div>
+
+        <p>All papers accepted to this conference will be published as Open Access in the ACM International Conference Proceedings Series (ICPS). Many authors will qualify for free Open Access publishing, while others will be required to pay an Article Processing Charge (APC) based on their institutional affiliation and ACM membership status.</p>
+
+        <p>To determine your publishing fee, authors should verify whether their institution participates in the ACM Open program, check if their country qualifies for waivers through ACM's agreements with EIFL and Research4Life or is classified as a low-income or lower-middle-income country by the World Bank, and confirm their ACM membership status. ACM has introduced subsidized pricing for 2025 to reduce the financial burden on authors.</p>
+
+        <p>For complete details, please visit: <a href="https://www.acm.org/publications/icps/author-guidance" target="_blank" rel="noopener">https://www.acm.org/publications/icps/author-guidance</a></p>
+
+        <p>The 2025 subsidized APC rates are structured as follows:</p>
+
+        <details class="apc-details">
+          <summary>APC Rates (2025) — click to expand</summary>
+          <div class="table-responsive" style="margin-top: 10px;">
+            <table class="table table-striped table-bordered" id="acm-apc-rates">
+              <thead>
+                <tr>
+                  <th>Eligibility Criteria</th>
+                  <th>APC Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Institution is a member of the ACM Open program</td>
+                  <td><strong>Free</strong></td>
+                </tr>
+                <tr>
+                  <td>Institution is located in a country on the list of low-income countries covered by ACM's agreements with EIFL and Research4Life, or classified by the World Bank as low-income countries</td>
+                  <td><strong>Free</strong></td>
+                </tr>
+                <tr>
+                  <td>Institution is located in a lower-middle-income country (as defined by the World Bank) AND author or at least one coauthor is an ACM member</td>
+                  <td><strong>$125 USD</strong></td>
+                </tr>
+                <tr>
+                  <td>Institution is located in a lower-middle-income country (as defined by the World Bank) AND neither author nor any coauthors is an ACM member</td>
+                  <td><strong>$175 USD</strong></td>
+                </tr>
+                <tr>
+                  <td>Institution is NOT located in a lower-middle-income country AND author or at least one coauthor is an ACM member</td>
+                  <td><strong>$250 USD</strong></td>
+                </tr>
+                <tr>
+                  <td>All other cases</td>
+                  <td><strong>$350 USD</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+
+        <p>For conferences with proceedings published simultaneously with the event, APCs must be paid 45 days before the conference start date. Coauthors are jointly responsible for timely payment. If payment remains outstanding 90 days after the due date, all authors on the paper will be prohibited from contributing to any ACM venue until payment is completed.</p>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Open all links in this page in a new tab (excluding in-page anchors)
+  document.addEventListener('DOMContentLoaded', function () {
+    var scope = document.querySelector('.content-wrap') || document;
+    var links = scope.querySelectorAll('a[href]');
+    links.forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      if (/^#/.test(href)) return; // keep in-page anchors in same tab
+      a.setAttribute('target', '_blank');
+      var rel = a.getAttribute('rel') || '';
+      if (!/(^|\s)(noopener|noreferrer)(\s|$)/.test(rel)) {
+        a.setAttribute('rel', (rel ? rel + ' ' : '') + 'noopener');
+      }
+    });
+  });
+  </script>

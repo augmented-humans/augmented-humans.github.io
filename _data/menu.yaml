@@ -3,6 +3,8 @@
 shortlinks:
   - title: Home
     shortcut: /
+  - title: Submission
+    shortcut: /submission-guideline
   # - title: Participating
   #   shortcut: /calls-for-participation
   #   sublinks:

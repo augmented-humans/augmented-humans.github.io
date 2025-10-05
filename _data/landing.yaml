@@ -7,6 +7,8 @@ show_notice: false
 
 news-title: News
 news:
+  - date: "2025-10-05"
+    content: "Submission Guidelines page published: <a href='/submission-guideline'>/submission-guideline</a>"
   - date: "2025-09-10"
     content: "Access page added: <a href='/access'>/access</a>"
   - date: "2025-05-30"
