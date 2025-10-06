@@ -11,7 +11,7 @@ shortlinks:
       - title: Registration
         shortcut: /registration
       - title: Full&Short Paper
-        shortcut: /calls-for-participation
+        shortcut: /call-for-full-short-papers
       - title: Poster&Demo Paper
         shortcut: /call-for-poster-demo
   # - title: Participating
