@@ -14,64 +14,45 @@ registration: |
   Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
   Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
   
+  The submission system will be opened by October 18th.
+  
 
 deadlines-title: Deadlines
 deadlines: |
-  Early Registration: Before 20th March 2024
-  Standard Registration: 20th March 2024 to 3rd April 2024
-  On-Site: 4th to 6th April 2024  
+  TBD
 
 
 price-title: Registration Types
 price: |
   <table id="deadlines">
-
     <tr>
-      <td><strong>Type</strong></td>
-      <td><strong>Early</strong></td>
-      <td><strong>Standard</strong></td>
-      <td><strong>On-Site</strong></td>
+      <td><strong>Item</strong></td>
+      <td><strong>Price (JPY)</strong></td>
     </tr>
-    
     <tr class="tr-break">
       <td colspan="100%" style="background-color: #FFC847;"></td>
     </tr>
-
     <tr>
-      <td><strong>Professional</strong></td>
-      <td><strong>750</strong></td>
-      <td><strong>900</strong></td>
-      <td><strong>1000</strong></td>
+      <td>Early Full Registration</td>
+      <td><strong>90,000 JPY</strong> (~ 600 USD)</td>
     </tr>
-
     <tr>
-      <td><strong>Students</strong></td>
-      <td><strong>500</strong></td>
-      <td><strong>650</strong></td>
-      <td><strong>800</strong></td>
+      <td>Early Student Registration</td>
+      <td><strong>60,000 JPY</strong> (~ 400 USD)</td>
     </tr>
-
-
     <tr>
-      <td><strong>Workshop Only </strong></td>
-      <td><strong>150</strong></td>
-      <td><strong>150</strong></td>
-      <td><strong>150</strong></td>
+      <td>Late Full Registration</td>
+      <td><strong>120,000 JPY</strong> (~ 800 USD)</td>
     </tr>
-
     <tr>
-      <td><strong> Online Only (Zoom)  </strong></td>
-      <td><strong>100</strong></td>
-      <td><strong>100</strong></td>
-      <td><strong>100</strong></td>
+      <td>Late Student Registration</td>
+      <td><strong>80,000 JPY</strong> (~ 550 USD)</td>
     </tr>
-
-
-    </table> 
-
-   <br><br>
-    Please register for Augmented Humans 2024 using the link below.
-  <a href="https://pay.sydney.edu.au/AHs2024" class="btn btn-lg " style="background-color: #FFC847; border: 2px solid #F4FDD9; color: black !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#E05263'" #onMouseOut="this.style['background-color']='#FFC847'">Click here to register</a>
+    <tr>
+      <td>Additional Dinner Ticket</td>
+      <td><strong>30,000 JPY</strong> (~ 200 USD)</td>
+    </tr>
+  </table>
 
 
 visa-title: Visa Information

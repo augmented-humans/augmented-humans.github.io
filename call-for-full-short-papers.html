@@ -1,0 +1,117 @@
+---
+layout: default
+title: "Augmented Humans 2026 | Guidelines for Full & Short Papers"
+description: "Guidelines for Full & Short Papers"
+sitemap: true
+---
+<header class="masthead text-center text-white normal" style="background-color: #a9c4e5;">
+  <!-- <div class="overlay"></div> -->
+  <div id="particles-js" class="masthead-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1 class="masthead-heading mb-0">{{ site.data.call-for-full-short-papers.page-title}}</h1>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  /* Yellow links on blue sections (flip2), matching Submission Guidelines */
+  section.flip2 a,
+  section.flip2 a:visited { color: #FFD700 !important; }
+  section.flip2 a:hover,
+  section.flip2 a:focus { color: #ffea70 !important; }
+</style>
+
+
+<section id="ah-categories" class="flip">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.overview-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.overview | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.categories-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.categories | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.deadlines-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.deadlines | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.instructions-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.instructions | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.add-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.add | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 35.5520738,139.6472578 -->

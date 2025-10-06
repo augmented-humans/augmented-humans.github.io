@@ -1,7 +1,20 @@
 {% for item in site.data.menu.shortlinks %}
-<li >
+{% if item.sublinks %}
+<li class="dropdown">
+    <a class="page-scroll" href="{{ item.shortcut }}">{{ item.title }}</a>
+    <ul class="dropdown-content">
+    {% for sub in item.sublinks %}
+    <li>
+        <a href="{{ sub.shortcut }}">{{ sub.title }}</a>
+    </li>
+    {% endfor %}
+    </ul>
+</li>
+{% else %}
+<li>
     <a class="page-scroll" href="{{ item.shortcut }}">{{ item.title }}</a>
 </li>
+{% endif %}
 {% endfor %}
 
 <li>
@@ -11,4 +24,3 @@
         </svg>
     </a>
 </li>
-

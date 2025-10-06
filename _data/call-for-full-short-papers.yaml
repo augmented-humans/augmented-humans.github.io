@@ -1,0 +1,40 @@
+page-title: <strong>G</strong>uidelines for <strong>F</strong>ull & <strong>S</strong>hort Papers
+
+overview-title: Overview
+overview: |
+  This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans 2026. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
+
+  The submission system will be opened by October 18th.
+
+categories-title: Tracks and Length
+categories: |
+  <b>Full papers</b> — up to 16 pages (single column), excluding references; anonymized for review.<br>
+  <b>Short papers</b> — up to 8 pages (single column), excluding references; anonymized for review.<br>
+  <br>
+  All page limits exclude references. Reviews are double-blind: please remove author names, affiliations, and identifying information from the PDF and any supplementary files.
+
+deadlines-title: Deadlines
+deadlines: |
+  <strong>Full/Short Paper — Submission Deadline:</strong> November 18th, 2025<br>
+  <strong>Full/Short Paper — Decisions to Authors:</strong> January 15th, 2026<br>
+  <strong>Full/Short Paper — Camera-Ready:</strong> TBD
+
+instructions-title: Submission Format & Templates
+instructions: |
+  <strong>Submission site:</strong> Please submit via <a href="https://easychair.org/conferences/?conf=ahs2026">EasyChair</a>.<br>
+  <strong>Review format:</strong> Single-column manuscript for review using the ACM Primary Article Template (Word or LaTeX). Submissions must be <b>anonymized</b>.<br>
+  <strong>Production:</strong> Upon conditional acceptance, authors will follow the ACM <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow</a> to produce the publication-ready PDF and HTML5.
+
+  <u>Templates and quick links:</u><br>
+  • Use the <b>single-column Word Submission Template</b> or the <b>single-column LaTeX Template</b> for review. For LaTeX, a typical option is <tt>\\documentclass[manuscript, review, anonymous]{acmart}</tt>.<br>
+  • For publication (after conditional acceptance), use the <b>single-column Word</b> or the <b>double-column LaTeX</b> configuration (e.g., <tt>\\documentclass[sigconf]{acmart}</tt>) per ACM TAPS guidance.<br>
+  • Primary template page: <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a><br>
+  • LaTeX guidance: <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex">Preparing Your Article with LaTeX</a><br>
+  • Word guidance: <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word">Preparing Your Article with Word</a><br>
+  • Direct download: <a href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx">Word Template (.docx)</a> | <a href="https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip">LaTeX Template (zip)</a> | <a href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc">Overleaf</a>
+
+add-title: Presentation & Additional Notes
+add: |
+  <strong>Presentation format:</strong> Talk length and Q&A duration will be announced later on this page.<br>
+  <strong>Registration:</strong> At least one author of each accepted paper must register and present in person (exceptions may be considered in emergencies, e.g., visa issues, by the general chairs).<br>
+  <strong>Open Access:</strong> Accepted papers are published Open Access in ACM ICPS. For APC information, please refer to the <a href="/submission-guideline">Submission Guidelines</a> page.
