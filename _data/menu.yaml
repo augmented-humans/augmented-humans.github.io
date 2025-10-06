@@ -3,8 +3,17 @@
 shortlinks:
   - title: Home
     shortcut: /
-  - title: Submission
-    shortcut: /submission-guideline
+  - title: Guidelines
+    shortcut: /guidelines
+    sublinks:
+      - title: Submission
+        shortcut: /submission-guideline
+      - title: Registration
+        shortcut: /registration
+      - title: Full&Short Paper
+        shortcut: /call-for-full-short-papers
+      - title: Poster&Demo Paper
+        shortcut: /call-for-poster-demo
   # - title: Participating
   #   shortcut: /calls-for-participation
   #   sublinks:
@@ -58,10 +67,10 @@ shortlinks:
   # #       shortcut: /mentoring
   - title: Committee
     shortcut: /committee
-  - title: Past conferences
-    shortcut: /previous-conferences
   - title: Access
     shortcut: /access
+  - title: Past conferences
+    shortcut: /previous-conferences
 
 # item-7-title: Blog
 # item-7-shortcut: /blog
