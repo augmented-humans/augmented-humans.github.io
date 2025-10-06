@@ -7,20 +7,15 @@ categories: |
   
   <b>Full papers</b> - up to 16 pages single column (excluding references), anonymized
   <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
-  <b>Demonstration papers</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized, demonstration at the conference <a href="#footnote1"><sup>(see footnote 1)</sup></a>
-  <b>Poster papers</b> - up to 4 pages single column (excluding references), anonymized, presented at the conference <a href="#footnote2"><sup>(see footnote 2)</sup></a>
-  <b>Workshop proposals</b> - up to 4 pages single column (excluding references and author bios), <b>not</b> anonymized <a href="#footnote3"><sup>(see footnote 3)</sup></a>
+  <b>Poster & Demonstration papers</b> - All styles share the same format: up to 4 pages excluding references, single-column. <a href="#footnote-pd"><sup>(see details)</sup></a>
+  <b>Workshop proposals</b> - Please contact the AHs general chairs at <a href="mailto:ahs2026.generalchairs@gmail.com">ahs2026.generalchairs@gmail.com</a>.
 
   All page lengths are excluding references. Papers will be reviewed in a double-blind process.
   
   All accepted submissions will be published in the <a href="https://dl.acm.org/">ACM Digital Library</a>. 
   
   <br>
-  <p style="font-size: 90%;"><text id="footnote1">1</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute). More information can be found on the dedicated <a href="/call-for-demos"> Call for Demos</a> site.</p>
-  <p style="font-size: 90%;"><text id="footnote3">2</text> More information can be found on the dedicated <a href="/call-for-posters"> Call for Posters</a> site.</p>
-  <p style="font-size: 90%;"><text id="footnote2">3</text> More information can be found on the dedicated <a href="/call-for-workshops"> Call for Workshops</a> site.</p>
-
-  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please contact the AHs general chairs <a href="mailto:ahs2026.generalchairs@gmail.com">ahs2026.generalchairs@gmail.com</a>.</p>
+  <p style="font-size: 90%;"><text id="footnote-pd">*</text> More information about Posters & Demos (including presentation styles and on-site setup) can be found on the dedicated <a href="/call-for-poster-demo">Call for Posters & Demos</a> page.</p>
  
 
 instructions-title: Submission Guidelines
@@ -43,7 +38,7 @@ instructions: |
 
 overview-title: Overview
 overview: |
-  This page summarizes how to submit to the Augmented Humans conference. It provides the submission categories, key deadlines and notifications, the required submission workflow and templates, and ACM ICPS Open Access publishing information (including the 2025 subsidized APC rates).
+  This page summarizes how to submit to the Augmented Humans conference. It provides the submission categories, key deadlines and notifications, the required submission workflow and templates, and ACM ICPS Open Access publishing information (including the 2026 subsidized APC rates).
 
   Tracks include Full and Short papers, Demonstrations, Posters, and Workshop proposals. All accepted submissions will appear in the ACM Digital Library. The deadline for workshop proposals is listed below, and approved workshops will be linked here when available.
 
