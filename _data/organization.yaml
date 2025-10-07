@@ -47,11 +47,11 @@ committee:
         link: https://scholar.google.com/citations?user=N2Bw-lMAAAAJ&hl=en&oi=ao
         img: /img/committee/2026/matthias_hope.jpg
 
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Misha Sra
+        position: Assistant Professor
+        affiliation: University of California, Santa Barbara, USA
+        link: https://sites.cs.ucsb.edu/~sra/
+        img: /img/committee/2026/misha_sra.png
 
   - group: Poster & Demo Co-Chairs
     people:
@@ -96,8 +96,9 @@ committee:
       - name: Steeven Villa
         position: Researcher
         affiliation: LMU Munich, Germany
-        link: https://scholar.google.com.br/citations?user=j6rFI50AAAAJ&hl=es
-        img: /img/committee/2026/tbd.png
+        mail: villa@posthci.com
+        link: https://posthci.com/
+        img: /img/committee/2026/steeven_villa.png
 
       - name: Takefumi HIRAKI
         position: Associate Professor
