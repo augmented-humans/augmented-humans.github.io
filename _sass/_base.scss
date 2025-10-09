@@ -1110,13 +1110,13 @@ header.masthead#kw-project-header {
   text-align: left;
   padding-top: 40px;
   padding-bottom: 80px;
-  color: $theme-background-secondary;
+  color: #131313; // テキストを黒系に（白背景で可読性向上）
   background-color: white;
   min-height: 200px; // 最小高さを設定して背景色が消えないようにする
 
   p {
-    color: black;
-    font-size: 18px;
+    color: #131313;
+    font-size: 20px; // 情報系テキストをやや大きめに
   }
 
   &.awrd {
@@ -1138,8 +1138,9 @@ header.masthead#kw-project-header {
   &.flip {
     background-color: $theme-background-secondary; // 元の背景色に戻す
     min-height: 250px; // flip クラスにも最小高さを設定
+    color: #131313; // デフォルト文字色も黒系
     p {
-      color: black;
+      color: #131313;
     }
 
     &.top-bar {
@@ -1153,9 +1154,8 @@ header.masthead#kw-project-header {
     // background-color: #00b8ff;
     // background-color: #00ea92;
     background-color: $theme-background-tertiary;  //#00e48e8e;
-    p {
-      color: #131313;
-    }
+    color: #131313; // デフォルト文字色も黒系
+    p { color: #131313; }
 
     &.top-bar {
       border-top: 5px solid $theme-background-secondary;
@@ -1164,9 +1164,8 @@ header.masthead#kw-project-header {
 
   &.flip2 {
     background-color: $theme-background-primary; //#d0ebe2;
-    p {
-      color: white;
-    }
+    color: white; // デフォルト文字色を白（表やリストにも適用）
+    p { color: white; }
 
     &.top-bar {
       border-top: 5px solid $theme-background-tertiary;
