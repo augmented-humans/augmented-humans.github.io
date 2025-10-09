@@ -115,8 +115,25 @@
             </div>
             
             <div class="hotel-section">
-              <h3><strong>The closest hotel</strong></h3>
-              <p><a href="https://www.rizzan.co.jp/english/index.html" target="_blank" class="hotel-link">Rizzan Sea Park Hotel Tancha Bay</a></p>
+              <h3><strong>The closest hotels</strong></h3>
+              <ul class="hotel-list">
+                <li class="hotel-item">
+                  <a href="https://www.rizzan.co.jp/english/" target="_blank" rel="noopener noreferrer" class="hotel-link">Rizzan Sea Park Hotel Tancha Bay</a>
+                  <span class="hotel-info">35 min on foot / 5 min by taxi (Conference Reception venue)</span>
+                </li>
+                <li class="hotel-item">
+                  <a href="https://www.anaintercontinental-manza.jp/en/" target="_blank" rel="noopener noreferrer" class="hotel-link">ANA InterContinental Manza Beach Resort</a>
+                  <span class="hotel-info">40 min by local bus and foot / 20 min by taxi</span>
+                </li>
+                <li class="hotel-item">
+                  <a href="https://www.moonbeach.co.jp/en/" target="_blank" rel="noopener noreferrer" class="hotel-link">Hotel Moon Beach</a>
+                  <span class="hotel-info">30 min by local bus and foot / 10 min by taxi</span>
+                </li>
+                <li class="hotel-item">
+                  <a href="https://theperidothotels.com/" target="_blank" rel="noopener noreferrer" class="hotel-link">The Peridot Hotels</a>
+                  <span class="hotel-info">5 min on foot (Closest hotel to the conference hall)</span>
+                </li>
+              </ul>
             </div>
 
           </div>
@@ -208,4 +225,11 @@
     height: 200px;
   }
 }
+
+/* Hotel list styles */
+.hotel-section { margin-top: 30px; }
+.hotel-list { list-style: none; padding-left: 0; margin: 0; }
+.hotel-item { margin-bottom: 8px; line-height: 1.5; font-size: 18px; color: #131313; }
+.hotel-link { font-weight: 600; }
+.hotel-info { margin-left: 10px; display: inline-block; color: #3a3a3a; }
 </style>
