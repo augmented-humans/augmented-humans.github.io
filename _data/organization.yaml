@@ -203,3 +203,87 @@ committee:
       - name: Kai Kunze
         position: Professor
         affiliation: Keio University, Japan
+
+  - group: Program Committee
+    people:
+      - name: David Steeven Villa Salazar
+        affiliation: LMU Munich
+      - name: Matthias Hoppe
+        affiliation: LMU Munich
+      - name: Kai Kunze
+        affiliation: Keio University
+      - name: Valentin Schwind
+        affiliation: Frankfurt University of Applied Sciences
+      - name: Easa Aliabbasi
+        affiliation: Max Planck Institute for Informatics
+      - name: Qiushi Zhou
+        affiliation: Aarhus University
+      - name: Ping-Hsuan Han
+        affiliation: National Taipei University of Technology
+      - name: Katsutoshi Masai
+        affiliation: Kyushu University
+      - name: Romain Nith
+        affiliation: University of Chicago
+      - name: Henning Pohl
+        affiliation: Aalborg University
+      - name: Pascal Knierim
+        affiliation: University of Innsbruck
+      - name: Sang Ho Yoon
+        affiliation: KAIST
+      - name: Jonna H¨akkil¨a
+        affiliation: University of Lapland
+      - name: Stefan Schneegass
+        affiliation: University of Duisburg-Essen
+      - name: Thomas Kosch
+        affiliation: HU Berlin
+      - name: Keiichi Zempo
+        affiliation: University of Tsukuba
+      - name: Martin Weigel
+        affiliation: Technische Hochschule Mittelhessen
+      - name: Shoya Ishimaru
+        affiliation: Osaka Metropolitan University
+      - name: Yuki Ban
+        affiliation: The University of Tokyo
+      - name: Yumeko Imamura
+        affiliation: National Institute of Advanced Industrial Science and Technology
+      - name: Damien Brun
+        affiliation: University of Lapland
+      - name: Monica Perusquia-Hernández
+        affiliation: Nara Institute of Science and Technology (NAIST), NTT Communication Science Laboratories
+      - name: Gozde Goncu-Berk
+        affiliation: University of California, Davis
+      - name: Geehyuk Lee
+        affiliation: KAIST
+      - name: Aku Visuri
+        affiliation: University of Oulu
+      - name: Pawel Wozniak
+        affiliation: TU Wien
+      - name: Alexander Kalus
+        affiliation: Berlin University of Applied Sciences and Technology
+      - name: Maki Sugimoto
+        affiliation: Keio University
+      - name: Daniel Wessolek
+        affiliation: Futurium gGmbH
+      - name: Yun Suen Pai
+        affiliation: University of Auckland
+      - name: Ian Oakley
+        affiliation: KAIST
+      - name: Seungwoo Je
+        affiliation: KAIST
+      - name: Jasmin Niess
+        affiliation: University of Oslo
+      - name: Jochen Huber
+        affiliation: Furtwangen University
+      - name: Martin Kocur
+        affiliation: University of Applied Sciences Upper Austria Hagenberg
+      - name: Kristof Van Laerhoven
+        affiliation: University of Siegen
+      - name: Denys J.C. Matthies
+        affiliation: Fraunhofer
+      - name: Masaaki Mochimaru
+        affiliation: AIST
+      - name: Nami Ogawa
+        affiliation: The University of Tokyo
+      - name: Yuichi Kurita
+        affiliation: Hiroshima University
+  
