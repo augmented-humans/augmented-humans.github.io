@@ -106,14 +106,6 @@ committee:
         mail: hiraki@slis.tsukuba.ac.jp
         link: http://takefumihiraki.com/jp/
         img: /img/committee/2026/takefumi_hiraki.jpg
-
-  - group: Student Volunteer Chair
-    people:
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
   
   - group: Local Arrangement Chair
     people:
@@ -142,7 +134,7 @@ committee:
         link: https://www.google.com/
         img: /img/committee/2026/kazuma_takada.png
 
-  - group: Social Event Co-Chairs
+  - group: Social Event Chair
     people:
       - name: Ryoichi ANDO
         position: President / Researcher / Director / Visiting Professor
@@ -150,12 +142,15 @@ committee:
         link: https://superhuman-sports.org/
         mail: ando@axereal.co
         img: /img/committee/2026/ryoichi_ando.png
+  
+  - group: Student Volunteer Chair
+    people:
       - name: TBD
         position: TBD
         affiliation: TBD
         link: https://www.google.com/
         img: /img/committee/2026/tbd.png
-
+  
   - group: Awards Committee Chair
     people:
       - name: TBD
