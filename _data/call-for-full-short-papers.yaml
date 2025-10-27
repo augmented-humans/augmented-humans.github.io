@@ -4,7 +4,7 @@ overview-title: Overview
 overview: |
   This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans 2026. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
 
-  The submission system will be opened by October 18th.
+  <a href="http://easychair.org/my/conference?conf=ahs2026" class="btn btn-lg" target="_blank" rel="noopener noreferrer" style="background-color: #ff6b35; border: 2px solid #F4FDD9; color: white !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#ff6b35'">Open Submission System (EasyChair)</a>
 
 categories-title: Tracks and Length
 categories: |

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Augmented Humans 2024 | Program"
+title: "Augmented Humans 2026 | Program"
 description: "Program"
 sitemap: false
 ---
@@ -23,212 +23,19 @@ sitemap: false
   </div>
 </header>
 
-
-
-<!-- <section id="" class="flip ah-organization ah-override">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-        
-          <p>The program information is coming soon!</p>
-          <div class="col-lg-1"></div>
-      </div>
-  </div>
-</section> -->
-
-
-
-<section id="" class="flip2 ah-organization ah-override">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-1"></div>
-        
-         <div class="col-lg-10 text-left" style="padding-top: 3em; padding-bottom: 3em;">
-              <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-                  <span>{{ site.data.program.program-title }}</span>
-              </div>
-              {% assign description_paragraphs = site.data.program.program | newline_to_br | split:'<br />' %}
-              {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-              {% endfor %}
-
-              <div id='calendar'></div>
-              <!-- <p style="font-size: 90%;"><text id="footnote1">¹</text><a href="https://oran-mor.co.uk">https://oran-mor.co.uk</a></p> -->
-
-          </div> 
-          <div class="col-lg-1"></div>
-      </div>
-  </div>
-</section>
-
-<!-- <section id="ah-categories" class="flip2" style="border-top: 5px solid #FFC847;">
+<section id="ah-categories" class="flip">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left">
-          <span>{{ site.data.program.awards-title }}</span></div>
-        {% assign description_paragraphs = site.data.program.awards | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p>{{ paragraph }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section> -->
-
-<section id="ah-categories" class="flip1" style="border-top: 5px solid #003865;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: black;">{{ site.data.program.session-title }}</span></div>
-
-          <!-- <a href="https://augmented-humans.org/keynote"> <h3 style="color: blue; text-decoration: underline;">Opening Keynote</h3></a> -->
-     
-      {% for item in site.data.program.sessions %}
-      <h3 style="color: black;">{{ item.session }}</h3>
-      <div style="overflow-x:auto;">
-      <div id="sessions">
-        <ol style="color:black">
-          {% for paper in item.papers %}
-          <li>
-            <p>{{ paper.title }}</p>
-            <p class="authors">{{ paper.authors }}</p>
-            <!-- <a class="doi" href="{{ paper.doi }}">{{ paper.doi }}</a> -->
-          </li>
-          {% endfor %}
-        </ol>
-      </div></div>
-      {% endfor %}
-      <!-- <a href="https://augmented-humans.org/keynote"> <h3 style="color: blue; text-decoration: underline;">Closing Keynote</h3></a> -->
-     
-    </div>
-    <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section>
-
-
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #003865;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: white;">{{ site.data.program.workshops-title }}</span></div>
-          {% for item in site.data.program.workshops %}
-          <h3 style="color: white;">{{ item.workshop-title }}</h3>
-          <div style="overflow-x:auto;">
-            <table id="sessions">
-              <tr>
-                <th>Time</th>
-                <th>Activity</th>
-              </tr>
-              {% for entry in item.workshop-entries %}
-              <tr>
-                <td>{{entry.entry-time}}</td>
-                <td>{{entry.entry-activity}}</td>
-              </tr>
-              {% endfor %}
-            </table>
-          </div>
-          {% endfor %}
-
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>Overview</span>
+        </div>
+        <p>
+          The program will be finalized after paper and poster acceptances are determined. Updates will be shared via our website and social media as soon as they are available.
+        </p>
       </div>
       <div class="col-lg-1"></div>
     </div>
   </div>
 </section>
-
-<section id="ah-categories" class="flip1" style="border-top: 5px solid #003865;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: black;">{{ site.data.program.poster-title }}</span></div>
-          <ol id="posters">
-            {% for poster in site.data.program.posters %}
-            <li>
-              <p>{{ poster.title }}</p>
-              <p style="text-align:left;" class="authors">{{ poster.authors }}</p>
-              <!-- <a class="doi" href="{{ paper.doi }}">{{ paper.doi }}</a> -->
-            </li>
-            {% endfor %}
-          </ol>
-    </div>
-    <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section>
-
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #003865;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: black;">{{ site.data.program.demo-title }}</span></div>
-          <ol id="posters">
-            {% for demo in site.data.program.demos %}
-            <li>
-              <p>{{ demo.title }}</p>
-              <p style="text-align:left;color: black;" class="authors">{{ demo.authors }}</p>
-              <!-- <a class="doi" href="{{ paper.doi }}">{{ paper.doi }}</a> -->
-            </li>
-            {% endfor %}
-          </ol>
-    </div>
-    <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section>
-
-
-<!-- <section id="ah-categories" class="flip2" style="border-top: 5px solid #003865;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span>{{ site.data.program.keynote-title }}</span></div>
-        {% assign description_paragraphs = site.data.program.keynote | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p style="text-align:justify;">{{ paragraph }}</p>
-        {% endfor %}
-        <img id="venue-img" class="" src="{{ site.data.program.keynote-img | prepend: site.url }}" style="width: 30%;"/>
-        {% assign author_paragraphs = site.data.program.keynote-author | newline_to_br | split:'<br />' %}
-        {% for paragraph in author_paragraphs %}
-        <p  style="text-align:justify;">{{ paragraph }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section>
-
-
-<section id="ah-categories" class="flip1" style="border-top: 5px solid #003865;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: black;">{{ site.data.program.closekeynote-title }}</span></div>
-        {% assign description_paragraphs = site.data.program.closekeynote | newline_to_br | split:'<br />' %}
-        {% for paragraph in description_paragraphs %}
-        <p style="text-align:justify;">{{ paragraph }}</p>
-        {% endfor %}
-        <img id="venue-img" class="" src="{{ site.data.program.closekeynote-img | prepend: site.url }}" style="width: 30%;"/>
-        {% assign author_paragraphs = site.data.program.closekeynote-author | newline_to_br | split:'<br />' %}
-        {% for paragraph in author_paragraphs %}
-        <p  style="text-align:justify;">{{ paragraph }}</p>
-        {% endfor %}
-   </div>
-    <div class="col-lg-1"></div>
-    </div>
-  </div>
-</section> -->
