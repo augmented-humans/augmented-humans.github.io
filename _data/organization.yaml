@@ -47,7 +47,7 @@ committee:
         link: https://scholar.google.com/citations?user=N2Bw-lMAAAAJ&hl=en&oi=ao
         img: /img/committee/2026/matthias_hope.jpg
 
-      - name: Misha Sra
+      - name: Misha SRA
         position: Associate Professor
         affiliation: University of California, Santa Barbara, USA
         mail: sra@ucsb.edu
@@ -77,7 +77,7 @@ committee:
         mail: ma-mrt@fc.ritsumei.ac.jp
         img: /img/committee/2026/marie_morita.jpg
       
-      - name: Sungho Suh
+      - name: Sungho SUH
         position: Assistant Professor
         affiliation: Department of Artificial Intelligence at Korea University, Korea
         link: https://sites.google.com/view/sunghosuh/
@@ -94,7 +94,7 @@ committee:
 
   - group: Publication Co-Chairs
     people:
-      - name: Steeven Villa
+      - name: Steeven VILLA
         position: Researcher
         affiliation: LMU Munich, Germany
         mail: villa@posthci.com
@@ -116,6 +116,10 @@ committee:
         link: https://tkrtkr.com/
         mail: hashimoto@csl.sony.co.jp
         img: /img/committee/2026/takeru_hashimoto.jpg
+      - name: Megumi IKEDA
+        position: Administrative Staff
+        affiliation: OIST, Japan
+        img: /img/committee/2026/megumi_ikeda.png
   
   - group: Financial Chair
     people:
@@ -146,11 +150,12 @@ committee:
   
   - group: Student Volunteer Chair
     people:
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Mark ARMSTRONG
+        position: Ph.D Candidate
+        affiliation: Keio University, Japan
+        mail: Mark@keio.jp
+        link: https://www.embodiedmedia.org/members/mark-armstrong
+        img: /img/committee/2026/mark_armstrong.png
   
   - group: Awards Committee Chair
     people:
