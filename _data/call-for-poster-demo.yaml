@@ -4,7 +4,7 @@ overview-title: Overview
 overview: |
   For 2026, we combine posters and demos to streamline submissions and on-site experiences. All submissions must be up to 4 pages in single-column format, excluding references. Authors are required to select a preferred presentation style in the submission form (see categories below). Accepted works will appear in the ACM Digital Library and follow the ACM TAPS workflow after conditional acceptance.
 
-  The submission system will be opened by October 18th.
+  <a href="http://easychair.org/my/conference?conf=ahs2026" class="btn btn-lg" target="_blank" rel="noopener noreferrer" style="background-color: #ff6b35; border: 2px solid #F4FDD9; color: white !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#ff6b35'">Open Submission System (EasyChair)</a>
 
 aims-title: Aims & Scope
 aims: |
