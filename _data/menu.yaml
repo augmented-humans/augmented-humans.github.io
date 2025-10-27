@@ -12,6 +12,15 @@ shortlinks:
         shortcut: /call-for-full-short-papers
       - title: Poster&Demo
         shortcut: /call-for-poster-demo
+  - title: Program
+    shortcut: /program
+    sublinks:
+      - title: Keynote
+        shortcut: /keynote
+      - title: Program
+        shortcut: /program
+      - title: OIST Open Lab
+        shortcut: /oist-open-lab
   - title: Registration
     shortcut: /registration
   # - title: Participating
