@@ -108,7 +108,7 @@ committee:
         link: http://takefumihiraki.com/jp/
         img: /img/committee/2026/takefumi_hiraki.jpg
   
-  - group: Local Arrangement Chair
+  - group: Local Arrangement Co-Chairs
     people:
       - name: Takeru HASHIMOTO
         position: Project Researcher
@@ -148,16 +148,21 @@ committee:
         mail: ando@axereal.co
         img: /img/committee/2026/ryoichi_ando.png
   
-  - group: Student Volunteer Chair
+  - group: Student Volunteer Co-Chairs
     people:
       - name: Mark ARMSTRONG
         position: Ph.D Candidate
         affiliation: Keio University, Japan
         mail: Mark@keio.jp
-        link: https://www.embodiedmedia.org/members/mark-armstrong
+        link: https://linktr.ee/butchbangher
         img: /img/committee/2026/mark_armstrong.png
+      - name: Takayoshi Yamada
+        position: Ph.D. Candidate
+        affiliation: University of Tsukuba, Japan
+        mail: yamada.takayoshi.tm@alumni.tsukuba.ac.jp
+        img: /img/committee/2026/takayoshi_yamada.jpg
   
-  - group: Awards Committee Chair
+  - group: Awards Committee Co-Chairs
     people:
       - name: TBD
         position: TBD
