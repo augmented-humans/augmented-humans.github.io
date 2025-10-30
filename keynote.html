@@ -28,8 +28,215 @@ sitemap: true
           <span>Overview</span>
         </div>
         <p>
-          We will host four keynote speakers from Japan and abroad. Spanning human augmentation, neuroscience, and robotics, their talks will explore how to further advance the field of human augmentation. Details of the keynote speakers will be announced soon.
+          We will host four keynote speakers from Japan and abroad. Spanning human augmentation, neuroscience, and robotics, their talks will explore how to further advance the field of human augmentation. Details of the keynote speaker will be released in due course.
         </p>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Keynote speaker block styles */
+  .speaker-block {
+    background-color: #ffffff; /* solid color per speaker */
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+  .speaker-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .talk-title {
+    color: #003865;
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.9rem;
+  }
+  @media (min-width: 768px) {
+    .talk-title { font-size: 2.2rem; }
+  }
+  .speaker-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 14px;
+  }
+  .abstract-label { font-weight: 600; }
+  .bio-btn {
+    margin-top: 12px;
+    background-color: #0077be;
+    border-color: #0077be;
+    color: #fff;
+    text-decoration: none !important;
+  }
+  .bio-btn:hover,
+  .bio-btn:focus {
+    background-color: #4ecdc4;
+    border-color: #4ecdc4;
+    color: #000;
+  }
+  .kw-section-title .k-title { text-transform: uppercase; }
+  /* Utility: ensure the row aligns items on larger screens */
+  .speaker-row { align-items: flex-start; }
+  .speaker-meta { color: #444; }
+  /* Make the whole keynote speakers section use sand color background */
+  #keynote-speakers {
+    background-color: #fff8dc; /* sand */
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  /* Additional speaker sections with distinct backgrounds */
+  .speaker-section { padding-top: 30px; padding-bottom: 40px; }
+  .speaker-section--sky { background-color: #f0f8ff; }
+  .speaker-section--mint { background-color: #eaf8f4; }
+  .speaker-section--lilac { background-color: #f5f0ff; }
+</style>
+
+<section id="keynote-speakers" class="flip">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+
+        <div class="speaker-block">
+          <div class="row speaker-row" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="col-md-4" style="text-align: center; margin-bottom: 20px;">
+              <img class="speaker-photo" src="{{ '/img/keynote-speaker/jun_rekimoto.jpeg' | prepend: site.url }}" alt="Prof. Jun Rekimoto" />
+              <button type="button" class="btn bio-btn" data-toggle="modal" data-target="#bio-rekimoto" aria-controls="bio-rekimoto">Bio</button>
+            </div>
+            <div class="col-md-8">
+              <h2 class="talk-title">Human-AI Integration</h2>
+              <h3 class="speaker-name">
+                <a href="https://lab.rekimoto.org/" target="_blank" rel="noopener noreferrer">Prof. Jun Rekimoto</a>
+              </h3>
+              <div style="margin-top: 8px;">
+                <span class="abstract-label">Abstract:</span>
+                <p style="margin-top: 8px;">
+                  While traditional HCI (Human-Computer Interaction) is a research field that focuses on the interface between humans and machines, I advocate for Human Augmentation—humans enhanced by technology. The scope of augmentation extends beyond intellectual enhancement to encompass sensory, cognitive, physical, and existential dimensions. This augmentation extends beyond individual humans to develop into a future society called IoA (Internet of Abilities), where people and technology merge on networks and their capabilities are complementarity enhanced, leading to a world of Human-AI Integration where AI becomes integrated with human abilities. I will introduce examples such as silent speech, which enables communication without vocalization, and skill transmission systems where human vision merges with real-world agents, and discuss the future relationship between humans and technology.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- Bio Modal: Prof. Jun Rekimoto -->
+<div class="modal fade" id="bio-rekimoto" tabindex="-1" role="dialog" aria-labelledby="bio-rekimoto-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bio-rekimoto-label">Bio: Prof. Jun Rekimoto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Jun Rekimoto, Ph.D.<br/>
+          Professor, Interfaculty Initiative in Information Studies at The University of Tokyo<br/>
+          Fellow and Chief Science Officer, Sony Computer Science Laboratories, Inc.<br/>
+          ACM SIGCHI Academy
+        </p>
+        <p>
+          Rekimoto’s research interests include Human-Computer Interaction (HCI), Human Augmentation, the Internet of Abilities (IoA), and Human-AI Integration. He has pioneered several innovative projects, such as NaviCam—the world’s first hand-held AR system—and CyberCode, the first marker-based AR system. His SmartSkin established the multitouch interaction method, now indispensable in today’s smartphones, tablets, and other interactive devices.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Coming Soon: Keynote Speaker 2 -->
+<section id="keynote-speaker-2" class="speaker-section speaker-section--sky">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        
+        <div class="speaker-block">
+          <div class="row speaker-row" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="col-md-4" style="text-align: center; margin-bottom: 20px;">
+              <img class="speaker-photo" src="{{ '/img/committee/2026/tbd.png' | prepend: site.url }}" alt="Coming soon" />
+              <button type="button" class="btn bio-btn" disabled title="Coming soon">Bio</button>
+            </div>
+            <div class="col-md-8">
+              <h2 class="talk-title">Coming Soon</h2>
+              <h3 class="speaker-name">To be announced</h3>
+              <div style="margin-top: 8px;">
+                <span class="abstract-label">Abstract:</span>
+                <p style="margin-top: 8px;">Details of this keynote will be announced soon. Please stay tuned.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Coming Soon: Keynote Speaker 3 -->
+<section id="keynote-speaker-3" class="speaker-section speaker-section--mint">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        
+        <div class="speaker-block">
+          <div class="row speaker-row" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="col-md-4" style="text-align: center; margin-bottom: 20px;">
+              <img class="speaker-photo" src="{{ '/img/committee/2026/tbd.png' | prepend: site.url }}" alt="Coming soon" />
+              <button type="button" class="btn bio-btn" disabled title="Coming soon">Bio</button>
+            </div>
+            <div class="col-md-8">
+              <h2 class="talk-title">Coming Soon</h2>
+              <h3 class="speaker-name">To be announced</h3>
+              <div style="margin-top: 8px;">
+                <span class="abstract-label">Abstract:</span>
+                <p style="margin-top: 8px;">Details of this keynote will be announced soon. Please stay tuned.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Coming Soon: Keynote Speaker 4 -->
+<section id="keynote-speaker-4" class="speaker-section speaker-section--lilac">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        
+        <div class="speaker-block">
+          <div class="row speaker-row" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="col-md-4" style="text-align: center; margin-bottom: 20px;">
+              <img class="speaker-photo" src="{{ '/img/committee/2026/tbd.png' | prepend: site.url }}" alt="Coming soon" />
+              <button type="button" class="btn bio-btn" disabled title="Coming soon">Bio</button>
+            </div>
+            <div class="col-md-8">
+              <h2 class="talk-title">Coming Soon</h2>
+              <h3 class="speaker-name">To be announced</h3>
+              <div style="margin-top: 8px;">
+                <span class="abstract-label">Abstract:</span>
+                <p style="margin-top: 8px;">Details of this keynote will be announced soon. Please stay tuned.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
