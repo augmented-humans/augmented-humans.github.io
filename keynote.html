@@ -45,10 +45,14 @@ sitemap: true
     box-shadow: 0 2px 6px rgba(0,0,0,0.04);
   }
   .speaker-photo {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* force square */
+    object-fit: cover;   /* crop to square */
     border-radius: 8px;
+    display: block;
   }
+  #keynote-speaker-2 .speaker-photo { object-position: 100% 20%; }
+
   .talk-title {
     color: #003865;
     font-weight: 700;
@@ -146,7 +150,7 @@ sitemap: true
           ACM SIGCHI Academy
         </p>
         <p>
-          Rekimoto’s research interests include Human-Computer Interaction (HCI), Human Augmentation, the Internet of Abilities (IoA), and Human-AI Integration. He has pioneered several innovative projects, such as NaviCam—the world’s first hand-held AR system—and CyberCode, the first marker-based AR system. His SmartSkin established the multitouch interaction method, now indispensable in today’s smartphones, tablets, and other interactive devices.
+          Rekimoto's research interests include Human-Computer Interaction (HCI), Human Augmentation, the Internet of Abilities (IoA), and Human-AI Integration. He has pioneered several innovative projects, such as NaviCam—the world’s first hand-held AR system—and CyberCode, the first marker-based AR system. His SmartSkin established the multitouch interaction method, now indispensable in today’s smartphones, tablets, and other interactive devices.
         </p>
       </div>
       <div class="modal-footer">
@@ -166,15 +170,19 @@ sitemap: true
         <div class="speaker-block">
           <div class="row speaker-row" style="margin-top: 10px; margin-bottom: 10px;">
             <div class="col-md-4" style="text-align: center; margin-bottom: 20px;">
-              <img class="speaker-photo" src="{{ '/img/committee/2026/tbd.png' | prepend: site.url }}" alt="Coming soon" />
-              <button type="button" class="btn bio-btn" disabled title="Coming soon">Bio</button>
+              <img class="speaker-photo" src="{{ '/img/keynote-speaker/jun_tani.jpg' | prepend: site.url }}" alt="Coming soon" />
+              <button type="button" class="btn bio-btn" data-toggle="modal" data-target="#bio-tani" aria-controls="bio-tani">Bio</button>
             </div>
             <div class="col-md-8">
-              <h2 class="talk-title">Coming Soon</h2>
-              <h3 class="speaker-name">To be announced</h3>
+              <h2 class="talk-title">Human-in-the-Loop Learning under the Free Energy Principle: A Developmental Robotics Perspective</h2>
+              <h3 class="speaker-name">
+                <a href="https://www.oist.jp/research/research-units/cnru/jun-tani" target="_blank" rel="noopener noreferrer">Prof. Jun Tani</a>
+              </h3>
               <div style="margin-top: 8px;">
                 <span class="abstract-label">Abstract:</span>
-                <p style="margin-top: 8px;">Details of this keynote will be announced soon. Please stay tuned.</p>
+                <p style="margin-top: 8px;">This talk presents a theoretical and experimental framework for human-in-the-loop (HITL) systems formulated under the Free Energy Principle (FEP). I begin by introducing the basic concept of the FEP and its relevance to perception-action cycles in adaptive systems. Building on this foundation, I describe the development of a variational recurrent neural network (VRNN) model that operationalizes the FEP for modeling and controlling humanoid robots. <br/>
+                The second part of the talk reports results from a series of HITL experiments in which humanoid robots, governed by the VRNN, engage in imitative interactions and human-assisted developmental training. These experiments reveal how mutual actional intentions between the human and the robot dynamically modulate their behavior, particularly through bidirectional force feedback during physical interaction. <br/>
+                Finally, I will discuss phenomenological implications of these findings, focusing on the sense of agency and primary intersubjectivity that emerge from these embodied, interactive dynamics. The results suggest that modeling HITL processes under the FEP provides a unifying account linking predictive coding, active inference, and human-robot co-development.</p>
               </div>
             </div>
           </div>
@@ -184,6 +192,30 @@ sitemap: true
     </div>
   </div>
 </section>
+
+<!-- Bio Modal: Prof. Jun Tani -->
+<div class="modal fade" id="bio-tani" tabindex="-1" role="dialog" aria-labelledby="bio-tani-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bio-tani-label">Bio: Prof. Jun Tani</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Jun Tani, Ph.D.<br/>
+          Professor, Okinawa Institute of Science and Technology</p>
+        <p>
+          Jun Tani received the D.Eng. degree from Sophia University, Tokyo in 1995. He started his research career with Sony Computer Science Lab. in 1993. He became a PI in RIKEN Brain Science Institute in 2001. He became a tenured Professor at KAIST, South Korea in 2012. He is currently a full Professor at OIST. He is also a visiting professor at The Technical University of Munich. His current research interests include cognitive neuroscience, developmental psychology, phenomenology, complex adaptive systems, and robotics. He is an author of “Exploring Robotic Minds: Actions, Symbols, and Consciousness as Self-Organizing Dynamic Phenomena.” published from Oxford Univ. Press in 2016.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Coming Soon: Keynote Speaker 3 -->
 <section id="keynote-speaker-3" class="speaker-section speaker-section--mint">
