@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Augmented Humans 2026 | Sponsors"
+title: "Augmented Humans 2026 | Sponsorship"
 description: "Sponsorship opportunities"
 sitemap: true
 ---
 
-<header class="masthead text-center text-white normal" style="background-color: #a9c4e5;">
+<header class="masthead text-center text-white normal" style="background-color: #fff8dc;">
   <div id="particles-js" class="masthead-content">
     <div class="container">
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-          <h1 class="masthead-heading mb-0">Sponsors</h1>
+          <h1 class="masthead-heading mb-0">Sponsorship</h1>
         </div>
         <div class="col-lg-1"></div>
       </div>
@@ -22,6 +22,11 @@ sitemap: true
 
 <style>
   /* Scoped styles for sponsors page */
+  /* Force sand-colored background on this page regardless of viewport height */
+  html, body, #sponsors-page, #sponsors-contact {
+    background: #fff8dc !important; /* sand color */
+    background-color: #fff8dc !important;
+  }
   #sponsors-page .sponsor-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -29,6 +34,7 @@ sitemap: true
   }
   @media (min-width: 768px) {
     #sponsors-page .sponsor-grid {
+      /* Three columns on desktop */
       grid-template-columns: repeat(3, 1fr);
     }
   }
@@ -59,6 +65,7 @@ sitemap: true
   #sponsors-page .tier-header .icon {
     font-size: 22px;
   }
+  /* (removed) registration pill previously shown in header */
   #sponsors-page .tier-price {
     color: #fff;
     padding: 0 18px 16px 18px;
@@ -66,9 +73,13 @@ sitemap: true
     opacity: 0.95;
   }
   /* Tier color themes */
-  #sponsors-page .platinum { background: linear-gradient(135deg, #9ea7b1, #cfd5dc); }
+  /* Make Platinum vs Gold vs Bronze clearly distinct; Platinum most luxurious */
+  #sponsors-page .platinum { background: linear-gradient(135deg, #4c566a, #d8dee9); }
   #sponsors-page .gold     { background: linear-gradient(135deg, #c7971e, #f1c40f); }
-  #sponsors-page .silver   { background: linear-gradient(135deg, #9a9ea3, #c0c4c9); }
+  #sponsors-page .bronze   { background: linear-gradient(135deg, #8c4a2f, #c08d57); }
+  /* Keep bronze text white for contrast */
+  #sponsors-page .tier-header.bronze,
+  #sponsors-page .tier-price.bronze { color: #ffffff; }
 
   #sponsors-page .card-body { padding: 18px; }
   #sponsors-page .benefits { margin: 0; padding-left: 18px; }
@@ -106,7 +117,7 @@ sitemap: true
               <span class="icon"><i class="fa fa-diamond"></i></span>
               <span>Platinum Sponsor</span>
             </div>
-            <div class="tier-price platinum">¥1,500,000 ($10,000)</div>
+            <div class="tier-price platinum">¥1,500,000</div>
             <div class="card-body">
               <ul class="benefits">
                 <li>5 registrations included</li>
@@ -118,34 +129,35 @@ sitemap: true
             </div>
           </div>
 
+          
+
           <!-- Gold -->
           <div class="sponsor-card">
             <div class="tier-header gold">
               <span class="icon"><i class="fa fa-trophy"></i></span>
               <span>Gold Sponsor</span>
             </div>
-            <div class="tier-price gold">¥500,000 ($3,000)</div>
+            <div class="tier-price gold">¥500,000</div>
             <div class="card-body">
               <ul class="benefits">
                 <li>2 registrations included</li>
                 <li>logo on the website/venue</li>
                 <li>exhibition booth</li>
                 <li>short introduction in a social event</li>
-                <li>sponsor an award  (Demo or Poster)</li>
               </ul>
             </div>
           </div>
 
-          <!-- Silver -->
+          <!-- Bronze -->
           <div class="sponsor-card">
-            <div class="tier-header silver">
+            <div class="tier-header bronze">
               <span class="icon"><i class="fa fa-certificate"></i></span>
-              <span>Silver Sponsor</span>
+              <span>Bronze Sponsor</span>
             </div>
-            <div class="tier-price silver">¥200,000 ($1,300)</div>
+            <div class="tier-price bronze">¥200,000</div>
             <div class="card-body">
               <ul class="benefits">
-                <li>1 registrations included</li>
+                <li>1 registration included</li>
                 <li>smaller logo on the website/venue</li>
               </ul>
             </div>
