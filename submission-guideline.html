@@ -37,6 +37,24 @@ sitemap: true
   </div>
 </section>
 
+<!-- Top-page style Deadlines right below Overview -->
+<section id="ah-deadlines" class="flip top-bar" style="border-top: 5px solid black;">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10" >
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left" >
+          <span>{{ site.data.calls-for-participation.deadlines-title }}</span></div>
+          {% assign description_paragraphs = site.data.calls-for-participation.deadlines | newline_to_br | split:'<br />' %}
+          {% for paragraph in description_paragraphs %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+</section>
+
 <style>
   /* Scope styles to this section only */
   .acm-icps-section .apc-details { margin: 14px 0; }
