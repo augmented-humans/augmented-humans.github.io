@@ -23,9 +23,6 @@ shortlinks:
         shortcut: /oist-open-lab
   - title: Registration
     shortcut: /registration
-    sublinks:
-      - title: SPONSORS
-        shortcut: /sponsors
   # - title: Participating
   #   shortcut: /calls-for-participation
   #   sublinks:
@@ -77,6 +74,8 @@ shortlinks:
   #       shortcut: /list-of-workshops
   # #     - title: Mentoring
   # #       shortcut: /mentoring
+  - title: SPONSORSHIP
+    shortcut: /sponsors
   - title: Committee
     shortcut: /committee
   - title: Access
