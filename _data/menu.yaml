@@ -23,6 +23,9 @@ shortlinks:
         shortcut: /oist-open-lab
   - title: Registration
     shortcut: /registration
+    sublinks:
+      - title: SPONSORS
+        shortcut: /sponsors
   # - title: Participating
   #   shortcut: /calls-for-participation
   #   sublinks:
