@@ -7,6 +7,8 @@ show_notice: false
 
 news-title: News
 news:
+  - date: "2025-11-11"
+    content: "Full/Short Paper submission deadline extended: <s>November 18th, 2025</s> <strong><u>November 25th, 2025</u></strong>. See details: <a href='/call-for-full-short-papers'>Full & Short Papers</a>"
   - date: "2025-10-05"
     content: "Submission Guidelines page published: <a href='/submission-guideline'>/submission-guideline</a>"
   - date: "2025-09-10"
