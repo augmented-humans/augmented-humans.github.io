@@ -52,6 +52,7 @@ sitemap: true
     display: block;
   }
   #keynote-speaker-2 .speaker-photo { object-position: 100% 20%; }
+  #keynote-speaker-3 .speaker-photo { object-position: 60% 50%; }
 
   .talk-title {
     color: #003865;
@@ -217,7 +218,7 @@ sitemap: true
   </div>
 </div>
 
-<!-- Coming Soon: Keynote Speaker 3 -->
+<!-- Keynote Speaker 3: Prof. Olaf Blanke -->
 <section id="keynote-speaker-3" class="speaker-section speaker-section--mint">
   <div class="container">
     <div class="row">
@@ -227,15 +228,15 @@ sitemap: true
         <div class="speaker-block">
           <div class="row speaker-row" style="margin-top: 10px; margin-bottom: 10px;">
             <div class="col-md-4" style="text-align: center; margin-bottom: 20px;">
-              <img class="speaker-photo" src="{{ '/img/committee/2026/tbd.png' | prepend: site.url }}" alt="Coming soon" />
-              <button type="button" class="btn bio-btn" disabled title="Coming soon">Bio</button>
+              <img class="speaker-photo" src="{{ '/img/keynote-speaker/olaf_blanke.png' | prepend: site.url }}" alt="Prof. Olaf Blanke" />
+              <button type="button" class="btn bio-btn" data-toggle="modal" data-target="#bio-blanke" aria-controls="bio-blanke">Bio</button>
             </div>
             <div class="col-md-8">
-              <h2 class="talk-title">Coming Soon</h2>
-              <h3 class="speaker-name">To be announced</h3>
+              <h2 class="talk-title">Talk Title: Coming Soon</h2>
+              <h3 class="speaker-name">Prof. Olaf Blanke</h3>
               <div style="margin-top: 8px;">
                 <span class="abstract-label">Abstract:</span>
-                <p style="margin-top: 8px;">Details of this keynote will be announced soon. Please stay tuned.</p>
+                <p style="margin-top: 8px;">Olaf Blanke is founding director of the Center for Neuroprosthetics and holds the Bertarelli Foundation Chair in Cognitive Neuroprosthetics at the Ecole Polytechnique Fédérale de Lausanne (EPFL). His talk title and abstrac will come soon.</p>
               </div>
             </div>
           </div>
@@ -245,6 +246,27 @@ sitemap: true
     </div>
   </div>
 </section>
+
+<!-- Bio Modal: Prof. Olaf Blanke -->
+<div class="modal fade" id="bio-blanke" tabindex="-1" role="dialog" aria-labelledby="bio-blanke-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bio-blanke-label">Bio: Prof. Olaf Blanke</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>TBD.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
 
 <!-- Coming Soon: Keynote Speaker 4 -->
 <section id="keynote-speaker-4" class="speaker-section speaker-section--lilac">
