@@ -12,6 +12,8 @@ shortlinks:
         shortcut: /call-for-full-short-papers
       - title: Poster&Demo
         shortcut: /call-for-poster-demo
+      - title: Workshops
+        shortcut: /call-for-workshop
   - title: Program
     shortcut: /program
     sublinks:
@@ -31,7 +33,7 @@ shortlinks:
   #     - title: Special Fast Track CfP
   #       shortcut: /call-for-fasttrack
   #     - title: Call for Workshops
-  #       shortcut: /call-for-workshops
+  #       shortcut: /call-for-workshop
   #     - title: Call for Demonstrations
   #       shortcut: /call-for-demos
   #     - title: Call for Posters
