@@ -1,0 +1,43 @@
+name: Purge Cloudflare Cache
+
+on:
+  push:
+    branches:
+      - publish
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge Cloudflare (Everything)
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
+            echo "CF_ZONE_ID and/or CF_API_TOKEN are not set as repository secrets." >&2
+            exit 1
+          fi
+          curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CF_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}'
+
+      - name: Purge critical files (fallback)
+        if: failure()
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CF_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data '{
+              "files": [
+                "https://augmented-humans.org/css/main.css",
+                "https://augmented-humans.org/",
+                "https://augmented-humans.org/index.html",
+                "https://augmented-humans.org/access/"
+              ]
+            }'
+
