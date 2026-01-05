@@ -172,6 +172,9 @@ committee:
 
   - group: Steering Committee
     people:
+      - name: Pedro Lopes
+        position: Associate Professor
+        affiliation: University of Chicago, USA
       - name: Thomas Kosch
         position: Professor
         affiliation: Humboldt University of Berlin, Germany
