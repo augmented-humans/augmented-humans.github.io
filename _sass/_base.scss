@@ -1434,7 +1434,21 @@ footer {
   }
 }
 
-section.flip2, .kw-blog-post .post-content, .kw-conference-location {
+section.flip2 {
+  a {
+    color: #FFD700;
+    &:visited {
+      color: #FFD700;
+    }
+    &:hover,
+    &:focus {
+      color: #ffea70;
+    }
+  }
+}
+
+.kw-blog-post .post-content,
+.kw-conference-location {
   a {
     color: #000;
   }
