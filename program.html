@@ -5,6 +5,8 @@ description: "Program"
 sitemap: false
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.css">
+
 <!-- Contact Section -->
 <header class="masthead text-center text-white normal">
   <div class="overlay"></div>
@@ -32,8 +34,48 @@ sitemap: false
           <span>Overview</span>
         </div>
         <p>
-          The program will be finalized after paper and poster acceptances are determined. Updates will be shared via our website and social media as soon as they are available.
+          The program will be finalized after paper and poster acceptances are determined. In the meantime, the interactive calendar above provides a draft layout for five conference days so teams can plan travel and rehearsals.
         </p>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="program-schedule" class="program-schedule">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>Program Schedule (preview)</span>
+        </div>
+        <p class="program-lead">
+          An interactive draft schedule you can view by week or by individual day. Choose a palette to recolor categories; timings and titles are placeholders that will be refined after acceptances.
+        </p>
+
+        <div class="program-calendar-card">
+          <div class="program-calendar-toolbar">
+            <div>
+              <h4 class="program-calendar-heading">See the whole week or focus on a single day</h4>
+              <p class="program-calendar-sub">Use the Week/Day buttons in the calendar header. Click arrows to move through the conference days.</p>
+            </div>
+            <div class="palette-picker" aria-label="Choose a palette">
+              <span class="palette-label">Palette:</span>
+              <button class="palette-swatch" data-calendar-palette="sunrise" data-palette-label="Sunrise" style="background: linear-gradient(90deg, #6fb0ff, #f6c344, #e7a6b8);">
+                Sunrise
+              </button>
+              <button class="palette-swatch" data-calendar-palette="lagoon" data-palette-label="Lagoon" style="background: linear-gradient(90deg, #4ac3c8, #7ad8a5, #ffd166);">
+                Lagoon
+              </button>
+              <button class="palette-swatch active" data-calendar-palette="twilight" data-palette-label="Twilight" style="background: linear-gradient(90deg, #9fb3f2, #f48fb1, #ffc46b);">
+                Twilight
+              </button>
+            </div>
+          </div>
+
+          <div id="program-calendar"></div>
+        </div>
       </div>
       <div class="col-lg-1"></div>
     </div>
