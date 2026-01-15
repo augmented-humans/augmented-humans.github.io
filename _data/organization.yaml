@@ -84,13 +84,18 @@ committee:
         mail: sungho_suh@korea.ac.kr
         img: /img/committee/2026/sungho_suh.jpg
 
-  # - group: Workshop Chairs
-  #   people:
-  #     - name: COMING SOON...
-  #       position: TBD
-  #       affiliation: COMING SOON...
-  #       link: https://www.google.com/
-  #       img: /img/committee/2026/tbd.png
+  - group: Workshop Co-Chairs
+    people:
+      - name: Alia Saad
+        position: Postdoctoral Researcher
+        affiliation: Hamm Lippstadt University of Applied Sciences, Germany
+        link: https://www.alia-saad.com/
+        img: /img/committee/2026/alia_saad.jpg
+      - name:  Jan-Niklas Voigt-Antons
+        position: Professor
+        affiliation: Hamm Lippstadt University of Applied Sciences, Germany
+        link: https://www.hshl.de/personen/prof-dr-ing-jan-niklas-voigt-antons
+        img: /img/committee/2026/jan_antons.png
 
   - group: Publication Co-Chairs
     people:
