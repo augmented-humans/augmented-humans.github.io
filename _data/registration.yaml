@@ -9,17 +9,19 @@ page-title: <strong>R</strong>egistration
 #  <br>
 
 # Placeholder
-registration-title: Register 
+registration-title: Register
 registration: |
   Every accepted paper, demo, poster, and workshop submission requires at least one registered author.
-  Students should show evidence of studentship (enrolment certificate or letter from supervisor)  at the registration desk during the conference to collect the batch.
-  
-  The registration system will be opened by the end of this year.
-  
+  Students should show evidence of studentship (enrolment certificate or letter from supervisor) at the registration desk during the conference to collect the badge.
 
 deadlines-title: Deadlines
 deadlines: |
-  TBD
+  Early: January 13th, 2026 (AoE) - February 9th, 2026 (AoE)
+  Late: February 10th, 2026 (AoE) - March 18th, 2026 (AoE)
+
+registration-cite-title: Registration Cite
+registration-cite: |
+  Registration page: coming soon
 
 
 price-title: Registration Types
@@ -49,11 +51,33 @@ price: |
       <td><strong>80,000 JPY</strong> (~ 550 USD)</td>
     </tr>
     <tr>
-      <td>Additional Dinner Ticket</td>
-      <td><strong>TBD</strong></td>
+      <td>Accompanying person <br><small>Day 1: Seaside Banquet &amp; Day 2: OIST Laboratory Reception <br>*Children are free.</small></td>
+      <td><strong>15,000 JPY</strong></td>
     </tr>
   </table>
+  <ul>
+    <li>Registration fee is JPY and includes VAT.</li>
+    <li>An accompanying person is able to purchase ticket for Seaside Banquet (Day 1) and OIST Laboratory Reception (Day 2). Children are free.</li>
+  </ul>
 
+
+additional_sections:
+  - title: Payment Options
+    content: |
+      The registration system accepts payments by credit card only (VISA, Mastercard, Amex, Discover, JCB).
+      Credit card transactions will be made under the name of Convention Linkage, Inc.
+
+  - title: VISA Support
+    content: |
+      AHs2026 will issue an invitation letter required for visa application free of charge only to participants who have completed both registration and payment. For more information, please click [HERE](/visa-information-and-application-support/).
+
+  - title: Registration Cancellation and Refund Policy
+    content: |
+      No refunds will be issued for cancellation. We appreciate your understanding in advance.
+
+  - title: Privacy Policy
+    content: |
+      The personal information you provide during registration will be used solely for the organization and operation of AHs2026. We will take all necessary security measures to ensure that your personal information is handled with strict confidentiality and protection.
 
 visa-title: Visa Information
 visa: |
