@@ -21,7 +21,8 @@ deadlines: |
 
 registration-cite-title: Registration Cite
 registration-cite: |
-  Registration page: coming soon
+  Registration link: <a href="https://jform.net/AHs2026/" target="_blank" rel="noopener noreferrer">https://jform.net/AHs2026/</a>
+  My page: <a href="https://jform.net/AHs2026/mypage.php" target="_blank" rel="noopener noreferrer">https://jform.net/AHs2026/mypage.php</a>
 
 
 price-title: Registration Types
