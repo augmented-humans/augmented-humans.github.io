@@ -1,32 +1,26 @@
 page-title: <strong>S</strong>tudent <strong>V</strong>olunteers
 
 application-instructions-title: Application Instructions
-application-instructions: To apply to be a student volunteer, please sign up and enroll through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTxWcZkVWj6nBWNbTUaBn-EGs6IN-n5ihC_TomEKaY_YIHJA/viewform">form</a>. Applications from undergraduate, masters and Ph.D. students are all welcome. 
+application-instructions: |
+  To apply to be a student volunteer, please sign up and enroll through this form. Applications from undergraduate, masters and Ph.D. students are all welcome.
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeiSmY_ABPSsVhItVzjb9Tab1bsTSz9B9E67O4StGwqWOiV9Q/viewform?usp=dialog" class="btn btn-lg" target="_blank" rel="noopener noreferrer" style="background-color: #ff6b35; border: 2px solid #F4FDD9; color: white !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#ff6b35'">Application Form</a>
 
 # questions-title: Questions
 # questions: If you have any questions or problems, please contact the Student Volunteers Chair (Mr. Pascal Knierim):
 
 duties-title: Duties and Benefits
-duties: Student volunteers will be required to help set up and perform a diverse variety of work during the conference, as needed. Duties will include bag stuffing, manning the registration desk, AV assistance, poster and demo setup, badge checking, break monitoring, etc. Volunteers will also need to be available during the conference if new tasks come up. (There will be approximately 16 scheduled work hours per student volunteer.)
-  Student volunteers will usually be able to attend most of the conference sessions, even while working.
-  In addition to the innate joys of performing the duties above, AH student volunteers will get in return an awesome AH 2026 SV t-shirt, free conference registration, including the meals provided by the conference registrations and most importantly, a chance to meet and network with established members in the community as well as your student peers.
+duties: |
+  Student volunteers will get a free student full-registration.
+  SVs will be required to help set up and perform a diverse variety of work during the conference, as needed. Duties will include bag stuffing, manning the registration desk, AV assistance, poster and demo setup, badge checking, break monitoring, etc.
+  Volunteers will also need to be available during the conference if new tasks come up. Student volunteers will usually be able to attend most of the conference sessions, even while working.
 
 arriving-title: Arriving and Leaving
-arriving: Student volunteers need to be available to help throughout the conference. (Details will be announced later.)
+arriving: |
+  Student volunteers need to be available to help throughout the conference. (Details will be announced later.)
+  NOTES: We will not be able to provide free accommodations for student volunteers.
 
-acommodation-title: Accommodations
-accomodation: We will not be able to provide free accommodations for student volunteers, but we will facilitate you teaming up with other student volunteers for sharing rooms.
-  <table id="hotels">
-  <tr>
-  <td>Application deadline</td>	
-  <td>Tuesday 25th of February 2026</td>
-  </tr>
-  <tr>
-  <td>Notification of acceptance</td> 
-  <td>Friday 28th of February 2026</td>
-  </tr>
-  <tr>
-  <td>Conference dates</td> 
-  <td>March 16th - March 20th, 2026</td>
-  </tr>
-  </table>
+acommodation-title: Important Dates
+accomodation: |
+  <strong>Application deadline:</strong> February 12th, 2026
+  <strong>Notification of acceptance:</strong> February 15th, 2026
+  <strong>Conference dates:</strong> March 16th - March 19th, 2026
