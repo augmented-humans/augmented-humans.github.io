@@ -1,25 +1,28 @@
 page-title: <strong>S</strong>tudent <strong>V</strong>olunteers
 
-application-instructions-title: Application Instructions
+application-instructions-title: APPLICATION INSTRUCTIONS
 application-instructions: |
-  To apply to be a student volunteer, please sign up and enroll through this form. Applications from undergraduate, masters and Ph.D. students are all welcome.
+  To apply to be a student volunteer, please click the button below to access the application form and submit it. Applications from undergraduate, Master's, and Ph.D. students are all welcome.
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeiSmY_ABPSsVhItVzjb9Tab1bsTSz9B9E67O4StGwqWOiV9Q/viewform?usp=dialog" class="btn btn-lg" target="_blank" rel="noopener noreferrer" style="background-color: #ff6b35; border: 2px solid #F4FDD9; color: white !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#ff6b35'">Application Form</a>
 
 # questions-title: Questions
 # questions: If you have any questions or problems, please contact the Student Volunteers Chair (Mr. Pascal Knierim):
 
-duties-title: Duties and Benefits
+duties-title: DUTIES AND BENEFITS
 duties: |
-  Student volunteers will get a free student full-registration.
-  SVs will be required to help set up and perform a diverse variety of work during the conference, as needed. Duties will include bag stuffing, manning the registration desk, AV assistance, poster and demo setup, badge checking, break monitoring, etc.
-  Volunteers will also need to be available during the conference if new tasks come up. Student volunteers will usually be able to attend most of the conference sessions, even while working.
+  Student volunteers will be given free student full-registration.
+  SVs will be required to help set up and perform a variety of work during the conference, as needed. Duties will include bag stuffing, manning the registration desk, AV assistance, poster and demo setup, badge checking, break monitoring, etc.
+  Volunteers will also need to be available on-call during the conference if new tasks come up. Student volunteers will usually be able to attend most of the conference sessions, even while working.
 
-arriving-title: Arriving and Leaving
+arriving-title: ARRIVING AND LEAVING
 arriving: |
-  Student volunteers need to be available to help throughout the conference. (Details will be announced later.)
-  NOTES: We will not be able to provide free accommodations for student volunteers.
+  Details will be announced later.
 
-acommodation-title: Important Dates
+notes-title: NOTES
+notes: |
+  We will not be able to provide free accommodations for student volunteers.
+
+acommodation-title: IMPORTANT DATES
 accomodation: |
   <strong>Application deadline:</strong> February 12th, 2026
   <strong>Notification of acceptance:</strong> February 15th, 2026
