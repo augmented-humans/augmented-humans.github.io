@@ -7,6 +7,8 @@ show_notice: false
 
 news-title: News
 news:
+  - date: "2026-01-16"
+    content: "Call for Student Volunteers is started: <a href='/student-volunteer'>/call-for-student-volunteers</a>"
   - date: "2025-11-11"
     content: "Full/Short Paper submission deadline extended: <s>November 18th, 2025</s> <strong><u>November 25th, 2025</u></strong> (AoE). See details: <a href='/call-for-full-short-papers'>Full & Short Papers</a>"
   - date: "2025-10-05"
