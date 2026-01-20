@@ -53,6 +53,12 @@ committee:
         mail: sra@ucsb.edu
         link: https://sites.cs.ucsb.edu/~sra/
         img: /img/committee/2026/misha_sra.png
+      - name: Nadine Wagener
+        position: Group Leader
+        affiliation: OFFIS - Institute for Informatics
+        mail: nadine.wagener@offis.de
+        link: https://nadinewagener.github.io/
+        img: /img/committee/2026/nadine_wagener.jpg
 
   - group: Poster & Demo Co-Chairs
     people:
