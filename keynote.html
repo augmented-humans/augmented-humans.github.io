@@ -270,7 +270,7 @@ sitemap: true
   
 </div>
 
-<!-- Coming Soon: Keynote Speaker 4 -->
+<!-- Keynote Speaker 4: Prof. Catherine Holloway -->
 <section id="keynote-speaker-4" class="speaker-section speaker-section--lilac">
   <div class="container">
     <div class="row">
@@ -280,15 +280,21 @@ sitemap: true
         <div class="speaker-block">
           <div class="row speaker-row" style="margin-top: 10px; margin-bottom: 10px;">
             <div class="col-md-4" style="text-align: center; margin-bottom: 20px;">
-              <img class="speaker-photo" src="{{ '/img/committee/2026/tbd.png' | prepend: site.url }}" alt="Coming soon" />
-              <button type="button" class="btn bio-btn" disabled title="Coming soon">Bio</button>
+              <img class="speaker-photo" src="{{ '/img/keynote-speaker/catherine_holloway.png' | prepend: site.url }}" alt="Prof. Catherine Holloway" />
+              <button type="button" class="btn bio-btn" data-toggle="modal" data-target="#bio-holloway" aria-controls="bio-holloway">Bio</button>
             </div>
             <div class="col-md-8">
-              <h2 class="talk-title">Coming Soon</h2>
-              <h3 class="speaker-name">To be announced</h3>
+              <h2 class="talk-title">Keynote Talk</h2>
+              <h3 class="speaker-name">Prof. Catherine Holloway</h3>
               <div style="margin-top: 8px;">
                 <span class="abstract-label">Abstract:</span>
-                <p style="margin-top: 8px;">Details of this keynote will be announced soon. Please stay tuned.</p>
+                <p style="margin-top: 8px;">
+                  Professor Catherine Holloway is Professor of Interaction Design &amp; Innovation at UCL and the Academic Director and co-founder of the Global Disability Innovation Hub (GDI Hub). Her work sits at the intersection of Disability Innovation, Human-Computer Interaction, and global policy, with a commitment to designing technologies that expand human capability and equitable futures, particularly for communities across the Global South. Under her leadership, GDI Hub became the first WHO Collaborating Centre on Assistive Technology and has delivered a &pound;50m+ portfolio across 41 countries, reaching more than 64 million people worldwide.
+                  <br/><br/>
+                  With more than two decades of experience in assistive technology and accessibility, Catherine's current research focuses on two emerging frontiers: inclusive language and human-centered AI, combining technical innovation with locally driven design practices; and technology and trauma, including a new collaboration between Anna Freud, UCLIC, and GDI Hub to develop technologies that support therapeutic work and healing.
+                  <br/><br/>
+                  Catherine has published over 190 papers and co-authored <em>Disability Interactions: Creating Inclusive Innovations</em>. She has served on the EPSRC Strategic Advisory Team for Healthcare Technologies and is Programme Committee Chair for AI and Assistive Technologies at the UNESCO Centre for Artificial Intelligence (AI). Her work continues to shape global policy, academic research, and grassroots innovation ecosystems, advancing the idea that augmentation must be designed not just for individuals, but for more just, connected, and inclusive societies.
+                </p>
               </div>
             </div>
           </div>
@@ -298,3 +304,25 @@ sitemap: true
     </div>
   </div>
 </section>
+
+<!-- Bio Modal: Prof. Catherine Holloway -->
+<div class="modal fade" id="bio-holloway" tabindex="-1" role="dialog" aria-labelledby="bio-holloway-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bio-holloway-label">Bio: Prof. Catherine Holloway</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Cathy is co-founder &amp; Academic Director of GDI Hub. Cathy leads the Innovation Cluster and the Data and Evidence cluster of the flagship AT2030 programme. Cathy leads the innovation work of GDI Hub, including the imagination and initiation of Innovate Now and the AT Impact Fund.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
