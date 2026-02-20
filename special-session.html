@@ -1,0 +1,268 @@
+---
+layout: default
+title: "Augmented Humans 2026 | Special Session"
+description: "ASPIRE & Moonshot Joint Symposium"
+sitemap: true
+---
+
+<style>
+  .special-session-hero {
+    position: relative;
+    margin-top: -20px;
+    background: #072540;
+    color: #fff;
+  }
+
+  .special-session-gallery .item img {
+    width: 100%;
+    height: clamp(260px, 42vw, 520px);
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .special-session-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(7, 37, 64, 0.2) 25%, rgba(7, 37, 64, 0.82) 100%);
+    pointer-events: none;
+  }
+
+  .special-session-hero-content {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 28px 0 24px;
+  }
+
+  .special-session-hero-content h1 {
+    margin: 0 0 10px;
+    font-size: clamp(1.45rem, 2.8vw, 2.4rem);
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  .special-session-meta {
+    margin: 0;
+    font-size: clamp(1rem, 1.8vw, 1.15rem);
+    font-weight: 500;
+    line-height: 1.45;
+  }
+
+  .special-session-body {
+    padding: 58px 0 30px;
+  }
+
+  .special-session-section-title {
+    margin-bottom: 18px;
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    color: #0b4f75;
+  }
+
+  .schedule-list {
+    display: grid;
+    gap: 18px;
+  }
+
+  .schedule-item {
+    display: flex;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid #d7e7f2;
+    border-left: 5px solid #0077be;
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+
+  .schedule-time {
+    min-width: 128px;
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: #0b4f75;
+    line-height: 1.4;
+  }
+
+  .schedule-content h3 {
+    margin: 0 0 8px;
+    font-size: clamp(1.08rem, 1.7vw, 1.3rem);
+    line-height: 1.4;
+    color: #1a1a1a;
+  }
+
+  .schedule-content p {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .schedule-content p:last-child {
+    margin-bottom: 0;
+  }
+
+  .speaker-list {
+    margin: 8px 0 0;
+    columns: 2;
+    column-gap: 28px;
+    padding-left: 20px;
+  }
+
+  .speaker-list li {
+    margin-bottom: 6px;
+    break-inside: avoid;
+  }
+
+  .co-sponsor-note {
+    margin-top: 30px;
+    background: #f4f9fd;
+    border: 1px solid #d0e3f0;
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-size: 0.98rem;
+    line-height: 1.6;
+  }
+
+  .special-session-logo {
+    padding: 16px 0 58px;
+    text-align: center;
+  }
+
+  .special-session-logo img {
+    width: min(100%, 680px);
+    height: auto;
+  }
+
+  .back-to-program {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 0.98rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 767px) {
+    .special-session-body {
+      padding-top: 36px;
+    }
+
+    .schedule-item {
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .schedule-time {
+      min-width: 0;
+    }
+
+    .speaker-list {
+      columns: 1;
+    }
+  }
+</style>
+
+<section class="special-session-hero">
+  <div id="special-session-gallery" class="carousel slide special-session-gallery" data-ride="carousel" data-interval="4200" data-pause="false">
+    <ol class="carousel-indicators">
+      <li data-target="#special-session-gallery" data-slide-to="0" class="active"></li>
+      <li data-target="#special-session-gallery" data-slide-to="1"></li>
+      <li data-target="#special-session-gallery" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="{{ '/img/special-session/B2J1.png' | relative_url }}" alt="Brain Body Jockey stage image 1">
+      </div>
+      <div class="item">
+        <img src="{{ '/img/special-session/B2J2.png' | relative_url }}" alt="Brain Body Jockey stage image 2">
+      </div>
+      <div class="item">
+        <img src="{{ '/img/special-session/B2J3.png' | relative_url }}" alt="Brain Body Jockey stage image 3">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#special-session-gallery" role="button" data-slide="prev" aria-label="Previous slide">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    </a>
+    <a class="right carousel-control" href="#special-session-gallery" role="button" data-slide="next" aria-label="Next slide">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="special-session-hero-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1>ASPIRE &amp; Moonshot Joint Symposium "Enhancing Humanity - Inclusive Future through Human Augmentation"</h1>
+          <p class="special-session-meta">15:00-17:30, Wednesday, 18 March 2026 | OIST Auditorium</p>
+          <a class="back-to-program" href="{{ '/program' | relative_url }}">Back to Program</a>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="special-session-body">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <h2 class="special-session-section-title">Schedule</h2>
+
+        <div class="schedule-list">
+          <article class="schedule-item">
+            <div class="schedule-time">15:00-15:20</div>
+            <div class="schedule-content">
+              <h3>Special Stage Performance "Brain Body Jockey (B2J) Project"</h3>
+              <p>Presented by WITH ALS &times; JST Moonshot Project Cybernetic being</p>
+              <p>More details about B2J project: <a href="https://www.embodiedmedia.org/projects/brain-body-jockey" target="_blank" rel="noopener noreferrer">https://www.embodiedmedia.org/projects/brain-body-jockey</a></p>
+            </div>
+          </article>
+
+          <article class="schedule-item">
+            <div class="schedule-time">15:20-15:40</div>
+            <div class="schedule-content">
+              <h3>Introduction to Moonshot "Project Cybernetic being" &amp; ASPIRE "Enhancing Humanity"</h3>
+              <p>Kouta Minamizawa, Keio University Graduate School of Media Design</p>
+            </div>
+          </article>
+
+          <article class="schedule-item">
+            <div class="schedule-time">15:40-16:20</div>
+            <div class="schedule-content">
+              <h3>Keynote Talk "From Global South to Global Futures: Human Augmentation for Real Social Challenges"</h3>
+              <p>Catherine Holloway, University College London - Global Disability Innovation (GDI) Hub</p>
+              <p>Talk details: <a href="https://augmented-humans.org/keynote/" target="_blank" rel="noopener noreferrer">https://augmented-humans.org/keynote/</a></p>
+            </div>
+          </article>
+
+          <article class="schedule-item">
+            <div class="schedule-time">16:20-17:20</div>
+            <div class="schedule-content">
+              <h3>Panel Discussion "Enhancing Humanity - Inclusive Future through Human Augmentation"</h3>
+              <p><strong>Speakers (listed in alphabetical order by last name)</strong></p>
+              <ul class="speaker-list">
+                <li>Giulia BARBARESCHI, University of Duisburg-Essen / Research Center Trustworthy Data Science and Security</li>
+                <li>Olaf BLANKE, Ecole Polytechnique Federale de Lausanne</li>
+                <li>Yuji HATADA, The University of Tokyo</li>
+                <li>Catherine Holloway, University College London - Global Disability Innovation (GDI) Hub</li>
+                <li>Shunichi KASAHARA, Sony Computer Science Laboratories</li>
+                <li>Pedro Lopes, University of Chicago</li>
+                <li>Kouta Minamizawa, Keio University Graduate School of Media Design</li>
+                <li>Yoshihiro TANAKA, Nagoya Institute of Technology</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="co-sponsor-note">
+          This Joint Symposium is co-sponsored by JST Moonshot R&amp;D Program Goal 1 "Project Cybernetic being (Developing cybernetic avatar technologies and social infrastructure to realize embodied co-creation)", Grant Number: JPMJMS2013, and JST ASPIRE "Enhancing Humanity: International Research Collaboration Network Towards an Inclusive Future through Human Augmentation", Grant Number: JPMJAP2504.
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section class="special-session-logo">
+  <img src="{{ '/img/special-session/logo1.png' | relative_url }}" alt="ASPIRE and Moonshot joint symposium logos">
+</section>

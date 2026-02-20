@@ -23,6 +23,8 @@ shortlinks:
         shortcut: /keynote
       - title: Program
         shortcut: /program
+      - title: Special Session
+        shortcut: /special-session
       - title: OIST Open Lab
         shortcut: /oist-open-lab
   - title: Registration
