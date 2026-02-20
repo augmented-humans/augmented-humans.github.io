@@ -117,10 +117,10 @@
         extendedProps: { category: 'closing' }
       },
       {
-        title: 'Paper Session 1',
+        title: 'Paper Session 1: Haptics, Sensory Substitution, and Perception',
         start: '2026-03-16T14:00:00',
         end: '2026-03-16T15:10:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 1 }
       },
       {
         title: 'Coffee Break',
@@ -129,10 +129,10 @@
         extendedProps: { category: 'break' }
       },
       {
-        title: 'Paper Session 2',
+        title: 'Paper Session 2: Multisensory Feedback & Assistive Interfaces',
         start: '2026-03-16T15:30:00',
         end: '2026-03-16T16:30:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 2 }
       },
       {
         title: 'Keynote by Prof. Jun Rekimoto',
@@ -177,10 +177,10 @@
         extendedProps: { category: 'break' }
       },
       {
-        title: 'Paper Session 3',
+        title: 'Paper Session 3: Human-Robot Communication & Control',
         start: '2026-03-17T10:50:00',
         end: '2026-03-17T12:00:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 3 }
       },
       {
         title: 'Lunch',
@@ -195,10 +195,10 @@
         extendedProps: { category: 'poster' }
       },
       {
-        title: 'Paper Session 4',
+        title: 'Paper Session 4: Embodied Experiences, Movement, and Play',
         start: '2026-03-17T15:00:00',
         end: '2026-03-17T16:00:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 4 }
       },
       {
         title: 'Keynote by Prof. Jun Tani',
@@ -231,10 +231,10 @@
         extendedProps: { category: 'registration' }
       },
       {
-        title: 'Paper Session 5',
+        title: 'Paper Session 5: Augmented Spaces & Perceptual Design',
         start: '2026-03-18T09:30:00',
         end: '2026-03-18T10:30:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 5 }
       },
       {
         title: 'Coffee Break',
@@ -243,10 +243,10 @@
         extendedProps: { category: 'break' }
       },
       {
-        title: 'Paper Session 6',
+        title: 'Paper Session 6: Augmenting Communication, Gaze, and Expression',
         start: '2026-03-18T10:50:00',
         end: '2026-03-18T12:00:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 6 }
       },
       {
         title: 'Lunch',
@@ -291,10 +291,10 @@
         extendedProps: { category: 'registration' }
       },
       {
-        title: 'Paper Session 7',
+        title: 'Paper Session 7: Assistive Robotics & Physical Augmentation',
         start: '2026-03-19T09:30:00',
         end: '2026-03-19T10:30:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 7 }
       },
       {
         title: 'Coffee Break',
@@ -303,10 +303,10 @@
         extendedProps: { category: 'break' }
       },
       {
-        title: 'Paper Session 8',
+        title: 'Paper Session 8: Social XR, Performance, and Training',
         start: '2026-03-19T10:50:00',
         end: '2026-03-19T12:00:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 8 }
       },
       {
         title: 'Lunch',
@@ -315,10 +315,10 @@
         extendedProps: { category: 'meal' }
       },
       {
-        title: 'Ppaer Session 9',
+        title: 'Paper Session 9: Ethics, Learning, and Responsible Augmentation',
         start: '2026-03-19T13:00:00',
         end: '2026-03-19T14:30:00',
-        extendedProps: { category: 'session' }
+        extendedProps: { category: 'session', paperSessionNumber: 9 }
       },
       {
         title: 'Closing Ceremony / Awarding',
@@ -391,6 +391,23 @@
       height: 'auto',
       contentHeight: 'auto',
       eventDisplay: 'block',
+      eventClassNames: function (info) {
+        if (info.event.extendedProps && info.event.extendedProps.paperSessionNumber) {
+          return ['paper-session-event'];
+        }
+        return [];
+      },
+      eventClick: function (info) {
+        var sessionNumber = info.event && info.event.extendedProps
+          ? info.event.extendedProps.paperSessionNumber
+          : null;
+        if (!sessionNumber) {
+          return;
+        }
+        if (typeof window.openPaperSessionByNumber === 'function') {
+          window.openPaperSessionByNumber(sessionNumber);
+        }
+      },
       events: draftEvents.map(function (event) {
         return withPalette(event, defaultPalette);
       })
@@ -444,6 +461,75 @@
     applyPalette(activeName, activeLabel);
   });
 
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var sessionCards = document.querySelectorAll('#paper-sessions .paper-session-card');
+    if (!sessionCards.length) {
+      return;
+    }
+
+    var sessionControllers = {};
+    var navOffset = 90;
+
+    function scrollToCard(card) {
+      var top = card.getBoundingClientRect().top + window.pageYOffset - navOffset;
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: 'smooth'
+      });
+    }
+
+    sessionCards.forEach(function (card, index) {
+      var heading = card.querySelector('h4');
+      var list = card.querySelector('ol');
+      if (!heading || !list) {
+        return;
+      }
+
+      var sessionNumber = index + 1;
+      var listId = list.id || 'paper-session-list-' + sessionNumber;
+      list.id = listId;
+      card.id = card.id || 'paper-session-' + sessionNumber;
+      card.setAttribute('data-paper-session-number', String(sessionNumber));
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'paper-session-toggle';
+      button.setAttribute('aria-controls', listId);
+      heading.insertBefore(button, heading.firstChild);
+
+      var setExpanded = function (expanded) {
+        card.classList.toggle('is-collapsed', !expanded);
+        list.hidden = !expanded;
+        button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        button.setAttribute('aria-label', expanded ? 'Close this paper session' : 'Open this paper session');
+        button.textContent = expanded ? '▾' : '▸';
+      };
+
+      setExpanded(false);
+
+      button.addEventListener('click', function () {
+        setExpanded(list.hidden);
+      });
+
+      sessionControllers[sessionNumber] = {
+        card: card,
+        setExpanded: setExpanded
+      };
+    });
+
+    window.openPaperSessionByNumber = function (sessionNumber) {
+      var controller = sessionControllers[sessionNumber];
+      if (!controller) {
+        return false;
+      }
+      controller.setExpanded(true);
+      scrollToCard(controller.card);
+      return true;
+    };
+  });
 </script>
 
 {% if site.google_analytics %}
