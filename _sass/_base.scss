@@ -1106,7 +1106,7 @@ header.masthead#kw-project-header {
   font-size: 18px;
 }
 
-#ah-description, #ah-topics, #ah-categories, #ah-about, #ah-news, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards, #ah-program, #ah-cfp {
+#ah-description, #ah-topics, #ah-categories, #paper-sessions, #ah-about, #ah-news, #ah-organization, .ah-organization, #ah-deadlines, #ah-awards, #ah-program, #ah-cfp {
   text-align: left;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -2469,6 +2469,95 @@ transform-origin: 50% 50%;
   }
 }
 
+.paper-session-grid {
+  display: block;
+  margin-top: 24px;
+}
+
+.paper-session-card {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #d6dde6;
+  border-radius: 0;
+  padding: 0 0 22px;
+  margin: 0 0 22px;
+  box-shadow: none;
+
+  h4 {
+    color: #0077be;
+    margin: 0 0 12px;
+    font-size: 24px;
+    line-height: 1.35;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  h4 strong {
+    flex: 1;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  ol {
+    margin: 0;
+    padding-left: 24px;
+  }
+
+  li {
+    margin-bottom: 14px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.paper-session-toggle {
+  border: 1px solid #0077be;
+  background: #0077be;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 1.2;
+  min-width: 44px;
+  text-align: center;
+  flex-shrink: 0;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    background-color: #0a88d3;
+    border-color: #0a88d3;
+  }
+}
+
+.paper-session-card.is-collapsed ol {
+  display: none;
+}
+
+.paper-title {
+  margin: 0;
+  color: #1f2c38;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.paper-authors {
+  margin: 4px 0 0;
+  color: #44566b;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
 .hotel-section {
   background-color: rgba(240, 248, 255, 0.8);
   border-radius: 8px;
@@ -2532,16 +2621,16 @@ transform-origin: 50% 50%;
   position: relative;
   padding: 28px;
   border-radius: 16px;
-  background: #d0ebe2;
-  border: 1px solid #b6d1c8;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+  background: #ffffff;
+  border: 1px solid #d9e2ea;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   color: #0f1b2d;
 
   --fc-border-color: #9dbfb3;
-  --fc-page-bg-color: #d0ebe2;
-  --fc-neutral-bg-color: #c3dacf;
-  --fc-list-event-hover-bg-color: #c8e2d6;
+  --fc-page-bg-color: #ffffff;
+  --fc-neutral-bg-color: #f3f7fa;
+  --fc-list-event-hover-bg-color: #eef3f7;
   --fc-button-text-color: #f5f8ff;
   --fc-button-bg-color: #0c3b67;
   --fc-button-hover-bg-color: #155d9c;
@@ -2637,7 +2726,7 @@ transform-origin: 50% 50%;
 }
 
 .program-calendar-card .fc-theme-standard .fc-scrollgrid {
-  border-color: rgba(255, 255, 255, 0.16);
+  border-color: #d9e2ea;
 }
 
 .program-calendar-card .fc .fc-col-header-cell-cushion,
@@ -2657,13 +2746,24 @@ transform-origin: 50% 50%;
   color: #0f1b2d;
 }
 
+.program-calendar-card .fc .fc-event.paper-session-event {
+  cursor: pointer;
+  transition: filter 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.program-calendar-card .fc .fc-event.paper-session-event:hover {
+  filter: brightness(1.12) saturate(1.08);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26);
+}
+
 .program-calendar-card h4,
 .program-calendar-card p {
   color: #0f1b2d;
 }
 
 .program-calendar-card .fc .fc-timegrid-axis-cushion {
-  color: #b6c9e5;
+  color: #53697d;
 }
 
 @media (max-width: 992px) {
@@ -2678,5 +2778,15 @@ transform-origin: 50% 50%;
 
   .program-calendar-card {
     padding: 22px;
+  }
+
+  .paper-session-card {
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+  }
+
+  .paper-session-card h4 {
+    font-size: 21px;
+    align-items: flex-start;
   }
 }
