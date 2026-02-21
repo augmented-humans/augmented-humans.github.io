@@ -192,7 +192,7 @@
         title: 'Poster / Demo Session 1',
         start: '2026-03-17T13:00:00',
         end: '2026-03-17T15:00:00',
-        extendedProps: { category: 'poster' }
+        extendedProps: { category: 'poster', posterDemoDayNumber: 2 }
       },
       {
         title: 'Paper Session 4: Embodied Experiences, Movement, and Play',
@@ -258,7 +258,7 @@
         title: 'Poster / Demo Session 2',
         start: '2026-03-18T13:00:00',
         end: '2026-03-18T15:00:00',
-        extendedProps: { category: 'poster' }
+        extendedProps: { category: 'poster', posterDemoDayNumber: 3 }
       },
       {
         title: 'Special Performance "Brain Body Jockey Project"',
@@ -392,20 +392,31 @@
       contentHeight: 'auto',
       eventDisplay: 'block',
       eventClassNames: function (info) {
-        if (info.event.extendedProps && info.event.extendedProps.paperSessionNumber) {
+        var props = info.event.extendedProps || {};
+        if (props.paperSessionNumber) {
           return ['paper-session-event'];
+        }
+        if (props.posterDemoDayNumber) {
+          return ['poster-demo-event'];
         }
         return [];
       },
       eventClick: function (info) {
-        var sessionNumber = info.event && info.event.extendedProps
-          ? info.event.extendedProps.paperSessionNumber
-          : null;
-        if (!sessionNumber) {
+        var props = info.event && info.event.extendedProps
+          ? info.event.extendedProps
+          : {};
+        if (props.paperSessionNumber && typeof window.openPaperSessionByNumber === 'function') {
+          window.openPaperSessionByNumber(props.paperSessionNumber);
           return;
         }
-        if (typeof window.openPaperSessionByNumber === 'function') {
-          window.openPaperSessionByNumber(sessionNumber);
+        if (props.posterDemoDayNumber && typeof window.openPosterDemoDayByNumber === 'function') {
+          window.openPosterDemoDayByNumber(props.posterDemoDayNumber);
+        }
+      },
+      eventDidMount: function (info) {
+        var props = info.event.extendedProps || {};
+        if (props.posterDemoDayNumber) {
+          info.el.setAttribute('title', 'Click to open Poster & Demo details for Day ' + props.posterDemoDayNumber);
         }
       },
       events: draftEvents.map(function (event) {
@@ -522,6 +533,78 @@
 
     window.openPaperSessionByNumber = function (sessionNumber) {
       var controller = sessionControllers[sessionNumber];
+      if (!controller) {
+        return false;
+      }
+      controller.setExpanded(true);
+      scrollToCard(controller.card);
+      return true;
+    };
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var dayCards = document.querySelectorAll('#poster-demo-sessions .paper-session-card');
+    if (!dayCards.length) {
+      return;
+    }
+
+    var dayControllers = {};
+    var navOffset = 90;
+
+    function scrollToCard(card) {
+      var top = card.getBoundingClientRect().top + window.pageYOffset - navOffset;
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: 'smooth'
+      });
+    }
+
+    dayCards.forEach(function (card, index) {
+      var heading = card.querySelector('h4');
+      var list = card.querySelector('ol');
+      if (!heading || !list) {
+        return;
+      }
+
+      var headingText = (heading.textContent || '').trim();
+      var dayMatch = headingText.match(/Day\s*(\d+)/i);
+      var dayNumber = dayMatch ? Number(dayMatch[1]) : index + 1;
+      var listId = list.id || 'poster-demo-day-list-' + dayNumber;
+      list.id = listId;
+      card.id = card.id || 'poster-demo-day-' + dayNumber;
+      card.setAttribute('data-poster-demo-day-number', String(dayNumber));
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'paper-session-toggle';
+      button.setAttribute('aria-controls', listId);
+      heading.insertBefore(button, heading.firstChild);
+
+      var setExpanded = function (expanded) {
+        card.classList.toggle('is-collapsed', !expanded);
+        list.hidden = !expanded;
+        button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        button.setAttribute('aria-label', expanded ? 'Close this poster and demo day' : 'Open this poster and demo day');
+        button.textContent = expanded ? '▾' : '▸';
+      };
+
+      setExpanded(false);
+
+      button.addEventListener('click', function () {
+        setExpanded(list.hidden);
+      });
+
+      dayControllers[dayNumber] = {
+        card: card,
+        setExpanded: setExpanded
+      };
+    });
+
+    window.openPosterDemoDayByNumber = function (dayNumber) {
+      var normalizedDayNumber = Number(dayNumber);
+      var controller = dayControllers[normalizedDayNumber];
       if (!controller) {
         return false;
       }

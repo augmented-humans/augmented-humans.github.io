@@ -1223,6 +1223,20 @@ header.masthead#kw-project-header {
   }
 }
 
+#poster-demo-sessions {
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  color: #131313;
+  background-color: $theme-background-tertiary;
+  min-height: 200px;
+
+  p {
+    color: #131313;
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   #geist-description p {
     font-size: 17px;
@@ -2548,6 +2562,7 @@ transform-origin: 50% 50%;
   color: #1f2c38;
   line-height: 1.45;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .paper-authors {
@@ -2755,6 +2770,28 @@ transform-origin: 50% 50%;
   filter: brightness(1.12) saturate(1.08);
   transform: translateY(-1px);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26);
+}
+
+.program-calendar-card .fc .fc-event.poster-demo-event {
+  cursor: pointer;
+  border: 2px dashed rgba(15, 27, 45, 0.35);
+  transition: filter 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.program-calendar-card .fc .fc-event.poster-demo-event .fc-event-title {
+  text-decoration: underline dotted rgba(15, 27, 45, 0.45);
+  text-underline-offset: 2px;
+}
+
+.program-calendar-card .fc .fc-event.poster-demo-event:hover {
+  filter: brightness(1.1) saturate(1.12);
+  transform: translateY(-1px);
+  border-color: rgba(15, 27, 45, 0.75);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
+}
+
+.program-calendar-card .fc .fc-event.poster-demo-event:hover .fc-event-title {
+  text-decoration-color: rgba(15, 27, 45, 0.9);
 }
 
 .program-calendar-card h4,
