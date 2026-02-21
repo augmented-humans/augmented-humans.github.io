@@ -475,9 +475,11 @@ section {
 }
 
 footer {
-  height: 145px;
+  min-height: 145px;
+  height: auto;
   @media (max-width: 768px) {
-    height: 200px;
+    min-height: 0;
+    padding: 24px 0;
   }
   background-color: $theme-background-primary;
   padding: 30px 0;
@@ -487,14 +489,28 @@ footer {
   // bottom: 0;
   // height: 100px;
   width: 100%;
-  overflow:hidden;
+  overflow: visible;
   text-align: center;
   p {
     font-size: 16px;
     margin: 0;
   }
-  ul {
+  ul.list-inline {
     margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+    column-gap: 12px;
+    > li {
+      float: none;
+      display: inline-flex;
+      align-items: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
     li a {
       font-size: 16px;
       color: #fff;
@@ -503,9 +519,22 @@ footer {
         text-decoration: none;
       }
     }
-    li:not(:last-child):after {
+    > li:not(:last-child):after {
       content: "|";
-      padding-left: 10px;
+      margin-left: 12px;
+    }
+  }
+  @media (max-width: 768px) {
+    ul.list-inline {
+      column-gap: 10px;
+      row-gap: 10px;
+      > li:not(:last-child):after {
+        content: none;
+        margin-left: 0;
+      }
+    }
+    .dropdown-content {
+      display: none;
     }
   }
 }
@@ -2759,39 +2788,53 @@ transform-origin: 50% 50%;
   font-weight: 700;
   letter-spacing: 0.01em;
   color: #0f1b2d;
+  transition: filter 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
-.program-calendar-card .fc .fc-event.paper-session-event {
+.program-calendar-card .fc .fc-event.clickable-calendar-event {
   cursor: pointer;
-  transition: filter 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.42);
 }
 
-.program-calendar-card .fc .fc-event.paper-session-event:hover {
-  filter: brightness(1.12) saturate(1.08);
-  transform: translateY(-1px);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26);
-}
-
-.program-calendar-card .fc .fc-event.poster-demo-event {
-  cursor: pointer;
-  border: 2px dashed rgba(15, 27, 45, 0.35);
-  transition: filter 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-}
-
-.program-calendar-card .fc .fc-event.poster-demo-event .fc-event-title {
-  text-decoration: underline dotted rgba(15, 27, 45, 0.45);
+.program-calendar-card .fc .fc-event.clickable-calendar-event .fc-event-title {
+  text-decoration: underline dotted rgba(15, 27, 45, 0.5);
   text-underline-offset: 2px;
 }
 
-.program-calendar-card .fc .fc-event.poster-demo-event:hover {
-  filter: brightness(1.1) saturate(1.12);
-  transform: translateY(-1px);
-  border-color: rgba(15, 27, 45, 0.75);
-  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
+.program-calendar-card .fc .fc-event.clickable-calendar-event:hover {
+  filter: brightness(1.1) saturate(1.1);
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.32), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  z-index: 3;
 }
 
-.program-calendar-card .fc .fc-event.poster-demo-event:hover .fc-event-title {
-  text-decoration-color: rgba(15, 27, 45, 0.9);
+.program-calendar-card .fc .fc-event.clickable-calendar-event:hover .fc-event-title {
+  text-decoration-color: rgba(15, 27, 45, 0.95);
+}
+
+.program-calendar-card .fc .fc-event.nonclickable-calendar-event {
+  border: 2px dotted rgba(15, 27, 45, 0.48);
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
+}
+
+.program-calendar-card .fc .fc-event.poster-demo-event.clickable-calendar-event {
+  border: 2px dashed rgba(15, 27, 45, 0.35);
+}
+
+.program-calendar-card .fc .fc-event.poster-demo-event .fc-event-title {
+  text-decoration-style: dotted;
+}
+
+.program-calendar-card .fc .fc-event.poster-demo-event.clickable-calendar-event:hover {
+  border-color: rgba(15, 27, 45, 0.75);
+}
+
+.program-calendar-card .fc .fc-event.nonclickable-calendar-event:hover {
+  transform: none;
+  filter: none;
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
 }
 
 .program-calendar-card h4,

@@ -84,6 +84,12 @@
     };
 
     var defaultPalette = 'twilight';
+    var programPageUrls = {
+      keynote: "{{ '/keynote' | relative_url }}",
+      openLab: "{{ '/oist-open-lab' | relative_url }}",
+      specialPerformance: "{{ '/special-session' | relative_url }}#special-stage-performance",
+      panelDiscussion: "{{ '/special-session' | relative_url }}#panel-discussion"
+    };
 
     var draftEvents = [
       {
@@ -207,7 +213,7 @@
         extendedProps: { category: 'keynote' }
       },
       {
-        title: 'OIST Tour / Open Lab at Lab5',
+        title: 'Open Lab at Lab5',
         start: '2026-03-17T17:30:00',
         end: '2026-03-17T18:30:00',
         extendedProps: { category: 'social' }
@@ -351,6 +357,33 @@
       });
     }
 
+    function resolveProgramEventPageUrl(event) {
+      var props = event && event.extendedProps ? event.extendedProps : {};
+      var title = event && event.title ? String(event.title).toLowerCase() : '';
+
+      if (props.category === 'keynote') {
+        return programPageUrls.keynote;
+      }
+      if (title.indexOf('open lab') !== -1) {
+        return programPageUrls.openLab;
+      }
+      if (title.indexOf('special performance') !== -1 || title.indexOf('special stage performance') !== -1) {
+        return programPageUrls.specialPerformance;
+      }
+      if (title.indexOf('panel discussion') !== -1) {
+        return programPageUrls.panelDiscussion;
+      }
+      return '';
+    }
+
+    function isProgramEventClickable(event) {
+      var props = event && event.extendedProps ? event.extendedProps : {};
+      if (props.paperSessionNumber || props.posterDemoDayNumber) {
+        return true;
+      }
+      return Boolean(resolveProgramEventPageUrl(event));
+    }
+
     var initialView = window.matchMedia('(max-width: 768px)').matches ? 'timeGridDay' : 'timeGridWeek';
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
@@ -393,13 +426,22 @@
       eventDisplay: 'block',
       eventClassNames: function (info) {
         var props = info.event.extendedProps || {};
+        var classes = [];
+
         if (props.paperSessionNumber) {
-          return ['paper-session-event'];
+          classes.push('paper-session-event');
         }
         if (props.posterDemoDayNumber) {
-          return ['poster-demo-event'];
+          classes.push('poster-demo-event');
         }
-        return [];
+
+        if (isProgramEventClickable(info.event)) {
+          classes.push('clickable-calendar-event');
+        } else {
+          classes.push('nonclickable-calendar-event');
+        }
+
+        return classes;
       },
       eventClick: function (info) {
         var props = info.event && info.event.extendedProps
@@ -411,12 +453,31 @@
         }
         if (props.posterDemoDayNumber && typeof window.openPosterDemoDayByNumber === 'function') {
           window.openPosterDemoDayByNumber(props.posterDemoDayNumber);
+          return;
+        }
+
+        var detailPageUrl = resolveProgramEventPageUrl(info.event);
+        if (detailPageUrl) {
+          if (info.jsEvent) {
+            info.jsEvent.preventDefault();
+          }
+          window.location.href = detailPageUrl;
         }
       },
       eventDidMount: function (info) {
         var props = info.event.extendedProps || {};
         if (props.posterDemoDayNumber) {
           info.el.setAttribute('title', 'Click to open Poster & Demo details for Day ' + props.posterDemoDayNumber);
+          return;
+        }
+        if (props.paperSessionNumber) {
+          info.el.setAttribute('title', 'Click to open Paper Session ' + props.paperSessionNumber);
+          return;
+        }
+
+        var detailPageUrl = resolveProgramEventPageUrl(info.event);
+        if (detailPageUrl) {
+          info.el.setAttribute('title', 'Click to open related page');
         }
       },
       events: draftEvents.map(function (event) {
