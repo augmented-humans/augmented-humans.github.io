@@ -676,6 +676,51 @@
   });
 </script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var dayCards = document.querySelectorAll('#workshop-session .paper-session-card');
+    if (!dayCards.length) {
+      return;
+    }
+
+    dayCards.forEach(function (card, index) {
+      var heading = card.querySelector('h4');
+      var list = card.querySelector('ol');
+      if (!heading || !list) {
+        return;
+      }
+
+      var headingText = (heading.textContent || '').trim();
+      var dayMatch = headingText.match(/Day\s*(\d+)/i);
+      var dayNumber = dayMatch ? Number(dayMatch[1]) : index + 1;
+      var listId = list.id || 'workshop-day-list-' + dayNumber;
+      list.id = listId;
+      card.id = card.id || 'workshop-day-' + dayNumber;
+      card.setAttribute('data-workshop-day-number', String(dayNumber));
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'paper-session-toggle';
+      button.setAttribute('aria-controls', listId);
+      heading.insertBefore(button, heading.firstChild);
+
+      var setExpanded = function (expanded) {
+        card.classList.toggle('is-collapsed', !expanded);
+        list.hidden = !expanded;
+        button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        button.setAttribute('aria-label', expanded ? 'Close this workshop day' : 'Open this workshop day');
+        button.textContent = expanded ? '▾' : '▸';
+      };
+
+      setExpanded(false);
+
+      button.addEventListener('click', function () {
+        setExpanded(list.hidden);
+      });
+    });
+  });
+</script>
+
 {% if site.google_analytics %}
 <script type="text/javascript">
   var _gaq = _gaq || [];
