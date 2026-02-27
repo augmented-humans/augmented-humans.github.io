@@ -1561,25 +1561,28 @@ section.flip2 {
 
 .prefooter-logos {
   background-color: white;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  justify-items: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 10px 20px;
-  padding: 10px 0;
+  gap: 24px 32px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px 16px;
 
   img {
     height: 80px;
+    max-width: 100%;
     display: block;
-    margin: 20px 10px;
+    margin: 0;
+    object-fit: contain;
   }
 
   @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    gap: 16px;
     img {
-      height: 50px;
-      margin: 10px 0;
+      height: 56px;
     }
   }
 }
