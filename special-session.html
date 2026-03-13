@@ -124,12 +124,23 @@ sitemap: true
   }
 
   .special-session-logo {
-    padding: 16px 0 58px;
-    text-align: center;
+    padding: 16px 20px 58px;
+  }
+
+  .special-session-logo-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 960px;
   }
 
   .special-session-logo img {
-    width: min(100%, 680px);
+    width: auto;
+    max-width: 100%;
+    max-height: 88px;
     height: auto;
   }
 
@@ -264,5 +275,8 @@ sitemap: true
 </section>
 
 <section class="special-session-logo">
-  <img src="{{ '/img/special-session/logo1.png' | relative_url }}" alt="ASPIRE and Moonshot joint symposium logos">
+  <div class="special-session-logo-group">
+    <img src="{{ '/img/special-session/logo1.png' | relative_url }}" alt="ASPIRE and Moonshot joint symposium logos">
+    <img src="{{ '/img/special-session/logo2.png' | relative_url }}" alt="Additional symposium partner logo">
+  </div>
 </section>
