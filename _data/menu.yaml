@@ -23,6 +23,8 @@ shortlinks:
         shortcut: /keynote
       - title: Program
         shortcut: /program
+      - title: Shuttle Bus
+        shortcut: /shuttle_bus
       - title: Special Session
         shortcut: /special-session
       - title: OIST Open Lab
