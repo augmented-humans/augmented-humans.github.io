@@ -175,11 +175,14 @@ committee:
   
   - group: Awards Committee Co-Chairs
     people:
-      - name: TBD
-        position: TBD
-        affiliation: TBD
-        link: https://www.google.com/
-        img: /img/committee/2026/tbd.png
+      - name: Masahiko Inami
+        position: Professor
+        affiliation: The University of Tokyo, Japan
+        img: /img/committee/2026/masahiko_inami.jpg
+      - name: Suranga Nanayakkara
+        position: Professor
+        affiliation: National University of Singapore, Singapore
+        img: /img/committee/2026/suranga_nanayakkara.jpg
 
   - group: Steering Committee
     people:
