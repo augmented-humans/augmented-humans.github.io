@@ -68,6 +68,32 @@ award-winners:
     title: "Wearability Factors for Skin Interfaces"
     authors: "Xin Liu, Katia Vega, Pattie Maes, and Joe A. Paradiso"
 
+conference_glance_title: Conference at a Glance
+conference_glance_stats:
+  - icon: "fa-solid fa-file-lines"
+    value: "61"
+    label: "Papers Accepted"
+  - icon: "fa-solid fa-microscope"
+    value: "82"
+    label: "Poster & Demo Accepted"
+  - icon: "fa-solid fa-user-group"
+    value: "292"
+    label: "Pre-Registered Participants"
+  - icon: "fa-solid fa-globe"
+    value: "18"
+    label: "Countries Represented"
+
+conference_glance_breakdown_title: Submission & Acceptance Breakdown
+conference_glance_breakdown:
+  - track: "Paper"
+    submissions: "150"
+    accepted: "61"
+    acceptance_rate: "40%"
+  - track: "Poster / Demo"
+    submissions: "116"
+    accepted: "82"
+    acceptance_rate: "71%"
+
 about-title: About the Conference
 about: |
   The Augmented Humans (AHs) International Conference 2026 will be an in-person event, held in March 2026 at Okinawa Institute of Science and Technology graduate university (OIST).
