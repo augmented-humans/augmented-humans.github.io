@@ -20,6 +20,54 @@ news:
   - date: "2025-05-30"
     content: "Website is now open!"
 
+next-conference-title: Augmented Humans 2027
+next-conference-location: Sri Lanka
+next-conference-committee-title: Organizing Committee
+next-conference-committee:
+  - "Prof. Roshan PERIS"
+  - "Prof. Dilrukshi GAMAGE"
+  - "Prof. Kouta MINAMIZAWA"
+  - "Prof. Misha SRA"
+  - "Prof. Anusha WITHAHA"
+  - "Prof. Justin MOON"
+  - "Prof. Suranga NANAYAKKARA"
+
+awards-title: Award Winners
+award-winners:
+  - name: "Best Paper Award"
+    title: "Induced Human-Driven Actuation: Controlling Timing of Human Movement via Constraint-Release Mechanism"
+    authors: "Taiga Suzuki, Seito Matsubara, Azumi Maekawa, Akihiko Murai, and Masahiko Inami"
+  - name: "Best Paper Honorable Mention"
+    title: "OpticalAging: Real-time Presbyopia Simulation for Inclusive Design via Tunable Lenses"
+    authors: "Qing Zhang, Zixiong Su, Yoshihito Kondoh, Kazunori Asada, Thad Starner, Kai Kunze, Yuta Itoh, and Jun Rekimoto"
+  - name: "Best Paper Honorable Mention"
+    title: "Making Eye Contact Accessible: Augmenting Gaze in Job Interviews for People with Visual Impairments"
+    authors: "Markus Wieland, Kathrin Schnizer, Francesco Chiossi, Nina Doerr, Florian Lang, Thomas Kosch, and Michael Sedlmair"
+  - name: "Best Student Paper Award"
+    title: "Augmenting Hand-Eye Coordination with Electrical Muscle Stimulation: Effects on Visuomotor Integration and Long-Term Skill Retention"
+    authors: "Shuo Zhou and Norihisa Segawa"
+  - name: "Best Student Paper Honorable Mention"
+    title: "A Design Framework for Virtual Space based on Spectral Relationships"
+    authors: "Pranav Tadepalli, Katherine Huang, Grace Barkhuff, Emily Layton, Parth Arora, and Thad Starner"
+  - name: "Best Demo Award"
+    title: 'Demonstrating "The Third Between Us": Multi-User Co-Presence through Shared Auditory-Haptic Vibroscapes'
+    authors: "Jiayi Shen, Kiryu Tsujita, Kohei Kobayashi, Hanrui Peng, Fuko Yamamura, Ryoya Kagawa, Masaru Yokoi, Ximing Shen, Takatoshi Yoshida, and Kouta Minamizawa"
+  - name: "Best Demo Honorable Mention"
+    title: "Nomadic Body Kit: Countering Situational Immobility with Integrated Robotic Actuation"
+    authors: "Ryoichi Ando, Mark Armstrong, Mikito Ogino, Toshihiro Ajioka, Masatane Muto, Kentaro Yoshifuji, Sohei Wakisaka, and Kouta Minamizawa"
+  - name: "Best Demo Honorable Mention"
+    title: "AR Sight Guide System for Paraclimbing: An Indoor Experiment of Spatial Localization Using Active Exploration"
+    authors: "Mikiya Masaoka, Ritaro Terada, and Sei Ikeda"
+  - name: "Best Poster Award"
+    title: "AGYLIS: A Generative Human Simulation Framework via Human-Avatar Behavioral Comparison in VR"
+    authors: "Tomohiro Tanikawa, Makoto Ando, and Satoshi Nakagawa"
+  - name: "Best Poster Honorable Mention"
+    title: "Understanding How International Students Co-develop with AI when Facing Daily Challenges in Japan"
+    authors: "Chunpi Hsieh, Jingjing Li, Ichiro Matsuda, Tatsuki Fushimi, and Yoichi Ochiai"
+  - name: "Lasting Impact Award"
+    title: "Wearability Factors for Skin Interfaces"
+    authors: "Xin Liu, Katia Vega, Pattie Maes, and Joe A. Paradiso"
+
 about-title: About the Conference
 about: |
   The Augmented Humans (AHs) International Conference 2026 will be an in-person event, held in March 2026 at Okinawa Institute of Science and Technology graduate university (OIST).
