@@ -69,6 +69,54 @@
                 </div>
               </div>
             {% endif %}
+
+            {% if site.data.landing.conference_glance_stats and site.data.landing.conference_glance_stats.size > 0 %}
+              <div class="section-divider" aria-hidden="true"></div>
+              <div class="conference-glance-block">
+                <div class="conference-glance-title">{{ site.data.landing.conference_glance_title }}</div>
+                <div class="conference-glance-stats">
+                  {% for item in site.data.landing.conference_glance_stats %}
+                    <article class="conference-glance-card">
+                      {% if item.icon %}
+                        <div class="conference-glance-icon" aria-hidden="true">
+                          <i class="{{ item.icon }}"></i>
+                        </div>
+                      {% endif %}
+                      <div class="conference-glance-value">{{ item.value }}</div>
+                      <div class="conference-glance-label">{{ item.label }}</div>
+                    </article>
+                  {% endfor %}
+                </div>
+
+                {% if site.data.landing.conference_glance_breakdown and site.data.landing.conference_glance_breakdown.size > 0 %}
+                  <div class="conference-glance-breakdown">
+                    <div class="conference-glance-breakdown-title">{{ site.data.landing.conference_glance_breakdown_title }}</div>
+                    <div class="conference-glance-table-wrap">
+                      <table class="conference-glance-table">
+                        <thead>
+                          <tr>
+                            <th>Track</th>
+                            <th>Submissions</th>
+                            <th>Accepted</th>
+                            <th>Acceptance Rate</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for item in site.data.landing.conference_glance_breakdown %}
+                            <tr>
+                              <th scope="row">{{ item.track }}</th>
+                              <td class="conference-glance-table-number">{{ item.submissions }}</td>
+                              <td class="conference-glance-table-number">{{ item.accepted }}</td>
+                              <td class="conference-glance-table-rate">{{ item.acceptance_rate }}</td>
+                            </tr>
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+            {% endif %}
           </div>
           <div class="col-lg-1"></div>
         </div>
@@ -117,12 +165,26 @@
       <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10" >
-          <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left" >
-            <span>{{ site.data.calls-for-participation.deadlines-title }}</span></div>
-            {% assign description_paragraphs = site.data.calls-for-participation.deadlines | newline_to_br | split:'<br />' %}
-            {% for paragraph in description_paragraphs %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
+            <div class="section-toggle">
+              <input
+                type="checkbox"
+                id="toggle-home-deadlines"
+                class="section-toggle-input">
+              <label class="section-toggle-trigger" for="toggle-home-deadlines">
+                <span class="section-toggle-chevron" aria-hidden="true"></span>
+                <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+                  <span>{{ site.data.calls-for-participation.deadlines-title }}</span>
+                </div>
+              </label>
+              <div class="section-toggle-content">
+                <div class="section-toggle-content-inner">
+                  {% assign description_paragraphs = site.data.calls-for-participation.deadlines | newline_to_br | split:'<br />' %}
+                  {% for paragraph in description_paragraphs %}
+                    <p>{{ paragraph }}</p>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-1"></div>
         </div>
@@ -134,61 +196,71 @@
       <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-          <div class="kw-section-title kw-huge kw-huge-alt11 kw-huge-left"><span style="color: black;">Program Overview</span></div>
-            
-            <div class="program-overview-section">
-              
-              <div class="program-day">
-                <h4><strong>Monday, March 16th</strong></h4>
-                <p><strong>Morning:</strong> Workshops</p>
-                <p><strong>Afternoon:</strong> Opening keynote, Paper sessions</p>
-                <p><strong>Evening:</strong> Seaside Banquet</p>
-              </div>
-              
-              <div class="program-day">
-                <h4><strong>Tuesday, March 17th</strong></h4>
-                <p><strong>Morning:</strong> Keynote talk, Paper sessions</p>
-                <p><strong>Afternoon:</strong> Poster&Demos, Paper sessions, Keynote talk</p>
-                <p><strong>Evening:</strong> Open Lab, OIST lab Reception</p>
-              </div>
-              
-              <div class="program-day">
-                <h4><strong>Wednesday, March 18th</strong></h4>
-                <p><strong>Morning:</strong> Paper sessions</p>
-                <p><strong>Afternoon:</strong> Poster&Demos</p>
-              </div>
-              
-              <div class="program-day">
-                <h4><strong>Thursday, March 19th</strong></h4>
-                <p><strong>Morning:</strong> Paper sessions</p>
-                <p><strong>Afternoon:</strong> Closing keynote&Workshops</p>
-              </div>
-            </div>
-            
-            <div class="hotel-section">
-              <h3><strong>Hotel Information</strong></h3>
-              <p class="hotel-notice">
-                The conference <strong><u>highly recommends Rizzan Sea Park</u></strong> as the main accommodation.<br>
-                The <strong><u>conference reception will also be held at Rizzan</u></strong>, making it a very convenient choice for access and networking.<br>
-                In addition, conference shuttle buses will operate from the recommended hotels listed on the <a href="{{ '/shuttle_bus' | relative_url }}">Shuttle Bus timetable</a>.<br>
-                We encourage all participants to consider staying at one of these hotels for convenient transportation to and from the conference venue.
-              </p>
-              <ul class="hotel-list">
-                <li class="hotel-item">
-                  <a href="https://www.rizzan.co.jp/english/" target="_blank" rel="noopener noreferrer" class="hotel-link">🌟 Rizzan Sea Park Hotel Tancha Bay</a>
-                  <span class="hotel-info">35 min on foot / 5 min by taxi (Conference Reception venue)</span>
-                </li>
-                <li class="hotel-item">
-                  <a href="https://www.moonbeach.co.jp/en/" target="_blank" rel="noopener noreferrer" class="hotel-link">Hotel Moon Beach</a>
-                  <span class="hotel-info">30 min by local bus and foot / 10 min by taxi</span>
-                </li>
-                <li class="hotel-item">
-                  <a href="https://www.kafuu-okinawa.jp/en/" target="_blank" rel="noopener noreferrer" class="hotel-link">Kafuu Resort Fuchaku</a>
-                  <span class="hotel-info">30 min by bus</span>
-                </li>
-              </ul>
-            </div>
+            <div class="section-toggle">
+              <input
+                type="checkbox"
+                id="toggle-home-program"
+                class="section-toggle-input">
+              <label class="section-toggle-trigger" for="toggle-home-program">
+                <span class="section-toggle-chevron" aria-hidden="true"></span>
+                <div class="kw-section-title kw-huge kw-huge-alt11 kw-huge-left"><span style="color: black;">Program Overview</span></div>
+              </label>
+              <div class="section-toggle-content">
+                <div class="section-toggle-content-inner">
+                  <div class="program-overview-section">
+                    <div class="program-day">
+                      <h4><strong>Monday, March 16th</strong></h4>
+                      <p><strong>Morning:</strong> Workshops</p>
+                      <p><strong>Afternoon:</strong> Opening keynote, Paper sessions</p>
+                      <p><strong>Evening:</strong> Seaside Banquet</p>
+                    </div>
 
+                    <div class="program-day">
+                      <h4><strong>Tuesday, March 17th</strong></h4>
+                      <p><strong>Morning:</strong> Keynote talk, Paper sessions</p>
+                      <p><strong>Afternoon:</strong> Poster&Demos, Paper sessions, Keynote talk</p>
+                      <p><strong>Evening:</strong> Open Lab, OIST lab Reception</p>
+                    </div>
+
+                    <div class="program-day">
+                      <h4><strong>Wednesday, March 18th</strong></h4>
+                      <p><strong>Morning:</strong> Paper sessions</p>
+                      <p><strong>Afternoon:</strong> Poster&Demos</p>
+                    </div>
+
+                    <div class="program-day">
+                      <h4><strong>Thursday, March 19th</strong></h4>
+                      <p><strong>Morning:</strong> Paper sessions</p>
+                      <p><strong>Afternoon:</strong> Closing keynote&Workshops</p>
+                    </div>
+                  </div>
+
+                  <div class="hotel-section">
+                    <h3><strong>Hotel Information</strong></h3>
+                    <p class="hotel-notice">
+                      The conference <strong><u>highly recommends Rizzan Sea Park</u></strong> as the main accommodation.<br>
+                      The <strong><u>conference reception will also be held at Rizzan</u></strong>, making it a very convenient choice for access and networking.<br>
+                      In addition, conference shuttle buses will operate from the recommended hotels listed on the <a href="{{ '/shuttle_bus' | relative_url }}">Shuttle Bus timetable</a>.<br>
+                      We encourage all participants to consider staying at one of these hotels for convenient transportation to and from the conference venue.
+                    </p>
+                    <ul class="hotel-list">
+                      <li class="hotel-item">
+                        <a href="https://www.rizzan.co.jp/english/" target="_blank" rel="noopener noreferrer" class="hotel-link">🌟 Rizzan Sea Park Hotel Tancha Bay</a>
+                        <span class="hotel-info">35 min on foot / 5 min by taxi (Conference Reception venue)</span>
+                      </li>
+                      <li class="hotel-item">
+                        <a href="https://www.moonbeach.co.jp/en/" target="_blank" rel="noopener noreferrer" class="hotel-link">Hotel Moon Beach</a>
+                        <span class="hotel-info">30 min by local bus and foot / 10 min by taxi</span>
+                      </li>
+                      <li class="hotel-item">
+                        <a href="https://www.kafuu-okinawa.jp/en/" target="_blank" rel="noopener noreferrer" class="hotel-link">Kafuu Resort Fuchaku</a>
+                        <span class="hotel-info">30 min by bus</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-1"></div>
         </div>
@@ -200,28 +272,41 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-        <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left"><span>{{ site.data.attending.venue-title }}</span></div>
-          {% assign description_paragraphs = site.data.attending.venue | newline_to_br | split:'<br />' %}
-          {% for paragraph in description_paragraphs %}
-            <p>{{ paragraph }}</p>
-          {% endfor %}
-          
-          <!-- Venue Image Gallery -->
-          <div class="venue-gallery" style="margin-top: 30px;">
-            <div class="gallery-row">
-              <div class="gallery-item">
-                <img src="/img/venue/2026/oist1.jpg" alt="OIST Venue 1" />
-              </div>
-              <div class="gallery-item">
-                <img src="/img/venue/2026/oist2.jpg" alt="OIST Venue 2" />
-              </div>
-            </div>
-            <div class="gallery-row">
-              <div class="gallery-item">
-                <img src="/img/venue/2026/oist3.jpg" alt="OIST Venue 3" />
-              </div>
-              <div class="gallery-item">
-                <img src="/img/venue/2026/oist4.jpg" alt="OIST Venue 4" />
+          <div class="section-toggle">
+            <input
+              type="checkbox"
+              id="toggle-home-location"
+              class="section-toggle-input">
+            <label class="section-toggle-trigger" for="toggle-home-location">
+              <span class="section-toggle-chevron" aria-hidden="true"></span>
+              <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left"><span>{{ site.data.attending.venue-title }}</span></div>
+            </label>
+            <div class="section-toggle-content">
+              <div class="section-toggle-content-inner">
+                {% assign description_paragraphs = site.data.attending.venue | newline_to_br | split:'<br />' %}
+                {% for paragraph in description_paragraphs %}
+                  <p>{{ paragraph }}</p>
+                {% endfor %}
+
+                <!-- Venue Image Gallery -->
+                <div class="venue-gallery" style="margin-top: 30px;">
+                  <div class="gallery-row">
+                    <div class="gallery-item">
+                      <img src="/img/venue/2026/oist1.jpg" alt="OIST Venue 1" />
+                    </div>
+                    <div class="gallery-item">
+                      <img src="/img/venue/2026/oist2.jpg" alt="OIST Venue 2" />
+                    </div>
+                  </div>
+                  <div class="gallery-row">
+                    <div class="gallery-item">
+                      <img src="/img/venue/2026/oist3.jpg" alt="OIST Venue 3" />
+                    </div>
+                    <div class="gallery-item">
+                      <img src="/img/venue/2026/oist4.jpg" alt="OIST Venue 4" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -232,6 +317,87 @@
 </section>
 
 <style>
+.section-toggle {
+  position: relative;
+}
+
+.section-toggle-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.section-toggle-trigger {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.section-toggle-trigger .kw-section-title {
+  margin-bottom: 0;
+  flex: 1 1 auto;
+}
+
+.section-toggle-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  min-width: 26px;
+  color: #131313;
+  font-size: 26px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.section-toggle-chevron::before {
+  content: "▷";
+}
+
+.section-toggle-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  margin-top: 0;
+  opacity: 0;
+  transition: grid-template-rows 0.3s ease, margin-top 0.3s ease, opacity 0.2s ease;
+}
+
+.section-toggle-content-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.section-toggle-content-inner > :first-child {
+  margin-top: 0;
+}
+
+.section-toggle-input:focus-visible + .section-toggle-trigger {
+  outline: 2px solid #131313;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.section-toggle-input:checked + .section-toggle-trigger .section-toggle-chevron::before {
+  content: "▽";
+}
+
+.section-toggle-input:checked ~ .section-toggle-content {
+  grid-template-rows: 1fr;
+  margin-top: 24px;
+  opacity: 1;
+}
+
 .venue-gallery {
   max-width: 100%;
 }
@@ -264,6 +430,14 @@
 
 /* Mobile layout - stack vertically */
 @media (max-width: 768px) {
+  .section-toggle-trigger {
+    align-items: flex-start;
+  }
+
+  .section-toggle-chevron {
+    margin-top: 4px;
+  }
+
   .gallery-row {
     flex-direction: column;
     gap: 15px;
