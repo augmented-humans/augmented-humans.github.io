@@ -17,6 +17,58 @@
                 <p>No news available at the moment.</p>
               {% endif %}
             </div>
+
+            {% if site.data.landing.next-conference-title %}
+              <div class="section-divider" aria-hidden="true"></div>
+              <div class="next-conference-block">
+                <div class="next-conference-layout">
+                  <div class="next-conference-content">
+                    <div class="next-conference-title">{{ site.data.landing.next-conference-title }}</div>
+                    <div class="next-conference-location-block">
+                      <div class="next-conference-label">Location</div>
+                      <div class="next-conference-location"><span class="next-conference-flag" aria-hidden="true">🇱🇰</span>{{ site.data.landing.next-conference-location }}</div>
+                    </div>
+
+                    {% if site.data.landing.next-conference-committee and site.data.landing.next-conference-committee.size > 0 %}
+                      <div class="next-conference-committee">
+                        <div class="next-conference-subtitle">{{ site.data.landing.next-conference-committee-title }}</div>
+                        <ul class="next-conference-committee-list">
+                          {% for member in site.data.landing.next-conference-committee %}
+                            <li>{{ member }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    {% endif %}
+                  </div>
+
+                  <div class="next-conference-visual">
+                    <iframe
+                      src="https://www.google.com/maps?q=Sri+Lanka&output=embed"
+                      title="Google Map of Sri Lanka"
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                      allowfullscreen>
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+
+            {% if site.data.landing.award-winners and site.data.landing.award-winners.size > 0 %}
+              <div class="section-divider" aria-hidden="true"></div>
+              <div class="award-winners-block">
+                <div class="award-winners-title">{{ site.data.landing.awards-title }}</div>
+                <div class="award-winners-grid">
+                  {% for award in site.data.landing.award-winners %}
+                    <article class="award-card {% if award.name contains 'Honorable Mention' %}award-card--mention{% else %}award-card--winner{% endif %}">
+                      <div class="award-name">{{ award.name }}</div>
+                      <h3 class="award-paper-title">{{ award.title }}</h3>
+                      <p class="award-authors">{{ award.authors }}</p>
+                    </article>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
           </div>
           <div class="col-lg-1"></div>
         </div>
