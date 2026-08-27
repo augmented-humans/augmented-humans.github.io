@@ -82,12 +82,12 @@ shortlinks:
   #       shortcut: /list-of-workshops
   # #     - title: Mentoring
   # #       shortcut: /mentoring
-  - title: SPONSORSHIP
-    shortcut: /sponsors
-  - title: Committee
-    shortcut: /committee
-  - title: Access
-    shortcut: /access
+  # - title: SPONSORSHIP
+  #   shortcut: /sponsors
+  # - title: Committee
+  #   shortcut: /committee
+  # - title: Access
+  #   shortcut: /access
   - title: Past conferences
     shortcut: /previous-conferences
 

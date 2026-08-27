@@ -1,10 +1,10 @@
 <div style="background-color: white;">
   <div class="prefooter-logos" aria-label="Conference partner logos">
     {% for file in site.static_files %}
-      {% if file.path contains '/img/assets/logo_2026/' %}
+      {% if file.path contains '/img/assets/logo_2027/' %}
         <img class="sponsor-img" src="{{ file.path | relative_url }}" alt="{{ file.name | split: '.' | first | replace: '-', ' ' | replace: '_', ' ' }}">
       {% endif %}
     {% endfor %}
-    <img class="sponsor-img" src="{{ '/img/assets/oist-logo.png' | relative_url }}" alt="oist logo">
+    <!-- <img class="sponsor-img" src="{{ '/img/assets/oist-logo.png' | relative_url }}" alt="oist logo"> -->
   </div>
 </div>
