@@ -1,6 +1,5 @@
 ---
 ---
-
 @charset "utf-8";
 
 // Example Defaults
@@ -33,39 +32,68 @@
 //     }
 // }
 
-// color theme for Okinawa
-$theme-background-primary: #0077be;
+// Color theme for Sri Lanka
+$color-sri-lank-green: #118e78;
+$color-sri-lank-orange: #ca8943;
+$color-sri-lank-yellow: #ca8943;
+$color-sri-lank-red: #72281e;
+//-------
+
+$theme-background-primary: $color-sri-lank-green;
 $theme-background-secondary: #FFF;
 $theme-background-tertiary: #f0f8ff;
 
-$theme-primary: #ff6b35;
-$theme-secondary: #0077be;
-$theme-tertiary: #4ecdc4;
+$theme-primary: $color-sri-lank-orange;
+$theme-secondary: $color-sri-lank-green;
+$theme-tertiary: $color-sri-lank-yellow;
 $theme-offwhite: #fff8dc;
 
-$theme-accent: #ff6b35;
+$theme-accent: $color-sri-lank-orange;
 
-$hyperlinks: #0077be;
-$color-highlight: #0077be;
-$navbar-hover: #4ecdc4;
+$hyperlinks: $color-sri-lank-green;
+$color-highlight: $color-sri-lank-green;
+$navbar-hover: $color-sri-lank-yellow;
 
 // variables.less link and gradient background
-$head-primary: #0077be;
-$head-secondary: #004d7a;
+$head-primary: $color-sri-lank-green;
+$head-secondary: $color-sri-lank-green;
 
+// color theme for Okinawa
+// $theme-background-primary: #0077be;
+// $theme-background-secondary: #FFF;
+// $theme-background-tertiary: #f0f8ff;
+
+// $theme-primary: #ff6b35;
+// $theme-secondary: #0077be;
+// $theme-tertiary: #4ecdc4;
+// $theme-offwhite: #fff8dc;
+
+// $theme-accent: #ff6b35;
+
+// $hyperlinks: #0077be;
+// $color-highlight: #0077be;
+// $navbar-hover: #4ecdc4;
+
+// // variables.less link and gradient background
+// $head-primary: #0077be;
+// $head-secondary: #004d7a;
+
+// ----
 // $theme-primary: #527aac; //#385566; //   00ff9f ;
 // $theme-secondary: #abc6e6;//#527aac; //#5e7cbd;
 // $theme-dark: #222;
 
 $color-lblue: #29b7ea;
-$color-dblue: #193f82;
+$color-dblue: #00534e;
 $color-black: #161616;
 $color-grey: #8e8e8e;
 $color-white: #fff;
 
 
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "mixins",
-  "base"
+"mixins",
+"base"
 ;
