@@ -52,21 +52,22 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.5.3)
     mercenary (0.4.0)
-    mini_portile2 (2.8.1)
-    nokogiri (1.14.3)
-      mini_portile2 (~> 2.8.0)
+    mini_portile2 (2.8.9)
+    nokogiri (1.19.4)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.14.3-x64-mingw32)
+    nokogiri (1.19.4-arm64-darwin)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
-    racc (1.6.2)
+    racc (1.8.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -83,6 +84,7 @@ GEM
     webrick (1.9.0)
 
 PLATFORMS
+  arm64-darwin
   ruby
   x64-mingw32
 
@@ -94,8 +96,9 @@ DEPENDENCIES
   jekyll-seo
   jekyll-seo-tag
   jekyll-sitemap
+  logger (= 1.5.3)
   nokogiri
   webrick (~> 1.9)
 
 BUNDLED WITH
-   2.5.23
+   2.5.3
