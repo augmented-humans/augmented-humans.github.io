@@ -1,11 +1,11 @@
 page-title: <strong>S</strong>tudent <strong>V</strong>olunteers
 
-application-instructions-title: APPLICATION INSTRUCTIONS
-application-instructions: |
-  To apply to be a student volunteer, please click the button below to access the application form and submit it. Applications from undergraduate, Master's, and Ph.D. students are all welcome.
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeiSmY_ABPSsVhItVzjb9Tab1bsTSz9B9E67O4StGwqWOiV9Q/viewform?usp=dialog" class="btn btn-lg" target="_blank" rel="noopener noreferrer" style="background-color: #ff6b35; border: 2px solid #F4FDD9; color: white !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#ff6b35'">Application Form</a>
+# application-instructions-title: APPLICATION INSTRUCTIONS
+# application-instructions: |
+#   To apply to be a student volunteer, please click the button below to access the application form and submit it. Applications from undergraduate, Master's, and Ph.D. students are all welcome.
+#   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeiSmY_ABPSsVhItVzjb9Tab1bsTSz9B9E67O4StGwqWOiV9Q/viewform?usp=dialog" class="btn btn-lg" target="_blank" rel="noopener noreferrer" style="background-color: #ff6b35; border: 2px solid #F4FDD9; color: white !important; margin-top: 25px;" onMouseOver="this.style['background-color']='#4ecdc4'" onMouseOut="this.style['background-color']='#ff6b35'">Application Form</a>
 
-  For inquiries about Student Volunteers, please email <a href="mailto:Mark@keio.jp">Mark@keio.jp</a>.
+#   For inquiries about Student Volunteers, please email <a href="mailto:Mark@keio.jp">Mark@keio.jp</a>.
 
 # questions-title: Questions
 # questions: If you have any questions or problems, please contact the Student Volunteers Chair (Mr. Pascal Knierim):
@@ -16,17 +16,17 @@ duties: |
   SVs will be required to help set up and perform a variety of work during the conference, as needed. Duties will include bag stuffing, manning the registration desk, AV assistance, poster and demo setup, badge checking, break monitoring, etc.
   Volunteers will also need to be available on-call during the conference if new tasks come up. Student volunteers will usually be able to attend most of the conference sessions, even while working.
 
-arriving-title: ARRIVING AND LEAVING
-arriving: |
-  Details will be announced later.
+# arriving-title: ARRIVING AND LEAVING
+# arriving: |
+#   Details will be announced later.
 
-notes-title: NOTES
-notes: |
-  We will not be able to provide free accommodations for student volunteers.
+# notes-title: NOTES
+# notes: |
+#   We will not be able to provide free accommodations for student volunteers.
 
 acommodation-title: IMPORTANT DATES
 accomodation: |
-  <strong>Application deadline:</strong> February 12th, 2026 (AoE)
-  <strong>Notification of acceptance:</strong> February 15th, 2026 (AoE)
-  <strong>Conference dates:</strong> March 16th - March 19th, 2026 (AoE)
+  <strong>Application deadline:</strong> TBA
+  <strong>Notification of acceptance:</strong> TBA
+  <strong>Conference dates:</strong> TBA
   

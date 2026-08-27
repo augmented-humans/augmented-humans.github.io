@@ -52,7 +52,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #0077be; // 海の青
+  color: $color-sri-lank-green; // 海の青
   text-decoration: underline;
   &:hover, &:focus {
     color: $theme-tertiary;
@@ -765,8 +765,7 @@ header.masthead {
   overflow-x: hidden;
   padding-top: calc(0.88*5rem + 55px);
   padding-bottom: 0.88*7rem;
-        background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%); // 沖縄の海のグラデーション
-      animation: okinawaWaveAnimation 20s ease-in-out infinite; // 沖縄の波のアニメーション
+  background-image: url('../img/assets/bg_header_2027.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -809,8 +808,8 @@ header.masthead {
       font-weight: 100;
       color: white;
       background-color: rgba(0, 119, 190, 0.9);
-      background: linear-gradient(135deg, #0077be 60%, #4ecdc4 90%); // 海の青からエメラルドグリーンへ
-      border: 5px solid #fff;
+      background: $color-sri-lank-green; // 海の青からエメラルドグリーンへ
+      border: 2px solid #fff;
       max-width: 90%; // モバイルでも最大幅を設定
       font-size: 1.8rem; // モバイル用のフォントサイズ
 
@@ -825,11 +824,11 @@ header.masthead {
       // font-size: 0.88*1.5rem;
       // color: $theme-offwhite;
       // background-color: rgba(58, 175, 185, 0.9);
-      color: #ff6b35; // サンゴのオレンジ
+      color: $color-sri-lank-orange; // サンゴのオレンジ
       background-color: rgba(255, 248, 220, 0.95); // 砂浜色の背景
-      border: 3px solid #4ecdc4; // エメラルドグリーンの枠線
+      border: 2px solid $color-sri-lank-orange; // エメラルドグリーンの枠線
       max-width: 90%; // モバイルでも最大幅を設定
-      font-size: 1.2rem; // モバイル用のフォントサイズ
+      font-size: 1.1rem; // モバイル用のフォントサイズ
     }
     .container {
       pointer-events: none;
@@ -871,19 +870,19 @@ header.masthead {
 // 沖縄の波のアニメーション
 @keyframes okinawaWaveAnimation {
   0% {
-    background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%);
+    background: linear-gradient(135deg, $color-sri-lank-green 0%, #4ecdc4 50%, #87ceeb 100%);
   }
   25% {
-    background: linear-gradient(135deg, #4ecdc4 0%, #87ceeb 50%, #0077be 100%);
+    background: linear-gradient(135deg, #4ecdc4 0%, #87ceeb 50%, $color-sri-lank-green 100%);
   }
   50% {
-    background: linear-gradient(135deg, #87ceeb 0%, #0077be 50%, #4ecdc4 100%);
+    background: linear-gradient(135deg, #87ceeb 0%, $color-sri-lank-green 50%, #4ecdc4 100%);
   }
   75% {
-    background: linear-gradient(135deg, #0077be 0%, #87ceeb 50%, #4ecdc4 100%);
+    background: linear-gradient(135deg, $color-sri-lank-green 0%, #87ceeb 50%, #4ecdc4 100%);
   }
   100% {
-    background: linear-gradient(135deg, #0077be 0%, #4ecdc4 50%, #87ceeb 100%);
+    background: linear-gradient(135deg, $color-sri-lank-green 0%, #4ecdc4 50%, #87ceeb 100%);
   }
 }
 
@@ -1073,7 +1072,7 @@ header.masthead {
   }
 
   &.kw-huge-alt {
-    color: #0077be; // 沖縄の海の青
+    color: $color-sri-lank-green; // 沖縄の海の青
     span {
       display: inline-block;
       border-style: double;
@@ -1086,7 +1085,7 @@ header.masthead {
     span {
       display: inline-block;
       border-style: double;
-      border-color: #0077be; // 沖縄の海の青
+      border-color: $color-sri-lank-green; // 沖縄の海の青
       // border-bottom: 10px solid $color-highlight;
     }
   }
@@ -1775,8 +1774,8 @@ section.flip2 {
 }
 
 .kw-program-top {
-  border-bottom: 8px #0077be solid; // 沖縄の海の青
-  background-color: #0077be !important; // 沖縄の海の青
+  border-bottom: 8px $color-sri-lank-green solid; // 沖縄の海の青
+  background-color: $color-sri-lank-green !important; // 沖縄の海の青
 }
 
 .kw-maillist {
@@ -1913,7 +1912,7 @@ section.flip2 {
     .title {
       margin-top: 5px;
       font-size: medium;
-      color: #0077be;
+      color: $color-sri-lank-green;
       font-style: italic;
       position: relative;
       
@@ -1938,7 +1937,7 @@ section.flip2 {
     }
 
     a:link, a:visited{
-      color: #0077be; // 沖縄の海の青
+      color: $color-sri-lank-green; // 沖縄の海の青
       font-size: large;
       text-decoration: underline;
     }
@@ -1998,7 +1997,7 @@ section.flip2 {
     .title {
       margin-top: 5px;
       font-size: medium;
-      color: #0077be;
+      color: $color-sri-lank-green;
       font-style: italic;
       position: relative;
       
@@ -2023,7 +2022,7 @@ section.flip2 {
     }
 
     a:link, a:visited{
-      color: #0077be; // 沖縄の海の青
+      color: $color-sri-lank-green; // 沖縄の海の青
       font-size: large;
       text-decoration: underline;
     }
@@ -2040,7 +2039,7 @@ section.flip2 {
   margin-bottom: 20px !important;
 
   .k-title {
-    color: #0077be; // 沖縄の海の青
+    color: $color-sri-lank-green; // 沖縄の海の青
   }
 }
 
@@ -2060,7 +2059,7 @@ section.flip2 {
   td,th {
       // text-align: left;
       padding: 16px;
-      color: #0077be; // 沖縄の海の青
+      color: $color-sri-lank-green; // 沖縄の海の青
       font-size: larger;
   }
 
@@ -2080,7 +2079,7 @@ section.flip2 {
   td,th {
       // text-align: left;
       padding: 16px;
-      color: #0077be; // 沖縄の海の青
+      color: $color-sri-lank-green; // 沖縄の海の青
       font-size: larger;
       border: 2px solid black;
   }
@@ -2090,7 +2089,7 @@ section.flip2 {
   }
 
   ul{
-    color: #0077be; // 沖縄の海の青
+    color: $color-sri-lank-green; // 沖縄の海の青
   }
 
   p{
@@ -2114,7 +2113,7 @@ section.flip2 {
   }
 
   p.authors, a.doi {
-    color: #0077be; // 沖縄の海の青
+    color: $color-sri-lank-green; // 沖縄の海の青
     font-style: italic;
     font-size: 90%;
     // margin-bottom: 0;
@@ -2432,7 +2431,7 @@ transform-origin: 50% 50%;
   .news-date {
     font-family: 'Monospaced font', sans-serif;
     font-size: 13px; // フォントサイズを小さく
-    color: #0077be; // 沖縄の海の青
+    color: $color-sri-lank-green; // 沖縄の海の青
     font-weight: 600;
     margin-bottom: 6px; // marginを減らす
     display: block;
@@ -2563,7 +2562,7 @@ transform-origin: 50% 50%;
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #0077be;
+    background: $color-sri-lank-green;
     box-shadow: 0 0 0 4px rgba(0, 119, 190, 0.1);
   }
 
@@ -2878,7 +2877,7 @@ transform-origin: 50% 50%;
   h3 {
     margin-bottom: 20px;
     color: #333;
-    border-bottom: 2px solid #0077be;
+    border-bottom: 2px solid $color-sri-lank-green;
     padding-bottom: 8px;
   }
   
@@ -2894,7 +2893,7 @@ transform-origin: 50% 50%;
     h4 {
       margin-bottom: 15px;
       margin-top: 0;
-      color: #0077be;
+      color: $color-sri-lank-green;
       font-size: 18px;
     }
     
@@ -2911,7 +2910,7 @@ transform-origin: 50% 50%;
       }
       
       strong {
-        color: #0077be;
+        color: $color-sri-lank-green;
         font-weight: 600;
       }
     }
@@ -2956,7 +2955,7 @@ transform-origin: 50% 50%;
   box-shadow: none;
 
   h4 {
-    color: #0077be;
+    color: $color-sri-lank-green;
     margin: 0 0 12px;
     font-size: 24px;
     line-height: 1.35;
@@ -2991,8 +2990,8 @@ transform-origin: 50% 50%;
 }
 
 .paper-session-toggle {
-  border: 1px solid #0077be;
-  background: #0077be;
+  border: 1px solid $color-sri-lank-green;
+  background: $color-sri-lank-green;
   color: #ffffff;
   border-radius: 6px;
   padding: 4px 10px;
@@ -3044,7 +3043,7 @@ transform-origin: 50% 50%;
   h3 {
     margin-bottom: 15px;
     color: #333;
-    border-bottom: 2px solid #0077be;
+    border-bottom: 2px solid $color-sri-lank-green;
     padding-bottom: 8px;
   }
   
@@ -3079,7 +3078,7 @@ transform-origin: 50% 50%;
 
 .program-schedule {
   padding: 80px 0;
-  background-color: #0077be;
+  background-color: $color-sri-lank-green;
   color: #f5f8ff;
 
   .kw-section-title span {

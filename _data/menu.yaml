@@ -14,23 +14,23 @@ shortlinks:
         shortcut: /call-for-poster-demo
       - title: Workshops
         shortcut: /call-for-workshop
-      - title: Student Volunteers
-        shortcut: /student-volunteer
-  - title: Program
-    shortcut: /program
-    sublinks:
-      - title: Keynote
-        shortcut: /keynote
-      - title: Program
-        shortcut: /program
-      - title: Shuttle Bus
-        shortcut: /shuttle_bus
-      - title: Special Session
-        shortcut: /special-session
-      - title: OIST Open Lab
-        shortcut: /oist-open-lab
-  - title: Registration
-    shortcut: /registration
+      # - title: Student Volunteers
+      #   shortcut: /student-volunteer
+  # - title: Program
+  #   shortcut: /program
+  #   sublinks:
+      # - title: Keynote
+      #   shortcut: /keynote
+      # - title: Program
+      #   shortcut: /program
+      # - title: Shuttle Bus
+      #   shortcut: /shuttle_bus
+      # - title: Special Session
+      #   shortcut: /special-session
+      # - title: OIST Open Lab
+      #   shortcut: /oist-open-lab
+  # - title: Registration
+  #   shortcut: /registration
   # - title: Participating
   #   shortcut: /calls-for-participation
   #   sublinks:

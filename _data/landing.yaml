@@ -1,5 +1,5 @@
-title: <strong>A</strong>ugmented <strong>H</strong>uman<strong><i>s</i></strong> 20<strong>26</strong> <br /> March 16-19, 2026
-subtitle: Okinawa, Japan
+title: <strong>A</strong>ugmented <strong>H</strong>uman<strong><i>s</i></strong> 20<strong>27</strong> <br /> March 16-19, 2027
+subtitle: Colombo, Sri Lanka
 
 notice:
 
@@ -7,102 +7,102 @@ show_notice: false
 
 news-title: News
 news:
-  - date: "2026-03-15"
-    content: "Shuttle bus timetable published: <a href='/shuttle_bus'>/shuttle_bus</a>"
-  - date: "2026-01-16"
-    content: "Call for Student Volunteers is started: <a href='/student-volunteer'>/call-for-student-volunteers</a>"
-  - date: "2025-11-11"
-    content: "Full/Short Paper submission deadline extended: <s>November 18th, 2025</s> <strong><u>November 25th, 2025</u></strong> (AoE). See details: <a href='/call-for-full-short-papers'>Full & Short Papers</a>"
-  - date: "2025-10-05"
-    content: "Submission Guidelines page published: <a href='/submission-guideline'>/submission-guideline</a>"
-  - date: "2025-09-10"
-    content: "Access page added: <a href='/access'>/access</a>"
-  - date: "2025-05-30"
+  # - date: "2026-03-15"
+  #   content: "Shuttle bus timetable published: <a href='/shuttle_bus'>/shuttle_bus</a>"
+  # - date: "2026-01-16"
+  #   content: "Call for Student Volunteers is started: <a href='/student-volunteer'>/call-for-student-volunteers</a>"
+  # - date: "2025-11-11"
+  #   content: "Full/Short Paper submission deadline extended: <s>November 18th, 2025</s> <strong><u>November 25th, 2025</u></strong> (AoE). See details: <a href='/call-for-full-short-papers'>Full & Short Papers</a>"
+  # - date: "2025-10-05"
+  #   content: "Submission Guidelines page published: <a href='/submission-guideline'>/submission-guideline</a>"
+  # - date: "2025-09-10"
+  #   content: "Access page added: <a href='/access'>/access</a>"
+  - date: "2026-09-13"
     content: "Website is now open!"
 
-next-conference-title: Augmented Humans 2027
-next-conference-location: Sri Lanka
-next-conference-committee-title: Organizing Committee
-next-conference-committee:
-  - "Prof. Roshan PERIS"
-  - "Prof. Dilrukshi GAMAGE"
-  - "Prof. Kouta MINAMIZAWA"
-  - "Prof. Misha SRA"
-  - "Prof. Anusha WITHAHA"
-  - "Prof. Justin MOON"
-  - "Prof. Suranga NANAYAKKARA"
+# next-conference-title: Augmented Humans 2027
+# next-conference-location: Sri Lanka
+# next-conference-committee-title: Organizing Committee
+# next-conference-committee:
+#   - "Prof. Roshan PERIS"
+#   - "Prof. Dilrukshi GAMAGE"
+#   - "Prof. Kouta MINAMIZAWA"
+#   - "Prof. Misha SRA"
+#   - "Prof. Anusha WITHAHA"
+#   - "Prof. Justin MOON"
+#   - "Prof. Suranga NANAYAKKARA"
 
-awards-title: Award Winners
-award-winners:
-  - name: "Best Paper Award"
-    title: "Induced Human-Driven Actuation: Controlling Timing of Human Movement via Constraint-Release Mechanism"
-    authors: "Taiga Suzuki, Seito Matsubara, Azumi Maekawa, Akihiko Murai, and Masahiko Inami"
-  - name: "Best Paper Honorable Mention"
-    title: "OpticalAging: Real-time Presbyopia Simulation for Inclusive Design via Tunable Lenses"
-    authors: "Qing Zhang, Zixiong Su, Yoshihito Kondoh, Kazunori Asada, Thad Starner, Kai Kunze, Yuta Itoh, and Jun Rekimoto"
-  - name: "Best Paper Honorable Mention"
-    title: "Making Eye Contact Accessible: Augmenting Gaze in Job Interviews for People with Visual Impairments"
-    authors: "Markus Wieland, Kathrin Schnizer, Francesco Chiossi, Nina Doerr, Florian Lang, Thomas Kosch, and Michael Sedlmair"
-  - name: "Best Student Paper Award"
-    title: "Augmenting Hand-Eye Coordination with Electrical Muscle Stimulation: Effects on Visuomotor Integration and Long-Term Skill Retention"
-    authors: "Shuo Zhou and Norihisa Segawa"
-  - name: "Best Student Paper Honorable Mention"
-    title: "Looking Down Seems Wrong: Unintended Social Effects from Head-Up Display Notification Placement"
-    authors: "Pranav Tadepalli, Katherine Huang, Grace Barkhuff, Emily Layton, Parth Arora and Thad Starner"
-  - name: "Best Student Paper Honorable Mention"
-    title: "A Design Framework for Virtual Space based on Spectral Relationships"
-    authors: "Hanlin Wang, Hirosuke Asahi, Rose Shao, Kunihara Sakurada, Hiroto Saito, Jiayi Xu, Kenshin Kondo, Takeru Tokoro and Masahiko Inami"
-  - name: "Best Demo Award"
-    title: 'Demonstrating "The Third Between Us": Multi-User Co-Presence through Shared Auditory-Haptic Vibroscapes'
-    authors: "Jiayi Shen, Kiryu Tsujita, Kohei Kobayashi, Hanrui Peng, Fuko Yamamura, Ryoya Kagawa, Masaru Yokoi, Ximing Shen, Takatoshi Yoshida, and Kouta Minamizawa"
-  - name: "Best Demo Honorable Mention"
-    title: "Nomadic Body Kit: Countering Situational Immobility with Integrated Robotic Actuation"
-    authors: "Ryoichi Ando, Mark Armstrong, Mikito Ogino, Toshihiro Ajioka, Masatane Muto, Kentaro Yoshifuji, Sohei Wakisaka, and Kouta Minamizawa"
-  - name: "Best Demo Honorable Mention"
-    title: "AR Sight Guide System for Paraclimbing: An Indoor Experiment of Spatial Localization Using Active Exploration"
-    authors: "Mikiya Masaoka, Rintaro Terada, and Sei Ikeda"
-  - name: "Best Poster Award"
-    title: "AGYLIS: A Generative Human Simulation Framework via Human-Avatar Behavioral Comparison in VR"
-    authors: "Tomohiro Tanikawa, Makoto Ando, and Satoshi Nakagawa"
-  - name: "Best Poster Honorable Mention"
-    title: "Understanding How International Students Co-develop with AI when Facing Daily Challenges in Japan"
-    authors: "Chunpi Hsieh, Jingjing Li, Ichiro Matsuda, Tatsuki Fushimi, and Yoichi Ochiai"
-  - name: "Best Poster Honorable Mention"
-    title: "Invisible Feast: Augmenting Sensory Perception via Peripheral Social Cues"
-    authors: "Ting Cheng Nieh, Hiroki Sakaji, Keiichi Zempo, and Yukiko Ogura"
-  - name: "Lasting Impact Award"
-    title: "Wearability Factors for Skin Interfaces"
-    authors: "Xin Liu, Katia Vega, Pattie Maes, and Joe A. Paradiso"
+# awards-title: Award Winners
+# award-winners:
+#   - name: "Best Paper Award"
+#     title: "Induced Human-Driven Actuation: Controlling Timing of Human Movement via Constraint-Release Mechanism"
+#     authors: "Taiga Suzuki, Seito Matsubara, Azumi Maekawa, Akihiko Murai, and Masahiko Inami"
+#   - name: "Best Paper Honorable Mention"
+#     title: "OpticalAging: Real-time Presbyopia Simulation for Inclusive Design via Tunable Lenses"
+#     authors: "Qing Zhang, Zixiong Su, Yoshihito Kondoh, Kazunori Asada, Thad Starner, Kai Kunze, Yuta Itoh, and Jun Rekimoto"
+#   - name: "Best Paper Honorable Mention"
+#     title: "Making Eye Contact Accessible: Augmenting Gaze in Job Interviews for People with Visual Impairments"
+#     authors: "Markus Wieland, Kathrin Schnizer, Francesco Chiossi, Nina Doerr, Florian Lang, Thomas Kosch, and Michael Sedlmair"
+#   - name: "Best Student Paper Award"
+#     title: "Augmenting Hand-Eye Coordination with Electrical Muscle Stimulation: Effects on Visuomotor Integration and Long-Term Skill Retention"
+#     authors: "Shuo Zhou and Norihisa Segawa"
+#   - name: "Best Student Paper Honorable Mention"
+#     title: "Looking Down Seems Wrong: Unintended Social Effects from Head-Up Display Notification Placement"
+#     authors: "Pranav Tadepalli, Katherine Huang, Grace Barkhuff, Emily Layton, Parth Arora and Thad Starner"
+#   - name: "Best Student Paper Honorable Mention"
+#     title: "A Design Framework for Virtual Space based on Spectral Relationships"
+#     authors: "Hanlin Wang, Hirosuke Asahi, Rose Shao, Kunihara Sakurada, Hiroto Saito, Jiayi Xu, Kenshin Kondo, Takeru Tokoro and Masahiko Inami"
+#   - name: "Best Demo Award"
+#     title: 'Demonstrating "The Third Between Us": Multi-User Co-Presence through Shared Auditory-Haptic Vibroscapes'
+#     authors: "Jiayi Shen, Kiryu Tsujita, Kohei Kobayashi, Hanrui Peng, Fuko Yamamura, Ryoya Kagawa, Masaru Yokoi, Ximing Shen, Takatoshi Yoshida, and Kouta Minamizawa"
+#   - name: "Best Demo Honorable Mention"
+#     title: "Nomadic Body Kit: Countering Situational Immobility with Integrated Robotic Actuation"
+#     authors: "Ryoichi Ando, Mark Armstrong, Mikito Ogino, Toshihiro Ajioka, Masatane Muto, Kentaro Yoshifuji, Sohei Wakisaka, and Kouta Minamizawa"
+#   - name: "Best Demo Honorable Mention"
+#     title: "AR Sight Guide System for Paraclimbing: An Indoor Experiment of Spatial Localization Using Active Exploration"
+#     authors: "Mikiya Masaoka, Rintaro Terada, and Sei Ikeda"
+#   - name: "Best Poster Award"
+#     title: "AGYLIS: A Generative Human Simulation Framework via Human-Avatar Behavioral Comparison in VR"
+#     authors: "Tomohiro Tanikawa, Makoto Ando, and Satoshi Nakagawa"
+#   - name: "Best Poster Honorable Mention"
+#     title: "Understanding How International Students Co-develop with AI when Facing Daily Challenges in Japan"
+#     authors: "Chunpi Hsieh, Jingjing Li, Ichiro Matsuda, Tatsuki Fushimi, and Yoichi Ochiai"
+#   - name: "Best Poster Honorable Mention"
+#     title: "Invisible Feast: Augmenting Sensory Perception via Peripheral Social Cues"
+#     authors: "Ting Cheng Nieh, Hiroki Sakaji, Keiichi Zempo, and Yukiko Ogura"
+#   - name: "Lasting Impact Award"
+#     title: "Wearability Factors for Skin Interfaces"
+#     authors: "Xin Liu, Katia Vega, Pattie Maes, and Joe A. Paradiso"
 
-conference_glance_title: Conference at a Glance
-conference_glance_stats:
-  - icon: "fa-solid fa-file-lines"
-    value: "61"
-    label: "Papers Accepted"
-  - icon: "fa-solid fa-microscope"
-    value: "82"
-    label: "Poster & Demo Accepted"
-  - icon: "fa-solid fa-user-group"
-    value: "292"
-    label: "Pre-Registered Participants"
-  - icon: "fa-solid fa-globe"
-    value: "18"
-    label: "Countries Represented"
+# conference_glance_title: Conference at a Glance
+# conference_glance_stats:
+#   - icon: "fa-solid fa-file-lines"
+#     value: "61"
+#     label: "Papers Accepted"
+#   - icon: "fa-solid fa-microscope"
+#     value: "82"
+#     label: "Poster & Demo Accepted"
+#   - icon: "fa-solid fa-user-group"
+#     value: "292"
+#     label: "Pre-Registered Participants"
+#   - icon: "fa-solid fa-globe"
+#     value: "18"
+#     label: "Countries Represented"
 
-conference_glance_breakdown_title: Submission & Acceptance Breakdown
-conference_glance_breakdown:
-  - track: "Paper"
-    submissions: "150"
-    accepted: "61"
-    acceptance_rate: "40%"
-  - track: "Poster / Demo"
-    submissions: "116"
-    accepted: "82"
-    acceptance_rate: "71%"
+# conference_glance_breakdown_title: Submission & Acceptance Breakdown
+# conference_glance_breakdown:
+#   - track: "Paper"
+#     submissions: "150"
+#     accepted: "61"
+#     acceptance_rate: "40%"
+#   - track: "Poster / Demo"
+#     submissions: "116"
+#     accepted: "82"
+#     acceptance_rate: "71%"
 
 about-title: About the Conference
 about: |
-  The Augmented Humans (AHs) International Conference 2026 will be an in-person event, held in March 2026 at Okinawa Institute of Science and Technology graduate university (OIST).
+  The Augmented Humans (AHs) International Conference 2027 will be an in-person event, held in March 2027 at [TO CHANGE].
   The conference focuses on physical, cognitive, and perceptual augmentation of humans through digital technologies. The plural - humans - emphasizes the move towards technologies that enhance human capabilities beyond the individual and will have the potential for impact on a societal scale.
   The idea of augmenting the human intellect has a long tradition, the term was coined by Douglas Engelbart in 1962&nbsp[1]. Today, many of the technologies envisioned by Engelbart and other are commonplace, and looking towards the future, many technologies which amplify the human body and mind far beyond the original vision are within reach.
   The conference proceedings are planned to be published in the ACM Digital Library as a volume in its International Conference Proceedings Series with ISBN.
@@ -115,7 +115,7 @@ about: |
 #   We would also like to extend our appreciation to those who submitted their valuable scientific work for consideration, as well as to our keynote speaker, Florian Alt, the session chairs, and the student volunteers who all generously gave their time and expertise to make this conference possible. Finally, we hope that you enjoyed the conference dinner and had the opportunity to network and forge new collaborations with your colleagues. Your participation has made this conference a resounding success and we look forward to seeing you again in Australia next year.
 #   Stay tuned for more information regarding AHs '25 soon!
 
-impressions-title: Impressions from AHs 2026
+impressions-title: Impressions from AHs 2027
 impressions: |
 
 # feedback-title: Feedback
