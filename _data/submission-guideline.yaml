@@ -48,7 +48,7 @@ deadlines-title: Submission Deadlines and Notifications
 deadlines: |
   <table id="deadlines">
     <tr class="tr-break">
-      <td colspan="100%" style="background-color: #0077be;"></td>
+      <td colspan="100%" style="background-color: $color-sri-lank-green;"></td>
     </tr>
 
     <tr>
@@ -65,7 +65,7 @@ deadlines: |
     </tr>
 
         <tr class="tr-break">
-      <td colspan="100%" style="background-color: #0077be;"></td>
+      <td colspan="100%" style="background-color: $color-sri-lank-green;"></td>
     </tr>
 
     <tr>
