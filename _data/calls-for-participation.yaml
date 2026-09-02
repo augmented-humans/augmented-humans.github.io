@@ -49,7 +49,7 @@ categories: |
   <p style="font-size: 90%;"><text id="footnote1">²</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute). More information can be found on the dedicated <a href="/call-for-demos"> Call for Demos</a> site.</p>
   <p style="font-size: 90%;"><text id="footnote3">³</text> More information can be found on the dedicated <a href="/call-for-workshop"> Call for Workshops</a> site.</p>
   
-  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please contact the AHs general chairs <a href="mailto:ahs2026.generalchairs@gmail.com">ahs2026.generalchairs@gmail.com</a>.</p>
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please contact the AHs workshop chairs. <a href="mailto:ahs2026.generalchairs@gmail.com">ahs2026.generalchairs@gmail.com</a>.</p>
  
 
 
@@ -106,24 +106,24 @@ deadlines-title: Submission Deadlines and Notifications
 deadlines: |
   <table id="deadlines">
     <tr class="tr-break">
-      <td colspan="100%" style="background-color: #0077be;"></td>
+      <td colspan="100%" style="background-color: $color-sri-lank-green;"></td>
     </tr>
 
     <tr>
       <td><strong>Full/Short Paper/</strong> Submission Deadline</td>
-      <td>TBA</td>
+      <td>November 12th, 2026 (AoE)</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
-      <td>TBA</td>
+      <td>January 12th, 2027 (AoE)</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Camera-Ready</td>
-      <td>TBA</td> 
+      <td>February 5th, 2027 (AoE)</td> 
     </tr>
 
         <tr class="tr-break">
-      <td colspan="100%" style="background-color: #0077be;"></td>
+      <td colspan="100%" style="background-color: $color-sri-lank-green;"></td>
     </tr>
 
     <tr>
@@ -141,7 +141,7 @@ deadlines: |
 
     </table> 
 
-  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please contact the AHs general chairs <a href="mailto:ahs2027.generalchairs@gmail.com">ahs2027.generalchairs@gmail.com</a>.</p>
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please contact the AHs 2027 Workshop Chairs.</p>
 
 
 add-title: Additional Information
