@@ -1,189 +1,198 @@
 page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
 
+# AHs 2027 committee. Photos live in /img/committee/2027/ (all lowercase names).
+# Fields per person: name, position, affiliation, link (optional), img (optional).
+# `mail` is also supported and renders an envelope icon beside the position -
+# add it per person once addresses are agreed.
+
 committee:
   - group: General Co-Chairs
     people:
-      - name: Kouta MINAMIZAWA
-        position: Professor
-        affiliation: Keio University Graduate School of Media Design, Japan
-        mail: minamizawa@example.com
-        link: https://www.embodiedmedia.org
-        img: /img/committee/2026/kouta_minamizawa.jpg
-        
-      - name: Shunichi KASAHARA
-        position: Researcher
-        affiliation: Researcher, Sony Computer Science Laboratories, Inc. (Sony CSL) / Okinawa Institute of Science and Technology Graduate University (OIST), Japan
-        link: https://cybernetichumanity.com/
-        mail: kasahara@csl.sony.co.jp
-        img: /img/committee/2026/shunichi_kasahara.png
+      - name: Dilrukshi Gamage
+        position: Senior Lecturer
+        affiliation: University of Colombo School of Computing, Sri Lanka
+        link: https://www.dilrukshigamage.org/
+        img: /img/committee/2027/dilrukshi_gamage.jpg
 
-      - name: Paul STROHMEIER
-        position: Senior Researcher
-        affiliation: Max Planck Institute for Informatics, Germany
-        link: https://sensint.mpi-inf.mpg.de/
-        mail: paul.strohmeier@mpi-inf.mpg.de 
-        img: /img/committee/2026/paul_strohmeier.jpg
+      - name: Suranga Nanayakkara
+        position: Associate Professor
+        affiliation: National University of Singapore, Singapore
+        link: https://www.comp.nus.edu.sg/cs/people/suranga/
+        img: /img/committee/2027/suranga_nanayakkara.jpg
 
-      - name: Yomna ABDELRAHMAN
-        position: Professor
-        affiliation: Bundeswehr University Munich, Germany
-        mail: yomna.eldin@gmail.com
-        link: https://www.unibw.de/usable-security-and-privacy-en/team/dr-yomna-abdelrahman
-        img: /img/committee/2026/yomna_abdelrahman.jpg
+      - name: Roshan Peiris
+        position: Assistant Professor
+        affiliation: Rochester Institute of Technology, USA
+        link: https://www.rit.edu/computing/directory/rxpics-roshan-peiris
+        img: /img/committee/2027/roshan_peiris.jpg
+
+      - name: Anusha Withana
+        position: Associate Professor
+        affiliation: The University of Sydney, Australia
+        link: https://profiles.sydney.edu.au/anusha.withana
+        img: /img/committee/2027/anusha_withana.jpeg
 
   - group: Program Co-Chairs
     people:
-      - name: Maki SUGIMOTO
-        position: Professor
-        affiliation: Keio University, Japan
-        mail: sugimoto@ics.keio.ac.jp
-        link: https://www.st.keio.ac.jp/en/tprofile/ics/sugimoto.html
-        img: /img/committee/2026/maki_sugimoto.jpg
-
-      - name: Matthias Hoppe
-        position: Post-Doc Researcher
-        affiliation: KMD, Japan
-        mail: matthias.hoppe@kmd.keio.ac.jp
-        link: https://scholar.google.com/citations?user=N2Bw-lMAAAAJ&hl=en&oi=ao
-        img: /img/committee/2026/matthias_hope.jpg
-
-      - name: Misha SRA
+      - name: Misha Sra
         position: Associate Professor
         affiliation: University of California, Santa Barbara, USA
-        mail: sra@ucsb.edu
         link: https://sites.cs.ucsb.edu/~sra/
-        img: /img/committee/2026/misha_sra.png
-      - name: Nadine Wagener
-        position: Group Leader
-        affiliation: OFFIS - Institute for Informatics
-        mail: nadine.wagener@offis.de
-        link: https://nadinewagener.github.io/
-        img: /img/committee/2026/nadine_wagener.jpg
+        img: /img/committee/2027/misha_sra.jpg
+
+      - name: Don Samitha Elvitigala
+        position: Senior Lecturer
+        affiliation: Monash University, Australia
+        link: https://samithaelvitigala.com/
+        img: /img/committee/2027/don_samitha_elvitigala.jpg
+
+      - name: Azumi Maekawa
+        position: Project Lecturer
+        affiliation: The University of Tokyo, Japan
+        link: https://azumi-maekawa.com/
+        img: /img/committee/2027/azumi_maekawa.jpg
+
+      - name: Easa AliAbbasi
+        position: Postdoctoral Researcher
+        affiliation: Max Planck Institute for Informatics, Germany
+        link: https://people.mpi-inf.mpg.de/~ealiabba/
+        img: /img/committee/2027/easa_aliabbasi.jpg
 
   - group: Poster & Demo Co-Chairs
     people:
-      - name: Ko WATANABE
-        position: Senior/Postdoc Researcher
-        affiliation: DFKI GmbH, Germany
-        mail: ko.watanabe@dfki.de
-        link: https://ko-watanabe.github.io/
-        img: /img/committee/2026/ko_watanabe.png
+      - name: Kongpyung “Justin” Moon
+        position: Assistant Professor
+        affiliation: National University of Singapore, Singapore
+        link: https://cde.nus.edu.sg/dd/staff/justin-moon/
+        img: /img/committee/2027/kongpyung__justin__moon.jpg
 
-      - name: Yuki BAN
-        position: Project Associate Professor
-        affiliation: Graduate School of Frontier Sciences, The University of Tokyo, Japan
-        link: https://yukib.github.io/
-        mail:  ban@edu.k.u-tokyo.ac.jp
-        img: /img/committee/2026/yuki_ban.jpg
-      
-      - name: Marie MORITA
-        position: Assistant Professor
-        affiliation: College of Information Science and Engineering, Ritsumeikan University, Japan
-        link: https://researchmap.jp/mariemorita
-        mail: ma-mrt@fc.ritsumei.ac.jp
-        img: /img/committee/2026/marie_morita.jpg
-      
-      - name: Sungho SUH
-        position: Assistant Professor
-        affiliation: Department of Artificial Intelligence at Korea University, Korea
-        link: https://sites.google.com/view/sunghosuh/
-        mail: sungho_suh@korea.ac.kr
-        img: /img/committee/2026/sungho_suh.jpg
+      - name: Jochen Huber
+        position: Professor
+        affiliation: Furtwangen University, Germany
+        link: https://www.hs-furtwangen.de/personen/profil/2714-jochenhuber
+        img: /img/committee/2027/jochen_huber.jpg
+
+      - name: Yuta Sugiura
+        position: Professor
+        affiliation: Keio University, Japan
+        link: https://www.keio.ac.jp/en/faculty/k_100011754/
+        img: /img/committee/2027/yuta_sugiura.jpg
+
+      - name: Jie Li
+        position: Chief Scientific Officer
+        affiliation: Human-AI Symbiosis Alliance, Netherlands / MIT Media Lab, USA
+        link: https://tangible.media.mit.edu/person/jie-li/
+        img: /img/committee/2027/jie_li.jpg
 
   - group: Workshop Co-Chairs
     people:
-      - name: Alia Saad
-        position: Postdoctoral Researcher
-        affiliation: Hamm Lippstadt University of Applied Sciences, Germany
-        link: https://www.alia-saad.com/
-        img: /img/committee/2026/alia_saad.jpg
-      - name:  Jan-Niklas Voigt-Antons
+      - name: Giulia Barbareschi
         position: Professor
-        affiliation: Hamm Lippstadt University of Applied Sciences, Germany
-        link: https://www.hshl.de/personen/prof-dr-ing-jan-niklas-voigt-antons
-        img: /img/committee/2026/jan_antons.png
+        affiliation: University of Duisburg-Essen, Germany
+        link: https://rc-trust.ai/about/scientists/giulia-barbareschi
+        img: /img/committee/2027/giulia_barbareschi.jpg
+
+      - name: Abdallah “Abdo” El Ali
+        position: Research Scientist
+        affiliation: Centrum Wiskunde & Informatica, Netherlands
+        link: https://www.abdoelali.com/
+        img: /img/committee/2027/abdallah_el_ali.jpg
 
   - group: Publication Co-Chairs
     people:
-      - name: Steeven VILLA
-        position: Researcher
-        affiliation: LMU Munich, Germany
-        mail: villa@posthci.com
-        link: https://posthci.com/
-        img: /img/committee/2026/steeven_villa.png
+      - name: Bektur Ryskeldiev
+        position: Senior Research Scientist
+        affiliation: Mercari R4D / University of Tsukuba, Japan
+        link: https://r4d.mercari.com/en/member/bektur/
+        img: /img/committee/2027/bektur_ryskeldiev.jpg
 
-      - name: Takefumi HIRAKI
-        position: Associate Professor
-        affiliation: University of Tsukuba / Cluster Metaverse Lab, Japan
-        mail: hiraki@slis.tsukuba.ac.jp
-        link: http://takefumihiraki.com/jp/
-        img: /img/committee/2026/takefumi_hiraki.jpg
-  
+      - name: Arthur Caetano
+        position: Ph.D. Candidate
+        affiliation: University of California, Santa Barbara, USA
+        link: https://caetanolab.github.io/
+        img: /img/committee/2027/arthur_caetano.jpg
+
   - group: Local Arrangement Co-Chairs
     people:
-      - name: Takeru HASHIMOTO
-        position: Project Researcher
-        affiliation: SonyCSL/OIST, Japan
-        link: https://tkrtkr.com/
-        mail: hashimoto@csl.sony.co.jp
-        img: /img/committee/2026/takeru_hashimoto.jpg
-      - name: Megumi IKEDA
-        position: Administrative Staff
-        affiliation: OIST, Japan
-        img: /img/committee/2026/megumi_ikeda.png
-  
+      - name: Kasun Karunanayaka
+        position: Senior Lecturer
+        affiliation: University of Colombo School of Computing, Sri Lanka
+        link: https://kasunkarunanayaka.wordpress.com/
+        img: /img/committee/2027/kasun_karunanayaka.jpg
+
+      - name: Indika Karunarathne
+        position: Senior Lecturer Grade I
+        affiliation: University of Moratuwa, Sri Lanka
+        link: https://uom.lk/staff/Karunarathne.GTI
+        img: /img/committee/2027/indika_karunaratne.jpg
+
+      - name: Yogesh Kumar Meena
+        position: Assistant Professor
+        affiliation: Indian Institute of Technology Gandhinagar, India
+        link: https://iitgn.ac.in/faculty/cse/fac-yogesh
+        img: /img/committee/2027/yogesh_k_meena.jpg
+
   - group: Financial Chair
     people:
-      - name: Keiichi ZEMPO
-        position:  Associate Professor
-        affiliation: University of Tsukuba, Japan
-        mail: zempo@iit.tsukuba.ac.jp
-        link: https://www.xpercept.aclab.esys.tsukuba.ac.jp
-        img: /img/committee/2026/keiichi_zempo.jpeg
+      - name: Anusha Withana
+        position: Associate Professor
+        affiliation: The University of Sydney, Australia
+        link: https://profiles.sydney.edu.au/anusha.withana
+        img: /img/committee/2027/anusha_withana.jpeg
 
-  - group: Web Chair
+  - group: Publicity Chair
     people:
-      - name: Kazuma TAKADA
-        position: Ph.D. candidate / Research Assistant
-        affiliation: OIST / SonyCSL, Japan
-        mail: k.takada@oist.jp
-        link: https://www.google.com/
-        img: /img/committee/2026/kazuma_takada.png
+      - name: Pat Pataranutaporn
+        position: Assistant Professor
+        affiliation: MIT Media Lab, USA
+        link: https://www.media.mit.edu/people/patpat/overview/
+        img: /img/committee/2027/pat_pataranutaporn.jpg
 
-  - group: Social Event Chair
+  - group: Web Co-Chairs
     people:
-      - name: Ryoichi ANDO
-        position: President / Researcher / Director / Visiting Professor
-        affiliation: AXEREAL co., LTD. / KMD / B Lab Superhuman Sports Project / Professional University of Information and Management for Innovation(, Japan
-        link: https://superhuman-sports.org/
-        mail: ando@axereal.co
-        img: /img/committee/2026/ryoichi_ando.png
-  
+      - name: Jie Li
+        position: Chief Scientific Officer
+        affiliation: Human-AI Symbiosis Alliance, Netherlands / MIT Media Lab, USA
+        link: https://tangible.media.mit.edu/person/jie-li/
+        img: /img/committee/2027/jie_li.jpg
+
+      - name: Gabriela Vega
+        position: Research Assistant
+        affiliation: Max Planck Institute for Informatics, Germany
+        link: https://vegabs.github.io/
+        img: /img/committee/2027/gabriela_vega.jpg
+
+      - name: Praneeth Bimsara Perera
+        position: Ph.D. Student
+        affiliation: The University of Sydney, Australia
+        link: https://www.researchgate.net/profile/Praneeth-Perera-3
+        img: /img/committee/2027/praneeth_perera.jpg
+
   - group: Student Volunteer Co-Chairs
     people:
-      - name: Mark ARMSTRONG
-        position: Ph.D Candidate
-        affiliation: Keio University, Japan
-        mail: Mark@keio.jp
-        link: https://linktr.ee/butchbangher
-        img: /img/committee/2026/mark_armstrong.png
-      - name: Takayoshi Yamada
+      - name: Dinithi Purna Dissanayake
         position: Ph.D. Candidate
-        affiliation: University of Tsukuba, Japan
-        mail: yamada.takayoshi.tm@alumni.tsukuba.ac.jp
-        img: /img/committee/2026/takayoshi_yamada.jpg
-  
-  - group: Awards Committee Co-Chairs
-    people:
-      - name: Masahiko Inami
-        position: Professor
-        affiliation: The University of Tokyo, Japan
-        img: /img/committee/2026/masahiko_inami.jpg
-      - name: Suranga Nanayakkara
-        position: Professor
         affiliation: National University of Singapore, Singapore
-        img: /img/committee/2026/suranga_nanayakkara.jpg
+        link: https://dinithidissanayake.com/
+        img: /img/committee/2027/dinithi_dissanayake.jpg
 
+      - name: Yize “Isa” Wei
+        position: Ph.D. Candidate
+        affiliation: National University of Singapore, Singapore
+        link: https://yizewei.vercel.app/
+        img: /img/committee/2027/yize_wei.jpg
+
+  - group: Advisor
+    people:
+      - name: Suranga Nanayakkara
+        position: Associate Professor
+        affiliation: National University of Singapore, Singapore
+        link: https://www.comp.nus.edu.sg/cs/people/suranga/
+        img: /img/committee/2027/suranga_nanayakkara.jpg
+
+  # Standing body, carried over unchanged from AHs 2026 - confirm with the
+  # general chairs before publishing. This group renders name + affiliation
+  # only, with no photo.
   - group: Steering Committee
     people:
       - name: Pedro Lopes
@@ -231,87 +240,3 @@ committee:
       - name: Kai Kunze
         position: Professor
         affiliation: Keio University, Japan
-
-  # - group: Program Committee
-  #   people:
-  #     - name: David Steeven Villa Salazar
-  #       affiliation: LMU Munich
-  #     - name: Matthias Hoppe
-  #       affiliation: LMU Munich
-  #     - name: Kai Kunze
-  #       affiliation: Keio University
-  #     - name: Valentin Schwind
-  #       affiliation: Frankfurt University of Applied Sciences
-  #     - name: Easa Aliabbasi
-  #       affiliation: Max Planck Institute for Informatics
-  #     - name: Qiushi Zhou
-  #       affiliation: Aarhus University
-  #     - name: Ping-Hsuan Han
-  #       affiliation: National Taipei University of Technology
-  #     - name: Katsutoshi Masai
-  #       affiliation: Kyushu University
-  #     - name: Romain Nith
-  #       affiliation: University of Chicago
-  #     - name: Henning Pohl
-  #       affiliation: Aalborg University
-  #     - name: Pascal Knierim
-  #       affiliation: University of Innsbruck
-  #     - name: Sang Ho Yoon
-  #       affiliation: KAIST
-  #     - name: Jonna H¨akkil¨a
-  #       affiliation: University of Lapland
-  #     - name: Stefan Schneegass
-  #       affiliation: University of Duisburg-Essen
-  #     - name: Thomas Kosch
-  #       affiliation: HU Berlin
-  #     - name: Keiichi Zempo
-  #       affiliation: University of Tsukuba
-  #     - name: Martin Weigel
-  #       affiliation: Technische Hochschule Mittelhessen
-  #     - name: Shoya Ishimaru
-  #       affiliation: Osaka Metropolitan University
-  #     - name: Yuki Ban
-  #       affiliation: The University of Tokyo
-  #     - name: Yumeko Imamura
-  #       affiliation: National Institute of Advanced Industrial Science and Technology
-  #     - name: Damien Brun
-  #       affiliation: University of Lapland
-  #     - name: Monica Perusquia-Hernández
-  #       affiliation: Nara Institute of Science and Technology (NAIST), NTT Communication Science Laboratories
-  #     - name: Gozde Goncu-Berk
-  #       affiliation: University of California, Davis
-  #     - name: Geehyuk Lee
-  #       affiliation: KAIST
-  #     - name: Aku Visuri
-  #       affiliation: University of Oulu
-  #     - name: Pawel Wozniak
-  #       affiliation: TU Wien
-  #     - name: Alexander Kalus
-  #       affiliation: Berlin University of Applied Sciences and Technology
-  #     - name: Maki Sugimoto
-  #       affiliation: Keio University
-  #     - name: Daniel Wessolek
-  #       affiliation: Futurium gGmbH
-  #     - name: Yun Suen Pai
-  #       affiliation: University of Auckland
-  #     - name: Ian Oakley
-  #       affiliation: KAIST
-  #     - name: Seungwoo Je
-  #       affiliation: KAIST
-  #     - name: Jasmin Niess
-  #       affiliation: University of Oslo
-  #     - name: Jochen Huber
-  #       affiliation: Furtwangen University
-  #     - name: Martin Kocur
-  #       affiliation: University of Applied Sciences Upper Austria Hagenberg
-  #     - name: Kristof Van Laerhoven
-  #       affiliation: University of Siegen
-  #     - name: Denys J.C. Matthies
-  #       affiliation: Fraunhofer
-  #     - name: Masaaki Mochimaru
-  #       affiliation: AIST
-  #     - name: Nami Ogawa
-  #       affiliation: The University of Tokyo
-  #     - name: Yuichi Kurita
-  #       affiliation: Hiroshima University
-  

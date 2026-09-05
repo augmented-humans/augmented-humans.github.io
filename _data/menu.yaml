@@ -84,8 +84,8 @@ shortlinks:
   # #       shortcut: /mentoring
   # - title: SPONSORSHIP
   #   shortcut: /sponsors
-  # - title: Committee
-  #   shortcut: /committee
+  - title: Committee
+    shortcut: /committee
   # - title: Access
   #   shortcut: /access
   - title: Past conferences
