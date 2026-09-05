@@ -21,7 +21,7 @@ categories: |
 instructions-title: Submission Guidelines
 instructions: |
   
-  <strong> * Submissions shall be made via <a href="https://easychair.org/conferences/?conf=ahs2026">EasyChair</a>.</strong>
+  <strong> * Submissions shall be made via PCS. [PCS link to be added soon]</strong>
 
   <strong>The submission system will be opened by October 18th.</strong>
 
@@ -48,7 +48,7 @@ deadlines-title: Submission Deadlines and Notifications
 deadlines: |
   <table id="deadlines">
     <tr class="tr-break">
-      <td colspan="100%" style="background-color: $color-sri-lank-green;"></td>
+      <td colspan="100%" style="background-color: #118e78;"></td>
     </tr>
 
     <tr>
@@ -65,7 +65,7 @@ deadlines: |
     </tr>
 
         <tr class="tr-break">
-      <td colspan="100%" style="background-color: $color-sri-lank-green;"></td>
+      <td colspan="100%" style="background-color: #118e78;"></td>
     </tr>
 
     <tr>
