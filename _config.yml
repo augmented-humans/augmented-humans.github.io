@@ -15,7 +15,7 @@ twitter:
 image: https://augmented-humans.org/img/assets/meta_card_2026.jpg
 
 # テーマ設定
-theme_color: "#4285f4"  # Discord/Slackの埋め込みでのテーマカラー
+theme_color: "#118e78"  # Discord/Slackの埋め込みでのテーマカラー
 
 # Jekyll SEO Tag settings
 social:
