@@ -60,7 +60,7 @@ committee:
 
   - group: Poster & Demo Co-Chairs
     people:
-      - name: Kongpyung “Justin” Moon
+      - name: Justin Moon
         position: Assistant Professor
         affiliation: National University of Singapore, Singapore
         link: https://cde.nus.edu.sg/dd/staff/justin-moon/
@@ -92,7 +92,7 @@ committee:
         link: https://rc-trust.ai/about/scientists/giulia-barbareschi
         img: /img/committee/2027/giulia_barbareschi.jpg
 
-      - name: Abdallah “Abdo” El Ali
+      - name: Abdallah El Ali
         position: Research Scientist
         affiliation: Centrum Wiskunde & Informatica, Netherlands
         link: https://www.abdoelali.com/
@@ -121,7 +121,7 @@ committee:
         img: /img/committee/2027/kasun_karunanayaka.jpg
 
       - name: Indika Karunarathne
-        position: Senior Lecturer Grade I
+        position: Senior Lecturer
         affiliation: University of Moratuwa, Sri Lanka
         link: https://uom.lk/staff/Karunarathne.GTI
         img: /img/committee/2027/indika_karunaratne.jpg
@@ -150,12 +150,6 @@ committee:
 
   - group: Web Co-Chairs
     people:
-      - name: Jie Li
-        position: Chief Scientific Officer
-        affiliation: Human-AI Symbiosis Alliance, Netherlands / MIT Media Lab, USA
-        link: https://tangible.media.mit.edu/person/jie-li/
-        img: /img/committee/2027/jie_li.jpg
-
       - name: Gabriela Vega
         position: Research Assistant
         affiliation: Max Planck Institute for Informatics, Germany
@@ -189,54 +183,3 @@ committee:
         affiliation: National University of Singapore, Singapore
         link: https://www.comp.nus.edu.sg/cs/people/suranga/
         img: /img/committee/2027/suranga_nanayakkara.jpg
-
-  # Standing body, carried over unchanged from AHs 2026 - confirm with the
-  # general chairs before publishing. This group renders name + affiliation
-  # only, with no photo.
-  - group: Steering Committee
-    people:
-      - name: Pedro Lopes
-        position: Associate Professor
-        affiliation: University of Chicago, USA
-      - name: Thomas Kosch
-        position: Professor
-        affiliation: Humboldt University of Berlin, Germany
-      - name: Paul Strohmeier
-        position: Researcher
-        affiliation: Max Planck Institute for Informatics, Germany
-      - name: Masahiko Inami
-        position: Professor
-        affiliation: The University of Tokyo, Japan
-      - name: Albrecht Schmidt
-        position: Professor
-        affiliation: LMU Munich, Germany
-      - name: Pattie Maes
-        position: Professor
-        affiliation: MIT Cambridge, USA
-      - name: Woontack Woo
-        position: Professor
-        affiliation: KAIST, Korea
-      - name: Ellen Yi-Luen Do
-        position: Professor
-        affiliation: University of Colorado Boulder, USA
-      - name: Paul Lukowicz
-        position: Professor
-        affiliation: DFKI Kaiserslautern, Germany
-      - name: Suranga Nanayakkara
-        position: Professor
-        affiliation: National University of Singapore, Singapore
-      - name: Tsutomu Terada
-        position: Professor
-        affiliation: University of Kobe, Japan
-      - name: Jun Rekimoto
-        position: Professor
-        affiliation: The University of Tokyo, Japan
-      - name: Katrin Wolf
-        position: Professor
-        affiliation: Berlin University of Applied Sciences and Technology, Germany
-      - name: Hideki Koike
-        position: Professor
-        affiliation: Tokyo Institute of Technology, Japan
-      - name: Kai Kunze
-        position: Professor
-        affiliation: Keio University, Japan
