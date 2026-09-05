@@ -136,12 +136,29 @@ deadlines: |
     </tr>
     <tr>
       <td><strong>Poster/Demos</strong> Camera-Ready</td>
-      <td>TBA</td> 
+      <td>TBA</td>
     </tr>
 
-    </table> 
+    <tr class="tr-break">
+      <td colspan="100%" style="background-color: #118e78;"></td>
+    </tr>
 
-  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please contact the AHs 2027 Workshop Chairs.</p>
+    <tr>
+      <td><strong>Workshops</strong> Proposal Deadline</td>
+      <td>TBA</td>
+    </tr>
+    <tr>
+      <td><strong>Workshops</strong> Decisions sent to Organizers</td>
+      <td>TBA</td>
+    </tr>
+    <tr>
+      <td><strong>Workshops</strong> Camera-Ready</td>
+      <td>TBA</td>
+    </tr>
+
+    </table>
+
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please see the <a href="/call-for-workshop">Call for Workshops</a>. Contact details for the AHs 2027 Workshop Chairs will be added shortly.</p>
 
 
 add-title: Additional Information

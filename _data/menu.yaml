@@ -10,10 +10,10 @@ shortlinks:
       #   shortcut: /submission-guideline
       - title: Full&Short Paper
         shortcut: /call-for-full-short-papers
-      # - title: Poster&Demo
-      #   shortcut: /call-for-poster-demo
-      # - title: Workshops
-      #   shortcut: /call-for-workshop
+      - title: Poster&Demo
+        shortcut: /call-for-poster-demo
+      - title: Workshops
+        shortcut: /call-for-workshop
       # - title: Student Volunteers
       #   shortcut: /student-volunteer
   # - title: Program
@@ -84,8 +84,8 @@ shortlinks:
   # #       shortcut: /mentoring
   # - title: SPONSORSHIP
   #   shortcut: /sponsors
-  # - title: Committee
-  #   shortcut: /committee
+  - title: Committee
+    shortcut: /committee
   # - title: Access
   #   shortcut: /access
   - title: Past conferences
