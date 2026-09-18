@@ -2,7 +2,7 @@ page-title: <strong>G</strong>uidelines for <strong>F</strong>ull & <strong>S</s
 
 overview-title: Overview
 overview: |
-  This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans 2027. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
+  This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans 2027, held March 7-10, 2027 at the Cinnamon Life City of Dreams, Colombo, Sri Lanka. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
 categories-title: Tracks and Length
 categories: |
   <b>Full papers</b> — up to 16 pages (single column), excluding references; anonymized for review.<br>
@@ -24,8 +24,8 @@ instructions: |
   <strong>Production:</strong> Upon conditional acceptance, authors will follow the ACM <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow</a> to produce the publication-ready PDF and HTML5.
 
   <u>Templates and quick links:</u><br>
-  • Use the <b>single-column Word Submission Template</b> or the <b>single-column LaTeX Template</b> for review. For LaTeX, a typical option is <tt>\\documentclass[manuscript, review, anonymous]{acmart}</tt>.<br>
-  • For publication (after conditional acceptance), use the <b>single-column Word</b> or the <b>double-column LaTeX</b> configuration (e.g., <tt>\\documentclass[sigconf]{acmart}</tt>) per ACM TAPS guidance.<br>
+  • Use the <b>single-column Word Submission Template</b> or the <b>single-column LaTeX Template</b> for review. For LaTeX, a typical option is <tt>\documentclass[manuscript, review, anonymous]{acmart}</tt>.<br>
+  • For publication (after conditional acceptance), use the <b>single-column Word</b> or the <b>double-column LaTeX</b> configuration (e.g., <tt>\documentclass[sigconf]{acmart}</tt>) per ACM TAPS guidance.<br>
   • Primary template page: <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a><br>
   • LaTeX guidance: <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex">Preparing Your Article with LaTeX</a><br>
   • Word guidance: <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word">Preparing Your Article with Word</a><br>

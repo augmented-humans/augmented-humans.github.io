@@ -6,7 +6,7 @@
     <meta name="keywords" content="{% if site.keywords %}{{ site.keywords }}{% endif %}">
     <meta name="author" content="{% if site.meta_author %}{{ site.meta_author }}{% endif %}">
 
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Open Graph / Facebook / Discord / Slack -->
     <meta property="og:type" content="website">
@@ -36,6 +36,7 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ page.url | relative_url }}">
+    {% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">

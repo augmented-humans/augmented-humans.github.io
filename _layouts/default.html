@@ -7,7 +7,18 @@
   {% include nav-blog.html %}
 
   <div class="content-wrap">
+    {%- if page.noindex -%}
+      {%- capture legacy_notice -%}{% include legacy-notice.html %}{%- endcapture -%}
+      {%- if content contains '</header>' -%}
+        {%- assign header_and_notice = '</header>' | append: legacy_notice -%}
+        {{ content | replace_first: '</header>', header_and_notice }}
+      {%- else -%}
+        {% include legacy-notice.html top=true %}
+        {{ content }}
+      {%- endif -%}
+    {%- else -%}
     {{ content }}
+    {%- endif %}
   </div>
   
   {% include footer.html %}

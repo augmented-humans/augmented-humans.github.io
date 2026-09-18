@@ -8,7 +8,7 @@ categories: |
   <b>Full papers</b> - up to 16 pages single column (excluding references), anonymized
   <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
   <b>Poster & Demonstration papers</b> - All styles share the same format: up to 4 pages excluding references, single-column. <a href="#footnote-pd"><sup>(see details)</sup></a>
-  <b>Workshop proposals</b> - Please contact the AHs general chairs at <a href="mailto:ahs2026.generalchairs@gmail.com">ahs2026.generalchairs@gmail.com</a>.
+  <b>Workshop proposals</b> - Please see the <a href="/call-for-workshop">Call for Workshops</a>. Contact details for the AHs 2027 Workshop Chairs will be added shortly.
 
   All page lengths are excluding references. Papers will be reviewed in a double-blind process.
   
@@ -23,8 +23,6 @@ instructions: |
   
   <strong> * Submissions shall be made via PCS. [PCS link to be added soon]</strong>
 
-  <strong>The submission system will be opened by October 18th.</strong>
-
   <b>T</b>he <b>A</b>CM <b>P</b>ublication <b>S</b>ystem (TAPS) will be used for full papers, short papers, posters, and demos. Please be sure to read the instructions on the <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow page</a> carefully.
   
   First, authors will prepare their manuscript using the <a href="https://www.acm.org/publications/proceedings-template"> ACM Primary Article Template</a> in single-column format for review. Upon conditional acceptance, the authors revise their manuscript to submit their publication-ready article. The ACM workflow requests authors to produce final publications (PDF and HTML5) by themselves using TAPS. For this, the authors upload publication-ready source files (single-column Word or double-column LaTeX) to TAPS. TAPS will then generate the double-column PDF and responsive HTML5 document. Further information and the templates for both Latex and Word can be found on the corresponding <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex">Preparing Your Article with LaTeX</a> or <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word">Preparing Your Article with Word</a> pages.
@@ -38,7 +36,7 @@ instructions: |
 
 overview-title: Overview
 overview: |
-  This page summarizes how to submit to the Augmented Humans conference. It provides the submission categories, key deadlines and notifications, the required submission workflow and templates, and ACM ICPS Open Access publishing information (including the 2026 subsidized APC rates).
+  This page summarizes how to submit to the Augmented Humans conference. It provides the submission categories, key deadlines and notifications, the required submission workflow and templates, and ACM ICPS Open Access publishing information (including subsidized APC rates).
 
   Tracks include Full and Short papers, Demonstrations, Posters, and Workshop proposals. All accepted submissions will appear in the ACM Digital Library. The deadline for workshop proposals is listed below, and approved workshops will be linked here when available.
 
@@ -52,16 +50,16 @@ deadlines: |
     </tr>
 
     <tr>
-      <td><strong>Full/Short Paper/</strong> Submission Deadline</td>
-      <td><s>November 18th, 2025</s> <strong><u>November 25th, 2025</u></strong> (AoE)</td>
+      <td><strong>Full/Short Paper</strong> Submission Deadline</td>
+      <td>November 12th, 2026 (AoE)</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
-      <td>January 15th, 2026</td>
+      <td>January 12th, 2027 (AoE)</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Camera-Ready</td>
-      <td>February 12th, 2026</td> 
+      <td>February 5th, 2027 (AoE)</td> 
     </tr>
 
         <tr class="tr-break">
@@ -70,20 +68,20 @@ deadlines: |
 
     <tr>
       <td><strong>Poster/Demos</strong> Submission Deadline</td>
-      <td><s>January 26th, 2026</s> <strong><u>February 2nd, 2026</u></strong> (AoE)</td> 
+      <td>TBA</td> 
     </tr>
     <tr>
       <td><strong>Poster/Demos</strong> Decisions sent to Author</td>
-      <td><s>February 2nd, 2026</s> <strong><u>February 9th, 2026</u></strong></td>
+      <td>TBA</td>
     </tr>
     <tr>
       <td><strong>Poster/Demos</strong> Camera-Ready</td>
-      <td><s>February 12th, 2026</s> <strong><u>February 16th, 2026</u></strong></td> 
+      <td>TBA</td> 
     </tr>
 
     </table> 
 
-  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please contact the AHs general chairs <a href="mailto:ahs2026.generalchairs@gmail.com">ahs2026.generalchairs@gmail.com</a>.</p>
+  <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please see the <a href="/call-for-workshop">Call for Workshops</a>. Contact details for the AHs 2027 Workshop Chairs will be added shortly.</p>
 
 
 add-title: Additional Information

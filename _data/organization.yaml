@@ -1,9 +1,4 @@
-page-title: <strong>O</strong>rganizing <strong>C</strong>ommittee
-
-# AHs 2027 committee. Photos live in /img/committee/2027/ (all lowercase names).
-# Fields per person: name, position, affiliation, link (optional), img (optional).
-# `mail` is also supported and renders an envelope icon beside the position -
-# add it per person once addresses are agreed.
+page-title: <strong>P</strong>rogram <strong>C</strong>ommittee
 
 committee:
   - group: General Co-Chairs
@@ -156,7 +151,7 @@ committee:
         link: https://vegabs.github.io/
         img: /img/committee/2027/gabriela_vega.jpg
 
-      - name: Praneeth Bimsara Perera
+      - name: Praneeth Perera
         position: Ph.D. Student
         affiliation: The University of Sydney, Australia
         link: https://www.researchgate.net/profile/Praneeth-Perera-3
