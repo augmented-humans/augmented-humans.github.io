@@ -36,6 +36,7 @@
 <!-- Change logo after scrolling-->
 <script src="{{ '/js/logo-changer.js' | relative_url }}"></script>
 
+{% if page.program_calendar %}
 <script src='{{ '/js/fullcalendar@6.1.4/index.global.min.js' | relative_url }}'></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
@@ -726,6 +727,7 @@
     });
   });
 </script>
+{% endif %}
 
 {% if site.google_analytics %}
 <script type="text/javascript">
