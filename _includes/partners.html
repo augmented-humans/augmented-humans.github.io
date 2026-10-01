@@ -1,9 +1,9 @@
 <div style="background-color: white;">
   <div class="prefooter-logos" aria-label="Conference partner logos">
-    <!-- {% for file in site.static_files %}
+    {% for file in site.static_files %}
       {% if file.path contains '/img/assets/logo_2027/' %}
         <img class="sponsor-img" src="{{ file.path | relative_url }}" alt="{{ file.name | split: '.' | first | replace: '-', ' ' | replace: '_', ' ' }}">
       {% endif %}
-    {% endfor %} -->
+    {% endfor %}
   </div>
 </div>
