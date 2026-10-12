@@ -10,6 +10,8 @@ shortlinks:
       #   shortcut: /submission-guideline
       - title: Full&Short Paper
         shortcut: /call-for-full-short-papers
+      - title: Proposal
+        shortcut: /call-for-proposal
       - title: Poster&Demo
         shortcut: /call-for-poster-demo
       - title: Workshops

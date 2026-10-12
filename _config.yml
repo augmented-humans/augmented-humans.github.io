@@ -12,7 +12,7 @@ twitter:
   card: summary_large_image
 
 # Open Graph settings
-image: https://augmented-humans.org/img/assets/meta_card_2026.jpg
+image: https://augmented-humans.org/img/assets/meta_card_2027.jpg
 
 # テーマ設定
 theme_color: "#118e78"  # Discord/Slackの埋め込みでのテーマカラー
@@ -55,7 +55,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://augmented-humans.org/img/assets/meta_card_2026.jpg
+      image: https://augmented-humans.org/img/assets/meta_card_2027.jpg
   - scope:
       path: "img/posts/**"
       path: "sessions/**"
@@ -64,6 +64,6 @@ defaults:
 
 # デフォルトのOG画像設定
 og:
-  image: https://augmented-humans.org/img/assets/meta_card_2026.jpg
+  image: https://augmented-humans.org/img/assets/meta_card_2027.jpg
   image_width: 1200
   image_height: 630
