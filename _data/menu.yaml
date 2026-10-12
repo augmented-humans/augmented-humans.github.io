@@ -8,14 +8,14 @@ shortlinks:
     sublinks:
       # - title: Guideline
       #   shortcut: /submission-guideline
-      - title: Full&Short Paper
+      - title: Full & Short Paper
         shortcut: /call-for-full-short-papers
-      - title: Proposal
-        shortcut: /call-for-proposal
-      - title: Poster&Demo
+      - title: Poster & Demo
         shortcut: /call-for-poster-demo
       - title: Workshops
         shortcut: /call-for-workshop
+      - title: Call for hosting AHs 2028 & 2029
+        shortcut: /call-for-proposal
       # - title: Student Volunteers
       #   shortcut: /student-volunteer
   # - title: Program
