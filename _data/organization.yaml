@@ -2,6 +2,7 @@ page-title: <strong>P</strong>rogram <strong>C</strong>ommittee
 
 committee:
   - group: General Co-Chairs
+    email: generalchairs-ahs27@acm.org
     people:
       - name: Dilrukshi Gamage
         position: Senior Lecturer
@@ -28,6 +29,7 @@ committee:
         img: /img/committee/2027/anusha_withana.jpeg
 
   - group: Program Co-Chairs
+    email: programchairs-ahs27@acm.org
     people:
       - name: Misha Sra
         position: Associate Professor
@@ -54,6 +56,7 @@ committee:
         img: /img/committee/2027/easa_aliabbasi.jpg
 
   - group: Poster & Demo Co-Chairs
+    email: poster-demo-ahs27@acm.org
     people:
       - name: Justin Moon
         position: Assistant Professor
@@ -80,6 +83,7 @@ committee:
         img: /img/committee/2027/jie_li.jpg
 
   - group: Workshop Co-Chairs
+    email: workshops-ahs27@acm.org
     people:
       - name: Giulia Barbareschi
         position: Professor
@@ -94,6 +98,7 @@ committee:
         img: /img/committee/2027/abdallah_el_ali.jpg
 
   - group: Publication Co-Chairs
+    email: proceedings-ahs27@acm.org
     people:
       - name: Bektur Ryskeldiev
         position: Senior Research Scientist
@@ -108,6 +113,7 @@ committee:
         img: /img/committee/2027/arthur_caetano.jpg
 
   - group: Local Arrangement Co-Chairs
+    email: local-ahs27@acm.org
     people:
       - name: Kasun Karunanayaka
         position: Senior Lecturer
@@ -128,6 +134,7 @@ committee:
         img: /img/committee/2027/yogesh_k_meena.jpg
 
   - group: Financial Chair
+    email: registration-ahs27@acm.org
     people:
       - name: Anusha Withana
         position: Associate Professor
@@ -136,6 +143,7 @@ committee:
         img: /img/committee/2027/anusha_withana.jpeg
 
   - group: Publicity Chair
+    email: publicity-ahs27@acm.org
     people:
       - name: Pat Pataranutaporn
         position: Assistant Professor
@@ -144,6 +152,7 @@ committee:
         img: /img/committee/2027/pat_pataranutaporn.jpg
 
   - group: Web Co-Chairs
+    email: web-ahs27@acm.org
     people:
       - name: Gabriela Vega
         position: Research Assistant
@@ -158,6 +167,7 @@ committee:
         img: /img/committee/2027/praneeth_perera.jpg
 
   - group: Student Volunteer Co-Chairs
+    email: svchairs-ahs27@acm.org
     people:
       - name: Dinithi Purna Dissanayake
         position: Ph.D. Candidate

@@ -1862,6 +1862,9 @@ section.flip2 {
       border-style: solid !important;
       border-color: $theme-accent !important;
     }
+    .committee-email {
+      text-transform: lowercase;
+    }
   }
   &:nth-child(2n) .kw-section-title {
     span {
