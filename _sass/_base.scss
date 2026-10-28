@@ -1560,11 +1560,11 @@ section.flip2 {
 
 .prefooter-logos {
   background-color: white;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  gap: 24px 32px;
+  gap: 24px 40px;
   max-width: 980px;
   margin: 0 auto;
   padding: 20px 16px;
@@ -1578,8 +1578,7 @@ section.flip2 {
   }
 
   @media (max-width: 768px) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
+    gap: 16px 24px;
     img {
       height: 56px;
     }
