@@ -6,8 +6,8 @@ shortlinks:
   - title: Submission
     shortcut: /guidelines
     sublinks:
-      # - title: Guideline
-      #   shortcut: /submission-guideline
+      - title: Submission Guidelines
+        shortcut: /submission-guideline
       - title: Full & Short Paper
         shortcut: /call-for-full-short-papers
       - title: Poster & Demo
