@@ -1061,7 +1061,7 @@ header.masthead {
     display: inline-block;
     border-style: single;
     // border: 0;
-    border-bottom: 10px solid $color-highlight;
+    border-bottom: 4px solid $color-highlight;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -1075,38 +1075,6 @@ header.masthead {
     color: $color-sri-lank-green; // 沖縄の海の青
     span {
       display: inline-block;
-      border-style: double;
-      // border-bottom: 10px solid $color-highlight;
-    }
-  }
-
-  &.kw-huge-alt1 {
-    color: white;
-    span {
-      display: inline-block;
-      border-style: double;
-      border-color: $color-sri-lank-green; // 沖縄の海の青
-      // border-bottom: 10px solid $color-highlight;
-    }
-  }
-
-  &.kw-huge-alt11 {
-    color: black;
-    span {
-      display: inline-block;
-      border-style: double;
-      border-color: black;
-      // border-bottom: 10px solid $color-highlight;
-    }
-  }
-
-
-  &.kw-huge-alt2 {
-    color: white;
-    span {
-      display: inline-block;
-      border-style: double;
-      border-color: white;
       // border-bottom: 10px solid $color-highlight;
     }
   }
@@ -1173,30 +1141,6 @@ header.masthead#kw-project-header {
 
     &.top-bar {
       border-top: 5px solid $theme-background-primary;
-    }
-  }
-
-
-  &.flip1 {
-    // background-color: #b7e5e3;
-    // background-color: #00b8ff;
-    // background-color: #00ea92;
-    background-color: $theme-background-tertiary;  //#00e48e8e;
-    color: #131313; // デフォルト文字色も黒系
-    p { color: #131313; }
-
-    &.top-bar {
-      border-top: 5px solid $theme-background-secondary;
-    }
-  }
-
-  &.flip2 {
-    background-color: $theme-background-primary; //#d0ebe2;
-    color: white; // デフォルト文字色を白（表やリストにも適用）
-    p { color: white; }
-
-    &.top-bar {
-      border-top: 5px solid $theme-background-tertiary;
     }
   }
 
@@ -1469,25 +1413,6 @@ footer {
 //     color: $color-highlight;
 //   }
 // }
-.flip1 a {
-  color: white;
-  &:hover {
-    color: white;
-  }
-}
-
-section.flip2 {
-  a {
-    color: #FFD700;
-    &:visited {
-      color: #FFD700;
-    }
-    &:hover,
-    &:focus {
-      color: #ffea70;
-    }
-  }
-}
 
 .kw-blog-post .post-content,
 .kw-conference-location {

@@ -19,15 +19,6 @@ sitemap: true
   </div>
 </header>
 
-<style>
-  /* Yellow links on blue sections (flip2), matching Submission Guidelines */
-  section.flip2 a,
-  section.flip2 a:visited { color: #FFD700 !important; }
-  section.flip2 a:hover,
-  section.flip2 a:focus { color: #ffea70 !important; }
-</style>
-
-
 <section id="ah-categories" class="flip">
   <div class="container">
     <div class="row">
@@ -45,12 +36,12 @@ sitemap: true
   </div>
 </section>
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.call-for-full-short-papers.categories-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-full-short-papers.categories | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
@@ -62,7 +53,7 @@ sitemap: true
   </div>
 </section>
 
-<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -79,12 +70,12 @@ sitemap: true
   </div>
 </section>
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.call-for-full-short-papers.instructions-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-full-short-papers.instructions | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
@@ -96,7 +87,41 @@ sitemap: true
   </div>
 </section>
 
-<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.open-access-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.open-access | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.corresponding-author-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.corresponding-author | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>

@@ -162,7 +162,7 @@
     </div>
 </section>
 
-<section id="ah-deadlines" class="flip top-bar" style="border-top: 5px solid black;">
+<section id="ah-deadlines" class="flip top-bar">
     <div class="container">
       <div class="row">
           <div class="col-lg-1"></div>
@@ -177,12 +177,12 @@
       </div>
 </section>
 {% comment %}
-<section id="ah-categories" class="flip1 top-bar" style="border-top: 5px solid #F5F5F5;">
+<section id="ah-categories" class="flip top-bar">
     <div class="container">
       <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            <div class="kw-section-title kw-huge kw-huge-alt11 kw-huge-left"><span style="color: black;">Program Overview</span></div>
+            <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left"><span>Program Overview</span></div>
             <div class="program-overview-section">
                     <div class="program-day">
                       <h4><strong>Monday, March 16th</strong></h4>
@@ -240,12 +240,12 @@
       </div>
 </section>{% endcomment %}
 
-<section id="ah-categories" class="flip2 top-bar">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-          <div class="kw-section-title kw-huge kw-huge-alt2 kw-huge-left"><span>{{ site.data.attending.venue-title }}</span></div>
+          <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left"><span>{{ site.data.attending.venue-title }}</span></div>
           {% assign description_paragraphs = site.data.attending.venue | newline_to_br | split:'<br />' %}
           {% for paragraph in description_paragraphs %}
             {% assign trimmed = paragraph | strip %}

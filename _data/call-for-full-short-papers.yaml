@@ -2,7 +2,7 @@ page-title: <strong>G</strong>uidelines for <strong>F</strong>ull & <strong>S</s
 
 overview-title: Overview
 overview: |
-  This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans 2027, held March 7-10, 2027 at the Cinnamon Life City of Dreams, Colombo, Sri Lanka. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
+  This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
 categories-title: Tracks and Length
 categories: |
   <b>Full papers</b> — up to 16 pages (single column), excluding references; anonymized for review.<br>
@@ -19,7 +19,7 @@ deadlines: |
 
 instructions-title: Submission Format & Templates
 instructions: |
-  <strong>Submission site:</strong> Please submit via PCS. [PCS link to be added soon]<br>
+  <strong>Submission site:</strong> Please submit via <a href="https://new.precisionconference.com/sigchi">PCS</a>.<br>
   <strong>Review format:</strong> Single-column manuscript for review using the ACM Primary Article Template (Word or LaTeX). Submissions must be <b>anonymized</b>.<br>
   <strong>Production:</strong> Upon conditional acceptance, authors will follow the ACM <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">TAPS workflow</a> to produce the publication-ready PDF and HTML5.
 
@@ -31,8 +31,24 @@ instructions: |
   • Word guidance: <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word">Preparing Your Article with Word</a><br>
   • Direct download: <a href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx">Word Template (.docx)</a> | <a href="https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip">LaTeX Template (zip)</a> | <a href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc">Overleaf</a>
 
+open-access-title: Open Access Publishing
+open-access: |
+  Augmented Humans 2027 is sponsored by ACM SIGCHI, and all accepted papers will be published Open Access in the ACM Digital Library under ACM Open. Since January 1, 2026, ACM has fully transitioned to Open Access, so all ACM publications, including conference proceedings, are free to read.
+  <strong>Whether an Article Processing Charge (APC) applies depends on the corresponding author's institution:</strong>
+  • <strong>ACM Open institutions:</strong> no APC. Check the <a href="https://libraries.acm.org/acmopen/open-participants">list of participating institutions</a>.
+  • <strong>Other institutions:</strong> an APC applies. For 2027, the APC is $500 for ACM/SIG members and $750 for non-members.
+  • <strong>Sri Lanka:</strong> corresponding authors based in Sri Lanka receive a 50% discount on the APC.
+  ACM decides whether an APC is due from the <strong>corresponding author's institutional email address</strong> in the ACM eRights form. Financial and discretionary waivers are rare and follow criteria set by ACM; these and other discounts are set out in the <a href="https://www.acm.org/publications/policies/policy-on-open-access-apc-waivers-and-discounts">APC Waivers and Discounts Policy</a>.
+
+corresponding-author-title: Choosing your Corresponding Author
+corresponding-author: |
+  ACM sends <strong>all e-rights and TAPS correspondence to the Corresponding Author only</strong> &mdash; no one else on the paper is copied. Two things follow from this:
+  • If any author's institution is in ACM Open, list <strong>that person</strong> as the Corresponding Author in PCS, with their institutional email address.
+  • Make sure the Corresponding Author will be reachable and able to act during the camera-ready period.
+  <strong>Completing the e-rights form and the TAPS submission by the camera-ready deadline, February 5th, 2027 (AoE), is mandatory.</strong> A paper whose e-rights and TAPS steps are not completed in time cannot be published in the proceedings.
+  For questions about publication, e-rights or TAPS, contact the Publication Co-Chairs at <a href="mailto:proceedings-ahs27@acm.org">proceedings-ahs27@acm.org</a>.
+
 add-title: Presentation & Additional Notes
 add: |
   <strong>Presentation format:</strong> Talk length and Q&A duration will be announced later on this page.<br>
-  <strong>Registration:</strong> At least one author of each accepted paper must register and present in person (exceptions may be considered in emergencies, e.g., visa issues, by the general chairs).<br>
-#<strong>Open Access:</strong> Accepted papers are published Open Access in ACM ICPS. For APC information, please refer to the <a href="/submission-guideline">Submission Guidelines</a> page.
+  <strong>Registration:</strong> At least one author of each accepted paper must register and present in person (exceptions may be considered in emergencies, e.g., visa issues, by the general chairs at <a href="mailto:generalchairs-ahs27@acm.org">generalchairs-ahs27@acm.org</a>).<br>

@@ -21,13 +21,13 @@ sitemap: false
   </div>
 </header>
 
-<!-- <section id="ah-categories" class="flip1" style="border-top: 5px solid #F5F5F5;">
+<!-- <section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: #c41a2e;">{{ site.data.call-for-demos.submission-test-title }}</span></div>
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-demos.submission-test-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-demos.submission-test | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p >{{ paragraph }}</p>
@@ -56,12 +56,12 @@ sitemap: false
   </div>
 </section>
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.call-for-demos.submissions-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-demos.submissions | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
@@ -73,7 +73,7 @@ sitemap: false
   </div>
 </section>
 
-<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -90,13 +90,13 @@ sitemap: false
   </div>
 </section>
 
-<section id="ah-categories" class="flip1" style="border-top: 5px solid #F5F5F5;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
-          <span style="color: #c41a2e;">{{ site.data.call-for-demos.submission-files-title }}</span></div>
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-demos.submission-files-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-demos.submission-files | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
         <p >{{ paragraph }}</p>
@@ -107,12 +107,12 @@ sitemap: false
   </div>
 </section>
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.call-for-demos.reviewing-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-demos.reviewing | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
@@ -124,7 +124,7 @@ sitemap: false
   </div>
 </section>
 
-<!-- <section id="" class="kw-committee-section flip ah-organization ah-override" style="border-top: 5px solid #FFC847;">
+<!-- <section id="" class="kw-committee-section flip ah-organization ah-override top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -132,7 +132,7 @@ sitemap: false
         {% assign workshop-group = site.data.organization.committee | where: "group","Demo Chairs" %}
         {% for item in workshop-group %}
         <div class="kw-committee-group">
-          <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+          <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
             <span class="k-title">{{ item.group }}</span>
           </div>
           <div class="people">
