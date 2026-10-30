@@ -92,6 +92,40 @@ sitemap: true
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.open-access-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.open-access | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
+          <span>{{ site.data.call-for-full-short-papers.corresponding-author-title }}</span></div>
+        {% assign description_paragraphs = site.data.call-for-full-short-papers.corresponding-author | newline_to_br | split:'<br />' %}
+        {% for paragraph in description_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+<section id="ah-categories" class="flip top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
         <div id="submission-deadlines" class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.call-for-full-short-papers.add-title }}</span></div>
         {% assign description_paragraphs = site.data.call-for-full-short-papers.add | newline_to_br | split:'<br />' %}
