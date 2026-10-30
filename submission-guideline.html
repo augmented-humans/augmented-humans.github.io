@@ -38,7 +38,7 @@ sitemap: true
 </section>
 
 {% comment %}
-<section id="ah-deadlines" class="flip top-bar" style="border-top: 5px solid black;">
+<section id="ah-deadlines" class="flip top-bar">
   <div class="container">
     <div class="row">
         <div class="col-lg-1"></div>
@@ -64,24 +64,14 @@ sitemap: true
     padding-left: 24px;
   }
   .acm-icps-section li { margin-bottom: 8px; }
-
-  /* Link color in blue-background sections (flip2) */
-  section.flip2 a,
-  section.flip2 a:visited {
-    color: #FFD700 !important; /* gold */
-  }
-  section.flip2 a:hover,
-  section.flip2 a:focus {
-    color: #ffea70 !important; /* slightly brighter on hover */
-  }
 </style>
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.submission-guideline.categories-title }}</span></div>
         {% assign description_paragraphs = site.data.submission-guideline.categories | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
@@ -94,7 +84,7 @@ sitemap: true
 </section>
 
 {% comment %}
-<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -112,7 +102,7 @@ sitemap: true
 </section>
 {% endcomment %}
 
-<section id="ah-categories" class="flip" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
@@ -129,12 +119,12 @@ sitemap: true
   </div>
 </section>
 
-<section id="ah-categories" class="flip2" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-10">
-        <div class="kw-section-title kw-huge kw-huge-alt1 kw-huge-left">
+        <div class="kw-section-title kw-huge kw-huge-alt kw-huge-left">
           <span>{{ site.data.submission-guideline.add-title }}</span></div>
         {% assign description_paragraphs = site.data.submission-guideline.add | newline_to_br | split:'<br />' %}
         {% for paragraph in description_paragraphs %}
@@ -148,7 +138,7 @@ sitemap: true
 
 
 
-<section id="ah-categories" class="flip acm-icps-section" style="border-top: 5px solid #000;">
+<section id="ah-categories" class="flip acm-icps-section top-bar">
   <div class="container">
     <div class="row">
       <div class="col-lg-1"></div>
