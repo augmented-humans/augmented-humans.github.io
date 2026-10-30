@@ -2,7 +2,7 @@ page-title: <strong>G</strong>uidelines for <strong>F</strong>ull & <strong>S</s
 
 overview-title: Overview
 overview: |
-  This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans 2027, held March 7-10, 2027 at the Cinnamon Life City of Dreams, Colombo, Sri Lanka. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
+  This page outlines the submission requirements for the Full and Short Paper tracks at Augmented Humans. Submissions are reviewed under a double-blind policy and, upon acceptance, will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
 categories-title: Tracks and Length
 categories: |
   <b>Full papers</b> — up to 16 pages (single column), excluding references; anonymized for review.<br>
@@ -33,17 +33,17 @@ instructions: |
 
 open-access-title: Open Access Publishing
 open-access: |
-  Augmented Humans 2027 is sponsored by ACM SIGCHI, and all accepted papers are published Open Access in the ACM Digital Library.
-  <strong>There is no Article Processing Charge (APC) for most authors:</strong>
-  • <strong>Free</strong> if the corresponding author's institution participates in the <a href="https://libraries.acm.org/acmopen">ACM Open</a> program.
-  • <strong>Free</strong> if the corresponding author's institution is in a country covered by an ACM waiver.
-  • <strong>50% discount</strong> for corresponding authors based in Sri Lanka.
-  Eligibility is determined by the <strong>corresponding author's</strong> institution, so it is worth checking this before you submit. See <a href="https://www.acm.org/publications/open-access-model-for-acm-and-sig-sponsored-conferences-frequently-asked-questions">ACM's open access FAQ for SIG-sponsored conferences</a> for the full policy.
+  Augmented Humans 2027 is sponsored by ACM SIGCHI, and all accepted papers will be published Open Access in the ACM Digital Library under ACM Open. Since January 1, 2026, ACM has fully transitioned to Open Access, so all ACM publications, including conference proceedings, are free to read.
+  <strong>Whether an Article Processing Charge (APC) applies depends on the corresponding author's institution:</strong>
+  • <strong>ACM Open institutions:</strong> no APC. Check the <a href="https://libraries.acm.org/acmopen/open-participants">list of participating institutions</a>.
+  • <strong>Other institutions:</strong> an APC applies. For 2027, the APC is $500 for ACM/SIG members and $750 for non-members.
+  • <strong>Sri Lanka:</strong> corresponding authors based in Sri Lanka receive a 50% discount on the APC.
+  ACM decides whether an APC is due from the <strong>corresponding author's institutional email address</strong> in the ACM eRights form. Financial and discretionary waivers are rare and follow criteria set by ACM; these and other discounts are set out in the <a href="https://www.acm.org/publications/policies/policy-on-open-access-apc-waivers-and-discounts">APC Waivers and Discounts Policy</a>.
 
 corresponding-author-title: Choosing your Corresponding Author
 corresponding-author: |
   ACM sends <strong>all e-rights and TAPS correspondence to the Corresponding Author only</strong> &mdash; no one else on the paper is copied. Two things follow from this:
-  • If any author's institution is in ACM Open, list <strong>that person</strong> as the Corresponding Author in PCS. The fee is set by their institution.
+  • If any author's institution is in ACM Open, list <strong>that person</strong> as the Corresponding Author in PCS, with their institutional email address.
   • Make sure the Corresponding Author will be reachable and able to act during the camera-ready period.
   <strong>Completing the e-rights form and the TAPS submission by the camera-ready deadline, February 5th, 2027 (AoE), is mandatory.</strong> A paper whose e-rights and TAPS steps are not completed in time cannot be published in the proceedings.
   For questions about publication, e-rights or TAPS, contact the Publication Co-Chairs at <a href="mailto:proceedings-ahs27@acm.org">proceedings-ahs27@acm.org</a>.
