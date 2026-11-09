@@ -2,19 +2,24 @@ page-title: <strong>G</strong>uidelines <strong>F</strong>or <strong>P</strong>o
 
 overview-title: Overview
 overview: |
-  This page outlines the submission requirements for the Posters &amp; Demos track at Augmented Humans. Posters and demos are combined into one track to streamline submissions and on-site experiences: all submissions are up to 4 pages in single-column format, excluding references, and authors select a preferred presentation style in the submission form (see Presentation Styles below). Upon acceptance, works will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
+  This page outlines the submission requirements for the Posters &amp; Demos track at Augmented Humans. Posters and demos are combined into one track to streamline submissions and on-site experiences. All submissions are up to 4 pages in single-column format, excluding references, and authors select a preferred presentation style in the submission form (see Presentation Styles below). Upon acceptance, works will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
   For inquiries about Posters &amp; Demos, please email the Poster &amp; Demo Co-Chairs at <a href="mailto:poster-demo-ahs27@acm.org">poster-demo-ahs27@acm.org</a>.
 
 aims-title: Aims & Scope
 aims: |
   We invite early-stage research, promising interaction concepts, small-scale study results, prototypes, systems, and design explorations that benefit from discussion and/or hands-on engagement with attendees. Please also refer to the suggested topics.
 
+dates-title: Important Dates
+dates: |
+  • Submission (Posters & Demos, all styles): January 15th, 2027 (AoE)
+  • Notification: January 22nd, 2027 (AoE)
+  • Camera-ready/TAPS: February 5th, 2027 (AoE)
+
 presentation-styles-title: Presentation Styles (select one at submission)
 presentation-styles: |
-  All styles share the same format: up to 4 pages excluding references, single-column.
+  All styles share the same format: up to 4 pages excluding references and supplementary material, single-column.
   • Poster-only presentation — Allocation: one poster panel (A0 portrait recommended; panels are typically around 1.2 m W × 1.8 m H; poster must fit the board). Format: in-person discussion at the poster.
-  • Poster + desk (hands-on demo) — Allocation: one poster panel + one small desk. Extra file(s): include a top-view floor plan indicating the required space and key elements; an optional figure or short video (≈30–60 s) showing the setup is encouraged. These do not count toward the page limit (appendix).
-  • Poster + demo booth — Allocation: one poster panel + a 1.8 m × 1.8 m booth area. Extra file(s): same as above—floor plan + requirements list as appendix; optional teaser video (30–60 s). Power & on-site notes: Authors should bring required equipment and adapters.
+  • Poster + demo booth — Allocation: one poster panel + a booth area of about 1.8 m × 1.8 m (exact size to be confirmed). Supplementary material: floor plan + requirements list; a setup figure and a short video are highly encouraged. Authors should list requirements such as power outlets, furniture, network, lighting/space constraints, safety considerations. Authors should bring required equipment and adapters. 
 
 submission-format-title: Submission Format (common to all styles)
 submission-format: |
@@ -25,29 +30,23 @@ submission-format: |
 
 anonymity-review-title: Anonymity & Review
 anonymity-review: |
-  The review policy for 2027 will be confirmed here shortly. For reference, Posters &amp; Demos used single-blind review in 2026, with manuscripts submitted including author identities.
+  Posters & Demos will go through a single-blind review process, with manuscripts submitted including author identities. The submitted materials will not go through the full review process used for full papers, but it will be lightly reviewed by poster and demo chairs. 
 
 evaluation-title: Evaluation Criteria
 evaluation: |
   • Relevance to Augmented Humans.
   • Originality / potential contribution.
   • Clarity of the work and presentation.
-  • Feasibility and safety of interactive presentation (for desk/booth styles).
+  • Feasibility and safety of interactive presentation (for demo booths).
   • Ability to stimulate discussion and community interest.
 
 presentation-registration-title: Presentation & Registration
 presentation-registration: |
-  At least one author must attend in person to present the accepted work. Each accepted submission requires a registered author (student rates typically available). Exceptions for emergencies (e.g., visa issues) may be granted by the general chairs.
+  At least one author must attend in person to present the accepted work. Each accepted submission requires a registered author (student rates typically available).
 
-dates-title: Important Dates
-dates: |
-  • Submission (Posters & Demos, all styles): TBA
-  • Notification: TBA
-  • Camera-ready/TAPS: TBA
-
-prepare-title: What to Prepare (desk/booth styles)
-prepare: |
-  Include in your appendix (excluded from page limit):
-  • Floor plan (top-view) with required area (m), table placement, circulation, audience interaction points.
-  • Requirements list: power outlets, furniture, network, lighting/space constraints, safety considerations.
-  • Optional: setup figure or teaser video (≈30–60 s).
+# prepare-title: What to Prepare (desk/booth styles)
+# prepare: |
+#   Include in your appendix (excluded from page limit):
+#   • Floor plan (top-view) with required area (m), table placement, circulation, audience interaction points.
+#   • Requirements list: power outlets, furniture, network, lighting/space constraints, safety considerations.
+#   • Optional: setup figure or teaser video (≈30–60 s).
