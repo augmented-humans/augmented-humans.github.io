@@ -78,30 +78,6 @@ overview: |
   To register as a student volunteer, please follow the instructions <a style="color:#0077be"href="/student-volunteer">here</a>
 
 
-# <b>Full papers</b> – up to 10 pages excluding references, anonymized, 7 minutes presentation, 7 minutes Q&A, invited demo
-# <b>Short papers</b> - 4 pages excluding references, anonymized, 5 minutes presentation, 7 minutes Q&A, invited demo
-# <b>Demonstration papers</b> - 2 pages excluding references, anonymized, demonstration at the conference
-# <b>Poster papers</b> - 2 pages excluding references, anonymized, presented at the conference
-# <b>Design exhibition</b> - up to 6 pages excluding references, exhibited at conference
-# <b>Doctoral Colloquium</b> – up to 2 pages (extended abstract format). Please include the planned title of the thesis, faculty/field of science, supervisor(s) and the following sections: (1) Motivation, research goal and research questions, (2) Research approach, process and methods, incl. planned studies, time schedule and hat has been done to date, (3) Work done so far, Initial results, and (4) any questions/issues you want to discuss in the DC. The Doctoral Colloquium papers are not published in the ACM Digital Library but you are welcome to submit a poster of your topic through the poster track. Submission by email: Please submit your Doctoral Colloquium submission via email with the subject: "AHs2021 DC" to <a href="mailto:kaisa.vaananen@tuni.fi,albrecht.schmidt@ifi.lmu.de?subject=AHs2021 DC">kaisa.vaananen@tuni.fi and albrecht.schmidt@ifi.lmu.de</a>
-
-# All page lengths are excluding references. Please use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/paper-poster-demo.zip">SIGCHI two-column format</a> for full papers, short papers, posters, and demos (SigConf template). Use the <a href="https://github.com/augmented-humans/augmented-humans.github.io/raw/master/paper-templates/design-exhibitions.zip">extended abstract</a> (<a href="https://www.overleaf.com/latex/templates/legacy-sigchi-extended-abstract-template/zzzfqvkmrfzn">Overleaf</a>) format for design exhibitions
-
-# Papers will be reviewed in a double blind process. Each paper will receive 3 reviews.
-
-# Submissions can be made via <a href="https://easychair.org/conferences/?conf=ahs2021">EasyChair</a>.
-
-
-# deadlines-title: Submission Deadlines
-# deadlines: |
-#   <strong>Full/Short Papers</strong>: <strike>January 7th</strike> <strong>January 14th</strong>, 2022, Anywhere on Earth
-#   Decisions sent to Author: <strike>February 7th</strike> <strong>February 14th</strong>, 2022, Anywhere on Earth
-#   Camera-Ready: <strong>March 7th</strong>, 2022, Anywhere on Earth
-#   --
-#   <strong>Posters/Demos/Exhibition</strong>: <strike>February 11th</strike> <strong>February 18th</strong>, 2022, Anywhere on Earth
-#   Decisions sent to Author: <strike>February 25th</strike> <strong>February 28th</strong>, 2022, Anywhere on Earth
-#   Camera-Ready: <strong>March 7th</strong>, 2022, Anywhere on Earth
-
 deadlines-title: Submission Deadlines and Notifications
 deadlines: |
   <table id="deadlines">
@@ -111,7 +87,7 @@ deadlines: |
 
     <tr>
       <td><strong>Full/Short Paper</strong> Submission Deadline</td>
-      <td>November 12th, 2026 (AoE)</td>
+      <td><s>November 12th, 2026</s> <strong><u>November 19th, 2026</u></strong> (AoE)</td>
     </tr>
     <tr>
       <td><strong>Full/Short Paper</strong> Decisions sent to Author</td>
@@ -120,6 +96,10 @@ deadlines: |
     <tr>
       <td><strong>Full/Short Paper</strong> Camera-Ready</td>
       <td>February 5th, 2027 (AoE)</td> 
+    </tr>
+    <tr>
+      <td><strong>Full/Short Paper</strong> Final notification after Camera-Ready</td>
+      <td>February 10th, 2027 (AoE)</td>
     </tr>
 
         <tr class="tr-break">
@@ -165,20 +145,3 @@ add-title: Additional Information
 add: |
   At least one author of each accepted paper must register for the conference and present the paper in Colombo. Exceptions of in-person presentations can be granted in emergency situations (e.g., visa issues) upon request from the general chairs. If you are in such a situation please contact the general chairs via e-mail.
 
-
-# <tr>
-  #   <td><strong>Special Fast track</strong> Submission Deadline</td>
-  #   <td>COMING SOON...</td> 
-  # </tr>
-  # <tr>
-  #   <td><strong>Special Fast track</strong> Decisions sent to Author</td>
-  #   <td>COMING SOON...</td> 
-  # </tr>
-  # <tr>
-  #   <td><strong>Special Fast track</strong> Camera-Ready</td>
-  #   <td>COMING SOON...</td> 
-  # </tr>
-
-  # <tr class="tr-break">
-  #   <td colspan="100%" style="background-color: #0077be;"></td>
-  # </tr>
