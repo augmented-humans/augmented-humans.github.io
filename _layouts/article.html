@@ -1,63 +1,43 @@
 ---
 layout: default
 ---
-<!-- <div class="kw-section-title kw-huge"><span>Geist News</span></div> -->
-
-<header class="masthead text-center text-white normal">
-  <div class="overlay"></div>
+<header class="masthead text-center text-white normal" style="background-color: #a9c4e5;">
   <div id="particles-js" class="masthead-content">
     <div class="container">
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-          <h1 class="masthead-heading mb-0"><< {{ site.data.menu.item-4-title }} >></h1>
+          <h1 class="masthead-heading mb-0">{{ page.title }}</h1>
         </div>
         <div class="col-lg-1"></div>
       </div>
     </div>
   </div>
-</header> 
-<br><br>
-<article class="kw-blog-post">
-  <div id="post" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-title">{{ page.title }}</div>
-		    <div class="post-content">
-          {{ content }}
-          <div class="post-date">
-            Published on {{ page.date | date: "%B %-d, %Y" }}<br>by {{ page.author }}
-          </div>
-        </div>
-        <div class="post-links">
-          {% if page.previous.url %}
-          
-            {% assign new_prev_page = page %}
-            {% for count in (0..100) %}
-              {% assign new_prev_page = new_prev_page.previous %}
-              {% if new_prev_page.layout != 'redirected' %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
-          <!-- <li class="previous"> -->
-            <a class="previous btn" style="float: left" href="{{ new_prev_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_prev_page.title}}">&larr;</a>
-          <!-- </li> -->
-          {% endif %}
-          {% if page.next.url %}
+</header>
 
-          {% assign new_next_page = page %}
-          {% for count in (0..100) %}
-            {% assign new_next_page = new_next_page.next %}
-            {% if new_next_page.layout != 'redirected' %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-          <!-- <li> -->
-            <a class="next btn" style="float: right" href="{{ new_next_page.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{new_next_page.title}}">&rarr;</a>
-          <!-- </li> -->
-          {% endif %}
+<article class="kw-blog-post">
+{%- assign post_parts = content | split: '<h2' -%}
+{%- assign post_sections = 0 -%}
+{%- for part in post_parts -%}
+  {%- assign part_text = part | strip -%}
+  {%- if part_text == "" -%}{%- continue -%}{%- endif -%}
+  {%- assign post_sections = post_sections | plus: 1 %}
+  <section id="ah-categories" class="flip{% if post_sections > 1 %} top-bar{% endif %}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <div class="post-content">
+            {% unless forloop.first %}<h2{% endunless %}{{ part }}
+          </div>
+          {%- if forloop.last %}
+          <div class="post-date">Published {{ page.date | date: "%B %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}</div>
+          <div class="post-back"><a href="{{ '/blog/' | relative_url }}">&larr; All blog posts</a></div>
+          {%- endif %}
         </div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
-  </div>
+  </section>
+{%- endfor %}
 </article>

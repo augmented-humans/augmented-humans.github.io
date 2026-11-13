@@ -7,6 +7,8 @@ show_notice: false
 
 news-title: News
 news:
+  - date: "2026-11-13"
+    content: "Desk Rejection Policy published for Full/Short Papers. Desk-reject notifications will be sent on December 5th, 2026 (AoE). Read the policy: <a href='/blog/desk-rejection-policy'>Desk Rejection Policy</a>"
   - date: "2026-11-12"
     content: "Call for Proposals to Host Augmented Humans 2028 & 2029 is open: <a href='/call-for-proposal'>/call-for-proposal</a>"
   - date: "2026-11-10"

@@ -64,7 +64,7 @@ The root directory holds the `.html` pages and further data such as the main `co
 The `_data` subdirectory holds well-formatted site data (e.g., the actual text) that is used to populate the aforementioned `.html` pages.
 The `_includes` and `_layouts` directories are similar in the way that they contain partials and predefined layouts which can be referenced to in the `.html` files as well.
 The subdirectories `css`, `js`, and `img` should be self explanatory and `_site` holds the compiled webpage. As this is done on either the local device or by Github pages, this folder should not be committed to the repo.
-Much of the rest mostly is old content from earlier years (e.g., the blog).
+Much of the rest mostly is old content from earlier years.
 
 ## Regarding the design of the website
 The two most important files are `_sass/base.scss` (containing additional, custom CSS next to the base bootstrap theme) and `css/main.scss` (containing the definitions of the color palette).
