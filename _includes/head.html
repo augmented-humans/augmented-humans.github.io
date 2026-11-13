@@ -1,4 +1,5 @@
 <head>
+    {%- if page.collection == "posts" -%}{%- assign page_title = "Augmented Humans 2027 | " | append: page.title -%}{%- elsif page.title -%}{%- assign page_title = page.title -%}{%- else -%}{%- assign page_title = site.title -%}{%- endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,17 +7,17 @@
     <meta name="keywords" content="{% if site.keywords %}{{ site.keywords }}{% endif %}">
     <meta name="author" content="{% if site.meta_author %}{{ site.meta_author }}{% endif %}">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{ page_title }}</title>
 
     <!-- Open Graph / Facebook / Discord / Slack -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}{{ page.url | relative_url }}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:title" content="{{ page_title }}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
     <meta property="og:image:width" content="2560">
     <meta property="og:image:height" content="1440">
-    <meta property="og:image:alt" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:image:alt" content="{{ page_title }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="en_US">
 
@@ -25,10 +26,10 @@
     <meta name="twitter:site" content="@{{ site.twitter.username }}">
     <meta name="twitter:creator" content="@{{ site.twitter.username }}">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url | relative_url }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:title" content="{{ page_title }}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
-    <meta name="twitter:image:alt" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:image:alt" content="{{ page_title }}">
 
     <!-- Discord / Slack の埋め込み用 -->
     <meta name="theme-color" content="#118e78">

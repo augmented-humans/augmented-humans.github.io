@@ -142,7 +142,7 @@ committee:
         link: https://profiles.sydney.edu.au/anusha.withana
         img: /img/committee/2027/anusha_withana.jpeg
 
-  - group: Publicity Chair
+  - group: Publicity Co-Chairs
     email: publicity-ahs27@acm.org
     people:
       - name: Pat Pataranutaporn
@@ -150,6 +150,12 @@ committee:
         affiliation: MIT Media Lab, USA
         link: https://www.media.mit.edu/people/patpat/overview/
         img: /img/committee/2027/pat_pataranutaporn.jpg
+
+      - name: Shakyani Jayasiriwardene
+        position: Ph.D. Candidate
+        affiliation: The University of Sydney, Australia
+        link: https://www.linkedin.com/in/shakyani-jayasiriwardene/
+        img: /img/committee/2027/shakyani_jayasiriwardene.jpg
 
   - group: Web Co-Chairs
     email: web-ahs27@acm.org

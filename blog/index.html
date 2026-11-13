@@ -1,11 +1,58 @@
 ---
 layout: default
 title: "Augmented Humans 2027 | Blog"
-description: "Blog"
-sitemap: false
-noindex: true
+description: "Policies and articles for Augmented Humans 2027 authors and attendees"
+sitemap: true
 ---
+<header class="masthead text-center text-white normal" style="background-color: #a9c4e5;">
+  <div id="particles-js" class="masthead-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h1 class="masthead-heading mb-0">Blog</h1>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+</header>
 
+<section id="ah-categories" class="flip kw-blog-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <p>Policies and articles for Augmented Humans 2027 authors and attendees.</p>
+
+        {%- for post in paginator.posts %}
+        {%- unless post.layout == "redirected" %}
+        <div class="kw-blog-entry">
+          <h2 class="kw-blog-entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <div class="kw-blog-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+          <p>{{ post.excerpt | strip_html | strip | truncatewords: 60 }}</p>
+          <a class="kw-blog-more" href="{{ post.url | relative_url }}">Continue Reading &rarr;</a>
+        </div>
+        {%- endunless %}
+        {%- endfor %}
+
+        {%- if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {%- if paginator.previous_page %}
+          <a class="previous btn" style="float: left" href="{{ paginator.previous_page_path | relative_url }}">&larr;</a>
+          {%- endif %}
+          {%- if paginator.next_page %}
+          <a class="next btn" style="float: right" href="{{ paginator.next_page_path | relative_url }}">&rarr;</a>
+          {%- endif %}
+        </div>
+        {%- endif %}
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </div>
+</section>
+
+{% comment %}
 <!-- Contact Section -->
 <header class="masthead text-center text-white normal">
   <div class="overlay"></div>
@@ -45,11 +92,9 @@ noindex: true
               {% continue %}
             {% endif %}
             <li class="kw-news-li">
-              {% comment %}
               <!-- <a href="{{ post.url | prepend: site.baseurl }}">
                 <img src="/{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}">
               </a> -->
-              {% endcomment %}
               <div class="kw-news-date">{{ post.date | date: "%B %-d, %Y" }}</div>
               <h3 class="kw-news-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
               <div class="kw-news-content">
@@ -94,3 +139,4 @@ noindex: true
     </div>
   </div>  
 </div>
+{% endcomment %}

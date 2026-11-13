@@ -62,15 +62,6 @@ shortlinks:
   #       #   shortcut: /guidelines
   #     - title: Hotels & Transportation
   #       shortcut: /hotels
-  # - title: Attending
-  #   shortcut: /attending
-  #   sublinks:
-  #     - title: Registration
-  #       shortcult:/registration
-  #     - title: 
-
-      
-      #  shortcut: https://www.eventbrite.co.uk/e/augmented-humans-2023-registration-tickets-490538553017
   # - title: Program
   #   shortcut: /program
   #   sublinks:
@@ -84,18 +75,11 @@ shortlinks:
   # #       shortcut: /mentoring
   # - title: SPONSORSHIP
   #   shortcut: /sponsors
+  - title: Blog
+    shortcut: /blog
   - title: Committee
     shortcut: /committee
   # - title: Access
   #   shortcut: /access
   - title: Past conferences
     shortcut: /previous-conferences
-
-# item-7-title: Blog
-# item-7-shortcut: /blog
-
-# item-8-title: Awards
-# item-8-shortcut: /awards
-
-# item-9-title: Location
-# item-9-shortcut: /location
