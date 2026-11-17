@@ -6,10 +6,10 @@ overview: |
   <strong>Papers that do not follow these guidelines will be considered for desk rejection. Please read the <a href="/blog/desk-rejection-policy">Desk Rejection Policy</a> before submitting.</strong>
 categories-title: Tracks and Length
 categories: |
-  <b>Full papers</b> — up to 16 pages (single column), excluding references; anonymized for review.<br>
-  <b>Short papers</b> — up to 8 pages (single column), excluding references; anonymized for review.<br>
+  <b>Full papers</b> — up to 16 pages (single column), excluding references and appendices; anonymized for review.<br>
+  <b>Short papers</b> — up to 8 pages (single column), excluding references and appendices; anonymized for review.<br>
   <br>
-  All page limits exclude references. Reviews are double-blind: please remove author names, affiliations, and identifying information from the PDF and any supplementary files.
+  All page limits exclude references and appendices. The papers need to be standalone and reviewable without reviewers having to look at the appendix. Reviews are double-blind: please remove author names, affiliations, and identifying information from the PDF and any supplementary files.
 
 deadlines-title: Deadlines
 deadlines: |
