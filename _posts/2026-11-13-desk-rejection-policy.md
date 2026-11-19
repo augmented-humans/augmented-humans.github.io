@@ -18,8 +18,9 @@ To make the best use of reviewer time, submissions that clearly fall under any o
 ## Anonymization
 
 - Your submission must be anonymized. Papers that violate the anonymization policy, including within IRB declarations, video figures, supplementary materials, or external links to datasets, code repositories, project pages, etc., will be desk-rejected.
-- Videos must not reveal the author identities (e.g., faces, voices, institutional logos). Where an author must appear as the wearer or operator of a device, their face should be blurred. When in doubt, contact the Program Chairs at <a href="mailto:programchairs-ahs27@acm.org">programchairs-ahs27@acm.org</a> before the deadline.
+- Videos must not reveal the author identities (e.g., faces, voices, institutional logos). Where an author must appear as the wearer or operator of a device, their face should be blurred. When in doubt, please contact the Program Chairs at <a href="mailto:programchairs-ahs27@acm.org">programchairs-ahs27@acm.org</a> before the deadline.
 - Authors' own prior work must be cited in the third person.
+
 
 ## Originality and Concurrent Submissions
 
@@ -44,3 +45,4 @@ To make the best use of reviewer time, submissions that clearly fall under any o
 
 - All authors must be listed by the submission deadline; there are no exceptions. Submissions with incomplete required form data will be desk-rejected.
 - Submissions must be written in English.
+
