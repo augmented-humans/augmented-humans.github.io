@@ -33,21 +33,18 @@ topics: |
 categories-title: Submission categories
 categories: |
   
-  <b>Full papers</b> - up to 16 pages single column (excluding references), anonymized
-  <b>Special Fast Track for revised CHI papers</b> - <a href="#footnote4"><sup>(see footnote 1)</sup></a>
-  <b>Short papers</b> - up to 8 pages single column (excluding references), anonymized
-  <b>Demonstration papers</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized, demonstration at the conference <a href="#footnote1"><sup>(see footnote 2)</sup></a>
-  <b>Poster papers</b> - up to 4 pages single column (excluding references), anonymized, presented at the conference
-  <b>Workshop proposals</b> - up to 4 pages single column (excluding references and author bios), <b>not</b> anonymized <a href="#footnote3"><sup>(see footnote 3)</sup></a>
+  <b>Full papers</b> - up to 16 pages single column (excluding references and appendices), anonymized
+  <b>Short papers</b> - up to 8 pages single column (excluding references and appendices), anonymized
+  <b>Posters &amp; Demos</b> - up to 4 pages single column (excluding references), <b>not</b> anonymized, presented as a poster or a poster + demo booth at the conference <a href="#footnote1"><sup>(see footnote 1)</sup></a>
+  <b>Workshop proposals</b> - up to 4 pages single column (excluding references and author bios), <b>not</b> anonymized <a href="#footnote2"><sup>(see footnote 2)</sup></a>
  
-  All page lengths are excluding references. Papers will be reviewed in a double-blind process. Each paper will receive 3 reviews.
+  All page lengths are excluding references. Full and short papers will be reviewed in a double-blind process, and each will receive 3 reviews.
   
   All accepted submissions will be published in the <a href="https://dl.acm.org/">ACM Digital Library</a>. 
   
   <br>
-  <p style="font-size: 90%;"><text id="footnote4">¹</text> More information can be found on the dedicated <a href="/call-for-fasttrack"> Special Fast Track CfP</a> site.</p> 
-  <p style="font-size: 90%;"><text id="footnote1">²</text> Authors of demonstration papers are also required to submit a floor plan of their demo setup and a list of requirements (e.g., tables, chairs, power outlets, etc.) as appendix of their submission PDF (this information is not included in the page limit). They can optionally also upload a brief teaser video, showing their demo (approx. 1 minute). More information can be found on the dedicated <a href="/call-for-poster-demo"> Posters &amp; Demos</a> site.</p>
-  <p style="font-size: 90%;"><text id="footnote3">³</text> More information can be found on the dedicated <a href="/call-for-workshop"> Call for Workshops</a> site.</p>
+  <p style="font-size: 90%;"><text id="footnote1">¹</text> Posters and demos are combined into one track, and authors select a presentation style in the submission form: poster-only, or poster + demo booth. Poster + demo booth authors submit a floor plan and a list of requirements (e.g., power outlets, furniture, network) as supplementary material; a setup figure and a video are highly encouraged. Posters &amp; Demos follow a single-blind review process and are lightly reviewed by the poster and demo chairs. More information can be found on the dedicated <a href="/call-for-poster-demo"> Posters &amp; Demos</a> site.</p>
+  <p style="font-size: 90%;"><text id="footnote2">²</text> More information can be found on the dedicated <a href="/call-for-workshop"> Call for Workshops</a> site.</p>
   
   <p style="font-size: 100%; margin-top: 15px;"><strong>Note:</strong> If you want to organize a workshop, please see the <a href="/call-for-workshop">Call for Workshops</a> or email the Workshop Co-Chairs at <a href="mailto:workshops-ahs27@acm.org">workshops-ahs27@acm.org</a>.</p>
  
