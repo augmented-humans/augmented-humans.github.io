@@ -7,6 +7,8 @@ show_notice: false
 
 news-title: News
 news:
+  - date: "2026-11-24"
+    content: "Call for Posters & Demos is now available. Submissions are due January 15th, 2027 (AoE). See details: <a href='/call-for-poster-demo'>Posters & Demos</a>"
   - date: "2026-11-13"
     content: "Desk Rejection Policy published for Full/Short Papers. Desk-reject notifications will be sent on December 5th, 2026 (AoE). Read the policy: <a href='/blog/desk-rejection-policy'>Desk Rejection Policy</a>"
   - date: "2026-11-12"

@@ -2,7 +2,7 @@ page-title: <strong>G</strong>uidelines <strong>F</strong>or <strong>P</strong>o
 
 overview-title: Overview
 overview: |
-  This page outlines the submission requirements for the Posters &amp; Demos track at Augmented Humans. Posters and demos are combined into one track to streamline submissions and on-site experiences. All submissions are up to 4 pages in single-column format, excluding references, and authors select a preferred presentation style in the submission form (see Presentation Styles below). Upon acceptance, works will appear in the ACM Digital Library and follow the ACM TAPS production workflow.
+  For 2027, we combine posters and demos to streamline submissions and on-site experiences. All submissions must be up to 4 pages in single-column format, excluding references. Authors are required to select a preferred presentation style in the submission form (see Presentation Styles below). Accepted works will appear in the ACM Digital Library and follow the ACM TAPS workflow after conditional acceptance.
   For inquiries about Posters &amp; Demos, please email the Poster &amp; Demo Co-Chairs at <a href="mailto:poster-demo-ahs27@acm.org">poster-demo-ahs27@acm.org</a>.
 
 aims-title: Aims & Scope
@@ -11,30 +11,26 @@ aims: |
 
 dates-title: Important Dates
 dates: |
-  <strong>Posters &amp; Demos — Submission Deadline (all styles):</strong> January 15th, 2027 (AoE)<br>
-  <strong>Posters &amp; Demos — Decision Sent to Authors:</strong> January 22nd, 2027 (AoE)<br>
-  <strong>Posters &amp; Demos — Camera-Ready/TAPS:</strong> February 5th, 2027 (AoE)
+  <strong>Submission (Posters &amp; Demos, all styles):</strong> January 15th, 2027 (AoE)<br>
+  <strong>Notification:</strong> January 22nd, 2027 (AoE)<br>
+  <strong>Camera-ready/TAPS:</strong> February 5th, 2027 (AoE)
 
 presentation-styles-title: Presentation Styles (select one at submission)
 presentation-styles: |
-  All styles share the same format: up to 4 pages excluding references and supplementary material, single-column.
-  • Poster-only presentation — Allocation: one poster panel (A0 portrait recommended; panels are typically around 1.2 m W × 1.8 m H; poster must fit the board). Format: in-person discussion at the poster.
-  • Poster + demo booth — Allocation: one poster panel + a booth area of about 1.8 m × 1.8 m (exact size to be confirmed). Supplementary material: floor plan + requirements list; a setup figure and a short video are highly encouraged. Authors should list requirements such as power outlets, furniture, network, lighting/space constraints, safety considerations. Authors should bring required equipment and adapters. 
+  All styles share the same format: up to 4 pages excluding references, single-column.
+  • Poster-only presentation — Allocation: one poster panel (A0 portrait recommended; panels are typically around 1.2 m W × 1.8 m H (exact measurements will be confirmed later); poster must fit the board). Format: in-person discussion at the poster.
+  • Poster + demo booth — Allocation: one poster panel + a 1.8 m × 1.8 m (exact measurements will be confirmed later) booth area. Supplementary material: floor plan + requirements list; setup figure, and video is highly encouraged. Authors should list requirements such as power outlets, furniture, network, lighting/space constraints, safety considerations. These requirements should be arranged by the authors.
 
 submission-format-title: Submission Format (common to all styles)
 submission-format: |
   • Length: Up to 4 pages, single-column (references excluded).
   • Template: ACM Primary Article Template (Word or LaTeX, single-column for review).
-  • Submission site: <a href="https://new.precisionconference.com/sigchi">PCS</a>.
+  • Submission site: <a href="https://new.precisionconference.com/sigchi">PCS</a>
   • Production: Upon (conditional) acceptance, authors follow ACM TAPS.
-
-open-access-title: Open Access Publishing
-open-access: |
-  Augmented Humans 2027 is sponsored by ACM SIGCHI, and all accepted papers will be published Open Access in the ACM Digital Library under ACM Open. Since January 1, 2026, ACM has fully transitioned to Open Access, so all ACM publications, including conference proceedings, are free to read.
 
 anonymity-review-title: Anonymity & Review
 anonymity-review: |
-  Posters & Demos will go through a single-blind review process, with manuscripts submitted including author identities. The submitted materials will not go through the full review process used for full papers, but it will be lightly reviewed by poster and demo chairs. 
+  AHs 2027 Posters &amp; Demos will follow a single-blind review process, with manuscripts submitted including author identities. The submitted materials will not go through the full review process as for full papers, but they will be lightly reviewed by the poster and demo chairs.
 
 evaluation-title: Evaluation Criteria
 evaluation: |
@@ -46,7 +42,7 @@ evaluation: |
 
 presentation-registration-title: Presentation & Registration
 presentation-registration: |
-  At least one author must attend in person to present the accepted work. Each accepted submission requires a registered author (student rates typically available).
+  At least one author must attend in person to present the accepted work. Each accepted submission requires a registered author (student rates available).
 
 # prepare-title: What to Prepare (desk/booth styles)
 # prepare: |
